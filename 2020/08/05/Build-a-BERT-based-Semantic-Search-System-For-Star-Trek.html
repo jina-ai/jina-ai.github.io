@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+<head>
+        <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Build a BERT-based Semantic Search System…For Star Trek | Jina AI</title>
+<meta name="generator" content="Jekyll v4.0.1" />
+<meta property="og:title" content="Build a BERT-based Semantic Search System…For Star Trek" />
+<meta name="author" content="Alex C-G" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Use AI to boldly search like no one has searched before, all in under 30 minutes and in just a few lines of code" />
+<meta property="og:description" content="Use AI to boldly search like no one has searched before, all in under 30 minutes and in just a few lines of code" />
+<link rel="canonical" href="https://jina.ai/2020/08/05/Build-a-BERT-based-Semantic-Search-System-For-Star-Trek.html" />
+<meta property="og:url" content="https://jina.ai/2020/08/05/Build-a-BERT-based-Semantic-Search-System-For-Star-Trek.html" />
+<meta property="og:site_name" content="Jina AI" />
+<meta property="og:image" content="https://jina.ai/assets/images/blog/startrek.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-08-05T15:58:12+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://jina.ai/assets/images/blog/startrek.png" />
+<meta property="twitter:title" content="Build a BERT-based Semantic Search System…For Star Trek" />
+<meta name="twitter:site" content="@JinaAI_" />
+<meta name="twitter:creator" content="@Alex C-G" />
+<script type="application/ld+json">
+{"description":"Use AI to boldly search like no one has searched before, all in under 30 minutes and in just a few lines of code","@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://jina.ai/assets/images/jina_ico.png"},"name":"Alex C-G"},"image":"https://jina.ai/assets/images/blog/startrek.png","headline":"Build a BERT-based Semantic Search System…For Star Trek","url":"https://jina.ai/2020/08/05/Build-a-BERT-based-Semantic-Search-System-For-Star-Trek.html","dateModified":"2020-08-05T15:58:12+00:00","datePublished":"2020-08-05T15:58:12+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jina.ai/2020/08/05/Build-a-BERT-based-Semantic-Search-System-For-Star-Trek.html"},"author":{"@type":"Person","name":"Alex C-G"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+        <meta charset=utf-8>
+        <!-- Google Tag Manager -->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164627626-2"></script>
+        <script>
+                function readCookie(name) {
+                        var nameEQ = name + "=";
+                        var ca = document.cookie.split(';');
+                        for (var i = 0; i < ca.length; i++) {
+                                var c = ca[i];
+                                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+                        }
+                        return null;
+                }
+                if (readCookie('cookie-notice-dismissed') === 'true') {
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag() { dataLayer.push(arguments); }
+                        gtag('js', new Date());
+
+                        gtag('config', 'UA-164627626-2')
+                }
+        </script>
+
+        <!-- End Google Tag Manager -->
+        <meta name="X-UA-Compatible" content="IE=edge">
+        <meta property="og:image" content="/assets/images/jina_banner_new.png">
+        <meta name=viewport content="width=device-width,initial-scale=1">
+        <title>Jina AI</title>
+        <link rel="icon" href="/assets/images/favicon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&family=Montserrat:wght@400;600&display=swap"
+                rel="stylesheet">
+        <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+        <div id="gdpr" class="container">
+    <section class="container-fluid">
+        <div class="row d-flex justify-content-center py-3" style="color: #fff;">
+            <p class=" mb-0 text-muted mt-2 mb-2 text-left">
+                GDPR Compliance Message
+
+                The European General Data Protection Regulation (GDPR) is the EU regulation for data privacy and
+                security.
+
+                At Jina AI, we are fully committed to complying with the GDPR. Our policy towards privacy,
+                security,
+                and data protection aligns with the goals of GDPR. On our website, we only collect and store information
+                that is essential for offering our service and for improving user experience, and we do this with the
+                consent of our website visitors.
+
+                If you have any further questions, please do not hesitate to reach out to us at:<br /> <a
+                    class="text-center" href="mailto: legal@jina.ai">legal@jina.ai</a>.
+
+            </p>
+            <button id="cookie-notice" class="btn btn-primary btn-pill" style="border: 1px solid #009999;">
+                GOT IT
+            </button>
+        </div>
+    </section>
+    <hr />
+</div>
+<script>
+    function createCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+
+    function eraseCookie(name) {
+        createCookie(name, "", -1);
+    }
+
+    if (readCookie('cookie-notice-dismissed') == 'true') {
+        document.getElementById('gdpr').style.display = 'none';
+    } else {
+        document.getElementById('gdpr').style.display = 'block';
+    }
+    document.getElementById('cookie-notice').addEventListener("click", function () {
+        createCookie('cookie-notice-dismissed', 'true', 31);
+        document.getElementById('gdpr').style.display = 'none';
+        location.reload();
+    });
+
+</script>
+        <header>
+    <nav class="navbar navbar-light bg-white navbar-expand-lg">
+        <div class="container d-flex justify-content-between">
+            <a class="navbar-brand" href="/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="82.25" height="35" viewBox="0 0 235 100"
+                    fill-rule="evenodd" xmlns:v="https://vecta.io/nano">
+                    <circle cx="15.287" cy="84.528" r="15.287" fill="#f66" />
+                    <path
+                        d="M63.503 36.35a3.6 3.6 0 0 1 3.6 3.6v.02l-.16 29.292c0 16.717-13.416 30.3-30.068 30.57l-.506.004V69.26h.086l.084-29.32a3.6 3.6 0 0 1 3.6-3.59h23.364zm46.96 0a3.6 3.6 0 0 1 3.6 3.6v41a3.6 3.6 0 0 1-3.6 3.6H87.09a3.6 3.6 0 0 1-3.6-3.6v-41a3.6 3.6 0 0 1 3.6-3.6h23.374zm36.872-.18l.457.004c15.043.24 27.21 12.32 27.6 27.327l.01.01v17.257a3.6 3.6 0 0 1-3.6 3.6H134.03a3.6 3.6 0 0 1-3.6-3.6v-41a3.6 3.6 0 0 1 3.6-3.6h13.306zm61.867 47.84l-.001-.042c-12.64-.745-22.66-11.23-22.66-24.057 0-13.3 10.8-24.1 24.1-24.1 12.827 0 23.313 10.02 24.057 22.66h.042V80.41a3.6 3.6 0 0 1-3.6 3.6h-21.938z"
+                        fill="#099" />
+                    <circle cx="98.736" cy="15.287" r="15.287" fill="#fc6" />
+                </svg>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">PRODUCTS</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown07">
+                            <a class="dropdown-item" href="/products/search/">Search</a>
+                            <a class="dropdown-item" href="/products/hub/">Hub</a>
+                            <a class="dropdown-item" href="/products/dashboard/">Dashboard</a>
+                            <a class="dropdown-item" href="/products/box/">Box</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">COMPANY</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown07">
+                            <a class="dropdown-item" href="/about">About Jina AI</a>
+                            <a class="dropdown-item" href="https://jobs.jina.ai">Career</a>
+                            <a class="dropdown-item" href="/news">News</a>
+                            <a class="dropdown-item" href="mailto:hello@jina.ai">Contact</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/learn">LEARN</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">COMMUNITY</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown07">
+                            <a class="dropdown-item" href="/contribute">Contribute</a>
+                            <a class="dropdown-item" href="/blog">Blog</a>
+                            <a class="dropdown-item" href="/events">Events</a>
+                            <a class="dropdown-item" href="http://slack.jina.ai">Slack</a>
+                        </div>
+                    </li>
+                    <li class="nav-logo">
+                        <a href="https://github.com/jina-ai/jina/" target="_blank"><img
+                                src="/assets/images/github-black.svg" /></a>
+                    </li>
+                </ul>
+                <!-- <form class="form-inline my-2 my-md-0">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+              </form> -->
+            </div>
+        </div>
+    </nav>
+<nav class="navbar navbar-light navbar-expand-lg" style="background-color: #fff3cd">
+        <div class="container">
+            <p class="text-center" style="margin-left:auto; margin-right:auto; margin-bottom: 0">Jina 2.0 is out now! <strong><a href="https://github.com/jina-ai/jina">Check our GitHub repo to learn more!</a></strong></p>
+        </div>
+    </nav>
+</header>
+
+        <div class="container-fluid px-0">
+                <div class="container-fluid px-0">
+    <section class="blog-post">
+    <div class="title-bg-image mb-4" style="background-image: url(/assets/images/blog/startrek.png)">
+        <div class="title-overlay p-4 pt-md-5">
+            <div class="px-md-5 mx-md-5">
+                <h1>Build a BERT-based Semantic Search System…For Star Trek</h1>
+                <p>Published <time datetime="2020-08-05">2020-08-05</time></p>
+            </div>
+            
+        </div>
+    </div>
+    <div class="container">
+        <p><img src="https://cdn-images-1.medium.com/max/1200/1*RHWbExaw9Zz9h5-OOb_DnA.png" alt="Adapted from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:U.S.S._Enterprise_NCC_1701-D.jpg)" />
+Adapted from <a href="https://commons.wikimedia.org/wiki/File:U.S.S._Enterprise_NCC_1701-D.jpg">Wikimedia Commons</a></p>
+
+<p>If you read my <a href="https://towardsdatascience.com/gpt-3-is-the-future-but-what-can-nlp-do-in-the-present-7aae3f21e8ed">previous article on Towards Data Science</a> you’ll know I’m a bit of a Star Trek nerd. There’s only one thing I like more than Star Trek, and that’s building cool new stuff with AI. So I thought I’d combine the two yet again!</p>
+
+<p>In this tutorial we’re going to build our own search engine to search all the lines from <em>Star Trek: The Next Generation</em>. We’ll be using <a href="https://github.com/jina-ai/jina/">Jina</a>, a neural search framework which uses deep learning to power our NLP search, though we could easily use it for image, audio or video search if we wanted to.</p>
+
+<p>We’ll cover:</p>
+
+<ul>
+  <li>Basic setup</li>
+  <li>Running a demo of our app (yes, even before we code it)</li>
+  <li>Using cookiecutter to create project and boilerplate code</li>
+  <li>Downloading our Star Trek dataset</li>
+  <li>Loading, indexing, and searching our dataset</li>
+  <li>A deeper look behind the scenes</li>
+  <li>What to do if things go wrong</li>
+</ul>
+
+<p>If you’re new to AI or search, don’t worry. As long as you have some knowledge of Python and the command line you’ll be fine. If it helps, think of yourself as Lieutenant Commander Data Science.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*qfpyQ5XcGt82SjQD92t-LQ.gif" alt="Via [Giphy](https://giphy.com/gifs/reaction-229P3dnAW8RzceKbps)" />
+Via <a href="https://giphy.com/gifs/reaction-229P3dnAW8RzceKbps">Giphy</a></p>
+
+<h3 id="try-itout">Try It Out</h3>
+
+<p>Before going through the trouble of downloading, configuring and testing your search engine, let’s get an idea of the finished product. In this case, it’s exactly the same as what we’re building, but with lines from South Park instead of Star Trek:</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*9wUmi0q1HgU6yThH54V9Zg.gif" alt="Via [Jinabox](https://github.com/jina-ai/jinabox.js/)" />
+Via <a href="https://github.com/jina-ai/jinabox.js/">Jinabox</a></p>
+
+<p>Jina has a pre-built Docker image with indexed data from South Park. You can run it with:</p>
+
+<p>docker run -p 45678:45678 jinaai/hub.app.distilbert-southpark</p>
+
+<p>After getting Docker up and running, you can start searching for those South Park lines.</p>
+
+<h4 id="query-withjinabox">Query with Jinabox</h4>
+
+<p><a href="https://github.com/jina-ai/jinabox.js/">Jinabox</a> is a simple web-based front-end for neural search. You can see it in the graphic at the top of this tutorial.</p>
+
+<ol>
+  <li>Go to <a href="https://jina.ai/jinabox.js">jinabox</a> in your browser</li>
+  <li>Ensure you have the server endpoint set to <code class="highlighter-rouge">[http://localhost:45678/api/search](http://localhost:45678/api/search)</code></li>
+  <li>Type a phrase into the search bar and see which South Park lines come up</li>
+</ol>
+
+<p><strong>Note:</strong> If it times out the first time, that’s because the query system is still warming up. Try again in a few seconds!</p>
+
+<h4 id="query-withcurl">Query with <code class="highlighter-rouge">curl</code></h4>
+
+<p>Alternatively, you can open your shell and check the results via the RESTful API. The matched results are stored in <code class="highlighter-rouge">topkResults</code>.</p>
+
+<p>curl –request POST -d ‘{“top_k”: 10, “mode”: “search”, “data”: [“text:hey, dude”]}’ -H ‘Content-Type: application/json’ ‘http://0.0.0.0:45678/api/search’</p>
+
+<p>You’ll see the results output in JSON format. Each result looks like:</p>
+
+<p>Now go back to your terminal running Docker and hit <code class="highlighter-rouge">Ctrl-C</code> (or <code class="highlighter-rouge">Command-C</code> on Mac) a few times to ensure you’ve stopped everything.</p>
+
+<h3 id="engage">Engage!</h3>
+
+<p>Now that you know what we’re building, let’s get started!</p>
+
+<p>You will need:</p>
+
+<ul>
+  <li>A basic knowledge of Python</li>
+  <li>Python 3.7 or higher installed, and <code class="highlighter-rouge">pip</code></li>
+  <li>A Mac or Linux computer (Jina doesn’t currently support Windows)</li>
+  <li>8 gigabytes or more of RAM</li>
+</ul>
+
+<h4 id="clone-therepo">Clone the Repo</h4>
+
+<p>Let’s get the basic files we need to get moving:</p>
+
+<p>git clone git@github.com:alexcg1/my-first-jina-app.git <br />
+cd my-first-jina-app</p>
+
+<h4 id="run-cookiecutter">Run Cookiecutter</h4>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/0*80WNX16Ot0uoCXQy.gif" alt="Via [Giphy](https://giphy.com/gifs/sesame-street-cookies-cookie-monster-HGe4zsOVo7Jvy)" />
+Via <a href="https://giphy.com/gifs/sesame-street-cookies-cookie-monster-HGe4zsOVo7Jvy">Giphy</a></p>
+
+<p>pip install -U cookiecutter<br />
+cookiecutter gh:jina-ai/cookiecutter-jina</p>
+
+<p>We use <a href="https://github.com/cookiecutter/cookiecutter">cookiecutter</a> to spin up a basic Jina app and save you having to do a lot of typing and setup.</p>
+
+<p>For our Star Trek example, use the following settings:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">project_name</code>: <code class="highlighter-rouge">Star Trek</code></li>
+  <li><code class="highlighter-rouge">project_slug</code>: <code class="highlighter-rouge">star_trek</code> (default value)</li>
+  <li><code class="highlighter-rouge">task_type</code>: <code class="highlighter-rouge">nlp</code></li>
+  <li><code class="highlighter-rouge">index_type</code>: <code class="highlighter-rouge">strings</code></li>
+  <li><code class="highlighter-rouge">public_port</code>: <code class="highlighter-rouge">65481</code> (default value)</li>
+</ul>
+
+<p>Just use the defaults for all other fields. After cookiecutter has finished, let’s have a look at the files it created:</p>
+
+<p>cd star_trek<br />
+ls</p>
+
+<p>You should see a bunch of files:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">app.py</code> - The main Python script where you initialize and pass data into your Flow</li>
+  <li><code class="highlighter-rouge">Dockerfile</code> - Lets you spin up a Docker instance running your app</li>
+  <li><code class="highlighter-rouge">flows/</code> - Folder to hold your Flows</li>
+  <li><code class="highlighter-rouge">pods/</code> - Folder to hold your Pods</li>
+  <li><code class="highlighter-rouge">README.md</code> - An auto-generated README file</li>
+  <li><code class="highlighter-rouge">requirements.txt</code> - A list of required Python packages</li>
+</ul>
+
+<p>In the <code class="highlighter-rouge">flows/</code> folder we can see <code class="highlighter-rouge">index.yml</code> and <code class="highlighter-rouge">query.yml</code> - these define the indexing and querying Flows for your app.</p>
+
+<p>In <code class="highlighter-rouge">pods/</code> we see <code class="highlighter-rouge">chunk.yml</code>, <code class="highlighter-rouge">craft.yml</code>, <code class="highlighter-rouge">doc.yml</code>, and <code class="highlighter-rouge">encode.yml</code> - these Pods are called from the Flows to process data for indexing or querying.</p>
+
+<p>More on Flows and Pods later!</p>
+
+<h4 id="install-requirements">Install Requirements</h4>
+
+<p>In your terminal run this command to download and install all the required Python packages:</p>
+
+<p>pip install -r requirements.txt</p>
+
+<h4 id="download-dataset">Download Dataset</h4>
+
+<p>Our goal is to find out who said what in Star Trek episodes when a user queries a phrase. The <a href="https://www.kaggle.com/gjbroughton/start-trek-scripts">Star Trek dataset</a> from Kaggle contains all the scripts and individual character lines from <em>Star Trek: The Original Series</em> all the way through <em>Star Trek: Enterprise</em>.</p>
+
+<p>We’re just using a subset in this example, containing the characters and lines from <em>Star Trek: The Next Generation</em>. This has also been converted from JSON to CSV format, which is more suitable for Jina to process.</p>
+
+<p>Now let’s ensure we’re back in our base folder and download the dataset by running:</p>
+
+<p>Once that’s finished downloading, let’s get back into the <code class="highlighter-rouge">star_trek</code> directory and make sure our dataset has everything we want:</p>
+
+<p>cd star_trek<br />
+head data/startrek_tng.csv</p>
+
+<p>You should see output consisting of characters (like <code class="highlighter-rouge">MCCOY</code>), a separator, (<code class="highlighter-rouge">!</code>), and the lines spoken by the character ( <code class="highlighter-rouge">What about my age?</code>):</p>
+
+<pre><code class="language-csv">BAILIFF!The prisoners will all stand.BAILIFF!All present, stand and make respectful attention to honouredJudge.BAILIFF!Before this gracious court now appear these prisoners to answer for the multiple and grievous savageries of their species. How plead you, criminal? BAILIFF!Criminals keep silence!BAILIFF!You will answer the charges, criminals. BAILIFF!Criminal, you will read the charges to the court.BAILIFF!All present, respectfully stand. QBAILIFF!This honourable court is adjourned. Stand respectfully. Q MCCOY!Hold it right there, boy.MCCOY!What about my age?
+</code></pre>
+
+<p>Note: Your character lines may be a little different. That’s okay!</p>
+
+<h4 id="load-data">Load Data</h4>
+
+<p>Now we we need to pass <code class="highlighter-rouge">startrek_tng.csv</code> into <code class="highlighter-rouge">app.py</code> so we can index it. <code class="highlighter-rouge">app.py</code> is a little too simple out of the box, so let’s make some changes:</p>
+
+<p>Open <code class="highlighter-rouge">app.py</code> in your editor and check the <code class="highlighter-rouge">index</code> function, we currently have:</p>
+
+<p>As you can see, this indexes just 3 strings. Let’s load up our Star Trek file instead with the <code class="highlighter-rouge">filepath</code> parameter. Just replace the last line of the function:</p>
+
+<h4 id="index-fewer-documents">Index Fewer Documents</h4>
+
+<p>While we’re here, let’s reduce the number of documents we’re indexing, just to speed things up while we’re testing. We don’t want to spend ages indexing only to have issues later on!</p>
+
+<p>In the section above the <code class="highlighter-rouge">config</code> function, let’s change:</p>
+
+<p>to:</p>
+
+<p>That should speed up our testing by a factor of 100! Once we’ve verified everything works we can set it back to <code class="highlighter-rouge">50000</code> to index more of our dataset.</p>
+
+<p>Now that we’ve got the code to load our data, we’re going to dive into writing our app and running our Flows! Flows are the different tasks our app performs, like indexing or searching the data.</p>
+
+<h3 id="indexing">Indexing</h3>
+
+<p>First up we need to build up an index of our file. We’ll search through this index when we use the query Flow later.</p>
+
+<p>python app.py index</p>
+
+<p>Your app will show a lot of output in the terminal, but you’ll know it’s finished when you see the line:</p>
+
+<p>Flow@133216[S]:flow is closed and all resources should be released already, current build level is 0</p>
+
+<p>This may take a little while the first time, since Jina needs to download the language model and tokenizer to process the data. You can think of these as the brains behind the neural network that powers the search.</p>
+
+<h3 id="searching">Searching</h3>
+
+<p>To start search mode run:</p>
+
+<p>python app.py search</p>
+
+<p>After a while you should see the terminal stop scrolling and display output like:</p>
+
+<p>Flow@85144[S]:flow is started at 0.0.0.0:65481, you can now use client to send request!</p>
+
+<p>⚠️ Be sure to note down the port number. We’ll need it for <code class="highlighter-rouge">curl</code> and jinabox! In our case we’ll assume it’s <code class="highlighter-rouge">65481</code>, and we use that in the below examples. If your port number is different, be sure to use that instead.</p>
+
+<p>ℹ️ <code class="highlighter-rouge">python app.py search</code> doesn’t pop up a search interface - for that you’ll need to connect via <code class="highlighter-rouge">curl</code>, Jinabox, or another client.</p>
+
+<h4 id="search-withjinabox">Search with Jinabox</h4>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/0*uSuMyVICX45stZGX.gif" alt="Via [Jinabox](https://github.com/jina-ai/jinabox.js/)" />
+Via <a href="https://github.com/jina-ai/jinabox.js/">Jinabox</a></p>
+
+<ol>
+  <li>Go to <a href="https://jina.ai/jinabox.js">jinabox</a> in your browser</li>
+  <li>Ensure you have the server endpoint set to <code class="highlighter-rouge">[http://localhost:65481/api/search](http://localhost:65481/api/search)</code></li>
+  <li>Type a phrase into the search bar and see which Star Trek lines come up</li>
+</ol>
+
+<h4 id="search-withcurl">Search with curl</h4>
+
+<p>curl –request POST -d ‘{“top_k”: 10, “mode”: “search”, “data”: [“text:picard to riker”]}’ -H ‘Content-Type: application/json’ ‘http://0.0.0.0:65481/api/search’</p>
+
+<p><code class="highlighter-rouge">curl</code> will spit out a <em>lot</em> of information in JSON format - not just the lines you’re searching for, but all sorts of metadata about the search and the lines it returns. Look for the lines starting with <code class="highlighter-rouge">"matchDoc"</code> to find the matches, like:</p>
+
+<p>Congratulations! You’ve just built your very own search engine!</p>
+
+<h3 id="how-does-it-actuallywork">How Does it Actually Work?</h3>
+
+<p>For a more general overview of what neural search is and how it works, check one of <a href="https://towardsdatascience.com/what-is-neural-search-and-why-should-i-care-4a6cee6b2249">my other previous articles</a>. Jina itself is just one way to build a neural search engine, and it has a couple of important concepts: <strong>Flows</strong> and <strong>Pods</strong>:</p>
+
+<ul>
+  <li>The Flow tells Jina <em>what</em> tasks to perform on the dataset, like indexing or searching. Each Flow is built from individual Pods.</li>
+  <li>The Pods comprise the Flow and tell Jina <em>how</em> to perform each task step by step, like breaking text into chunks, indexing it, and so on. They define the actual neural networks we use in neural search, namely the language models like <code class="highlighter-rouge">distilbert-base-cased</code>. (Which we can see in <code class="highlighter-rouge">pods/encode.yml</code>)</li>
+</ul>
+
+<h4 id="flows">Flows</h4>
+
+<p><img src="https://cdn-images-1.medium.com/max/600/0*4T73vRJqbP5MzAPw.png" alt="Via [Jina 101](https://github.com/jina-ai/jina/tree/master/docs/chapters/101)" />
+Via <a href="https://github.com/jina-ai/jina/tree/master/docs/chapters/101">Jina 101</a></p>
+
+<p>Just as a plant manages nutrient flow and growth rate for its branches, a Flow manages the states and context of a group of Pods, orchestrating them to accomplish one task. Whether a Pod is remote or running in Docker, one Flow rules them all!</p>
+
+<p>We define Flows in <code class="highlighter-rouge">app.py</code> to index and query the content in our Star Trek dataset.</p>
+
+<p>In this case our Flows are written in YAML format and loaded into <code class="highlighter-rouge">app.py</code> with:</p>
+
+<p>It really is that simple! Alternatively you can build Flows in <code class="highlighter-rouge">app.py</code> itself <a href="https://docs.jina.ai/chapters/flow/index.html">without specifying them in YAML</a>.</p>
+
+<p>No matter whether you’re dealing with text, graphics, sound, or video, all datasets need to be indexed and queried, and the steps for doing each (chunking, vector encoding) are more or less the same (even if <em>how</em> you perform each step is different — that’s where Pods come in!)</p>
+
+<h4 id="indexing-1">Indexing</h4>
+
+<p>Every Flow has well, a flow to it. Different Pods pass data along the Flow, with one Pod’s output becoming another Pod’s input. Look at our indexing Flow as an example:</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*CuwRBdSoJfSgXnJ8BBUOeA.png" alt="Via [Jina Dashboard](https://github.com/jina-ai/dashboard)" />
+Via <a href="https://github.com/jina-ai/dashboard">Jina Dashboard</a></p>
+
+<p>If you look at <code class="highlighter-rouge">startrek_tng.csv</code> you’ll see it’s just one big text file. Our Flow processes it into something more suitable for Jina, which is handled by the Pods in the Flow. Each Pod performs a different task.</p>
+
+<p>You can see the following Pods in <code class="highlighter-rouge">flows/index.yml</code>:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">crafter</code> - Split the Document into Chunks</li>
+  <li><code class="highlighter-rouge">encoder</code> - Encode each Chunk into a vector</li>
+  <li><code class="highlighter-rouge">chunk_idx</code> - Build an index of Chunks</li>
+  <li><code class="highlighter-rouge">doc_idx</code> - Store the Document content</li>
+  <li><code class="highlighter-rouge">join_all</code> - Join the <code class="highlighter-rouge">chunk_idx</code> and <code class="highlighter-rouge">doc_idx</code> pathways</li>
+</ul>
+
+<p>The full file is essentially just a list of Pods with parameters and some setup at the top of the file:</p>
+
+<p>Luckily, YAML is pretty human-readable. I regularly thank the <a href="https://memory-alpha.fandom.com/wiki/Great_bird_of_the_galaxy">Great Bird of the Galaxy</a> it’s not in Klingon, or even worse, XML!</p>
+
+<ul>
+  <li>The first couple of lines initialize the Flow and enable the logserver (which we’re not using in this tutorial).</li>
+  <li>After that we can see the list of Pods, with their own YAML path and extra parameters being passed to each one.</li>
+</ul>
+
+<p>So, is that all of the Pods? Not quite! We always have another Pod working in silence — the <code class="highlighter-rouge">gateway</code> pod. Most of the time we can safely ignore it because it basically does all the dirty orchestration work for the Flow.</p>
+
+<h4 id="searching-1">Searching</h4>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/0*cvwy8oYjPaQECsge.png" alt="Via [Jina Dashboard](https://github.com/jina-ai/dashboard)" />
+Via <a href="https://github.com/jina-ai/dashboard">Jina Dashboard</a></p>
+
+<p>In the query Flow we’ve got the following Pods:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">chunk_seg</code> - Segments the user query into meaningful Chunks</li>
+  <li><code class="highlighter-rouge">tf_encode</code> - Encode each word of the query into a vector</li>
+  <li><code class="highlighter-rouge">chunk_idx</code> - Build an index for the Chunks for fast lookup</li>
+  <li><code class="highlighter-rouge">ranker</code> - Sort results list</li>
+  <li><code class="highlighter-rouge">doc_idx</code> - Store the Document content</li>
+</ul>
+
+<p>Again, <code class="highlighter-rouge">flows/query.yml</code> gives some setup options and lists the Pods in order of use:</p>
+
+<p>When we were indexing we broke the Document into Chunks to index it. For querying we do the same, but this time the Document is the query the user types in, not the Star Trek dataset. We’ll use many of the same Pods, but there are a few differences to bear in mind. In the big picture:</p>
+
+<ul>
+  <li>Index has a two-pathway design which deals with both Document and Chunk indexing in parallel, which speeds up message passing</li>
+  <li>Query has a single pipeline</li>
+</ul>
+
+<p>And digging into the <code class="highlighter-rouge">flows/query.yml</code>, we can see it has an extra Pod and some more parameters compared to <code class="highlighter-rouge">flows/index.yml</code>:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">rest_api:true</code> - Use Jina’s REST API, allowing clients like jinabox and <code class="highlighter-rouge">curl</code> to connect</li>
+  <li><code class="highlighter-rouge">port_expose: $JINA_PORT</code> - The port for connecting to Jina’s API</li>
+  <li><code class="highlighter-rouge">polling: all</code> - Setting <code class="highlighter-rouge">polling</code> to <code class="highlighter-rouge">all</code> ensures all workers poll the message</li>
+  <li><code class="highlighter-rouge">reducing_yaml_path: _merge_topk_chunks</code> - Use <code class="highlighter-rouge">_merge_topk_chunks</code> to reduce results from all replicas</li>
+  <li><code class="highlighter-rouge">ranker:</code> - Rank results by relevance</li>
+</ul>
+
+<p>How does Jina know whether it should be indexing or searching? In our RESTful API we set the <code class="highlighter-rouge">mode</code> field in the JSON body and send the request to the corresponding API:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">api/index</code> - <code class="highlighter-rouge">{"mode": "index"}</code></li>
+  <li><code class="highlighter-rouge">api/search</code> - <code class="highlighter-rouge">{"mode": "search"}</code></li>
+</ul>
+
+<h4 id="pods">Pods</h4>
+
+<p><img src="https://cdn-images-1.medium.com/max/600/0*KsNdCg47DQ1mp9l9.png" alt="Via [Jina 101](https://github.com/jina-ai/jina/tree/master/docs/chapters/101)" />
+Via <a href="https://github.com/jina-ai/jina/tree/master/docs/chapters/101">Jina 101</a></p>
+
+<p>As we discussed above, a Flow tells Jina <em>what</em> task to perform and is comprised of Pods. And a Pod tells Jina <em>how</em> to perform that task (i.e. what the right tool for job is). Both Pods and Flows are written in YAML.</p>
+
+<p>Let’s start by looking at a Pod in our indexing Flow, <code class="highlighter-rouge">flows/index.yml</code>. Instead of the first Pod <code class="highlighter-rouge">crafter</code>, let’s look at <code class="highlighter-rouge">encoder</code> which is a bit simpler:</p>
+
+<p>As we can see in the code above, the <code class="highlighter-rouge">encoder</code> Pod’s YAML file is stored in <code class="highlighter-rouge">pods/encode.yml</code>, and looks like:</p>
+
+<p>The Pods uses the built-in <code class="highlighter-rouge">TransformerTorchEncoder</code> as its Executor. Each Pod has a different Executor based on its task, and an Executor represents an algorithm, in this case encoding. The Executor differs based on what’s being encoded. For video or audio you’d use a different one. The <code class="highlighter-rouge">with</code> field specifies the parameters passed to <code class="highlighter-rouge">TransformerTorchEncoder</code>.</p>
+
+<ul>
+  <li><code class="highlighter-rouge">pooling_strategy</code> - Strategy to merge word embeddings into chunk embedding</li>
+  <li><code class="highlighter-rouge">model_name</code> - Name of the model we’re using</li>
+  <li><code class="highlighter-rouge">max_length</code> - Maximum length to truncate tokenized sequences to</li>
+</ul>
+
+<p>When the Pod runs, data is passed in from the previous Pod, <code class="highlighter-rouge">TransformerTorchEncoder</code> encodes the data, and the Pod passes the data to the next Pod in the Flow.</p>
+
+<p>For a deeper dive on Pods, Flows, Executors and everything else, you can refer to <a href="https://github.com/jina-ai/jina/tree/master/docs/chapters/101">Jina 101</a>.</p>
+
+<h3 id="troubleshooting">Troubleshooting</h3>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*O4TEq098Y8EDfCxuXtbdmA.gif" alt="Via [Giphy](https://giphy.com/gifs/star-trek-riker-tng-tYelSVzQPtLdm)" />
+Via <a href="https://giphy.com/gifs/star-trek-riker-tng-tYelSVzQPtLdm">Giphy</a></p>
+
+<h4 id="module-notfound">Module not found</h4>
+
+<p>Be sure to run <code class="highlighter-rouge">pip install -r requirements.txt</code> before beginning, and ensure you have lots of RAM/swap and space in your <code class="highlighter-rouge">tmp</code> partition (see below issues). This may take a while since there are a lot of prerequisites to install.</p>
+
+<p>If this error keeps popping up, look into the errors that were output onto the terminal to try to find which module is missing, and then run:</p>
+
+<p><code class="highlighter-rouge">pip install &lt;module_name&gt;</code></p>
+
+<h4 id="my-computerhangs">My computer hangs</h4>
+
+<p>Machine learning requires a lot of resources, and if your machine hangs this is often due to running out of memory. To fix this, try <a href="https://linuxize.com/post/how-to-add-swap-space-on-ubuntu-20-04/">creating a swap file</a> if you use Linux. This isn’t such an issue on macOS, since it allocates swap automatically.</p>
+
+<h4 id="error-could-not-install-packages-due-to-an-environmenterror-errno-28-no-space-left-ondevice"><code class="highlighter-rouge">ERROR: Could not install packages due to an EnvironmentError: [Errno 28] No space left on device</code></h4>
+
+<p>This is often due to your <code class="highlighter-rouge">/tmp</code> partition running out of space so you’ll need to <a href="https://askubuntu.com/questions/199565/not-enough-space-on-tmp">increase its size</a>.</p>
+
+<h4 id="command-notfound"><code class="highlighter-rouge">command not found</code></h4>
+
+<p>For this error you’ll need to install the relevant software package onto your system. In Ubuntu this can be done with:</p>
+
+<p>sudo apt-get install &lt;package_name&gt;</p>
+
+<h3 id="congratulations-we-didit">Congratulations! We Did It!</h3>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/0*uNyjB41NM_94Hbmi.gif" alt="Via [Giphy](https://giphy.com/gifs/star-trek-booze-scotty-3ornjJpj2rAla2DLCE)" />
+Via <a href="https://giphy.com/gifs/star-trek-booze-scotty-3ornjJpj2rAla2DLCE">Giphy</a></p>
+
+<p>In this tutorial you’ve learned:</p>
+
+<ul>
+  <li>How to install the Jina neural search framework</li>
+  <li>How to load and index text data from files</li>
+  <li>How to query data with <code class="highlighter-rouge">curl</code> and Jinabox</li>
+  <li>The nitty-gritty behind Jina Flows and Pods</li>
+  <li>What do if it all goes wrong</li>
+</ul>
+
+<p>Now that you have a broad understanding of how things work, you can try out some of more <a href="https://github.com/jina-ai/examples">example tutorials</a> to build image or video search, or stay tuned for our next set of tutorials that build upon your Star Trek app.</p>
+
+<p>Got an idea for a tutorial covering Star Trek and/or neural search? My commbadge is out of order right now, but you can leave a comment or note on this article for me to assimilate!</p>
+
+<p><a href="http://www.twitter.com/alexcg">Alex C-G</a> is the Open Source Evangelist at <a href="https://github.com/jina-ai/jina/">Jina AI</a>, and a massive Star Trek geek.</p>
+
+
+    </div>
+    </section>
+    <div class="container">
+        <section class="meta">
+            <br />
+            <div class='btn-group' role='group'>
+                
+                    
+                        <a href="https://hanxiao.io/2020/10/25/Evaluation-Flow-Explained-in-Jina-v0-7/" type="button" class="btn btn-outline-primary">Previous: Layers of Abstraction When Building "Tensorflow" for Search</a>
+                    
+                
+                
+                    
+                        <a href="https://jina.ai/2020/08/07/Building-a-Search-System-with-Jina-and-Faiss.html" type="button" class="btn btn-outline-primary">Next: Building a Search System with Jina and Faiss</a>
+                    
+                
+            </div>
+            
+                
+                    
+            <hr>
+            <span class="author">
+                <a href="/about/">Jina AI</a>
+            </span>
+            <span class="time">
+                /
+                <time datetime="2020-08-05">2020-08-05</time>
+            </span>
+            <br />
+            <span class="license">
+                Published under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">(CC)
+                    BY-NC-SA</a>
+            </span>
+            
+            <span class="categories">
+                in categories
+                
+            </span>
+            
+            
+            <span class="tags">
+                tagged with
+                
+            </span>
+            
+        </section>
+        <!-- ShareThis BEGIN -->
+<div class="sharethis-inline-share-buttons"></div>
+<!-- ShareThis END -->
+    </div>
+    
+</div>
+
+                <svg width="0" height="0" class="hidden">
+    <symbol xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" id="linkedin">
+        <path
+            d="M26.93 1c1.09 0 1.986.823 2.064 1.868l.006.15v23.96c0 1.065-.847 1.938-1.917 2.015L26.93 29H3.065c-1.087 0-1.98-.825-2.06-1.87L1 26.98V3.018c0-1.064.844-1.936 1.91-2.013L3.065 1H26.93zm-7.482 9.917c-1.895 0-3.193.994-3.778 1.98l-.075.134h-.056v-1.79l-3.903-.001v13.092h4.067v-6.475c0-1.708.324-3.363 2.442-3.363 1.568 0 1.974 1.1 2.08 2.288l.02.3.007.15.01.445.001 6.656h4.07l-.004-7.615-.013-.427c-.02-.493-.063-.964-.134-1.4l-.068-.375c-.44-2.148-1.66-3.59-4.665-3.59zm-10.366.325H5.006v13.09h4.076v-13.09zM7.045 4.734a2.36 2.36 0 0 0-.003 4.72 2.39 2.39 0 0 0 2.1-1.163 2.36 2.36 0 0 0 .002-2.39 2.36 2.36 0 0 0-1.918-1.164l-.17-.003z"
+            fill-rule="nonzero"></path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" id="github">
+        <path
+            d="M15 0C6.713 0 0 6.665 0 14.885c0 6.578 4.298 12.156 10.256 14.122.75.14 1.025-.32 1.025-.716l-.02-2.53C7.1 26.658 6.2 23.763 6.2 23.763c-.683-1.718-1.67-2.177-1.67-2.177-1.36-.923.105-.904.105-.904 1.506.104 2.297 1.533 2.297 1.533 1.337 2.276 3.51 1.62 4.37 1.238.135-.963.52-1.62.95-1.99C8.93 21.1 5.43 19.8 5.43 14.107c0-1.625.58-2.952 1.544-3.994-.17-.376-.675-1.89.13-3.94 0 0 1.256-.4 4.125 1.526 1.2-.33 2.475-.495 3.75-.502 1.275.007 2.55.17 3.75.502 2.85-1.925 4.106-1.526 4.106-1.526.806 2.05.3 3.564.15 3.94a5.74 5.74 0 0 1 1.538 3.994c0 5.718-3.506 6.977-6.844 7.343.525.447 1.012 1.36 1.012 2.754l-.02 4.076c0 .39.263.856 1.03.707C25.706 27.034 30 21.453 30 14.885 30 6.665 23.284 0 15 0"
+            fill-rule="nonzero"></path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" id="slack">
+        <path
+            d="M7.462 18.43a2.74 2.74 0 0 1-2.731 2.731A2.74 2.74 0 0 1 2 18.43a2.74 2.74 0 0 1 2.731-2.731h2.73v2.73zm1.377 0a2.74 2.74 0 0 1 2.731-2.731 2.74 2.74 0 0 1 2.731 2.731v6.84A2.74 2.74 0 0 1 11.57 28a2.74 2.74 0 0 1-2.731-2.731v-6.84zm2.73-10.968a2.74 2.74 0 0 1-2.731-2.731A2.74 2.74 0 0 1 11.57 2a2.74 2.74 0 0 1 2.731 2.731v2.73h-2.73zm0 1.377A2.74 2.74 0 0 1 14.3 11.57a2.74 2.74 0 0 1-2.731 2.731H4.73A2.74 2.74 0 0 1 2 11.57a2.74 2.74 0 0 1 2.731-2.731h6.84zm10.968 2.73a2.74 2.74 0 0 1 2.731-2.731A2.74 2.74 0 0 1 28 11.57a2.74 2.74 0 0 1-2.731 2.731h-2.73v-2.73zm-1.377 0a2.74 2.74 0 0 1-2.731 2.731 2.74 2.74 0 0 1-2.731-2.731V4.73A2.74 2.74 0 0 1 18.43 2a2.74 2.74 0 0 1 2.731 2.731v6.84zm-2.73 10.968a2.74 2.74 0 0 1 2.731 2.731A2.74 2.74 0 0 1 18.43 28a2.74 2.74 0 0 1-2.731-2.731v-2.73h2.73zm0-1.377a2.74 2.74 0 0 1-2.731-2.731 2.74 2.74 0 0 1 2.731-2.731h6.84A2.74 2.74 0 0 1 28 18.43a2.74 2.74 0 0 1-2.731 2.731h-6.84z"
+            fill-rule="nonzero"></path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" id="twitter">
+        <path
+            d="M15 0c8.284 0 15 6.716 15 15s-6.716 15-15 15S0 23.284 0 15 6.716 0 15 0zm3.847 8c-2.266 0-4.103 1.92-4.103 4.29a4.49 4.49 0 0 0 .106.978c-3.4-.18-6.433-1.887-8.457-4.484a4.426 4.426 0 0 0-.556 2.158c-.001 1.435.684 2.776 1.825 3.572a3.95 3.95 0 0 1-1.858-.537v.054c0 2.08 1.414 3.814 3.292 4.208a3.939 3.939 0 0 1-1.853.074c.537 1.748 2.078 2.946 3.833 2.98A8.004 8.004 0 0 1 5.98 23.13a7.98 7.98 0 0 1-.979-.06 11.264 11.264 0 0 0 6.3 1.928c7.547 0 11.675-6.54 11.675-12.21a12.93 12.93 0 0 0-.012-.555 8.546 8.546 0 0 0 2.047-2.222 7.934 7.934 0 0 1-2.357.676 4.274 4.274 0 0 0 1.804-2.374 8 8 0 0 1-2.605 1.042C21.066 8.49 19.98 7.998 18.847 8z">
+        </path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" id="youtube">
+        <path
+            d="M15 0c8.284 0 15 6.716 15 15s-6.716 15-15 15S0 23.284 0 15 6.715 0 15 0zm5.243 9l-10.54.002-.15.012-.144.02-.172.03-.195.046C8.225 9.327 7 9.982 7 11.945l.002 6.174.012.17.02.162.032.193c.162.86.726 2.356 2.69 2.356l10.54-.002.15-.012.144-.02.172-.03.195-.046c.817-.218 2.043-.872 2.043-2.836l-.002-6.175-.007-.108-.027-.24-.034-.202C22.76 10.468 22.19 9 20.242 9zM13 12l5 3.5-5 3.5v-7z"
+            fill-rule="nonzero"></path>
+    </symbol>
+</svg>
+
+<footer>
+    <div class="container-fluid pb-3 pt-3 bg-primary">
+        <div class="container">
+            <div class="row py-lg-5">
+                <div class="col d-none d-md-block">
+                    <p class="footer-top-menu text-white">PRODUCTS</p>
+                    <div class="d-flex; flex-column">
+                        <div class="footer-sub-menu">
+                            <a href="/products/search/">Search</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/products/hub/">Hub</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/products/dashboard/">Dashboard</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/products/box/">Box</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-none d-md-block">
+                    <p class="footer-top-menu text-white">COMPANY</p>
+                    <div class="d-flex; flex-column">
+                        <div class="footer-sub-menu">
+                            <a href="/about">About Us</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/join">Career</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/news">News</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="mailto: hello@jina.ai">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-none d-md-block">
+                    <p class="footer-top-menu text-white">LEARN</p>
+                    <div class="d-flex; flex-column">
+                        <div class="footer-sub-menu">
+                            <a href="/about">What</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/learn#why-jina">Why</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="">Get Started</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="https://docs.jina.ai/" target="_blank">Docs</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="https://github.com/jina-ai/examples" target="_blank">Examples</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-none">
+                    <p class="footer-top-menu text-white">COMMUNITY</p>
+                    <div class="d-flex; flex-column">
+                        <div class="footer-sub-menu">
+                            <a href="/contribute">Contribute</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/blog">Blog</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/events">Events</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" id="footer-subscribe">
+                    <div class="d-flex; flex-column">
+                        <p class="footer-sub-menu text-white">Subscribe to our newsletter</p>
+                        <!-- Begin Mailchimp Signup Form -->
+<!-- <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css"> -->
+<!-- <div id="mc_embed_signup"> -->
+<form action="https://jina.us17.list-manage.com/subscribe/post?u=135040dff373660039d95c86c&amp;id=6873344704" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll" >
+	<!-- <label for="mce-EMAIL">Subscribe</label> -->
+	<input class="form-control bg-white my-3" type="email" value="" placeholder="Your email" name="EMAIL" id="mce-EMAIL" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <!-- <div aria-hidden="true"><input type="text" name="b_135040dff373660039d95c86c_6873344704" tabindex="-1" value=""></div> -->
+    <div class="clear" ><input class="btn btn-pill btn-dark shadow-sm get-started mt-3" type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="button" ></div>
+    </div>
+</form>
+<!-- </div> -->
+<!--End mc_embed_signup-->
+
+                    </div>
+                </div>
+                <div class=" col-12 py-4 py-md-0">
+                    <div class="d-flex flex-row">
+                        <div class="pl-0 social-item">
+                            <a href="https://github.com/jina-ai/jina/" target="_blank">
+                                <svg class="icon" width="30" height="30" viewBox="0 0 30 30" preserveAspectRatio="none">
+                                    <use xlink:href="#github"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="social-item">
+                            <a href="https://www.youtube.com/c/jina-ai" target="_blank">
+                                <svg class="icon" width="30" height="30" viewBox="0 0 30 30" preserveAspectRatio="none">
+                                    <use xlink:href="#youtube"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="social-item">
+                            <a href="https://www.linkedin.com/company/jinaai/" target="_blank">
+                                <svg class="icon" width="30" height="30" viewBox="0 0 30 30" preserveAspectRatio="none">
+                                    <use xlink:href="#linkedin"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="social-item">
+                            <a href="https://twitter.com/jinaAI_" target="_blank">
+                                <svg class="icon" width="30" height="30" viewBox="0 0 30 30" preserveAspectRatio="none">
+                                    <use xlink:href="#twitter"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="social-item">
+                            <a href="http://jina-ai.slack.com/" target="_blank">
+                                <svg class="icon" width="30" height="30" viewBox="0 0 30 30" preserveAspectRatio="none">
+                                    <use xlink:href="#slack"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid pb-3 pt-3 bg-secondary">
+        <div class="container">
+            <div class="row d-flex   justify-content-between">
+
+                <div class="d-flex flex-md-row flex-column justify-content-between">
+                    <div class="auth-item">
+                        <a href="/">© 2020 Jina AI, Ltd. All rights reserved.</a>
+                    </div>
+                    <div class="auth-item">
+                        <a href="https://github.com/jina-ai/legal/blob/master/TERMS-OF-USE.md">Terms of
+                            Service</a>
+                    </div>
+                    <div class="auth-item">
+                        <a href="https://github.com/jina-ai/legal/blob/master/PRIVACY.md">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</footer>
+
+                <!-- JS, Popper.js, and jQuery -->
+                <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+                        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+                        crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+                        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+                        crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+                        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+                        crossorigin="anonymous"></script>
+                <link rel="stylesheet"
+                        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+                        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+                        crossorigin="anonymous">
+        </div>
+</body>
+
+</html>

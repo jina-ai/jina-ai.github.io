@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+<head>
+        <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Multimodal Search Demo in Detail | Jina AI</title>
+<meta name="generator" content="Jekyll v4.0.1" />
+<meta property="og:title" content="Multimodal Search Demo in Detail" />
+<meta name="author" content="Susana Guzmán" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="First things first, I hope you all saw we we released our 1.0 version not so long ago yay!. And today I want to talk about one of our demo’s: multimodal document search. I know, even the name sounds luxurious!" />
+<meta property="og:description" content="First things first, I hope you all saw we we released our 1.0 version not so long ago yay!. And today I want to talk about one of our demo’s: multimodal document search. I know, even the name sounds luxurious!" />
+<link rel="canonical" href="https://jina.ai/2021/02/01/Multimodality-demo-in-detail.html" />
+<meta property="og:url" content="https://jina.ai/2021/02/01/Multimodality-demo-in-detail.html" />
+<meta property="og:site_name" content="Jina AI" />
+<meta property="og:image" content="https://miro.medium.com/max/2400/1*2zaCtpY90szpQPqC2lz10w.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-02-01T00:54:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://miro.medium.com/max/2400/1*2zaCtpY90szpQPqC2lz10w.png" />
+<meta property="twitter:title" content="Multimodal Search Demo in Detail" />
+<meta name="twitter:site" content="@JinaAI_" />
+<meta name="twitter:creator" content="@Susana Guzmán" />
+<script type="application/ld+json">
+{"description":"First things first, I hope you all saw we we released our 1.0 version not so long ago yay!. And today I want to talk about one of our demo’s: multimodal document search. I know, even the name sounds luxurious!","@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://jina.ai/assets/images/jina_ico.png"},"name":"Susana Guzmán"},"image":"https://miro.medium.com/max/2400/1*2zaCtpY90szpQPqC2lz10w.png","headline":"Multimodal Search Demo in Detail","url":"https://jina.ai/2021/02/01/Multimodality-demo-in-detail.html","dateModified":"2021-02-01T00:54:00+00:00","datePublished":"2021-02-01T00:54:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jina.ai/2021/02/01/Multimodality-demo-in-detail.html"},"author":{"@type":"Person","name":"Susana Guzmán"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+        <meta charset=utf-8>
+        <!-- Google Tag Manager -->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164627626-2"></script>
+        <script>
+                function readCookie(name) {
+                        var nameEQ = name + "=";
+                        var ca = document.cookie.split(';');
+                        for (var i = 0; i < ca.length; i++) {
+                                var c = ca[i];
+                                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+                        }
+                        return null;
+                }
+                if (readCookie('cookie-notice-dismissed') === 'true') {
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag() { dataLayer.push(arguments); }
+                        gtag('js', new Date());
+
+                        gtag('config', 'UA-164627626-2')
+                }
+        </script>
+
+        <!-- End Google Tag Manager -->
+        <meta name="X-UA-Compatible" content="IE=edge">
+        <meta property="og:image" content="/assets/images/jina_banner_new.png">
+        <meta name=viewport content="width=device-width,initial-scale=1">
+        <title>Jina AI</title>
+        <link rel="icon" href="/assets/images/favicon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&family=Montserrat:wght@400;600&display=swap"
+                rel="stylesheet">
+        <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+        <div id="gdpr" class="container">
+    <section class="container-fluid">
+        <div class="row d-flex justify-content-center py-3" style="color: #fff;">
+            <p class=" mb-0 text-muted mt-2 mb-2 text-left">
+                GDPR Compliance Message
+
+                The European General Data Protection Regulation (GDPR) is the EU regulation for data privacy and
+                security.
+
+                At Jina AI, we are fully committed to complying with the GDPR. Our policy towards privacy,
+                security,
+                and data protection aligns with the goals of GDPR. On our website, we only collect and store information
+                that is essential for offering our service and for improving user experience, and we do this with the
+                consent of our website visitors.
+
+                If you have any further questions, please do not hesitate to reach out to us at:<br /> <a
+                    class="text-center" href="mailto: legal@jina.ai">legal@jina.ai</a>.
+
+            </p>
+            <button id="cookie-notice" class="btn btn-primary btn-pill" style="border: 1px solid #009999;">
+                GOT IT
+            </button>
+        </div>
+    </section>
+    <hr />
+</div>
+<script>
+    function createCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+
+    function eraseCookie(name) {
+        createCookie(name, "", -1);
+    }
+
+    if (readCookie('cookie-notice-dismissed') == 'true') {
+        document.getElementById('gdpr').style.display = 'none';
+    } else {
+        document.getElementById('gdpr').style.display = 'block';
+    }
+    document.getElementById('cookie-notice').addEventListener("click", function () {
+        createCookie('cookie-notice-dismissed', 'true', 31);
+        document.getElementById('gdpr').style.display = 'none';
+        location.reload();
+    });
+
+</script>
+        <header>
+    <nav class="navbar navbar-light bg-white navbar-expand-lg">
+        <div class="container d-flex justify-content-between">
+            <a class="navbar-brand" href="/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="82.25" height="35" viewBox="0 0 235 100"
+                    fill-rule="evenodd" xmlns:v="https://vecta.io/nano">
+                    <circle cx="15.287" cy="84.528" r="15.287" fill="#f66" />
+                    <path
+                        d="M63.503 36.35a3.6 3.6 0 0 1 3.6 3.6v.02l-.16 29.292c0 16.717-13.416 30.3-30.068 30.57l-.506.004V69.26h.086l.084-29.32a3.6 3.6 0 0 1 3.6-3.59h23.364zm46.96 0a3.6 3.6 0 0 1 3.6 3.6v41a3.6 3.6 0 0 1-3.6 3.6H87.09a3.6 3.6 0 0 1-3.6-3.6v-41a3.6 3.6 0 0 1 3.6-3.6h23.374zm36.872-.18l.457.004c15.043.24 27.21 12.32 27.6 27.327l.01.01v17.257a3.6 3.6 0 0 1-3.6 3.6H134.03a3.6 3.6 0 0 1-3.6-3.6v-41a3.6 3.6 0 0 1 3.6-3.6h13.306zm61.867 47.84l-.001-.042c-12.64-.745-22.66-11.23-22.66-24.057 0-13.3 10.8-24.1 24.1-24.1 12.827 0 23.313 10.02 24.057 22.66h.042V80.41a3.6 3.6 0 0 1-3.6 3.6h-21.938z"
+                        fill="#099" />
+                    <circle cx="98.736" cy="15.287" r="15.287" fill="#fc6" />
+                </svg>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">PRODUCTS</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown07">
+                            <a class="dropdown-item" href="/products/search/">Search</a>
+                            <a class="dropdown-item" href="/products/hub/">Hub</a>
+                            <a class="dropdown-item" href="/products/dashboard/">Dashboard</a>
+                            <a class="dropdown-item" href="/products/box/">Box</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">COMPANY</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown07">
+                            <a class="dropdown-item" href="/about">About Jina AI</a>
+                            <a class="dropdown-item" href="https://jobs.jina.ai">Career</a>
+                            <a class="dropdown-item" href="/news">News</a>
+                            <a class="dropdown-item" href="mailto:hello@jina.ai">Contact</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/learn">LEARN</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">COMMUNITY</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown07">
+                            <a class="dropdown-item" href="/contribute">Contribute</a>
+                            <a class="dropdown-item" href="/blog">Blog</a>
+                            <a class="dropdown-item" href="/events">Events</a>
+                            <a class="dropdown-item" href="http://slack.jina.ai">Slack</a>
+                        </div>
+                    </li>
+                    <li class="nav-logo">
+                        <a href="https://github.com/jina-ai/jina/" target="_blank"><img
+                                src="/assets/images/github-black.svg" /></a>
+                    </li>
+                </ul>
+                <!-- <form class="form-inline my-2 my-md-0">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+              </form> -->
+            </div>
+        </div>
+    </nav>
+<nav class="navbar navbar-light navbar-expand-lg" style="background-color: #fff3cd">
+        <div class="container">
+            <p class="text-center" style="margin-left:auto; margin-right:auto; margin-bottom: 0">Jina 2.0 is out now! <strong><a href="https://github.com/jina-ai/jina">Check our GitHub repo to learn more!</a></strong></p>
+        </div>
+    </nav>
+</header>
+
+        <div class="container-fluid px-0">
+                <div class="container-fluid px-0">
+    <section class="blog-post">
+    <div class="title-bg-image mb-4" style="background-image: url(https://miro.medium.com/max/2400/1*2zaCtpY90szpQPqC2lz10w.png)">
+        <div class="title-overlay p-4 pt-md-5">
+            <div class="px-md-5 mx-md-5">
+                <h1>Multimodal Search Demo in Detail</h1>
+                <p>Published <time datetime="2021-02-01">2021-02-01</time></p>
+            </div>
+            
+        </div>
+    </div>
+    <div class="container">
+        <p>First things first, I hope you all saw we <a href="https://medium.com/jina-ai/announcing-jina-1-0-87718c180f32">we released our 1.0</a> version not so long ago <em>yay!</em>. And today I want to talk about one of our demo’s: <a href="https://medium.com/r/?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DB_nH8GCmBfc%26feature%3Dyoutu.be%26ab_channel%3DJinaAI">multimodal document search</a>. I know, even the name sounds luxurious!</p>
+
+<hr />
+
+<h2 id="multi-what">Multi-what?</h2>
+
+<p>It makes sense to first define what we mean by multimodality before going into more fancy terms.</p>
+
+<p>Multimodality, that should not to be confused with <a href="https://medium.com/jina-ai/cross-modal-search-with-jina-4d7a1eb299bd">Cross-modality</a>, basically means multiple modalities (I know, shocking right?), and those data types (a.k.a. modalities) can be audio, video, text or images. For example, a PDF file could have text only, images only, or in most cases, images and text together. In that case, we would have a file with multimodality: <strong>text</strong> and <strong>images</strong>.</p>
+
+<p>So once we get this straight, we can see that it would be very useful to have a way to search through data with multiple modalities. We can use the multimodal demo to see this more clearly:</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*2zaCtpY90szpQPqC2lz10w.png" alt="" /></p>
+
+<p>Let’s say you have the image on the left. You want something <strong>similar</strong> to that, but not <strong>exactly</strong> that. You want something between the image and the text that is below the image. And this is when multimodal search is useful.</p>
+
+<p>You can play with this demo yourself:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip install "jina[multimodal]"
+jina hello multimodal
+</code></pre></div></div>
+
+<h3 id="how-does-this-black-magic-work">How does this black magic work?</h3>
+
+<p>Ok, now that I got your attention we can dig into the details.</p>
+
+<p>In <strong>Jina</strong> we always work with <strong>Flows</strong>. You can see more details on the basics of Jina <a href="https://medium.com/r/?url=http%3A%2F%2F101.jina.ai">here</a>, but if you haven’t read it (sure sure, you’ll read it later, I know), think of <strong>Flows</strong> as a way to abstract high-level tasks. And which tasks you might ask? well <strong>Indexing</strong> and <strong>Querying</strong> in this case. Let’s check them more closely, starting with the Indexing Flow:</p>
+
+<h4 id="index-flow">Index Flow</h4>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>!Flow
+version: '1'
+pods:
+  - name: segment
+    uses: pods/segment.yml
+  # first pathway
+  - name: filter_text
+    uses: pods/filter.yml
+    env:
+      filter_mime: text/plain
+  - name: textEncoder
+    uses: pods/encode-text.yml
+  - name: textModIndexer
+    uses: pods/index-comp.yml
+    env:
+      indexer_name: text
+  # second pathway, in parallel
+  - name: filter_image
+    uses: pods/filter.yml
+    env:
+      filter_mime: image/jpeg
+    needs: segment
+  - name: imageCrafter
+    uses: pods/crafte-image.yml
+  - name: imageEncoder
+    uses: pods/encode-image.yml
+  - name: imageModIndexer
+    uses: pods/index-comp.yml
+    env:
+      indexer_name: image
+  # third pathway, in parallel
+  - name: docIndexer
+    uses: pods/index-doc.yml
+    needs: segment
+  # join all parallel works
+  - needs: [docIndexer, imageModIndexer, textModIndexer]
+    name: joiner
+</code></pre></div></div>
+<p>Here’s <a href="https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Fjina-ai%2Fjina%2Fblob%2Fmaster%2Fjina%2Fresources%2Fmultimodal%2Fflow-index.yml">index.yml</a> file in GitHub if you want to check it out. As you can see, the first thing we define are the <strong>Pods</strong>, and in those <strong>Pods</strong>, there are some comments specifying 3 pathways. This means that our <strong>Flow</strong> will run those 3 pathways in parallel, something like this:</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*4G3k91Ff9Q27ZUziSWVw5g.jpeg" alt="" /></p>
+
+<p>So the very first thing we need is to pre-process our data, and for that, we will use a segmenter (pods/segment.yml`). This will divide (segment) our document into different smaller parts, and since we have different modalities, it makes sense to segment our original document according to those modality types.</p>
+
+<ul>
+  <li>Pathway 1: take care of the text.</li>
+  <li>Pathway 2: take care of the image.</li>
+  <li>Pathway 3: take care of the document itself as a whole.</li>
+</ul>
+
+<p>And the last thing will be to join all those different segmented parts back together.</p>
+
+<hr />
+
+<p>Okay okay, that’s nice and all, but those pathways still seem very mysterious. We can see that each pathway has several keywords: <code class="highlighter-rouge">name</code>, <code class="highlighter-rouge">uses</code> and <code class="highlighter-rouge">env</code>.</p>
+
+<p>We should remember that the <strong>Flow</strong> manages <strong>Pods</strong>. And those keywords refer to those <strong>Pods</strong>. So if we see the example of the first pathway, we can see it has 3 pods; <code class="highlighter-rouge">filter_text</code>, <code class="highlighter-rouge">textEncoder</code> and <code class="highlighter-rouge">TextModIndexer</code>:</p>
+
+<p>```# first pathway</p>
+<ul>
+  <li>name: filter_text
+uses: pods/filter.yml
+env:
+  filter_mime: text/plain</li>
+  <li>name: textEncoder
+uses: pods/encode-text.yml</li>
+  <li>name: textModIndexer
+uses: pods/index-comp.yml
+env:
+  indexer_name: text
+```</li>
+</ul>
+
+<p>The first Pod, <code class="highlighter-rouge">filter_text</code>, is doing exactly what its name suggests: It filters the text of the Document. If you open that YAML file (<code class="highlighter-rouge">pods/filter.yml</code>) you’ll see this:</p>
+
+<pre><code class="language-!BaseExecutor">requests:
+  uses_default: true
+  on:
+    [IndexRequest, SearchRequest]:
+      - !FilterQL
+        with:
+          lookups:
+            mime_type: '$'
+          traversal_paths: ['c']
+</code></pre>
+
+<p>The very first line is telling us which Executor will be used, in this case the <strong>BaseExecutor</strong>. You can find it in <a href="https://medium.com/r/?url=https%3A%2F%2Fhub.jina.ai%2F%23%2Fhome">Jina Hub</a>, where we have many Executors that are ready to use and are provided by Jina and the community (just a little ad here to say “come join us! bring your own Executors to the Open Source side!”). You can see the <a href="https://medium.com/r/?url=https%3A%2F%2Fdocs.jina.ai%2Fchapters%2Fall_exec.html">full list here</a> if that’s your cup of tea.</p>
+
+<p>Now the next part is this <code class="highlighter-rouge">requests</code> keyword. “The what now?” you might ask. Well, in Jina we can do several things, which means different requests, so we have:</p>
+
+<ol>
+  <li>Index</li>
+  <li>Search</li>
+  <li>Update</li>
+  <li>Delete</li>
+  <li>Control</li>
+</ol>
+
+<p>All of them are different so all of them requires different configurations, but of course if you only need to <strong>Index</strong> and <strong>Search</strong> as in this case, it wouldn’t make much sense to write the details for all the rest right? So we provide a basic configuration that you can use with.</p>
+
+<p><code class="highlighter-rouge">uses_default: true</code></p>
+
+<p>This will use the basic configuration for all request types, but since we want to focus on <strong>Index</strong> and <strong>Search</strong> we use the following lines. This particular executor is using <a href="https://medium.com/r/?url=https%3A%2F%2Fhanxiao.io%2F2020%2F08%2F28%2FWhat-s-New-in-Jina-v0-5%2F%23new-query-language-driver">QueryLang</a>, but for this example, you just need to know that it is able to filter the text by providing the <strong>MIME</strong> type.</p>
+
+<p>If you see the other Pods, they will have a similar structure. The <code class="highlighter-rouge">textEncoder</code> (pods/encode-text.yml) is using <code class="highlighter-rouge">TransformerTorchEncoder</code> instead of the <code class="highlighter-rouge">BaseExecutor</code> that we saw before, but the rest is pretty similar:</p>
+
+<p>It will use the basic configuration for all requests, except for <strong>Index</strong> and <strong>Search</strong>.</p>
+
+<h4 id="and-thats-it">And that’s it</h4>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*5a2lcxyIfekEy2CCSQWbhg.jpeg" alt="" /></p>
+
+<p>That’s it! we’re done for the day. If you check each part of the other pathways you’ll see they are all similar. And if you check the Query Flow, it will also be pretty similar with some small differences. And if you check the <strong>Indexers</strong> you’ll see we have two types of them in this example: One for the vectors and one for the meta-information.</p>
+
+<p>BUT those are a lot of <em>ifs</em> and we’ve done a lot today. You deserve a cake. I deserve to go pet a cat. Go get one (a cake, not a cat) and we’ll discuss the <code class="highlighter-rouge">BinaryPBIndexer</code> and the <code class="highlighter-rouge">NumpyIndexer</code> next time.</p>
+
+<p>In the meantime, you can follow us on <a href="https://medium.com/r/?url=https%3A%2F%2Ftwitter.com%2FjinaAI_">Twitter</a>, <a href="https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Fjina-ai%2Fjina%2F">Github</a>, or join our <a href="https://medium.com/r/?url=https%3A%2F%2Fslack.jina.ai">Slack community</a>.</p>
+
+    </div>
+    </section>
+    <div class="container">
+        <section class="meta">
+            <br />
+            <div class='btn-group' role='group'>
+                
+                    
+                        <a href="https://jina.ai/2021/01/14/pair-programming-onboarding.html" type="button" class="btn btn-outline-primary">Previous: Pair Programming in Jina - Onboarding via Pairing</a>
+                    
+                
+                
+                    
+                        <a href="https://jina.ai/release/2021/02/10/jina-1_0_0.html" type="button" class="btn btn-outline-primary">Next: Announcing Jina 1.0 🎉</a>
+                    
+                
+            </div>
+            
+                
+                    
+            <hr>
+            <span class="author">
+                <a href="/about/">Jina AI</a>
+            </span>
+            <span class="time">
+                /
+                <time datetime="2021-02-01">2021-02-01</time>
+            </span>
+            <br />
+            <span class="license">
+                Published under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">(CC)
+                    BY-NC-SA</a>
+            </span>
+            
+            <span class="categories">
+                in categories
+                
+            </span>
+            
+            
+            <span class="tags">
+                tagged with
+                
+            </span>
+            
+        </section>
+        <!-- ShareThis BEGIN -->
+<div class="sharethis-inline-share-buttons"></div>
+<!-- ShareThis END -->
+    </div>
+    
+</div>
+
+                <svg width="0" height="0" class="hidden">
+    <symbol xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" id="linkedin">
+        <path
+            d="M26.93 1c1.09 0 1.986.823 2.064 1.868l.006.15v23.96c0 1.065-.847 1.938-1.917 2.015L26.93 29H3.065c-1.087 0-1.98-.825-2.06-1.87L1 26.98V3.018c0-1.064.844-1.936 1.91-2.013L3.065 1H26.93zm-7.482 9.917c-1.895 0-3.193.994-3.778 1.98l-.075.134h-.056v-1.79l-3.903-.001v13.092h4.067v-6.475c0-1.708.324-3.363 2.442-3.363 1.568 0 1.974 1.1 2.08 2.288l.02.3.007.15.01.445.001 6.656h4.07l-.004-7.615-.013-.427c-.02-.493-.063-.964-.134-1.4l-.068-.375c-.44-2.148-1.66-3.59-4.665-3.59zm-10.366.325H5.006v13.09h4.076v-13.09zM7.045 4.734a2.36 2.36 0 0 0-.003 4.72 2.39 2.39 0 0 0 2.1-1.163 2.36 2.36 0 0 0 .002-2.39 2.36 2.36 0 0 0-1.918-1.164l-.17-.003z"
+            fill-rule="nonzero"></path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" id="github">
+        <path
+            d="M15 0C6.713 0 0 6.665 0 14.885c0 6.578 4.298 12.156 10.256 14.122.75.14 1.025-.32 1.025-.716l-.02-2.53C7.1 26.658 6.2 23.763 6.2 23.763c-.683-1.718-1.67-2.177-1.67-2.177-1.36-.923.105-.904.105-.904 1.506.104 2.297 1.533 2.297 1.533 1.337 2.276 3.51 1.62 4.37 1.238.135-.963.52-1.62.95-1.99C8.93 21.1 5.43 19.8 5.43 14.107c0-1.625.58-2.952 1.544-3.994-.17-.376-.675-1.89.13-3.94 0 0 1.256-.4 4.125 1.526 1.2-.33 2.475-.495 3.75-.502 1.275.007 2.55.17 3.75.502 2.85-1.925 4.106-1.526 4.106-1.526.806 2.05.3 3.564.15 3.94a5.74 5.74 0 0 1 1.538 3.994c0 5.718-3.506 6.977-6.844 7.343.525.447 1.012 1.36 1.012 2.754l-.02 4.076c0 .39.263.856 1.03.707C25.706 27.034 30 21.453 30 14.885 30 6.665 23.284 0 15 0"
+            fill-rule="nonzero"></path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" id="slack">
+        <path
+            d="M7.462 18.43a2.74 2.74 0 0 1-2.731 2.731A2.74 2.74 0 0 1 2 18.43a2.74 2.74 0 0 1 2.731-2.731h2.73v2.73zm1.377 0a2.74 2.74 0 0 1 2.731-2.731 2.74 2.74 0 0 1 2.731 2.731v6.84A2.74 2.74 0 0 1 11.57 28a2.74 2.74 0 0 1-2.731-2.731v-6.84zm2.73-10.968a2.74 2.74 0 0 1-2.731-2.731A2.74 2.74 0 0 1 11.57 2a2.74 2.74 0 0 1 2.731 2.731v2.73h-2.73zm0 1.377A2.74 2.74 0 0 1 14.3 11.57a2.74 2.74 0 0 1-2.731 2.731H4.73A2.74 2.74 0 0 1 2 11.57a2.74 2.74 0 0 1 2.731-2.731h6.84zm10.968 2.73a2.74 2.74 0 0 1 2.731-2.731A2.74 2.74 0 0 1 28 11.57a2.74 2.74 0 0 1-2.731 2.731h-2.73v-2.73zm-1.377 0a2.74 2.74 0 0 1-2.731 2.731 2.74 2.74 0 0 1-2.731-2.731V4.73A2.74 2.74 0 0 1 18.43 2a2.74 2.74 0 0 1 2.731 2.731v6.84zm-2.73 10.968a2.74 2.74 0 0 1 2.731 2.731A2.74 2.74 0 0 1 18.43 28a2.74 2.74 0 0 1-2.731-2.731v-2.73h2.73zm0-1.377a2.74 2.74 0 0 1-2.731-2.731 2.74 2.74 0 0 1 2.731-2.731h6.84A2.74 2.74 0 0 1 28 18.43a2.74 2.74 0 0 1-2.731 2.731h-6.84z"
+            fill-rule="nonzero"></path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" id="twitter">
+        <path
+            d="M15 0c8.284 0 15 6.716 15 15s-6.716 15-15 15S0 23.284 0 15 6.716 0 15 0zm3.847 8c-2.266 0-4.103 1.92-4.103 4.29a4.49 4.49 0 0 0 .106.978c-3.4-.18-6.433-1.887-8.457-4.484a4.426 4.426 0 0 0-.556 2.158c-.001 1.435.684 2.776 1.825 3.572a3.95 3.95 0 0 1-1.858-.537v.054c0 2.08 1.414 3.814 3.292 4.208a3.939 3.939 0 0 1-1.853.074c.537 1.748 2.078 2.946 3.833 2.98A8.004 8.004 0 0 1 5.98 23.13a7.98 7.98 0 0 1-.979-.06 11.264 11.264 0 0 0 6.3 1.928c7.547 0 11.675-6.54 11.675-12.21a12.93 12.93 0 0 0-.012-.555 8.546 8.546 0 0 0 2.047-2.222 7.934 7.934 0 0 1-2.357.676 4.274 4.274 0 0 0 1.804-2.374 8 8 0 0 1-2.605 1.042C21.066 8.49 19.98 7.998 18.847 8z">
+        </path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" id="youtube">
+        <path
+            d="M15 0c8.284 0 15 6.716 15 15s-6.716 15-15 15S0 23.284 0 15 6.715 0 15 0zm5.243 9l-10.54.002-.15.012-.144.02-.172.03-.195.046C8.225 9.327 7 9.982 7 11.945l.002 6.174.012.17.02.162.032.193c.162.86.726 2.356 2.69 2.356l10.54-.002.15-.012.144-.02.172-.03.195-.046c.817-.218 2.043-.872 2.043-2.836l-.002-6.175-.007-.108-.027-.24-.034-.202C22.76 10.468 22.19 9 20.242 9zM13 12l5 3.5-5 3.5v-7z"
+            fill-rule="nonzero"></path>
+    </symbol>
+</svg>
+
+<footer>
+    <div class="container-fluid pb-3 pt-3 bg-primary">
+        <div class="container">
+            <div class="row py-lg-5">
+                <div class="col d-none d-md-block">
+                    <p class="footer-top-menu text-white">PRODUCTS</p>
+                    <div class="d-flex; flex-column">
+                        <div class="footer-sub-menu">
+                            <a href="/products/search/">Search</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/products/hub/">Hub</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/products/dashboard/">Dashboard</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/products/box/">Box</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-none d-md-block">
+                    <p class="footer-top-menu text-white">COMPANY</p>
+                    <div class="d-flex; flex-column">
+                        <div class="footer-sub-menu">
+                            <a href="/about">About Us</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/join">Career</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/news">News</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="mailto: hello@jina.ai">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-none d-md-block">
+                    <p class="footer-top-menu text-white">LEARN</p>
+                    <div class="d-flex; flex-column">
+                        <div class="footer-sub-menu">
+                            <a href="/about">What</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/learn#why-jina">Why</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="">Get Started</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="https://docs.jina.ai/" target="_blank">Docs</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="https://github.com/jina-ai/examples" target="_blank">Examples</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-none">
+                    <p class="footer-top-menu text-white">COMMUNITY</p>
+                    <div class="d-flex; flex-column">
+                        <div class="footer-sub-menu">
+                            <a href="/contribute">Contribute</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/blog">Blog</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/events">Events</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" id="footer-subscribe">
+                    <div class="d-flex; flex-column">
+                        <p class="footer-sub-menu text-white">Subscribe to our newsletter</p>
+                        <!-- Begin Mailchimp Signup Form -->
+<!-- <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css"> -->
+<!-- <div id="mc_embed_signup"> -->
+<form action="https://jina.us17.list-manage.com/subscribe/post?u=135040dff373660039d95c86c&amp;id=6873344704" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll" >
+	<!-- <label for="mce-EMAIL">Subscribe</label> -->
+	<input class="form-control bg-white my-3" type="email" value="" placeholder="Your email" name="EMAIL" id="mce-EMAIL" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <!-- <div aria-hidden="true"><input type="text" name="b_135040dff373660039d95c86c_6873344704" tabindex="-1" value=""></div> -->
+    <div class="clear" ><input class="btn btn-pill btn-dark shadow-sm get-started mt-3" type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="button" ></div>
+    </div>
+</form>
+<!-- </div> -->
+<!--End mc_embed_signup-->
+
+                    </div>
+                </div>
+                <div class=" col-12 py-4 py-md-0">
+                    <div class="d-flex flex-row">
+                        <div class="pl-0 social-item">
+                            <a href="https://github.com/jina-ai/jina/" target="_blank">
+                                <svg class="icon" width="30" height="30" viewBox="0 0 30 30" preserveAspectRatio="none">
+                                    <use xlink:href="#github"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="social-item">
+                            <a href="https://www.youtube.com/c/jina-ai" target="_blank">
+                                <svg class="icon" width="30" height="30" viewBox="0 0 30 30" preserveAspectRatio="none">
+                                    <use xlink:href="#youtube"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="social-item">
+                            <a href="https://www.linkedin.com/company/jinaai/" target="_blank">
+                                <svg class="icon" width="30" height="30" viewBox="0 0 30 30" preserveAspectRatio="none">
+                                    <use xlink:href="#linkedin"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="social-item">
+                            <a href="https://twitter.com/jinaAI_" target="_blank">
+                                <svg class="icon" width="30" height="30" viewBox="0 0 30 30" preserveAspectRatio="none">
+                                    <use xlink:href="#twitter"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="social-item">
+                            <a href="http://jina-ai.slack.com/" target="_blank">
+                                <svg class="icon" width="30" height="30" viewBox="0 0 30 30" preserveAspectRatio="none">
+                                    <use xlink:href="#slack"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid pb-3 pt-3 bg-secondary">
+        <div class="container">
+            <div class="row d-flex   justify-content-between">
+
+                <div class="d-flex flex-md-row flex-column justify-content-between">
+                    <div class="auth-item">
+                        <a href="/">© 2020 Jina AI, Ltd. All rights reserved.</a>
+                    </div>
+                    <div class="auth-item">
+                        <a href="https://github.com/jina-ai/legal/blob/master/TERMS-OF-USE.md">Terms of
+                            Service</a>
+                    </div>
+                    <div class="auth-item">
+                        <a href="https://github.com/jina-ai/legal/blob/master/PRIVACY.md">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</footer>
+
+                <!-- JS, Popper.js, and jQuery -->
+                <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+                        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+                        crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+                        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+                        crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+                        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+                        crossorigin="anonymous"></script>
+                <link rel="stylesheet"
+                        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+                        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+                        crossorigin="anonymous">
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+<head>
+        <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Jina and Terraform | Jina AI</title>
+<meta name="generator" content="Jekyll v4.0.1" />
+<meta property="og:title" content="Jina and Terraform" />
+<meta name="author" content="Susana Guzmán" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Jina with Terraform" />
+<meta property="og:description" content="Jina with Terraform" />
+<link rel="canonical" href="https://jina.ai/2020/11/05/Terraform-plus-Jina.html" />
+<meta property="og:url" content="https://jina.ai/2020/11/05/Terraform-plus-Jina.html" />
+<meta property="og:site_name" content="Jina AI" />
+<meta property="og:image" content="https://jina.ai/assets/images/blog/jina_terraform.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-11-05T14:00:39+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://jina.ai/assets/images/blog/jina_terraform.png" />
+<meta property="twitter:title" content="Jina and Terraform" />
+<meta name="twitter:site" content="@JinaAI_" />
+<meta name="twitter:creator" content="@Susana Guzmán" />
+<script type="application/ld+json">
+{"description":"Jina with Terraform","@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://jina.ai/assets/images/jina_ico.png"},"name":"Susana Guzmán"},"image":"https://jina.ai/assets/images/blog/jina_terraform.png","headline":"Jina and Terraform","url":"https://jina.ai/2020/11/05/Terraform-plus-Jina.html","dateModified":"2020-11-05T14:00:39+00:00","datePublished":"2020-11-05T14:00:39+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jina.ai/2020/11/05/Terraform-plus-Jina.html"},"author":{"@type":"Person","name":"Susana Guzmán"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+        <meta charset=utf-8>
+        <!-- Google Tag Manager -->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164627626-2"></script>
+        <script>
+                function readCookie(name) {
+                        var nameEQ = name + "=";
+                        var ca = document.cookie.split(';');
+                        for (var i = 0; i < ca.length; i++) {
+                                var c = ca[i];
+                                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+                        }
+                        return null;
+                }
+                if (readCookie('cookie-notice-dismissed') === 'true') {
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag() { dataLayer.push(arguments); }
+                        gtag('js', new Date());
+
+                        gtag('config', 'UA-164627626-2')
+                }
+        </script>
+
+        <!-- End Google Tag Manager -->
+        <meta name="X-UA-Compatible" content="IE=edge">
+        <meta property="og:image" content="/assets/images/jina_banner_new.png">
+        <meta name=viewport content="width=device-width,initial-scale=1">
+        <title>Jina AI</title>
+        <link rel="icon" href="/assets/images/favicon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&family=Montserrat:wght@400;600&display=swap"
+                rel="stylesheet">
+        <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+        <div id="gdpr" class="container">
+    <section class="container-fluid">
+        <div class="row d-flex justify-content-center py-3" style="color: #fff;">
+            <p class=" mb-0 text-muted mt-2 mb-2 text-left">
+                GDPR Compliance Message
+
+                The European General Data Protection Regulation (GDPR) is the EU regulation for data privacy and
+                security.
+
+                At Jina AI, we are fully committed to complying with the GDPR. Our policy towards privacy,
+                security,
+                and data protection aligns with the goals of GDPR. On our website, we only collect and store information
+                that is essential for offering our service and for improving user experience, and we do this with the
+                consent of our website visitors.
+
+                If you have any further questions, please do not hesitate to reach out to us at:<br /> <a
+                    class="text-center" href="mailto: legal@jina.ai">legal@jina.ai</a>.
+
+            </p>
+            <button id="cookie-notice" class="btn btn-primary btn-pill" style="border: 1px solid #009999;">
+                GOT IT
+            </button>
+        </div>
+    </section>
+    <hr />
+</div>
+<script>
+    function createCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+
+    function eraseCookie(name) {
+        createCookie(name, "", -1);
+    }
+
+    if (readCookie('cookie-notice-dismissed') == 'true') {
+        document.getElementById('gdpr').style.display = 'none';
+    } else {
+        document.getElementById('gdpr').style.display = 'block';
+    }
+    document.getElementById('cookie-notice').addEventListener("click", function () {
+        createCookie('cookie-notice-dismissed', 'true', 31);
+        document.getElementById('gdpr').style.display = 'none';
+        location.reload();
+    });
+
+</script>
+        <header>
+    <nav class="navbar navbar-light bg-white navbar-expand-lg">
+        <div class="container d-flex justify-content-between">
+            <a class="navbar-brand" href="/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="82.25" height="35" viewBox="0 0 235 100"
+                    fill-rule="evenodd" xmlns:v="https://vecta.io/nano">
+                    <circle cx="15.287" cy="84.528" r="15.287" fill="#f66" />
+                    <path
+                        d="M63.503 36.35a3.6 3.6 0 0 1 3.6 3.6v.02l-.16 29.292c0 16.717-13.416 30.3-30.068 30.57l-.506.004V69.26h.086l.084-29.32a3.6 3.6 0 0 1 3.6-3.59h23.364zm46.96 0a3.6 3.6 0 0 1 3.6 3.6v41a3.6 3.6 0 0 1-3.6 3.6H87.09a3.6 3.6 0 0 1-3.6-3.6v-41a3.6 3.6 0 0 1 3.6-3.6h23.374zm36.872-.18l.457.004c15.043.24 27.21 12.32 27.6 27.327l.01.01v17.257a3.6 3.6 0 0 1-3.6 3.6H134.03a3.6 3.6 0 0 1-3.6-3.6v-41a3.6 3.6 0 0 1 3.6-3.6h13.306zm61.867 47.84l-.001-.042c-12.64-.745-22.66-11.23-22.66-24.057 0-13.3 10.8-24.1 24.1-24.1 12.827 0 23.313 10.02 24.057 22.66h.042V80.41a3.6 3.6 0 0 1-3.6 3.6h-21.938z"
+                        fill="#099" />
+                    <circle cx="98.736" cy="15.287" r="15.287" fill="#fc6" />
+                </svg>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">PRODUCTS</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown07">
+                            <a class="dropdown-item" href="/products/search/">Search</a>
+                            <a class="dropdown-item" href="/products/hub/">Hub</a>
+                            <a class="dropdown-item" href="/products/dashboard/">Dashboard</a>
+                            <a class="dropdown-item" href="/products/box/">Box</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">COMPANY</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown07">
+                            <a class="dropdown-item" href="/about">About Jina AI</a>
+                            <a class="dropdown-item" href="https://jobs.jina.ai">Career</a>
+                            <a class="dropdown-item" href="/news">News</a>
+                            <a class="dropdown-item" href="mailto:hello@jina.ai">Contact</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/learn">LEARN</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">COMMUNITY</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown07">
+                            <a class="dropdown-item" href="/contribute">Contribute</a>
+                            <a class="dropdown-item" href="/blog">Blog</a>
+                            <a class="dropdown-item" href="/events">Events</a>
+                            <a class="dropdown-item" href="http://slack.jina.ai">Slack</a>
+                        </div>
+                    </li>
+                    <li class="nav-logo">
+                        <a href="https://github.com/jina-ai/jina/" target="_blank"><img
+                                src="/assets/images/github-black.svg" /></a>
+                    </li>
+                </ul>
+                <!-- <form class="form-inline my-2 my-md-0">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+              </form> -->
+            </div>
+        </div>
+    </nav>
+<nav class="navbar navbar-light navbar-expand-lg" style="background-color: #fff3cd">
+        <div class="container">
+            <p class="text-center" style="margin-left:auto; margin-right:auto; margin-bottom: 0">Jina 2.0 is out now! <strong><a href="https://github.com/jina-ai/jina">Check our GitHub repo to learn more!</a></strong></p>
+        </div>
+    </nav>
+</header>
+
+        <div class="container-fluid px-0">
+                <div class="container-fluid px-0">
+    <section class="blog-post">
+    <div class="title-bg-image mb-4" style="background-image: url(/assets/images/blog/jina_terraform.png)">
+        <div class="title-overlay p-4 pt-md-5">
+            <div class="px-md-5 mx-md-5">
+                <h1>Jina and Terraform</h1>
+                <p>Published <time datetime="2020-11-05">2020-11-05</time></p>
+            </div>
+            
+        </div>
+    </div>
+    <div class="container">
+        <h1 id="jina-️-terraform">Jina ❤️ Terraform</h1>
+
+<p>Hi everyone!
+Recently I’ve been working with Terraform and tinkering with it to see how we can integrate it with Jina, so I thought to share with you all that I got.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*NOHC39WweKZll_StMSz6Vg.jpeg" alt="" /></p>
+
+<p>First thing was to see what Terraform is and why everyone is so hyped about it. According to their website:</p>
+
+<blockquote class="blockquote ml-5 mr-5">
+“Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions.”
+</blockquote>
+
+<p>So that’s a lot of fancy words to say it’s a way for you to define your infrastructure via code. No need to go to AWS console and define every part of the infrastructure there. This comes in very handy since it’s easier to debug when you have everything in one script so you can see all the details in one single place.</p>
+
+<p>Cool! Nice, sold, what now?</p>
+
+<p>Let’s tweak our <a href="https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Fjina-ai%2Fexamples%2Ftree%2Fmaster%2Fsouthpark-search">South Park</a> example and instead of running our Docker image locally and then checking the results with Curl, let’s set everything on an AWS instance and use that URL. And of course, because otherwise this post wouldn’t make sense and I could be napping instead, let’s set up the infrastructure with Terraform. </p>
+
+<hr />
+
+<h2 id="what-will-youneed">What will you need?</h2>
+<ol>
+  <li>Terraform</li>
+  <li>An AWS account</li>
+  <li>The South Park Docker image</li>
+</ol>
+
+<p>The first thing is to install Terraform, and the installation will depend on your OS. I’m using macOS and I installed it via Homebrew:</p>
+
+<p><code class="highlighter-rouge">brew install terraform</code></p>
+
+<p>Once you have it installed, you need to configure your AWS, so on your console the first command you’ll run is:</p>
+
+<p><code class="highlighter-rouge">aws configure</code></p>
+
+<p>This will ask for the credentials of your AWS account. Once you set this, you won’t need to specify keys through code, which is good because that’s a bad practice and you will end up with your account in quarantine…this might have or not have happened to me. </p>
+
+<p>Ok! we have all the setup ready and we can start to write our Terraform file. </p>
+
+<hr />
+
+<h2 id="what-is-happening-what-is-going-tohappen">What is happening? What is going to happen?</h2>
+<ol>
+  <li>Create an image repository in AWS and push our South Park docker image</li>
+  <li>Create an ECS Cluster &amp; Task</li>
+  <li>Create an ECS service &amp; load balancer</li>
+</ol>
+
+<hr />
+
+<h2 id="create-an-image-repository-in-aws-and-push-our-south-park-docker-image">Create an image repository in AWS and push our South Park docker image</h2>
+
+<p>We already have a Docker image with the South Park example so we don’t need to create a new one.</p>
+
+<p>So the first thing is to create our Terraform script. It can be called whatever you want but with a .tf extension</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>provider "aws" {
+  version = "~&gt; 2.0"
+  region  = "us-east-2"
+}
+
+#Create repo
+resource "aws_ecr_repository" "southpark" {
+  name = "sp-repo" # Naming my repository
+  tags = {
+    Name = "southpark_repo"
+  }
+}
+</code></pre></div></div>
+
+<p>The first part is to create a provider, with Terraform you can use <strong>AWS</strong>, <strong>Azure</strong>, <strong>Google Cloud Platform</strong> or many others, you can even write your own if you feel like life is too boring and you are an expert in Go. Whatever floats your boat. We’ll use AWS for this example. The second part is to create our repository and we just need to set the name for it. The tags are always optional.</p>
+
+<p>This is the simplest Terraform file you can have, if you run this, Terraform will create an AWS repository for you, so let’s do that. </p>
+
+<p>You can run </p>
+
+<p><code class="highlighter-rouge">terraform plan</code></p>
+
+<p>And this will print a plan with all the resources that will be created, modified, or deleted. In this case, we are only creating a resource so it will show that. This command is always nice to do for a sanity check, so you see what will happen before it happens, and if we agree with this we run the script with</p>
+
+<p><code class="highlighter-rouge">terraform apply</code></p>
+
+<p>After we run this, if we go to our AWS console, we’ll see that an sp-repo has been created</p>
+
+<p><img src="https://miro.medium.com/max/700/1*uBSArpUv9O6DcpElkv4OFQ.png" alt="" /></p>
+
+<p>Great, we have our repository ready. But at the moment it’s empty, we need to push our Southpark docker image into it. To do that click on the repository name, and then in the upper right corner you’ll see a button of “View Push commands”</p>
+
+<p><img src="https://miro.medium.com/max/700/1*ZcUygghp_Ifw2oCrgYca8w.png" alt="" /></p>
+
+<p>We will use that information to push our Docker image</p>
+
+<p><img src="https://miro.medium.com/max/700/1*HkhGylAFXfmbqcniAOs_WA.png" alt="" /></p>
+
+<p>Follow the steps that are shown there except step 2, we don’t need that since we already have our Docker image. After you’ve done that, you should have the Southpark image in your repository, yay. </p>
+
+<h2 id="create-a-cluster-task">Create a Cluster &amp; Task</h2>
+
+<p>The next step is to create a Cluster.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>resource "aws_ecs_cluster" "southpark_cluster" {
+  name = "southpark_cluster" # Naming the cluster
+}
+</code></pre></div></div>
+
+<p>Ok, for the task we need a bit more details</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#Create task
+resource "aws_ecs_task_definition" "southpark_task" {
+  family                   = "southpark_task" 
+  container_definitions    = &lt;&lt;DEFINITION
+  [
+    {
+      "name": "southpark_task",
+      "image": "${aws_ecr_repository.southpark.repository_url}",
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 45678,
+          "hostPort": 45678
+        }
+      ],
+      "memory": 2014,
+      "cpu": 1024
+    }
+  ]
+  DEFINITION
+  requires_compatibilities = ["FARGATE"] # Stating that we are using ECS Fargate
+  network_mode             = "awsvpc"    # Using awsvpc as our network mode as this is required for Fargate
+  memory                   = 2048         # Specifying the memory our container requires
+  cpu                      = 1024        # Specifying the CPU our container requires
+  execution_role_arn       = "${aws_iam_role.ecsExecutionRole.arn}"
+}
+</code></pre></div></div>
+
+<p>For this, we will set the image URL of our Docker image and set the ports to <code class="highlighter-rouge">45678</code>, the same that the Southpark example is using. </p>
+
+<p>If you run <code class="highlighter-rouge">terraform apply</code> you should see a new cluster with a task attached to it</p>
+
+<p><img src="https://miro.medium.com/max/700/1*HJc1oek7Yf7ry0X5ZhyJ4w.png" alt="" /></p>
+
+<h2 id="create-a-service--loadbalancer">Create a service &amp; load balancer</h2>
+
+<p>Ok, now we want to create a service that will use the task we just created as a blueprint. Here we will set the name of the service, a reference to our cluster, and to the task we just made. We will have only one container so we set <code class="highlighter-rouge">desired_count</code> to 1</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#create service
+resource "aws_ecs_service" "southpark_service" {
+  name            = "southpark_service"                             # Naming our first service
+  cluster         = "${aws_ecs_cluster.southpark_cluster.id}"             # Referencing our created Cluster
+  task_definition = "${aws_ecs_task_definition.southpark_task.arn}" # Referencing the task our service will spin up
+  launch_type     = "FARGATE"
+  desired_count   = 1
+
+  load_balancer {
+    target_group_arn = "${aws_lb_target_group.target_group.arn}" # Referencing our target group
+    container_name   = "${aws_ecs_task_definition.southpark_task.family}"
+    container_port   = 45678 # Specifying the container port
+  }
+
+  network_configuration {
+    subnets          = data.aws_subnet_ids.default.ids
+    assign_public_ip = true                                                # Providing our containers with public IPs
+    security_groups  = ["${aws_security_group.service_security_group.id}"] # Setting the security group
+  }
+  depends_on = [aws_lb_listener.lsr, aws_iam_role_policy_attachment.ecsTaskExecutionRole_policy]
+}
+</code></pre></div></div>
+
+<p>We need a load balancer as the access point to our container. The load balancer needs a security group, so we need to create that too</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Creating a security group for the load balancer:
+# This is the one that will receive traffic from internet
+resource "aws_security_group" "load_balancer_security_group" {
+  description = "control access to the ALB"
+  ingress {
+    from_port   = 45678
+    to_port     = 45678
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"] # Allowing traffic in from all sources
+  }
+
+  egress {
+    from_port   = 0
+    to_port     = 0
+    protocol    = "-1"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+}
+
+#ECS will receive traffic from the ALB
+resource "aws_security_group" "service_security_group" {
+  description = "Allow acces only from the ALB"
+  ingress {
+    from_port = 0
+    to_port   = 0
+    protocol  = "-1"
+    # Only allowing traffic in from the load balancer security group
+    security_groups = ["${aws_security_group.load_balancer_security_group.id}"]
+  }
+
+  egress { 
+    from_port   = 0
+    to_port     = 0
+    protocol    = "-1"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+}
+</code></pre></div></div>
+
+<p>The idea is that all traffic will be received by our <em>load_balancer_security_group</em> (ALB), and the <em>service_security_group</em> will receive only from the ALB.</p>
+
+<p>Just for debugging, we have also an output to show us the URL that will use to access our Southpark example</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>output "alb_url" {
+  value = "http://${aws_alb.application_load_balancer.dns_name}"
+}
+</code></pre></div></div>
+
+<p>If you run <code class="highlighter-rouge">terraform apply</code> you will have now a cluster with 1 task and 1 service running on it.</p>
+
+<p><img src="https://miro.medium.com/max/700/1*HJc1oek7Yf7ry0X5ZhyJ4w.png" alt="" /></p>
+
+<p>Also in your terminal, you’ll see the output with the URL, we can use that one to check our results with CURL as in the Southpark example.</p>
+
+<p><img src="https://miro.medium.com/max/430/1*HAnkv3PSwmOiu17FSbC9lA.jpeg" alt="" /></p>
+
+<p>That’s it! But just before you go and nap, do a terraform destroy if you won’t need it anymore so you release all the resources and don’t get charged extra in AWS if you’re using the free version.</p>
+
+    </div>
+    </section>
+    <div class="container">
+        <section class="meta">
+            <br />
+            <div class='btn-group' role='group'>
+                
+                    
+                        <a href="https://jina.ai/events/2020/11/04/thank-you-hacktoberfest.html" type="button" class="btn btn-outline-primary">Previous: Thank you Hacktoberfest!</a>
+                    
+                
+                
+                    
+                        <a href="https://hanxiao.io/2020/11/10/Optimizing-the-Overhead-of-a-Decentralized-Search-System/" type="button" class="btn btn-outline-primary">Next: Benchmark a Decentralized Search System on 79 Past Releases</a>
+                    
+                
+            </div>
+            
+                
+                    
+            <hr>
+            <span class="author">
+                <a href="/about/">Jina AI</a>
+            </span>
+            <span class="time">
+                /
+                <time datetime="2020-11-05">2020-11-05</time>
+            </span>
+            <br />
+            <span class="license">
+                Published under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">(CC)
+                    BY-NC-SA</a>
+            </span>
+            
+            <span class="categories">
+                in categories
+                
+            </span>
+            
+            
+            <span class="tags">
+                tagged with
+                
+            </span>
+            
+        </section>
+        <!-- ShareThis BEGIN -->
+<div class="sharethis-inline-share-buttons"></div>
+<!-- ShareThis END -->
+    </div>
+    
+</div>
+
+                <svg width="0" height="0" class="hidden">
+    <symbol xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" id="linkedin">
+        <path
+            d="M26.93 1c1.09 0 1.986.823 2.064 1.868l.006.15v23.96c0 1.065-.847 1.938-1.917 2.015L26.93 29H3.065c-1.087 0-1.98-.825-2.06-1.87L1 26.98V3.018c0-1.064.844-1.936 1.91-2.013L3.065 1H26.93zm-7.482 9.917c-1.895 0-3.193.994-3.778 1.98l-.075.134h-.056v-1.79l-3.903-.001v13.092h4.067v-6.475c0-1.708.324-3.363 2.442-3.363 1.568 0 1.974 1.1 2.08 2.288l.02.3.007.15.01.445.001 6.656h4.07l-.004-7.615-.013-.427c-.02-.493-.063-.964-.134-1.4l-.068-.375c-.44-2.148-1.66-3.59-4.665-3.59zm-10.366.325H5.006v13.09h4.076v-13.09zM7.045 4.734a2.36 2.36 0 0 0-.003 4.72 2.39 2.39 0 0 0 2.1-1.163 2.36 2.36 0 0 0 .002-2.39 2.36 2.36 0 0 0-1.918-1.164l-.17-.003z"
+            fill-rule="nonzero"></path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" id="github">
+        <path
+            d="M15 0C6.713 0 0 6.665 0 14.885c0 6.578 4.298 12.156 10.256 14.122.75.14 1.025-.32 1.025-.716l-.02-2.53C7.1 26.658 6.2 23.763 6.2 23.763c-.683-1.718-1.67-2.177-1.67-2.177-1.36-.923.105-.904.105-.904 1.506.104 2.297 1.533 2.297 1.533 1.337 2.276 3.51 1.62 4.37 1.238.135-.963.52-1.62.95-1.99C8.93 21.1 5.43 19.8 5.43 14.107c0-1.625.58-2.952 1.544-3.994-.17-.376-.675-1.89.13-3.94 0 0 1.256-.4 4.125 1.526 1.2-.33 2.475-.495 3.75-.502 1.275.007 2.55.17 3.75.502 2.85-1.925 4.106-1.526 4.106-1.526.806 2.05.3 3.564.15 3.94a5.74 5.74 0 0 1 1.538 3.994c0 5.718-3.506 6.977-6.844 7.343.525.447 1.012 1.36 1.012 2.754l-.02 4.076c0 .39.263.856 1.03.707C25.706 27.034 30 21.453 30 14.885 30 6.665 23.284 0 15 0"
+            fill-rule="nonzero"></path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" id="slack">
+        <path
+            d="M7.462 18.43a2.74 2.74 0 0 1-2.731 2.731A2.74 2.74 0 0 1 2 18.43a2.74 2.74 0 0 1 2.731-2.731h2.73v2.73zm1.377 0a2.74 2.74 0 0 1 2.731-2.731 2.74 2.74 0 0 1 2.731 2.731v6.84A2.74 2.74 0 0 1 11.57 28a2.74 2.74 0 0 1-2.731-2.731v-6.84zm2.73-10.968a2.74 2.74 0 0 1-2.731-2.731A2.74 2.74 0 0 1 11.57 2a2.74 2.74 0 0 1 2.731 2.731v2.73h-2.73zm0 1.377A2.74 2.74 0 0 1 14.3 11.57a2.74 2.74 0 0 1-2.731 2.731H4.73A2.74 2.74 0 0 1 2 11.57a2.74 2.74 0 0 1 2.731-2.731h6.84zm10.968 2.73a2.74 2.74 0 0 1 2.731-2.731A2.74 2.74 0 0 1 28 11.57a2.74 2.74 0 0 1-2.731 2.731h-2.73v-2.73zm-1.377 0a2.74 2.74 0 0 1-2.731 2.731 2.74 2.74 0 0 1-2.731-2.731V4.73A2.74 2.74 0 0 1 18.43 2a2.74 2.74 0 0 1 2.731 2.731v6.84zm-2.73 10.968a2.74 2.74 0 0 1 2.731 2.731A2.74 2.74 0 0 1 18.43 28a2.74 2.74 0 0 1-2.731-2.731v-2.73h2.73zm0-1.377a2.74 2.74 0 0 1-2.731-2.731 2.74 2.74 0 0 1 2.731-2.731h6.84A2.74 2.74 0 0 1 28 18.43a2.74 2.74 0 0 1-2.731 2.731h-6.84z"
+            fill-rule="nonzero"></path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" id="twitter">
+        <path
+            d="M15 0c8.284 0 15 6.716 15 15s-6.716 15-15 15S0 23.284 0 15 6.716 0 15 0zm3.847 8c-2.266 0-4.103 1.92-4.103 4.29a4.49 4.49 0 0 0 .106.978c-3.4-.18-6.433-1.887-8.457-4.484a4.426 4.426 0 0 0-.556 2.158c-.001 1.435.684 2.776 1.825 3.572a3.95 3.95 0 0 1-1.858-.537v.054c0 2.08 1.414 3.814 3.292 4.208a3.939 3.939 0 0 1-1.853.074c.537 1.748 2.078 2.946 3.833 2.98A8.004 8.004 0 0 1 5.98 23.13a7.98 7.98 0 0 1-.979-.06 11.264 11.264 0 0 0 6.3 1.928c7.547 0 11.675-6.54 11.675-12.21a12.93 12.93 0 0 0-.012-.555 8.546 8.546 0 0 0 2.047-2.222 7.934 7.934 0 0 1-2.357.676 4.274 4.274 0 0 0 1.804-2.374 8 8 0 0 1-2.605 1.042C21.066 8.49 19.98 7.998 18.847 8z">
+        </path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" id="youtube">
+        <path
+            d="M15 0c8.284 0 15 6.716 15 15s-6.716 15-15 15S0 23.284 0 15 6.715 0 15 0zm5.243 9l-10.54.002-.15.012-.144.02-.172.03-.195.046C8.225 9.327 7 9.982 7 11.945l.002 6.174.012.17.02.162.032.193c.162.86.726 2.356 2.69 2.356l10.54-.002.15-.012.144-.02.172-.03.195-.046c.817-.218 2.043-.872 2.043-2.836l-.002-6.175-.007-.108-.027-.24-.034-.202C22.76 10.468 22.19 9 20.242 9zM13 12l5 3.5-5 3.5v-7z"
+            fill-rule="nonzero"></path>
+    </symbol>
+</svg>
+
+<footer>
+    <div class="container-fluid pb-3 pt-3 bg-primary">
+        <div class="container">
+            <div class="row py-lg-5">
+                <div class="col d-none d-md-block">
+                    <p class="footer-top-menu text-white">PRODUCTS</p>
+                    <div class="d-flex; flex-column">
+                        <div class="footer-sub-menu">
+                            <a href="/products/search/">Search</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/products/hub/">Hub</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/products/dashboard/">Dashboard</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/products/box/">Box</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-none d-md-block">
+                    <p class="footer-top-menu text-white">COMPANY</p>
+                    <div class="d-flex; flex-column">
+                        <div class="footer-sub-menu">
+                            <a href="/about">About Us</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/join">Career</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/news">News</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="mailto: hello@jina.ai">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-none d-md-block">
+                    <p class="footer-top-menu text-white">LEARN</p>
+                    <div class="d-flex; flex-column">
+                        <div class="footer-sub-menu">
+                            <a href="/about">What</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/learn#why-jina">Why</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="">Get Started</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="https://docs.jina.ai/" target="_blank">Docs</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="https://github.com/jina-ai/examples" target="_blank">Examples</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-none">
+                    <p class="footer-top-menu text-white">COMMUNITY</p>
+                    <div class="d-flex; flex-column">
+                        <div class="footer-sub-menu">
+                            <a href="/contribute">Contribute</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/blog">Blog</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/events">Events</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" id="footer-subscribe">
+                    <div class="d-flex; flex-column">
+                        <p class="footer-sub-menu text-white">Subscribe to our newsletter</p>
+                        <!-- Begin Mailchimp Signup Form -->
+<!-- <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css"> -->
+<!-- <div id="mc_embed_signup"> -->
+<form action="https://jina.us17.list-manage.com/subscribe/post?u=135040dff373660039d95c86c&amp;id=6873344704" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll" >
+	<!-- <label for="mce-EMAIL">Subscribe</label> -->
+	<input class="form-control bg-white my-3" type="email" value="" placeholder="Your email" name="EMAIL" id="mce-EMAIL" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <!-- <div aria-hidden="true"><input type="text" name="b_135040dff373660039d95c86c_6873344704" tabindex="-1" value=""></div> -->
+    <div class="clear" ><input class="btn btn-pill btn-dark shadow-sm get-started mt-3" type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="button" ></div>
+    </div>
+</form>
+<!-- </div> -->
+<!--End mc_embed_signup-->
+
+                    </div>
+                </div>
+                <div class=" col-12 py-4 py-md-0">
+                    <div class="d-flex flex-row">
+                        <div class="pl-0 social-item">
+                            <a href="https://github.com/jina-ai/jina/" target="_blank">
+                                <svg class="icon" width="30" height="30" viewBox="0 0 30 30" preserveAspectRatio="none">
+                                    <use xlink:href="#github"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="social-item">
+                            <a href="https://www.youtube.com/c/jina-ai" target="_blank">
+                                <svg class="icon" width="30" height="30" viewBox="0 0 30 30" preserveAspectRatio="none">
+                                    <use xlink:href="#youtube"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="social-item">
+                            <a href="https://www.linkedin.com/company/jinaai/" target="_blank">
+                                <svg class="icon" width="30" height="30" viewBox="0 0 30 30" preserveAspectRatio="none">
+                                    <use xlink:href="#linkedin"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="social-item">
+                            <a href="https://twitter.com/jinaAI_" target="_blank">
+                                <svg class="icon" width="30" height="30" viewBox="0 0 30 30" preserveAspectRatio="none">
+                                    <use xlink:href="#twitter"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="social-item">
+                            <a href="http://jina-ai.slack.com/" target="_blank">
+                                <svg class="icon" width="30" height="30" viewBox="0 0 30 30" preserveAspectRatio="none">
+                                    <use xlink:href="#slack"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid pb-3 pt-3 bg-secondary">
+        <div class="container">
+            <div class="row d-flex   justify-content-between">
+
+                <div class="d-flex flex-md-row flex-column justify-content-between">
+                    <div class="auth-item">
+                        <a href="/">© 2020 Jina AI, Ltd. All rights reserved.</a>
+                    </div>
+                    <div class="auth-item">
+                        <a href="https://github.com/jina-ai/legal/blob/master/TERMS-OF-USE.md">Terms of
+                            Service</a>
+                    </div>
+                    <div class="auth-item">
+                        <a href="https://github.com/jina-ai/legal/blob/master/PRIVACY.md">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</footer>
+
+                <!-- JS, Popper.js, and jQuery -->
+                <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+                        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+                        crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+                        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+                        crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+                        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+                        crossorigin="anonymous"></script>
+                <link rel="stylesheet"
+                        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+                        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+                        crossorigin="anonymous">
+        </div>
+</body>
+
+</html>

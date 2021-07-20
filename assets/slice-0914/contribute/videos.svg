@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 30</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Contribute-pc" transform="translate(-165.000000, -1736.000000)" stroke="#009999" stroke-width="6">
+            <g id="编组-26" transform="translate(165.000000, 1736.000000)">
+                <rect id="矩形" stroke-linejoin="round" fill-rule="nonzero" x="13" y="22" width="38" height="36" rx="4"></rect>
+                <path d="M54.4,33.7516447 L64.6,29.3109735 C66.4777681,28.4934685 68,29.3433408 68,31.2092165 L68,49.7907835 C68,51.6566592 66.4777681,52.5065315 64.6,51.6890265 L54.4,47.2483553 C52.5222319,46.4308504 51,45.1391655 51,44.3632965 L51,36.6367035 C51,35.8608345 52.5222319,34.5691496 54.4,33.7516447 Z" id="矩形"></path>
+            </g>
+        </g>
+    </g>
+</svg>
