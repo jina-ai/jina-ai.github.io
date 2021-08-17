@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+<head>
+        <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>How to build a production-ready Financial Question Answering system with Jina and BERT | Jina AI</title>
+<meta name="generator" content="Jekyll v4.0.1" />
+<meta property="og:title" content="How to build a production-ready Financial Question Answering system with Jina and BERT" />
+<meta name="author" content="Bithiah Yuan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Learn how to use Jina to build a Financial Question Answering search application" />
+<meta property="og:description" content="Learn how to use Jina to build a Financial Question Answering search application" />
+<link rel="canonical" href="https://jina.ai/2021/01/07/financial-qa-tutorial.html" />
+<meta property="og:url" content="https://jina.ai/2021/01/07/financial-qa-tutorial.html" />
+<meta property="og:site_name" content="Jina AI" />
+<meta property="og:image" content="https://jina.ai/assets/images/blog/financial-qa.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-01-07T10:00:39+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://jina.ai/assets/images/blog/financial-qa.png" />
+<meta property="twitter:title" content="How to build a production-ready Financial Question Answering system with Jina and BERT" />
+<meta name="twitter:site" content="@JinaAI_" />
+<meta name="twitter:creator" content="@Bithiah Yuan" />
+<script type="application/ld+json">
+{"description":"Learn how to use Jina to build a Financial Question Answering search application","@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://jina.ai/assets/images/jina_ico.png"},"name":"Bithiah Yuan"},"image":"https://jina.ai/assets/images/blog/financial-qa.png","headline":"How to build a production-ready Financial Question Answering system with Jina and BERT","url":"https://jina.ai/2021/01/07/financial-qa-tutorial.html","dateModified":"2021-01-07T10:00:39+00:00","datePublished":"2021-01-07T10:00:39+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jina.ai/2021/01/07/financial-qa-tutorial.html"},"author":{"@type":"Person","name":"Bithiah Yuan"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+        <meta charset=utf-8>
+        <!-- Google Tag Manager -->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164627626-2"></script>
+        <script>
+                function readCookie(name) {
+                        var nameEQ = name + "=";
+                        var ca = document.cookie.split(';');
+                        for (var i = 0; i < ca.length; i++) {
+                                var c = ca[i];
+                                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+                        }
+                        return null;
+                }
+                if (readCookie('cookie-notice-dismissed') === 'true') {
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag() { dataLayer.push(arguments); }
+                        gtag('js', new Date());
+
+                        gtag('config', 'UA-164627626-2')
+                }
+        </script>
+
+        <!-- End Google Tag Manager -->
+        <meta name="X-UA-Compatible" content="IE=edge">
+        <meta property="og:image" content="/assets/images/jina_banner_new.png">
+        <meta name=viewport content="width=device-width,initial-scale=1">
+        <title>Jina AI</title>
+        <link rel="icon" href="/assets/images/favicon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&family=Montserrat:wght@400;600&display=swap"
+                rel="stylesheet">
+        <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+        <div id="gdpr" class="container">
+    <section class="container-fluid">
+        <div class="row d-flex justify-content-center py-3" style="color: #fff;">
+            <p class=" mb-0 text-muted mt-2 mb-2 text-left">
+                GDPR Compliance Message
+
+                The European General Data Protection Regulation (GDPR) is the EU regulation for data privacy and
+                security.
+
+                At Jina AI, we are fully committed to complying with the GDPR. Our policy towards privacy,
+                security,
+                and data protection aligns with the goals of GDPR. On our website, we only collect and store information
+                that is essential for offering our service and for improving user experience, and we do this with the
+                consent of our website visitors.
+
+                If you have any further questions, please do not hesitate to reach out to us at:<br /> <a
+                    class="text-center" href="mailto: legal@jina.ai">legal@jina.ai</a>.
+
+            </p>
+            <button id="cookie-notice" class="btn btn-primary btn-pill" style="border: 1px solid #009999;">
+                GOT IT
+            </button>
+        </div>
+    </section>
+    <hr />
+</div>
+<script>
+    function createCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+
+    function eraseCookie(name) {
+        createCookie(name, "", -1);
+    }
+
+    if (readCookie('cookie-notice-dismissed') == 'true') {
+        document.getElementById('gdpr').style.display = 'none';
+    } else {
+        document.getElementById('gdpr').style.display = 'block';
+    }
+    document.getElementById('cookie-notice').addEventListener("click", function () {
+        createCookie('cookie-notice-dismissed', 'true', 31);
+        document.getElementById('gdpr').style.display = 'none';
+        location.reload();
+    });
+
+</script>
+        <header>
+    <nav class="navbar navbar-light bg-white navbar-expand-lg">
+        <div class="container d-flex justify-content-between">
+            <a class="navbar-brand" href="/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="82.25" height="35" viewBox="0 0 235 100"
+                    fill-rule="evenodd" xmlns:v="https://vecta.io/nano">
+                    <circle cx="15.287" cy="84.528" r="15.287" fill="#f66" />
+                    <path
+                        d="M63.503 36.35a3.6 3.6 0 0 1 3.6 3.6v.02l-.16 29.292c0 16.717-13.416 30.3-30.068 30.57l-.506.004V69.26h.086l.084-29.32a3.6 3.6 0 0 1 3.6-3.59h23.364zm46.96 0a3.6 3.6 0 0 1 3.6 3.6v41a3.6 3.6 0 0 1-3.6 3.6H87.09a3.6 3.6 0 0 1-3.6-3.6v-41a3.6 3.6 0 0 1 3.6-3.6h23.374zm36.872-.18l.457.004c15.043.24 27.21 12.32 27.6 27.327l.01.01v17.257a3.6 3.6 0 0 1-3.6 3.6H134.03a3.6 3.6 0 0 1-3.6-3.6v-41a3.6 3.6 0 0 1 3.6-3.6h13.306zm61.867 47.84l-.001-.042c-12.64-.745-22.66-11.23-22.66-24.057 0-13.3 10.8-24.1 24.1-24.1 12.827 0 23.313 10.02 24.057 22.66h.042V80.41a3.6 3.6 0 0 1-3.6 3.6h-21.938z"
+                        fill="#099" />
+                    <circle cx="98.736" cy="15.287" r="15.287" fill="#fc6" />
+                </svg>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">PRODUCTS</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown07">
+                            <a class="dropdown-item" href="/products/search/">Search</a>
+                            <a class="dropdown-item" href="/products/hub/">Hub</a>
+                            <a class="dropdown-item" href="/products/dashboard/">Dashboard</a>
+                            <a class="dropdown-item" href="/products/box/">Box</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">COMPANY</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown07">
+                            <a class="dropdown-item" href="/about">About Jina AI</a>
+                            <a class="dropdown-item" href="https://jobs.jina.ai">Career</a>
+                            <a class="dropdown-item" href="/news">News</a>
+                            <a class="dropdown-item" href="mailto:hello@jina.ai">Contact</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/learn">LEARN</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">COMMUNITY</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown07">
+                            <a class="dropdown-item" href="/contribute">Contribute</a>
+                            <a class="dropdown-item" href="/blog">Blog</a>
+                            <a class="dropdown-item" href="/events">Events</a>
+                            <a class="dropdown-item" href="http://slack.jina.ai">Slack</a>
+                        </div>
+                    </li>
+                    <li class="nav-logo">
+                        <a href="https://github.com/jina-ai/jina/" target="_blank"><img
+                                src="/assets/images/github-black.svg" /></a>
+                    </li>
+                </ul>
+                <!-- <form class="form-inline my-2 my-md-0">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+              </form> -->
+            </div>
+        </div>
+    </nav>
+<nav class="navbar navbar-light navbar-expand-lg" style="background-color: #fff3cd">
+        <div class="container">
+            <p class="text-center" style="margin-left:auto; margin-right:auto; margin-bottom: 0">Jina 2.0 is out now! <strong><a href="https://github.com/jina-ai/jina">Check our GitHub repo to learn more!</a></strong></p>
+        </div>
+    </nav>
+</header>
+
+        <div class="container-fluid px-0">
+                <div class="container-fluid px-0">
+    <section class="blog-post">
+    <div class="title-bg-image mb-4" style="background-image: url(/assets/images/blog/financial-qa.png)">
+        <div class="title-overlay p-4 pt-md-5">
+            <div class="px-md-5 mx-md-5">
+                <h1>How to build a production-ready Financial Question Answering system with Jina and BERT</h1>
+                <p>Published <time datetime="2021-01-07">2021-01-07</time></p>
+            </div>
+            
+        </div>
+    </div>
+    <div class="container">
+        <p>Learn how to use the neural search framework, <strong><a href="https://github.com/jina-ai/jina">Jina</a></strong>, to build a <strong>Financial Question Answering (QA) search application</strong> 
+using the <a href="https://sites.google.com/view/fiqa/home">FiQA</a> dataset, <a href="https://pytorch.org">PyTorch</a>, and <a href="https://github.com/huggingface/transformers">Hugging Face transformers</a>.</p>
+
+<p>For my master’s thesis, I built a Financial QA system using a fine-tuned BERT model called 
+<a href="https://github.com/yuanbit/FinBERT-QA">FinBERT-QA</a>. Motivated by the emerging demand in the financial industry for 
+the automatic analysis of unstructured and structured data at scale, <strong>QA systems can provide lucrative and competitive 
+advantages</strong> to companies by facilitating the decision making of financial advisers.</p>
+
+<p>The goal of my thesis was to search for a ranked list of relevant answer passages given a question. 
+Here is an example of a financial domain-based question and a ground truth answer from the <a href="https://sites.google.com/view/fiqa/home">FiQA</a> dataset:</p>
+
+<p align="center">
+<figure>
+<img src="/assets/images/blog/financial-qa/sample-qa.png" alt="performance" width="450px" />
+<figcaption>Sample QA from the financial domain</figcaption>
+</figure>
+</p>
+
+<p>Here is a list of other questions from <a href="https://sites.google.com/view/fiqa/home">FiQA</a>:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>• What does it mean that stocks are “memoryless”?
+• What would a stock be worth if dividends did not exist?
+• What are the risks of Dividend-yielding stocks?
+• Why do financial institutions charge so much to convert currency?
+• Is there a candlestick pattern that guarantees any kind of future profit?
+• 15 year mortgage vs 30 year paid off in 15
+• Why is it rational to pay out a dividend?
+• Why do companies have a fiscal year different from the calendar year?
+• What should I look at before investing in a start-up?
+• Where do large corporations store their massive amounts of cash?
+</code></pre></div></div>
+
+<p>Financial QA is <strong>hard</strong> because the vocabularies are context specific, for example, a machine would
+have a hard time understanding what an <em>ETF</em> is. Nevertheless, <strong>with the power of BERT, I improved the state-of-the-art (SOTA) results by an average of 19% on three 
+evaluation metrics (Precision, MRR, NDCG)</strong>.</p>
+
+<p align="center">
+<figure>
+<img src="/assets/images/blog/financial-qa/model-performance.png" alt="performance" width="600px" />
+<figcaption>Evaluation results from <a href="https://github.com/yuanbit/FinBERT-QA">FinBERT-QA</a></figcaption>
+</figure>
+</p>
+
+<p>Even though my thesis was about QA in the financial domain, the approach that I have used can be applied to a
+<a href="https://github.com/microsoft/MSMARCO-Passage-Ranking">general QA dataset</a> or QA in other domains such as 
+<a href="https://github.com/shuzi/insuranceQA">insurance</a>.</p>
+
+<p>After finishing my thesis, I realized that <strong>just having a model and SOTA results is not good enough</strong> because there 
+was a gap between my research and business needs. This was when I discovered <strong>Jina, a framework designed to 
+help me bridge this gap</strong>. To help people better understand Jina, I prepared this tutorial to demonstrate how
+I used Jina to easily <strong>transform my research into a production-ready system</strong>.</p>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+  <li><a href="#background">Background</a>
+    <ul>
+      <li><a href="#what-is-jina">What is Jina?</a></li>
+      <li><a href="#financial-qa-with-bert">Financial QA with BERT</a></li>
+      <li><a href="#why-jina">Why Jina?</a></li>
+    </ul>
+  </li>
+  <li><a href="#tutorial">Tutorial</a>
+    <ul>
+      <li><a href="#set-up">Set Up</a></li>
+      <li><a href="#index-flow">Index Flow</a>
+        <ul>
+          <li><a href="#step-1-define-our-data">Step 1. Define our data</a></li>
+          <li><a href="#step-2-encode-answer-passages">Step 2. Encode Answer Passages</a></li>
+          <li><a href="#step-3-indexing">Step 3. Indexing</a></li>
+          <li><a href="#build-an-indexer-application">Build an Indexer Application</a></li>
+        </ul>
+      </li>
+      <li><a href="#query-flow">Query Flow</a>
+        <ul>
+          <li><a href="#step-1-encode-question">Step 1. Encode Question</a></li>
+          <li><a href="#step-2-search-indexes">Step 2. Seach Indexes</a></li>
+          <li><a href="#step-3-reranking">Step 3. Reranking</a>
+            <ul>
+              <li><a href="#build-a-custom-executor">Build a Custom Executor</a></li>
+            </ul>
+          </li>
+          <li><a href="#build-a-search-application">Build a Search Application</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#summary">Summary</a></li>
+  <li><a href="#next-steps-evaluation">Next Steps: Evaluation</a></li>
+  <li><a href="#learn-more">Learn More</a></li>
+</ul>
+
+<h2 id="background">Background</h2>
+
+<h3 id="what-is-jina">What is Jina?</h3>
+
+<p align="center">
+<img src="/assets/images/jina_banner_new.png" width="500" />
+</p>
+
+<p>Open-source deep learning frameworks such as TensorFlow and PyTorch provide building blocks for designing and quickly implementing
+neural network-based applications through a high level programming interface.</p>
+
+<p>Similarly, <strong>Jina</strong> is an <strong>open-source neural search framework</strong> that offers the building blocks for designing and implementing <strong>neural network-based
+search applications</strong>.</p>
+
+<p>Co-founded by the creator of <a href="https://github.com/hanxiao/bert-as-service">bert-as-service</a> and 
+<a href="https://github.com/zalandoresearch/fashion-mnist">Fashion-MNIST</a>, Jina enables developers to build 
+<strong>production-ready cloud-native search systems</strong> using 
+<strong>SOTA pre-trained deep learning models</strong>, in which each component of the system is a <strong>microservice</strong> that can be deployed, scaled, and maintained independently.</p>
+
+<p align="center">
+<img src="/assets/images/blog/financial-qa/cloud.png" width="350" />
+</p>
+
+<p>If you come from a data science or academic background like me, the terms <strong>cloud-native</strong> and <strong>microservices</strong> may sound 
+daunting. That’s why we will learn by example in this tutorial and use the NLP task, Financial QA, to familiarize ourselves
+with Jina’s core concepts!</p>
+
+<h3 id="financial-qa-with-bert">Financial QA with BERT</h3>
+
+<p>Before we jump into the tutorial, let’s first understand how to build a QA system with BERT. Our goal is to 
+search for the top-k most relevant answer passages when given a question from task 2 of the <a href="https://sites.google.com/view/fiqa/home">FiQA</a> dataset.</p>
+
+<p>In 2018, Google’s pre-trained BERT models, used for transfer learning, shook the NLP world and achieved the SOTA 
+results on numerous tasks, marking NLP’s <a href="https://ruder.io/nlp-imagenet/">ImageNet moment</a>.</p>
+
+<p>What is neat about BERT is that we can fine-tune a pre-trained BERT model on our QA task by simply transforming 
+it into a <strong>binary classification task</strong>, where the input is the <strong>concatenation of a question and an answer</strong> and the 
+output is a binary label indicating the <strong>relevancy score</strong> of the QA pair. We can then take the softmax scores of 
+each QA pair to get a probability of relevancy and rank these scores.</p>
+
+<p align="center">
+<figure>
+<img src="/assets/images/blog/financial-qa/BERT-QA.png" width="400" />
+<figcaption>Fine-tuning method for our QA task</figcaption>
+</figure>
+</p>
+
+<p>The <a href="https://sites.google.com/view/fiqa/home">FiQA</a> dataset has roughly 6,000 questions and 57,000 answers. Instead of
+computing a probability for each question 57,000 times, we can adapt a <a href="https://arxiv.org/pdf/1901.04085.pdf">passage reranking</a>
+approach. We first use a <strong>Retriever</strong> to return the top-50 candidate answers for each question, 
+and then use <strong>FinBERT-QA</strong>, a BERT-based model fine-tuned on the <a href="https://sites.google.com/view/fiqa/home">FiQA</a> dataset
+as a <strong>Reranker</strong> to compute the relevancy scores and rerank the top-50 QA pairs to get the top-10 answers.</p>
+
+<p align="center">
+<figure>
+<img src="/assets/images/blog/financial-qa/qa-pipeline-simple.png" width="1000" />
+<figcaption>QA pipeline with reranking</figcaption>
+</figure>
+</p>
+
+<p>If you are interested in the details of my thesis, you can learn more <a href="https://github.com/yuanbit/FinBERT-QA">here</a>.</p>
+
+<h2 id="why-jina">Why Jina?</h2>
+
+<p>Why is having the SOTA model and results is not good enough?</p>
+
+<h3 id="jina-as-a-bridge-between-research-and-industry">Jina as a bridge between research and industry</h3>
+
+<p>The motivation behind my research was to be able to help financial advisor answer questions
+from large-scale reports. However, the way I implemented the QA pipeline is not reusable and it won’t scale
+to business demands. <strong>By industry standards, it is not production-ready.</strong></p>
+
+<p>Since <strong>Jina enables us to build cloud-native systems</strong>, which embrace 
+microservices, instead of wrapping my entire pipeline in a single Docker container, Jina will break down the pipeline 
+into components (preprocessor, encoder, indexer, etc.). Moreover, each of these components will be a microservice in its own isolated Docker 
+container managed by the <a href="https://docs.jina.ai/chapters/flow/index.html">Flow API</a>.</p>
+
+<p align="center">
+<figure>
+<img src="/assets/images/blog/financial-qa/cloud2.svg" width="350" />
+<figcaption>Illustration from <a href="https://www.manypixels.co/gallery/">manypixels</a></figcaption>
+</figure>
+</p>
+
+<p>For those of you new to cloud-native concepts, you can think of a microservice as an independent component of your 
+application, for example, using FinBERT-QA to encode our questions and answers. You can then create multiple independent components 
+or microservices to construct an application like a BERT-powered QA system. Since each of the components of the application can be deployed independently, 
+they can also scale individually and respond to rapid changes and business needs.</p>
+
+<p align="center">
+<figure>
+<img src="/assets/images/blog/financial-qa/business.svg" width="350" />
+<figcaption>Illustration from <a href="https://www.manypixels.co/gallery/">manypixels</a></figcaption>
+</figure>
+</p>
+
+<p>Being cloud-native is a modern design that more and more businesses are adapting to because it can help them save resources
+and grow. However, designing such systems is not easy. We need to consider many principles, patterns and best practices, 
+for example, how will the each component communicate with each other? How can they work in parallel? Luckily, instead of starting 
+from scratch, <strong>Jina does all the hard work for us by providing us the building blocks so that we can easily construct 
+a cloud-native BERT-powered QA system using an reranking approach that is ready to serve in production!</strong></p>
+
+<h2 id="tutorial">Tutorial</h2>
+
+<p>Now that we have an overview, let’s learn how to build a production-ready Financial QA system using the reranking approach and 
+dive deeper into some new Jina terminologies. We will use <a href="https://github.com/ProsusAI/finBERT">FinBERT</a> to encode our 
+questions and answer passages into embeddings and <a href="https://github.com/yuanbit/FinBERT-QA">FinBERT-QA</a> to rerank
+the top-50 answer matches.</p>
+
+<p><strong>The final code of this tutorial can be found <a href="https://github.com/yuanbit/jina-financial-qa-search">here</a>.</strong></p>
+
+<h3 id="set-up">Set up</h3>
+
+<p><strong>Clone the repository</strong> that we will be working together with here:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/yuanbit/jina-financial-qa-search-template.git
+</code></pre></div></div>
+
+<p>We will use <code class="highlighter-rouge">financial-qa-search/</code> as our working directory.</p>
+
+<p><strong>Install the requirements</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip install -r requirements.txt
+</code></pre></div></div>
+
+<p><strong>Download data and model</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash get_data.sh
+</code></pre></div></div>
+
+<p>For this tutorial, we won’t be searching through all 57,000 answer passages from the 
+<a href="https://sites.google.com/view/fiqa/home">FiQA</a> dataset. We will work with a sample dataset called <code class="highlighter-rouge">test_answers.csv</code>,
+containing about 800 answer passages. If you want to experiment with the full dataset, you can use <code class="highlighter-rouge">answer_collection.tsv</code>.</p>
+
+<p><strong>Flows</strong></p>
+
+<p>In Jina, we will build a Financial QA system with two pipelines, one for indexing our answer passages and
+the other for querying. These pipelines are called <strong>Flows</strong>, which also serve to manage the state and context
+of the microservices as well as orchestrating them. Let’s see what an overview of
+the <strong>Index Flow</strong> and <strong>Query Flow</strong>, you can click on the images to see the details:</p>
+
+<p align="center">
+<figure>
+<a href="https://raw.githubusercontent.com/yuanbit/financial-qa-search/master/img/index-flow.png">
+<img src="/assets/images/blog/financial-qa/index-flow.png" width="1000" />
+</a>
+<figcaption>Index Flow</figcaption>
+</figure>
+</p>
+
+<p align="center">
+<figure>
+<a href="https://raw.githubusercontent.com/yuanbit/financial-qa-search/master/img/query-flow.png">
+<img src="/assets/images/blog/financial-qa/query-flow.png" width="1000" />
+</a>
+<figcaption>Query Flow</figcaption>
+</figure>
+</p>
+
+<p>To understand these Flows, let’s start with the <strong>Index Flow</strong> and look into the individual components one by one.</p>
+
+<h3 id="index-flow">Index Flow</h3>
+
+<p>The main idea behind the Index Flow is to use a pre-trained BERT model to encode all of our answer
+passages into embeddings then indexing these embeddings so that they can be searched in the Query Flow.</p>
+
+<h4 id="step-1-define-our-data">Step 1. Define our data</h4>
+
+<p>We want to index a subset of  the answer passages from the FiQA dataset, <code class="highlighter-rouge">dataset/test_answers.csv</code>:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>398960	From  http://financial-dictionary.thefreedictionary.com/Business+Fundamentals  The  facts  that  affect  a  company's      underlying  value.  Examples  of  business      fundamentals  include  debt,  cash  flow,      supply  of  and  demand  for  the  company's      products,  and  so  forth.  For  instance,      if  a  company  does  not  have  a      sufficient  supply  of  products,  it  will      fail.  Likewise,  demand  for  the  product      must  remain  at  a  certain  level  in      order  for  it  to  be  successful.  Strong      business  fundamentals  are  considered      essential  for  long-term  success  and      stability.  See  also:  Value  Investing,      Fundamental  Analysis.  For  a  stock  the  basic  fundamentals  are  the  second  column  of  numbers  you  see  on  the  google  finance  summary  page,    P/E  ratio,  div/yeild,  EPS,  shares,  beta.      For  the  company  itself  it's  generally  the  stuff  on  the  'financials'  link    (e.g.  things  in  the  quarterly  and  annual  report,    debt,  liabilities,  assets,  earnings,  profit  etc.
+19183	If  your  sole  proprietorship  losses  exceed  all  other  sources  of  taxable  income,  then  you  have  what's  called  a  Net  Operating  Loss  (NOL).  You  will  have  the  option  to  "carry  back"  and  amend  a  return  you  filed  in  the  last  2  years  where  you  owed  tax,  or  you  can  "carry  forward"  the  losses  and  decrease  your  taxes  in  a  future  year,  up  to  20  years  in  the  future.  For  more  information  see  the  IRS  links  for  NOL.  Note:  it's  important  to  make  sure  you  file  the  NOL  correctly  so  I'd  advise  speaking  with  an  accountant.  (Especially  if  the  loss  is  greater  than  the  cost  of  the  accountant...)
+327002	To  be  deductible,  a  business  expense  must  be  both  ordinary  and  necessary.  An  ordinary  expense  is  one  that  is  common  and  accepted  in  your  trade  or  business.  A  necessary  expense  is  one  that  is  helpful  and  appropriate  for  your  trade  or  business.  An  expense  does  not  have  to  be  indispensable  to  be  considered  necessary.    (IRS,  Deducting  Business  Expenses)  It  seems  to  me  you'd  have  a  hard  time  convincing  an  auditor  that  this  is  the  case.    Since  business  don't  commonly  own  cars  for  the  sole  purpose  of  housing  $25  computers,  you'd  have  trouble  with  the  "ordinary"  test.    And  since  there  are  lots  of  other  ways  to  house  a  computer  other  than  a  car,  "necessary"  seems  problematic  also.
+</code></pre></div></div>
+
+<p>Our dataset consists of a column of answer id and text, which we will denote as docid and doc respectively in this tutorial.
+In order to index our data, we need to first define it in a Jina data type called <strong>Document</strong>.</p>
+
+<p align="center">
+<figure>
+<img src="/assets/images/blog/financial-qa/index-flow-step1.png" width="400" />
+<figcaption>Index Flow - Step 1</figcaption>
+</figure>
+</p>
+
+<p>In programming languages there are data types such as int, float, boolean, and more. In NumPy, TensorFlow, and PyTorch, 
+we manipulate and pass around objects such as ndarray and tensor, which are referred to as <strong>primitive data types</strong>. 
+Similarly, a <strong>Document</strong> is a Jina-specific data type for representing data.</p>
+
+<p><strong>Defining our data in a Document</strong></p>
+
+<p>In our project directory <code class="highlighter-rouge">financial-qa-search/</code> the <code class="highlighter-rouge">app.py</code> file consists of the Financial QA search application
+that we will build.  Notice that we set our data path in the <code class="highlighter-rouge">config</code> function as follows:</p>
+
+<script src="https://gist.github.com/yuanbit/f8bc065dbba8382b1dadd0c75203cf9e.js"></script>
+
+<p>You can change the path to <code class="highlighter-rouge">answer_collection.tsv</code> to index with the full dataset.</p>
+
+<p>Let’s first make sure we import <code class="highlighter-rouge">Document</code> from jina:</p>
+
+<script src="https://gist.github.com/yuanbit/f0f5d0a43738f50140e47fa2af6e8fcc.js"></script>
+
+<p>After the <code class="highlighter-rouge">config</code> function, let’s create a Python generator and define the Document to contain the id and text 
+corresponding to the answer passages:</p>
+
+<script src="https://gist.github.com/yuanbit/91effc3288862727199a13813f5c33a3.js"></script>
+
+<p>A Document is a high-level way for us to <strong>define and view the contents stored in Protobuf</strong>, which is what Jina uses to
+<strong>enable the microservices in the Flow to communicate with each other</strong>. It is like an envelope 
+containing our data and is used to send messages between the microservices of our Flow. Instead of directly
+dealing with Protobuf, which serializes our data into bytes, we can simply print our Document and see that a single answer 
+passage will look as follows:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>id: "13755c6081bebe1a"
+mime_type: "text/plain"
+tags {
+  fields {
+    key: "id"
+    value {
+      number_value: 398960.0
+    }
+  }
+}
+text: "From  http://financial-dictionary.thefreedictionary.com/Business+Fundamentals  The  facts  that  affect  a  
+company\'s underlying  value. Examples  of  business fundamentals  include  debt,  cash  flow, supply  of  and  demand  
+for  the  company\'s      products,  and  so  forth.  For  instance, if  a  company  does  not  have  a sufficient  
+supply  of  products,  it  will      fail.  Likewise,  demand  for  the  product      must  remain  at  a  certain  
+level  in      order  for  it  to  be  successful.  Strong      business  fundamentals  are  considered essential  for  
+long-term  success  and      stability.  See  also:  Value  Investing, Fundamental  Analysis.  For  a  stock  the  basic
+fundamentals  are  the  second  column  of  numbers  you  see  on  the  google  finance  summary  page, P/E  ratio,  
+div/yeild,  EPS,  shares,  beta.      For  the  company  itself  it\'s  generally  the  stuff  on  the  \'financials\'  
+link    (e.g.  things  in  the  quarterly  and  annual  report,    debt,  liabilities,  assets,  earnings,  profit  etc."
+</code></pre></div></div>
+
+<p><strong>As we move along the Index Flow, the contents of the Document will be changed</strong>, for example, we can see in the Index Flow that
+the embeddings of the answer passages are added to the Document after the encoding step.</p>
+
+<p align="center">
+<figure>
+<img src="/assets/images/blog/financial-qa/index-flow-step2-2.png" width="500" />
+<figcaption>Embeddings of the answer passages are added to the Document after the encoding step1</figcaption>
+</figure>
+</p>
+
+<p>The encoding step uses an <strong>Executor</strong>, namely the <strong>Encoder</strong>. Let’s understand this more next.</p>
+
+<h4 id="step-2-encode-answer-passages">Step 2. Encode Answer Passages</h4>
+
+<p align="center">
+<img src="/assets/images/blog/financial-qa/Encoder.png" width="300" />
+</p>
+
+<p>After defining the Document for the <strong>Index Flow</strong>, the next step is to encode the answer text into embeddings
+using a pre-trained BERT model. The logic that does the encoding is called an <strong>Encoder</strong>, which is part of Jina’s family
+of <strong>Executors</strong>.</p>
+
+<p>We will look at other Executors later and only focus on the Encoder for now. Instead using TensorFlow
+or PyTorch with the combination of Hugging Face transformers and implementing the Encoder ourselves, we can simply take advantage
+of <a href="https://github.com/jina-ai/jina-hub">Jina Hub</a>, an <strong>open-registry for hosting Jina Executors via container images</strong>.</p>
+
+<p>There are all kinds of Encoders and other types of Executors in Jina Hub for different tasks and data types 
+(e.g. image, video, audio, multimodal), allowing us to <strong>ship and exchange reusable component and build various
+deep learning-based search engines, e.g. text-image, cross-modal, and multi-modal searches.</strong> 
+Since our task is a text-to-text search, we will use the 
+<a href="https://github.com/jina-ai/jina-hub/tree/master/encoders/nlp/TransformerTorchEncoder">TransformerTorchEncoder</a> for this tutorial.</p>
+
+<p>Before we talk about how to use the Encoder in our Index Flow, let’s understand three more important Jina concepts in this 
+step:</p>
+
+<p align="center">
+<img src="/assets/images/blog/financial-qa/Driver.png" width="300" />
+</p>
+
+<ul>
+  <li><strong>Driver:</strong> Recall Jina uses Protobuf to send messages between the microservices in the Flow, which are in the form of bytes. 
+We would have a problem if we were to pass the Document directly to the Encoder because the Encoder needs the
+answer text as input instead of bytes. Instead of dealing directly with Protobuf, Jina uses <strong>Drivers</strong> to <strong>translate 
+data for an Executor</strong>, so that we only need to work with data types that we are familiar with (e.g. text, image, np,array, etc…).
+  <strong>The Driver interprets messages in the Flow and passes the appropriate data to the Executor.</strong></li>
+</ul>
+<p align="center">
+<figure>
+<img src="/assets/images/blog/financial-qa/index-flow-step2.png" width="550" />
+<figcaption>Encoder - the Driver receives the Document in byes and passes the text to the Encoder. The Encoder outputs the embeddings of the text and the Driver adds them to the Document.</figcaption>
+</figure>
+</p>
+<p>For example, in the encoding step, the Driver receives the Document in bytes, interprets it as a Document, and passes the text in the Document to the Encoder.
+After the Encoder outputs the embeddings for the corresponding text, the Driver 
+again interprets the embeddings, and adds them to the Document. The Document below shows how it has be transformed by
+the Driver in the encoding step and will serve as the input for the next indexing step.</p>
+
+<p align="center">
+<figure>
+<img src="/assets/images/blog/financial-qa/index-flow-step2-2.png" width="500" />
+<figcaption>The Driver transformed the Document by adding the embeddings in the encoding step.</figcaption>
+</figure>
+</p>
+
+<ul>
+  <li><strong>Pea:</strong> Since an Executor needs a Driver to be able to process our data, they are both necessary components of a 
+microservice in the Flow. Therefore, we use a <strong>Pea</strong> to wrap the Executor and Driver together to get our <strong>Encoder Microservice</strong>.
+The Pea is, therefore, a <strong>microservice</strong> that constantly listens for incoming messages from the gateway or other Peas in 
+the Flow and calls the Driver when it receives a message. As a microservice, <strong>Peas can also run in Docker, containing all dependencies and context in one place.</strong></li>
+</ul>
+
+<p align="center">
+<img src="/assets/images/blog/financial-qa/Pea.png" width="300" />
+</p>
+
+<ul>
+  <li>
+    <p><strong>Pod:</strong> To optimize our neural search application, <strong>Jina provides parallelization out of the box.</strong> Instead of having a
+single Encoder, we can split it into <strong>multiple processes</strong>. The visualization of the Encoding step shows the Encoder being split into three
+processes with each process wrapped by a Pea.</p>
+
+    <p><strong>In order for our multiple Encoder microservices to behave functionally as one Encoder, we wrap the group of homogeneous (identical) Peas in a Pod</strong>. 
+  The Pod is, therefore, a <strong>group of homogeneous microservices</strong> that is also responsible for load balancing, further control and context management.
+  The beauty about this design is that a Pod can either run on the local host or on different computers over a network,
+  making our application <strong>distributed, efficient, and scalable</strong>.</p>
+  </li>
+</ul>
+
+<p align="center">
+<img src="/assets/images/blog/financial-qa/Pod.png" width="300" />
+</p>
+
+<p>Now that we understand these foundational concepts, <strong>how do we create a Pod for the Encoder?</strong></p>
+
+<p>It may all sound extremely
+complicated, but with the building blocks provided by Jina we can <strong>(1) design an Index Flow and (2) create an Encoder
+Pod with two simple YAML files.</strong> These YAML files will allow us to customize our neural search application without
+touching the core of Jina’s code.</p>
+<p align="center">
+<img src="/assets/images/blog/financial-qa/YAML.png" width="300" />
+</p>
+
+<p><strong>I. Create a Pod for the Encoder</strong></p>
+
+<p>Let’s first create a file <code class="highlighter-rouge">encode.yml</code> inside the folder called <code class="highlighter-rouge">pods</code>. In <code class="highlighter-rouge">encode.yml</code>
+we first specify the name of the Encoder we want to use from Jina Hub <code class="highlighter-rouge">TransformerTorchEncoder</code>. We can
+choose the model we want to use, in our case we use <a href="https://github.com/ProsusAI/finBERT">FinBERT</a>, which further
+pre-trained <code class="highlighter-rouge">bert-base-uncased</code> on a large financial corpus. Since <code class="highlighter-rouge">TransformerTorchEncoder</code> was implemented 
+using Hugging Face transformers, you can also directly use the model by specifying its name if it is available on 
+the <a href="https://huggingface.co/docs">Hugging Face Model Hub</a>. We can also include other hyperparameters such as the 
+maximum sequence length or pooling strategy.</p>
+
+<script src="https://gist.github.com/yuanbit/2890f74af6ae9d15bc316cc9ef4ec8aa.js"></script>
+
+<p>Simple as that! 🐣 <strong>We just created a deep learning-based Encoder microservice ready to be parallelized!</strong>
+The <code class="highlighter-rouge">pods</code> folder will also be the home to other Pods that we will need, which will
+also be defined using YAML files.</p>
+
+<p><strong>II. Add the Encoder to the Index Flow</strong></p>
+
+<p>Now that we have our Encoder ready, let’s put it in our Index Flow. Let’s create a file <code class="highlighter-rouge">index.yml</code> inside a
+folder called <code class="highlighter-rouge">flows</code>. In <code class="highlighter-rouge">index.yml</code>, we specify our first Pod in the Index Flow which is the <code class="highlighter-rouge">encoder</code> by
+giving the path to our <code class="highlighter-rouge">pods/encode.yml</code> file. We can specify how many processes we want to split the Encoder into
+by using the <code class="highlighter-rouge">parallel</code> parameter. This will be an environment variable specified in <code class="highlighter-rouge">app.py</code>, which we will
+look at in the end. <code class="highlighter-rouge">parallel</code> also <strong>determines how many Peas we will have in each Pod.</strong></p>
+
+<script src="https://gist.github.com/yuanbit/e7cbcdcc83c0f03d0582b9cc58b18294.js"></script>
+
+<p>Well done! 💪 You’ve just created a pipeline for deep learning-powered microservices! Next, let’s finish the design of the Index
+Flow by adding another Pod containing the Indexer.</p>
+
+<h4 id="step-3-indexing">Step 3. Indexing</h4>
+
+<p align="center">
+<img src="/assets/images/blog/financial-qa/Indexer.png" width="300" />
+</p>
+
+<p>After obtaining the embeddings for the answer passages, we will create another Executor called the <strong>Indexer</strong>
+to store our data so that they can be retrieved in query time. Similar to the previous step, the Driver receives the 
+Document and passes the <code class="highlighter-rouge">docid</code>, <code class="highlighter-rouge">doc</code>, and <code class="highlighter-rouge">embeddings</code> to the Indexer.</p>
+
+<p>We will use the <strong>Compound Indexer</strong>,
+which acts as a single indexer using both the <strong>(1) Vector</strong> and <strong>(2) Key-Value Indexers</strong> from Jina Hub:</p>
+
+<ol>
+  <li>
+    <p><strong>Vector Indexer:</strong> Stores the answer embeddings and is queried by the question embedding to retrieve
+the closest answer embeddings using the k-nearest neighbors algorithm.</p>
+  </li>
+  <li>
+    <p><strong>Key-Value (KV) Indexer:</strong> Stores the Document data (text, blob, metadata) and is queried by the Document id (normally 
+extracted from the Vector Indexer) to retrieve the information of the data such as answer id and text.</p>
+  </li>
+</ol>
+
+<p align="center">
+<figure>
+<img src="/assets/images/blog/financial-qa/index-flow-step3.png" width="600" />
+<figcaption>The Indexer will store our data so that they can be retrieved in query time</figcaption>
+</figure>
+</p>
+
+<p>We again wrap the Driver and Indexer in a Pea, group identical Peas in a Pod, and define them using YAML files.</p>
+
+<p><strong>I. Create a Pod for the Indexer</strong></p>
+
+<p>Let’s create the file <code class="highlighter-rouge">pods/doc.yml</code> and define our compound indexer as <code class="highlighter-rouge">!CompoundIndexer</code> with the components
+<code class="highlighter-rouge">!NumpyIndexer</code> which is the Vector Indexer and <code class="highlighter-rouge">!BinaryPbIndexer</code> which is the KV Indexer. The indexed data
+will be stored in <code class="highlighter-rouge">vec.gz</code> and <code class="highlighter-rouge">doc.gz</code> respectively. The <code class="highlighter-rouge">workspace</code>
+is the directory where the indexes will be stored, which will be inside our working directory.</p>
+
+<script src="https://gist.github.com/yuanbit/6538a696b012e565d45f960b400e396f.js"></script>
+
+<p><strong>II. Add the Indexer to the Index Flow</strong></p>
+
+<p>Now let’s go back to <code class="highlighter-rouge">flows/index.yml</code> and add our Indexer to the Index Flow as <code class="highlighter-rouge">doc_indexer</code>. If our data is
+big, we can also add sharding to our application for optimization. This will also be used as an environment variable
+in <code class="highlighter-rouge">app.py</code>, which we will see later.</p>
+
+<script src="https://gist.github.com/yuanbit/ba5310ace80201c69e6cff498a1f3905.js"></script>
+
+<p>Great job! 👏 You have just designed a cloud-native pipeline for indexing financial answer passages! We can
+also use Jina’s <a href="https://docs.jina.ai/chapters/flow/index.html">Flow API</a> to 
+visualize the Index Flow. First let’s set our environment variables in the terminal for parallel and shards:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export JINA_PARALLEL='1'
+export JINA_SHARDS='1'
+</code></pre></div></div>
+<p>Next, let’s open a <code class="highlighter-rouge">jupyter notebook</code> in our working directory and do the following:</p>
+
+<script src="https://gist.github.com/yuanbit/66d4df6a197e107b9be6b4ef495c7fa2.js"></script>
+
+<p align="center">
+<figure>
+<img src="/assets/images/blog/financial-qa/index-flow-jina.png" width="1000" />
+<figurecaption>Index Flow visualzation</figurecaption>
+</figure>
+</p>
+
+<p>Here we see our Index Flow with two Pods - the Encoder, <code class="highlighter-rouge">encoder</code> and Indexer, <code class="highlighter-rouge">doc_indexer</code>.</p>
+
+<h4 id="build-an-indexer-application">Build an Indexer Application</h4>
+
+<p>Let’s see how we can use the Index Flow as our application. In <code class="highlighter-rouge">app.py</code>, we can change
+<code class="highlighter-rouge">parallel</code> in the <code class="highlighter-rouge">config</code> function to indicate how many Peas (processes)
+we want to split each microservice in for each Pod. We can also change <code class="highlighter-rouge">shards</code>
+to indicate parallelization during the indexing step. We will leave both of them unchanged for now. 
+This means that we will only have one Pea in each Pod.</p>
+
+<p>Let’s first import <code class="highlighter-rouge">Flow</code> from Jina’s <a href="https://docs.jina.ai/chapters/flow/index.html">Flow API</a>:</p>
+
+<script src="https://gist.github.com/yuanbit/752eef2f8355d5243202c00949dbfcb0.js"></script>
+
+<p>After the <code class="highlighter-rouge">index_generator</code> function that we added in <a href="#step-1-define-our-data">Step 1. Define our data</a>,
+let’s add the <code class="highlighter-rouge">index</code> function which will first load the Index Flow that we have created in <code class="highlighter-rouge">flows/index.yml</code>
+and pass the input Document from <code class="highlighter-rouge">index_generator</code> to the flow. We set our <code class="highlighter-rouge">batch_size=16</code> for encoding
+the answer passages into embeddings.</p>
+
+<script src="https://gist.github.com/yuanbit/c2ffa20fbce1a7ce8fc55597d32723e3.js"></script>
+
+<p>We are now ready to index our data. In the our working directory run:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python app.py index
+</code></pre></div></div>
+
+<p><a href="https://asciinema.org/a/RDQvKPeibRRURYtpQWqmkCUsH"><img src="https://asciinema.org/a/RDQvKPeibRRURYtpQWqmkCUsH.svg" alt="asciicast" /></a></p>
+
+<p>At the end you will see the following:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>✅ done in ⏱ 1 minute and 54 seconds 🐎 7.7/s
+        gateway@18904[S]:terminated
+    doc_indexer@18903[I]:recv ControlRequest from ctl▸doc_indexer▸⚐
+    doc_indexer@18903[I]:Terminating loop requested by terminate signal RequestLoopEnd()
+    doc_indexer@18903[I]:#sent: 56 #recv: 56 sent_size: 1.7 MB recv_size: 1.7 MB
+    doc_indexer@18903[I]:request loop ended, tearing down ...
+    doc_indexer@18903[I]:indexer size: 865 physical size: 3.1 MB
+    doc_indexer@18903[S]:artifacts of this executor (vecidx) is persisted to ./workspace/doc_compound_indexer-0/vecidx.bin
+    doc_indexer@18903[I]:indexer size: 865 physical size: 3.2 MB
+    doc_indexer@18903[S]:artifacts of this executor (docidx) is persisted to ./workspace/doc_compound_indexer-0/docidx.bin
+</code></pre></div></div>
+
+<p>Hooray 🙌 we finished the first part of our application! The embedding indexes and Document data will be stored in a directory called <code class="highlighter-rouge">workspace</code>.</p>
+
+<h3 id="query-flow">Query Flow</h3>
+
+<p>After indexing our data, we need to create a <strong>Query Flow</strong>. The main idea behind the Query Flow is to use the
+same BERT-based model to <strong>encode a given question into an embedding</strong> and use the Indexer to <strong>search for the most
+similar answer embeddings</strong>. To further improve the search results, we will use the same reranking technique as my thesis
+Therefore, we will need to add another a reranking step using FinBERT-QA to recompute the scores of the answer matches returned by Jina.</p>
+
+<p align="center">
+<figure>
+<a href="https://raw.githubusercontent.com/yuanbit/financial-qa-search/master/img/query-flow.png">
+<img src="/assets/images/blog/financial-qa/query-flow.png" width="1000" />
+</a>
+<figurecaption>Query Flow</figurecaption>
+</figure>
+</p>
+
+<p>Let us again walk through the steps one by one.</p>
+
+<h4 id="step-1-encode-question">Step 1. Encode Question</h4>
+
+<p>Let’s assume that the question text will be a user input. Jina will take this input and
+define a new Document.</p>
+
+<p align="center">
+<figure>
+<img src="/assets/images/blog/financial-qa/query-flow-step1.png" width="500" />
+<figurecaption>Encoder in the Query Flow</figurecaption>
+</figure>
+</p>
+
+<p><strong>I. Add the Encoder to the Query Flow</strong></p>
+
+<p>Just like the encoding step of the Index Flow, we encode the questions using the same Encoder. Therefore, we can use the same Encoder from <code class="highlighter-rouge">pods/encode.yml</code>
+in our <strong>Query Flow</strong>. We will create a new <code class="highlighter-rouge">query.yml</code> file in the <code class="highlighter-rouge">flows</code> folder and 
+add the Encoder Pod to it:</p>
+
+<script src="https://gist.github.com/yuanbit/768020d68924e16cefeb052602ecf4f2.js"></script>
+
+<h4 id="step-2-search-indexes">Step 2. Search Indexes</h4>
+
+<p>After encoding the questions, the question embeddings will be added to the Document by the Driver. This Document
+is then sent to the Indexer in the next Pod and the Driver will pass the question embeddings to the Indexer.
+The Indexer will then search for the answers with the most similar embeddings using the k-nearest neighbors algorithm and
+pass a list of top-k answer matches to the Driver to be added to the Document.</p>
+
+<p align="center">
+<figure>
+<img src="/assets/images/blog/financial-qa/query-flow-step2.png" width="500" />
+<figurecaption>The Indexer will search for the answers with the most similar embeddings</figurecaption>
+</figure>
+</p>
+
+<p>The matches will contain data
+such as the <code class="highlighter-rouge">docid</code>, <code class="highlighter-rouge">doc</code>, and match <code class="highlighter-rouge">scores</code>. Since we are also using the same
+Indexer from the Index Flow, all we need to do again is add the Indexer Pod to <code class="highlighter-rouge">flows/query.yml</code>:</p>
+
+<script src="https://gist.github.com/yuanbit/f1358c0b825caf2fe406605ec0ae583c.js"></script>
+
+<h4 id="step-3-reranking">Step 3. Reranking</h4>
+
+<p align="center">
+<img src="/assets/images/blog/financial-qa/Ranker.png" width="300" />
+</p>
+
+<p>Let’s assume that the Indexer returns the top-k answer matches at this point and we want to recompute the match scores to
+get better results. Jina has a class of Executors called the <strong>Rankers</strong>, in particular, the <strong>Match2DocRankers</strong>
+re-scores the matches for a query by calculating new scores. If you look at the Rankers on Jina Hub, the 
+<a href="https://github.com/jina-ai/jina-hub/tree/master/rankers/LevenshteinRanker">Levenshtein Ranker</a> uses the 
+Levenshtein distance to recompute the match scores.</p>
+
+<p>However, instead of using a distance metric to recompute the scores, we want to load our fined-tuned BERT model,
+FinBERT-QA, in the Ranker and recompute the scores by using the concatenation of the question and the
+current match answers as inputs into a binary classification task.</p>
+
+<p>In order to do this we need to <strong>create our own custom
+Executor</strong> and implement our own logic. In this section we will use <strong>PyTorch</strong> and <strong>Hugging Face transformers</strong>
+to implement our custom Ranker.</p>
+
+<p>The main idea here is to pass our query text and the matches (containing the answer text and match scores) to the 
+Ranker to return a reordered list of matches based on the relevancy scores computed by FinBERT-QA. The Driver will
+then update the matches in the Document based on this reordered list.</p>
+
+<p align="center">
+<figure>
+<img src="/assets/images/blog/financial-qa/query-flow-step3.png" width="550" />
+<figurecaption>The Ranker recomputes the scores of the matches using FinBERT-QA</figurecaption>
+</figure>
+</p>
+
+<p>Recall that Peas can run in Docker, this means that we can simply <strong>build a Docker image with our implementation
+ of the Ranker and use the image in the Query Flow.</strong> The Jina Hub API let’s use to Cookiecutter to create the templates of all
+the files we will need to do this. Let’s get started by making sure that the Jina Hub extension is installed:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip install "jina[hub]"
+</code></pre></div></div>
+
+<h4 id="build-a-custom-executor">Build a Custom Executor</h4>
+
+<p>Let’s first create the templates that we will need to build a Docker image for our custom Ranker.</p>
+
+<p><strong>1.) Set up.</strong></p>
+
+<p>In the</p>
+<pre><code class="language-financial-qa-search/```">directory type:
+
+</code></pre>
+<p>jina hub new</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+This will pop up a wizard that helps you walk through the process. Let's give our Executor the name ```FinBertQARanker```
+    and make sure to select ```4 - Ranker``` for the Executor type. We will use ```jinaai/jina``` as our base image for
+    the Docker image that we will build.
+
+    You've downloaded /Users/bithiah/.cookiecutters/cookiecutter-jina-hub before. Is it okay to delete and re-download it? [yes]: yes
+    executor_name [The class name of the executor (UpperCamelCase)]: FinBertQARanker
+    Select executor_type:
+    1 - Encoder
+    2 - Crafter
+    3 - Indexer
+    4 - Ranker
+    5 - Evaluator
+    Choose from 1, 2, 3, 4, 5 [1]: 4
+    description [What does this executor do?]: recomputes match scores using FinBERT-QA                
+    keywords [keywords to describe the executor, separated by commas]: 
+    pip_requirements []: 
+    base_image [jinaai/jina]: 
+    author_name [Jina AI Dev-Team (dev-team@jina.ai)]: 
+    author_url [https://jina.ai]: 
+    author_vendor [Jina AI Limited]: 
+    docs_url [https://github.com/jina-ai/jina-hub]: 
+    version [0.0.1]: 
+    license [apache-2.0]: 
+    
+After pressing Enter, you will see a new directory called ```FinBertQARanker```. Your file structure should now look
+as follows:
+    
+&lt;p align="center"&gt;
+&lt;figure&gt;
+&lt;img src="/assets/images/blog/financial-qa/file-structure.png" width="650"&gt;
+&lt;figurecaption&gt;Project folder structure&lt;/figurecaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+    
+We will the implement our logic of the Ranker in ```__init__.py```, write some tests in ```tests/test_finbertqaranker.py```, and
+change the ```Dockerfile``` to contain everything we need to build the image.
+    
+**The code for the Ranker can be found [here](https://github.com/jina-ai/examples/tree/example-financial-qa-search/financial-qa-search/FinBertQARanker).**
+
+**2.) Fill in the logic for reranking.**
+
+We will now implement our logic in ```__init__.py```, which should look like the following:
+
+&lt;script src="https://gist.github.com/yuanbit/f0fb64b29b46f45c59469fe4ef3495b9.js"&gt;&lt;/script&gt;
+    
+Jina contains different base classes for the Executors with different functionalities. The base Ranker class 
+that we will use is called **Match2DocRankers**, which has the functionality to recompute the match scores. 
+    
+Let's first change the base class of ```BaseRanker``` to ```Match2DocRanker```.
+Let's also import **PyTorch** using Jina and some other modules that we will need as well as define our current directory.
+    
+&lt;script src="https://gist.github.com/yuanbit/6969968f9d5a6e4a081347ff272edce0.js"&gt;&lt;/script&gt;
+    
+Our logic will be implemented in the ```FinBertQARanker``` class which will use ```TorchDevice``` and
+    ```Match2DocRanker``` from Jina. We will download the models that we need in the ```Dockerfile``` later.
+    Let us assume now we have two models in the folder ```models/```: (1) ```bert-qa/``` and (2) ```2_finbert-qa-50_512_16_3e6.pt```.
+    
+(1) ```bert-qa```: bert-base-uncased fine-tuned on the MS Macro dataset
+    from [Passage Re-ranking with BERT](https://github.com/nyu-dl/dl4marco-bert)
+    
+(2) ```2_finbert-qa-50_512_16_3e6.pt```: FinBERT-QA model - fine-tuned ```bert-qa``` on the FiQA dataset.
+    
+We first specify ```bert-qa/``` as the the pre-trained model that would be used for initialization,
+    ```2_finbert-qa-50_512_16_3e6.pt``` as the model that would be used to compute the QA relevancy scores,
+    and the maximum sequence length for the QA pairs:
+    
+&lt;script src="https://gist.github.com/yuanbit/47faac3565dda220b71a77fe3a120d61.js"&gt;&lt;/script&gt;
+    
+Then we add a ```post_init``` function to the class to load the models for the binary classification task. Make sure to
+set the model in evaluation mode.
+    
+&lt;script src="https://gist.github.com/yuanbit/5db6428baf752471c4326d1d1e650906.js"&gt;&lt;/script&gt;
+    
+Now let's implement a private ```_get_score``` function to compute each of the relevancy scores of the question
+    and the top-k answer matches. We first concatenate the question and each top-k answer and encode them to get the
+    inputs (```input_ids```, ```token_type_ids```, ```att_mask```) that the model needs using the
+    tokenizer from transformers. We then feed the inputs into the model and get the prediction scores
+    that the QA pairs are relevant (```label = 1```). We apply the softmax function to the scores to transform the 
+    prediction scores into probabilities between 0 and 1. The output would then be the relevancy score in the form of a
+    probability for the QA pair.
+    
+&lt;script src="https://gist.github.com/yuanbit/5efb50d17b97f7eb594c7f88ee116c3a.js"&gt;&lt;/script&gt;
+    
+Lastly, let's fill in the scoring function that takes the question from the user and Jina's match scores as input
+and uses ```_get_scores``` to recompute new scores:
+    
+&lt;script src="https://gist.github.com/yuanbit/b2be4165f2151fa69e9c88a21334c898.js"&gt;&lt;/script&gt;
+
+**3.) Write a Unit Test**
+
+In order to create a new Executor and build a Docker image with the Jina Hub API, we need to write a unit test. We can
+    find a template for this in ```tests/test_finbertqaranker.py```. I wrote a simple check to compute the relevance 
+    probability for two answer matches given a query and to check to see if ```FinBertQARanker``` computes the same
+    score as our expectation:
+    
+&lt;script src="https://gist.github.com/yuanbit/8ce93efa42f7c56a2a224e7b8c8e86cb.js"&gt;&lt;/script&gt;
+
+**4.) Add Requirements**
+
+Other than Jina we are also using PyTorch and transformers for ```FinBertQARanker```, so let's add them
+to ```FinBertQARanker/requirements.txt```:
+    
+</code></pre></div></div>
+<p>torch==1.7.1
+transformers==4.0.1</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+**5.) Prepare Dockerfile**
+
+Let's change our ```Dockerfile``` to the contents below, which will download the models into a folder called ```models/```.
+    
+&lt;script src="https://gist.github.com/yuanbit/b226b930c0850b92eee9a25852278388.js"&gt;&lt;/script&gt;
+
+**6.) Build Docker image with Jina Hub API**
+
+We are finally ready to build ```FinBertQARanker``` into a Docker image. In our working directory, let's type:
+    
+</code></pre></div></div>
+<p>jina hub build FinBertQARanker/ –pull –test-uses –timeout-ready 60000</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    
+```--pull``` downloads our Jina base image if it is not already local.
+    
+```--test-uses``` adds an extra test to check if the built image can dry-run successfully via Jina's Flow API.
+```--timeout-ready``` gives our ```post_init``` function time to load the models.
+    
+If the build is successful, you will see this message:
+</code></pre></div></div>
+<p>HubIO@10240[I]:Successfully built ba3fac0f3a46
+ HubIO@10240[I]:Successfully tagged jinahub/pod.ranker.finbertqaranker:0.0.1-0.8.13
+ HubIO@10240[I]:building FinBertQARanker/ takes 6 minutes and 12 seconds (372.31s)
+ HubIO@10240[S]:🎉 built jinahub/pod.ranker.finbertqaranker:0.0.1-0.8.13 (sha256:ba3fac0f3a) uncompressed size: 3.3 GB</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    
+Congratulations 🥳, you have successfully built a custom Executor in the form of a Docker image with the tag name
+```jinahub/pod.ranker.finbertqaranker:0.0.1-0.8.23```! Let's see how we can use it in the Query Flow next.
+
+**I. Create a custom Ranker Pod**
+
+To use our custom Ranker, ```FinBertQARanker```, we need to first create a new Pod for the Ranker. Let's create
+the file ```rank.yml``` in the ```pods``` folder. Next, let's copy the contents from ```FinBertQARanker/config.yml```
+to ```pods/rank.yml``` and you should have the following:
+
+&lt;script src="https://gist.github.com/yuanbit/24c93873f7594ee0a097ea1550cc1d66.js"&gt;&lt;/script&gt;
+    
+This is going to tell the Query Flow to use the logic we have implemented in our Exectuor, ```FinBertQARanker/__init__.py```.
+    Since the code for this implementation is loaded inside the ```workspace``` folder in the Docker image, let's add 
+    ```workspace/``` before ```__init__.py```.
+    
+The Encoder and Indexer Executors that we have used so far all use default Drivers in the Pods. Since we created our custom
+    Executor, we need to tell the Ranker Pod which Driver to use. In this case we will use the ```Matches2DocRankDriver``` for the
+    ```Match2DocRanker``` base Ranker class. Hence, our ```rank.yml``` will look as follows:
+    
+&lt;script src="https://gist.github.com/yuanbit/7757c64f850b4dd43c95e56d2f0a2909.js"&gt;&lt;/script&gt;
+    
+Hooray 🎊 we now have a custom Ranker Pod! Let's see next how we can use it in the Query Flow.
+
+**II. Use Custom Ranker in the Query Flow**
+
+Like the other Executor Pods, we just need to add ```ranker``` after the ```doc_indexer``` and tell the Query Flow to use
+the Docker image and Ranker Pod that we have just created by specifying the prefix ```docker://``` in front of the tag name. The final ```flows/query.yml``` should look as follows:
+
+&lt;script src="https://gist.github.com/yuanbit/f5e5291f7a30e4c43da63fb9ef537608.js"&gt;&lt;/script&gt;
+
+**Be aware that the tag name of the Docker image might change** depending the current Jina release. Make sure to change the 
+tag name that accordingly to your build message.
+   
+We can again visualize the Query Flow using the Flow API in a  ```jupyter notebook``` as follows:
+
+&lt;script src="https://gist.github.com/yuanbit/13e879fa8de427c7b8be8eadfc995ac6.js"&gt;&lt;/script&gt;
+
+&lt;p align="center"&gt;
+&lt;figure&gt;
+&lt;img src="/assets/images/blog/financial-qa/query-flow-jina.png" width="1000"&gt;
+&lt;figurecaption&gt;Query Flow visualization&lt;/figurecaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+Here we see our Query Flow with three Pods containing the Encoder, ```encoder``` and Indexer, ```doc_indexer```,
+and Ranker, ```ranker```.
+At the end of the Query Flow, the Driver from the Ranker Pod will have changed the matches in the Document to an reordered list of
+matches based on the probabilities computed by our custom Ranker, ```FinBertQARanker```. Next, we will see how we can
+access this list of final matches in our ```app.py```.
+
+#### Build a Search Application
+
+&lt;p align="center"&gt;
+&lt;figure&gt;
+&lt;img src="/assets/images/blog/financial-qa/query-flow-step4.png" width="550"&gt;
+&lt;figurecaption&gt;Get matches and scores stored in the Document&lt;/figurecaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+Since our final matches and their relevancy probability are stored in the Document, in ```app.py```, we can
+write a function to print out the response to a question from the user input. We can loop through the matches in our
+Document, ```d.matches```, and print out the values of the scores and the matching answer text.
+
+&lt;script src="https://gist.github.com/yuanbit/1e18bcb2e7dbc77812a94ccefc6d1fcc.js"&gt;&lt;/script&gt;
+
+
+We can then write our ```search``` method that uses the Query Flow from ```flows/query.yml``` and passes
+the user inputs into ```print_resp```. In ```f.search_lines()```, we specify the input as our user query,
+the output as the response to be printed, and the top-k answers we want to retrieve. The cool thing about
+```f.search_lines()``` is that it automatically creates a Document for the user query, like sugar magic 🍬!
+
+&lt;script src="https://gist.github.com/yuanbit/434ef56655bea8daf8b8275348387e36.js"&gt;&lt;/script&gt;
+
+Hooray! 🎉🎉🎉 We have just finished building our Financial QA search engine! We can now run: 
+
+```python app.py search```
+
+and try out different questions! The Ranker might take some time to compute the relevancy
+scores since it is using a BERT-based model. Here is a list of sample questions:
+
+</code></pre></div></div>
+<p>• What does it mean that stocks are “memoryless”?
+• What would a stock be worth if dividends did not exist?
+• What are the risks of Dividend-yielding stocks?
+• Why do financial institutions charge so much to convert currency?
+• Is there a candlestick pattern that guarantees any kind of future profit?
+• 15 year mortgage vs 30 year paid off in 15
+• Why is it rational to pay out a dividend?
+• Why do companies have a fiscal year different from the calendar year?
+• What should I look at before investing in a start-up?
+• Where do large corporations store their massive amounts of cash?
+```</p>
+
+<p align="center">
+<img src="/assets/images/blog/financial-qa/search-results.png" width="900" />
+</p>
+
+<h2 id="summary">Summary</h2>
+
+<p>In this blog, I introduced core Jina concepts and demonstrated how to build a production-ready Financial QA system using Jina.
+I also explained how to use the Jina Hub API to create a BERT-powered Ranker Executor. Thanks to
+the building blocks that Jina provides, we could easily use the SOTA and powerful model, FinBERT-QA, in production.</p>
+
+<p>The neural search application we have just built with Jina runs locally on our own machines, but can also 
+be completely distributed and run on multiple machines in a network, making our application highly reusable, scalable, 
+and efficient. On top of that, common cloud-native features such as persistence, scheduling, chaining, grouping, and 
+parallelization all come out of the box.</p>
+
+<p>Moreover, there are variants of pre-trained BERT models for other domains such as <a href="https://github.com/dmis-lab/biobert">biomedical</a>,
+<a href="https://github.com/allenai/scibert">science</a>, and <a href="https://huggingface.co/nlpaueb/legal-bert-base-uncased">legal</a>.
+You can use these models to build a QA search application and experiment with the results!</p>
+
+<h2 id="next-step-evaluation">Next Step: Evaluation</h2>
+
+<p>If you made it all the way through this tutorial, you might be wondering, <strong>“how do I evaluate the search results?”</strong>.
+Great question! Jina has a class of Executors called the <strong>Evaluator</strong> and has implementations of common evaluation
+metrics like Precision and Reciprocal Error. Evaluation is an important step and will allow us to optimize
+the search results and design the most effective Flows. We will see in the next tutorial how we can add the
+Evaluator in our Financial QA application.</p>
+
+<h2 id="learn-more">Learn More</h2>
+
+<p>To learn more about Jina, I recommend reading the following articles:</p>
+
+<ul>
+  <li><a href="https://medium.com/jina-ai/what-is-jina-and-neural-search-7a9e166608ab">What is Jina and Neural Search?</a></li>
+  <li><a href="https://hanxiao.io/2020/10/19/A-Curated-List-of-Neural-Search-and-Jina-Framework-Designs/">From Then to Now: a Curated List for Neural Search and Jina</a></li>
+</ul>
+
+<p>and checking out our <a href="https://github.com/jina-ai/jina">Github</a> page!</p>
+
+<p>If you want to learn Jina by doing, I encourage you to start building your own examples and 
+sharing them with the community to help us grow our open-source ecosystem! 🚀 For example, check out this 
+<a href="https://github.com/ArturTan/transformers-for-lawyers">community project - transformers-for-lawyers</a> built with Jina.</p>
+
+<p>We saw how versatile and extensible Jina is and we could create all kinds of search applications using our own 
+logic and models for NLP, Computer Vision, and other ML search applications.
+<strong><a href="https://github.com/jina-ai/jina-hub">Jina Hub</a> is a great place to get started, where you can use
+the available Executors to build other types of search engines (for images, videos, etc…) or create your own
+Executors using the Jina Hub API!</strong> You can always come back to this tutorial and walk through the process again.</p>
+
+<p><strong>As an open-source company we would also love your help and contributions.️</strong> We have issues labelled as <a href="https://github.com/jina-ai/jina/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22">good first issue</a>
+to get started! You can read more about our contributing guidelines <a href="https://github.com/jina-ai/jina/blob/master/CONTRIBUTING.md">here</a>.</p>
+
+<p>If you want to know more about Jina’s new features or ask any questions, welcome to join our <a href="https://slack.jina.ai/">Slack Community</a>
+and our monthly public <a href="https://hanxiao.io/2020/08/06/Engineering-All-Hands-in-Public/">Engineering All Hands</a> via 
+Zoom or Youtube live stream.</p>
+
+<p>If you are interested in joining us as a full-time AI / Backend / Frontend developer, 
+please submit your CV to our <a href="jobs.jina.ai">job portal</a>. Let’s build the next open-source neural search ecosystem together!</p>
+
+<h2 id="community">Community</h2>
+
+<ul>
+  <li><a href="slack.jina.ai">Slack channel</a> - a communication platform for developers to discuss Jina</li>
+  <li><a href="mailto:newsletter+subscribe@jina.ai">Community newsletter</a> - subscribe to the latest update, release and event news of Jina</li>
+  <li><a href="https://www.linkedin.com/company/jinaai/">LinkedIn</a> - get to know Jina AI as a company and find job opportunities</li>
+  <li><a href="https://twitter.com/JinaAI_">Twitter</a> - follow us and interact with us using hashtag <code class="highlighter-rouge">#JinaSearch</code></li>
+  <li><a href="https://jina.ai">Company</a> - know more about our company, we are fully committed to open-source!</li>
+</ul>
+
+    </div>
+    </section>
+    <div class="container">
+        <section class="meta">
+            <br />
+            <div class='btn-group' role='group'>
+                
+                    
+                        <a href="https://jina.ai/2020/12/28/jina-2020-year-in-review.html" type="button" class="btn btn-outline-primary">Previous: 2020 Year in Review</a>
+                    
+                
+                
+                    
+                        <a href="https://jina.ai/release/2021/01/07/jina-090.html" type="button" class="btn btn-outline-primary">Next: Announcing Jina 0.9.2</a>
+                    
+                
+            </div>
+            
+                
+                    
+            <hr>
+            <span class="author">
+                <a href="/about/">Jina AI</a>
+            </span>
+            <span class="time">
+                /
+                <time datetime="2021-01-07">2021-01-07</time>
+            </span>
+            <br />
+            <span class="license">
+                Published under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">(CC)
+                    BY-NC-SA</a>
+            </span>
+            
+            <span class="categories">
+                in categories
+                
+            </span>
+            
+            
+            <span class="tags">
+                tagged with
+                
+            </span>
+            
+        </section>
+        <!-- ShareThis BEGIN -->
+<div class="sharethis-inline-share-buttons"></div>
+<!-- ShareThis END -->
+    </div>
+    
+</div>
+
+                <svg width="0" height="0" class="hidden">
+    <symbol xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" id="linkedin">
+        <path
+            d="M26.93 1c1.09 0 1.986.823 2.064 1.868l.006.15v23.96c0 1.065-.847 1.938-1.917 2.015L26.93 29H3.065c-1.087 0-1.98-.825-2.06-1.87L1 26.98V3.018c0-1.064.844-1.936 1.91-2.013L3.065 1H26.93zm-7.482 9.917c-1.895 0-3.193.994-3.778 1.98l-.075.134h-.056v-1.79l-3.903-.001v13.092h4.067v-6.475c0-1.708.324-3.363 2.442-3.363 1.568 0 1.974 1.1 2.08 2.288l.02.3.007.15.01.445.001 6.656h4.07l-.004-7.615-.013-.427c-.02-.493-.063-.964-.134-1.4l-.068-.375c-.44-2.148-1.66-3.59-4.665-3.59zm-10.366.325H5.006v13.09h4.076v-13.09zM7.045 4.734a2.36 2.36 0 0 0-.003 4.72 2.39 2.39 0 0 0 2.1-1.163 2.36 2.36 0 0 0 .002-2.39 2.36 2.36 0 0 0-1.918-1.164l-.17-.003z"
+            fill-rule="nonzero"></path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" id="github">
+        <path
+            d="M15 0C6.713 0 0 6.665 0 14.885c0 6.578 4.298 12.156 10.256 14.122.75.14 1.025-.32 1.025-.716l-.02-2.53C7.1 26.658 6.2 23.763 6.2 23.763c-.683-1.718-1.67-2.177-1.67-2.177-1.36-.923.105-.904.105-.904 1.506.104 2.297 1.533 2.297 1.533 1.337 2.276 3.51 1.62 4.37 1.238.135-.963.52-1.62.95-1.99C8.93 21.1 5.43 19.8 5.43 14.107c0-1.625.58-2.952 1.544-3.994-.17-.376-.675-1.89.13-3.94 0 0 1.256-.4 4.125 1.526 1.2-.33 2.475-.495 3.75-.502 1.275.007 2.55.17 3.75.502 2.85-1.925 4.106-1.526 4.106-1.526.806 2.05.3 3.564.15 3.94a5.74 5.74 0 0 1 1.538 3.994c0 5.718-3.506 6.977-6.844 7.343.525.447 1.012 1.36 1.012 2.754l-.02 4.076c0 .39.263.856 1.03.707C25.706 27.034 30 21.453 30 14.885 30 6.665 23.284 0 15 0"
+            fill-rule="nonzero"></path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" id="slack">
+        <path
+            d="M7.462 18.43a2.74 2.74 0 0 1-2.731 2.731A2.74 2.74 0 0 1 2 18.43a2.74 2.74 0 0 1 2.731-2.731h2.73v2.73zm1.377 0a2.74 2.74 0 0 1 2.731-2.731 2.74 2.74 0 0 1 2.731 2.731v6.84A2.74 2.74 0 0 1 11.57 28a2.74 2.74 0 0 1-2.731-2.731v-6.84zm2.73-10.968a2.74 2.74 0 0 1-2.731-2.731A2.74 2.74 0 0 1 11.57 2a2.74 2.74 0 0 1 2.731 2.731v2.73h-2.73zm0 1.377A2.74 2.74 0 0 1 14.3 11.57a2.74 2.74 0 0 1-2.731 2.731H4.73A2.74 2.74 0 0 1 2 11.57a2.74 2.74 0 0 1 2.731-2.731h6.84zm10.968 2.73a2.74 2.74 0 0 1 2.731-2.731A2.74 2.74 0 0 1 28 11.57a2.74 2.74 0 0 1-2.731 2.731h-2.73v-2.73zm-1.377 0a2.74 2.74 0 0 1-2.731 2.731 2.74 2.74 0 0 1-2.731-2.731V4.73A2.74 2.74 0 0 1 18.43 2a2.74 2.74 0 0 1 2.731 2.731v6.84zm-2.73 10.968a2.74 2.74 0 0 1 2.731 2.731A2.74 2.74 0 0 1 18.43 28a2.74 2.74 0 0 1-2.731-2.731v-2.73h2.73zm0-1.377a2.74 2.74 0 0 1-2.731-2.731 2.74 2.74 0 0 1 2.731-2.731h6.84A2.74 2.74 0 0 1 28 18.43a2.74 2.74 0 0 1-2.731 2.731h-6.84z"
+            fill-rule="nonzero"></path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" id="twitter">
+        <path
+            d="M15 0c8.284 0 15 6.716 15 15s-6.716 15-15 15S0 23.284 0 15 6.716 0 15 0zm3.847 8c-2.266 0-4.103 1.92-4.103 4.29a4.49 4.49 0 0 0 .106.978c-3.4-.18-6.433-1.887-8.457-4.484a4.426 4.426 0 0 0-.556 2.158c-.001 1.435.684 2.776 1.825 3.572a3.95 3.95 0 0 1-1.858-.537v.054c0 2.08 1.414 3.814 3.292 4.208a3.939 3.939 0 0 1-1.853.074c.537 1.748 2.078 2.946 3.833 2.98A8.004 8.004 0 0 1 5.98 23.13a7.98 7.98 0 0 1-.979-.06 11.264 11.264 0 0 0 6.3 1.928c7.547 0 11.675-6.54 11.675-12.21a12.93 12.93 0 0 0-.012-.555 8.546 8.546 0 0 0 2.047-2.222 7.934 7.934 0 0 1-2.357.676 4.274 4.274 0 0 0 1.804-2.374 8 8 0 0 1-2.605 1.042C21.066 8.49 19.98 7.998 18.847 8z">
+        </path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" id="youtube">
+        <path
+            d="M15 0c8.284 0 15 6.716 15 15s-6.716 15-15 15S0 23.284 0 15 6.715 0 15 0zm5.243 9l-10.54.002-.15.012-.144.02-.172.03-.195.046C8.225 9.327 7 9.982 7 11.945l.002 6.174.012.17.02.162.032.193c.162.86.726 2.356 2.69 2.356l10.54-.002.15-.012.144-.02.172-.03.195-.046c.817-.218 2.043-.872 2.043-2.836l-.002-6.175-.007-.108-.027-.24-.034-.202C22.76 10.468 22.19 9 20.242 9zM13 12l5 3.5-5 3.5v-7z"
+            fill-rule="nonzero"></path>
+    </symbol>
+</svg>
+
+<footer>
+    <div class="container-fluid pb-3 pt-3 bg-primary">
+        <div class="container">
+            <div class="row py-lg-5">
+                <div class="col d-none d-md-block">
+                    <p class="footer-top-menu text-white">PRODUCTS</p>
+                    <div class="d-flex; flex-column">
+                        <div class="footer-sub-menu">
+                            <a href="/products/search/">Search</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/products/hub/">Hub</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/products/dashboard/">Dashboard</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/products/box/">Box</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-none d-md-block">
+                    <p class="footer-top-menu text-white">COMPANY</p>
+                    <div class="d-flex; flex-column">
+                        <div class="footer-sub-menu">
+                            <a href="/about">About Us</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/join">Career</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/news">News</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="mailto: hello@jina.ai">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-none d-md-block">
+                    <p class="footer-top-menu text-white">LEARN</p>
+                    <div class="d-flex; flex-column">
+                        <div class="footer-sub-menu">
+                            <a href="/about">What</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/learn#why-jina">Why</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="">Get Started</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="https://docs.jina.ai/" target="_blank">Docs</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="https://github.com/jina-ai/examples" target="_blank">Examples</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-none">
+                    <p class="footer-top-menu text-white">COMMUNITY</p>
+                    <div class="d-flex; flex-column">
+                        <div class="footer-sub-menu">
+                            <a href="/contribute">Contribute</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/blog">Blog</a>
+                        </div>
+                        <div class="footer-sub-menu">
+                            <a href="/events">Events</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" id="footer-subscribe">
+                    <div class="d-flex; flex-column">
+                        <p class="footer-sub-menu text-white">Subscribe to our newsletter</p>
+                        <!-- Begin Mailchimp Signup Form -->
+<!-- <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css"> -->
+<!-- <div id="mc_embed_signup"> -->
+<form action="https://jina.us17.list-manage.com/subscribe/post?u=135040dff373660039d95c86c&amp;id=6873344704" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll" >
+	<!-- <label for="mce-EMAIL">Subscribe</label> -->
+	<input class="form-control bg-white my-3" type="email" value="" placeholder="Your email" name="EMAIL" id="mce-EMAIL" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <!-- <div aria-hidden="true"><input type="text" name="b_135040dff373660039d95c86c_6873344704" tabindex="-1" value=""></div> -->
+    <div class="clear" ><input class="btn btn-pill btn-dark shadow-sm get-started mt-3" type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="button" ></div>
+    </div>
+</form>
+<!-- </div> -->
+<!--End mc_embed_signup-->
+
+                    </div>
+                </div>
+                <div class=" col-12 py-4 py-md-0">
+                    <div class="d-flex flex-row">
+                        <div class="pl-0 social-item">
+                            <a href="https://github.com/jina-ai/jina/" target="_blank">
+                                <svg class="icon" width="30" height="30" viewBox="0 0 30 30" preserveAspectRatio="none">
+                                    <use xlink:href="#github"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="social-item">
+                            <a href="https://www.youtube.com/c/jina-ai" target="_blank">
+                                <svg class="icon" width="30" height="30" viewBox="0 0 30 30" preserveAspectRatio="none">
+                                    <use xlink:href="#youtube"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="social-item">
+                            <a href="https://www.linkedin.com/company/jinaai/" target="_blank">
+                                <svg class="icon" width="30" height="30" viewBox="0 0 30 30" preserveAspectRatio="none">
+                                    <use xlink:href="#linkedin"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="social-item">
+                            <a href="https://twitter.com/jinaAI_" target="_blank">
+                                <svg class="icon" width="30" height="30" viewBox="0 0 30 30" preserveAspectRatio="none">
+                                    <use xlink:href="#twitter"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="social-item">
+                            <a href="http://jina-ai.slack.com/" target="_blank">
+                                <svg class="icon" width="30" height="30" viewBox="0 0 30 30" preserveAspectRatio="none">
+                                    <use xlink:href="#slack"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid pb-3 pt-3 bg-secondary">
+        <div class="container">
+            <div class="row d-flex   justify-content-between">
+
+                <div class="d-flex flex-md-row flex-column justify-content-between">
+                    <div class="auth-item">
+                        <a href="/">© 2020 Jina AI, Ltd. All rights reserved.</a>
+                    </div>
+                    <div class="auth-item">
+                        <a href="https://github.com/jina-ai/legal/blob/master/TERMS-OF-USE.md">Terms of
+                            Service</a>
+                    </div>
+                    <div class="auth-item">
+                        <a href="https://github.com/jina-ai/legal/blob/master/PRIVACY.md">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</footer>
+
+                <!-- JS, Popper.js, and jQuery -->
+                <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+                        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+                        crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+                        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+                        crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+                        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+                        crossorigin="anonymous"></script>
+                <link rel="stylesheet"
+                        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+                        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+                        crossorigin="anonymous">
+        </div>
+</body>
+
+</html>

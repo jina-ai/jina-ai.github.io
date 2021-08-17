@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+  <loc>https://jina.ai/</loc>
+  <lastmod>2021-02-24T15:18:31+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://jina.ai/products/search/</loc>
+  <lastmod>2021-02-24T15:18:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jina.ai/products/hub/</loc>
+  <lastmod>2021-02-24T15:18:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jina.ai/products/dashboard/</loc>
+  <lastmod>2021-02-24T15:18:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jina.ai/products/box/</loc>
+  <lastmod>2021-02-24T15:18:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jina.ai/about</loc>
+  <lastmod>2021-02-24T15:18:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jina.ai/learn</loc>
+  <lastmod>2021-02-24T15:18:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jina.ai/contribute</loc>
+  <lastmod>2021-02-24T15:18:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jina.ai/release/2021/02/10/jina-1_0_0.html</loc>
+  <lastmod>2021-02-24T15:18:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jina.ai/blog/2021/02/17/crud-jina.html</loc>
+  <lastmod>2021-02-24T15:18:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jina.ai/join</loc>
+  <lastmod>2021-02-24T15:18:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jina.ai/blog/</loc>
+  <lastmod>2021-02-24T15:18:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jina.ai/2021/02/01/Multimodality-demo-in-detail.html</loc>
+  <lastmod>2021-02-24T15:18:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jina.ai/2021/01/14/pair-programming-onboarding.html</loc>
+  <lastmod>2021-02-24T15:18:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+</urlset>
