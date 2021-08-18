@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://jina.ai
+
+# Sitemaps
+Sitemap: https://jina.ai/sitemap.xml
