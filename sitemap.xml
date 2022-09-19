@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   
-    <url><loc>https://jina.ai/</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T07:51:29.852Z</lastmod></url>
-    <url><loc>https://jina.ai/docarray</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T07:51:29.852Z</lastmod></url>
-    <url><loc>https://jina.ai/jina</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T07:51:29.852Z</lastmod></url>
-    <url><loc>https://jina.ai/finetuner</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T07:51:29.852Z</lastmod></url>
-    <url><loc>https://jina.ai/hub</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T07:51:29.852Z</lastmod></url>
-    <url><loc>https://jina.ai/clip-as-service</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T07:51:29.852Z</lastmod></url>
-    <url><loc>https://jina.ai/now</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T07:51:29.852Z</lastmod></url>
-    <url><loc>https://jina.ai/dall-e-flow</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T07:51:29.852Z</lastmod></url>
-    <url><loc>https://jina.ai/disco-art</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T07:51:29.852Z</lastmod></url>
-    <url><loc>https://jina.ai/about-us</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T07:51:29.852Z</lastmod></url>
-    <url><loc>https://jina.ai/community</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T07:51:29.852Z</lastmod></url>
-    <url><loc>https://jina.ai/legal</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T07:51:29.852Z</lastmod></url>
-    <url><loc>https://jina.ai/blogs</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T07:51:29.852Z</lastmod></url>
-    <url><loc>https://jina.ai/404</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T07:51:29.852Z</lastmod></url>
-    <url><loc>https://jina.ai/slack</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T07:51:29.852Z</lastmod></url>
-    <url><loc>https://jina.ai/blog/6308ccd2674a25003d181594</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T07:51:29.852Z</lastmod></url>
-    <url><loc>https://jina.ai/blog/6308c8e6674a25003d18151a</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T07:51:29.852Z</lastmod></url>
-    <url><loc>https://jina.ai/blog/6308c5f5674a25003d1814f0</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T07:51:29.852Z</lastmod></url>
+    <url><loc>https://jina.ai/</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T09:25:30.682Z</lastmod></url>
+    <url><loc>https://jina.ai/product/docarray</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T09:25:30.682Z</lastmod></url>
+    <url><loc>https://jina.ai/product/jina</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T09:25:30.682Z</lastmod></url>
+    <url><loc>https://jina.ai/product/finetuner</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T09:25:30.682Z</lastmod></url>
+    <url><loc>https://jina.ai/product/hub</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T09:25:30.682Z</lastmod></url>
+    <url><loc>https://jina.ai/product/clip-as-service</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T09:25:30.682Z</lastmod></url>
+    <url><loc>https://jina.ai/product/now</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T09:25:30.682Z</lastmod></url>
+    <url><loc>https://jina.ai/product/dall-e-flow</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T09:25:30.682Z</lastmod></url>
+    <url><loc>https://jina.ai/product/disco-art</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T09:25:30.682Z</lastmod></url>
+    <url><loc>https://jina.ai/about-us</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T09:25:30.682Z</lastmod></url>
+    <url><loc>https://jina.ai/community</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T09:25:30.682Z</lastmod></url>
+    <url><loc>https://jina.ai/legal</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T09:25:30.682Z</lastmod></url>
+    <url><loc>https://jina.ai/blogs</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T09:25:30.682Z</lastmod></url>
+    <url><loc>https://jina.ai/404</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T09:25:30.682Z</lastmod></url>
+    <url><loc>https://jina.ai/slack</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T09:25:30.682Z</lastmod></url>
+    <url><loc>https://jina.ai/blog/6308ccd2674a25003d181594</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T09:25:30.682Z</lastmod></url>
+    <url><loc>https://jina.ai/blog/6308c8e6674a25003d18151a</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T09:25:30.682Z</lastmod></url>
+    <url><loc>https://jina.ai/blog/6308c5f5674a25003d1814f0</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-09-19T09:25:30.682Z</lastmod></url>
   </urlset>
