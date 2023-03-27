@@ -1,5 +1,5 @@
 {
-  "projectName": "example-video-search",
+  "projectName": "executor-simpleranker",
   "projectOwner": "jina-ai",
   "repoType": "github",
   "repoHost": "https://github.com",
@@ -462,239 +462,42 @@
       ]
     },
     {
-      "login": "aakashjhawar",
-      "name": "Aakash Jhawar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22843890?v=4",
-      "profile": "https://github.com/aakashjhawar",
+      "login": "innerNULL",
+      "name": "inull",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10429190?v=4",
+      "profile": "https://github.com/innerNULL",
       "contributions": [
-        "jina"
+        "cloud-ops"
       ]
     },
     {
-      "login": "drndos",
-      "name": "Filip Bednárik",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5576134?v=4",
-      "profile": "https://blog.drndos.sk/",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "umbertogriffo",
-      "name": "Umberto Griffo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1609440?v=4",
-      "profile": "https://github.com/umbertogriffo",
-      "contributions": [
-        "jina-hub"
-      ]
-    },
-    {
-      "login": "janandreschweiger",
-      "name": "janandreschweiger",
-      "avatar_url": "https://avatars.githubusercontent.com/u/44372046?v=4",
-      "profile": "https://github.com/janandreschweiger",
-      "contributions": [
-        "jina-hub"
-      ]
-    },
-    {
-      "login": "ggdupont",
-      "name": "ggdupont",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5583410?v=4",
-      "profile": "https://github.com/ggdupont",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "chunyuema",
-      "name": "Chunyue Ma",
-      "avatar_url": "https://avatars.githubusercontent.com/u/57780561?v=4",
-      "profile": "https://chunyuema.github.io/",
-      "contributions": [
-        "jina-terraform",
-        "docsQA"
-      ]
-    },
-    {
-      "login": "jakubzitny",
-      "name": "Jakub Žitný",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3315662?v=4",
-      "profile": "https://github.com/jakubzitny",
-      "contributions": [
-        "workshops"
-      ]
-    },
-    {
-      "login": "Syarol",
-      "name": "Oleh Yaroshchuk",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13751208?v=4",
-      "profile": "http://bit.ly/3qKM0uO",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "jacobowitz",
-      "name": "Tobias Jacobowitz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6544965?v=4",
-      "profile": "https://github.com/jacobowitz",
+      "login": "Andrei997",
+      "name": "Andrei Ungureanu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15995496?v=4",
+      "profile": "https://github.com/Andrei997",
       "contributions": [
         "jina",
-        "examples",
-        "docs",
-        "jina-hub",
-        "stress-test",
-        "cloud-ops",
-        "jina-terraform",
-        "executors"
+        "hubble",
+        "executor-normalizer",
+        "hub-website"
       ]
     },
     {
-      "login": "clennan",
-      "name": "Christopher Lennan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19587525?v=4",
-      "profile": "https://github.com/clennan",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "0xflotus",
-      "name": "0xflotus",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26602940?v=4",
-      "profile": "https://github.com/0xflotus",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "xhj-fs",
-      "name": "Xiong Hengjie",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25893272?v=4",
-      "profile": "https://github.com/xhj-fs",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "xiaoquisme",
-      "name": "XiaoQu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10496811?v=4",
-      "profile": "https://qulianqing.cnblogs.com/",
-      "contributions": [
-        "jinabox-js"
-      ]
-    },
-    {
-      "login": "OrangeSodahub",
-      "name": "YangXiuyu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/54439582?v=4",
-      "profile": "https://github.com/OrangeSodahub",
-      "contributions": [
-        "annlite"
-      ]
-    },
-    {
-      "login": "stefan-it",
-      "name": "Stefan Schweter",
-      "avatar_url": "https://avatars.githubusercontent.com/u/20651387?v=4",
-      "profile": "https://schweter.ml/",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "makram93",
-      "name": "Mohammad Kalim Akram",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6537525?v=4",
-      "profile": "https://github.com/makram93",
-      "contributions": [
-        "jina",
-        "executors",
-        "finetuner"
-      ]
-    },
-    {
-      "login": "qwel-exe",
-      "name": "Anirudh  Anup",
-      "avatar_url": "https://avatars.githubusercontent.com/u/72848513?v=4",
-      "profile": "https://github.com/qwel-exe",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "lem0n4id",
-      "name": "Lenin Kennedy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61219881?v=4",
-      "profile": "https://lenincodes.co/socials",
+      "login": "PietroAnsidei",
+      "name": "pete2pete",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31099206?v=4",
+      "profile": "https://github.com/PietroAnsidei",
       "contributions": [
         "examples"
       ]
     },
     {
-      "login": "rumbarum",
-      "name": "한바름",
-      "avatar_url": "https://avatars.githubusercontent.com/u/48576227?v=4",
-      "profile": "https://rumbarum.github.io/",
+      "login": "cbockman",
+      "name": "cbockman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4667922?v=4",
+      "profile": "https://github.com/cbockman",
       "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "samsja",
-      "name": "samsja",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55492238?v=4",
-      "profile": "https://github.com/samsja",
-      "contributions": [
-        "clip-as-service",
-        "jina",
-        "executor-image-torch-encoder",
-        "executor-audio-clip-encoder",
-        "executors",
-        "executor-simpleindexer",
-        "executor-text-transformers-torch-encoder",
-        "executor-text-clip-encoder",
-        "executor-image-clip-encoder",
-        "executor-matchmerger",
-        "executor-simpleranker"
-      ]
-    },
-    {
-      "login": "Showtim3",
-      "name": "Rishabh Rawat",
-      "avatar_url": "https://avatars.githubusercontent.com/u/30312043?v=4",
-      "profile": "https://github.com/Showtim3",
-      "contributions": [
-        "dashboard"
-      ]
-    },
-    {
-      "login": "akanz1",
-      "name": "Andreas Kanz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/51492342?v=4",
-      "profile": "https://github.com/akanz1",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "davidli-oneflick",
-      "name": "davidli-oneflick",
-      "avatar_url": "https://avatars.githubusercontent.com/u/62926164?v=4",
-      "profile": "https://github.com/davidli-oneflick",
-      "contributions": [
-        "dashboard"
-      ]
-    },
-    {
-      "login": "alasdairtran",
-      "name": "Alasdair Tran",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10582768?v=4",
-      "profile": "https://github.com/alasdairtran",
-      "contributions": [
-        "jina"
+        "clip-as-service"
       ]
     },
     {
@@ -704,6 +507,15 @@
       "profile": "https://github.com/ApurvaMisra",
       "contributions": [
         "examples"
+      ]
+    },
+    {
+      "login": "akanz1",
+      "name": "Andreas Kanz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51492342?v=4",
+      "profile": "https://github.com/akanz1",
+      "contributions": [
+        "jina"
       ]
     },
     {
@@ -758,535 +570,59 @@
         "executor-text-clip-encoder",
         "executor-image-clip-encoder",
         "executor-matchmerger",
-        "executor-simpleranker",
-        "example-video-search"
-      ]
-    },
-    {
-      "login": "KING-SID",
-      "name": "KING-SID",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14876698?v=4",
-      "profile": "https://github.com/KING-SID",
-      "contributions": [
-        "executors"
-      ]
-    },
-    {
-      "login": "ThePfarrer",
-      "name": "Uche Okereke",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7157861?v=4",
-      "profile": "https://github.com/ThePfarrer",
-      "contributions": [
-        "jina",
-        "docs"
-      ]
-    },
-    {
-      "login": "shazhou2015",
-      "name": "Sha Zhou",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11716841?v=4",
-      "profile": "https://github.com/shazhou2015",
-      "contributions": [
-        "clip-as-service",
-        "jina",
-        "jina-ai-github-io",
-        "finetuner",
-        "hub-website"
-      ]
-    },
-    {
-      "login": "Ailln",
-      "name": "Ailln",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7982046?v=4",
-      "profile": "https://ailln.com/",
-      "contributions": [
-        "executor-sentence-transformer"
-      ]
-    },
-    {
-      "login": "CallmeMehdi",
-      "name": "CallmeMehdi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/47258917?v=4",
-      "profile": "https://github.com/CallmeMehdi",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "GabrielBianconi",
-      "name": "Gabriel Bianconi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1275491?v=4",
-      "profile": "http://www.gabrielbianconi.com/",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "carlosb1",
-      "name": "Carlos B",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1107703?v=4",
-      "profile": "https://www.linkedin.com/in/carlosbaezruiz/",
-      "contributions": [
-        "jina",
-        "jina-hub"
-      ]
-    },
-    {
-      "login": "MiaAltieri",
-      "name": "Mia Altieri",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32723809?v=4",
-      "profile": "https://www.mia-altieri.dev/",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "shushanxingzhe",
-      "name": "Louis",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5352463?v=4",
-      "profile": "https://github.com/shushanxingzhe",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "Razzaghnoori",
-      "name": "Mohammad Razzaghnoori",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5106702?v=4",
-      "profile": "http://razzaghnoori.redbubble.com/",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "sephiartlist",
-      "name": "sephiartlist",
-      "avatar_url": "https://avatars.githubusercontent.com/u/84024706?v=4",
-      "profile": "https://github.com/sephiartlist",
-      "contributions": [
-        "example-video-search"
-      ]
-    },
-    {
-      "login": "delgermurun",
-      "name": "Delgermurun",
-      "avatar_url": "https://avatars.githubusercontent.com/u/492616?v=4",
-      "profile": "https://delgermurun.com/",
-      "contributions": [
-        "jina",
-        "hubble",
-        "executor-normalizer",
-        "executor-image-torch-encoder",
-        "hub-integration",
-        "executor-audio-clip-encoder",
-        "executor-text-audioclip-text-encoder",
-        "executors",
-        "executor-image-audioclip-image-encoder",
-        "executor-simpleindexer",
-        "executor-doc2query",
-        "executor-text-transformers-torch-encoder",
-        "action-hubble-push",
-        "executor-text-clip-encoder",
-        "executor-image-clip-encoder",
-        "executor-matchmerger",
         "executor-simpleranker"
       ]
     },
     {
-      "login": "kraglik",
-      "name": "Igor Kraglik",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32438465?v=4",
-      "profile": "https://github.com/kraglik",
+      "login": "vsoch",
+      "name": "Vanessasaurus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/814322?v=4",
+      "profile": "https://vsoch.github.io/",
       "contributions": [
         "clip-as-service"
       ]
     },
     {
-      "login": "akurniawan",
-      "name": "Aditya Kurniawan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4723643?v=4",
-      "profile": "https://www.linkedin.com/in/akurniawan25/",
-      "contributions": [
-        "jina-hub"
-      ]
-    },
-    {
-      "login": "SulemanBhatti",
-      "name": "Suleman Ahmad",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55692967?v=4",
-      "profile": "https://www.onefootball.com/",
-      "contributions": [
-        "dashboard"
-      ]
-    },
-    {
-      "login": "10zinten",
-      "name": "Tenzin ",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16164304?v=4",
-      "profile": "https://www.linkedin.com/in/10zinten/",
+      "login": "gaocegege",
+      "name": "Ce Gao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5100735?v=4",
+      "profile": "https://github.com/gaocegege",
       "contributions": [
         "jina"
       ]
     },
     {
-      "login": "garimavs",
-      "name": "Garima Singh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/77723358?v=4",
-      "profile": "https://github.com/garimavs",
-      "contributions": [
-        "jina-ui"
-      ]
-    },
-    {
-      "login": "rameshwara",
-      "name": "rameshwara",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13378629?v=4",
-      "profile": "https://github.com/rameshwara",
+      "login": "kkkellyjiang",
+      "name": "Kelly",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84776567?v=4",
+      "profile": "https://github.com/kkkellyjiang",
       "contributions": [
         "jina"
       ]
     },
     {
-      "login": "uvipen",
-      "name": "Viet Nguyen",
-      "avatar_url": "https://avatars.githubusercontent.com/u/47221207?v=4",
-      "profile": "https://github.com/uvipen",
+      "login": "LMMilliken",
+      "name": "Louis Milliken",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58855099?v=4",
+      "profile": "https://github.com/LMMilliken",
       "contributions": [
-        "examples"
-      ]
-    },
-    {
-      "login": "JamesTang-616",
-      "name": "James Tang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/69177855?v=4",
-      "profile": "https://github.com/JamesTang-616",
-      "contributions": [
-        "examples"
-      ]
-    },
-    {
-      "login": "Sreerag-ibtl",
-      "name": "Sreerag M",
-      "avatar_url": "https://avatars.githubusercontent.com/u/39914922?v=4",
-      "profile": "https://github.com/Sreerag-ibtl",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "amrit3701",
-      "name": "Amritpal Singh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10414959?v=4",
-      "profile": "https://www.linkedin.com/in/amrit3701/",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "innerNULL",
-      "name": "inull",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10429190?v=4",
-      "profile": "https://github.com/innerNULL",
-      "contributions": [
-        "cloud-ops"
-      ]
-    },
-    {
-      "login": "ZiniuYu",
-      "name": "Ziniu Yu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/21340127?v=4",
-      "profile": "https://github.com/ZiniuYu",
-      "contributions": [
-        "clip-as-service",
-        "jina",
-        "executor-simpleranker"
-      ]
-    },
-    {
-      "login": "ImgBotApp",
-      "name": "Imgbot",
-      "avatar_url": "https://avatars.githubusercontent.com/u/31427850?v=4",
-      "profile": "https://imgbot.net/",
-      "contributions": [
-        "benchmark"
-      ]
-    },
-    {
-      "login": "ammarasmro",
-      "name": "Ammar Asmro",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22536934?v=4",
-      "profile": "https://ammarasmaro.com/",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "RenrakuRunrat",
-      "name": "RenrakuRunrat",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14925249?v=4",
-      "profile": "https://github.com/RenrakuRunrat",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "shubhamgoel27",
-      "name": "Shubham Goel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6277335?v=4",
-      "profile": "https://github.com/shubhamgoel27",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "pdaryamane",
-      "name": "pdaryamane",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11886076?v=4",
-      "profile": "https://github.com/pdaryamane",
-      "contributions": [
-        "dashboard"
-      ]
-    },
-    {
-      "login": "dalekatwork",
-      "name": "Pooja Maheshwari",
-      "avatar_url": "https://avatars.githubusercontent.com/u/40423996?v=4",
-      "profile": "https://github.com/dalekatwork",
-      "contributions": [
-        "dashboard"
-      ]
-    },
-    {
-      "login": "Roshanjossey",
-      "name": "Roshan Jossy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8488446?v=4",
-      "profile": "https://github.com/Roshanjossey",
-      "contributions": [
-        "clip-as-service",
-        "dashboard",
-        "jina-ai-github-io",
         "finetuner"
       ]
     },
     {
-      "login": "usvyatsky",
-      "name": "Ilya Usvyatsky",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3476436?v=4",
-      "profile": "https://github.com/usvyatsky",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "tarrantro",
-      "name": "tarrantro",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19900542?v=4",
-      "profile": "https://github.com/tarrantro",
+      "login": "BastinJafari",
+      "name": "Bastin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25417797?v=4",
+      "profile": "https://github.com/BastinJafari",
       "contributions": [
         "jina",
-        "cloud-ops",
-        "jina-terraform"
-      ]
-    },
-    {
-      "login": "gmatt",
-      "name": "Matt Sárdi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6741625?v=4",
-      "profile": "https://github.com/gmatt",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "atibaup",
-      "name": "Arnau",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1799897?v=4",
-      "profile": "https://github.com/atibaup",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "joschkabraun",
-      "name": "Joschka Braun",
-      "avatar_url": "https://avatars.githubusercontent.com/u/47435119?v=4",
-      "profile": "https://github.com/joschkabraun",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "properGrammar",
-      "name": "Graham Arthur Mackenzie",
-      "avatar_url": "https://avatars.githubusercontent.com/u/20957896?v=4",
-      "profile": "https://github.com/properGrammar",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "BillDorn",
-      "name": "Bill",
-      "avatar_url": "https://avatars.githubusercontent.com/u/541896?v=4",
-      "profile": "https://github.com/BillDorn",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "paperplanet",
-      "name": "paperplanet",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4402083?v=4",
-      "profile": "https://github.com/paperplanet",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "willperkins",
-      "name": "Will Perkins",
-      "avatar_url": "https://avatars.githubusercontent.com/u/576702?v=4",
-      "profile": "http://willperkins.com/",
-      "contributions": [
-        "jina-hub",
-        "jupyter-notebooks"
-      ]
-    },
-    {
-      "login": "bio-howard",
-      "name": "bio-howard",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74507907?v=4",
-      "profile": "https://github.com/bio-howard",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "strawberrypie",
-      "name": "Anton Kiselev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/29224443?v=4",
-      "profile": "https://github.com/strawberrypie",
-      "contributions": [
-        "jina-hub"
-      ]
-    },
-    {
-      "login": "SirsikarAkshay",
-      "name": "SirsikarAkshay",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19791969?v=4",
-      "profile": "https://github.com/SirsikarAkshay",
-      "contributions": [
-        "examples"
-      ]
-    },
-    {
-      "login": "LukeekuL",
-      "name": "Lukasz Wandzik",
-      "avatar_url": "https://avatars.githubusercontent.com/u/24293913?v=4",
-      "profile": "https://github.com/LukeekuL",
-      "contributions": [
-        "examples",
-        "docs"
-      ]
-    },
-    {
-      "login": "HelioStrike",
-      "name": "Sai Sandeep Mutyala",
-      "avatar_url": "https://avatars.githubusercontent.com/u/34064492?v=4",
-      "profile": "https://github.com/HelioStrike",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "ManudattaG",
-      "name": "Manudatta G",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8463344?v=4",
-      "profile": "https://github.com/ManudattaG",
-      "contributions": [
-        "examples"
-      ]
-    },
-    {
-      "login": "Bharat123rox",
-      "name": "Bharat Raghunathan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13381361?v=4",
-      "profile": "https://eportfolio.mygreatlearning.com/bharat-raghunathan",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "aga11313",
-      "name": "Agnieszka Agnes Wasikowska",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23415764?v=4",
-      "profile": "https://github.com/aga11313",
-      "contributions": [
-        "examples",
-        "dashboard"
-      ]
-    },
-    {
-      "login": "rodgzilla",
-      "name": "Grégory Châtel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12107203?v=4",
-      "profile": "https://github.com/rodgzilla",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "prabhupad26",
-      "name": "Prabhupad Pradhan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11462012?v=4",
-      "profile": "https://prabhupad26.github.io/",
-      "contributions": [
-        "examples"
-      ]
-    },
-    {
-      "login": "craigcitro",
-      "name": "Craig Citro",
-      "avatar_url": "https://avatars.githubusercontent.com/u/468559?v=4",
-      "profile": "https://www.craigcitro.org/",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "likejazz",
-      "name": "Sang-Kil Park",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1250095?v=4",
-      "profile": "https://docs.likejazz.com/",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "averkij",
-      "name": "Sergei Averkiev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1473991?v=4",
-      "profile": "https://github.com/averkij",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "harry-stark",
-      "name": "Harsimranjeet Saini",
-      "avatar_url": "https://avatars.githubusercontent.com/u/43717480?v=4",
-      "profile": "https://github.com/harry-stark",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "cbockman",
-      "name": "cbockman",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4667922?v=4",
-      "profile": "https://github.com/cbockman",
-      "contributions": [
-        "clip-as-service"
+        "docs",
+        "dashboard",
+        "_homepage",
+        "jinabox-js",
+        "cookiecutter_test",
+        "website",
+        "jina-ui"
       ]
     },
     {
@@ -1299,45 +635,193 @@
       ]
     },
     {
-      "login": "mrtrkmn",
-      "name": "Ahmet Türkmen",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13614433?v=4",
-      "profile": "https://github.com/mrtrkmn",
+      "login": "IyadhKhalfallah",
+      "name": "IyadhKhalfallah",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35614094?v=4",
+      "profile": "https://github.com/IyadhKhalfallah",
       "contributions": [
         "jina"
       ]
     },
     {
-      "login": "Jhangsy",
-      "name": "Jhang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16949651?v=4",
-      "profile": "https://github.com/Jhangsy",
+      "login": "bio-howard",
+      "name": "bio-howard",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74507907?v=4",
+      "profile": "https://github.com/bio-howard",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "Arrrlex",
+      "name": "Alex McKenzie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13290269?v=4",
+      "profile": "https://github.com/Arrrlex",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "georgefeng",
+      "name": "jhfeng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23147020?v=4",
+      "profile": "https://github.com/georgefeng",
       "contributions": [
         "clip-as-service"
       ]
     },
     {
-      "login": "gmastrapas",
-      "name": "George Mastrapas",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32414777?v=4",
-      "profile": "https://github.com/gmastrapas",
+      "login": "m4rtinkoenig",
+      "name": "Martin König",
+      "avatar_url": "https://avatars.githubusercontent.com/u/90192168?v=4",
+      "profile": "https://github.com/m4rtinkoenig",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "gauthamsuresh09",
+      "name": "Gautham Suresh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55235118?v=4",
+      "profile": "https://github.com/gauthamsuresh09",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "VaszhurSofia",
+      "name": "VaszhurSofia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/92456223?v=4",
+      "profile": "https://github.com/VaszhurSofia",
+      "contributions": [
+        "website"
+      ]
+    },
+    {
+      "login": "KING-SID",
+      "name": "KING-SID",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14876698?v=4",
+      "profile": "https://github.com/KING-SID",
+      "contributions": [
+        "executors"
+      ]
+    },
+    {
+      "login": "lem0n4id",
+      "name": "Lenin Kennedy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61219881?v=4",
+      "profile": "https://lenincodes.co/socials",
+      "contributions": [
+        "examples"
+      ]
+    },
+    {
+      "login": "Razzaghnoori",
+      "name": "Mohammad Razzaghnoori",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5106702?v=4",
+      "profile": "http://razzaghnoori.redbubble.com/",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "educatorsRlearners",
+      "name": "Evan Simpson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17770276?v=4",
+      "profile": "https://github.com/educatorsRlearners",
+      "contributions": [
+        "examples"
+      ]
+    },
+    {
+      "login": "florian-hoenicke",
+      "name": "Florian Hönicke",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11627845?v=4",
+      "profile": "https://jina.ai/",
       "contributions": [
         "jina",
+        "examples",
+        "docs",
+        "jina-hub",
+        "dashboard",
+        "executor-normalizer",
+        "executor-image-normalizer",
+        "executor-clip-image",
+        "executor-image-torch-object-detection-segmenter",
+        "kubernetes_deployment",
+        "executors",
+        "jina-ui",
+        "finetuner"
+      ]
+    },
+    {
+      "login": "nikitashrivastava29",
+      "name": "nikitashrivastava29",
+      "avatar_url": "https://avatars.githubusercontent.com/u/92428644?v=4",
+      "profile": "https://github.com/nikitashrivastava29",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "nomagick",
+      "name": "Yanlong Wang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/565869?v=4",
+      "profile": "https://yanlong.wang/",
+      "contributions": [
+        "jina",
+        "jina-ai-github-io",
+        "cloud-ops",
+        "jupyter-notebooks",
+        "hubble",
+        "executor-cases",
+        "executor-normalizer",
+        "website",
+        "hub-integration",
+        "executors",
         "finetuner",
+        "hub-website",
+        "executor-simpleindexer",
+        "docsQA",
+        "action-hubble-test-docker",
         "action-hubble-push"
       ]
     },
     {
-      "login": "YueLiu1415926",
-      "name": "Yue Liu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/64522311?v=4",
-      "profile": "https://github.com/YueLiu1415926",
+      "login": "tadej-redstone",
+      "name": "Tadej Svetina",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69796623?v=4",
+      "profile": "https://github.com/tadej-redstone",
       "contributions": [
         "jina",
-        "examples",
-        "jina-hub",
-        "cookiecutter-jina",
-        "cookiecutter-jina-executor"
+        "jina-hub"
+      ]
+    },
+    {
+      "login": "NouiliKh",
+      "name": "NouiliKh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22430520?v=4",
+      "profile": "https://github.com/NouiliKh",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "big-thousand",
+      "name": "big-thousand",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114633619?v=4",
+      "profile": "https://github.com/big-thousand",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "umbertogriffo",
+      "name": "Umberto Griffo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1609440?v=4",
+      "profile": "https://github.com/umbertogriffo",
+      "contributions": [
+        "jina-hub"
       ]
     },
     {
@@ -1370,187 +854,39 @@
       ]
     },
     {
-      "login": "sixhobbits",
-      "name": "Gareth Dwyer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2641205?v=4",
-      "profile": "https://dwyer.co.za/",
-      "contributions": [
-        "docs"
-      ]
-    },
-    {
-      "login": "jupyterjazz",
-      "name": "Saba Sturua",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45267439?v=4",
-      "profile": "https://github.com/jupyterjazz",
-      "contributions": [
-        "jina",
-        "finetuner"
-      ]
-    },
-    {
-      "login": "floralatin",
-      "name": "zhangkai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16202568?v=4",
-      "profile": "https://github.com/floralatin",
-      "contributions": [
-        "jina",
-        "hubble",
-        "executor-normalizer",
-        "hub-integration",
-        "hub-website"
-      ]
-    },
-    {
-      "login": "fogx",
-      "name": "Leon Wolf",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10303647?v=4",
-      "profile": "https://github.com/fogx",
+      "login": "MiaAltieri",
+      "name": "Mia Altieri",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32723809?v=4",
+      "profile": "https://www.mia-altieri.dev/",
       "contributions": [
         "jina"
       ]
     },
     {
-      "login": "m4rtinkoenig",
-      "name": "Martin König",
-      "avatar_url": "https://avatars.githubusercontent.com/u/90192168?v=4",
-      "profile": "https://github.com/m4rtinkoenig",
+      "login": "gmatt",
+      "name": "Matt Sárdi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6741625?v=4",
+      "profile": "https://github.com/gmatt",
       "contributions": [
         "jina"
       ]
     },
     {
-      "login": "sarvesh4396",
-      "name": "Sarvesh Kumar Dwivedi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/68162479?v=4",
-      "profile": "https://sarvesh.netlify.app/",
+      "login": "kraglik",
+      "name": "Igor Kraglik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32438465?v=4",
+      "profile": "https://github.com/kraglik",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "rameshwara",
+      "name": "rameshwara",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13378629?v=4",
+      "profile": "https://github.com/rameshwara",
       "contributions": [
         "jina"
-      ]
-    },
-    {
-      "login": "joeyouss",
-      "name": "Jyoti Bisht (Joe)",
-      "avatar_url": "https://avatars.githubusercontent.com/u/72690202?v=4",
-      "profile": "https://github.com/joeyouss",
-      "contributions": [
-        "GSoC"
-      ]
-    },
-    {
-      "login": "JohannesMessner",
-      "name": "Johannes Messner",
-      "avatar_url": "https://avatars.githubusercontent.com/u/44071807?v=4",
-      "profile": "https://github.com/JohannesMessner",
-      "contributions": [
-        "jina",
-        "workshops",
-        "executor-simpleindexer",
-        "executor-matchmerger"
-      ]
-    },
-    {
-      "login": "anshulwadhawan",
-      "name": "Anshul Wadhawan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25061477?v=4",
-      "profile": "https://github.com/anshulwadhawan",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "aijunbai",
-      "name": "Aijun Bai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3437674?v=4",
-      "profile": "https://aijunbai.github.io/",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "yangyaofei",
-      "name": "yangyaofei",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7934098?v=4",
-      "profile": "https://github.com/yangyaofei",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "dveselov",
-      "name": "Dima Veselov",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10365705?v=4",
-      "profile": "https://github.com/dveselov",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "haven-jeon",
-      "name": "Heewon Jeon(gogamza)",
-      "avatar_url": "https://avatars.githubusercontent.com/u/957840?v=4",
-      "profile": "http://freesearch.pe.kr/",
-      "contributions": [
-        "executors"
-      ]
-    },
-    {
-      "login": "smy0428",
-      "name": "Siyuan Shi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61920576?v=4",
-      "profile": "https://github.com/smy0428",
-      "contributions": [
-        "jina",
-        "jina-hub"
-      ]
-    },
-    {
-      "login": "kilianyp",
-      "name": "Kilian Pfeiffer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5173119?v=4",
-      "profile": "https://github.com/kilianyp",
-      "contributions": [
-        "jina-hub"
-      ]
-    },
-    {
-      "login": "azayz",
-      "name": "Aziz Belaweid",
-      "avatar_url": "https://avatars.githubusercontent.com/u/40893766?v=4",
-      "profile": "https://github.com/azayz",
-      "contributions": [
-        "jina",
-        "cloud-ops",
-        "finetuner",
-        "executor-doc2query",
-        "docsQA"
-      ]
-    },
-    {
-      "login": "vivek2301",
-      "name": "vivek2301",
-      "avatar_url": "https://avatars.githubusercontent.com/u/64314477?v=4",
-      "profile": "https://github.com/vivek2301",
-      "contributions": [
-        "executors"
-      ]
-    },
-    {
-      "login": "nickovs",
-      "name": "Nicko van Someren",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4205868?v=4",
-      "profile": "https://github.com/nickovs",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "julianpetrich",
-      "name": "Julian",
-      "avatar_url": "https://avatars.githubusercontent.com/u/37179344?v=4",
-      "profile": "https://github.com/julianpetrich",
-      "contributions": [
-        "jina-hub"
       ]
     },
     {
@@ -1563,57 +899,21 @@
       ]
     },
     {
-      "login": "mkhilai",
-      "name": "Mykyta Khilai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6876258?v=4",
-      "profile": "https://github.com/mkhilai",
+      "login": "clennan",
+      "name": "Christopher Lennan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19587525?v=4",
+      "profile": "https://github.com/clennan",
       "contributions": [
-        "dashboard"
+        "jina"
       ]
     },
     {
-      "login": "mapleeit",
-      "name": "Zhaofeng Miao",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4194287?v=4",
-      "profile": "https://github.com/mapleeit",
+      "login": "SmartCodeDavid",
+      "name": "TIANXIANG LAN",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30002112?v=4",
+      "profile": "https://github.com/SmartCodeDavid",
       "contributions": [
-        "jina",
-        "examples",
-        "jina-ai-github-io",
-        "jupyter-notebooks",
-        "hubble",
-        "executor-cases",
-        "executor-normalizer",
-        "executor-image-torch-encoder",
-        "executor-image-normalizer",
-        "executor-clip-image",
-        "executor-text-tfidfencoder",
-        "executor-evaluator-ranking",
-        "executor-text-paddle",
-        "executor-audio-VGGishEncoder",
-        "executor-sentence-transformer",
-        "hub-integration",
-        "executor-audio-clip-encoder",
-        "executor-text-sentencizer",
-        "executors",
-        "hub-website",
-        "executor-simpleindexer",
-        "executor-text-transformers-torch-encoder",
-        "executor-text-clip-encoder",
-        "executor-image-clip-encoder",
-        "executor-matchmerger",
-        "executor-simpleranker",
-        "example-video-search"
-      ]
-    },
-    {
-      "login": "xiongma",
-      "name": "Xiong Ma",
-      "avatar_url": "https://avatars.githubusercontent.com/u/30991932?v=4",
-      "profile": "https://github.com/xiongma",
-      "contributions": [
-        "jina",
-        "examples"
+        "hub-website"
       ]
     },
     {
@@ -1623,6 +923,38 @@
       "profile": "https://github.com/bsmth",
       "contributions": [
         "devrel-heartmaker"
+      ]
+    },
+    {
+      "login": "FionnD",
+      "name": "Fionn Delahunty",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59612379?v=4",
+      "profile": "https://github.com/FionnD",
+      "contributions": [
+        "jina",
+        "examples",
+        "docs",
+        "jina-hub",
+        "jinabox-js",
+        "jupyter-notebooks"
+      ]
+    },
+    {
+      "login": "kilianyp",
+      "name": "Kilian Pfeiffer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5173119?v=4",
+      "profile": "https://github.com/kilianyp",
+      "contributions": [
+        "jina-hub"
+      ]
+    },
+    {
+      "login": "hongchhe",
+      "name": "Adam He",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25891193?v=4",
+      "profile": "https://github.com/hongchhe",
+      "contributions": [
+        "jina"
       ]
     },
     {
@@ -1637,33 +969,543 @@
       ]
     },
     {
-      "login": "gvondulong",
-      "name": "Gregor von Dulong",
-      "avatar_url": "https://avatars.githubusercontent.com/u/54177084?v=4",
-      "profile": "https://github.com/gvondulong",
+      "login": "likejazz",
+      "name": "Sang-Kil Park",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1250095?v=4",
+      "profile": "https://docs.likejazz.com/",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "vivek2301",
+      "name": "vivek2301",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64314477?v=4",
+      "profile": "https://github.com/vivek2301",
+      "contributions": [
+        "executors"
+      ]
+    },
+    {
+      "login": "harry-stark",
+      "name": "Harsimranjeet Saini",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43717480?v=4",
+      "profile": "https://github.com/harry-stark",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "mezig351",
+      "name": "mezig351",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10896185?v=4",
+      "profile": "https://github.com/mezig351",
+      "contributions": [
+        "jina-hub"
+      ]
+    },
+    {
+      "login": "jyothishkjames",
+      "name": "Jyothish James",
+      "avatar_url": "https://avatars.githubusercontent.com/u/937528?v=4",
+      "profile": "https://github.com/jyothishkjames",
+      "contributions": [
+        "examples"
+      ]
+    },
+    {
+      "login": "stefan-it",
+      "name": "Stefan Schweter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20651387?v=4",
+      "profile": "https://schweter.ml/",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "markqin",
+      "name": "Mark Qin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/863557?v=4",
+      "profile": "https://github.com/markqin",
+      "contributions": [
+        "website",
+        "hub-website"
+      ]
+    },
+    {
+      "login": "joeyouss",
+      "name": "Jyoti Bisht (Joe)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72690202?v=4",
+      "profile": "https://github.com/joeyouss",
+      "contributions": [
+        "GSoC",
+        "website"
+      ]
+    },
+    {
+      "login": "joschkabraun",
+      "name": "Joschka Braun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47435119?v=4",
+      "profile": "https://github.com/joschkabraun",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "Shubhamsaboo",
+      "name": "Shubham Saboo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31396011?v=4",
+      "profile": "https://github.com/Shubhamsaboo",
       "contributions": [
         "jina",
+        "jina-ai-github-io",
+        "website",
+        "finetuner"
+      ]
+    },
+    {
+      "login": "rjgallego",
+      "name": "Rheanna Pena",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59635994?v=4",
+      "profile": "https://github.com/rjgallego",
+      "contributions": [
+        "dashboard"
+      ]
+    },
+    {
+      "login": "subbuv26",
+      "name": "Subba Reddy Veeramreddy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12125694?v=4",
+      "profile": "https://github.com/subbuv26",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "varshaneya",
+      "name": "varshaneya",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12171425?v=4",
+      "profile": "https://www.linkedin.com/in/varshaneya/",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "rodgzilla",
+      "name": "Grégory Châtel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12107203?v=4",
+      "profile": "https://github.com/rodgzilla",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "violenil",
+      "name": "Isabelle Mohr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55404563?v=4",
+      "profile": "https://github.com/violenil",
+      "contributions": [
+        "finetuner"
+      ]
+    },
+    {
+      "login": "drndos",
+      "name": "Filip Bednárik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5576134?v=4",
+      "profile": "https://blog.drndos.sk/",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "wanderer163",
+      "name": "wanderer163",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93438190?v=4",
+      "profile": "https://github.com/wanderer163",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "rudranshsharma123",
+      "name": "Rudransh Sharma",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67827010?v=4",
+      "profile": "https://github.com/rudranshsharma123",
+      "contributions": [
+        "examples"
+      ]
+    },
+    {
+      "login": "shubhamgoel27",
+      "name": "Shubham Goel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6277335?v=4",
+      "profile": "https://github.com/shubhamgoel27",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "maloyan",
+      "name": "Narek Maloyan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27706632?v=4",
+      "profile": "https://github.com/maloyan",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "doomdabo",
+      "name": "Bokyung Kwon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72394295?v=4",
+      "profile": "https://github.com/doomdabo",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "yk",
+      "name": "Yannic Kilcher",
+      "avatar_url": "https://avatars.githubusercontent.com/u/858040?v=4",
+      "profile": "https://github.com/yk",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "shazhou2015",
+      "name": "Sha Zhou",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11716841?v=4",
+      "profile": "https://github.com/shazhou2015",
+      "contributions": [
+        "clip-as-service",
+        "jina",
+        "jina-ai-github-io",
+        "website",
+        "finetuner",
+        "hub-website"
+      ]
+    },
+    {
+      "login": "Jhangsy",
+      "name": "Jhang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16949651?v=4",
+      "profile": "https://github.com/Jhangsy",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "pgiank28",
+      "name": "Pantelis Giankoulidis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17511966?v=4",
+      "profile": "https://github.com/pgiank28",
+      "contributions": [
+        "jina-hub"
+      ]
+    },
+    {
+      "login": "deepampatel",
+      "name": "Deepam Patel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19245659?v=4",
+      "profile": "https://github.com/deepampatel",
+      "contributions": [
+        "jina",
+        "jina-hub"
+      ]
+    },
+    {
+      "login": "jakobkruse1",
+      "name": "Jakob Kruse",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42516008?v=4",
+      "profile": "https://www.jakobkruse.com/",
+      "contributions": [
+        "jina",
+        "examples",
+        "jinabox-js",
+        "jina-commons",
+        "executor-image-torch-encoder",
+        "executor-image-normalizer",
+        "executor-big-transfer-encoder",
+        "executor-transformer-torch-encoder",
+        "executor-template",
+        "executor-audio-VGGishEncoder",
+        "executor-text-sentencizer",
+        "executors"
+      ]
+    },
+    {
+      "login": "atibaup",
+      "name": "Arnau",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1799897?v=4",
+      "profile": "https://github.com/atibaup",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "fogx",
+      "name": "Leon Wolf",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10303647?v=4",
+      "profile": "https://github.com/fogx",
+      "contributions": [
+        "jina",
+        "website",
+        "hub-website"
+      ]
+    },
+    {
+      "login": "willperkins",
+      "name": "Will Perkins",
+      "avatar_url": "https://avatars.githubusercontent.com/u/576702?v=4",
+      "profile": "http://willperkins.com/",
+      "contributions": [
+        "jina-hub",
+        "jupyter-notebooks"
+      ]
+    },
+    {
+      "login": "guenthermi",
+      "name": "Michael Günther",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6599259?v=4",
+      "profile": "https://github.com/guenthermi",
+      "contributions": [
+        "jina",
+        "finetuner"
+      ]
+    },
+    {
+      "login": "redjson",
+      "name": "Guillaume",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47593967?v=4",
+      "profile": "https://github.com/redjson",
+      "contributions": [
+        "hubble"
+      ]
+    },
+    {
+      "login": "Arthur-Milchior",
+      "name": "Arthur Milchior",
+      "avatar_url": "https://avatars.githubusercontent.com/u/357361?v=4",
+      "profile": "http://www.milchior.fr/",
+      "contributions": [
+        "docs"
+      ]
+    },
+    {
+      "login": "PabloRN",
+      "name": "Pablo Reyes Naranjo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/727564?v=4",
+      "profile": "https://github.com/PabloRN",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "Jake-00",
+      "name": "Jake-00",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60967034?v=4",
+      "profile": "https://github.com/Jake-00",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "PLNech",
+      "name": "Paul-Louis NECH",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1821404?v=4",
+      "profile": "https://nech.pl/",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "eric-haibin-lin",
+      "name": "Haibin Lin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5545640?v=4",
+      "profile": "http://haibinlin.com/",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "winstonww",
+      "name": "Winston Wong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13983591?v=4",
+      "profile": "https://github.com/winstonww",
+      "contributions": [
+        "jina",
+        "examples",
+        "cloud-ops",
+        "executor-indexers",
+        "executor-image-normalizer",
+        "executors",
         "finetuner",
         "executor-simpleindexer",
         "docsQA"
       ]
     },
     {
-      "login": "umairkarel",
-      "name": "Umair Karel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/76861978?v=4",
-      "profile": "https://www.linkedin.com/in/umairkarel/",
+      "login": "aijunbai",
+      "name": "Aijun Bai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3437674?v=4",
+      "profile": "https://aijunbai.github.io/",
       "contributions": [
-        "jina-ui"
+        "clip-as-service"
       ]
     },
     {
-      "login": "sakuranew",
-      "name": "sakuranew",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23722817?v=4",
-      "profile": "https://github.com/sakuranew",
+      "login": "DARREN-ZHANG",
+      "name": "Darren_Zhang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8371825?v=4",
+      "profile": "https://github.com/DARREN-ZHANG",
+      "contributions": [
+        "_homepage"
+      ]
+    },
+    {
+      "login": "seraco",
+      "name": "Sebastia Ramon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25517036?v=4",
+      "profile": "https://github.com/seraco",
+      "contributions": [
+        "dashboard"
+      ]
+    },
+    {
+      "login": "aga11313",
+      "name": "Agnieszka Agnes Wasikowska",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23415764?v=4",
+      "profile": "https://github.com/aga11313",
+      "contributions": [
+        "examples",
+        "dashboard"
+      ]
+    },
+    {
+      "login": "alaeddine-13",
+      "name": "AlaeddineAbdessalem",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15269265?v=4",
+      "profile": "https://github.com/alaeddine-13",
+      "contributions": [
+        "jina",
+        "examples",
+        "hubble",
+        "executor-normalizer",
+        "executor-template",
+        "executor-image-custom-torch-encoder",
+        "executor-text-transformer-tf-encoder",
+        "executor-sentence-transformer",
+        "executor-pdf-crafter",
+        "executor-audio-clip-encoder",
+        "executor-yolov5",
+        "executors",
+        "hub-website",
+        "annlite",
+        "executor-simpleindexer"
+      ]
+    },
+    {
+      "login": "tadejsv",
+      "name": "Tadej Svetina",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11489772?v=4",
+      "profile": "https://github.com/tadejsv",
+      "contributions": [
+        "jina",
+        "examples",
+        "jina-hub",
+        "cookiecutter-jina-executor",
+        "jina-terraform",
+        "executor-normalizer",
+        "executor-text-audioclip-text-encoder",
+        "executor-image-audioclip-image-encoder",
+        "finetuner"
+      ]
+    },
+    {
+      "login": "scott-martens",
+      "name": "Scott Martens",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70647348?v=4",
+      "profile": "https://github.com/scott-martens",
+      "contributions": [
+        "workshops",
+        "finetuner",
+        "hub-website"
+      ]
+    },
+    {
+      "login": "HelioStrike",
+      "name": "Sai Sandeep Mutyala",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34064492?v=4",
+      "profile": "https://github.com/HelioStrike",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "NickCwh",
+      "name": "Nicholas Chin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25291155?v=4",
+      "profile": "https://www.linkedin.com/in/nicholas-cwh/",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "Roshanjossey",
+      "name": "Roshan Jossy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8488446?v=4",
+      "profile": "https://roshanjossey.github.io/",
+      "contributions": [
+        "clip-as-service",
+        "dashboard",
+        "jina-ai-github-io",
+        "website",
+        "finetuner"
+      ]
+    },
+    {
+      "login": "bsridatta",
+      "name": "Sri Datta Budaraju",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17333185?v=4",
+      "profile": "https://sridatta.ml/",
+      "contributions": [
+        "jina-hub"
+      ]
+    },
+    {
+      "login": "parsaghaffari",
+      "name": "Parsa Ghaffari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3098913?v=4",
+      "profile": "http://parsabg.com/",
       "contributions": [
         "clip-as-service"
+      ]
+    },
+    {
+      "login": "AnudeepGunukula",
+      "name": "Anudeep Gunukula",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55506841?v=4",
+      "profile": "https://github.com/AnudeepGunukula",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "Ailln",
+      "name": "Ailln",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7982046?v=4",
+      "profile": "https://ailln.com/",
+      "contributions": [
+        "executor-sentence-transformer"
+      ]
+    },
+    {
+      "login": "julianpetrich",
+      "name": "Julian",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37179344?v=4",
+      "profile": "https://github.com/julianpetrich",
+      "contributions": [
+        "jina-hub"
       ]
     },
     {
@@ -1694,12 +1536,563 @@
       ]
     },
     {
-      "login": "nikosNalmpantis",
-      "name": "Nikos Nalmpantis",
-      "avatar_url": "https://avatars.githubusercontent.com/u/67504154?v=4",
-      "profile": "https://www.linkedin.com/in/nikos-nalmpantis-60650b187/",
+      "login": "AnthonyLe93",
+      "name": "Anthony Le",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87265509?v=4",
+      "profile": "https://github.com/AnthonyLe93",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "smy0428",
+      "name": "Siyuan Shi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61920576?v=4",
+      "profile": "https://github.com/smy0428",
+      "contributions": [
+        "jina",
+        "jina-hub"
+      ]
+    },
+    {
+      "login": "liam-thunder",
+      "name": "Liam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1531217?v=4",
+      "profile": "https://github.com/liam-thunder",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "jancijen",
+      "name": "jancijen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28826229?v=4",
+      "profile": "https://github.com/jancijen",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "carlosb1",
+      "name": "Carlos B",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1107703?v=4",
+      "profile": "https://www.linkedin.com/in/carlosbaezruiz/",
+      "contributions": [
+        "jina",
+        "jina-hub"
+      ]
+    },
+    {
+      "login": "janandreschweiger",
+      "name": "janandreschweiger",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44372046?v=4",
+      "profile": "https://github.com/janandreschweiger",
+      "contributions": [
+        "jina-hub"
+      ]
+    },
+    {
+      "login": "pswu11",
+      "name": "Pei",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48913707?v=4",
+      "profile": "https://github.com/pswu11",
+      "contributions": [
+        "_homepage",
+        "jina-ai-github-io",
+        "GSoC",
+        "website"
+      ]
+    },
+    {
+      "login": "yuanbit",
+      "name": "Bithiah Yuan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12972261?v=4",
+      "profile": "https://www.linkedin.com/in/yuanb",
+      "contributions": [
+        "jina",
+        "examples",
+        "_homepage",
+        "cookiecutter-jina",
+        "cookiecutter-jina-executor"
+      ]
+    },
+    {
+      "login": "ManudattaG",
+      "name": "Manudatta G",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8463344?v=4",
+      "profile": "https://github.com/ManudattaG",
       "contributions": [
         "examples"
+      ]
+    },
+    {
+      "login": "alt-shreya",
+      "name": "Shreya",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70858293?v=4",
+      "profile": "https://github.com/alt-shreya",
+      "contributions": [
+        "website"
+      ]
+    },
+    {
+      "login": "fayeah",
+      "name": "fayeah",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29644978?v=4",
+      "profile": "http://fayeah.github.io/",
+      "contributions": [
+        "dashboard"
+      ]
+    },
+    {
+      "login": "dveselov",
+      "name": "Dima Veselov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10365705?v=4",
+      "profile": "https://github.com/dveselov",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "bhavsarpratik",
+      "name": "Pratik Bhavsar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23080576?v=4",
+      "profile": "https://github.com/bhavsarpratik",
+      "contributions": [
+        "jina",
+        "examples",
+        "jina-hub",
+        "jinad"
+      ]
+    },
+    {
+      "login": "hargup",
+      "name": "Harsh Gupta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2477788?v=4",
+      "profile": "http://hargup.in/",
+      "contributions": [
+        "examples"
+      ]
+    },
+    {
+      "login": "sakuranew",
+      "name": "sakuranew",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23722817?v=4",
+      "profile": "https://github.com/sakuranew",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "Nick17t",
+      "name": "Sa Zhang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55871322?v=4",
+      "profile": "https://github.com/Nick17t",
+      "contributions": [
+        "GSoC"
+      ]
+    },
+    {
+      "login": "delgermurun",
+      "name": "Delgermurun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/492616?v=4",
+      "profile": "https://delgermurun.com/",
+      "contributions": [
+        "jina",
+        "hubble",
+        "executor-normalizer",
+        "executor-image-torch-encoder",
+        "hub-integration",
+        "executor-audio-clip-encoder",
+        "executor-text-audioclip-text-encoder",
+        "executors",
+        "executor-image-audioclip-image-encoder",
+        "executor-simpleindexer",
+        "executor-doc2query",
+        "executor-text-transformers-torch-encoder",
+        "action-hubble-push",
+        "executor-text-clip-encoder",
+        "executor-image-clip-encoder",
+        "executor-matchmerger",
+        "executor-simpleranker"
+      ]
+    },
+    {
+      "login": "Sreerag-ibtl",
+      "name": "Sreerag M",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39914922?v=4",
+      "profile": "https://github.com/Sreerag-ibtl",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "samjoy",
+      "name": "samjoy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3750744?v=4",
+      "profile": "https://github.com/samjoy",
+      "contributions": [
+        "examples",
+        "docs"
+      ]
+    },
+    {
+      "login": "LukeekuL",
+      "name": "Lukasz Wandzik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24293913?v=4",
+      "profile": "https://github.com/LukeekuL",
+      "contributions": [
+        "examples",
+        "docs"
+      ]
+    },
+    {
+      "login": "gmastrapas",
+      "name": "George Mastrapas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32414777?v=4",
+      "profile": "https://github.com/gmastrapas",
+      "contributions": [
+        "jina",
+        "finetuner",
+        "action-hubble-push"
+      ]
+    },
+    {
+      "login": "Gikiman",
+      "name": "Piper",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50768559?v=4",
+      "profile": "https://github.com/Gikiman",
+      "contributions": [
+        "jina",
+        "jina-ai-github-io",
+        "executor-indexers",
+        "website",
+        "executor-image-torch-encoder",
+        "executor-image-normalizer",
+        "executor-clip-image",
+        "executor-big-transfer-encoder",
+        "executor-image-paddle-encoder",
+        "executor-text-clip-text-encoder",
+        "executor-text-tfidfencoder",
+        "executor-text-flair-encoder",
+        "executor-evaluator-ranking",
+        "executor-text-paddle",
+        "executor-transformer-torch-encoder",
+        "executor-lightgbm-ranker",
+        "executor-text-laser-encoder",
+        "executor-image-custom-torch-encoder",
+        "executor-video-torch-encoder",
+        "executor-text-transformer-tf-encoder",
+        "executor-audio-VGGishEncoder",
+        "executor-image-torch-object-detection-segmenter",
+        "executor-sentence-transformer",
+        "executor-pdf-crafter",
+        "executor-image-tf-encoder",
+        "executor-text-spacy-encoder",
+        "executors"
+      ]
+    },
+    {
+      "login": "chunyuema",
+      "name": "Chunyue Ma",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57780561?v=4",
+      "profile": "https://chunyuema.github.io/",
+      "contributions": [
+        "jina-terraform",
+        "docsQA"
+      ]
+    },
+    {
+      "login": "zawabest",
+      "name": "zawabest",
+      "avatar_url": "https://avatars.githubusercontent.com/u/362241?v=4",
+      "profile": "https://github.com/zawabest",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "anshulwadhawan",
+      "name": "Anshul Wadhawan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25061477?v=4",
+      "profile": "https://github.com/anshulwadhawan",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "GeopJr",
+      "name": "GeopJr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18014039?v=4",
+      "profile": "https://geopjr.dev/",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "shakurshams",
+      "name": "shakurshams",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67507873?v=4",
+      "profile": "https://github.com/shakurshams",
+      "contributions": [
+        "jina-hub"
+      ]
+    },
+    {
+      "login": "uvipen",
+      "name": "Viet Nguyen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47221207?v=4",
+      "profile": "https://github.com/uvipen",
+      "contributions": [
+        "examples"
+      ]
+    },
+    {
+      "login": "cpooley",
+      "name": "Cynthia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17229557?v=4",
+      "profile": "https://github.com/cpooley",
+      "contributions": [
+        "dashboard"
+      ]
+    },
+    {
+      "login": "usvyatsky",
+      "name": "Ilya Usvyatsky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3476436?v=4",
+      "profile": "https://github.com/usvyatsky",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "shushanxingzhe",
+      "name": "Louis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5352463?v=4",
+      "profile": "https://github.com/shushanxingzhe",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "CatStark",
+      "name": "CatStark",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3002344?v=4",
+      "profile": "https://github.com/CatStark",
+      "contributions": [
+        "jina",
+        "examples",
+        "docs",
+        "jina-hub",
+        "_homepage",
+        "cookiecutter-jina",
+        "cookiecutter-jina-executor",
+        "cloud-ops",
+        "jinad",
+        "jina-terraform",
+        "website",
+        "executor-text-flair-encoder",
+        "executor-transformer-torch-encoder",
+        "executor-text-laser-encoder",
+        "executor-video-torch-encoder",
+        "executor-image-tf-encoder",
+        "jina-ui",
+        "finetuner"
+      ]
+    },
+    {
+      "login": "astariul",
+      "name": "Astariul",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43774355?v=4",
+      "profile": "https://github.com/astariul",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "lsgrep",
+      "name": "Yusup",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3893940?v=4",
+      "profile": "https://blog.lsgrep.com/",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "nickovs",
+      "name": "Nicko van Someren",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4205868?v=4",
+      "profile": "https://github.com/nickovs",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "pdaryamane",
+      "name": "pdaryamane",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11886076?v=4",
+      "profile": "https://github.com/pdaryamane",
+      "contributions": [
+        "dashboard"
+      ]
+    },
+    {
+      "login": "zac-li",
+      "name": "Zac Li",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2687065?v=4",
+      "profile": "https://github.com/zac-li",
+      "contributions": [
+        "jina",
+        "cloud-ops",
+        "jina-terraform"
+      ]
+    },
+    {
+      "login": "lu161513",
+      "name": "lu161513",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7067692?v=4",
+      "profile": "https://github.com/lu161513",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "helaoutar",
+      "name": "Hamza El Aoutar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12495892?v=4",
+      "profile": "https://helaoutar.me/",
+      "contributions": [
+        "dashboard"
+      ]
+    },
+    {
+      "login": "robertjrodger",
+      "name": "Robert Rodger",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15660082?v=4",
+      "profile": "https://github.com/robertjrodger",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "amrit3701",
+      "name": "Amritpal Singh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10414959?v=4",
+      "profile": "https://www.linkedin.com/in/amrit3701/",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "mohamed--abdel-maksoud",
+      "name": "Mohamed Abdel Maksoud",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1863880?v=4",
+      "profile": "https://github.com/mohamed--abdel-maksoud",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "Immich",
+      "name": "Michelle Díaz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9353470?v=4",
+      "profile": "https://github.com/Immich",
+      "contributions": [
+        "jina",
+        "examples"
+      ]
+    },
+    {
+      "login": "AnneYang720",
+      "name": "Anne Yang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29667819?v=4",
+      "profile": "https://github.com/AnneYang720",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "serge-m",
+      "name": "SergeM",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4344566?v=4",
+      "profile": "https://github.com/serge-m",
+      "contributions": [
+        "jina",
+        "examples"
+      ]
+    },
+    {
+      "login": "numb3r3",
+      "name": "felix-wang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35718120?v=4",
+      "profile": "https://github.com/numb3r3",
+      "contributions": [
+        "clip-as-service",
+        "jina",
+        "examples",
+        "cloud-ops",
+        "hubble",
+        "executor-cases",
+        "executor-normalizer",
+        "executor-image-torch-encoder",
+        "executor-transformer-torch-encoder",
+        "executors",
+        "finetuner",
+        "annlite",
+        "action-hubble-push"
+      ]
+    },
+    {
+      "login": "jacobdevlin-google",
+      "name": "Jacob Devlin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44483550?v=4",
+      "profile": "https://github.com/jacobdevlin-google",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "mkhilai",
+      "name": "Mykyta Khilai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6876258?v=4",
+      "profile": "https://github.com/mkhilai",
+      "contributions": [
+        "dashboard"
+      ]
+    },
+    {
+      "login": "shivaylamba",
+      "name": "Shivay Lamba",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19529592?v=4",
+      "profile": "https://shivaylamba.me/",
+      "contributions": [
+        "docs"
+      ]
+    },
+    {
+      "login": "JamesTang-616",
+      "name": "James Tang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69177855?v=4",
+      "profile": "https://github.com/JamesTang-616",
+      "contributions": [
+        "examples"
+      ]
+    },
+    {
+      "login": "asuzukosi",
+      "name": "Asuzu Kosisochukwu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34872572?v=4",
+      "profile": "https://github.com/asuzukosi",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "dslim23",
+      "name": "David S. Lim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3118412?v=4",
+      "profile": "https://github.com/dslim23",
+      "contributions": [
+        "clip-as-service"
       ]
     },
     {
@@ -1728,672 +2121,84 @@
       ]
     },
     {
-      "login": "Elvisambition",
-      "name": "Elvis Stuart",
-      "avatar_url": "https://avatars.githubusercontent.com/u/75023175?v=4",
-      "profile": "https://github.com/Elvisambition",
-      "contributions": [
-        "executor-sentence-transformer",
-        "executor-text-audioclip-text-encoder",
-        "docsQA",
-        "executor-text-clip-encoder",
-        "executor-matchmerger"
-      ]
-    },
-    {
-      "login": "vsoch",
-      "name": "Vanessasaurus",
-      "avatar_url": "https://avatars.githubusercontent.com/u/814322?v=4",
-      "profile": "https://vsoch.github.io/",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "PeterisP",
-      "name": "Pēteris Paikens",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1678076?v=4",
-      "profile": "https://github.com/PeterisP",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "rudranshsharma123",
-      "name": "Rudransh Sharma",
-      "avatar_url": "https://avatars.githubusercontent.com/u/67827010?v=4",
-      "profile": "https://github.com/rudranshsharma123",
-      "contributions": [
-        "examples"
-      ]
-    },
-    {
-      "login": "gauthamsuresh09",
-      "name": "Gautham Suresh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55235118?v=4",
-      "profile": "https://github.com/gauthamsuresh09",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "semantic-release-bot",
-      "name": "Semantic Release Bot",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32174276?v=4",
-      "profile": "http://semantic-release.org/",
-      "contributions": [
-        "jina-ui"
-      ]
-    },
-    {
-      "login": "samjoy",
-      "name": "samjoy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3750744?v=4",
-      "profile": "https://github.com/samjoy",
-      "contributions": [
-        "examples",
-        "docs"
-      ]
-    },
-    {
-      "login": "mezig351",
-      "name": "mezig351",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10896185?v=4",
-      "profile": "https://github.com/mezig351",
-      "contributions": [
-        "jina-hub"
-      ]
-    },
-    {
-      "login": "robertjrodger",
-      "name": "Robert Rodger",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15660082?v=4",
-      "profile": "https://github.com/robertjrodger",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "DimitrisPr",
-      "name": "Dimitris Prasakis",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10392953?v=4",
-      "profile": "https://github.com/DimitrisPr",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "maateen",
-      "name": "Maksudur Rahman Maateen",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11742254?v=4",
-      "profile": "https://maateen.me/",
+      "login": "mapleeit",
+      "name": "Zhaofeng Miao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4194287?v=4",
+      "profile": "https://github.com/mapleeit",
       "contributions": [
         "jina",
-        "jina-terraform",
-        "latency-tracking",
-        "benchmark"
-      ]
-    },
-    {
-      "login": "shivaylamba",
-      "name": "Shivay Lamba",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19529592?v=4",
-      "profile": "https://shivaylamba.me/",
-      "contributions": [
-        "docs"
-      ]
-    },
-    {
-      "login": "helaoutar",
-      "name": "Hamza El Aoutar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12495892?v=4",
-      "profile": "https://helaoutar.me/",
-      "contributions": [
-        "dashboard"
-      ]
-    },
-    {
-      "login": "numb3r3",
-      "name": "felix-wang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35718120?v=4",
-      "profile": "https://github.com/numb3r3",
-      "contributions": [
-        "clip-as-service",
-        "jina",
         "examples",
-        "cloud-ops",
+        "jina-ai-github-io",
+        "jupyter-notebooks",
         "hubble",
         "executor-cases",
         "executor-normalizer",
+        "website",
         "executor-image-torch-encoder",
-        "executor-transformer-torch-encoder",
-        "executors",
-        "finetuner",
-        "annlite",
-        "action-hubble-push"
-      ]
-    },
-    {
-      "login": "serge-m",
-      "name": "SergeM",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4344566?v=4",
-      "profile": "https://github.com/serge-m",
-      "contributions": [
-        "jina",
-        "examples"
-      ]
-    },
-    {
-      "login": "Arrrlex",
-      "name": "Alex McKenzie",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13290269?v=4",
-      "profile": "https://github.com/Arrrlex",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "franquil",
-      "name": "Frank Q Liu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3143067?v=4",
-      "profile": "https://github.com/franquil",
-      "contributions": [
-        "dashboard"
-      ]
-    },
-    {
-      "login": "nomagick",
-      "name": "Yanlong Wang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/565869?v=4",
-      "profile": "https://yanlong.wang/",
-      "contributions": [
-        "jina",
-        "jina-ai-github-io",
-        "cloud-ops",
-        "jupyter-notebooks",
-        "hubble",
-        "executor-normalizer",
+        "executor-image-normalizer",
+        "executor-clip-image",
+        "executor-text-tfidfencoder",
+        "executor-evaluator-ranking",
+        "executor-text-paddle",
+        "executor-audio-VGGishEncoder",
+        "executor-sentence-transformer",
         "hub-integration",
+        "executor-audio-clip-encoder",
+        "executor-text-sentencizer",
         "executors",
         "finetuner",
         "hub-website",
         "executor-simpleindexer",
-        "docsQA"
+        "executor-text-transformers-torch-encoder",
+        "executor-text-clip-encoder",
+        "executor-image-clip-encoder",
+        "executor-matchmerger",
+        "executor-simpleranker"
       ]
     },
     {
-      "login": "pgiank28",
-      "name": "Pantelis Giankoulidis",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17511966?v=4",
-      "profile": "https://github.com/pgiank28",
-      "contributions": [
-        "jina-hub"
-      ]
-    },
-    {
-      "login": "PLNech",
-      "name": "Paul-Louis NECH",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1821404?v=4",
-      "profile": "https://nech.pl/",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "hongchhe",
-      "name": "Adam He",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25891193?v=4",
-      "profile": "https://github.com/hongchhe",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "winstonww",
-      "name": "Winston Wong",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13983591?v=4",
-      "profile": "https://github.com/winstonww",
+      "login": "makram93",
+      "name": "Mohammad Kalim Akram",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6537525?v=4",
+      "profile": "https://github.com/makram93",
       "contributions": [
         "jina",
-        "examples",
-        "cloud-ops",
-        "executor-indexers",
-        "executor-image-normalizer",
+        "website",
         "executors",
+        "finetuner",
+        "hub-website"
+      ]
+    },
+    {
+      "login": "RenrakuRunrat",
+      "name": "RenrakuRunrat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14925249?v=4",
+      "profile": "https://github.com/RenrakuRunrat",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "gvondulong",
+      "name": "Gregor von Dulong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54177084?v=4",
+      "profile": "https://github.com/gvondulong",
+      "contributions": [
+        "jina",
         "finetuner",
         "executor-simpleindexer",
         "docsQA"
       ]
     },
     {
-      "login": "AnudeepGunukula",
-      "name": "Anudeep Gunukula",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55506841?v=4",
-      "profile": "https://github.com/AnudeepGunukula",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "FionnD",
-      "name": "Fionn Delahunty",
-      "avatar_url": "https://avatars.githubusercontent.com/u/59612379?v=4",
-      "profile": "https://github.com/FionnD",
+      "login": "gitcommitshow",
+      "name": "gitcommitshow",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56937085?v=4",
+      "profile": "https://gitcommit.show/",
       "contributions": [
         "jina",
         "examples",
-        "docs",
-        "jina-hub",
-        "jinabox-js",
-        "jupyter-notebooks"
-      ]
-    },
-    {
-      "login": "scott-martens",
-      "name": "Scott Martens",
-      "avatar_url": "https://avatars.githubusercontent.com/u/70647348?v=4",
-      "profile": "https://github.com/scott-martens",
-      "contributions": [
-        "workshops"
-      ]
-    },
-    {
-      "login": "shakurshams",
-      "name": "shakurshams",
-      "avatar_url": "https://avatars.githubusercontent.com/u/67507873?v=4",
-      "profile": "https://github.com/shakurshams",
-      "contributions": [
-        "jina-hub"
-      ]
-    },
-    {
-      "login": "atrievel",
-      "name": "Alec Trievel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14189257?v=4",
-      "profile": "https://www.linkedin.com/in/alec-trievel-8b869399/",
-      "contributions": [
-        "jina-ui"
-      ]
-    },
-    {
-      "login": "girishc13",
-      "name": "Girish Chandrashekar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9018501?v=4",
-      "profile": "https://github.com/girishc13",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "BastinJafari",
-      "name": "Bastin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25417797?v=4",
-      "profile": "https://github.com/BastinJafari",
-      "contributions": [
-        "jina",
-        "docs",
-        "dashboard",
-        "_homepage",
-        "jinabox-js",
-        "cookiecutter_test",
-        "jina-ui"
-      ]
-    },
-    {
-      "login": "pswu11",
-      "name": "pswu11",
-      "avatar_url": "https://avatars.githubusercontent.com/u/48913707?v=4",
-      "profile": "https://github.com/pswu11",
-      "contributions": [
-        "_homepage",
-        "jina-ai-github-io",
-        "GSoC"
-      ]
-    },
-    {
-      "login": "RaghavPrabhakar66",
-      "name": "Raghav Prabhakar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/52318784?v=4",
-      "profile": "https://raghavprabhakar66.github.io/",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "CatStark",
-      "name": "CatStark",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3002344?v=4",
-      "profile": "https://github.com/CatStark",
-      "contributions": [
-        "jina",
-        "examples",
-        "docs",
-        "jina-hub",
-        "_homepage",
-        "cookiecutter-jina",
-        "cookiecutter-jina-executor",
-        "cloud-ops",
-        "jinad",
-        "jina-terraform",
-        "executor-text-flair-encoder",
-        "executor-transformer-torch-encoder",
-        "executor-text-laser-encoder",
-        "executor-video-torch-encoder",
-        "executor-image-tf-encoder",
-        "jina-ui",
-        "finetuner"
-      ]
-    },
-    {
-      "login": "prasanth94",
-      "name": "Prasanth M",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4848556?v=4",
-      "profile": "https://github.com/prasanth94",
-      "contributions": [
-        "dashboard"
-      ]
-    },
-    {
-      "login": "NouiliKh",
-      "name": "NouiliKh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22430520?v=4",
-      "profile": "https://github.com/NouiliKh",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "liam-thunder",
-      "name": "Liam",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1531217?v=4",
-      "profile": "https://github.com/liam-thunder",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "SmartCodeDavid",
-      "name": "TIANXIANG LAN",
-      "avatar_url": "https://avatars.githubusercontent.com/u/30002112?v=4",
-      "profile": "https://github.com/SmartCodeDavid",
-      "contributions": [
-        "hub-website"
-      ]
-    },
-    {
-      "login": "tadejsv",
-      "name": "Tadej Svetina",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11489772?v=4",
-      "profile": "https://github.com/tadejsv",
-      "contributions": [
-        "jina",
-        "examples",
-        "jina-hub",
-        "cookiecutter-jina-executor",
-        "jina-terraform",
-        "executor-normalizer",
-        "executor-text-audioclip-text-encoder",
-        "executor-image-audioclip-image-encoder",
-        "finetuner"
-      ]
-    },
-    {
-      "login": "yk",
-      "name": "Yannic Kilcher",
-      "avatar_url": "https://avatars.githubusercontent.com/u/858040?v=4",
-      "profile": "https://github.com/yk",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "gaocegege",
-      "name": "Ce Gao",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5100735?v=4",
-      "profile": "http://gaocegege.com/Blog",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "Arthur-Milchior",
-      "name": "Arthur Milchior",
-      "avatar_url": "https://avatars.githubusercontent.com/u/357361?v=4",
-      "profile": "http://www.milchior.fr/",
-      "contributions": [
-        "docs"
-      ]
-    },
-    {
-      "login": "hofmannedv",
-      "name": "Frank Hofmann",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6096895?v=4",
-      "profile": "http://www.efho.de/",
-      "contributions": [
-        "docs"
-      ]
-    },
-    {
-      "login": "mohamed--abdel-maksoud",
-      "name": "Mohamed Abdel Maksoud",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1863880?v=4",
-      "profile": "https://github.com/mohamed--abdel-maksoud",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "kkkellyjiang",
-      "name": "Kelly",
-      "avatar_url": "https://avatars.githubusercontent.com/u/84776567?v=4",
-      "profile": "https://github.com/kkkellyjiang",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "varshaneya",
-      "name": "varshaneya",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12171425?v=4",
-      "profile": "https://www.linkedin.com/in/varshaneya/",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "cpooley",
-      "name": "Cynthia",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17229557?v=4",
-      "profile": "https://github.com/cpooley",
-      "contributions": [
-        "dashboard"
-      ]
-    },
-    {
-      "login": "Gikiman",
-      "name": "Piper",
-      "avatar_url": "https://avatars.githubusercontent.com/u/50768559?v=4",
-      "profile": "https://github.com/Gikiman",
-      "contributions": [
-        "jina",
-        "jina-ai-github-io",
-        "executor-indexers",
-        "executor-image-torch-encoder",
-        "executor-image-normalizer",
-        "executor-clip-image",
-        "executor-big-transfer-encoder",
-        "executor-image-paddle-encoder",
-        "executor-text-clip-text-encoder",
-        "executor-text-tfidfencoder",
-        "executor-text-flair-encoder",
-        "executor-evaluator-ranking",
-        "executor-text-paddle",
-        "executor-transformer-torch-encoder",
-        "executor-lightgbm-ranker",
-        "executor-text-laser-encoder",
-        "executor-image-custom-torch-encoder",
-        "executor-video-torch-encoder",
-        "executor-text-transformer-tf-encoder",
-        "executor-audio-VGGishEncoder",
-        "executor-image-torch-object-detection-segmenter",
-        "executor-sentence-transformer",
-        "executor-pdf-crafter",
-        "executor-image-tf-encoder",
-        "executor-text-spacy-encoder",
-        "executors"
-      ]
-    },
-    {
-      "login": "deepampatel",
-      "name": "Deepam Patel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19245659?v=4",
-      "profile": "https://github.com/deepampatel",
-      "contributions": [
-        "jina",
-        "jina-hub"
-      ]
-    },
-    {
-      "login": "yuanbit",
-      "name": "Bithiah Yuan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12972261?v=4",
-      "profile": "https://github.com/yuanbit",
-      "contributions": [
-        "jina",
-        "examples",
-        "_homepage",
-        "cookiecutter-jina",
-        "cookiecutter-jina-executor"
-      ]
-    },
-    {
-      "login": "Shubhamsaboo",
-      "name": "Shubham Saboo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/31396011?v=4",
-      "profile": "https://github.com/Shubhamsaboo",
-      "contributions": [
-        "jina",
-        "jina-ai-github-io",
-        "finetuner"
-      ]
-    },
-    {
-      "login": "NickCwh",
-      "name": "Nicholas Chin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25291155?v=4",
-      "profile": "https://www.linkedin.com/in/nicholas-cwh/",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "wanderer163",
-      "name": "wanderer163",
-      "avatar_url": "https://avatars.githubusercontent.com/u/93438190?v=4",
-      "profile": "https://github.com/wanderer163",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "dslim23",
-      "name": "David S. Lim",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3118412?v=4",
-      "profile": "https://github.com/dslim23",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "violenil",
-      "name": "Isabelle Mohr",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55404563?v=4",
-      "profile": "https://github.com/violenil",
-      "contributions": [
-        "finetuner"
-      ]
-    },
-    {
-      "login": "jyothishkjames",
-      "name": "Jyothish James",
-      "avatar_url": "https://avatars.githubusercontent.com/u/937528?v=4",
-      "profile": "https://github.com/jyothishkjames",
-      "contributions": [
-        "examples"
-      ]
-    },
-    {
-      "login": "educatorsRlearners",
-      "name": "Evan Simpson",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17770276?v=4",
-      "profile": "https://github.com/educatorsRlearners",
-      "contributions": [
-        "examples"
-      ]
-    },
-    {
-      "login": "ddelange",
-      "name": "ddelange",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14880945?v=4",
-      "profile": "https://github.com/ddelange",
-      "contributions": [
-        "cookiecutter-jina"
-      ]
-    },
-    {
-      "login": "jacobdevlin-google",
-      "name": "Jacob Devlin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/44483550?v=4",
-      "profile": "https://github.com/jacobdevlin-google",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "Andrei997",
-      "name": "Andrei Ungureanu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15995496?v=4",
-      "profile": "https://github.com/Andrei997",
-      "contributions": [
-        "jina",
-        "hubble",
-        "executor-normalizer"
-      ]
-    },
-    {
-      "login": "seraco",
-      "name": "Sebastia Ramon",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25517036?v=4",
-      "profile": "https://github.com/seraco",
-      "contributions": [
-        "dashboard"
-      ]
-    },
-    {
-      "login": "shan-mx",
-      "name": "Alex Shan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/36291011?v=4",
-      "profile": "http://www.pkuschool.edu.cn/",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "bsherifi",
-      "name": "Betim Sherifi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32338617?v=4",
-      "profile": "https://github.com/bsherifi",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "fernandakawasaki",
-      "name": "Fernanda Kawasaki",
-      "avatar_url": "https://avatars.githubusercontent.com/u/50497814?v=4",
-      "profile": "https://github.com/fernandakawasaki",
-      "contributions": [
-        "jina"
+        "_homepage"
       ]
     },
     {
@@ -2428,284 +2233,98 @@
       ]
     },
     {
-      "login": "Hippopotamus0308",
-      "name": "Yang Ruiyi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/50010436?v=4",
-      "profile": "https://github.com/Hippopotamus0308",
+      "login": "xiongma",
+      "name": "Xiong Ma",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30991932?v=4",
+      "profile": "https://github.com/xiongma",
       "contributions": [
         "jina",
-        "examples",
-        "executor-audio-clip-encoder",
-        "executor-text-audioclip-text-encoder",
-        "executors",
-        "executor-image-audioclip-image-encoder",
-        "annlite",
-        "docsQA",
-        "executor-text-transformers-torch-encoder",
-        "executor-image-clip-encoder",
-        "example-video-search"
-      ]
-    },
-    {
-      "login": "rjgallego",
-      "name": "Rheanna Pena",
-      "avatar_url": "https://avatars.githubusercontent.com/u/59635994?v=4",
-      "profile": "https://github.com/rjgallego",
-      "contributions": [
-        "dashboard"
-      ]
-    },
-    {
-      "login": "sauravgarg540",
-      "name": "Saurav Gupta",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17601899?v=4",
-      "profile": "https://github.com/sauravgarg540",
-      "contributions": [
-        "jina",
-        "executors"
-      ]
-    },
-    {
-      "login": "Nishil07",
-      "name": "Nishil",
-      "avatar_url": "https://avatars.githubusercontent.com/u/63183230?v=4",
-      "profile": "https://github.com/Nishil07",
-      "contributions": [
-        "jina",
-        "_homepage"
-      ]
-    },
-    {
-      "login": "maloyan",
-      "name": "Narek Maloyan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/27706632?v=4",
-      "profile": "https://github.com/maloyan",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "astariul",
-      "name": "Astariul",
-      "avatar_url": "https://avatars.githubusercontent.com/u/43774355?v=4",
-      "profile": "https://github.com/astariul",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "georgefeng",
-      "name": "jhfeng",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23147020?v=4",
-      "profile": "https://github.com/georgefeng",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "zac-li",
-      "name": "Zac Li",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2687065?v=4",
-      "profile": "https://github.com/zac-li",
-      "contributions": [
-        "jina",
-        "jina-terraform"
-      ]
-    },
-    {
-      "login": "gitcommitshow",
-      "name": "gitcommitshow",
-      "avatar_url": "https://avatars.githubusercontent.com/u/56937085?v=4",
-      "profile": "https://gitcommit.show/",
-      "contributions": [
-        "jina",
-        "examples",
-        "_homepage"
-      ]
-    },
-    {
-      "login": "alaeddine-13",
-      "name": "AlaeddineAbdessalem",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15269265?v=4",
-      "profile": "https://github.com/alaeddine-13",
-      "contributions": [
-        "jina",
-        "examples",
-        "hubble",
-        "executor-normalizer",
-        "executor-template",
-        "executor-image-custom-torch-encoder",
-        "executor-text-transformer-tf-encoder",
-        "executor-sentence-transformer",
-        "executor-pdf-crafter",
-        "executor-audio-clip-encoder",
-        "executor-yolov5",
-        "executors",
-        "hub-website",
-        "annlite",
-        "executor-simpleindexer"
-      ]
-    },
-    {
-      "login": "gusye1234",
-      "name": "Gustavo Ye",
-      "avatar_url": "https://avatars.githubusercontent.com/u/34829253?v=4",
-      "profile": "https://github.com/gusye1234",
-      "contributions": [
-        "annlite"
-      ]
-    },
-    {
-      "login": "DARREN-ZHANG",
-      "name": "Darren_Zhang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8371825?v=4",
-      "profile": "https://github.com/DARREN-ZHANG",
-      "contributions": [
-        "_homepage"
-      ]
-    },
-    {
-      "login": "jakobkruse1",
-      "name": "Jakob Kruse",
-      "avatar_url": "https://avatars.githubusercontent.com/u/42516008?v=4",
-      "profile": "https://jakobkruse.com/",
-      "contributions": [
-        "jina",
-        "examples",
-        "jinabox-js",
-        "jina-commons",
-        "executor-image-torch-encoder",
-        "executor-image-normalizer",
-        "executor-big-transfer-encoder",
-        "executor-transformer-torch-encoder",
-        "executor-template",
-        "executor-audio-VGGishEncoder",
-        "executor-text-sentencizer",
-        "executors",
-        "example-video-search"
-      ]
-    },
-    {
-      "login": "eric-haibin-lin",
-      "name": "Haibin Lin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5545640?v=4",
-      "profile": "http://haibinlin.com/",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "lsgrep",
-      "name": "Yusup",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3893940?v=4",
-      "profile": "https://blog.lsgrep.com/",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "hargup",
-      "name": "Harsh Gupta",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2477788?v=4",
-      "profile": "http://hargup.in/",
-      "contributions": [
         "examples"
       ]
     },
     {
-      "login": "fsal",
-      "name": "fsal",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9203508?v=4",
-      "profile": "https://github.com/fsal",
+      "login": "haven-jeon",
+      "name": "Heewon Jeon(gogamza)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/957840?v=4",
+      "profile": "http://freesearch.pe.kr/",
       "contributions": [
-        "jina-hub"
+        "executors"
       ]
     },
     {
-      "login": "PabloRN",
-      "name": "Pablo Reyes Naranjo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/727564?v=4",
-      "profile": "https://github.com/PabloRN",
+      "login": "hofmannedv",
+      "name": "Frank Hofmann",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6096895?v=4",
+      "profile": "http://www.efho.de/",
       "contributions": [
-        "jina"
+        "docs"
       ]
     },
     {
-      "login": "lu161513",
-      "name": "lu161513",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7067692?v=4",
-      "profile": "https://github.com/lu161513",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "bhavsarpratik",
-      "name": "Pratik Bhavsar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23080576?v=4",
-      "profile": "https://github.com/bhavsarpratik",
-      "contributions": [
-        "jina",
-        "examples",
-        "jina-hub",
-        "jinad"
-      ]
-    },
-    {
-      "login": "JTiger0431",
-      "name": "Yuhu Chang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16569434?v=4",
-      "profile": "https://github.com/JTiger0431",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "GeopJr",
-      "name": "GeopJr",
-      "avatar_url": "https://avatars.githubusercontent.com/u/18014039?v=4",
-      "profile": "https://geopjr.dev/",
+      "login": "aakashjhawar",
+      "name": "Aakash Jhawar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22843890?v=4",
+      "profile": "https://github.com/aakashjhawar",
       "contributions": [
         "jina"
       ]
     },
     {
-      "login": "bsridatta",
-      "name": "Sri Datta Budaraju",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17333185?v=4",
-      "profile": "https://sridatta.ml/",
+      "login": "shan-mx",
+      "name": "Alex Shan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36291011?v=4",
+      "profile": "https://github.com/shan-mx",
       "contributions": [
-        "jina-hub"
+        "clip-as-service"
       ]
     },
     {
-      "login": "fayeah",
-      "name": "fayeah",
-      "avatar_url": "https://avatars.githubusercontent.com/u/29644978?v=4",
-      "profile": "http://fayeah.github.io/",
+      "login": "mrtrkmn",
+      "name": "Ahmet Türkmen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13614433?v=4",
+      "profile": "https://github.com/mrtrkmn",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "SulemanBhatti",
+      "name": "Suleman Ahmad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55692967?v=4",
+      "profile": "https://www.onefootball.com/",
       "contributions": [
         "dashboard"
       ]
     },
     {
-      "login": "florian-hoenicke",
-      "name": "Florian Hönicke",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11627845?v=4",
-      "profile": "https://jina.ai/",
+      "login": "YueLiu1415926",
+      "name": "Yue Liu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64522311?v=4",
+      "profile": "https://github.com/YueLiu1415926",
       "contributions": [
         "jina",
         "examples",
-        "docs",
         "jina-hub",
-        "dashboard",
-        "executor-normalizer",
-        "executor-image-normalizer",
-        "executor-clip-image",
-        "executor-image-torch-object-detection-segmenter",
-        "kubernetes_deployment",
-        "executors",
-        "jina-ui",
-        "finetuner"
+        "cookiecutter-jina",
+        "cookiecutter-jina-executor"
+      ]
+    },
+    {
+      "login": "PeterisP",
+      "name": "Pēteris Paikens",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1678076?v=4",
+      "profile": "https://github.com/PeterisP",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "RaghavPrabhakar66",
+      "name": "Raghav Prabhakar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52318784?v=4",
+      "profile": "https://github.com/RaghavPrabhakar66",
+      "contributions": [
+        "jina"
       ]
     },
     {
@@ -2732,114 +2351,20 @@
       ]
     },
     {
-      "login": "guenthermi",
-      "name": "Michael Günther",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6599259?v=4",
-      "profile": "https://github.com/guenthermi",
-      "contributions": [
-        "jina",
-        "finetuner"
-      ]
-    },
-    {
-      "login": "Immich",
-      "name": "Michelle Díaz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9353470?v=4",
-      "profile": "https://github.com/Immich",
-      "contributions": [
-        "jina",
-        "examples"
-      ]
-    },
-    {
-      "login": "tadej-redstone",
-      "name": "Tadej Svetina",
-      "avatar_url": "https://avatars.githubusercontent.com/u/69796623?v=4",
-      "profile": "https://github.com/tadej-redstone",
-      "contributions": [
-        "jina",
-        "jina-hub"
-      ]
-    },
-    {
-      "login": "DmitryKey",
-      "name": "Dmitry Kan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/123553?v=4",
-      "profile": "https://dmitry-kan.medium.com/",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "jancijen",
-      "name": "jancijen",
-      "avatar_url": "https://avatars.githubusercontent.com/u/28826229?v=4",
-      "profile": "https://github.com/jancijen",
-      "contributions": [
-        "jina"
-      ]
-    },
-    {
-      "login": "saurabhnemade",
-      "name": "Saurabh Nemade",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17445338?v=4",
-      "profile": "https://fb.com/saurabh.nemade",
-      "contributions": [
-        "dashboard"
-      ]
-    },
-    {
-      "login": "PietroAnsidei",
-      "name": "pete2pete",
-      "avatar_url": "https://avatars.githubusercontent.com/u/31099206?v=4",
-      "profile": "https://github.com/PietroAnsidei",
-      "contributions": [
-        "examples"
-      ]
-    },
-    {
-      "login": "jemmyshin",
-      "name": "Jie Fu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16580382?v=4",
-      "profile": "https://github.com/jemmyshin",
+      "login": "girishc13",
+      "name": "Girish Chandrashekar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9018501?v=4",
+      "profile": "https://github.com/girishc13",
       "contributions": [
         "clip-as-service",
-        "finetuner",
-        "annlite"
-      ]
-    },
-    {
-      "login": "xinbinhuang",
-      "name": "Xinbin Huang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/27927454?v=4",
-      "profile": "https://www.linkedin.com/in/xinbin-huang/",
-      "contributions": [
         "jina"
       ]
     },
     {
-      "login": "parsaghaffari",
-      "name": "Parsa Ghaffari",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3098913?v=4",
-      "profile": "http://aylien.com/",
-      "contributions": [
-        "clip-as-service"
-      ]
-    },
-    {
-      "login": "Gracegrx",
-      "name": "Gracegrx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23142113?v=4",
-      "profile": "https://github.com/Gracegrx",
-      "contributions": [
-        "jina-hub"
-      ]
-    },
-    {
-      "login": "doomdabo",
-      "name": "Bokyung Kwon",
-      "avatar_url": "https://avatars.githubusercontent.com/u/72394295?v=4",
-      "profile": "https://github.com/doomdabo",
+      "login": "ggdupont",
+      "name": "ggdupont",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5583410?v=4",
+      "profile": "https://github.com/ggdupont",
       "contributions": [
         "jina"
       ]
@@ -2852,6 +2377,670 @@
       "contributions": [
         "examples",
         "jina-hub"
+      ]
+    },
+    {
+      "login": "SirsikarAkshay",
+      "name": "SirsikarAkshay",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19791969?v=4",
+      "profile": "https://github.com/SirsikarAkshay",
+      "contributions": [
+        "examples"
+      ]
+    },
+    {
+      "login": "jemmyshin",
+      "name": "Jie Fu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16580382?v=4",
+      "profile": "https://github.com/jemmyshin",
+      "contributions": [
+        "clip-as-service",
+        "jina",
+        "finetuner",
+        "annlite"
+      ]
+    },
+    {
+      "login": "xhj-fs",
+      "name": "Xiong Hengjie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25893272?v=4",
+      "profile": "https://github.com/xhj-fs",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "Nishil07",
+      "name": "Nishil",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63183230?v=4",
+      "profile": "https://github.com/Nishil07",
+      "contributions": [
+        "jina",
+        "_homepage",
+        "website"
+      ]
+    },
+    {
+      "login": "jupyterjazz",
+      "name": "Saba Sturua",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45267439?v=4",
+      "profile": "https://github.com/jupyterjazz",
+      "contributions": [
+        "jina",
+        "finetuner"
+      ]
+    },
+    {
+      "login": "ammarasmro",
+      "name": "Ammar Asmro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22536934?v=4",
+      "profile": "https://ammarasmaro.com/",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "azayz",
+      "name": "Aziz Belaweid",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40893766?v=4",
+      "profile": "https://github.com/azayz",
+      "contributions": [
+        "jina",
+        "cloud-ops",
+        "finetuner",
+        "executor-doc2query",
+        "docsQA"
+      ]
+    },
+    {
+      "login": "jakubzitny",
+      "name": "Jakub Žitný",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3315662?v=4",
+      "profile": "https://github.com/jakubzitny",
+      "contributions": [
+        "workshops"
+      ]
+    },
+    {
+      "login": "CallmeMehdi",
+      "name": "CallmeMehdi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47258917?v=4",
+      "profile": "https://github.com/CallmeMehdi",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "nikosNalmpantis",
+      "name": "Nikos Nalmpantis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67504154?v=4",
+      "profile": "https://www.linkedin.com/in/nikos-nalmpantis-60650b187/",
+      "contributions": [
+        "examples"
+      ]
+    },
+    {
+      "login": "DresAaron",
+      "name": "DresAaron",
+      "avatar_url": "https://avatars.githubusercontent.com/u/127167174?v=4",
+      "profile": "https://github.com/DresAaron",
+      "contributions": [
+        "hub-website"
+      ]
+    },
+    {
+      "login": "franquil",
+      "name": "Frank Q Liu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3143067?v=4",
+      "profile": "https://github.com/franquil",
+      "contributions": [
+        "dashboard"
+      ]
+    },
+    {
+      "login": "Gracegrx",
+      "name": "Gracegrx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23142113?v=4",
+      "profile": "https://github.com/Gracegrx",
+      "contributions": [
+        "jina-hub"
+      ]
+    },
+    {
+      "login": "strawberrypie",
+      "name": "Anton Kiselev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29224443?v=4",
+      "profile": "https://github.com/strawberrypie",
+      "contributions": [
+        "jina-hub"
+      ]
+    },
+    {
+      "login": "0xflotus",
+      "name": "0xflotus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26602940?v=4",
+      "profile": "https://github.com/0xflotus",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "Jackmin801",
+      "name": "Jackmin801",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56836461?v=4",
+      "profile": "https://github.com/Jackmin801",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "properGrammar",
+      "name": "Graham Arthur Mackenzie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20957896?v=4",
+      "profile": "https://github.com/properGrammar",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "rumbarum",
+      "name": "한바름",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48576227?v=4",
+      "profile": "https://rumbarum.github.io/",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "paperplanet",
+      "name": "paperplanet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4402083?v=4",
+      "profile": "https://github.com/paperplanet",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "bsherifi",
+      "name": "Betim Sherifi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32338617?v=4",
+      "profile": "https://github.com/bsherifi",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "gusye1234",
+      "name": "Gustavo Ye",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34829253?v=4",
+      "profile": "https://github.com/gusye1234",
+      "contributions": [
+        "annlite"
+      ]
+    },
+    {
+      "login": "tarrantro",
+      "name": "tarrantro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19900542?v=4",
+      "profile": "https://github.com/tarrantro",
+      "contributions": [
+        "jina",
+        "cloud-ops",
+        "jina-terraform"
+      ]
+    },
+    {
+      "login": "ethihack",
+      "name": "Ethihack",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10392953?v=4",
+      "profile": "https://ethihack.com/",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "OrangeSodahub",
+      "name": "YangXiuyu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54439582?v=4",
+      "profile": "https://github.com/OrangeSodahub",
+      "contributions": [
+        "clip-as-service",
+        "annlite"
+      ]
+    },
+    {
+      "login": "floralatin",
+      "name": "zhangkai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16202568?v=4",
+      "profile": "https://github.com/floralatin",
+      "contributions": [
+        "jina",
+        "hubble",
+        "executor-normalizer",
+        "hub-integration",
+        "hub-website"
+      ]
+    },
+    {
+      "login": "fernandakawasaki",
+      "name": "Fernanda Kawasaki",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50497814?v=4",
+      "profile": "https://github.com/fernandakawasaki",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "garimavs",
+      "name": "Garima Singh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77723358?v=4",
+      "profile": "https://github.com/garimavs",
+      "contributions": [
+        "jina-ui"
+      ]
+    },
+    {
+      "login": "ImgBotApp",
+      "name": "Imgbot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31427850?v=4",
+      "profile": "https://imgbot.net/",
+      "contributions": [
+        "benchmark"
+      ]
+    },
+    {
+      "login": "qwel-exe",
+      "name": "Anirudh  Anup",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72848513?v=4",
+      "profile": "https://github.com/qwel-exe",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "Bharat123rox",
+      "name": "Bharat Raghunathan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13381361?v=4",
+      "profile": "https://eportfolio.mygreatlearning.com/bharat-raghunathan",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "prasanth94",
+      "name": "Prasanth M",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4848556?v=4",
+      "profile": "https://github.com/prasanth94",
+      "contributions": [
+        "dashboard"
+      ]
+    },
+    {
+      "login": "sauravgarg540",
+      "name": "Saurav Gupta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17601899?v=4",
+      "profile": "https://github.com/sauravgarg540",
+      "contributions": [
+        "jina",
+        "executors"
+      ]
+    },
+    {
+      "login": "ZiniuYu",
+      "name": "Ziniu Yu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21340127?v=4",
+      "profile": "https://github.com/ZiniuYu",
+      "contributions": [
+        "clip-as-service",
+        "jina",
+        "annlite",
+        "executor-simpleranker"
+      ]
+    },
+    {
+      "login": "Elvisambition",
+      "name": "Elvis Stuart",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75023175?v=4",
+      "profile": "https://github.com/Elvisambition",
+      "contributions": [
+        "executor-sentence-transformer",
+        "executor-text-audioclip-text-encoder",
+        "docsQA",
+        "executor-text-clip-encoder",
+        "executor-matchmerger"
+      ]
+    },
+    {
+      "login": "umairkarel",
+      "name": "Umair Karel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76861978?v=4",
+      "profile": "https://www.linkedin.com/in/umairkarel/",
+      "contributions": [
+        "jina-ui"
+      ]
+    },
+    {
+      "login": "atrievel",
+      "name": "Alec Trievel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14189257?v=4",
+      "profile": "https://www.linkedin.com/in/alec-trievel-8b869399/",
+      "contributions": [
+        "jina-ui"
+      ]
+    },
+    {
+      "login": "10zinten",
+      "name": "Tenzin ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16164304?v=4",
+      "profile": "https://www.linkedin.com/in/10zinten/",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "averkij",
+      "name": "Sergei Averkiev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1473991?v=4",
+      "profile": "https://github.com/averkij",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "maateen",
+      "name": "Maksudur Rahman Maateen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11742254?v=4",
+      "profile": "https://maateen.me/",
+      "contributions": [
+        "jina",
+        "jina-terraform",
+        "latency-tracking",
+        "benchmark"
+      ]
+    },
+    {
+      "login": "Showtim3",
+      "name": "Rishabh Rawat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30312043?v=4",
+      "profile": "https://github.com/Showtim3",
+      "contributions": [
+        "dashboard"
+      ]
+    },
+    {
+      "login": "dalekatwork",
+      "name": "Pooja Maheshwari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40423996?v=4",
+      "profile": "https://github.com/dalekatwork",
+      "contributions": [
+        "dashboard"
+      ]
+    },
+    {
+      "login": "akurniawan",
+      "name": "Aditya Kurniawan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4723643?v=4",
+      "profile": "https://www.linkedin.com/in/akurniawan25/",
+      "contributions": [
+        "jina-hub"
+      ]
+    },
+    {
+      "login": "BillDorn",
+      "name": "Bill",
+      "avatar_url": "https://avatars.githubusercontent.com/u/541896?v=4",
+      "profile": "https://github.com/BillDorn",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "DmitryKey",
+      "name": "Dmitry Kan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/123553?v=4",
+      "profile": "https://dmitry-kan.medium.com/",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "GabrielBianconi",
+      "name": "Gabriel Bianconi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1275491?v=4",
+      "profile": "http://www.gabrielbianconi.com/",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "xiaoquisme",
+      "name": "XiaoQu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10496811?v=4",
+      "profile": "https://qulianqing.cnblogs.com/",
+      "contributions": [
+        "jinabox-js"
+      ]
+    },
+    {
+      "login": "craigcitro",
+      "name": "Craig Citro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/468559?v=4",
+      "profile": "https://www.craigcitro.org/",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "sixhobbits",
+      "name": "Gareth Dwyer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2641205?v=4",
+      "profile": "https://dwyer.co.za/",
+      "contributions": [
+        "docs"
+      ]
+    },
+    {
+      "login": "jacobowitz",
+      "name": "Tobias Jacobowitz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6544965?v=4",
+      "profile": "https://github.com/jacobowitz",
+      "contributions": [
+        "jina",
+        "examples",
+        "docs",
+        "jina-hub",
+        "stress-test",
+        "cloud-ops",
+        "jina-terraform",
+        "executors"
+      ]
+    },
+    {
+      "login": "xinbinhuang",
+      "name": "Xinbin Huang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27927454?v=4",
+      "profile": "https://www.linkedin.com/in/xinbin-huang/",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "philipvollet",
+      "name": "Philip Vollet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5828773?v=4",
+      "profile": "https://www.philipvollet.co/",
+      "contributions": [
+        "GSoC",
+        "website"
+      ]
+    },
+    {
+      "login": "prabhupad26",
+      "name": "Prabhupad Pradhan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11462012?v=4",
+      "profile": "https://prabhupad26.github.io/",
+      "contributions": [
+        "examples"
+      ]
+    },
+    {
+      "login": "Syarol",
+      "name": "Oleh Yaroshchuk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13751208?v=4",
+      "profile": "https://github.com/Syarol",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "semantic-release-bot",
+      "name": "Semantic Release Bot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32174276?v=4",
+      "profile": "http://semantic-release.org/",
+      "contributions": [
+        "jina-ui"
+      ]
+    },
+    {
+      "login": "sarvesh4396",
+      "name": "Sarvesh Kumar Dwivedi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68162479?v=4",
+      "profile": "https://sarvesh.netlify.app/",
+      "contributions": [
+        "jina"
+      ]
+    },
+    {
+      "login": "ddelange",
+      "name": "ddelange",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14880945?v=4",
+      "profile": "https://github.com/ddelange",
+      "contributions": [
+        "cookiecutter-jina"
+      ]
+    },
+    {
+      "login": "ThePfarrer",
+      "name": "Uche Okereke",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7157861?v=4",
+      "profile": "https://github.com/ThePfarrer",
+      "contributions": [
+        "jina",
+        "docs"
+      ]
+    },
+    {
+      "login": "JohannesMessner",
+      "name": "Johannes Messner",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44071807?v=4",
+      "profile": "https://github.com/JohannesMessner",
+      "contributions": [
+        "jina",
+        "workshops",
+        "executor-simpleindexer",
+        "executor-matchmerger"
+      ]
+    },
+    {
+      "login": "samsja",
+      "name": "samsja",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55492238?v=4",
+      "profile": "https://github.com/samsja",
+      "contributions": [
+        "clip-as-service",
+        "jina",
+        "executor-image-torch-encoder",
+        "executor-audio-clip-encoder",
+        "executors",
+        "executor-simpleindexer",
+        "executor-text-transformers-torch-encoder",
+        "executor-text-clip-encoder",
+        "executor-image-clip-encoder",
+        "executor-matchmerger",
+        "executor-simpleranker"
+      ]
+    },
+    {
+      "login": "fsal",
+      "name": "fsal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9203508?v=4",
+      "profile": "https://github.com/fsal",
+      "contributions": [
+        "jina-hub"
+      ]
+    },
+    {
+      "login": "davidli-oneflick",
+      "name": "davidli-oneflick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62926164?v=4",
+      "profile": "https://github.com/davidli-oneflick",
+      "contributions": [
+        "dashboard"
+      ]
+    },
+    {
+      "login": "Hippopotamus0308",
+      "name": "Yang Ruiyi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50010436?v=4",
+      "profile": "https://github.com/Hippopotamus0308",
+      "contributions": [
+        "clip-as-service",
+        "jina",
+        "examples",
+        "executor-audio-clip-encoder",
+        "executor-text-audioclip-text-encoder",
+        "executors",
+        "executor-image-audioclip-image-encoder",
+        "annlite",
+        "docsQA",
+        "executor-text-transformers-torch-encoder",
+        "executor-image-clip-encoder"
+      ]
+    },
+    {
+      "login": "yangyaofei",
+      "name": "yangyaofei",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7934098?v=4",
+      "profile": "https://github.com/yangyaofei",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "npitsillos",
+      "name": "Nikolas Pitsillos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9141826?v=4",
+      "profile": "https://npitsillos.github.io/",
+      "contributions": [
+        "jina",
+        "cloud-ops"
+      ]
+    },
+    {
+      "login": "JTiger0431",
+      "name": "Yuhu Chang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16569434?v=4",
+      "profile": "https://github.com/JTiger0431",
+      "contributions": [
+        "clip-as-service"
+      ]
+    },
+    {
+      "login": "saurabhnemade",
+      "name": "Saurabh Nemade",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17445338?v=4",
+      "profile": "https://fb.com/saurabh.nemade",
+      "contributions": [
+        "dashboard"
+      ]
+    },
+    {
+      "login": "alasdairtran",
+      "name": "Alasdair Tran",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10582768?v=4",
+      "profile": "https://github.com/alasdairtran",
+      "contributions": [
+        "jina"
       ]
     }
   ],
@@ -3087,6 +3276,11 @@
       "link": ""
     },
     "jina-commons": {
+      "symbol": "",
+      "description": "",
+      "link": ""
+    },
+    "website": {
       "symbol": "",
       "description": "",
       "link": ""
@@ -3347,11 +3541,6 @@
       "link": ""
     },
     "executor-simpleranker": {
-      "symbol": "",
-      "description": "",
-      "link": ""
-    },
-    "example-video-search": {
       "symbol": "",
       "description": "",
       "link": ""
