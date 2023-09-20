@@ -7,13 +7,13 @@
     "discoart": "3.8K",
     "clip-as-service": "11.8K",
     "jcloud": "291",
-    "langchain-serve": "1.4K",
+    "langchain-serve": "1.5K",
     "thinkgpt": "1.3K",
     "dev-gpt": "1.4K",
-    "rungpt": "75",
+    "rungpt": "76",
     "vectordb": "341",
     "jerboa": "20",
-    "total": "46.1K"
+    "total": "46.2K"
   },
   "jobs": [
     {
