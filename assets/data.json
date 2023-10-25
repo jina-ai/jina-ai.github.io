@@ -11,7 +11,7 @@
     "thinkgpt": "1.4K",
     "dev-gpt": "1.5K",
     "rungpt": "80",
-    "vectordb": "368",
+    "vectordb": "371",
     "jerboa": "23",
     "total": "46.6K"
   },
@@ -155,14 +155,14 @@
       "lists": [
         {
           "text": "Responsibilities",
-          "content": "<li><b>Identify Target Markets:</b> Conduct market research to identify potential customer groups and product market fit for both <b><u>Embedding product and PromptPerfect,</u></b> leveraging insights for lead generation.</li><li><b>Engage Prospective Customers:</b> Initiate prospecting calls and emails to introduce our products to potential customers, showcasing their value and benefits.</li><li><b>Solution-Oriented Approach:</b> Understand customer pain points and specific usage scenarios to tailor effective solutions, addressing their unique needs.</li><li><b>Build Customer Relationships:</b> Develop and nurture strong, enduring relationships with customers, fostering trust and loyalty.</li><li><b>Achieve Sales Goals:</b> Consistently meet or exceed sales targets and quotas, demonstrating a results-driven approach.</li><li><b>Collaborative Marketing:</b> Collaborate closely with the marketing and product teams to create impactful sales materials and campaigns, aligning messaging with customer needs.</li><li><b>Represent the Company:</b> Attend conferences and events to effectively represent the company's products, establishing a presence in the industry and expanding our reach.</li>"
+          "content": "<li><b>Identify Target Markets:</b> Conduct market research to identify potential customer groups and product market fit for both <u><b>Embedding product and PromptPerfect,</b></u> leveraging insights for lead generation.</li><li><b>Engage Prospective Customers:</b> Initiate prospecting calls and emails to introduce our products to potential customers, showcasing their value and benefits.</li><li><b>Solution-Oriented Approach:</b> Understand customer pain points and specific usage scenarios to tailor effective solutions, addressing their unique needs.</li><li><b>Build Customer Relationships:</b> Develop and nurture strong, enduring relationships with customers, fostering trust and loyalty.</li><li><b>Achieve Sales Goals:</b> Consistently meet or exceed sales targets and quotas, demonstrating a results-driven approach.</li><li><b>Collaborative Marketing:</b> Collaborate closely with the marketing and product teams to create impactful sales materials and campaigns, aligning messaging with customer needs.</li><li><b>Represent the Company:</b> Attend conferences and events to effectively represent the company's products, establishing a presence in the industry and expanding our reach.</li>"
         },
         {
           "text": "Required Qualifications",
           "content": "<li><b>Educational Background:</b> Bachelor's degree in business or a related field.</li><li><b>Proven B2B Sales Experience:</b> Demonstrated track record in B2B sales, preferably within the technology industry.</li><li><b>Technical Acumen:</b> Proficiency in understanding technical terminology, particularly in the field of AI.</li><li><b>Communication and Negotiation Skills:</b> Strong communication and negotiation abilities to engage effectively with clients.</li><li><b>Independence and Time Management:</b> Capacity to work independently, efficiently manage time, and meet deadlines.</li><li><b>Customer-Centric Focus:</b> Skill in identifying and comprehending customer pain points to offer tailored solutions.</li><li><b>Organizational and Problem-Solving Skills:</b> Strong organizational skills with the capability to navigate complex challenges.</li><li><b>Adaptability:</b> Eagerness to learn and adapt to emerging technologies and industry trends.</li><li><b>Collaborative Team Player:</b> Collaborative mindset with exceptional organizational skills to liaise across business functions and provide stakeholders with project and campaign updates.</li><li><b>Language Proficiency:</b>&nbsp;<u>Native German speaker or a minimum of C1-C2 German proficiency level,</u> with fluency in English being essential.</li><li><b>Familiarity with Tools:</b> Experience with tools like Google Analytics, HubSpot, Sales Navigator, and similar platforms.</li>"
         }
       ],
-      "text": "Junior Sales & Marketing Manager (f/m/d) (copy)",
+      "text": "Junior Sales & Marketing Manager (f/m/d)",
       "country": "DE",
       "workplaceType": "hybrid",
       "hostedUrl": "https://jobs.lever.co/jina-ai/7a1f8cdc-196d-483d-9b8b-f3734c8394f6",
