@@ -11,7 +11,7 @@
     "thinkgpt": "1.4K",
     "dev-gpt": "1.5K",
     "rungpt": "80",
-    "vectordb": "371",
+    "vectordb": "372",
     "jerboa": "23",
     "total": "46.6K"
   },
@@ -59,7 +59,7 @@
         },
         {
           "text": "Required Qualifications",
-          "content": "<li>Bachelor in Computer Science or related degree.</li><li>2y+ experience in mainstream frontend frameworks, e.g. React, Vue, Next.js, Angular, etc.</li><li>2y+ experience in NodeJS and related frameworks like NestJS and etc.</li><li>1y+ experience in Cloud-Native techniques. Good understanding of web services, containerization, database (such as MongoDB), and modern software architectures.</li><li>Familiar with serverless architecture, e.g. Firebase, Superbase</li><li>Maintained/contributed to open-source projects, familiar with the agile software development process, CI/CD workflow, ticket management, code review, version control, etc.</li><li>Passionate about AI technologies. Open to collaborating with colleagues &amp; external contributors &amp; designers</li><li>Good English writing skills. German proficiency would be beneficial. </li>"
+          "content": "<li>Bachelor in Computer Science or related degree.</li><li>2y+ with VueJS.</li><li>2y+ experience in NodeJS and related frameworks like NestJS and etc.</li><li>1y+ experience in Cloud-Native techniques. Good understanding of web services, containerization, database (such as MongoDB), and modern software architectures.</li><li>Familiar with serverless architecture, e.g. Firebase, Superbase</li><li>Maintained/contributed to open-source projects, familiar with the agile software development process, CI/CD workflow, ticket management, code review, version control, etc.</li><li>Passionate about AI technologies. Open to collaborating with colleagues &amp; external contributors &amp; designers</li><li>Good English writing skills. German proficiency would be beneficial. </li>"
         }
       ],
       "text": "Frontend Engineer (f/m/d)",
