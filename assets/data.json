@@ -5,15 +5,15 @@
     "finetuner": "1.3K",
     "dalle-flow": "2.8K",
     "discoart": "3.8K",
-    "clip-as-service": "11.9K",
+    "clip-as-service": "12K",
     "jcloud": "291",
     "langchain-serve": "1.5K",
     "thinkgpt": "1.4K",
     "dev-gpt": "1.5K",
-    "rungpt": "95",
-    "vectordb": "391",
-    "jerboa": "27",
-    "total": "47K"
+    "rungpt": "97",
+    "vectordb": "393",
+    "jerboa": "28",
+    "total": "47.1K"
   },
   "jobs": [
     {
@@ -27,10 +27,10 @@
           "Berlin"
         ]
       },
-      "createdAt": 1698772611592,
+      "createdAt": 1696246690428,
       "descriptionPlain": "🙌 Who are we?\n\nFounded in February 2020, Jina AI has swiftly emerged as a global pioneer in multimodal AI technology. Within an impressive timeframe of 20 months, we have successfully raised $37.5M, marking our strong position in the AI industry. Our ground-breaking technology, open-sourced on GitHub, has empowered over 40,000 developers around the globe to seamlessly build and deploy sophisticated multimodal applications.\n\nIn 2023, we've made significant strides in advancing AI generation tools grounded on multimodal technology. This innovation has benefited over 250,000 users worldwide, catering to a plethora of unique business requirements. From facilitating business growth and enhancing operational efficiency to optimizing costs, Jina AI is dedicated to empowering businesses to excel in the multimodal era.\n\n\n✨ Who do we want?\n\n- You are passionate about multimodal intelligence and making it accessible to everyone.\n- You want to work with the latest technologies and are fascinated by AI/ML.\n- You are a fast learner and a team player and enjoy working in an async, distributed environment.\n- You are proactive and take ownership of your projects.\n- You have excellent communication skills in English.\n\n💁 About this position\n\nWe are seeking a talented Frontend Engineer who possesses not only the technical prowess to craft exceptional user interfaces but also the creativity to make them visually captivating. If you're excited about marrying code with design, optimizing user experiences, and shaping the digital world, we invite you to join our team in Berlin. \n",
       "description": "<div><span style=\"font-size: 24px\">🙌 Who are we?</span></div><div><br></div><div>Founded in February 2020, Jina AI has swiftly emerged as a global pioneer in multimodal AI technology. Within an impressive timeframe of 20 months, we have successfully raised $<a href=\"http://37.5M\" class=\"postings-link\">37.5M</a>, marking our strong position in the AI industry. Our ground-breaking technology, open-sourced on GitHub, has empowered over 40,000 developers around the globe to seamlessly build and deploy sophisticated multimodal applications.</div><div><br></div><div>In 2023, we've made significant strides in advancing AI generation tools grounded on multimodal technology. This innovation has benefited over 250,000 users worldwide, catering to a plethora of unique business requirements. From facilitating business growth and enhancing operational efficiency to optimizing costs, Jina AI is dedicated to empowering businesses to excel in the multimodal era.</div><div><br></div><div><br></div><div><span style=\"font-size: 24px\">✨ Who do we want?</span></div><div><br></div><div>- You are passionate about multimodal intelligence and making it accessible to everyone.</div><div>- You want to work with the latest technologies and are fascinated by AI/ML.</div><div>- You are a fast learner and a team player and enjoy working in an async, distributed environment.</div><div>- You are proactive and take ownership of your projects.</div><div>- You have excellent communication skills in English.</div><div><br></div><div><span style=\"font-size: 24px\">💁 About this position</span></div><div><br></div><div>We are seeking a talented Frontend Engineer who possesses not only the technical prowess to craft exceptional user interfaces but also the creativity to make them visually captivating. If you're excited about marrying code with design, optimizing user experiences, and shaping the digital world, we invite you to join our team in Berlin. </div>",
-      "id": "fac984b2-ef14-40cb-ab57-07131c8aa212",
+      "id": "61ac682c-58c3-44d3-bfde-b5d9545b7e77",
       "lists": [
         {
           "text": "Responsibilities",
@@ -44,8 +44,8 @@
       "text": "Frontend Engineer (f/m/d)",
       "country": "DE",
       "workplaceType": "hybrid",
-      "hostedUrl": "https://jobs.lever.co/jina-ai/fac984b2-ef14-40cb-ab57-07131c8aa212",
-      "applyUrl": "https://jobs.lever.co/jina-ai/fac984b2-ef14-40cb-ab57-07131c8aa212/apply"
+      "hostedUrl": "https://jobs.lever.co/jina-ai/61ac682c-58c3-44d3-bfde-b5d9545b7e77",
+      "applyUrl": "https://jobs.lever.co/jina-ai/61ac682c-58c3-44d3-bfde-b5d9545b7e77/apply"
     },
     {
       "additionalPlain": "😊 Benefits & Perks\n\n💰 Competitive salary\n🌎 Multi-cultural & diverse team\n🎓 Numerous opportunities to present/attend top AI/OSS/industry conference\n🦄 Rapid career development opportunities alongside the company\n🏢 Central office in downtown Berlin, San Jose, Shenzhen, Beijing\n⛱️ Free snacks & drinks, monthly team events, flexible working hours, home office options\n💻 Macbooks & top-notch equipment\n✉️ Recommendation letter \n\n\n💼 Hiring Process\n\nCandidates can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. \n\n- The first round is the CV screening, candidates will receive an email that contains a link for booking the next round. This process takes a maximum of one week.\n\n- Qualified candidates will be invited to schedule a 30-minute screening call specifically on Zoom with one of our global recruiters.\n\n- Next, candidates will be invited to a Team Peer Interview. During the interview, which will last 1 hour, the team will examine your fundamental knowledge and experience as well as your motivation to join Jina AI; If you are applying for an Engineering Internship, one should also expect a live-coding challenge in 10 to 15 minutes.\n\nWe will collect the feedback from all interviewers and make a decision in a maximum of two weeks (on average it takes 5 working days). Then the candidate will be invited to another 15-minute call with our recruiters to discuss the terms of the offer.",
@@ -285,37 +285,6 @@
       "workplaceType": "unspecified",
       "hostedUrl": "https://jobs.lever.co/jina-ai/c1f2e2c4-5a68-4061-86bf-5df13cf3f2f2",
       "applyUrl": "https://jobs.lever.co/jina-ai/c1f2e2c4-5a68-4061-86bf-5df13cf3f2f2/apply"
-    },
-    {
-      "additionalPlain": "😊 Benefits & Perks\n\n💰 Competitive salary\n🌎 Multi-cultural & diverse team\n🎓 Numerous opportunities to present/attend top AI/OSS/industry conference\n🦄 Rapid career development opportunities alongside the company\n🏢 Central office in downtown Berlin, San Jose, Shenzhen, Beijing\n⛱️ Free snacks & drinks, monthly team events, flexible working hours, home office options\n💻 Macbooks & top-notch equipment\n\n\n💼 Hiring Process\n\nCandidates can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. \n\n- The first round is the CV screening, candidates will receive an email that contains a link for booking the next round. This process takes a maximum of one week.\n\n- Qualified candidates will be invited to schedule a 30-minute screening call specifically on Zoom with one of our global recruiters.\n\n- Next, candidates will be invited to a Technical Peer Interview. During the interview, which will last 1 hour, the team will examine your fundamental knowledge and coding skills as well as your motivation to join Jina AI; one should also expect a live-coding challenge in 10 to 15 minutes.\n\nWe will collect the feedback from all interviewers and make a decision in a maximum of two weeks (on average it takes 5 working days). Then the candidate will be invited to another 15-minute call with our recruiters to discuss the terms of the offer.",
-      "additional": "<div><br></div><div><span style=\"font-size: 24px\">😊 Benefits &amp; Perks</span></div><div><br></div><div>💰 Competitive salary</div><div>🌎 Multi-cultural &amp; diverse team</div><div>🎓 Numerous opportunities to present/attend top AI/OSS/industry conference</div><div>🦄 Rapid career development opportunities alongside the company</div><div>🏢 Central office in downtown Berlin, San Jose, Shenzhen, Beijing</div><div>⛱️ Free snacks &amp; drinks, monthly team events, flexible working hours, home office options</div><div>💻 Macbooks &amp; top-notch equipment</div><div><br></div><div><br></div><div><span style=\"font-size: 24px\">💼 Hiring Process</span></div><div><br></div><div>Candidates can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.&nbsp;</div><div><br></div><div>- The first round is the CV screening, candidates will receive an email that contains a link for booking the next round. This process takes a maximum of one week.</div><div><br></div><div>- Qualified candidates will be invited to schedule a&nbsp;<b>30-minute screening call</b>&nbsp;specifically on Zoom with one of our global recruiters.</div><div><br></div><div>- Next, candidates will be invited to a&nbsp;<b>Technical Peer Interview.&nbsp;</b>During the interview, which will last&nbsp;<b>1 hour</b>,<b>&nbsp;</b>the team will examine your fundamental knowledge and coding skills as well as your motivation to join Jina AI; one should also expect a live-coding challenge in 10 to 15 minutes.</div><div><br></div><div>We will collect the feedback from all interviewers and make a decision in a maximum of two weeks (on average it takes 5 working days). Then the candidate will be invited to another&nbsp;<b>15-minute call</b>&nbsp;with our recruiters to discuss the terms of the offer.</div>",
-      "categories": {
-        "commitment": "Internship",
-        "location": "Berlin",
-        "team": "Engineering Intern",
-        "allLocations": [
-          "Berlin"
-        ]
-      },
-      "createdAt": 1689321281358,
-      "descriptionPlain": "🙌 Who are we?\n\n-A commercial open-source company that empowers businesses and developers to create cutting-edge neural search, generative AI, and multimodal services using state-of-the-art LMOps, MLOps, and cloud-native technologies\n- Founded in Feb. 2020, raised $37.5M in 20 months. Now a global team of 65 with three offices: Berlin (HQ), Shenzhen, and Beijing.\n- One of the high-valued & high-potential AI startups in the world, featured on Forbes DACH AI30 2020, CBInsights AI 100 2021 & 2022.\n\n\n✨ Who do we want?\n\n- You are passionate about multimodal intelligence and making it accessible to everyone.\n- You want to work with the latest technologies and are fascinated by AI/ML.\n- You are a fast learner and a team player and enjoy working in an async, distributed environment.\n- You are proactive and take ownership of your projects.\n- You have excellent communication skills in English.\n\n💁 About this position\n\nAs a Web Developer Intern, you would get the opportunity in helping assist our engineering team in building Generative AI products to solve the innovative challenges of customers across different domains\n\nPlease, note that we are looking for someone that can join us in our Berlin office and that we are not offering visa sponsorship for this role at the moment. \n",
-      "description": "<div><span style=\"font-size: 24px\">🙌 Who are we?</span></div><div><br></div><div>-A&nbsp;commercial open-source company that empowers&nbsp;businesses and developers to create cutting-edge neural search, generative AI, and multimodal services using state-of-the-art LMOps, MLOps, and cloud-native technologies</div><div>- Founded in Feb. 2020, raised $<a href=\"https://techcrunch.com/2021/11/22/jina-ai-raises-30m-for-its-for-its-neural-search-platform/?guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&amp;guce_referrer_sig=AQAAAKxsGFoFRA7l5cXg9v59BayW8Zwi4QqGY7lHeIVYJyipuWmRaQCAm8Yu2w5sKln1CHK6yv0-D0Pk2V-fSbHJ2cHGNn59viHXWGEGaLKYA7lsv85K-9CZWJVaxu4F3HY7RIYyPlGaFWZlTHOaXEUAdWFbLtmnPGdaFmj_2grYdcsg&amp;guccounter=2\" class=\"postings-link\">37.5M</a> in 20 months. Now a global team of 65 with three offices: Berlin (HQ), Shenzhen, and Beijing.</div><div>- One of the high-valued &amp; high-potential AI startups in the world, featured on Forbes DACH AI30 2020, CBInsights AI 100 2021 &amp; 2022.</div><div><br></div><div><br></div><div><span style=\"font-size: 24px\">✨ Who do we want?</span></div><div><br></div><div>- You are passionate about multimodal intelligence and making it accessible to everyone.</div><div>- You want to work with the latest technologies and are fascinated by AI/ML.</div><div>- You are a fast learner and a team player and enjoy working in an async, distributed environment.</div><div>- You are proactive and take ownership of your projects.</div><div>- You have excellent communication skills in English.</div><div><br></div><div><span style=\"font-size: 24px\">💁 About this position</span></div><div><br></div><div>As a <b>Web Developer Intern,</b> you would get the opportunity in helping assist our engineering team in building Generative AI products to solve the innovative challenges of customers across different domains</div><div><br></div><div><i>Please, note that we are looking for someone that can join us in our <b>Berlin office </b>and that we are not offering visa sponsorship for this role at the moment. </i></div>",
-      "id": "06a0fafc-32a4-475c-94cc-ee727d8723ad",
-      "lists": [
-        {
-          "text": "Your main responsibilities would be: ",
-          "content": "<li>You will build Generative AI products to solve the innovative challenges of our customers across different domains </li><li>You will work on AI Prompt Engineering Technology (Don't worry, the Jina team will support you to be an awesome Engineer. Please bring in your passion) </li><li>Assist in building APIs, Security features, and Scalable solutions</li><li>Assist in building innovative examples with Jina and publish blog posts </li><div><br></div>"
-        },
-        {
-          "text": "Requirements for this position would include:",
-          "content": "<li>We're looking for self-motivated and autonomous workers, who take ownership and initiative in their own work</li><li>Bachelor's degree in Computer Science, Software Engineering, Web Development, or a related field. </li><li>Individuals with &gt;2 years of experience in TypeScript, JavaScript. Experience with Node.js is a plus</li><li>Web Development knowledge and experience with Quasar and Vue.js.</li><li>Knowledge of Git and version control</li><li>Knowledge of other front-end frameworks (e.g. React Native, Bootstrap, jQuery) is a plus </li><li>Knowledge of NoSQL and SQL databases is a plus </li><li>Knowledge of Firebase or Cloud Platform would be advantageous</li>"
-        }
-      ],
-      "text": "Web Developer Intern (f/m/d)",
-      "country": "DE",
-      "workplaceType": "hybrid",
-      "hostedUrl": "https://jobs.lever.co/jina-ai/06a0fafc-32a4-475c-94cc-ee727d8723ad",
-      "applyUrl": "https://jobs.lever.co/jina-ai/06a0fafc-32a4-475c-94cc-ee727d8723ad/apply"
     }
   ]
 }
