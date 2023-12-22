@@ -1,4 +1,236 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[Jina AI]]></title><description><![CDATA[The official newsroom of Jina AI]]></description><link>https://jina.ai/news</link><image><url>https://jina.ai/favicon.ico</url><title>Jina AI</title><link>https://jina.ai/news</link></image><generator>Ghost 5.75</generator><lastBuildDate>Thu, 21 Dec 2023 15:12:30 GMT</lastBuildDate><atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[A Magic Carpet Ride: Building Vivid Product Stories with SceneXplain]]></title><description><![CDATA[See how companies are integrating SceneXplain with their existing infrastructure to power their product descriptions and storytelling]]></description><link>https://jina.ai/news/a-magic-carpet-ride-building-vivid-product-stories-with-scenexplain/</link><guid isPermaLink="false">658198e20bab3100012d2999</guid><category><![CDATA[Tech Blog]]></category><dc:creator><![CDATA[Alex C-G]]></dc:creator><pubDate>Thu, 21 Dec 2023 15:00:26 GMT</pubDate><media:content url="https://jina-ai-gmbh.ghost.io/content/images/2023/12/Frame-1.jpg" medium="image"/><content:encoded><![CDATA[<img src="https://jina-ai-gmbh.ghost.io/content/images/2023/12/Frame-1.jpg" alt="A Magic Carpet Ride: Building Vivid Product Stories with SceneXplain"><p>We recently wrote about SceneXplain&apos;s new <a href="https://www.notion.so/A-Magic-Carpet-Ride-Building-Vivid-Product-Stories-with-SceneXplain-7a07a53a3ffa48b083d9abe9c3c1c3af?pvs=21&amp;ref=jina-ai-gmbh.ghost.io">JSON Schema Store</a>, which lets you use predefined JSON schemas to extract information from images in a structured format. In this post, we&apos;re going to see how that&apos;s used by our partner, <a href="http://www.akia.cn/eindex.asp?ref=jina-ai-gmbh.ghost.io">AKIA Carpet &amp; Rugs</a>, for building up an AI-powered product stories generation bot to empower sales.</p><p>In our prior examples, we&apos;ve primarily used either cURL or Python to access <a href="https://www.notion.so/A-Magic-Carpet-Ride-Building-Vivid-Product-Stories-with-SceneXplain-7a07a53a3ffa48b083d9abe9c3c1c3af?pvs=21&amp;ref=jina-ai-gmbh.ghost.io">SceneXplain&apos;s API</a>. But in this post, we&apos;re switching things up a bit by using JavaScript.</p><h2 id="about-akia-carpet-rugs">About AKIA Carpet &amp; Rugs</h2><p>In July 2008, Gary Chen founded AKIA Carpet &amp; Rugs, which is now marking its 15th year of operation. The team, initially inspired by traditional Asian craftsmanship, has been dedicated to developing contemporary aesthetic styles. AKIA has grown into a brand known for its unique fusion of modern art with traditional design and weaving techniques.</p><p>As a carpet manufacturer, AKIA specializes in a range of products including mid-to-high-end decorative carpets, tapestries, and carpets for specific projects. The company integrates design, research, production, and sales, both domestically and internationally. Known for innovative design and high-quality products, AKIA has earned a solid reputation in China&apos;s high-end carpet market.</p><h2 id="crafting-a-winning-product-story-with-scenexplain"><strong>Crafting a Winning Product Story with SceneXplain</strong></h2><p>AKIA Carpet &amp; Rugs primarily caters to the mid-to-high-end market, focusing on the aesthetic appeal of their products. Their clientele often looks for carpets that not only complement their home design but also express their unique taste. Recognizing this, AKIA collaborates with skilled designers to create a diverse range of styles, resulting in an extensive collection of carpet designs and images. The challenge lies in effectively communicating the artistic value of these designs to discerning customers, a crucial factor in attracting clients.</p><p>Previously, crafting compelling narratives for a large array of product images, akin to artworks, was a daunting task. This required copywriters who were not only skilled in writing but also knowledgeable in design and art. Additionally, the need to swiftly identify the perfect product image from an extensive collection to meet specific customer preferences was a significant challenge. Traditional image labeling methods, focusing on basic attributes like color, shape, and material, proved insufficient for customers who often describe their needs in more abstract terms.</p><p>SceneXplain offers a dual solution to these challenges. Its approach is based on narration rather than mere description, aiming to weave engaging stories around images. This aligns with SceneXplain&apos;s core philosophy: storytelling brings images to life. By providing stories that resonate with the artistic nature of AKIA&apos;s products, SceneXplain addresses their need for an intuitive, aesthetically aligned way of presenting their carpets.</p><figure class="kg-card kg-image-card"><img src="https://jina-ai-gmbh.ghost.io/content/images/2023/12/Screenshot-2023-12-19-at-6.47.11-PM.png" class="kg-image" alt="A Magic Carpet Ride: Building Vivid Product Stories with SceneXplain" loading="lazy" width="2000" height="1183" srcset="https://jina-ai-gmbh.ghost.io/content/images/size/w600/2023/12/Screenshot-2023-12-19-at-6.47.11-PM.png 600w, https://jina-ai-gmbh.ghost.io/content/images/size/w1000/2023/12/Screenshot-2023-12-19-at-6.47.11-PM.png 1000w, https://jina-ai-gmbh.ghost.io/content/images/size/w1600/2023/12/Screenshot-2023-12-19-at-6.47.11-PM.png 1600w, https://jina-ai-gmbh.ghost.io/content/images/size/w2400/2023/12/Screenshot-2023-12-19-at-6.47.11-PM.png 2400w" sizes="(min-width: 720px) 720px"></figure><blockquote>&quot;Embrace Yourself&quot; is a piece of art in the form of a carpet, exuding minimalist charm and contemporary simplicity. This piece features the elegant, abstract depiction of a round, white figure at its center&#x2014;an embodiment of purity and serenity. With meticulously crafted black outlines that grace the soothing white background, this carpet tells a subtle but impactful visual story. Each line is placed with thoughtful precision, evoking emotions and depth without cluttering the visual space. The characteristic round head of the figure in the design adds a touch of futuristic whimsy, creating a space for imagination to soar. The light gray tones and stark white spaces between the lines further enhance the abstract quality, offering a calm and peaceful atmosphere to any room. Whether adorning a modern living area or a chic office space, &quot;Embrace Yourself&quot; promises to be more than just a carpet&#x2014;it is a promise of self-discovery and a celebration of space and form. Its simplicity and abstraction are not just visually appealing but are crafted to engage the observer in an almost meditative contemplation.</blockquote><figure class="kg-card kg-image-card"><img src="https://jina-ai-gmbh.ghost.io/content/images/2023/12/Screenshot-2023-12-19-at-7.18.18-PM.png" class="kg-image" alt="A Magic Carpet Ride: Building Vivid Product Stories with SceneXplain" loading="lazy" width="2000" height="1189" srcset="https://jina-ai-gmbh.ghost.io/content/images/size/w600/2023/12/Screenshot-2023-12-19-at-7.18.18-PM.png 600w, https://jina-ai-gmbh.ghost.io/content/images/size/w1000/2023/12/Screenshot-2023-12-19-at-7.18.18-PM.png 1000w, https://jina-ai-gmbh.ghost.io/content/images/size/w1600/2023/12/Screenshot-2023-12-19-at-7.18.18-PM.png 1600w, https://jina-ai-gmbh.ghost.io/content/images/size/w2400/2023/12/Screenshot-2023-12-19-at-7.18.18-PM.png 2400w" sizes="(min-width: 720px) 720px"></figure><blockquote>&quot;Dancer&quot; is an evocative piece of home decor where color and geometry resonate to a rhythm of their own. Adorning a rich navy blue background, this carpet features a dynamic composition of blue and orange lines and squares that glide across the fabric, suggesting movement and energy, much like a dancer in the spotlight. The striking orange lines dance diagonally, connecting a series of crisp white squares, which are themselves accented with black detailing, reminiscent of precise footwork on a dance stage. Unequivocally modern, &quot;Dancer&quot; employs the contrast of deep blues with vibrant oranges and whites to create an abstract visual narrative that is open to interpretation, yet commands attention. Each element on &quot;Dancer&quot; is painstakingly arranged to bring a sense of balance and fluidity, paralleling a choreographed performance that tells a story with every twist and turn. The pattern encourages the eye to leap and land much like a viewer watching an enthralling solo dance performance, making &quot;Dancer&quot; not just a carpet, but a conversation piece that captivates and inspires.</blockquote><h2 id="product-story-generation-a-holistic-solution">Product story generation: A holistic solution</h2><p>In AKIA&#x2019;s use case, their product manager wants to automatically create stories for all their products. The stories should use some high-quality examples as a guide, which contain aesthetic explanations. Their specific needs are:</p><ul><li>Textual descriptions of their products</li><li>Stories for each product that follow the examples they provide</li><li>Batch processing of images triggered by the chat channel</li></ul><p>Based on these requirements, visual question answering (VQA) is the best fit, because:</p><ul><li>Visual question answering outputs textual descriptions.</li><li>In the question, you can also provide a prompt in a specific format on demand.</li><li>You can inject your own examples into the prompt to guide the model&#x2019;s output.</li><li>Once you have the prompt&#x2019;s basic structure, you can convert it to a template with variables that can be automatically populated each time you use it.</li></ul><p>SceneXplain&#x2019;s API provides a wide range of options for configuring your request, including image captioning, alt-text generation, visual question answering, JSON output, and more.</p><p>Several fields are required to execute a VQA task via the API:</p><ul><li>API endpoint: <code>https://api.scenex.jina.ai/v1/describe</code></li><li>API key: <code>&apos;x-api-key&apos;: token ${YOUR_API_KEY}</code>. You can generate and manage your API key on our <a href="https://scenex.jina.ai/api?ref=jina-ai-gmbh.ghost.io">API page</a>.</li><li>Request payload, which is your task configuration, providing the image you want to process, setting <code>question_answer</code> in the <code>features</code> property, and setting your prompt in the <code>question</code> property.</li></ul><p>Here&#x2019;s a code snippet for such an API call in JavaScript:</p><pre><code class="language-jsx">const body = {
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[Jina AI]]></title><description><![CDATA[The official newsroom of Jina AI]]></description><link>https://jina.ai/news</link><image><url>https://jina.ai/favicon.ico</url><title>Jina AI</title><link>https://jina.ai/news</link></image><generator>Ghost 5.75</generator><lastBuildDate>Fri, 22 Dec 2023 13:11:42 GMT</lastBuildDate><atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Full-stack RAG with Jina Embeddings v2 and LlamaIndex]]></title><description><![CDATA[You can build your own RAG chatbot in a matter of minutes with Jina Embeddings, LlamaIndex and Mixtral Instruct. We'll show you how to get up and running right now.]]></description><link>https://jina.ai/news/full-stack-rag-with-jina-embeddings-v2-and-llamaindex/</link><guid isPermaLink="false">6583fe510bab3100012d29f2</guid><category><![CDATA[Tech Blog]]></category><dc:creator><![CDATA[Scott Martens]]></dc:creator><pubDate>Fri, 22 Dec 2023 13:00:07 GMT</pubDate><media:content url="https://jina-ai-gmbh.ghost.io/content/images/2023/12/4.jpg" medium="image"/><content:encoded><![CDATA[<img src="https://jina-ai-gmbh.ghost.io/content/images/2023/12/4.jpg" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex"><p>LLMs are cool, but their input context windows are always so small. They&#x2019;re getting bigger, but they&#x2019;ll never be big enough for, say, a whole book, much less an encyclopedia, unless there is some breakthrough in AI model architectures.</p><p>RAG (<a href="https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/?ref=jina-ai-gmbh.ghost.io">Retrieval Augmented Generation</a>) is a strategy that can compensate for this limitation, letting you use LLMs to respond to questions with answers that draw on relevant parts of documents or whole repositories of documents that are far too large to put entirely into the model&#x2019;s input.</p><p>This article will show you how to use LlamaIndex, Jina Embeddings, and the <code>Mixtral-8x7B-Instruct-v0.1</code> language model (<a href="https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1?ref=jina-ai-gmbh.ghost.io">hosted on HuggingFace</a>) to build a complete RAG system. For more information on the Mixtral language model, see the <a href="https://mistral.ai/news/mixtral-of-experts/?ref=jina-ai-gmbh.ghost.io">Mistral AI website</a> or the <a href="https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1?ref=jina-ai-gmbh.ghost.io">model card on HuggingFace</a>.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://www.llamaindex.ai/?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">LlamaIndex - Data Framework for LLM Applications</div><div class="kg-bookmark-description">LlamaIndex is a simple, flexible data framework for connecting custom data sources to large language models (LLMs).</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://assets-global.website-files.com/6459a0e3f348e9e898b7df80/645ad8c999ba34bf0713622b_LlamaBrowserTab.png" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex"><span class="kg-bookmark-author">Data Framework for LLM Applications</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://assets-global.website-files.com/6459a0e3f348e9e898b7df80/6462e6a26afc95b84a8db9dc_LlamaLogo%20White.png" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex"></div></a></figure><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://jina.ai/embeddings/?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Embedding API</div><div class="kg-bookmark-description">Top-performing, 8192-token length, $100 for 1.25B tokens, seamless OpenAI alternative, free trial</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://jina.ai/icons/favicon-128x128.png" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex"></div></div><div class="kg-bookmark-thumbnail"><img src="https://jina.ai/banner-embedding-api.png" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex"></div></a></figure><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://mistral.ai/?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Mistral AI | Open source models</div><div class="kg-bookmark-description">Frontier AI in your hands</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://mistral.ai/images/favicon/apple-touch-icon.png" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex"><span class="kg-bookmark-author">Open source models</span><span class="kg-bookmark-publisher">Mistral AI</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://mistral.ai/images/mistral-social-banner.jpg" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex"></div></a></figure><p>You can also <a href="https://raw.githubusercontent.com/jina-ai/workshops/article/LlamaIndex/notebooks/llamaindex/RAGwithJinaLlamaIndex.ipynb?ref=jina-ai-gmbh.ghost.io" rel="noreferrer">download a Jupyter Notebook with all the code in this article from GitHub</a>, or <a href="https://colab.research.google.com/github/jina-ai/workshops/blob/article%2FLlamaIndex/notebooks/llamaindex/RAGwithJinaLlamaIndex.ipynb?ref=jina-ai-gmbh.ghost.io" rel="noreferrer">run it directly on Colab</a>.</p><p>You will need:</p><ol><li>A <a href="https://jina.ai/embeddings/?ref=jina-ai-gmbh.ghost.io">Jina Embeddings API key</a>.</li><li>A <a href="https://huggingface.co/settings/tokens?ref=jina-ai-gmbh.ghost.io">HuggingFace account and token</a>.</li></ol><p>Since both the Jina Embeddings model and Mixtral are running remotely and are accessed via a web API, you won&#x2019;t need any special hardware. You will need to install Python and meet the <a href="https://docs.llamaindex.ai/en/stable/getting_started/installation.html?ref=jina-ai-gmbh.ghost.io">system requirements for LlamaIndex</a>.</p><h2 id="what-is-rag-and-how-does-it-work">What is RAG and How Does it Work?</h2><p>Retrieval Augmented Generation is a strategy that merges search with language generation. The way it works is that it uses an external information retrieval system to find documents that are likely to inform the answer to a user query. It then passes them, with the user&#x2019;s request, to a text-generating language model, which produces a natural language response.</p><p>This allows you to use an LLM to answer questions and use information from documents and sets of documents that are much larger than its input context window. The LLM only sees a few pertinent parts of the document when responding to prompts. This also has the advantage of reducing (although not eliminating) inexplicable hallucinations.</p><figure class="kg-card kg-image-card"><img src="https://jina-ai-gmbh.ghost.io/content/images/2023/12/Untitled--24-.png" class="kg-image" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex" loading="lazy" width="1600" height="750" srcset="https://jina-ai-gmbh.ghost.io/content/images/size/w600/2023/12/Untitled--24-.png 600w, https://jina-ai-gmbh.ghost.io/content/images/size/w1000/2023/12/Untitled--24-.png 1000w, https://jina-ai-gmbh.ghost.io/content/images/2023/12/Untitled--24-.png 1600w" sizes="(min-width: 720px) 720px"></figure><p>This strategy has some limitations:</p><ol><li>It is sensitive to the input context size supported by the LLM. The larger the context size, the more information you can give the LLM, yielding better and richer responses.</li><li>It is sensitive to the quality of the results of the initial information retrieval. If your search engine gives it irrelevant or inaccurate results, the LLM may paste them together as best it can and give you garbage output. This can be caused by bad data (as the saying goes <a href="https://en.wikipedia.org/wiki/Garbage_in,_garbage_out?ref=jina-ai-gmbh.ghost.io"><em>garbage in, garbage out</em></a>) but can also be caused by a search system that does not return the most useful matches or does not rank them highly enough in the results.</li></ol><p>High-quality embeddings are key to making RAG work because they reduce the impact of these limitations.</p><p>First, a small context size for an LLM means it&#x2019;s extra important to find the most relevant information, because you cannot add very much to the user&#x2019;s prompt. Second, how informative the answer is depends on how informative the input is. If the search results displayed to the LLM are irrelevant or poorly informative, that will be reflected in the result.</p><p>AI-generated embeddings are, on the whole, the best way to find and rank query results in general.</p><h2 id="build-a-full-rag-chatbot">Build a Full RAG Chatbot</h2><p>We will create and install a full RAG system using the <a href="https://www.llamaindex.ai/?ref=jina-ai-gmbh.ghost.io">LlamaIndex framework</a> for working with LLMs. This system uses Jina Embeddings to index document elements and store them in LlamaIndex&#x2019; built-in vector store and search engine. Then, it uses the newly released <a href="https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1?ref=jina-ai-gmbh.ghost.io">Mixtral Instruct</a> model to construct natural language answers.</p><p>The approach in the article will also work with OpenAI&#x2019;s GPT models and Meta&#x2019;s Llama2, with some adaptation of the code and possibly the prompt. For more details, read the <a href="https://docs.llamaindex.ai/en/stable/?ref=jina-ai-gmbh.ghost.io">LlamaIndex documentation</a>.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://docs.llamaindex.ai/en/stable/?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">LlamaIndex &#x1F999; 0.9.19</div><div class="kg-bookmark-description"></div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://docs.llamaindex.ai/favicon.ico" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex"><span class="kg-bookmark-author">LlamaIndex &#x1F999; 0.9.19</span></div></div></a></figure><p>This section involves a lot of code to copy and paste, and it will only get a very high-level explanation. You may prefer to <a href="https://raw.githubusercontent.com/jina-ai/workshops/article/LlamaIndex/notebooks/llamaindex/RAGwithJinaLlamaIndex.ipynb?ref=jina-ai-gmbh.ghost.io" rel="noreferrer">download the accompanying notebook</a> or <a href="https://colab.research.google.com/github/jina-ai/workshops/blob/article%2FLlamaIndex/notebooks/llamaindex/RAGwithJinaLlamaIndex.ipynb?ref=jina-ai-gmbh.ghost.io" rel="noreferrer">run this code on Google Colab</a>.</p><h3 id="getting-started">Getting Started</h3><p>First, install LlamaIndex:</p><pre><code class="language-bash">pip install llama-index
+</code></pre><p>Next, make sure that you have a <a href="https://jina.ai/embeddings/?ref=jina-ai-gmbh.ghost.io">Jina API key</a> and a <a href="https://huggingface.co/settings/tokens?ref=jina-ai-gmbh.ghost.io">HuggingFace Inference API token</a>.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://jina.ai/embeddings/?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Embedding API</div><div class="kg-bookmark-description">Top-performing, 8192-token length, $100 for 1.25B tokens, seamless OpenAI alternative, free trial</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://jina.ai/icons/favicon-128x128.png" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex"></div></div><div class="kg-bookmark-thumbnail"><img src="https://jina.ai/banner-embedding-api.png" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex"></div></a></figure><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://huggingface.co/settings/tokens?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Hugging Face &#x2013; The AI community building the future.</div><div class="kg-bookmark-description">We&#x2019;re on a journey to advance and democratize artificial intelligence through open source and open science.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://huggingface.co/favicon.ico" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex"></div></div><div class="kg-bookmark-thumbnail"><img src="https://huggingface.co/front/thumbnails/v2-2.png" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex"></div></a></figure><p>In Python, set up your secret key values like this:</p><pre><code class="language-Python">jinaai_api_key = &quot;&lt;your Jina Embeddings API key&gt;&quot;
+hf_inference_api_key: str = &apos;&lt;your HuggingFace Inference API token&gt;&apos;
+</code></pre><h3 id="connect-jina-embeddings">Connect Jina Embeddings</h3><p>LlamaIndex provides built-in support for the Jina Embeddings API. To use it, you only need to initialize the <code>JinaEmbedding</code> object with your API key and model name. For this example, we will use <code>jina-embeddings-v2-base-en</code>.</p><pre><code class="language-Python">from llama_index.embeddings.jinaai import JinaEmbedding
+
+jina_embedding_model = JinaEmbedding(
+    api_key=jinaai_api_key,
+    model=&quot;jina-embeddings-v2-base-en&quot;,
+)
+</code></pre><h3 id="connect-mixtral-llm">Connect Mixtral LLM</h3><p>We will also need to load the <code>Mixtral-8x7B-Instruct-v0.1</code> model. We will wrap it in a subclass of <code>llama_index.llms.CustomLLM</code> to make it compatible with LlamaIndex.</p><p>The important elements are the class parameters:</p><pre><code class="language-Python">model_name: str = &quot;mistralai/Mixtral-8x7B-Instruct-v0.1&quot;
+api_key: str = hf_inference_api_key
+context_window: int = 4096
+num_output: int = 512
+</code></pre><p>The parameter <code>model_name</code> is the name of the model on HuggingFace, in this case, <code>mistralai/Mixtral-8x7B-Instruct-v0.1</code>, which is also the path part of the <a href="https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1?ref=jina-ai-gmbh.ghost.io">URL for its model card on HuggingFace</a>. For <code>api_key</code>, you need to use your HuggingFace Inference API token. Then, specify the input context size the model supports (<code>context_window</code>), in this case, 4096 tokens, and the maximum output size in tokens (<code>num_output</code>), 512.</p><p>The code below sets up the LLM object in the LlamaIndex framework:</p><pre><code class="language-Python">import requests
+from llama_index.llms import (
+    CustomLLM,
+    CompletionResponse,
+    CompletionResponseGen,
+    LLMMetadata,
+)
+from llama_index.llms.base import llm_completion_callback
+from typing import Any
+
+
+class MixtralLLM(CustomLLM):
+    context_window: int = 4096
+    num_output: int = 512
+    model_name: str = &quot;mistralai/Mixtral-8x7B-Instruct-v0.1&quot;
+    api_key: str = hf_inference_api_key
+
+    @property
+    def metadata(self) -&gt; LLMMetadata:
+        &quot;&quot;&quot;Get LLM metadata.&quot;&quot;&quot;
+        return LLMMetadata(
+            context_window=self.context_window,
+            num_output=self.num_output,
+            model_name=self.model_name,
+        )
+
+    def do_hf_call(self, prompt: str) -&gt; str:
+        data = {
+            &quot;inputs&quot;: prompt
+        }
+
+        response = requests.post(
+            &apos;https://api-inference.huggingface.co/models/&apos; + self.model_name,
+            headers={
+                &apos;authorization&apos;: f&apos;Bearer {self.api_key}&apos;,
+                &apos;content-type&apos;: &apos;application/json&apos;,
+            },
+            json=data,
+            stream=True
+        )
+        if response.status_code != 200 or not response.json() or &apos;error&apos; in response.json():
+            print(f&quot;Error: {response}&quot;)
+            return &quot;Unable to answer for technical reasons.&quot;
+        full_txt = response.json()[0][&apos;generated_text&apos;]
+        offset = full_txt.find(&quot;---------------------&quot;)
+        ss = full_txt[offset:]
+        offset = ss.find(&quot;Answer:&quot;)
+        return ss[offset+7:].strip()
+
+    @llm_completion_callback()
+    def complete(self, prompt: str, **kwargs: Any) -&gt; CompletionResponse:
+        response = self.do_hf_call(prompt)
+        return CompletionResponse(text=response)
+
+    @llm_completion_callback()
+    def stream_complete(
+            self, prompt: str, **kwargs: Any
+    ) -&gt; CompletionResponseGen:
+        response = &quot;&quot;
+        for token in self.do_hf_call(prompt):
+            response += token
+            yield CompletionResponse(text=response, delta=token)
+
+
+mixtral_llm = MixtralLLM()</code></pre><h3 id="prepare-a-text-for-rag">Prepare a Text for RAG</h3><p>Next, we will download a document and break it into pieces.</p><p>For this exercise, the text we&#x2019;ll use is <a href="https://www.gutenberg.org/ebooks/59316?ref=jina-ai-gmbh.ghost.io" rel="noreferrer"><strong><em>Computers on the Farm</em></strong></a>, published by the US Department of Agriculture in 1982 and available via the Gutenberg Project. This 10,000-word booklet is full of useful information for the farmer considering buying a home computer for farm operations 40 years ago.</p><p>Naturally, its advice is perhaps less helpful today.</p><p>However, it serves as a good example because it is much longer than the input context size of Mixtral LLMs or Jina Embeddings v2.</p><figure class="kg-card kg-image-card"><img src="https://jina-ai-gmbh.ghost.io/content/images/2023/12/Untitled--25-.png" class="kg-image" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex" loading="lazy" width="298" height="519"></figure><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://www.gutenberg.org/ebooks/59316?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Computers on the Farm by Deborah Takiff Smith</div><div class="kg-bookmark-description">Free kindle book and epub digitized and proofread by volunteers.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://www.gutenberg.org/gutenberg/apple-icon.png" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex"><span class="kg-bookmark-author">Project Gutenberg</span><span class="kg-bookmark-publisher">Smith, Deborah Takiff</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://www.gutenberg.org/cache/epub/59316/pg59316.cover.medium.jpg" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex"></div></a></figure><p>The code below will strip the Gutenberg Project header and footer from the text, correct the MS DOS-style linebreaks to conventional ones, and split the text on the headers.</p><pre><code class="language-Python">import urllib.request
+from typing import List
+from llama_index.readers import StringIterableReader
+from llama_index.schema import Document
+
+
+def load_gutenberg(target_url: str) -&gt; List[Document]:
+    ret: List[str] = []
+    buff: str = &quot;&quot;
+    reject: bool = True
+    for raw_line in urllib.request.urlopen(target_url):
+        line = raw_line.decode(&quot;utf-8&quot;)
+        stripped_line = line.strip()
+        if reject:
+            if stripped_line.startswith(&quot;*** START OF THE PROJECT GUTENBERG EBOOK&quot;):
+                reject = False
+                continue
+        else:
+            if stripped_line.startswith(&quot;*** END OF THE PROJECT GUTENBERG EBOOK&quot;):
+                reject = True
+                continue
+            if stripped_line:
+                if stripped_line.startswith(&apos;=&apos;) and stripped_line.endswith(&apos;=&apos;):
+                    ret.append(buff)
+                    buff = &quot;&quot;
+                    buff += stripped_line[1:len(stripped_line)-1] + &quot;\n\n&quot;
+                else:
+                    buff += line.replace(&apos;\r&apos;, &apos;&apos;)
+    if buff.strip():
+        ret.append(buff)
+    return StringIterableReader().load_data(ret)
+
+docs = load_gutenberg(&quot;https://www.gutenberg.org/cache/epub/59316/pg59316.txt&quot;)
+
+# check that we loaded
+
+assert len(docs) == 58</code></pre><p>The result is a collection of 58 small documents.</p><p>The code below does the following:</p><ol><li>Create a <code>ServiceContext</code> object that holds both the Mixtral LLM and the Jina Embeddings connection. We will use this here and later to create the full RAG system.</li><li>Get an embedding for each small document using the <a href="https://jina.ai/embeddings/?ref=jina-ai-gmbh.ghost.io" rel="noreferrer">Jina Embeddings API</a>.</li><li>Store the documents and embeddings in LlamaIndex&#x2019;s <a href="https://docs.llamaindex.ai/en/stable/module_guides/indexing/vector_store_index.html?ref=jina-ai-gmbh.ghost.io">built-in in-memory vector store</a> <code>VectorStoreIndex</code>.</li></ol><pre><code class="language-Python">from llama_index import VectorStoreIndex, ServiceContext
+
+service_context = ServiceContext.from_defaults(
+    llm=mixtral_llm, embed_model=jina_embedding_model
+)
+index = VectorStoreIndex.from_documents(
+    documents=docs, service_context=service_context
+)
+</code></pre><h3 id="prepare-a-prompt">Prepare a Prompt</h3><p>Next, we will create a custom prompt template. This prompt specifically asks the LLM not to use information outside of the context information retrieved from the vector database and to specifically say &#x201C;No information&#x201D; when the context does not have any information that answers the user&#x2019;s request.</p><pre><code class="language-Python">from llama_index import PromptTemplate
+
+qa_prompt_tmpl = (
+    &quot;Context information is below.\\n&quot;
+    &quot;---------------------\\n&quot;
+    &quot;{context_str}\\n&quot;
+    &quot;---------------------\\n&quot;
+    &quot;Given the context information and not prior knowledge, &quot;
+    &quot;answer the query. Please be brief, concise, and complete.\\n&quot;
+    &quot;If the context information does not contain an answer to the query, &quot;
+    &quot;respond with \\&quot;No information\\&quot;.&quot;
+    &quot;Query: {query_str}\\n&quot;
+    &quot;Answer: &quot;
+)
+qa_prompt = PromptTemplate(qa_prompt_tmpl)
+</code></pre><p>Then, we assemble the query engine using the prompt.</p><p>The key parameter to look at here is <code>similarity_top_k=2</code> in <code>VectorIndexRetriever</code>. This tells the RAG system to put only the best two search matches into the context sent to the LLM.</p><p>We can set this to a larger value if we&#x2019;re confident it will fit into the input context size of the LLM, so this factor is partly model-dependent and partly data-dependent.</p><pre><code class="language-Python">from llama_index.retrievers import VectorIndexRetriever
+from llama_index.query_engine import RetrieverQueryEngine
+from llama_index import get_response_synthesizer
+
+# configure retriever
+retriever = VectorIndexRetriever(
+    index=index,
+    similarity_top_k=2,
+)
+
+# configure response synthesizer
+response_synthesizer = get_response_synthesizer(
+    service_context=service_context,
+    text_qa_template=qa_prompt,
+    response_mode=&quot;compact&quot;,
+)
+
+# assemble query engine
+query_engine = RetrieverQueryEngine(
+    retriever=retriever,
+    response_synthesizer=response_synthesizer,
+)
+</code></pre><h2 id="asking-the-rag-engine-questions">Asking the RAG Engine Questions</h2><p>Now you can ask questions and receive answers based on the text.</p><pre><code class="language-Python">result = query_engine.query(&quot;How is a computer useful on a farm?&quot;)
+print(result.response)
+</code></pre><p>Result:</p><pre><code class="language-Text">A computer can be useful on a farm by supplementing the calculator,
+typewriter, and file cabinet. It can help with repetitive analyses, 
+data storage, and management decisions. It can also send and receive 
+written or graphic messages by telephone. Additionally, a computer 
+program for a farm operation could make recordkeeping and analysis 
+easier and improve management abilities. However, the improvements 
+in efficiency and cost-effectiveness might be hard to measure in 
+dollars.
+</code></pre><p>You can ask questions that have an answer from the text that the LLM would never have produced on its own:</p><pre><code class="language-Python">result = query_engine.query(&quot;How much memory does a computer need?&quot;)
+print(result.response)
+</code></pre><p>Result:</p><pre><code class="language-Text">48K or 64K of memory is needed for most agricultural programs. The 
+amount of memory needed depends on the software program and 
+recordkeeping requirements.
+</code></pre><p>And you can ask questions that have no answer in the text:</p><pre><code class="language-Python">result = query_engine.query(&quot;Who is buried in Grant&apos;s tomb?&quot;)
+print(result.response)
+</code></pre><p>Result:</p><pre><code class="language-Text">No information. The context information does not provide any details 
+about Grant&apos;s tomb.
+</code></pre><h2 id="checking-the-rag-retrieval">Checking the RAG Retrieval</h2><p>You may want to check to see what texts were retrieved for a specific query. For example:</p><pre><code class="language-Python">result = query_engine.query(&quot;What is the address of AgriData Resources?&quot;)
+print(result.response)
+</code></pre><p>Result:</p><pre><code>205 West Highland Ave. Milwaukee, WI 53203
+</code></pre><p>To check the retrieval phase, we have to use the retriever object we created above:</p><pre><code class="language-Python">retriever = VectorIndexRetriever(
+    index=index,
+    similarity_top_k=2,
+)
+</code></pre><p>You can rerun the retrieval and then inspect the documents:</p><pre><code class="language-Python">retrieved_texts = retriever.retrieve(&quot;What is the address of AgriData Resources?&quot;)
+for i, rt in enumerate(retrieved_texts):
+  print(f&quot;Text {i+1}:\\n\\n{rt.text}\\n\\n&quot;)
+</code></pre><p>Result:</p><pre><code class="language-Text">Text 1:
+
+3. AgriData Network
+
+AgriData is a private information and computing network specializing in
+agriculture. It offers immediate access to more than 10,000 pages of
+continuously updated business, financial, marketing, weather, and price
+information, as well as analyses and recommendations from its own and
+other reporters, analysts, economists, meteorologists, and researchers.
+It offers several different services, including an online computing
+service that allows users to access a library of microcomputer software
+programs that can be transferred to the user&apos;s microcomputer; an
+agricultural production technology service offering data bases from 40
+land-grant universities and from agricultural, chemical, fertilizer,
+equipment, seed, and feed companies; an &quot;electronic yellow pages,&quot; or
+product service directory for farmers; and electronic mail.
+  ADDRESS: AgriData Resources, Inc.
+           205 West Highland Ave.
+           Milwaukee, WI 53203
+
+Text 2:
+
+2. AGRICOIA
+
+AGRICOIA is an online information service produced by the National
+Agricultural Library (NAD of USDA), and is available commercially from
+a number of sources (including DIALOG and Bibliographic Retrieval
+Services). It provides comprehensive access to information on published
+literature pertaining to agriculture.
+AGRICOIA is the catalog and index for NAL and covers materials
+published since 1970. It includes about 1.5 million citations.
+AGRICOIA contains citations to worldwide published books, serial
+titles, and journal articles on agriculture and related subjects. In
+addition to bibliographic citations of published literature, the system
+offers information through several specialized subfiles; these subfiles
+include brucellosis (BRU), environmental impact statements covering
+1977 and 1978 (ENV), and the Food and Nutrition Information Center,
+which emphasizes human nutrition research and education and food
+technology (FNC).
+Librarians are the main users of this system.
+  ADDRESS: To find out more about AGRICOIA, contact:
+           Educational Resources Staff
+           National Agricultural Library
+           Room 1402
+           Beltsville, MD 20705
+</code></pre><h2 id="making-rag-work-for-you">Making RAG Work For You</h2><p>With Jina Embeddings, LlamaIndex, and Mixtral LLM, you can make your own RAG system that can answer questions about long documents, respond to requests based on a manual or FAQ, or just behave in funny or useful ways, based on a large document context.</p><p>And you can do all this without complex AI operations engineering or even training your models.</p><p>Jina AI is committed to helping you make the most of emerging AI technology. In our coming articles, we delve deep into the practical issues of using embedding models, like discussing ways of chucking documents for use in RAG and search applications. We will also have more integration tutorials and practical advice for text pre-processing and data curation.</p><p>Learn more from the <a href="https://jina.ai/embeddings/?ref=jina-ai-gmbh.ghost.io">Jina Embeddings</a> and <a href="https://www.llamaindex.ai/?ref=jina-ai-gmbh.ghost.io">LlamaIndex</a> websites, or reach out to us at <a href="mailto:contact@jina.ai">contact@jina.ai</a> to discuss how Jina AI&#x2019;s experience can help your business.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://jina.ai/embeddings/?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Embedding API</div><div class="kg-bookmark-description">Top-performing, 8192-token length, $100 for 1.25B tokens, seamless OpenAI alternative, free trial</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://jina.ai/icons/favicon-128x128.png" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex"></div></div><div class="kg-bookmark-thumbnail"><img src="https://jina.ai/banner-embedding-api.png" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex"></div></a></figure><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://www.llamaindex.ai/?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">LlamaIndex - Data Framework for LLM Applications</div><div class="kg-bookmark-description">LlamaIndex is a simple, flexible data framework for connecting custom data sources to large language models (LLMs).</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://assets-global.website-files.com/6459a0e3f348e9e898b7df80/645ad8c999ba34bf0713622b_LlamaBrowserTab.png" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex"><span class="kg-bookmark-author">Data Framework for LLM Applications</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://assets-global.website-files.com/6459a0e3f348e9e898b7df80/6462e6a26afc95b84a8db9dc_LlamaLogo%20White.png" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex"></div></a></figure><p>For more information about Jina AI&#x2019;s offerings, check out the&#xA0;<a href="https://jina.ai/?ref=jina-ai-gmbh.ghost.io" rel="noopener noreferrer">Jina AI website</a>&#xA0;or join our&#xA0;<a href="https://discord.jina.ai/?ref=jina-ai-gmbh.ghost.io" rel="noopener noreferrer">community on Discord</a>.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://jina.ai/?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Jina AI - Your Portal to Multimodal AI</div><div class="kg-bookmark-description">Jina AI offers powerful multimodal AI solutions for everyday users, developers, and scalable enterprise solutions. We aim to democratize access to the limitless potential of AI-generated creativity and innovation, empowering individuals and businesses alike.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://jina.ai/icons/favicon-128x128.png" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex"><span class="kg-bookmark-author">Your Portal to Multimodal AI</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://jina.ai/banner.png" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex"></div></a></figure><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://discord.jina.ai/?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Join the Jina AI Discord Server!</div><div class="kg-bookmark-description">Check out the Jina AI community on Discord - hang out with 4012 other members and enjoy free voice and text chat.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://discord.jina.ai/assets/images/favicon.ico" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex"><span class="kg-bookmark-author">Discord</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://cdn.discordapp.com/splashes/1106542220112302130/80f2c2128aefeb55209a5bdb2130bb92.jpg?size=512" alt="Full-stack RAG with Jina Embeddings v2 and LlamaIndex"></div></a></figure>]]></content:encoded></item><item><title><![CDATA[A Magic Carpet Ride: Building Vivid Product Stories with SceneXplain]]></title><description><![CDATA[See how companies are integrating SceneXplain with their existing infrastructure to power their product descriptions and storytelling]]></description><link>https://jina.ai/news/a-magic-carpet-ride-building-vivid-product-stories-with-scenexplain/</link><guid isPermaLink="false">658198e20bab3100012d2999</guid><category><![CDATA[Tech Blog]]></category><dc:creator><![CDATA[Lisa Li]]></dc:creator><pubDate>Thu, 21 Dec 2023 15:00:26 GMT</pubDate><media:content url="https://jina-ai-gmbh.ghost.io/content/images/2023/12/Frame-1.jpg" medium="image"/><content:encoded><![CDATA[<img src="https://jina-ai-gmbh.ghost.io/content/images/2023/12/Frame-1.jpg" alt="A Magic Carpet Ride: Building Vivid Product Stories with SceneXplain"><p>We recently wrote about SceneXplain&apos;s new <a href="https://www.notion.so/A-Magic-Carpet-Ride-Building-Vivid-Product-Stories-with-SceneXplain-7a07a53a3ffa48b083d9abe9c3c1c3af?pvs=21&amp;ref=jina-ai-gmbh.ghost.io">JSON Schema Store</a>, which lets you use predefined JSON schemas to extract information from images in a structured format. In this post, we&apos;re going to see how that&apos;s used by our partner, <a href="http://www.akia.cn/eindex.asp?ref=jina-ai-gmbh.ghost.io">AKIA Carpet &amp; Rugs</a>, for building up an AI-powered product stories generation bot to empower sales.</p><p>In our prior examples, we&apos;ve primarily used either cURL or Python to access <a href="https://www.notion.so/A-Magic-Carpet-Ride-Building-Vivid-Product-Stories-with-SceneXplain-7a07a53a3ffa48b083d9abe9c3c1c3af?pvs=21&amp;ref=jina-ai-gmbh.ghost.io">SceneXplain&apos;s API</a>. But in this post, we&apos;re switching things up a bit by using JavaScript.</p><h2 id="about-akia-carpet-rugs">About AKIA Carpet &amp; Rugs</h2><p>In July 2008, Gary Chen founded AKIA Carpet &amp; Rugs, which is now marking its 15th year of operation. The team, initially inspired by traditional Asian craftsmanship, has been dedicated to developing contemporary aesthetic styles. AKIA has grown into a brand known for its unique fusion of modern art with traditional design and weaving techniques.</p><p>As a carpet manufacturer, AKIA specializes in a range of products including mid-to-high-end decorative carpets, tapestries, and carpets for specific projects. The company integrates design, research, production, and sales, both domestically and internationally. Known for innovative design and high-quality products, AKIA has earned a solid reputation in China&apos;s high-end carpet market.</p><h2 id="crafting-a-winning-product-story-with-scenexplain"><strong>Crafting a Winning Product Story with SceneXplain</strong></h2><p>AKIA Carpet &amp; Rugs primarily caters to the mid-to-high-end market, focusing on the aesthetic appeal of their products. Their clientele often looks for carpets that not only complement their home design but also express their unique taste. Recognizing this, AKIA collaborates with skilled designers to create a diverse range of styles, resulting in an extensive collection of carpet designs and images. The challenge lies in effectively communicating the artistic value of these designs to discerning customers, a crucial factor in attracting clients.</p><p>Previously, crafting compelling narratives for a large array of product images, akin to artworks, was a daunting task. This required copywriters who were not only skilled in writing but also knowledgeable in design and art. Additionally, the need to swiftly identify the perfect product image from an extensive collection to meet specific customer preferences was a significant challenge. Traditional image labeling methods, focusing on basic attributes like color, shape, and material, proved insufficient for customers who often describe their needs in more abstract terms.</p><p>SceneXplain offers a dual solution to these challenges. Its approach is based on narration rather than mere description, aiming to weave engaging stories around images. This aligns with SceneXplain&apos;s core philosophy: storytelling brings images to life. By providing stories that resonate with the artistic nature of AKIA&apos;s products, SceneXplain addresses their need for an intuitive, aesthetically aligned way of presenting their carpets.</p><figure class="kg-card kg-image-card"><img src="https://jina-ai-gmbh.ghost.io/content/images/2023/12/Screenshot-2023-12-19-at-6.47.11-PM.png" class="kg-image" alt="A Magic Carpet Ride: Building Vivid Product Stories with SceneXplain" loading="lazy" width="2000" height="1183" srcset="https://jina-ai-gmbh.ghost.io/content/images/size/w600/2023/12/Screenshot-2023-12-19-at-6.47.11-PM.png 600w, https://jina-ai-gmbh.ghost.io/content/images/size/w1000/2023/12/Screenshot-2023-12-19-at-6.47.11-PM.png 1000w, https://jina-ai-gmbh.ghost.io/content/images/size/w1600/2023/12/Screenshot-2023-12-19-at-6.47.11-PM.png 1600w, https://jina-ai-gmbh.ghost.io/content/images/size/w2400/2023/12/Screenshot-2023-12-19-at-6.47.11-PM.png 2400w" sizes="(min-width: 720px) 720px"></figure><blockquote>&quot;Embrace Yourself&quot; is a piece of art in the form of a carpet, exuding minimalist charm and contemporary simplicity. This piece features the elegant, abstract depiction of a round, white figure at its center&#x2014;an embodiment of purity and serenity. With meticulously crafted black outlines that grace the soothing white background, this carpet tells a subtle but impactful visual story. Each line is placed with thoughtful precision, evoking emotions and depth without cluttering the visual space. The characteristic round head of the figure in the design adds a touch of futuristic whimsy, creating a space for imagination to soar. The light gray tones and stark white spaces between the lines further enhance the abstract quality, offering a calm and peaceful atmosphere to any room. Whether adorning a modern living area or a chic office space, &quot;Embrace Yourself&quot; promises to be more than just a carpet&#x2014;it is a promise of self-discovery and a celebration of space and form. Its simplicity and abstraction are not just visually appealing but are crafted to engage the observer in an almost meditative contemplation.</blockquote><figure class="kg-card kg-image-card"><img src="https://jina-ai-gmbh.ghost.io/content/images/2023/12/Screenshot-2023-12-19-at-7.18.18-PM.png" class="kg-image" alt="A Magic Carpet Ride: Building Vivid Product Stories with SceneXplain" loading="lazy" width="2000" height="1189" srcset="https://jina-ai-gmbh.ghost.io/content/images/size/w600/2023/12/Screenshot-2023-12-19-at-7.18.18-PM.png 600w, https://jina-ai-gmbh.ghost.io/content/images/size/w1000/2023/12/Screenshot-2023-12-19-at-7.18.18-PM.png 1000w, https://jina-ai-gmbh.ghost.io/content/images/size/w1600/2023/12/Screenshot-2023-12-19-at-7.18.18-PM.png 1600w, https://jina-ai-gmbh.ghost.io/content/images/size/w2400/2023/12/Screenshot-2023-12-19-at-7.18.18-PM.png 2400w" sizes="(min-width: 720px) 720px"></figure><blockquote>&quot;Dancer&quot; is an evocative piece of home decor where color and geometry resonate to a rhythm of their own. Adorning a rich navy blue background, this carpet features a dynamic composition of blue and orange lines and squares that glide across the fabric, suggesting movement and energy, much like a dancer in the spotlight. The striking orange lines dance diagonally, connecting a series of crisp white squares, which are themselves accented with black detailing, reminiscent of precise footwork on a dance stage. Unequivocally modern, &quot;Dancer&quot; employs the contrast of deep blues with vibrant oranges and whites to create an abstract visual narrative that is open to interpretation, yet commands attention. Each element on &quot;Dancer&quot; is painstakingly arranged to bring a sense of balance and fluidity, paralleling a choreographed performance that tells a story with every twist and turn. The pattern encourages the eye to leap and land much like a viewer watching an enthralling solo dance performance, making &quot;Dancer&quot; not just a carpet, but a conversation piece that captivates and inspires.</blockquote><h2 id="product-story-generation-a-holistic-solution">Product story generation: A holistic solution</h2><p>In AKIA&#x2019;s use case, their product manager wants to automatically create stories for all their products. The stories should use some high-quality examples as a guide, which contain aesthetic explanations. Their specific needs are:</p><ul><li>Textual descriptions of their products</li><li>Stories for each product that follow the examples they provide</li><li>Batch processing of images triggered by the chat channel</li></ul><p>Based on these requirements, visual question answering (VQA) is the best fit, because:</p><ul><li>Visual question answering outputs textual descriptions.</li><li>In the question, you can also provide a prompt in a specific format on demand.</li><li>You can inject your own examples into the prompt to guide the model&#x2019;s output.</li><li>Once you have the prompt&#x2019;s basic structure, you can convert it to a template with variables that can be automatically populated each time you use it.</li></ul><p>SceneXplain&#x2019;s API provides a wide range of options for configuring your request, including image captioning, alt-text generation, visual question answering, JSON output, and more.</p><p>Several fields are required to execute a VQA task via the API:</p><ul><li>API endpoint: <code>https://api.scenex.jina.ai/v1/describe</code></li><li>API key: <code>&apos;x-api-key&apos;: token ${YOUR_API_KEY}</code>. You can generate and manage your API key on our <a href="https://scenex.jina.ai/api?ref=jina-ai-gmbh.ghost.io">API page</a>.</li><li>Request payload, which is your task configuration, providing the image you want to process, setting <code>question_answer</code> in the <code>features</code> property, and setting your prompt in the <code>question</code> property.</li></ul><p>Here&#x2019;s a code snippet for such an API call in JavaScript:</p><pre><code class="language-jsx">const body = {
   &quot;data&quot;: [
     {
 			&quot;image&quot;: &quot;The image you want to process, it can be a base64 string or a URL&quot;,
@@ -359,300 +591,4 @@ When running a Deployment with H&#x2026;</div><div class="kg-bookmark-metadata">
     with d:
         response = requests.get(f&apos;http://localhost:8080/hello&apos;)
         assert response.status_code == 200
-        assert response.json() == {&apos;msg&apos;: &apos;hello world&apos;}</code></pre><h2 id="%F0%9F%90%9E-bug-fixes">&#x1F41E; Bug Fixes</h2><h3 id="read-csv-with-escaped-chars-6102">Read CSV with escaped chars (<a href="https://github.com/jina-ai/jina/pull/6102?ref=jina-ai-gmbh.ghost.io">#6102</a>)</h3><p>There was an issue when using Jina to do batch transformations on SageMaker. Parsing texts with escape characters was not working properly.</p><h2 id="%F0%9F%A4%9F-contributors">&#x1F91F; Contributors</h2><p>We would like to thank all contributors to this release:</p><ul><li>Joan Fontanals Martinez (<a href="https://github.com/JoanFM?ref=jina-ai-gmbh.ghost.io">@JoanFM</a>)</li><li>Deepankar Mahapatro (<a href="https://github.com/deepankarm?ref=jina-ai-gmbh.ghost.io">@deepankarm</a>)</li></ul>]]></content:encoded></item><item><title><![CDATA[SceneXplain's OCR beats GPT-4V hands down: Chinese, Japanese, Korean, Arabic, Hindi, and more!]]></title><description><![CDATA[SceneXplain beats GPT-4V by going beyond English, offering multilingual OCR for Chinese, Japanese, Korean, Arabic, Hindi and more]]></description><link>https://jina.ai/news/scenexplains-ocr-beats-gpt-4v-hands-down-chinese-japanese-korean-arabic-hindi-and-more/</link><guid isPermaLink="false">65537bd2c2c1f30001ea4816</guid><category><![CDATA[Tech Blog]]></category><dc:creator><![CDATA[Alex C-G]]></dc:creator><pubDate>Thu, 16 Nov 2023 15:00:20 GMT</pubDate><media:content url="https://jina-ai-gmbh.ghost.io/content/images/2023/11/sensex--3-.jpg" medium="image"/><content:encoded><![CDATA[<img src="https://jina-ai-gmbh.ghost.io/content/images/2023/11/sensex--3-.jpg" alt="SceneXplain&apos;s OCR beats GPT-4V hands down: Chinese, Japanese, Korean, Arabic, Hindi, and more!"><p>There&apos;s been a lot of noise recently about the release of GPT-4V - a model that can analyze the content of images and summarize that into human language. Sound familiar? It may, because SceneXplain has been doing just that for months already!</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://scenex.jina.ai/?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">SceneXplain - Leading AI Solution for Image Captions and Video Summaries</div><div class="kg-bookmark-description">Experience cutting-edge computer vision with our premier image captioning and video summarization algorithms. Tailored for content creators, media professionals, SEO experts, and e-commerce enterprises. Featuring multilingual support and seamless API integration. Elevate your digital presence today.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://scenex.jina.ai/icons/apple-icon-180x180.png" alt="SceneXplain&apos;s OCR beats GPT-4V hands down: Chinese, Japanese, Korean, Arabic, Hindi, and more!"><span class="kg-bookmark-author">SceneXplain</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://scenex.jina.ai/banner.png" alt="SceneXplain&apos;s OCR beats GPT-4V hands down: Chinese, Japanese, Korean, Arabic, Hindi, and more!"></div></a></figure><p>But just because you take an early lead doesn&apos;t mean you win the race. We&apos;ve got to show how we&apos;re better, right? Well, we&apos;ve already done that in <a href="https://jina.ai/news/scenexplain-vs-gpt-4-vision-the-best-image-captioning-tool-in-2023/?ref=jina-ai-gmbh.ghost.io">this post</a>:</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://jina.ai/news/scenexplain-vs-gpt-4-vision-the-best-image-captioning-tool-in-2023/?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">SceneXplain vs. GPT-4 Vision: The Best Image Captioning Tool in 2023?</div><div class="kg-bookmark-description">Discover the future of visual comprehension with SceneXplain, the leading image captioning tool of 2023. Dive deep into its transformative features, real-world applications, and see how it stands tall against GPT-4 Vision.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://jina.ai/icons/favicon-128x128.png" alt="SceneXplain&apos;s OCR beats GPT-4V hands down: Chinese, Japanese, Korean, Arabic, Hindi, and more!"><span class="kg-bookmark-publisher">SceneXplain</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://jina-ai-gmbh.ghost.io/content/images/2023/09/Explore-image-storytelling-beyond-pixels--9-.png" alt="SceneXplain&apos;s OCR beats GPT-4V hands down: Chinese, Japanese, Korean, Arabic, Hindi, and more!"></div></a></figure><p>But in this post, we&apos;ll go one further and show you how we excel at OCR for multilingual texts. In short, <strong>SceneXplain is more accurate, reliable, consistent, complete, and cost-effective than GPT-4V</strong>. Also, it doesn&#x2019;t have any pesky daily request limits.</p><p>You might think GPT-4V is pretty decent if you&#x2019;re a user of Latin-character languages. Since you&#x2019;re reading this (I assume in English), that means you!</p><p>Indeed, GPT-4V does okay when it comes to recognizing English, French, Spanish, and so on, as you can see from these blog posts and studies:</p><ul><li><a href="https://blog.roboflow.com/gpt-4-vision/?ref=jina-ai-gmbh.ghost.io">First Impressions with GPT-4V(ision)</a></li><li><a href="https://arxiv.org/abs/2310.16809?ref=jina-ai-gmbh.ghost.io">Exploring OCR Capabilities of GPT-4V(ision) : A Quantitative and In-depth Evaluation</a></li></ul><p>But, as mentioned in the study:</p><blockquote class="kg-blockquote-alt">There is a substantial accuracy disparity between the recognition of English and Chinese text. As shown in Table 1, the performance of English text recognition is commendable. Conversely, the accuracy of Chinese text recognition is zero (ReCTS). We speculate that this may be due to the lack of Chinese scene text images as training data in GPT-4V.</blockquote><p>Bad news - it&apos;s not just Chinese where GPT-4V falls down. It consistently fails on non-Latin texts.</p><p>That&apos;s where SceneXplain comes in. We go way beyond just recognizing Latin characters - we can do Chinese, Japanese, Korean, Arabic, Hindi, and potentially more (at this point we ran out of languages that people speak (or recognize) at Jina AI.)</p><h2 id="tldr-how-does-gpt-4v-fail-compared-to-scenexplain">TL;DR: How does GPT-4V fail compared to SceneXplain?</h2><p>In short:</p><ul><li><strong>API limits:</strong> 100 requests a day is the new &#x201C;<a href="https://quoteinvestigator.com/2011/09/08/640k-enough/?ref=jina-ai-gmbh.ghost.io">640K ought to be enough for anybody</a>&#x201D;. SceneXplain has a <a href="https://scenex.jina.ai/?ref=jina-ai-gmbh.ghost.io#pricing">range of plans</a> to suit your needs.</li><li><strong>Reliability:</strong> Sometimes, GPT-4V will follow a command to extract the text strings. But if you ask again in exactly the same way, it may say it can&#x2019;t do it. SceneXplain gets it done right every time.</li><li><strong>Accuracy:</strong> GPT-4V will often extract strings that are <strong>plausible</strong> for a given image, but not the <strong>actual</strong> strings. For example, if you give it a Chinese menu, it will hallucinate Chinese dish names. <a href="https://jina.ai/news/are-you-ready-for-this-jelly-scenexplains-new-algo-kills-hallucinations-dead/?utm_source=PromptPerfect+Newsletter&amp;utm_campaign=ce1beac0b3-EMAIL_CAMPAIGN_2023_09_29_10_25_COPY_02&amp;utm_medium=email&amp;utm_term=0_fada173e11-6efedfdbc3-%5BLIST_EMAIL_ID%5D">SceneXplain pretty much cured hallucinations in its Jelly algorithm</a>.</li><li><strong>Consistency:</strong> GPT-4V doesn&#x2019;t just hallucinate. It hallucinates different things each time. SceneXplain is generally consistent.</li><li><strong>Completeness:</strong> GPT-4V doesn&#x2019;t always extract <strong><em>all</em></strong> the strings in the image. SceneXplain is more comprehensive.</li><li><strong>Cost:</strong> SceneXplain is up to 50% more affordable.</li></ul><p>Let&#x2019;s dive into each point in more detail.</p><h3 id="api-limits">API limits</h3><p>Good luck with the GPT-4V API! In our extensive testing (even just to write this blog post), we rapidly and repeatedly hit request limits. An organization is limited to 100 requests per day, along with strict throttling. We would&apos;ve put this post out earlier if we hadn&apos;t easily overshot that multiple times.</p><figure class="kg-card kg-image-card kg-width-wide kg-card-hascaption"><img src="https://jina-ai-gmbh.ghost.io/content/images/2023/11/image-29.png" class="kg-image" alt="SceneXplain&apos;s OCR beats GPT-4V hands down: Chinese, Japanese, Korean, Arabic, Hindi, and more!" loading="lazy" width="1435" height="71" srcset="https://jina-ai-gmbh.ghost.io/content/images/size/w600/2023/11/image-29.png 600w, https://jina-ai-gmbh.ghost.io/content/images/size/w1000/2023/11/image-29.png 1000w, https://jina-ai-gmbh.ghost.io/content/images/2023/11/image-29.png 1435w" sizes="(min-width: 1200px) 1200px"><figcaption><span style="white-space: pre-wrap;">Hello </span><code spellcheck="false" style="white-space: pre-wrap;"><span>RateLimitError</span></code><span style="white-space: pre-wrap;">, my old friend.</span></figcaption></figure><h3 id="reliability">Reliability</h3><p>If you do try to extract strings via the web interface, results can be unpredictable. It can handle English well enough:</p><figure class="kg-card kg-image-card"><img src="https://jina-ai-gmbh.ghost.io/content/images/2023/11/qt1pq58r827iyyvugjfr.png" class="kg-image" alt="SceneXplain&apos;s OCR beats GPT-4V hands down: Chinese, Japanese, Korean, Arabic, Hindi, and more!" loading="lazy" width="1200" height="675" srcset="https://jina-ai-gmbh.ghost.io/content/images/size/w600/2023/11/qt1pq58r827iyyvugjfr.png 600w, https://jina-ai-gmbh.ghost.io/content/images/size/w1000/2023/11/qt1pq58r827iyyvugjfr.png 1000w, https://jina-ai-gmbh.ghost.io/content/images/2023/11/qt1pq58r827iyyvugjfr.png 1200w" sizes="(min-width: 720px) 720px"></figure><p>We can extract the strings as JSON by using the prompt:</p><pre><code class="language-text">Extract the text strings from this image and populate a JSON that follows this schema:
-
-{
-  &quot;type&quot;: &quot;object&quot;,
-  &quot;properties&quot;: {
-    &quot;text_strings&quot;: {
-      &quot;type&quot;: &quot;array&quot;,
-      &quot;description&quot;: &quot;Every text string contained in the image. Consider all languages&quot;
-    }
-  }
-}
-
-Return just the output JSON. Do not put it in a code block
-</code></pre><p>Note how specific we had to be in this prompt, explaining that we just wanted raw JSON back, not including comments like &#x201C;Here is your JSON&#x201D; and then a back-ticked code block. There is still no guarantee that such a method is watertight. It may sometimes return extraneous content.</p><p>It returns this output:</p><pre><code class="language-json">{
-&quot;text_strings&quot;: [
-&quot;YOU CAN&apos;T RUN&quot;,
-&quot;FROM US FOREVER&quot;,
-&quot;m&quot;
-]
-}
-</code></pre><p>I would&#x2019;ve preferred some prettier, indented output. But it looks like valid JSON and accurate output. For reference, SceneXplain returns:</p><figure class="kg-card kg-code-card"><pre><code class="language-json">{
-  &quot;text_strings&quot;: [
-    &quot;YOU CAN&apos;T RUN&quot;,
-    &quot;FROM US FOREVER&quot;,
-    &quot;M&quot;
-  ]
-}</code></pre><figcaption><p><span style="white-space: pre-wrap;">Ah, those sweet sweet indents</span></p></figcaption></figure><p>Now let&#x2019;s try asking in natural language about a Chinese ad:</p><figure class="kg-card kg-image-card"><img src="https://jina-ai-gmbh.ghost.io/content/images/2023/11/McDonald-EN-CHINE.jpeg" class="kg-image" alt="SceneXplain&apos;s OCR beats GPT-4V hands down: Chinese, Japanese, Korean, Arabic, Hindi, and more!" loading="lazy" width="1329" height="750" srcset="https://jina-ai-gmbh.ghost.io/content/images/size/w600/2023/11/McDonald-EN-CHINE.jpeg 600w, https://jina-ai-gmbh.ghost.io/content/images/size/w1000/2023/11/McDonald-EN-CHINE.jpeg 1000w, https://jina-ai-gmbh.ghost.io/content/images/2023/11/McDonald-EN-CHINE.jpeg 1329w" sizes="(min-width: 720px) 720px"></figure><p>If we use the prompt: <code>Extract the text strings from this image</code>, GPT-4V gives us:</p><pre><code class="language-text">It seems there was an error while attempting to extract the text from the image using OCR. The error message indicates a problem with the Tesseract OCR data files for the Chinese simplified language. The necessary language files may not be installed in the environment where the OCR operation was attempted.
-
-Given this issue, I&apos;m unable to extract the text from the image as requested. If there&apos;s anything else you would like me to assist you with, please let me know!
-</code></pre><p>That&#x2019;s&#x2026;not useful. <strong><em>However</em></strong>, asking it to extract it as JSON (by using the above prompt with schema) works:</p><pre><code class="language-json">{
-&quot;text_strings&quot;: [
-&quot;&#x9EA6;&#x5F53;&#x52B3;&quot;,
-&quot;&#x4E00;&#x5468;&#x4E03;&#x5929;&quot;,
-&quot;&#x65E9;&#x6668;&#x56DB;&#x70B9;&quot;,
-&quot;&#x81F3;&quot;,
-&quot;17:00 &#x65F6;&#x6BB5;&quot;,
-&quot;&#x5468;&#x672B;&#x65E9;&#x9910; &#x5EF6;&#x65F6;&quot;,
-&quot;&#x66F4;&#x591A;&#x60CA;&#x559C;&quot;,
-&quot;&#x5C3D;&#x5728;&#x9EA6;&#x5F53;&#x52B3;APP&quot;
-]
-}
-</code></pre><p>Why can it do the job if we specify we want JSON output, but it just shrugs helplessly if we ask in plain English? Who knows.</p><h3 id="accuracy">Accuracy</h3><p>Take another look at that JSON output. Then, take a look at the ad.</p><p>At first glance, the JSON looks decent. It&#x2019;s got the <code>17:00</code> and other details. But take a closer look. None of those text strings appear in the image. They look like the kind of strings that <em>could</em> occur in a Chinese McDonald&apos;s ad, but none of them are actually in that particular ad.</p><p>This can be even more dangerous than being wrong - enough people are already worried about <a href="https://futurism.com/artificial-intelligence-automated-mansplaining-machine?ref=jina-ai-gmbh.ghost.io">GPT mansplaining</a> - i.e., being confident but wrong. We see the same story when it comes to non-Latin text too.</p><p>Also, why does it suddenly think it can extract the text when it stated before that it couldn&#x2019;t?</p><p>For reference, SceneXplain returns:</p><pre><code class="language-json">{
-  &quot;text_strings&quot;: [
-    &quot;&#x9EA6;&#x9EA6;&#x591C;&#x5E02;&quot;,
-    &quot;&#x51FA;&#x795E;&#x5364;&#x5473;&#x9E21;&#x67B6;&quot;,
-    &quot;&#x9752;&#x82B1;&#x6912;&#x62CC;&#x9E21;&quot;,
-    &quot;&#x9752;&#x82B1;&#x6912;&#x9178;&#x8FA3;&#x9E21;&quot;,
-    &quot;&#x9752;&#x82B1;&#x6912;&#x534A;&#x9E21;&quot;,
-    &quot;&#x9EA6;&#x9EA6;&#x591C;&#x5E02;&#x5C0F;&#x5821;&quot;,
-    &quot;&#x6697;&#x7CD6;&#x5E26;&#x52B2;&#x5821;&quot;,
-    &quot;&#x552F;&#x9187;&#x5E26;&#x52B2;&#x5821;&quot;,
-    &quot;&#x83B1;&#x83B1;&#x771F;&#x9999;&#x5821;&quot;,
-    &quot;17:00&#x8425;&#x591C;&quot;,
-    &quot;&#x54C7;&#x85D5;&#x5E26;&#x52B2;&#x5821;&quot;
-  ]
-}
-</code></pre><p>If you compare the strings, you&#x2019;ll see SceneXplain is much more accurate and hallucinates less.</p><h3 id="consistency">Consistency</h3><p>Coming back to our old friend, the Chinese McDonald&#x2019;s ad, what if we start a new chat session and re-submit the exact same image and prompt? Here&apos;s what we get:</p><pre><code>{
-&quot;type&quot;: &quot;object&quot;,
-&quot;properties&quot;: {
-&quot;text_strings&quot;: [
-&quot;&#x9EA6;&#x8FA3;&#x9E21;&#x7FC5;&quot;,
-&quot;&#x5821;&#x5821;&#x53CC;&#x62FC; &#x7B49;&#x4F60;&#x6765;&#x64A9;&quot;,
-&quot;&#x4E00;&#x4EBA;&#x98DF;&#x597D;&#x798F;&#x5229;&quot;,
-&quot;17:00&#x524D;&#x6765;&quot;,
-&quot;&#x9EA6;&#x5F53;&#x52B3;&quot;,
-&quot;&#x5C0A;&#x4EAB;&#x8F6F;&#x6B27;&#x5305;&quot;,
-&quot;&#x5468;&#x8FB9;&#x597D;&#x8D27; &#x7B49;&#x4F60;&quot;,
-&quot;&#x5C0A;&#x4EAB;&#x8F6F;&#x6B27;&#x5305;&quot;
-]
-}
-}
-</code></pre><p>Well dang. Not only is the text entirely different, but it&#x2019;s also sent us JSON in a completely different format, something like the <strong>schema</strong> we sent, rather than the <em>output format</em> that the schema defines.</p><h3 id="completeness">Completeness</h3><p>If we try to extract text from this Arabic coffee ad, GPT-4V gives us far fewer strings than SceneXplain does:</p><figure class="kg-card kg-image-card"><img src="https://jina-ai-gmbh.ghost.io/content/images/2023/11/d46l5mu-22863ee5-ff85-4f18-ac95-2a76e16e9f77.jpg" class="kg-image" alt="SceneXplain&apos;s OCR beats GPT-4V hands down: Chinese, Japanese, Korean, Arabic, Hindi, and more!" loading="lazy" width="624" height="808" srcset="https://jina-ai-gmbh.ghost.io/content/images/size/w600/2023/11/d46l5mu-22863ee5-ff85-4f18-ac95-2a76e16e9f77.jpg 600w, https://jina-ai-gmbh.ghost.io/content/images/2023/11/d46l5mu-22863ee5-ff85-4f18-ac95-2a76e16e9f77.jpg 624w"></figure><ul><li>GPT-4V:</li></ul><pre><code class="language-json">[
-&quot;&#x645;&#x639;&#x62A;&#x648;&#x642; MAATOUK&quot;,
-&quot;1960&quot;,
-&quot;&#x642;&#x647;&#x648;&#x629; &#x639;&#x631;&#x628;&#x64A;&#x629;&quot;,
-&quot;&#x62D;&#x628;&#x64A;&#x628;&#x629; &#x627;&#x644;&#x623;&#x635;&#x648;&#x644;&quot;,
-&quot;&#x62A;&#x642;&#x62F;&#x645;&#x629; &#x639;&#x631;&#x628;&#x64A;&#x629;&quot;,
-&quot;&#x623;&#x635;&#x627;&#x644;&#x629; &#x627;&#x645;&#x62A;&#x62F;&#x62A; &#x648;&#x633;&#x637;&#x648;&#x644;&#x629; &#x627;&#x644;&#x646;&#x636;&#x62C;&quot;
-]
-</code></pre><ul><li>SceneXplain:</li></ul><pre><code class="language-json">[
-    &quot;&#x645;&#x639;&#x62A;&#x648;&#x642;&quot;,
-    &quot;MAATOUK&quot;,
-    &quot;1 9 6 0&quot;,
-    &quot;&#x642;&#x647;&#x648;&#x629; &#x639;&#x631;&#x628;&#x64A;&#x629;&quot;,
-    &quot;&#x62D;&#x633;&#x628; &#x627;&#x644;&#x623;&#x635;&#x648;&#x644;&quot;,
-    &quot;&#x642;&#x647;&#x648;&#x629; &#x639;&#x631;&#x628;&#x64A;&#x629;&quot;,
-    &quot;&#x645;&#x639;&#x62A;&#x648;&#x642;&quot;,
-    &quot;mAATOUK&quot;,
-    &quot;&#x62A;&#x62D;&#x645;&#x64A;&#x635; &#x63A;&#x627;&#x645;&#x642;&quot;,
-    &quot;&#x628;&#x646; &#x645;&#x637;&#x62D;&#x648;&#x646; &#x661;&#x660;&#x660;&#x66A; &#x623;&#x631;&#x627;&#x628;&#x64A;&#x643;&#x627;&quot;,
-    &quot;&#x623;&#x635;&#x627;&#x644;&#x629; &#x627;&#x644;&#x645;&#x630;&#x627;&#x642; &#x648;&#x633;&#x647;&#x648;&#x644;&#x629; &#x627;&#x644;&#x62A;&#x62D;&#x636;&#x64A;&#x631;&quot;,
-    &quot;&#x644;&#x637;&#x627;&#x644;&#x645;&#x627; &#x627;&#x634;&#x62A;&#x647;&#x631; &#x627;&#x644;&#x639;&#x631;&#x628; &#x639;&#x628;&#x631; &#x645;&#x627;&#x636;&#x64A; &#x627;&#x644;&#x632;&#x645;&#x627;&#x646; &#x628;&#x62A;&#x62D;&#x636;&#x64A;&#x631; &#x627;&#x644;&#x642;&#x647;&#x648;&#x629; &#x627;&#x644;&#x639;&#x631;&#x628;&#x64A;&#x629; &#x641;&#x64A; &#x645;&#x646;&#x627;&#x632;&#x644;&#x647;&#x645;&#x60C; &#x648;&#x627;&#x644;&#x62A;&#x64A; &#x62A;&#x639;&#x62F; &#x645;&#x646; &#x623;&#x62D;&#x62F; &#x631;&#x645;&#x648;&#x632; &#x627;&#x644;&#x643;&#x631;&#x645; &#x648;&#x627;&#x644;&#x636;&#x64A;&#x627;&#x641;&#x629;&quot;,
-    &quot;&#x627;&#x644;&#x639;&#x631;&#x628;&#x64A;&#x629;. &#x645;&#x646; &#x647;&#x646;&#x627; &#x627;&#x646;&#x637;&#x644;&#x642;&#x62A; &#x645;&#x635;&#x627;&#x646;&#x639; &#x645;&#x639;&#x62A;&#x648;&#x642; &#x644;&#x62A;&#x642;&#x62F;&#x64A;&#x645; &#x627;&#x644;&#x642;&#x647;&#x648;&#x629; &#x627;&#x644;&#x639;&#x631;&#x628;&#x64A;&#x629; &#x627;&#x644;&#x633;&#x647;&#x644;&#x629; &#x627;&#x644;&#x62A;&#x62D;&#x636;&#x64A;&#x631; &#x630;&#x627;&#x62A; &#x627;&#x644;&#x631;&#x627;&#x626;&#x62D;&#x629; &#x627;&#x644;&#x645;&#x645;&#x64A;&#x632;&#x629; &#x648;&#x627;&#x644;&#x637;&#x639;&#x645; &#x627;&#x644;&#x623;&#x635;&#x64A;&#x644;.&quot;,
-    &quot;&#x627;&#x644;&#x642;&#x647;&#x648;&#x629; &#x627;&#x644;&#x639;&#x631;&#x628;&#x64A;&#x629; &#x645;&#x639;&#x62A;&#x648;&#x642; &#x661;&#x669;&#x666;&#x660;&#x60C; &#x642;&#x647;&#x648;&#x629; &#x639;&#x631;&#x628;&#x64A;&#x629; &#x62D;&#x633;&#x628; &#x627;&#x644;&#x623;&#x635;&#x648;&#x644;.&quot;
-  ]
-</code></pre><h3 id="cost">Cost</h3><p>At the time of writing, GPT-4V charges $0.025 per image. By choosing SceneXplain&#x2019;s MAX plan you pay less than half of that. You can find out more on our <a href="https://scenex.jina.ai/?ref=jina-ai-gmbh.ghost.io#pricing">pricing page</a>:</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://scenex.jina.ai/?ref=jina-ai-gmbh.ghost.io#pricing"><div class="kg-bookmark-content"><div class="kg-bookmark-title">SceneXplain - Leading AI Solution for Image Captions and Video Summaries</div><div class="kg-bookmark-description">Experience cutting-edge computer vision with our premier image captioning and video summarization algorithms. Tailored for content creators, media professionals, SEO experts, and e-commerce enterprises. Featuring multilingual support and seamless API integration. Elevate your digital presence today.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://scenex.jina.ai/icons/apple-icon-180x180.png" alt="SceneXplain&apos;s OCR beats GPT-4V hands down: Chinese, Japanese, Korean, Arabic, Hindi, and more!"><span class="kg-bookmark-author">SceneXplain</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://scenex.jina.ai/banner.png" alt="SceneXplain&apos;s OCR beats GPT-4V hands down: Chinese, Japanese, Korean, Arabic, Hindi, and more!"></div></a></figure><h2 id="head-to-head-gpt-4v-vs-scenexplain">Head to head: GPT-4V vs SceneXplain</h2><p>Let&#x2019;s put both services to the test and see who comes out on top.</p><div class="kg-card kg-callout-card kg-callout-card-blue"><div class="kg-callout-emoji">&#x1F4A1;</div><div class="kg-callout-text">See our <a href="https://colab.research.google.com/github/alexcg1/notebooks/blob/main/scenex/scenex-gpt4v?ref=jina-ai-gmbh.ghost.io">notebook</a> for the full range of testing and results.</div></div><h3 id="testing-methodology">Testing methodology</h3><p>We took a selection of images, some from <a href="http://pexels.com/?ref=jina-ai-gmbh.ghost.io">pexels.com</a> and some from searching Google Images for advertisements in the given languages:</p><ul><li>Chinese (we didn&apos;t differentiate between Simplified and Traditional)</li><li>Japanese</li><li>Korean</li><li>Arabic</li><li>Hindi</li></ul><p>We then used:</p><ul><li><a href="https://scenex.jina.ai/api?ref=jina-ai-gmbh.ghost.io">SceneXplain&apos;s API</a> (using the <a href="https://jina.ai/news/are-you-ready-for-this-jelly-scenexplains-new-algo-kills-hallucinations-dead?ref=jina-ai-gmbh.ghost.io">Jelly algorithm</a>)</li><li>A combination of the GPT-4V API and web frontend (since we quickly blasted through our API request limit)</li></ul><p>We ran several rounds of tests:</p><ul><li><strong>Basic image description:</strong> For SceneXplain, we just uploaded the image. For GPT-4V, we asked: <code>What is in the image?</code></li><li><strong>Visual question answering:</strong> We uploaded the image to both services and asked: <code>What does the text say in this image?</code></li><li><strong>JSON output:</strong> For SceneXplain, we simply used the <a href="https://jina.ai/news/scenexplains-image-json-extract-structured-data-images-precision?ref=jina-ai-gmbh.ghost.io">&quot;Extract JSON from image&quot;</a> feature and a predefined <a href="https://json-schema.org/?ref=jina-ai-gmbh.ghost.io">JSON Schema</a>.</li></ul><p>The JSON Schema was as follows:</p><pre><code class="language-json">{
-  &quot;type&quot;: &quot;object&quot;,
-  &quot;properties&quot;: {
-    &quot;text_strings&quot;: {
-      &quot;type&quot;: &quot;array&quot;,
-      &quot;description&quot;: &quot;Every text string contained in the image. Consider all languages&quot;
-    }
-  }
-}</code></pre><p>Since GPT-4V doesn&apos;t directly support JSON Schemas, we had to be a bit hacky and explain what we wanted to do as text:</p><pre><code class="language-text">Extract the text strings from this image and populate a JSON that follows this schema:
-
-&lt;JSON Schema from above&gt;
-
-Return just the output JSON. Do not put it in a code block&quot;</code></pre><p>The results below focus on the JSON outputs since those are (in our opinion) the most useful outputs for real-world usage.</p><div class="kg-card kg-callout-card kg-callout-card-blue"><div class="kg-callout-emoji">&#x1F4A1;</div><div class="kg-callout-text">To save space, we&#x2019;ve simplified the JSON output to include just the text strings, not the rest of the JSON structure.</div></div><h3 id="chinese">Chinese</h3><p>We&#x2019;ve already dived into the McDonald&#x2019;s ad above, so we&#x2019;ll just look at one more Chinese image:</p><figure class="kg-card kg-image-card"><img src="https://jina-ai-gmbh.ghost.io/content/images/2023/11/pexels-photo-2670327.jpeg" class="kg-image" alt="SceneXplain&apos;s OCR beats GPT-4V hands down: Chinese, Japanese, Korean, Arabic, Hindi, and more!" loading="lazy" width="2000" height="3000" srcset="https://jina-ai-gmbh.ghost.io/content/images/size/w600/2023/11/pexels-photo-2670327.jpeg 600w, https://jina-ai-gmbh.ghost.io/content/images/size/w1000/2023/11/pexels-photo-2670327.jpeg 1000w, https://jina-ai-gmbh.ghost.io/content/images/size/w1600/2023/11/pexels-photo-2670327.jpeg 1600w, https://jina-ai-gmbh.ghost.io/content/images/size/w2400/2023/11/pexels-photo-2670327.jpeg 2400w" sizes="(min-width: 720px) 720px"></figure><ul><li>SceneXplain output:</li></ul><pre><code class="language-json">[
-  &quot;&#x91D1;&#x94B1;&#x809A;20&#x5143;&quot;,
-  &quot;&#x65FA;&#x89D2;&#x725B;&#x7B4B;&#x8169;20&#x5143;&quot;,
-  &quot;&#x65FA;&#x89D2;&#x725B;&#x6742;18&#x5143;&quot;
-]</code></pre><ul><li>GPT-4V output:</li></ul><pre><code class="language-json">[
-  &quot;&#x7AF9;&#x7B74;&#x9B5A;&quot;,
-  &quot;20&#x5143;&quot;, 
-  &quot;&#x751C;&#x751C;&#x5708;&quot;,
-  &quot;20&#x5143;&quot;,
-  &quot;&#x751C;&#x751C;&#x4ED9;&#x8C9D;&quot;,
-  &quot;18&#x5143;&quot;
-]</code></pre><p>Again, we see GPT-4V gets the menu contents wrong and also splits each price from the (wrong) menu item. SceneXplain keeps the correct menu items and links them with their prices.</p><h3 id="japanese">Japanese</h3><figure class="kg-card kg-image-card"><img src="https://jina-ai-gmbh.ghost.io/content/images/2023/11/21d10241ed74414d8263d56330cd5d02.png" class="kg-image" alt="SceneXplain&apos;s OCR beats GPT-4V hands down: Chinese, Japanese, Korean, Arabic, Hindi, and more!" loading="lazy" width="400" height="300"></figure><ul><li>GPT-4V gets some of the characters correct in the cigarette ad. The string <code>&#x79C1;&#x306F;&#x305F;&#x3060;&#x5438;&#x3044;&#x6BBB;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;</code> has most of the same characters but is still a bit off. Other strings are just hallucinated.</li></ul><pre><code class="language-json">[
-&quot;&#x79C1;&#x306F;&#x305F;&#x3060;&#x5438;&#x3044;&#x6BBB;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&quot;,
-&quot;PLAISIR&quot;,
-&quot;&#x7D14;&#x6B63;&quot;,
-&quot;MICRONITE&quot;,
-&quot;&#x65B0;&#x5F0F;&quot;,
-&quot;&#x3059;&#x3079;&#x3066;&#x306E;&#x5473;&quot;
-]
-</code></pre><ul><li>SceneXplain:</li></ul><pre><code class="language-json">[
-    &quot;&#x79C1;&#x306F;&#x305F;&#x3070;&#x3053;&#x3092;&#x5438;&#x3044;&#x307E;&#x3059;&quot;,
-    &quot;PLAISIR&quot;,
-    &quot;&#x72EC;&#x5360;&quot;,
-    &quot;MICRONITE&quot;,
-    &quot;&#x65B0;&#x305F;&quot;,
-    &quot;&#x30B7;&#x30AC;&#x30EC;&#x30C3;&#x30C8;&quot;,
-    &quot;&#x559C;&#x3073;&#x306E;&#x5473;&quot;,
-    &quot;KING SIZE&quot;
-  ]
-</code></pre><figure class="kg-card kg-image-card"><img src="https://jina-ai-gmbh.ghost.io/content/images/2023/11/poster.png" class="kg-image" alt="SceneXplain&apos;s OCR beats GPT-4V hands down: Chinese, Japanese, Korean, Arabic, Hindi, and more!" loading="lazy" width="897" height="1390" srcset="https://jina-ai-gmbh.ghost.io/content/images/size/w600/2023/11/poster.png 600w, https://jina-ai-gmbh.ghost.io/content/images/2023/11/poster.png 897w" sizes="(min-width: 720px) 720px"></figure><ul><li>GPT-4V: After extracting (wrong) text from Chinese and Japanese images, we uploaded another image with the prompt <code>Now do this one</code> (which we&#x2019;d used successfully to repeat prior commands). GPT-4V seems to have forgotten how. We got the output:</li></ul><pre><code class="language-text">I&apos;m sorry, but I can&apos;t assist with identifying or making statements about text within images. If you have any other questions or need assistance with a different task, feel free to ask!
-</code></pre><ul><li>SceneXplain did its duty as expected:</li></ul><pre><code class="language-json">[
-    &quot;&#x7528;&#x670D;&#x3050;&#x76F4;&#x305A;&#x305B;&#x8E87;&#x9DF9;&quot;,
-    &quot;&#x30A2;&#x30F3;&#x30C1;&#xB7;&#x30EB;&#x30F3;&#x30B2;&#x30F3;&quot;,
-    &quot;&#x8A55;&#x5224;&#x306E;&#x6551;&#x6025;&#x85AC;&quot;,
-    &quot;&#x30A2;&#x30F3;&#x30C1;&#x30EB;&#x30F3;&#x30C0;&quot;,
-    &quot;&#x80BA;&#x708E;&#x306B;&quot;,
-    &quot;&#x65E5;&#x82F1;&#x7C73; &#x88FD;&#x6CD5;&#x7279;&#x8A31;)&quot;,
-    &quot;ANTI-LUMGEN&quot;,
-    &quot;&#x30A2;&#x30F3;&#x30C1;&#x30EB;&#x30D0;&#x30B2;&#x30CE;&quot;,
-    &quot;&#x6771;&#x4EAC;&#x9A8C;&#x85AC;&#x682A;&#x5F0F;&#x4F1A;&#x793E;&quot;,
-    &quot;&#x5448;&#x8D08;&#x737B;&#x6587;&quot;,
-    &quot;(&#x91D1;&#x79D1;&#x767E;&#x8CA8;&#x5E97;&#x53CA;&#x5404;&#x9EB5;&#x5E97; &#x6709;&#x4E09;)&quot;,
-    &quot;&#x3042;&#x308A;&#x304B;&#x305B;&#x3093;&quot;,
-    &quot;&#x672C;&#x5264;&#x306F;&#x3055;&#x304C;&#x5E74;&#x4EE5;&#x4E0A;&#x4FDD;&#x5B58;&#x3057;&#x3066;&#x3082;&#x52B9;&#x76EE;&#x306B;&#x8B8A;&#x5316;&#x306F;&quot;,
-    &quot;&#x672C;&#x5264;&#x306F;&#x4F55;&#x7B49;&#x671F;&#x4F5C;&#x54C1;&#x306E;&#x306A;&#x3044;&#x5B89;&#x5168;&#x306A;&#x5185;&#x670D;&#x85AC;&#x3067;&#x306D;&quot;,
-    &quot;&#x672C;&#x5264;&#x306F;&#x4ED6;&#x306E;&#x91AB;&#x85E5;&#x3068;&#x4F75;&#x7528;&#x3057;&#x3066;&#x5DEE;&#x652F;&#x3078;&#x3042;&#x308A;&#x307E;&#x305B;&#x3093;&quot;,
-    &quot;&#x306E;&#x5FC5;&#x8981;&#x306F;&#x3042;&#x308A;&#x307E;&#x305B;&#x3093;&quot;,
-    &quot;&#x672C;&#x5291;&#x306F;&#x300C;&#x53EA;&#x4E00;&#x56DE;&#x5206;&#x300D;&#x306E;&#x307F;&#x3066;&#x7D50;&#x69CB;&#x3067;&#x3059;&#x6218;&#x7248;&quot;,
-    &quot;&#x3089;&#x5C02;&#x9580;&#x5BB6;&#x306B;&#x671F;&#x76F8;&#x8AC7;&#x4E0B;&#x3055;&#x3044;&quot;,
-    &quot;&#x8C61;&#x306E;&#x8D85;&#x3089;&#x306A;&#x3044;&#x6642;&#x306F;&#x4E7E;&#x708E;&#x3067;&#x306A;&#x3044;&#x3068;&#x601D;&#x3072;&#x307E;&#x3059;&quot;,
-    &quot;&#x30A2;&#x30F3;&#x30C1;&#xB7;&#x30EB;&#x30F3;&#x30B2;&#x30F3; &#x3092;&#x670D;&#x7528;&#x3057;&#x307E;&#x3059;&#x3068;&#x5FC5;&#x305A;&#x53F3;&#x306E;&quot;,
-    &quot;&#x672C;&#x5291; &#x306E; &#x7279; &#x9577;&quot;,
-    &quot;&#x308B;&#x306E;&#x3067;&#x3042;&#x308A;&#x307E;&#x3057;&#x3066;&#x5B89;&#x7720;&#x3088;&#x308A;&#x89BA;&#x3081;&#x308B;&#x6642;&#x306B;&#x306F;&#x5FB3;&quot;,
-    &quot;&#x6B64;&#x306E;&#x7279;&#x6B8A;&#x73FE;&#x8C61; &#x767C;&#x6C57;&#x5B89;&#x7720; &#x3053;&#x305D;&#x85AC;&#x52B9;&#x3067;&#x64B2;&#x6EC5;&quot;,
-    &quot;&#x3068;&#x3082;&#x5FEB;&#x4E0A;&#x3052;&#x306B;&#x9577;&#x6642;&#x9593;&#x5B89;&#x7720;&#x81F4;&#x3057;&#x307E;&#x3059;&quot;,
-    &quot;&#x767C;&#x6C57;&#x3057;&#x5176;&#x767C;&#x6C57;&#x304C;&#x76F8;&#x4E4B;&#x6559;&#x751F;&#x308B;&#x9803;&#x3088;&#x308A;&#x5FE0;&#x8005;&#x306F;&#x3044;&quot;,
-    &quot;&#x30A2;&#x30F3;&#x30C1;&#xB7;&#x30EB;&#x30F3;&#x30B2;&#x30F3; &#x3092;&#x670D;&#x7528;&#x3059;&#x308B;&#x3068;&#x767D;&#x8840;&#x7403;&#x306E;&#x306F;&quot;,
-    &quot;&#x6CBB; &#x7642; &#x306E; &#x9435; &#x5247;&quot;,
-    &quot;&#x5982;&#x4E16;&#x69AE;79&#x767C;&#x97F3;&#x5143;&#x4E2D;&#x5C71;&quot;,
-    &quot;&#x50F9; &#x5C0F;&#x4EBA;&#x76F8; &#x91D1; &#x570B;&quot;,
-    &quot;&#x5927;&#x4EBA;&#x7FD4; &#x4E94;&quot;,
-    &quot;&#x90E8;&#x5B78;&#x5316;&#x6240;&#x92FC;&#x88FD;&#x5C71;&#x4E2D; &#x793E;&#x6703;&#x5F0F;&#x683C; &#x5143;&#x8CE3;&#x767C;&quot;,
-    &quot;&#x793E;&#x6703;&#x8005;&#x5408;&#x6728;&#x5927; &#xB7;&#x5E97;&#x5546;&#x7F6E;&#x7F50; &#x610F; &#x675F;)&quot;,
-    &quot;&#x793E;&#x6703;&#x540D;&#x4EE4;&#x90E8;&#x592A;&#x9577;&#x5DDD;&#x9F8D; &#x570B;&#x53E4;&#x540D;(&quot;,
-    &quot;&#x6703;&#x9762;&#x30A4;&#x30E9;&#x30D6;&#x30B5;&#x30EB;&#x30BF;&#x30D3;&#x30B9;&#x30DB; &#x8AAA; &#x5927;&#x30CE;&quot;,
-    &quot;&#x5E97;&#x7406;&#x4EE3;&quot;,
-    &quot;&#x793E;&#x6703;&#x5F0F;&#x682A;&#x85E5;&#x88FD;&#x4EAC;&#x6771; &#x5143;&#x9020;&#x88FD;&quot;,
-    &quot;Image ID: W5DPKC&quot;,
-    &quot;www.alamy.com&quot;
-  ]
-</code></pre><h3 id="korean">Korean</h3><figure class="kg-card kg-image-card"><img src="https://jina-ai-gmbh.ghost.io/content/images/2023/11/pexels-photo-6314649.jpeg" class="kg-image" alt="SceneXplain&apos;s OCR beats GPT-4V hands down: Chinese, Japanese, Korean, Arabic, Hindi, and more!" loading="lazy" width="1125" height="750" srcset="https://jina-ai-gmbh.ghost.io/content/images/size/w600/2023/11/pexels-photo-6314649.jpeg 600w, https://jina-ai-gmbh.ghost.io/content/images/size/w1000/2023/11/pexels-photo-6314649.jpeg 1000w, https://jina-ai-gmbh.ghost.io/content/images/2023/11/pexels-photo-6314649.jpeg 1125w" sizes="(min-width: 720px) 720px"></figure><ul><li>GPT-4V remembers how to extract text again. And it remembers how to get it wrong too! If you look at the output, some of the characters are the same as the image, but some are not.</li></ul><pre><code class="language-json">[
-&quot;&#xC220;&#xC740; &#xB0A8;&#xC5D0; &#xB9D0;&#xB098;&quot;,
-&quot;&#xC220;&#xC740; &#xB098;&#xB85C; &#xB9D0;&#xB098;&quot;
-]
-</code></pre><ul><li>SceneXplain gives accurate output, though I&#x2019;m not sure where the <code>50</code> is coming from:</li></ul><pre><code class="language-json">[
-    &quot;|&#xC57C;&quot;,
-    &quot;&#xC88B;&#xC740; &#xB0A0;&#xC5D0; &#xB9CC;&#xB098;&quot;,
-    &quot;&#xB2E8;&#xC774; &#xBC29;&quot;,
-    &quot;50&quot;,
-    &quot;&#xC88B;&#xC740; &#xB098;&#xB97C; &#xB9CC;&#xB098;&quot;
- ]
-</code></pre><figure class="kg-card kg-image-card"><img src="https://jina-ai-gmbh.ghost.io/content/images/2023/11/230531_--_----------_--_--2.jpg" class="kg-image" alt="SceneXplain&apos;s OCR beats GPT-4V hands down: Chinese, Japanese, Korean, Arabic, Hindi, and more!" loading="lazy" width="800" height="1028" srcset="https://jina-ai-gmbh.ghost.io/content/images/size/w600/2023/11/230531_--_----------_--_--2.jpg 600w, https://jina-ai-gmbh.ghost.io/content/images/2023/11/230531_--_----------_--_--2.jpg 800w" sizes="(min-width: 720px) 720px"></figure><ul><li>GPT-4V actually does okay with the more complex image. It doesn&#x2019;t catch <strong><em>all</em></strong> the strings, but it&#x2019;s less wrong than usual from a quick comparison (note: I don&#x2019;t read Korean, so I&#x2019;m just eyeballing it):</li></ul><pre><code class="language-json">[
-&quot;&#xC790;&#xC5F0;&#xACFC; &#xAD6D;&#xBBFC;&#xC744; &#xC5F0;&#xACB0;&#xD558;&#xB294;&quot;,
-&quot;&#xC218;&#xBAA9;&#xB7;&#xC815;&#xC6D0; &#xD50C;&#xB7AB;&#xD3FC; &#xAE30;&#xAD00;&quot;,
-&quot;&#xC218;&#xBAA9;&#xC6D0;&#xC758; &#xACE0;&#xAC1D;&#xAC00;&#xCE58;&#xB97C; &#xB118;&#xC5B4;&quot;,
-&quot;&#xAD6D;&#xBBFC; &#xC0DD;&#xD65C; &#xC18D; &#xB179;&#xC0C9;&#xACF5;&#xAC04; &#xD655;&#xC0B0;&#xACFC;&quot;,
-&quot;&#xC815;&#xC6D0;&#xC0B0;&#xC5C5; &#xC0DD;&#xD0DC;&#xACC4;&#xB97C; &#xD65C;&#xC131;&#xD654;&#xD558;&#xB294; &#xC5ED;&#xD560;&#xC744;&quot;,
-&quot;&#xC801;&#xADF9;&#xC801;&#xC73C;&#xB85C; &#xC218;&#xD589;&#xD558;&#xACA0;&#xC2B5;&#xB2C8;&#xB2E4;&quot;
-]
-</code></pre><ul><li>SceneXplain extracts a lot more:</li></ul><pre><code class="language-json">[
-    &quot;&#xD55C;&#xAD6D;&#xC218;&#xBAA9;&#xC6D0;&#xC815;&#xC6D0;&#xAD00;&#xB9AC;&#xC6D0;&quot;,
-    &quot;&#xC790;&#xC5F0;&#xACFC; &#xAD6D;&#xBBFC;&#xC744; &#xC5F0;&#xACB0;&#xD558;&#xB294;&quot;,
-    &quot;&#xC218;&#xBAA9;&#xC6D0;&#xB7;&#xC815;&#xC6D0; &#xD50C;&#xB7AB;&#xD3FC; &#xAE30;&#xAD00;&quot;,
-    &quot;&#xC218;&#xBAA9;&#xC6D0;&#xC758; &#xACF5;&#xAC04;&#xC801; &#xAC1C;&#xB150;&#xC744; &#xB118;&#xC5B4;&quot;,
-    &quot;&#xAD6D;&#xBBFC; &#xC0DD;&#xD65C; &#xC18D; &#xB179;&#xC0C9;&#xBB38;&#xD654; &#xD655;&#xC0B0;&#xACFC;&quot;,
-    &quot;&#xC815;&#xC6D0;&#xC0B0;&#xC5C5; &#xC0DD;&#xD0DC;&#xACC4;&#xB97C; &#xD65C;&#xC131;&#xD654;&#xD558;&#xB294; &#xC5ED;&#xD560;&#xC744;&quot;,
-    &quot;&#xC801;&#xADF9;&#xC801;&#xC73C;&#xB85C; &#xC218;&#xD589;&#xD558;&#xACA0;&#xC2B5;&#xB2C8;&#xB2E4;&quot;,
-    &quot;&#xC0B0;&#xB9BC;&#xC0DD;&#xBB3C;&#xC790;&#xC6D0;&quot;,
-    &quot;&#xACE0;&#xD488;&#xC9C8; &#xC218;&#xBAA9;&#xC6D0;&quot;,
-    &quot;ES&quot;,
-    &quot;&#xBCF4;&#xC804; &#xB7; &#xBCF5;&#xC6D0;&quot;,
-    &quot;&#xC11C;&#xBE44;&#xC2A4;&quot;,
-    &quot;&#xC5ED;&#xB7C9; &#xAC15;&#xD654;&quot;,
-    &quot;&#xC0B0;&#xB9BC;&#xC0DD;&#xBB3C;&#xC790;&#xC6D0;&quot;,
-    &quot;&#xC5F0;&#xAD6C; &#xB7;&#xD65C;&#xC6A9;&quot;,
-    &quot;&#xC815;&#xC6D0;&#xBB38;&#xD654;&quot;,
-    &quot;&#xD65C;&#xC131;&#xD654;&quot;
-  ]
-</code></pre><h3 id="arabic">Arabic</h3><p>Since we already covered the Arabic coffee image above, we&apos;ll just leave one Arabic here:</p><figure class="kg-card kg-image-card"><img src="https://jina-ai-gmbh.ghost.io/content/images/2023/11/artworks-000043896167-z3x71u-t500x500.jpg" class="kg-image" alt="SceneXplain&apos;s OCR beats GPT-4V hands down: Chinese, Japanese, Korean, Arabic, Hindi, and more!" loading="lazy" width="500" height="500"></figure><ul><li>GPT-4V:</li></ul><pre><code class="language-json">[
-&quot;&#x627;&#x644;&#x62D;&#x64A;&#x627;&#x629; &#x637;&#x631;&#x64A;&#x642; &#x623;&#x643;&#x62B;&#x631; &#x633;&#x631;&#x639;&#x629;&quot;
-]
-</code></pre><ul><li>SceneXplain gets a little confused about the 4G logo, seeing it as <code>EAG</code> but is otherwise sound:</li></ul><pre><code class="language-json">[
-    &quot;&#x627;&#x644;&#x62D;&#x64A;&#x627;&#x629; &#x635;&#x627;&#x631;&#x62A; &#x623;&#x643;&#x62B;&#x631; &#x633;&#x631;&#x639;&#x629;&quot;,
-    &quot;EAG&quot;,
-    &quot;LTE&quot;
-  ]
-</code></pre><h3 id="hindi">Hindi</h3><figure class="kg-card kg-image-card"><img src="https://jina-ai-gmbh.ghost.io/content/images/2023/11/dabur-sarso-avala-hair-oil-ad-dainik-bhaskar-jaipur-12-12-2017.jpg" class="kg-image" alt="SceneXplain&apos;s OCR beats GPT-4V hands down: Chinese, Japanese, Korean, Arabic, Hindi, and more!" loading="lazy" width="955" height="1575" srcset="https://jina-ai-gmbh.ghost.io/content/images/size/w600/2023/11/dabur-sarso-avala-hair-oil-ad-dainik-bhaskar-jaipur-12-12-2017.jpg 600w, https://jina-ai-gmbh.ghost.io/content/images/2023/11/dabur-sarso-avala-hair-oil-ad-dainik-bhaskar-jaipur-12-12-2017.jpg 955w" sizes="(min-width: 720px) 720px"></figure><ul><li>GPT-4V:</li></ul><pre><code class="language-json">[
-&quot;&#x938;&#x930;&#x938;&#x94B;&#x902; &#x914;&#x930; &#x906;&#x902;&#x935;&#x932;&#x93E;&quot;,
-&quot;&#x915;&#x93E; &#x92A;&#x94B;&#x937;&#x923; &#x92C;&#x93F;&#x928;&#x93E; &#x91A;&#x93F;&#x92A;&#x91A;&#x93F;&#x92A;&#x93E;&#x939;&#x91F;&quot;,
-&quot;&#x938;&#x93F;&#x930;&#x94D;&#x92B; &#x930;&#x941;&quot;,
-&quot;9 &#x92E;&#x947;&#x902;&quot;,
-&quot;40ml&quot;,
-&quot;&#x921;&#x93E;&#x92C;&#x930;&quot;,
-&quot;&#x91F;&#x94B;&#x932; &#x92B;&#x94D;&#x930;&#x940; 1800-103-1644&quot;
-]
-</code></pre><ul><li>SceneXplain:</li></ul><pre><code class="language-json">[
-    &quot;&#x938;&#x930;&#x938;&#x94B;&#x902; &#x906;&#x901;&#x935;&#x932;&#x93E;&quot;,
-    &quot;&#x915;&#x947;&#x936; &#x924;&#x947;&#x932;&quot;,
-    &quot;&#x938;&#x930;&#x938;&#x94B;&#x902; &#x914;&#x930; &#x906;&#x901;&#x935;&#x932;&#x93E;&quot;,
-    &quot;&#x915;&#x93E; &#x92A;&#x94B;&#x937;&#x923; &#x92C;&#x93F;&#x928;&#x93E;&quot;,
-    &quot;&#x91A;&#x93F;&#x92A;&#x91A;&#x93F;&#x92A;&#x93E;&#x939;&#x91F;&quot;,
-    &quot;&#x92E;&#x947;&#x902;&quot;,
-    &quot;&#x928;&#x92F;&#x93E;&quot;,
-    &quot;&#x92A;&#x948;&#x915;&quot;,
-    &quot;&#x20B9;9/-&quot;,
-    &quot;&#x938;&#x930;&#x938;&#x94B;&#x902; &#x906;&#x901;&#x935;&#x932;&#x93E;&quot;,
-    &quot;40ml&quot;,
-    &quot;DABUR CARES: CALL OR WRITE&quot;,
-    &quot;+ TOLL FREE 1800-103-1644&quot;
-  ]
-</code></pre><figure class="kg-card kg-image-card"><img src="https://jina-ai-gmbh.ghost.io/content/images/2023/11/mdh-masala-ki-ek-dhamkedhar-offer-ad-hindustan-hindi-delhi-21-10-2017.jpg" class="kg-image" alt="SceneXplain&apos;s OCR beats GPT-4V hands down: Chinese, Japanese, Korean, Arabic, Hindi, and more!" loading="lazy" width="973" height="1576" srcset="https://jina-ai-gmbh.ghost.io/content/images/size/w600/2023/11/mdh-masala-ki-ek-dhamkedhar-offer-ad-hindustan-hindi-delhi-21-10-2017.jpg 600w, https://jina-ai-gmbh.ghost.io/content/images/2023/11/mdh-masala-ki-ek-dhamkedhar-offer-ad-hindustan-hindi-delhi-21-10-2017.jpg 973w" sizes="(min-width: 720px) 720px"></figure><ul><li>GPT-4V gave us the error <code>Something went wrong. If this issue persists please contact us through our help center at help.openai.com</code>. After retrying, it gave us:</li></ul><pre><code class="language-json">[
-&quot;MDH &#x915;&#x940; &#x90F;&#x915;&quot;,
-&quot;&#x927;&#x92E;&#x93E;&#x915;&#x947;&#x926;&#x93E;&#x930; &#x911;&#x92B;&#x930;&quot;,
-&quot;&#x938;&#x94D;&#x935;&#x93E;&#x926; &#x915;&#x947; &#x938;&#x93E;&#x925; - &#x938;&#x93E;&#x925; &#x916;&#x941;&#x936;&#x93F;&#x92F;&#x94B;&#x902; &#x915;&#x940; &#x92C;&#x94C;&#x91B;&#x93E;&#x930; !!&quot;,
-&quot;&#x92E;&#x938;&#x93E;&#x932;&#x93E; &#x90F;&#x915; &#x938;&#x94D;&#x935;&#x93E;&#x926;&#x93F;&#x937;&#x94D;&#x91F; &#x914;&#x930; &#x91C;&#x940;&#x935;&#x902;&#x924; &#x909;&#x92A;&#x939;&#x93E;&#x930; !!&quot;,
-&quot;MDH&quot;,
-&quot;&#x92E;&#x938;&#x93E;&#x932;&#x947;&quot;,
-&quot;&#x905;&#x938;&#x932;&#x940; &#x92E;&#x938;&#x93E;&#x932;&#x947; &#x938;&#x91A;-&#x938;&#x91A;&quot;,
-&quot;MDH Ltd.&quot;,
-&quot;E-mails: delhi@mdhspices.in, rk@mdhspices.in www.mdhspices.com&quot;
-]
-</code></pre><ul><li>SceneXplain goes much further, even extracting product names and tiny details like when the company was established:</li></ul><pre><code class="language-json">[
-    &quot;MDH&quot;,
-    &quot;&#x915;&#x940; &#x90F;&#x915;&quot;,
-    &quot;&#x927;&#x92E;&#x93E;&#x915;&#x947;&#x926;&#x93E;&#x930; &#x911;&#x92B;&#x930;&quot;,
-    &quot;&#x938;&#x94D;&#x935;&#x93E;&#x926; &#x915;&#x947; &#x938;&#x93E;&#x925; -&#x938;&#x93E;&#x925; &#x916;&#x941;&#x936;&#x93F;&#x92F;&#x94B;&#x902; &#x915;&#x940; &#x92C;&#x94C;&#x91B;&#x93E;&#x930; !&quot;,
-    &quot;&#x92E;&#x938;&#x93E;&#x932;&#x93E; &#x92A;&#x948;&#x915; &#x916;&#x930;&#x940;&#x926;&#x94B; &#x914;&#x930; &#x91C;&#x940;&#x924;&#x94B; &#x909;&#x92A;&#x939;&#x93E;&#x930; !!&quot;,
-    &quot;&#x90F;&#x92E; &#x921;&#x940; &#x90F;&#x91A; &#x915;&#x940; &#x913;&#x930; &#x938;&#x947; &#x905;&#x92A;&#x928;&#x947; &#x938;&#x92D;&#x940; &#x917;&#x94D;&#x930;&#x93E;&#x939;&#x915;&#x94B;&#x902; &#x915;&#x947; &#x932;&#x93F;&#x90F; &#x90F;&#x915; &#x927;&#x92E;&#x93E;&#x915;&#x947;&#x926;&#x93E;&#x930; &#x911;&#x92B;&#x930;&#x964;&quot;,
-    &quot;&#x915;&#x93F;&#x938;&#x940; &#x92D;&#x940; &#x928;&#x91C;&#x926;&#x940;&#x915;&#x940; &#x935;&#x93F;&#x915;&#x94D;&#x930;&#x947;&#x924;&#x93E; &#x938;&#x947; &#x90F;&#x92E; &#x921;&#x940; &#x90F;&#x91A; &#x92E;&#x938;&#x93E;&#x932;&#x94B;&#x902; &#x915;&#x947; &#x928;&#x940;&#x91A;&#x947; &#x91B;&#x92A;&#x947; &#x92A;&#x948;&#x915;&#x94D;&#x938; &#x92E;&#x947;&#x902; &#x938;&#x947;&quot;,
-    &quot;&#x915;&#x94B;&#x908; &#x92D;&#x940; 100 &#x917;&#x94D;&#x930;&#x93E;&#x92E; &#x935;&#x93E;&#x932;&#x93E; &#x92A;&#x948;&#x915; &#x916;&#x930;&#x940;&#x926;&#x947;&#x902; &#x914;&#x930; &#x92D;&#x93E;&#x917;&#x94D;&#x92F;&#x936;&#x93E;&#x932;&#x940; &#x935;&#x93F;&#x91C;&#x947;&#x924;&#x93E; &#x92C;&#x928;&#x928;&#x947; &#x915;&#x93E; &#x905;&#x935;&#x938;&#x930;&quot;,
-    &quot;&#x92A;&#x94D;&#x930;&#x93E;&#x92A;&#x94D;&#x924; &#x915;&#x930;&#x947;&#x902;, &#x939;&#x94B; &#x938;&#x915;&#x924;&#x93E; &#x939;&#x948; &#x906;&#x92A; &#x915;&#x947; &#x932;&#x93F;&#x90F; &#x917;&#x90F; &#x92A;&#x948;&#x915; &#x915;&#x947; &#x92B;&#x94D;&#x932;&#x947;&#x92A; &#x92E;&#x947;&#x902; &#x909;&#x92A;&#x939;&#x93E;&#x930; &#x915;&#x93E; &#x928;&#x93E;&#x92E; &#x939;&#x94B;&#x964;&quot;,
-    &quot;&#x905;&#x938;&#x932;&#x940; &#x92E;&#x938;&#x93E;&#x932;&#x947;&quot;,
-    &quot;&#x92E;&#x938;&#x93E;&#x932;&#x947;&quot;,
-    &quot;&#x938;&#x91A; -&#x938;&#x91A;&quot;,
-    &quot;MD H&quot;,
-    &quot;SPICES&quot;,
-    &quot;MD&quot;,
-    &quot;MOH&quot;,
-    &quot;Garam&quot;,
-    &quot;Pav Bhaji&quot;,
-    &quot;masala&quot;,
-    &quot;Kitchen&quot;,
-    &quot;Shahi Pancer&quot;,
-    &quot;King&quot;,
-    &quot;Chana&quot;,
-    &quot;DEGGI&quot;,
-    &quot;MIRCH&quot;,
-    &quot;Chunky Chat&quot;,
-    &quot;&#x928;&#x93F;&#x92F;&#x92E; &#x935; &#x936;&#x930;&#x94D;&#x924;&#x947;&#x902; :- &#x90F;&#x92E; &#x921;&#x940; &#x90F;&#x91A; &#x92E;&#x938;&#x93E;&#x932;&#x94B;&#x902; &#x915;&#x947; &#x90A;&#x92A;&#x930; &#x926;&#x930;&#x94D;&#x936;&#x93E;&#x92F;&#x947; &#x917;&#x90F; &#x91A;&#x941;&#x928;&#x93F;&#x928;&#x94D;&#x926;&#x93E; &#x92A;&#x948;&#x915;&#x94D;&#x938; &#x92E;&#x947;&#x902; &#x938;&#x947; &#x915;&#x94B;&#x908; &#x92D;&#x940; 100 &#x917;&#x94D;&#x930;&#x93E;&#x92E; &#x935;&#x93E;&#x932;&#x93E;&quot;,
-    &quot;&#x92A;&#x948;&#x915; &#x916;&#x930;&#x940;&#x926;&#x947;&#x902;, &#x909;&#x938;&#x915;&#x93E; &#x92B;&#x94D;&#x932;&#x947;&#x92A; &#x916;&#x94B;&#x932;&#x947;&#x902;, &#x939;&#x94B; &#x938;&#x915;&#x924;&#x93E; &#x939;&#x948; &#x915;&#x93F; &#x909;&#x938; &#x92B;&#x94D;&#x932;&#x947;&#x92A; &#x915;&#x947; &#x928;&#x940;&#x91A;&#x947; &#x909;&#x92A;&#x939;&#x93E;&#x930; &#x915;&#x93E; &#x928;&#x93E;&#x92E; &#x91B;&#x92A;&#x93E; &#x939;&#x94B;&#x964; &#x909;&#x938;&quot;,
-    &quot;&#x909;&#x92A;&#x939;&#x93E;&#x930; &#x915;&#x94B; &#x92A;&#x94D;&#x930;&#x93E;&#x92A;&#x94D;&#x924; &#x915;&#x930;&#x928;&#x947; &#x915;&#x947; &#x92D;&#x93E;&#x917;&#x94D;&#x92F;&#x936;&#x93E;&#x932;&#x940; &#x935;&#x93F;&#x91C;&#x947;&#x924;&#x93E; &#x92C;&#x928;&#x947;&#x902;&#x964; &#x2022; &#x907;&#x938; &#x938;&#x94D;&#x915;&#x940;&#x92E; &#x915;&#x93E; &#x928;&#x915;&#x926; &#x932;&#x93E;&#x92D; &#x915;&#x94B;&#x908; &#x92D;&#x940; &#x928;&#x939;&#x940;&#x902; &#x939;&#x948;&quot;,
-    &quot;&#x932;&#x93F;&#x90F; &#x926;&#x93F;&#x932;&#x94D;&#x932;&#x940; &#x92E;&#x947;&#x902; &#x939;&#x940; &#x932;&#x93E;&#x917;&#x942; &#x939;&#x948; &#x2022; &#x938;&#x94D;&#x915;&#x940;&#x92E; &#x938;&#x94D;&#x91F;&#x949;&#x915; &#x930;&#x939;&#x928;&#x947; &#x924;&#x915; &#x938;&#x940;&#x92E;&#x93F;&#x924; &#x939;&#x948; &#x2022; &#x92F;&#x939; &#x938;&#x94D;&#x915;&#x940;&#x92E; &#x90F;&#x92E; &#x921;&#x940; &#x90F;&#x91A; &#x915;&#x947; &#x938;&#x941;&#x92A;&#x930;&quot;,
-    &quot;&#x938;&#x94D;&#x91F;&#x949;&#x915;&#x93F;&#x938;&#x94D;&#x91F;, &#x938;&#x94D;&#x91F;&#x949;&#x915;&#x93F;&#x938;&#x94D;&#x91F; &#x914;&#x930; &#x915;&#x930;&#x94D;&#x92E;&#x91A;&#x93E;&#x930;&#x93F;&#x92F;&#x94B;&#x902; &#x915;&#x947; &#x932;&#x93F;&#x90F; &#x928;&#x939;&#x940;&#x902; &#x939;&#x948; &#xB7; &#x915;&#x902;&#x92A;&#x928;&#x940; &#x915;&#x93E; &#x928;&#x93F;&#x930;&#x94D;&#x923;&#x92F; &#x905;&#x902;&#x924;&#x93F;&#x92E; &#x914;&#x930; &#x938;&#x930;&#x94D;&#x935;&#x92E;&#x93E;&#x928;&#x94D;&#x92F; &#x939;&#x94B;&#x917;&#x93E;&quot;,
-    &quot;&#x914;&#x930; &#x938;&#x92D;&#x940; &#x935;&#x93F;&#x935;&#x93E;&#x926; &#x926;&#x93F;&#x932;&#x94D;&#x932;&#x940; &#x915;&#x947; &#x928;&#x94D;&#x92F;&#x93E;&#x92F; &#x915;&#x94D;&#x937;&#x947;&#x924;&#x94D;&#x930; &#x915;&#x947; &#x905;&#x927;&#x940;&#x928; &#x939;&#x94B;&#x902;&#x917;&#x947;&#x964; &#x2022; &#x905;&#x928;&#x94D;&#x92F; &#x936;&#x930;&#x94D;&#x924;&#x94B;&#x902; &#x915;&#x947; &#x932;&#x93F;&#x90F; &#x92A;&#x948;&#x915; &#x926;&#x947;&#x916;&#x947;&#x902;&#x964;&quot;,
-    &quot;&#x92E;&#x939;&#x93E;&#x936;&#x93F;&#x92F;&#x93E;&#x901; &#x926;&#x940; &#x939;&#x91F;&#x94D;&#x91F;&#x940; (&#x92A;&#x94D;&#x930;&#x93E;&#x966;) &#x932;&#x93F;&#x92E;&#x93F;&#x91F;&#x947;&#x921;&quot;,
-    &quot;9/44, &#x915;&#x940;&#x930;&#x94D;&#x924;&#x93F; &#x928;&#x917;&#x930;, &#x928;&#x908; &#x926;&#x93F;&#x932;&#x94D;&#x932;&#x940; - 110015 &#x92B;&#x94B;&#x928; &#x928;&#x902;&#x966; 011-41425106 - 07-08&quot;,
-    &quot;ESTD. 1919&quot;,
-    &quot;E-mails : delhi@mdhspices.in, rk@mdhspices.in www.mdhspices.com&quot;
-  ]
-</code></pre><h2 id="conclusion">Conclusion</h2><p>At the end of the day, SceneXplain clearly excels in multilingual OCR compared to GPT-4V. To recap:</p><p><strong>API limits:</strong></p><ul><li>GPT-4V: 100 requests per day</li><li>SceneXplain: 5,000 credits per month on the MAX plan. JSON output with Jelly costs 2 credits, so you can process 2,500 images per month.</li></ul><p><strong>Reliability:</strong></p><ul><li>GPT-4V: Is often like &#x201C;I&#x2019;m sorry Dave, I&#x2019;m afraid I can&#x2019;t do that.&#x201D;</li><li>SceneXplain: Doggedly reliable. Gets the job done.</li></ul><p><strong>Accuracy:</strong></p><ul><li>GPT-4V: hallucinates strings it believes are plausible from a given image, rather than reading the actual text.</li><li>SceneXplain: Extracts the correct text.</li></ul><p><strong>Consistency:</strong></p><ul><li>GPT-4V doesn&#x2019;t just hallucinate. It hallucinates different things each time.</li><li>SceneXplain gives much more consistent output.</li></ul><p><strong>Completeness:</strong></p><ul><li>GPT-4V: Often doesn&#x2019;t always extract <strong><em>all</em></strong> the strings in the image.</li><li>SceneXplain: Extracts more strings.</li></ul><p><strong>Cost:</strong></p><ul><li>GPT-4V: $0.025 per image.</li><li>SceneXplain: As low as 0.02 USD per image on the MAX plan if you enable JSON output. As low as 0.01 USD without JSON output.</li></ul><p>When you take all those factors into account, it&apos;s clear that SceneXplain is the obvious choice.</p><h2 id="get-started-with-scenexplain">Get started with SceneXplain</h2><p>Ready to explore multilingual OCR? Sign up for a free account with SceneXplain and start converting images to text easily. It&apos;s a practical, user-friendly way to manage digital documents. Get started now and see the difference SceneXplain can make!</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://scenex.jina.ai/?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">SceneXplain - Leading AI Solution for Image Captions and Video Summaries</div><div class="kg-bookmark-description">Experience cutting-edge computer vision with our premier image captioning and video summarization algorithms. Tailored for content creators, media professionals, SEO experts, and e-commerce enterprises. Featuring multilingual support and seamless API integration. Elevate your digital presence today.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://scenex.jina.ai/icons/apple-icon-180x180.png" alt="SceneXplain&apos;s OCR beats GPT-4V hands down: Chinese, Japanese, Korean, Arabic, Hindi, and more!"><span class="kg-bookmark-author">SceneXplain</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://scenex.jina.ai/banner.png" alt="SceneXplain&apos;s OCR beats GPT-4V hands down: Chinese, Japanese, Korean, Arabic, Hindi, and more!"></div></a></figure>]]></content:encoded></item></channel></rss>
+        assert response.json() == {&apos;msg&apos;: &apos;hello world&apos;}</code></pre><h2 id="%F0%9F%90%9E-bug-fixes">&#x1F41E; Bug Fixes</h2><h3 id="read-csv-with-escaped-chars-6102">Read CSV with escaped chars (<a href="https://github.com/jina-ai/jina/pull/6102?ref=jina-ai-gmbh.ghost.io">#6102</a>)</h3><p>There was an issue when using Jina to do batch transformations on SageMaker. Parsing texts with escape characters was not working properly.</p><h2 id="%F0%9F%A4%9F-contributors">&#x1F91F; Contributors</h2><p>We would like to thank all contributors to this release:</p><ul><li>Joan Fontanals Martinez (<a href="https://github.com/JoanFM?ref=jina-ai-gmbh.ghost.io">@JoanFM</a>)</li><li>Deepankar Mahapatro (<a href="https://github.com/deepankarm?ref=jina-ai-gmbh.ghost.io">@deepankarm</a>)</li></ul>]]></content:encoded></item></channel></rss>
