@@ -12,8 +12,8 @@
     "dev-gpt": "1.6K",
     "rungpt": "127",
     "vectordb": "434",
-    "jerboa": "32",
-    "total": "47.9K"
+    "jerboa": "33",
+    "total": "48K"
   },
   "jobs": [
     {
