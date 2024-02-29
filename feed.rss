@@ -1,4 +1,567 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[Jina AI]]></title><description><![CDATA[The official newsroom of Jina AI]]></description><link>https://jina.ai/news</link><image><url>https://jina.ai/favicon.ico</url><title>Jina AI</title><link>https://jina.ai/news</link></image><generator>Ghost 5.79</generator><lastBuildDate>Wed, 28 Feb 2024 15:12:58 GMT</lastBuildDate><atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning]]></title><description><![CDATA[Our new paper explores how our Spanish-English and German-English models use multi-task contrastive learning and a sophisticated data pipeline to master language understanding and cross-lingual efficiency for texts up to 8192 tokens]]></description><link>https://jina.ai/news/revolutionizing-bilingual-text-embeddings-with-multi-task-contrastive-learning/</link><guid isPermaLink="false">65df105ab22368000152a1b9</guid><category><![CDATA[Press]]></category><dc:creator><![CDATA[Jina AI]]></dc:creator><pubDate>Wed, 28 Feb 2024 15:00:41 GMT</pubDate><media:content url="https://jina-ai-gmbh.ghost.io/content/images/2024/02/banner-4models-02.png" medium="image"/><content:encoded><![CDATA[<img src="https://jina-ai-gmbh.ghost.io/content/images/2024/02/banner-4models-02.png" alt="Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning"><p>In our recent paper, <a href="https://arxiv.org/abs/2402.17016?ref=jina-ai-gmbh.ghost.io">Multi-Task Contrastive Learning for 8192-Token Bilingual Text Embeddings</a>, we detailed our development of <a href="https://jina.ai/news/ich-bin-ein-berliner-german-english-bilingual-embeddings-with-8k-token-length/?ref=jina-ai-gmbh.ghost.io">German-English</a> and <a href="https://jina.ai/news/aqui-se-habla-espanol-top-quality-spanish-english-embeddings-and-8k-context?ref=jina-ai-gmbh.ghost.io">Spanish-English</a> bilingual text embedding models.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://arxiv.org/abs/2402.17016?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Multi-Task Contrastive Learning for 8192-Token Bilingual Text Embeddings</div><div class="kg-bookmark-description">We introduce a novel suite of state-of-the-art bilingual text embedding models that are designed to support English and another target language. These models are capable of processing lengthy text inputs with up to 8192 tokens, making them highly versatile for a range of natural language processing tasks such as text retrieval, clustering, and semantic textual similarity (STS) calculations. By focusing on bilingual models and introducing a unique multi-task learning objective, we have significantly improved the model performance on STS tasks, which outperforms the capabilities of existing multilingual models in both target language understanding and cross-lingual evaluation tasks. Moreover, our bilingual models are more efficient, requiring fewer parameters and less memory due to their smaller vocabulary needs. Furthermore, we have expanded the Massive Text Embedding Benchmark (MTEB) to include benchmarks for German and Spanish embedding models. This integration aims to stimulate further research and advancement in text embedding technologies for these languages.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png" alt="Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning"><span class="kg-bookmark-author">arXiv.org</span><span class="kg-bookmark-publisher">Isabelle Mohr</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning"></div></a></figure><p>Our approach utilizes multi-task contrastive learning and advanced data curation pipeline, focusing on bilingual capabilities while extending to support 8192 tokens in length. This method allows our models to excel in understanding target languages and in conducting cross-lingual evaluations efficiently.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://jina.ai/news/aqui-se-habla-espanol-top-quality-spanish-english-embeddings-and-8k-context?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Aqu&#xED; Se Habla Espa&#xF1;ol: Top-Quality Spanish-English Embeddings and 8k Context</div><div class="kg-bookmark-description">Jina AI&#x2019;s new bilingual Spanish-English embedding model brings the state-of-the-art in AI to half a billion Spanish speakers.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://jina.ai/icons/favicon-128x128.png" alt="Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning"><span class="kg-bookmark-publisher">GitHub</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://jina-ai-gmbh.ghost.io/content/images/2024/02/1334.png" alt="Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning"></div></a></figure><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://jina.ai/news/ich-bin-ein-berliner-german-english-bilingual-embeddings-with-8k-token-length?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Ich bin ein Berliner: German-English Bilingual Embeddings with 8K Token Length</div><div class="kg-bookmark-description">Jina AI introduces a German/English bilingual embedding model, featuring an extensive 8,192-token length, specifically designed to support German businesses thriving in the U.S. market.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://jina.ai/icons/favicon-128x128.png" alt="Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning"><span class="kg-bookmark-publisher">GitHub</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://jina-ai-gmbh.ghost.io/content/images/2024/01/Explore-image-storytelling-beyond-pixels--33-.png" alt="Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning"></div></a></figure><p>In addition to the bilingual models covered in the paper, we have also developed bilingual <a href="https://jina.ai/news/8k-token-length-bilingual-embeddings-break-language-barriers-in-chinese-and-english?ref=jina-ai-gmbh.ghost.io">Chinese-English</a> and <a href="https://jina.ai/news/jina-ai-launches-worlds-first-open-source-8k-text-embedding-rivaling-openai?ref=jina-ai-gmbh.ghost.io" rel="noreferrer">monolingual English</a> models. These additions showcase our commitment to covering a broad spectrum of linguistic needs and furthering our capabilities in language processing.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://jina.ai/news/8k-token-length-bilingual-embeddings-break-language-barriers-in-chinese-and-english?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">8K Token-Length Bilingual Embeddings Break Language Barriers in Chinese and English</div><div class="kg-bookmark-description">The first bilingual Chinese-English embedding model with 8192 token-length.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://jina.ai/icons/favicon-128x128.png" alt="Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning"><span class="kg-bookmark-publisher">Discord</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://jina-ai-gmbh.ghost.io/content/images/2024/01/jina-embeddings-v2-base-zh.png" alt="Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning"></div></a></figure><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://jina.ai/news/jina-ai-launches-worlds-first-open-source-8k-text-embedding-rivaling-openai?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Jina AI Launches World&#x2019;s First Open-Source 8K Text Embedding, Rivaling OpenAI</div><div class="kg-bookmark-description">Jina AI introduces jina-embeddings-v2, the world&#x2019;s first open-source model boasting an 8K context length. Matching the prowess of OpenAI&#x2019;s proprietary models, this innovation is now publicly accessible on Huggingface, signaling a significant milestone in the landscape of text embeddings.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://jina.ai/icons/favicon-128x128.png" alt="Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning"></div></div><div class="kg-bookmark-thumbnail"><img src="https://jina-ai-gmbh.ghost.io/content/images/2023/10/Explore-image-storytelling-beyond-pixels--11-.png" alt="Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning"></div></a></figure><p>Our bilingual models are characterized by their efficiency, operating with optimized vocabulary sizes to require fewer parameters and less memory. This efficiency underscores our dedication to creating powerful yet resource-efficient tools for language processing.</p><p>Following the release of our paper, we expanded the <a href="https://huggingface.co/spaces/mteb/leaderboard?ref=jina-ai-gmbh.ghost.io">Massive Text Embedding Benchmark (MTEB)</a> to include benchmarks for our English-German and English-Spanish embedding models. This expansion is part of our effort to stimulate further research and advancements in text embedding technologies for non-English languages.</p><p>At Jina AI, our aim is to enhance the processing and understanding of multiple languages, contributing to the NLP field with our developments in bilingual and monolingual text embedding models.</p>]]></content:encoded></item><item><title><![CDATA[Jina 3.23.4 Update]]></title><description><![CDATA[Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.]]></description><link>https://jina.ai/news/jina-3-23-4-update/</link><guid isPermaLink="false">65ddb23939a5b70001810ef5</guid><category><![CDATA[Releases]]></category><dc:creator><![CDATA[Engineering Group]]></dc:creator><pubDate>Tue, 27 Feb 2024 10:01:33 GMT</pubDate><media:content url="https://jina-ai-gmbh.ghost.io/content/images/2024/02/Image-Jina-dark-1-1.jpg" medium="image"/><content:encoded><![CDATA[<h2 id="release-note-3234">Release Note (<code>3.23.4</code>)</h2><img src="https://jina-ai-gmbh.ghost.io/content/images/2024/02/Image-Jina-dark-1-1.jpg" alt="Jina 3.23.4 Update"><p>This release contains 1 bug fix.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://github.com/jina-ai/jina/releases/tag/v3.23.4?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Release &#x1F4AB; Patch v3.23.4 &#xB7; jina-ai/jina</div><div class="kg-bookmark-description">Release Note (3.23.4) Release time: 2024-02-27 09:36:35 This release contains 1 bug fix.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[Jina AI]]></title><description><![CDATA[The official newsroom of Jina AI]]></description><link>https://jina.ai/news</link><image><url>https://jina.ai/favicon.ico</url><title>Jina AI</title><link>https://jina.ai/news</link></image><generator>Ghost 5.79</generator><lastBuildDate>Thu, 29 Feb 2024 08:41:48 GMT</lastBuildDate><atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Maximizing Search Relevancy and RAG Accuracy with Jina Reranker]]></title><description><![CDATA[Boost your search and RAG accuracy with Jina Reranker. Our new model improves the accuracy and relevance by 20% over simple vector search. Try it now for free!]]></description><link>https://jina.ai/news/maximizing-search-relevancy-and-rag-accuracy-with-jina-reranker/</link><guid isPermaLink="false">65dfb0f7b22368000152a205</guid><category><![CDATA[Press]]></category><dc:creator><![CDATA[Jina AI]]></dc:creator><pubDate>Thu, 29 Feb 2024 08:30:10 GMT</pubDate><media:content url="https://jina-ai-gmbh.ghost.io/content/images/2024/02/Reranker1.png" medium="image"/><content:encoded><![CDATA[<img src="https://jina-ai-gmbh.ghost.io/content/images/2024/02/Reranker1.png" alt="Maximizing Search Relevancy and RAG Accuracy with Jina Reranker"><p>Text embeddings, known for their semantic representation capabilities, along with fast vector retrieval, are today&apos;s cornerstone in document search within vast datasets. However, the challenge often lies in filtering through these retrieved documents to accurately align with the user&apos;s search intent, a task that goes beyond the capabilities of simple cosine similarity measures.</p><p>Today, we&apos;re thrilled to announce <strong>Jina Reranker</strong> (<code>jina-reranker-v1-base-en</code>), a cutting-edge neural reranking model designed to tackle this critical issue of relevancy. Jina Reranker enhances your search and RAG (Retrieval-Augmented Generation) system by <em>reordering</em> retrieved documents in a manner that deeply and contextually understands the search query terms. Our evaluations demonstrated remarkable improvements for search systems employing the Jina Reranker <strong>with</strong> <strong>+8% in hit rate and +33% in mean reciprocal rank</strong>!</p><h2 id="what-is-a-reranker">What is a Reranker?</h2><p>Understanding the concept of a reranker often leads us to question the necessity of <em>re-</em>ranking mechanisms in search (ranking) systems. Common questions are, &quot;<em>Why do we need a </em><strong>re</strong><em>ranker?</em>&quot; and &quot;<em>Isn&apos;t ranking documents by cosine similarity between the query and document embeddings enough already?</em>&quot; To address these questions, let&apos;s first revisit the single embedding cosine similarity approach and its limitations.</p><p>Cosine similarity quantifies the similarity between two documents by measuring the cosine of the angle between their embedding vectors. This metric is valued for its simplicity and has been used in many vector databases as the default way of retrieval. However, this approach, commonly termed as a <em>representation-based </em>approach, tends to oversimplify interaction between query and documents. Specifically, it struggles with capturing the nuanced interaction at the sub-document level and sub-query level, often missing the full depth of user intent and the fine details of document relevance.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://jina-ai-gmbh.ghost.io/content/images/2024/02/Copy-of-Copy-of-colbert-blog-interaction.svg" class="kg-image" alt="Maximizing Search Relevancy and RAG Accuracy with Jina Reranker" loading="lazy" width="168" height="150"><figcaption><span style="white-space: pre-wrap;">The comparison of the representation-based cosine similarity (left) and the reranker (right).</span></figcaption></figure><p>This is where rerankers come into play. Utilizing deep neural networks, rerankers delve deeper into the interactions between the query and the shortlisted documents. They move beyond basic document-level embeddings to embrace token-level interactions that occur within the query, within the document, and across the query-document boundary. Although this method is more computationally intensive compared to simple cosine similarity, it enables a nuanced comparison that incorporates context, semantic meaning, and the intent behind the query, substantially improving the relevancy of search results.</p>
+<!--kg-card-begin: html-->
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Vector Search via Cosine Similarity</th>
+<th>Reranker</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Interaction Level</strong></td>
+<td>Document-level embeddings</td>
+<td>Token-level interactions</td>
+</tr>
+<tr>
+<td><strong>Computational Demand</strong></td>
+<td>Low</td>
+<td>High</td>
+</tr>
+<tr>
+<td><strong>Most computation happens at</strong></td>
+<td>Offline, i.e. indexing time</td>
+<td>Online, i.e. query time</td>
+</tr>
+<tr>
+<td><strong>Result</strong></td>
+<td>Broad but superficial matching</td>
+<td>Highly relevant and precise matching</td>
+</tr>
+<tr>
+<td><strong>Strengths</strong></td>
+<td>- Fast and efficient<br>- Simple implementation</td>
+<td>- Deep contextual understanding<br>- Advanced semantic analysis</td>
+</tr>
+<tr>
+<td><strong>Limitations</strong></td>
+<td>- Limited by lack of depth and context<br>- May miss nuances of user intent</td>
+<td>- Computationally intensive<br>- Requires more sophisticated models</td>
+</tr>
+<tr>
+<td><strong>Best For</strong></td>
+<td>Provides a quick, efficient first pass</td>
+<td>Adds depth, enhancing accuracy and relevance of final search results</td>
+</tr>
+</tbody>
+</table>
+<!--kg-card-end: html-->
+<p>In summary, reranker is a critical component in the search pipeline. <strong>A high-quality search system typically begins with an embedding-based vector retrieval step, which is then refined by a reranker model.</strong> This two-step approach leverages the strengths of both models, ensuring the delivery of precise, high-quality information that aligns seamlessly with the user&apos;s needs.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://jina-ai-gmbh.ghost.io/content/images/2024/02/Copy-of-Copy-of-Copy-of-colbert-blog-interaction.svg" class="kg-image" alt="Maximizing Search Relevancy and RAG Accuracy with Jina Reranker" loading="lazy" width="300" height="66"><figcaption><span style="white-space: pre-wrap;">A practical search system often chains the embedding-based search and the reranker together to achieve the best search quality.</span></figcaption></figure><h2 id="get-started-with-jina-reranker">Get Started with Jina Reranker</h2><p>To start using Jina Reranker, head to our <a href="http://jina.ai/reranker?ref=jina-ai-gmbh.ghost.io">Reranker page</a> to get <code>YOUR_API_KEY</code>. You can adapt the example cURL snippet below by changing the query or adding more documents:</p><pre><code class="language-shell">curl -X &apos;POST&apos; \
+  &apos;https://api.jina.ai/v1/rerank&apos; \
+  -H &apos;accept: application/json&apos; \
+  -H &apos;Authorization: Bearer YOUR_API_KEY&apos; \
+  -H &apos;Content-Type: application/json&apos; \
+  -d &apos;{
+  &quot;model&quot;: &quot;jina-reranker-v1-base-en&quot;,
+  &quot;query&quot;: &quot;Organic skincare products for sensitive skin&quot;,
+  &quot;documents&quot;: [
+    &quot;Eco-friendly kitchenware for modern homes&quot;,
+    &quot;Biodegradable cleaning supplies for eco-conscious consumers&quot;,
+    &quot;Organic cotton baby clothes for sensitive skin&quot;,
+    &quot;Natural organic skincare range for sensitive skin&quot;,
+    &quot;Tech gadgets for smart homes: 2024 edition&quot;,
+    &quot;Sustainable gardening tools and compost solutions&quot;,
+    &quot;Sensitive skin-friendly facial cleansers and toners&quot;,
+    &quot;Organic food wraps and storage solutions&quot;,
+    &quot;All-natural pet food for dogs with allergies&quot;,
+    &quot;Yoga mats made from recycled materials&quot;
+  ], 
+  &quot;top_n&quot;: 3
+}&apos;
+</code></pre><p>In this example, the documents range from home goods to tech gadgets, clothing, and even pet food, showcasing a wide spectrum of products one might find on an e-commerce site. This diversity requires the reranker to effectively identify and prioritize items most relevant to the query about &quot;Organic skincare products for sensitive skin,&quot; despite the presence of other organic, eco-friendly, or sensitive skin-related products in different categories. The response is a JSON object as follows:</p><pre><code class="language-json">{
+  &quot;model&quot;: &quot;jina-reranker-v1-base-en&quot;,
+  &quot;usage&quot;: {
+    &quot;total_tokens&quot;: 38,
+    &quot;prompt_tokens&quot;: 38
+  },
+  &quot;results&quot;: [
+    {
+      &quot;index&quot;: 3,
+      &quot;document&quot;: {
+        &quot;text&quot;: &quot;Natural organic skincare range for sensitive skin&quot;
+      },
+      &quot;relevance_score&quot;: 0.8292155861854553
+    },
+    {
+      &quot;index&quot;: 2,
+      &quot;document&quot;: {
+        &quot;text&quot;: &quot;Organic cotton baby clothes for sensitive skin&quot;
+      },
+      &quot;relevance_score&quot;: 0.14426936209201813
+    },
+    {
+      &quot;index&quot;: 6,
+      &quot;document&quot;: {
+        &quot;text&quot;: &quot;Sensitive skin-friendly facial cleansers and toners&quot;
+      },
+      &quot;relevance_score&quot;: 0.13857832551002502
+    }
+  ]
+}</code></pre><h2 id="top-performance-of-jina-reranker">Top Performance of Jina Reranker</h2><p>We evaluated Jina Reranker on four key benchmarks to ensure top-tier performance and search relevance. Higher performance in these benchmarks directly translates to better precision, relevance, and contextual understanding in search and retrieval applications.</p><p>For comparison, we included three other leading rerankers by <a href="https://www.baai.ac.cn/english.html?ref=jina-ai-gmbh.ghost.io">BGE (BAAI)</a>, <a href="https://smartyoudao.com/?ref=jina-ai-gmbh.ghost.io">BCE (Netease Youdao)</a>, and <a href="https://cohere.com/?ref=jina-ai-gmbh.ghost.io">Cohere</a> in the benchmark. As shown by the results below, <strong>Jina Reranker holds the highest average score in all relevant categories for reranking, making it a clear leader among its peers.</strong></p><h3 id="benchmark-1-llamaindex-rag">Benchmark 1: LlamaIndex RAG</h3><p>A <a href="https://blog.llamaindex.ai/boosting-rag-picking-the-best-embedding-reranker-models-42d079022e83?ref=jina-ai-gmbh.ghost.io">benchmark study</a> performed by LlamaIndex (which we reproduced), evaluated <em>a combination</em> of different embedding and reranking models in RAG tasks. This combines two scores - <em>Hit-rate</em> (how likely it is that a relevant document is retrieved by an embedding model), and <em>Mean Reciprocal Rank</em> (MRR - how high the most relevant document is ranked by the reranker model).</p>
+<!--kg-card-begin: html-->
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-mwxe{text-align:right;vertical-align:middle}
+.tg .tg-cya3{background-color:#efefef;font-weight:bold;text-align:right;vertical-align:middle}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-cyhs{background-color:#efefef;font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-yla0{font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-zt7h{font-weight:bold;text-align:right;vertical-align:middle}
+.tg .tg-dg4k{background-color:#efefef;text-align:right;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-wa1i"></th>
+    <th class="tg-wa1i" colspan="2">No Reranker</th>
+    <th class="tg-wa1i" colspan="2">jina-reranker</th>
+    <th class="tg-wa1i" colspan="2">bge-reranker-base</th>
+    <th class="tg-wa1i" colspan="2">bce-reranker-base_v1</th>
+    <th class="tg-wa1i" colspan="2">cohere-reranker</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-yla0">Embedding model</td>
+    <td class="tg-mwxe">Hit Rate</td>
+    <td class="tg-mwxe">MRR</td>
+    <td class="tg-mwxe">Hit Rate</td>
+    <td class="tg-mwxe">MRR</td>
+    <td class="tg-mwxe">Hit Rate</td>
+    <td class="tg-mwxe">MRR</td>
+    <td class="tg-mwxe">Hit Rate</td>
+    <td class="tg-mwxe">MRR</td>
+    <td class="tg-mwxe">Hit Rate</td>
+    <td class="tg-mwxe">MRR</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">jina-embeddings-v2-base-en</td>
+    <td class="tg-mwxe">0.8053</td>
+    <td class="tg-mwxe">0.5156</td>
+    <td class="tg-mwxe">0.8737</td>
+    <td class="tg-zt7h">0.7229</td>
+    <td class="tg-mwxe">0.8368</td>
+    <td class="tg-mwxe">0.6568</td>
+    <td class="tg-mwxe">0.8737</td>
+    <td class="tg-mwxe">0.7007</td>
+    <td class="tg-zt7h">0.8842</td>
+    <td class="tg-mwxe">0.7008</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">bge-base-en-v1.5</td>
+    <td class="tg-mwxe">0.7842</td>
+    <td class="tg-mwxe">0.5183</td>
+    <td class="tg-zt7h">0.8368</td>
+    <td class="tg-zt7h">0.6895</td>
+    <td class="tg-mwxe">0.8158</td>
+    <td class="tg-mwxe">0.6586</td>
+    <td class="tg-mwxe">0.8316</td>
+    <td class="tg-mwxe">0.6843</td>
+    <td class="tg-mwxe">0.8368</td>
+    <td class="tg-mwxe">0.6739</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">bce-embedding-base_v1</td>
+    <td class="tg-mwxe">0.8526</td>
+    <td class="tg-mwxe">0.5988</td>
+    <td class="tg-mwxe">0.8895</td>
+    <td class="tg-mwxe">0.7346</td>
+    <td class="tg-mwxe">0.8684</td>
+    <td class="tg-mwxe">0.6927</td>
+    <td class="tg-mwxe">0.9157</td>
+    <td class="tg-zt7h">0.7379</td>
+    <td class="tg-zt7h">0.9158</td>
+    <td class="tg-mwxe">0.7296</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">CohereV3-en</td>
+    <td class="tg-mwxe">0.7211</td>
+    <td class="tg-mwxe">0.4900</td>
+    <td class="tg-mwxe">0.8211</td>
+    <td class="tg-zt7h">0.6894</td>
+    <td class="tg-mwxe">0.8000</td>
+    <td class="tg-mwxe">0.6285</td>
+    <td class="tg-mwxe">0.8263</td>
+    <td class="tg-mwxe">0.6855</td>
+    <td class="tg-zt7h">0.8316</td>
+    <td class="tg-mwxe">0.6710</td>
+  </tr>
+  <tr>
+    <td class="tg-cyhs">Average</td>
+    <td class="tg-dg4k">0.7908</td>
+    <td class="tg-dg4k">0.5307</td>
+    <td class="tg-dg4k">0.8553</td>
+    <td class="tg-cya3">0.7091</td>
+    <td class="tg-dg4k">0.8303</td>
+    <td class="tg-dg4k">0.6592</td>
+    <td class="tg-dg4k">0.8618</td>
+    <td class="tg-dg4k">0.7021</td>
+    <td class="tg-cya3">0.8671</td>
+    <td class="tg-dg4k">0.6938</td>
+  </tr>
+</tbody>
+</table>
+<!--kg-card-end: html-->
+<h4 id="substantial-improvement-over-simple-cosine-similarity">Substantial Improvement Over Simple Cosine Similarity</h4><p>The improvement Jina Reranker brings to both Hit Rate and Mean Reciprocal Rank (MRR) is significant. On average, the introduction of Jina Reranker elevates the Hit Rate from 0.7908 to 0.8553 (+7.9%), and the MRR from 0.5307 to 0.7091 (+33.7%). This showcases the reranker&#x2019;s ability to enhance the precision and relevance of search results dramatically, ensuring that users are more likely to find what they&apos;re searching for with higher accuracy.</p><h4 id="embeddings-agnosticism">Embeddings Agnosticism</h4><p>Jina Reranker&apos;s performance across different embedding models further illustrates its model-agnostic nature. Whether paired with <code>jina-embeddings-v2-base-en</code>, <code>bge-base-en-v1.5</code>, <code>bce-embedding-base_v1</code>, or <code>CohereV3-en</code>, Jina Reranker consistently improves the Hit Rate and MRR. This versatility makes it an invaluable tool for a wide range of applications, affirming its adaptability to different underlying technologies and use cases.</p><h3 id="benchmark-2-beir">Benchmark 2: BEIR</h3><p><a href="https://github.com/beir-cellar/beir?ref=jina-ai-gmbh.ghost.io">BIER (Benchmarking IR)</a> assesses a model&apos;s retrieval effectiveness, including relevance and <a href="https://towardsdatascience.com/normalized-discounted-cumulative-gain-37e6f75090e9?ref=jina-ai-gmbh.ghost.io">NDCG</a>. A higher BIER score correlates to more accurate matches and search result rankings.</p>
+<!--kg-card-begin: html-->
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-mwxe{text-align:right;vertical-align:middle}
+.tg .tg-cya3{background-color:#efefef;font-weight:bold;text-align:right;vertical-align:middle}
+.tg .tg-yla0{font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-zt7h{font-weight:bold;text-align:right;vertical-align:middle}
+.tg .tg-gg7l{background-color:#efefef;text-align:left;vertical-align:middle}
+.tg .tg-dg4k{background-color:#efefef;text-align:right;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-yla0">Dataset</th>
+    <th class="tg-zt7h">jina-reranker</th>
+    <th class="tg-zt7h">bge-reranker-base</th>
+    <th class="tg-zt7h">bce-reranker-base-v1</th>
+    <th class="tg-zt7h">cohere-rerank-english-v2.0</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-cly1">NQ</td>
+    <td class="tg-mwxe">0.5951</td>
+    <td class="tg-mwxe">0.5457</td>
+    <td class="tg-mwxe">0.5186</td>
+    <td class="tg-zt7h">0.6004</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">HotpotQA</td>
+    <td class="tg-zt7h">0.7447</td>
+    <td class="tg-mwxe">0.7766</td>
+    <td class="tg-mwxe">0.7392</td>
+    <td class="tg-mwxe">0.7202</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">FiQA-2018</td>
+    <td class="tg-mwxe">0.3981</td>
+    <td class="tg-mwxe">0.3228</td>
+    <td class="tg-mwxe">0.3262</td>
+    <td class="tg-zt7h">0.4387</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">CQADupstack</td>
+    <td class="tg-zt7h">0.4077</td>
+    <td class="tg-mwxe">0.3516</td>
+    <td class="tg-mwxe">0.3594</td>
+    <td class="tg-mwxe">0.3829</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">Quora</td>
+    <td class="tg-zt7h">0.8792</td>
+    <td class="tg-mwxe">0.7001</td>
+    <td class="tg-mwxe">0.8390</td>
+    <td class="tg-mwxe">0.6433</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">FEVER</td>
+    <td class="tg-mwxe">0.8707</td>
+    <td class="tg-zt7h">0.8961</td>
+    <td class="tg-mwxe">0.7203</td>
+    <td class="tg-mwxe">0.8265</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">Climate-FEVER</td>
+    <td class="tg-mwxe">0.2570</td>
+    <td class="tg-zt7h">0.3399</td>
+    <td class="tg-mwxe">0.2171</td>
+    <td class="tg-mwxe">0.2038</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">TREC-COVID</td>
+    <td class="tg-zt7h">0.8523</td>
+    <td class="tg-mwxe">0.7121</td>
+    <td class="tg-mwxe">0.7364</td>
+    <td class="tg-mwxe">0.8419</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">NFCorpus</td>
+    <td class="tg-zt7h">0.3809</td>
+    <td class="tg-mwxe">0.3308</td>
+    <td class="tg-mwxe">0.3534</td>
+    <td class="tg-mwxe">0.3673</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">ArguAna</td>
+    <td class="tg-zt7h">0.5938</td>
+    <td class="tg-mwxe">0.2620</td>
+    <td class="tg-mwxe">0.3856</td>
+    <td class="tg-mwxe">0.3040</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">Touche-2020</td>
+    <td class="tg-zt7h">0.3065</td>
+    <td class="tg-mwxe">0.2965</td>
+    <td class="tg-mwxe">0.2533</td>
+    <td class="tg-mwxe">0.3052</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">DBPedia</td>
+    <td class="tg-zt7h">0.4387</td>
+    <td class="tg-mwxe">0.4196</td>
+    <td class="tg-mwxe">0.4069</td>
+    <td class="tg-mwxe">0.4236</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">SciFact</td>
+    <td class="tg-zt7h">0.7549</td>
+    <td class="tg-mwxe">0.7104</td>
+    <td class="tg-mwxe">0.7021</td>
+    <td class="tg-mwxe">0.7379</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">SCIDOCS</td>
+    <td class="tg-zt7h">0.1983</td>
+    <td class="tg-mwxe">0.1540</td>
+    <td class="tg-mwxe">0.1802</td>
+    <td class="tg-mwxe">0.1813</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">MSMarco</td>
+    <td class="tg-mwxe">0.7042</td>
+    <td class="tg-mwxe">0.7303</td>
+    <td class="tg-mwxe">0.7155</td>
+    <td class="tg-zt7h">0.7350</td>
+  </tr>
+  <tr>
+    <td class="tg-gg7l">Average</td>
+    <td class="tg-cya3">0.5588</td>
+    <td class="tg-dg4k">0.5032</td>
+    <td class="tg-dg4k">0.4969</td>
+    <td class="tg-dg4k">0.5141</td>
+  </tr>
+</tbody>
+</table>
+<!--kg-card-end: html-->
+<h3 id="benchmark-3-mteb">Benchmark 3: MTEB</h3><p>The <a href="https://huggingface.co/blog/mteb?ref=jina-ai-gmbh.ghost.io">MTEB (Multilingual Text Embedding Benchmark)</a>, on the whole, tests a model&#x2019;s abilities in text embeddings, including clustering, classification, retrieval, and other metrics. However, for our comparison, we only used the MTEB&#x2019;s <em>Reranking</em> tasks.</p>
+<!--kg-card-begin: html-->
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-mwxe{text-align:right;vertical-align:middle}
+.tg .tg-cya3{background-color:#efefef;font-weight:bold;text-align:right;vertical-align:middle}
+.tg .tg-yla0{font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-zt7h{font-weight:bold;text-align:right;vertical-align:middle}
+.tg .tg-gg7l{background-color:#efefef;text-align:left;vertical-align:middle}
+.tg .tg-dg4k{background-color:#efefef;text-align:right;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-yla0">Dataset</th>
+    <th class="tg-zt7h">jina-reranker</th>
+    <th class="tg-zt7h">bge-reranker-base</th>
+    <th class="tg-zt7h">bce-reranker-base-v1</th>
+    <th class="tg-zt7h">cohere-rerank-english-v2.0</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-cly1">AskUbuntuDupQuestions</td>
+    <td class="tg-zt7h">0.5793</td>
+    <td class="tg-mwxe">0.5471</td>
+    <td class="tg-mwxe">0.5654</td>
+    <td class="tg-mwxe">0.5536</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">SciDocsRR</td>
+    <td class="tg-zt7h">0.8056</td>
+    <td class="tg-mwxe">0.6741</td>
+    <td class="tg-mwxe">0.7578</td>
+    <td class="tg-mwxe">0.6728</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">StackOverflowDupQuestions</td>
+    <td class="tg-zt7h">0.4850</td>
+    <td class="tg-mwxe">0.3764</td>
+    <td class="tg-mwxe">0.4287</td>
+    <td class="tg-mwxe">0.4414</td>
+  </tr>
+  <tr>
+    <td class="tg-gg7l">Average</td>
+    <td class="tg-cya3">0.6233</td>
+    <td class="tg-dg4k">0.5325</td>
+    <td class="tg-dg4k">0.5840</td>
+    <td class="tg-dg4k">0.5559</td>
+  </tr>
+</tbody>
+</table>
+<!--kg-card-end: html-->
+<h3 id="benchmark-4-loco">Benchmark 4: LoCo</h3><p>Through the <a href="https://hazyresearch.stanford.edu/blog/2024-01-11-m2-bert-retrieval?ref=jina-ai-gmbh.ghost.io">LoCo benchmark</a>, we measured a model&apos;s understanding of local coherence and context, together with query-specific ranking. A LoCo higher score reflects a better ability to identify and prioritize relevant information.</p>
+<!--kg-card-begin: html-->
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-mwxe{text-align:right;vertical-align:middle}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-yla0{font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-gg7l{background-color:#efefef;text-align:left;vertical-align:middle}
+.tg .tg-dg4k{background-color:#efefef;text-align:right;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-yla0">Dataset</th>
+    <th class="tg-wa1i">jina-reranker</th>
+    <th class="tg-wa1i">bge-reranker-base</th>
+    <th class="tg-wa1i">bce-reranker-base-v1</th>
+    <th class="tg-wa1i">cohere-rerank-english-v2.0</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-cly1">qasper_None_abstract</td>
+    <td class="tg-mwxe">0.996</td>
+    <td class="tg-mwxe">0.774</td>
+    <td class="tg-mwxe">0.989</td>
+    <td class="tg-mwxe">0.919</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">qasper_None_title</td>
+    <td class="tg-mwxe">0.980</td>
+    <td class="tg-mwxe">0.883</td>
+    <td class="tg-mwxe">0.971</td>
+    <td class="tg-mwxe">0.983</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">scrolls_gov_report_output</td>
+    <td class="tg-mwxe">0.962</td>
+    <td class="tg-mwxe">0.574</td>
+    <td class="tg-mwxe">0.922</td>
+    <td class="tg-mwxe">0.659</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">scrolls_qmsum_output</td>
+    <td class="tg-mwxe">0.466</td>
+    <td class="tg-mwxe">0.549</td>
+    <td class="tg-mwxe">0.449</td>
+    <td class="tg-mwxe">0.444</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">scrolls_summ_screen_fd_output</td>
+    <td class="tg-mwxe">0.962</td>
+    <td class="tg-mwxe">0.629</td>
+    <td class="tg-mwxe">0.920</td>
+    <td class="tg-mwxe">0.905</td>
+  </tr>
+  <tr>
+    <td class="tg-gg7l">Average</td>
+    <td class="tg-dg4k">0.873</td>
+    <td class="tg-dg4k">0.682</td>
+    <td class="tg-dg4k">0.850</td>
+    <td class="tg-dg4k">0.782</td>
+  </tr>
+</tbody>
+</table>
+<!--kg-card-end: html-->
+<h2 id="jina-reranker-model-highlights">Jina Reranker Model Highlights</h2><p>The Jina Reranker distinguishes itself as a leader in the reranking domain, outperforming key competitors from Cohere, BGE, and BCE, as illustrated in the previous analysis. Its embedding-agnostic nature and unmatched efficacy underscore its premier status in the industry. Furthermore, Jina Reranker boasts notable features that set it apart:</p><h3 id="long-context-length">Long Context Length</h3><p>Jina Reranker stands out from other reranking solutions by accommodating long context lengths. It is capable of handling queries up to 512 tokens and documents as large as 8192 tokens. Furthermore, the model is designed to process up to 2048 candidate documents for each query.</p>
+<!--kg-card-begin: html-->
+<table>
+<thead>
+  <tr>
+    <th>Time cost of rerank(query=1, docs=100) in ms</th>
+    <th colspan="5">#TokensPerDocument</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>#QueryTokens</td>
+    <td>256</td>
+    <td>512</td>
+    <td>1024</td>
+    <td>2048</td>
+    <td>4096</td>
+  </tr>
+  <tr>
+    <td>64</td>
+    <td>156</td>
+    <td>323</td>
+    <td>1366</td>
+    <td>2107</td>
+    <td>3571</td>
+  </tr>
+  <tr>
+    <td>128</td>
+    <td>194</td>
+    <td>369</td>
+    <td>1377</td>
+    <td>2123</td>
+    <td>3598</td>
+  </tr>
+  <tr>
+    <td>256</td>
+    <td>273</td>
+    <td>475</td>
+    <td>1397</td>
+    <td>2155</td>
+    <td>4299</td>
+  </tr>
+  <tr>
+    <td>512</td>
+    <td>468</td>
+    <td>1385</td>
+    <td>2114</td>
+    <td>3536</td>
+    <td>7068</td>
+  </tr>
+</tbody>
+</table>
+<!--kg-card-end: html-->
+<h3 id="enhancing-accuracy-with-rag-integration">Enhancing Accuracy with RAG Integration</h3><p>Retrieval Augmented Generation (RAG) significantly enhances the precision of responses from large language models (LLMs) by incorporating additional, context-specific information&#x2014;such as a company&apos;s internal database&#x2014;into the query process. This method ensures the LLM&apos;s responses are firmly based on provided contextual data. The integration of rerankers with RAG within an information retrieval pipeline paves the way for the development of high-performance applications capable of delivering precise information retrieval across a vast array of domains.</p><p>Consider, for example, the scenario where you&apos;re planning to cook a special meal using specific ingredients favored by your guests. To simplify this task, you decide to employ a chatbot that suggests recipes based on renowned cookbooks. Initially, without a reranker, your input might look something like this:</p><pre><code class="language-text">Context information is below.
+---------------------
+{Madhur_Jaffrey_An_Invitation_To_Indian_Cooking}
+{Julia_Child_Mastering_The_Art_Of_French_Cooking}
+{Jiro_Ono_Sushi_Estetica_E_Tecnica}
+---------------------
+
+Given the context information and no prior knowledge, answer the query.
+Query: Create a recipe using the ingredients below.
+---------------------
+Salmon
+Asparagus
+Potatoes
+---------------------
+</code></pre><p>Incorporating a reranker model, however, allows for a nuanced understanding of document relevance, enhancing the LLM&apos;s context with information about the relative importance of each cookbook. The refined input, highlighting the ranked relevance of the context to the query, might then appear as follows:</p><pre><code class="language-text">Context information is below.
+Note that the context is ranked from most to least relevant to the query.
+---------------------
+{Julia_Child_Mastering_The_Art_Of_French_Cooking}
+{Jiro_Ono_Sushi_Estetica_E_Tecnica}
+{Madhur_Jaffrey_An_Invitation_To_Indian_Cooking}
+---------------------
+
+Given the context information and no prior knowledge, answer the query.
+Query: Create a recipe using the ingredients below.
+---------------------
+Salmon
+Asparagus
+Potatoes
+---------------------
+</code></pre><p>This additional layer of insight into the cookbooks&apos; relevance to the given ingredients makes it evident that the optimal recipe likely falls within French cuisine, steering the chatbot&apos;s suggestion in a direction that best matches the ingredients&apos; culinary context. Without reranking, a suggestion based on sushi could have been equally plausible given the prominence of salmon, yet it would have led to a markedly different dining experience.</p><p>Moreover, by determining the number of documents to be considered in the ranking process, users can fine-tune the operation&apos;s precision and computational demands to suit their specific requirements, further illustrating the reranker&apos;s versatility and effectiveness.</p><h3 id="affordable-api-pricing">Affordable API pricing</h3><p>Jina Reranker API comes with identical pricing to our embedding API (including 1 million free trial), such as <code>jina-embeddings-v2-base-en</code> , based on the total number of tokens, in queries and documents. Token quotas can be bought on <a href="https://jina.ai/embeddings/?ref=jina-ai-gmbh.ghost.io">our Embeddings/Reranker API page</a>. The API secret and token quotas can be used for both reranker and embedding APIs.</p><h2 id="coming-soon-to-aws-marketplace">Coming Soon to AWS Marketplace</h2><p>Expanding our reach, Jina Reranker will not only be accessible via our API but is also set to debut on the <a href="https://aws.amazon.com/marketplace/seller-profile?id=seller-stch2ludm6vgy&amp;ref=jina-ai-gmbh.ghost.io">AWS SageMaker Marketplace</a> for seamless private cloud deployment. This upcoming availability aims to offer enhanced data protection and application security within the familiar confines of your AWS cloud subscription.</p><p>We highly value your insights and experiences with Jina Reranker. Talk to us on our <a href="https://discord.jina.ai/?ref=jina-ai-gmbh.ghost.io">Discord channel</a> to share your feedback and stay up-to-date with our latest models. Your input is crucial as we continue to refine our technologies and contribute to a more dynamic and inclusive search AI ecosystem.</p>]]></content:encoded></item><item><title><![CDATA[Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning]]></title><description><![CDATA[Our new paper explores how our Spanish-English and German-English models use multi-task contrastive learning and a sophisticated data pipeline to master language understanding and cross-lingual efficiency for texts up to 8192 tokens]]></description><link>https://jina.ai/news/revolutionizing-bilingual-text-embeddings-with-multi-task-contrastive-learning/</link><guid isPermaLink="false">65df105ab22368000152a1b9</guid><category><![CDATA[Press]]></category><dc:creator><![CDATA[Jina AI]]></dc:creator><pubDate>Wed, 28 Feb 2024 15:00:41 GMT</pubDate><media:content url="https://jina-ai-gmbh.ghost.io/content/images/2024/02/banner-4models-02.png" medium="image"/><content:encoded><![CDATA[<img src="https://jina-ai-gmbh.ghost.io/content/images/2024/02/banner-4models-02.png" alt="Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning"><p>In our recent paper, <a href="https://arxiv.org/abs/2402.17016?ref=jina-ai-gmbh.ghost.io">Multi-Task Contrastive Learning for 8192-Token Bilingual Text Embeddings</a>, we detailed our development of <a href="https://jina.ai/news/ich-bin-ein-berliner-german-english-bilingual-embeddings-with-8k-token-length/?ref=jina-ai-gmbh.ghost.io">German-English</a> and <a href="https://jina.ai/news/aqui-se-habla-espanol-top-quality-spanish-english-embeddings-and-8k-context?ref=jina-ai-gmbh.ghost.io">Spanish-English</a> bilingual text embedding models.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://arxiv.org/abs/2402.17016?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Multi-Task Contrastive Learning for 8192-Token Bilingual Text Embeddings</div><div class="kg-bookmark-description">We introduce a novel suite of state-of-the-art bilingual text embedding models that are designed to support English and another target language. These models are capable of processing lengthy text inputs with up to 8192 tokens, making them highly versatile for a range of natural language processing tasks such as text retrieval, clustering, and semantic textual similarity (STS) calculations. By focusing on bilingual models and introducing a unique multi-task learning objective, we have significantly improved the model performance on STS tasks, which outperforms the capabilities of existing multilingual models in both target language understanding and cross-lingual evaluation tasks. Moreover, our bilingual models are more efficient, requiring fewer parameters and less memory due to their smaller vocabulary needs. Furthermore, we have expanded the Massive Text Embedding Benchmark (MTEB) to include benchmarks for German and Spanish embedding models. This integration aims to stimulate further research and advancement in text embedding technologies for these languages.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png" alt="Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning"><span class="kg-bookmark-author">arXiv.org</span><span class="kg-bookmark-publisher">Isabelle Mohr</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning"></div></a></figure><p>Our approach utilizes multi-task contrastive learning and advanced data curation pipeline, focusing on bilingual capabilities while extending to support 8192 tokens in length. This method allows our models to excel in understanding target languages and in conducting cross-lingual evaluations efficiently.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://jina.ai/news/aqui-se-habla-espanol-top-quality-spanish-english-embeddings-and-8k-context?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Aqu&#xED; Se Habla Espa&#xF1;ol: Top-Quality Spanish-English Embeddings and 8k Context</div><div class="kg-bookmark-description">Jina AI&#x2019;s new bilingual Spanish-English embedding model brings the state-of-the-art in AI to half a billion Spanish speakers.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://jina.ai/icons/favicon-128x128.png" alt="Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning"><span class="kg-bookmark-publisher">GitHub</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://jina-ai-gmbh.ghost.io/content/images/2024/02/1334.png" alt="Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning"></div></a></figure><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://jina.ai/news/ich-bin-ein-berliner-german-english-bilingual-embeddings-with-8k-token-length?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Ich bin ein Berliner: German-English Bilingual Embeddings with 8K Token Length</div><div class="kg-bookmark-description">Jina AI introduces a German/English bilingual embedding model, featuring an extensive 8,192-token length, specifically designed to support German businesses thriving in the U.S. market.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://jina.ai/icons/favicon-128x128.png" alt="Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning"><span class="kg-bookmark-publisher">GitHub</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://jina-ai-gmbh.ghost.io/content/images/2024/01/Explore-image-storytelling-beyond-pixels--33-.png" alt="Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning"></div></a></figure><p>In addition to the bilingual models covered in the paper, we have also developed bilingual <a href="https://jina.ai/news/8k-token-length-bilingual-embeddings-break-language-barriers-in-chinese-and-english?ref=jina-ai-gmbh.ghost.io">Chinese-English</a> and <a href="https://jina.ai/news/jina-ai-launches-worlds-first-open-source-8k-text-embedding-rivaling-openai?ref=jina-ai-gmbh.ghost.io" rel="noreferrer">monolingual English</a> models. These additions showcase our commitment to covering a broad spectrum of linguistic needs and furthering our capabilities in language processing.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://jina.ai/news/8k-token-length-bilingual-embeddings-break-language-barriers-in-chinese-and-english?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">8K Token-Length Bilingual Embeddings Break Language Barriers in Chinese and English</div><div class="kg-bookmark-description">The first bilingual Chinese-English embedding model with 8192 token-length.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://jina.ai/icons/favicon-128x128.png" alt="Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning"><span class="kg-bookmark-publisher">Discord</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://jina-ai-gmbh.ghost.io/content/images/2024/01/jina-embeddings-v2-base-zh.png" alt="Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning"></div></a></figure><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://jina.ai/news/jina-ai-launches-worlds-first-open-source-8k-text-embedding-rivaling-openai?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Jina AI Launches World&#x2019;s First Open-Source 8K Text Embedding, Rivaling OpenAI</div><div class="kg-bookmark-description">Jina AI introduces jina-embeddings-v2, the world&#x2019;s first open-source model boasting an 8K context length. Matching the prowess of OpenAI&#x2019;s proprietary models, this innovation is now publicly accessible on Huggingface, signaling a significant milestone in the landscape of text embeddings.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://jina.ai/icons/favicon-128x128.png" alt="Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning"></div></div><div class="kg-bookmark-thumbnail"><img src="https://jina-ai-gmbh.ghost.io/content/images/2023/10/Explore-image-storytelling-beyond-pixels--11-.png" alt="Revolutionizing Bilingual Text Embeddings with Multi-Task Contrastive Learning"></div></a></figure><p>Our bilingual models are characterized by their efficiency, operating with optimized vocabulary sizes to require fewer parameters and less memory. This efficiency underscores our dedication to creating powerful yet resource-efficient tools for language processing.</p><p>Following the release of our paper, we expanded the <a href="https://huggingface.co/spaces/mteb/leaderboard?ref=jina-ai-gmbh.ghost.io">Massive Text Embedding Benchmark (MTEB)</a> to include benchmarks for our English-German and English-Spanish embedding models. This expansion is part of our effort to stimulate further research and advancements in text embedding technologies for non-English languages.</p><p>At Jina AI, our aim is to enhance the processing and understanding of multiple languages, contributing to the NLP field with our developments in bilingual and monolingual text embedding models.</p>]]></content:encoded></item><item><title><![CDATA[Jina 3.23.4 Update]]></title><description><![CDATA[Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.]]></description><link>https://jina.ai/news/jina-3-23-4-update/</link><guid isPermaLink="false">65ddb23939a5b70001810ef5</guid><category><![CDATA[Releases]]></category><dc:creator><![CDATA[Engineering Group]]></dc:creator><pubDate>Tue, 27 Feb 2024 10:01:33 GMT</pubDate><media:content url="https://jina-ai-gmbh.ghost.io/content/images/2024/02/Image-Jina-dark-1-1.jpg" medium="image"/><content:encoded><![CDATA[<h2 id="release-note-3234">Release Note (<code>3.23.4</code>)</h2><img src="https://jina-ai-gmbh.ghost.io/content/images/2024/02/Image-Jina-dark-1-1.jpg" alt="Jina 3.23.4 Update"><p>This release contains 1 bug fix.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://github.com/jina-ai/jina/releases/tag/v3.23.4?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Release &#x1F4AB; Patch v3.23.4 &#xB7; jina-ai/jina</div><div class="kg-bookmark-description">Release Note (3.23.4) Release time: 2024-02-27 09:36:35 This release contains 1 bug fix.
 &#x1F41E; Bug Fixes
 Use unbound method to link to dry_run endpoint (#6143)
 In prior releases, to assess Flow conne&#x2026;</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg" alt="Jina 3.23.4 Update"><span class="kg-bookmark-author">GitHub</span><span class="kg-bookmark-publisher">jina-ai</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://opengraph.githubassets.com/b7615b0bbc1b3d94939b1085aaeac93489f7338634868cf0d42e2cbea2750690/jina-ai/jina/releases/tag/v3.23.4" alt="Jina 3.23.4 Update"></div></a></figure><h2 id="%F0%9F%90%9E-bug-fixes">&#x1F41E; Bug Fixes</h2><h3 id="use-unbound-method-to-link-to-dryrun-endpoint-6143">Use unbound method to link to <code>dry_run</code> endpoint (<a href="https://github.com/jina-ai/jina/pull/6143?ref=jina-ai-gmbh.ghost.io">#6143</a>)</h3><p>In prior releases, to assess Flow connectivity Jina automatically bound an Executor to a <code>_dry_run_</code> endpoint via an object method. This release changes that to a class-unbound method, thus avoiding a cyclic reference in the inner <code>requests</code> object of the <code>Executor</code>.</p><h2 id="%F0%9F%A4%9F-contributors">&#x1F91F; Contributors</h2><p>We would like to thank all contributors to this release:</p><ul><li>Joan Fontanals (<a href="https://github.com/JoanFM?ref=jina-ai-gmbh.ghost.io">@JoanFM</a>)</li></ul>]]></content:encoded></item><item><title><![CDATA[What is ColBERT and Late Interaction and Why They Matter in Search?]]></title><description><![CDATA[Jina AI's ColBERT on Hugging Face has set Twitter abuzz, bringing a fresh perspective to search with its 8192-token capability. This article unpacks the nuances of ColBERT and ColBERTv2, showcasing their innovative designs and why their late interaction feature is a game-changer for search.]]></description><link>https://jina.ai/news/what-is-colbert-and-late-interaction-and-why-they-matter-in-search/</link><guid isPermaLink="false">65d3a2134a32310001f5b71b</guid><category><![CDATA[Tech Blog]]></category><dc:creator><![CDATA[Han Xiao]]></dc:creator><pubDate>Tue, 20 Feb 2024 01:19:04 GMT</pubDate><media:content url="https://jina-ai-gmbh.ghost.io/content/images/2024/02/Untitled-design--28-.png" medium="image"/><content:encoded><![CDATA[<img src="https://jina-ai-gmbh.ghost.io/content/images/2024/02/Untitled-design--28-.png" alt="What is ColBERT and Late Interaction and Why They Matter in Search?"><p>Last Friday, the release of the <a href="https://huggingface.co/jinaai/jina-colbert-v1-en?ref=jina-ai-gmbh.ghost.io">ColBERT model by Jina AI on Hugging Face</a> sparked significant excitement across the AI community, particularly on Twitter/X. While many are familiar with the groundbreaking BERT model, the buzz around ColBERT has left some wondering: What makes ColBERT stand out in the crowded field of information retrieval technologies? Why the AI community is excited about 8192-length ColBERT? This article delves into the intricacies of ColBERT and ColBERTv2, highlighting their design, improvements, and the surprising effectiveness of ColBERT&apos;s late interaction.</p><figure class="kg-card kg-embed-card"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Introducing jina-colbert-v1-en. It takes late interactions &amp; token-level embeddings of ColBERTv2 and has better zero-shot performance on many tasks (in and out-of-domain). Now on <a href="https://twitter.com/huggingface?ref_src=twsrc%5Etfw&amp;ref=jina-ai-gmbh.ghost.io">@huggingface</a> under Apache 2.0 licence<a href="https://t.co/snVGgI753H?ref=jina-ai-gmbh.ghost.io">https://t.co/snVGgI753H</a></p>&#x2014; Jina AI (@JinaAI_) <a href="https://twitter.com/JinaAI_/status/1758503072999907825?ref_src=twsrc%5Etfw&amp;ref=jina-ai-gmbh.ghost.io">February 16, 2024</a></blockquote>
@@ -857,4 +1420,4 @@ avg. cosine(A,B): 0.750096
 avg. upper bound: 0.759080
 avg. lower bound: 0.741200
 lower bound satisfied: True
-upper bound satisfied: True</code></pre><figcaption><p><span style="white-space: pre-wrap;">A sample output from our Monte Carlo validator. It&apos;s important to note that the </span><code spellcheck="false" style="white-space: pre-wrap;"><span>lower/upper bound satisfied</span></code><span style="white-space: pre-wrap;"> condition is checked for every vector individually. Meanwhile, the </span><code spellcheck="false" style="white-space: pre-wrap;"><span>avg. lower/upper bound</span></code><span style="white-space: pre-wrap;"> provides a more intuitive overview of the statistics related to these bounds but doesn&apos;t directly influence the validation process.</span></p></figcaption></figure><h2 id="understanding-the-bounds">Understanding the Bounds</h2><p>In a nutshell, when comparing two high-dimensional vectors, the overall similarity lies between the best and worst similarities of their subspaces, adjusted for how large or important those subspaces are in the overall scheme. This is what the bounds for cosine similarity in higher dimensions intuitively represent: the balance between the most and least similar parts, weighted by their relative sizes or importance.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://jina-ai-gmbh.ghost.io/content/images/2024/01/Explore-image-storytelling-beyond-pixels--35-.png" class="kg-image" alt="Does Subspace Cosine Similarity Imply High-Dimensional Cosine Similarity?" loading="lazy" width="1200" height="627" srcset="https://jina-ai-gmbh.ghost.io/content/images/size/w600/2024/01/Explore-image-storytelling-beyond-pixels--35-.png 600w, https://jina-ai-gmbh.ghost.io/content/images/size/w1000/2024/01/Explore-image-storytelling-beyond-pixels--35-.png 1000w, https://jina-ai-gmbh.ghost.io/content/images/2024/01/Explore-image-storytelling-beyond-pixels--35-.png 1200w" sizes="(min-width: 720px) 720px"><figcaption><span style="white-space: pre-wrap;">Each pen has two main components: the body and the cap.</span></figcaption></figure><p>Imagine you&apos;re trying to compare two multi-part objects (let&apos;s say, two fancy pens) based on their overall similarity. Each pen has two main components: the body and the cap. The similarity of the whole pen (both body and cap) is what we&apos;re trying to determine:</p><h3 id="upper-bound-gamma-cdot-s">Upper Bound ($\gamma \cdot s$)</h3><p>Think of $s$ as the best match between corresponding parts of the pens. If the caps are very similar but the bodies aren&apos;t, $s$ is the similarity of the caps.</p><p>Now, $\gamma$ is like a scaling factor based on the size (or importance) of each part. If one pen has a very long body and a short cap, while the other has a short body and a long cap, $\gamma$ adjusts the overall similarity to account for these differences in proportions.</p><p>The upper bound tells us that no matter how similar some parts are, the overall similarity can&apos;t exceed this &quot;best part similarity&quot; scaled by the proportion factor.</p><h3 id="lower-bound-gamma-cdot-t">Lower Bound ($\gamma \cdot t$)</h3><p>Here, $t$ is the similarity of the least matching parts. If the bodies of the pens are quite different but the caps are similar, $t$ reflects the body&apos;s similarity.</p><p>Again, $\gamma$ scales this based on the proportion of each part.</p><p>The lower bound means that the overall similarity can&apos;t be worse than this &quot;worst part similarity&quot; after accounting for the proportion of each part.</p><h2 id="implications-of-the-bounds">Implications of the Bounds</h2><p>For software engineers working with embeddings, vector search, retrieval, or databases, understanding these bounds has practical implications, particularly when dealing with high-dimensional data. Vector search often involves finding the closest (most similar) vectors in a database to a given query vector, typically using cosine similarity as a measure of closeness. The bounds we discussed can provide insights into the effectiveness and limitations of using subspace similarities for such tasks.</p><h3 id="using-subspace-similarity-for-ranking">Using Subspace Similarity for Ranking</h3><p><strong>Safety and Accuracy</strong>: Using subspace similarity for ranking and retrieving top-k results can be effective, but with caution. The upper bound indicates that the overall similarity can&apos;t exceed the maximum similarity of the subspaces. Thus, if a pair of vectors is highly similar in a particular subspace, it&apos;s a strong candidate for being similar in the high-dimensional space.</p><p><strong>Potential Pitfalls</strong>: However, the lower bound suggests that two vectors with low similarity in one subspace could still be quite similar overall. Therefore, relying solely on subspace similarity might miss some relevant results.</p><h3 id="misconceptions-and-cautions">Misconceptions and Cautions</h3><p><strong>Overestimating Subspace Importance</strong>: A common misconception is overestimating the importance of a particular subspace. While high similarity in one subspace is a good indicator, it doesn&apos;t guarantee high overall similarity due to the influence of other subspaces.</p><p><strong>Ignoring Negative Similarities</strong>: In cases where the cosine similarity in a subspace is negative, it indicates an opposing relationship in that dimension. Engineers should be wary of how these negative similarities impact the overall similarity.</p>]]></content:encoded></item><item><title><![CDATA[Using Jina Embeddings v2 with Haystack Pipelines]]></title><description><![CDATA[Access Jina AI's state-of-the-art open-source embedding models in your Haystack application pipeline.]]></description><link>https://jina.ai/news/jina-embeddings-v2-and-deepset-haystack/</link><guid isPermaLink="false">65a916c40bab3100012d2e8c</guid><category><![CDATA[Tech Blog]]></category><dc:creator><![CDATA[Saahil Ognawala]]></dc:creator><pubDate>Fri, 19 Jan 2024 15:00:07 GMT</pubDate><media:content url="https://jina-ai-gmbh.ghost.io/content/images/2024/01/haystack_embeddings.png" medium="image"/><content:encoded><![CDATA[<img src="https://jina-ai-gmbh.ghost.io/content/images/2024/01/haystack_embeddings.png" alt="Using Jina Embeddings v2 with Haystack Pipelines"><p><a href="https://www.deepset.ai/?ref=jina-ai-gmbh.ghost.io" rel="noreferrer">Deepset</a> has integrated <a href="https://jina.ai/embeddings/?ref=jina-ai-gmbh.ghost.io" rel="noreferrer">Jina Embeddings v2</a> into its industry-leading <a href="https://haystack.deepset.ai/?ref=jina-ai-gmbh.ghost.io" rel="noreferrer">Haystack</a> NLP framework. You can now access Jina AI&apos;s state-of-the-art open-source embedding models in your Haystack pipeline.</p><p>We have collaborated with Deepset to bring you a tutorial on using&#xA0;Jina Embeddings v2&#xA0;in Haystack to analyze legal documents. Follow the link below to Deepset&apos;s blog to see how you can create a retrieval-augmented generation (RAG) application using Jina AI&apos;s industry-leading embeddings and Haystack!</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://haystack.deepset.ai/blog/using-jina-embeddings-haystack?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Using Jina Embeddings v2 with Haystack 2.0 pipelines to summarize legal documents | Haystack</div><div class="kg-bookmark-description">Learn how to use the Jina v2 Embedding models in a RAG pipeline with our new Haystack integration.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://haystack.deepset.ai/favicon.ico" alt="Using Jina Embeddings v2 with Haystack Pipelines"><span class="kg-bookmark-author">Haystack</span><span class="kg-bookmark-publisher">Tilde Thurium Senior Developer Advocate</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://haystack.deepset.ai/blog/using-jina-embeddings-haystack/thumbnail.png" alt="Using Jina Embeddings v2 with Haystack Pipelines"></div></a></figure><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://jina.ai/embeddings/?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Embedding API</div><div class="kg-bookmark-description">Top-performing, 8192-token context length, $100 for 1.25B tokens, seamless OpenAI alternative, free trial</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://jina.ai/icons/favicon-128x128.png" alt="Using Jina Embeddings v2 with Haystack Pipelines"></div></div><div class="kg-bookmark-thumbnail"><img src="https://jina.ai/banner-embedding-api.png" alt="Using Jina Embeddings v2 with Haystack Pipelines"></div></a></figure>]]></content:encoded></item><item><title><![CDATA[Ich bin ein Berliner: German-English Bilingual Embeddings with 8K Token Length]]></title><description><![CDATA[Jina AI introduces a German/English bilingual embedding model, featuring an extensive 8,192-token length, specifically designed to support German businesses thriving in the U.S. market.]]></description><link>https://jina.ai/news/ich-bin-ein-berliner-german-english-bilingual-embeddings-with-8k-token-length/</link><guid isPermaLink="false">65a542040bab3100012d2d79</guid><category><![CDATA[Press]]></category><dc:creator><![CDATA[Jina AI]]></dc:creator><pubDate>Mon, 15 Jan 2024 16:28:14 GMT</pubDate><media:content url="https://jina-ai-gmbh.ghost.io/content/images/2024/01/Explore-image-storytelling-beyond-pixels--33-.png" medium="image"/><content:encoded><![CDATA[<img src="https://jina-ai-gmbh.ghost.io/content/images/2024/01/Explore-image-storytelling-beyond-pixels--33-.png" alt="Ich bin ein Berliner: German-English Bilingual Embeddings with 8K Token Length"><p><strong>Berlin, Germany - January 15, 2023</strong>&#xA0;&#x2013; Echoing JFK&apos;s iconic &apos;Ich bin ein Berliner&apos;, at Jina AI we&apos;re thrilled to bridge languages in our own way. Today, we&apos;re proud to announce our latest innovation: <code>jina-embeddings-v2-base-de</code>, a German/English embedding model. This state-of-the-art bilingual model is a significant stride forward in language representation, boasting a context length of <strong>8,192 tokens</strong>. What sets it apart is its remarkable efficiency: it achieves top-tier performance while being <strong>only 1/7th the size</strong> of comparable models.</p><p>Embeddings are crucial for German businesses looking to expand into the U.S. market. According to the <a href="https://www.gaccny.com/en/media/press-releases/news-details/german-american-business-outlook-gabo-2022-companies-in-the-us-remain-profitable?ref=jina-ai-gmbh.ghost.io">German American Business Outlook (GABO) 2022</a>, approximately a third of German companies generate over 20% of their global sales and profits in the U.S., with 93% expecting an increase in U.S. sales&#x200B;&#x200B;. This trend continues as 93% plan to grow their company&apos;s U.S. investments in the next three years, with <a href="https://www.globenewswire.com/news-release/2023/02/09/2604561/0/en/SURVEY-SHOWS-GERMAN-COMPANIES-IN-THE-US-PROFIT-FROM-ROBUST-MARKET-SIZE-AND-CUSTOMER-DEMAND.html?ref=jina-ai-gmbh.ghost.io">85% expecting net sales growth and a significant focus on digital transformation</a>&#x200B;&#x200B;. Good embeddings can play a pivotal role in this expansion by facilitating better understanding of customer preferences, enabling more effective communication, and positioning culturally resonant products.</p><p>Our breakthrough is particularly beneficial for German businesses looking to implement bilingual applications in English-speaking countries. With <code>jina-embeddings-v2-base-de</code>, we&apos;re excited to see how German companies will innovate and thrive in an increasingly connected world.</p><h2 id="model-highlights">Model Highlights</h2><ul><li><strong>State-of-the-art Performance</strong>: <code>jina-embeddings-v2-base-de</code> consistently ranking at the top in relevant benchmarks and leading among open-source models of similar size.</li><li><strong>Bilingual Model:</strong>&#xA0;This model encodes texts in both German and English, allowing the use of either language as the query or target document in retrieval applications. Texts with equivalent meanings in both languages are mapped to the same embedding space, forming the basis for multilingual applications.</li><li><strong>Extended Context</strong>: An 8192-token length enables <code>jina-embeddings-v2-base-de</code> to support longer texts and document fragments, far surpassing models that only support a few hundred tokens at a time.</li><li><strong>Compact Size</strong>: <code>jina-embeddings-v2-base-de</code> is built for high performance on standard computer hardware. With only 161 million parameters, the entire model is 322MB and fits in the memory of commodity computers. The embeddings themselves are 768 dimensions, a relatively small vector size compared to many models, saving space and run-time for applications.</li><li><strong>Bias Minimization</strong>: <a href="https://aclanthology.org/2023.findings-eacl.89.pdf?ref=jina-ai-gmbh.ghost.io">Recent research</a> shows that multilingual models without specific language training show strong biases towards English grammatical structures in embeddings. Embedding models should be about capturing meaning and not favor sentence pairs that are merely superficially similar.</li><li><strong>Seamless Integration</strong>: Jina Embeddings v2 models have native integrations with major vector databases, including <a href="https://www.mongodb.com/developer/products/atlas/jina-ai-semantic-search/?ref=jina-ai-gmbh.ghost.io">MongoDB</a>, <a href="https://qdrant.tech/documentation/embeddings/jina-embeddings/?ref=jina-ai-gmbh.ghost.io">Qdrant</a>, and <a href="https://weaviate.io/developers/weaviate/modules/retriever-vectorizer-modules/text2vec-jinaai?ref=jina-ai-gmbh.ghost.io">Weaviate</a>, as well as RAG and LLM frameworks such as <a href="https://haystack.deepset.ai/integrations/jina?ref=jina-ai-gmbh.ghost.io">Haystack</a> and <a href="https://docs.llamaindex.ai/en/stable/examples/embeddings/jinaai_embeddings.html?ref=jina-ai-gmbh.ghost.io">LlamaIndex</a>.</li></ul><h2 id="leading-performance-in-german-nlp">Leading Performance in German NLP</h2><p>We&apos;ve put <code>jina-embeddings-v2-base-de</code> to the test against four renowned baselines that also support both German and English. These include:</p><ul><li><a href="https://huggingface.co/intfloat/multilingual-e5-large?ref=jina-ai-gmbh.ghost.io">Multilingual-E5-large</a> and <a href="https://huggingface.co/intfloat/multilingual-e5-base?ref=jina-ai-gmbh.ghost.io">Multilingual-E5-base</a> from Microsoft</li><li>T-Systems&#x2019; <a href="https://huggingface.co/T-Systems-onsite/cross-en-de-roberta-sentence-transformer?ref=jina-ai-gmbh.ghost.io">Cross English &amp; German RoBERTa for Sentence Embeddings</a></li><li><a href="https://huggingface.co/sentence-transformers/distiluse-base-multilingual-cased-v2?ref=jina-ai-gmbh.ghost.io">Sentence-BERT</a> (<code>distiluse-base-multilingual-cased-v2</code>)</li></ul><p>Our benchmarks include <a href="https://huggingface.co/mteb?ref=jina-ai-gmbh.ghost.io">the MTEB tasks for English</a> and our own custom benchmark. Given the lack of a comprehensive benchmark suite for German embeddings, we took the initiative to <a href="https://github.com/jina-ai/mteb-de?ref=jina-ai-gmbh.ghost.io">develop our own</a>, inspired by the MTEB. We&apos;re proud to share our findings and breakthroughs with you here.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://github.com/jina-ai/mteb-de?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">GitHub - jina-ai/mteb-de: MTEB: Massive Text Embedding Benchmark</div><div class="kg-bookmark-description">MTEB: Massive Text Embedding Benchmark. Contribute to jina-ai/mteb-de development by creating an account on GitHub.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg" alt="Ich bin ein Berliner: German-English Bilingual Embeddings with 8K Token Length"><span class="kg-bookmark-author">GitHub</span><span class="kg-bookmark-publisher">jina-ai</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://opengraph.githubassets.com/a1d1679b83d58c1685db0d4d12d6bb6360edfe08fb0c4a9ebda71b57379853f3/jina-ai/mteb-de" alt="Ich bin ein Berliner: German-English Bilingual Embeddings with 8K Token Length"></div></a></figure><figure class="kg-card kg-image-card kg-width-wide"><img src="https://jina-ai-gmbh.ghost.io/content/images/2024/01/image-4.png" class="kg-image" alt="Ich bin ein Berliner: German-English Bilingual Embeddings with 8K Token Length" loading="lazy" width="1310" height="925" srcset="https://jina-ai-gmbh.ghost.io/content/images/size/w600/2024/01/image-4.png 600w, https://jina-ai-gmbh.ghost.io/content/images/size/w1000/2024/01/image-4.png 1000w, https://jina-ai-gmbh.ghost.io/content/images/2024/01/image-4.png 1310w" sizes="(min-width: 1200px) 1200px"></figure><h3 id="compact-size-superior-results">Compact Size, Superior Results</h3><p><code>jina-embeddings-v2-base-de</code> demonstrates exceptional performance, especially in German language tasks. It outshines the E5 base model while being less than a third of its size. Moreover, it stands toe-to-toe with the E5 large model, which is seven times larger, showcasing its efficiency and power. This efficiency makes <code>jina-embeddings-v2-base-de</code> a game-changer, particularly when compared to other popular bi- and multilingual embedding models.</p><h3 id="excelling-in-german-english-cross-language-retrieval">Excelling in German-English Cross-Language Retrieval</h3><p>Our model isn&apos;t just about size and efficiency; it&apos;s also a top performer in English-German cross-language retrieval tasks. This is evident in its performance in various key benchmarks:</p><ul><li><a href="https://www.cl.uni-heidelberg.de/statnlpgroup/wikiclir/?ref=jina-ai-gmbh.ghost.io">WikiCLIR</a>, for English to German retrieval</li><li><a href="https://huggingface.co/datasets/mteb/sts17-crosslingual-sts?ref=jina-ai-gmbh.ghost.io">STS17</a>, part of the MTEB evaluation for English to German retrieval</li><li><a href="https://huggingface.co/datasets/mteb/sts22-crosslingual-sts?ref=jina-ai-gmbh.ghost.io">STS22</a>, for German to English retrieval, also part of MTEB</li><li><a href="https://huggingface.co/datasets/mteb/bucc-bitext-mining?ref=jina-ai-gmbh.ghost.io">BUCC</a>, for German to English retrieval, included in MTEB</li></ul><p>The performance in these benchmarks, particularly in the MTEB evaluation tests (with the exception of WikiCLIR), underscores the effectiveness of <code>jina-embeddings-v2-base-de</code> in handling complex bilingual tasks.</p><figure class="kg-card kg-image-card kg-width-wide"><img src="https://jina-ai-gmbh.ghost.io/content/images/2024/01/image-6.png" class="kg-image" alt="Ich bin ein Berliner: German-English Bilingual Embeddings with 8K Token Length" loading="lazy" width="1275" height="625" srcset="https://jina-ai-gmbh.ghost.io/content/images/size/w600/2024/01/image-6.png 600w, https://jina-ai-gmbh.ghost.io/content/images/size/w1000/2024/01/image-6.png 1000w, https://jina-ai-gmbh.ghost.io/content/images/2024/01/image-6.png 1275w" sizes="(min-width: 1200px) 1200px"></figure><h2 id="get-api-access">Get API Access</h2><p>Our offerings for our enterprise users who value privacy and data compliance, including <code>jina-embeddings-v2-base-de</code>, are accessible via the Jina Embeddings API:</p><ol><li>Visit <a href="https://jina.ai/embeddings?ref=jina-ai-gmbh.ghost.io" rel="noreferrer">Jina Embeddings API</a> and click on the model dropdown</li><li>Select <code>jina-embeddings-v2-base-de</code></li></ol><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://jina.ai/embeddings/?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Embedding API</div><div class="kg-bookmark-description">Top-performing, 8192-token context length, $100 for 1.25B tokens, seamless OpenAI alternative, free trial</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://jina.ai/icons/favicon-128x128.png" alt="Ich bin ein Berliner: German-English Bilingual Embeddings with 8K Token Length"></div></div><div class="kg-bookmark-thumbnail"><img src="https://jina.ai/banner-embedding-api.png" alt="Ich bin ein Berliner: German-English Bilingual Embeddings with 8K Token Length"></div></a></figure><figure class="kg-card kg-image-card"><img src="https://jina-ai-gmbh.ghost.io/content/images/2024/01/image-3.png" class="kg-image" alt="Ich bin ein Berliner: German-English Bilingual Embeddings with 8K Token Length" loading="lazy" width="2000" height="1062" srcset="https://jina-ai-gmbh.ghost.io/content/images/size/w600/2024/01/image-3.png 600w, https://jina-ai-gmbh.ghost.io/content/images/size/w1000/2024/01/image-3.png 1000w, https://jina-ai-gmbh.ghost.io/content/images/size/w1600/2024/01/image-3.png 1600w, https://jina-ai-gmbh.ghost.io/content/images/2024/01/image-3.png 2000w" sizes="(min-width: 720px) 720px"></figure><p>We will make this model available in the AWS Sagemaker marketplace for Amazon cloud users and for download on HuggingFace very soon.</p><h2 id="jina-8k-embeddings-the-cornerstone-of-diverse-ai-applications">Jina 8K Embeddings: The Cornerstone of Diverse AI Applications</h2><p>Embeddings are crucial for a wide range of AI applications, including information retrieval, data quality control, classification, and recommendation. They are fundamental to enhancing numerous AI tasks.</p><p>Jina AI is committed to advancing the state-of-the-art in embedding technology, keeping our core AI components transparent, accessible, and affordable to enterprises of all types and sizes that value privacy and data compliance. In addition to <code>jina-embeddings-v2-base-de</code>, Jina AI has released state-of-the-art embedding models for <a href="https://jina.ai/news/8k-token-length-bilingual-embeddings-break-language-barriers-in-chinese-and-english/?ref=jina-ai-gmbh.ghost.io">Chinese</a> and high-performance <a href="https://jina.ai/news/jina-ai-launches-worlds-first-open-source-8k-text-embedding-rivaling-openai/?ref=jina-ai-gmbh.ghost.io">English monolingual models</a>. This is part of our mission to make AI technology more inclusive and globally applicable.</p><p>We value your feedback. Join our community channel to contribute feedback and stay informed about our advancements. Together, we&apos;re shaping a more robust and inclusive AI future.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://discord.com/invite/AWXCCC6G2P?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Join the Jina AI Discord Server!</div><div class="kg-bookmark-description">Check out the Jina AI community on Discord - hang out with 4232 other members and enjoy free voice and text chat.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://discord.com/assets/images/favicon.ico" alt="Ich bin ein Berliner: German-English Bilingual Embeddings with 8K Token Length"><span class="kg-bookmark-author">Discord</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://cdn.discordapp.com/splashes/1106542220112302130/80f2c2128aefeb55209a5bdb2130bb92.jpg?size=512" alt="Ich bin ein Berliner: German-English Bilingual Embeddings with 8K Token Length"></div></a></figure>]]></content:encoded></item></channel></rss>
+upper bound satisfied: True</code></pre><figcaption><p><span style="white-space: pre-wrap;">A sample output from our Monte Carlo validator. It&apos;s important to note that the </span><code spellcheck="false" style="white-space: pre-wrap;"><span>lower/upper bound satisfied</span></code><span style="white-space: pre-wrap;"> condition is checked for every vector individually. Meanwhile, the </span><code spellcheck="false" style="white-space: pre-wrap;"><span>avg. lower/upper bound</span></code><span style="white-space: pre-wrap;"> provides a more intuitive overview of the statistics related to these bounds but doesn&apos;t directly influence the validation process.</span></p></figcaption></figure><h2 id="understanding-the-bounds">Understanding the Bounds</h2><p>In a nutshell, when comparing two high-dimensional vectors, the overall similarity lies between the best and worst similarities of their subspaces, adjusted for how large or important those subspaces are in the overall scheme. This is what the bounds for cosine similarity in higher dimensions intuitively represent: the balance between the most and least similar parts, weighted by their relative sizes or importance.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://jina-ai-gmbh.ghost.io/content/images/2024/01/Explore-image-storytelling-beyond-pixels--35-.png" class="kg-image" alt="Does Subspace Cosine Similarity Imply High-Dimensional Cosine Similarity?" loading="lazy" width="1200" height="627" srcset="https://jina-ai-gmbh.ghost.io/content/images/size/w600/2024/01/Explore-image-storytelling-beyond-pixels--35-.png 600w, https://jina-ai-gmbh.ghost.io/content/images/size/w1000/2024/01/Explore-image-storytelling-beyond-pixels--35-.png 1000w, https://jina-ai-gmbh.ghost.io/content/images/2024/01/Explore-image-storytelling-beyond-pixels--35-.png 1200w" sizes="(min-width: 720px) 720px"><figcaption><span style="white-space: pre-wrap;">Each pen has two main components: the body and the cap.</span></figcaption></figure><p>Imagine you&apos;re trying to compare two multi-part objects (let&apos;s say, two fancy pens) based on their overall similarity. Each pen has two main components: the body and the cap. The similarity of the whole pen (both body and cap) is what we&apos;re trying to determine:</p><h3 id="upper-bound-gamma-cdot-s">Upper Bound ($\gamma \cdot s$)</h3><p>Think of $s$ as the best match between corresponding parts of the pens. If the caps are very similar but the bodies aren&apos;t, $s$ is the similarity of the caps.</p><p>Now, $\gamma$ is like a scaling factor based on the size (or importance) of each part. If one pen has a very long body and a short cap, while the other has a short body and a long cap, $\gamma$ adjusts the overall similarity to account for these differences in proportions.</p><p>The upper bound tells us that no matter how similar some parts are, the overall similarity can&apos;t exceed this &quot;best part similarity&quot; scaled by the proportion factor.</p><h3 id="lower-bound-gamma-cdot-t">Lower Bound ($\gamma \cdot t$)</h3><p>Here, $t$ is the similarity of the least matching parts. If the bodies of the pens are quite different but the caps are similar, $t$ reflects the body&apos;s similarity.</p><p>Again, $\gamma$ scales this based on the proportion of each part.</p><p>The lower bound means that the overall similarity can&apos;t be worse than this &quot;worst part similarity&quot; after accounting for the proportion of each part.</p><h2 id="implications-of-the-bounds">Implications of the Bounds</h2><p>For software engineers working with embeddings, vector search, retrieval, or databases, understanding these bounds has practical implications, particularly when dealing with high-dimensional data. Vector search often involves finding the closest (most similar) vectors in a database to a given query vector, typically using cosine similarity as a measure of closeness. The bounds we discussed can provide insights into the effectiveness and limitations of using subspace similarities for such tasks.</p><h3 id="using-subspace-similarity-for-ranking">Using Subspace Similarity for Ranking</h3><p><strong>Safety and Accuracy</strong>: Using subspace similarity for ranking and retrieving top-k results can be effective, but with caution. The upper bound indicates that the overall similarity can&apos;t exceed the maximum similarity of the subspaces. Thus, if a pair of vectors is highly similar in a particular subspace, it&apos;s a strong candidate for being similar in the high-dimensional space.</p><p><strong>Potential Pitfalls</strong>: However, the lower bound suggests that two vectors with low similarity in one subspace could still be quite similar overall. Therefore, relying solely on subspace similarity might miss some relevant results.</p><h3 id="misconceptions-and-cautions">Misconceptions and Cautions</h3><p><strong>Overestimating Subspace Importance</strong>: A common misconception is overestimating the importance of a particular subspace. While high similarity in one subspace is a good indicator, it doesn&apos;t guarantee high overall similarity due to the influence of other subspaces.</p><p><strong>Ignoring Negative Similarities</strong>: In cases where the cosine similarity in a subspace is negative, it indicates an opposing relationship in that dimension. Engineers should be wary of how these negative similarities impact the overall similarity.</p>]]></content:encoded></item><item><title><![CDATA[Using Jina Embeddings v2 with Haystack Pipelines]]></title><description><![CDATA[Access Jina AI's state-of-the-art open-source embedding models in your Haystack application pipeline.]]></description><link>https://jina.ai/news/jina-embeddings-v2-and-deepset-haystack/</link><guid isPermaLink="false">65a916c40bab3100012d2e8c</guid><category><![CDATA[Tech Blog]]></category><dc:creator><![CDATA[Saahil Ognawala]]></dc:creator><pubDate>Fri, 19 Jan 2024 15:00:07 GMT</pubDate><media:content url="https://jina-ai-gmbh.ghost.io/content/images/2024/01/haystack_embeddings.png" medium="image"/><content:encoded><![CDATA[<img src="https://jina-ai-gmbh.ghost.io/content/images/2024/01/haystack_embeddings.png" alt="Using Jina Embeddings v2 with Haystack Pipelines"><p><a href="https://www.deepset.ai/?ref=jina-ai-gmbh.ghost.io" rel="noreferrer">Deepset</a> has integrated <a href="https://jina.ai/embeddings/?ref=jina-ai-gmbh.ghost.io" rel="noreferrer">Jina Embeddings v2</a> into its industry-leading <a href="https://haystack.deepset.ai/?ref=jina-ai-gmbh.ghost.io" rel="noreferrer">Haystack</a> NLP framework. You can now access Jina AI&apos;s state-of-the-art open-source embedding models in your Haystack pipeline.</p><p>We have collaborated with Deepset to bring you a tutorial on using&#xA0;Jina Embeddings v2&#xA0;in Haystack to analyze legal documents. Follow the link below to Deepset&apos;s blog to see how you can create a retrieval-augmented generation (RAG) application using Jina AI&apos;s industry-leading embeddings and Haystack!</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://haystack.deepset.ai/blog/using-jina-embeddings-haystack?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Using Jina Embeddings v2 with Haystack 2.0 pipelines to summarize legal documents | Haystack</div><div class="kg-bookmark-description">Learn how to use the Jina v2 Embedding models in a RAG pipeline with our new Haystack integration.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://haystack.deepset.ai/favicon.ico" alt="Using Jina Embeddings v2 with Haystack Pipelines"><span class="kg-bookmark-author">Haystack</span><span class="kg-bookmark-publisher">Tilde Thurium Senior Developer Advocate</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://haystack.deepset.ai/blog/using-jina-embeddings-haystack/thumbnail.png" alt="Using Jina Embeddings v2 with Haystack Pipelines"></div></a></figure><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://jina.ai/embeddings/?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Embedding API</div><div class="kg-bookmark-description">Top-performing, 8192-token context length, $100 for 1.25B tokens, seamless OpenAI alternative, free trial</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://jina.ai/icons/favicon-128x128.png" alt="Using Jina Embeddings v2 with Haystack Pipelines"></div></div><div class="kg-bookmark-thumbnail"><img src="https://jina.ai/banner-embedding-api.png" alt="Using Jina Embeddings v2 with Haystack Pipelines"></div></a></figure>]]></content:encoded></item></channel></rss>
