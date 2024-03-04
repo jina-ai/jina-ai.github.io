@@ -1,4 +1,271 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[Jina AI]]></title><description><![CDATA[The official newsroom of Jina AI]]></description><link>https://jina.ai/news</link><image><url>https://jina.ai/favicon.ico</url><title>Jina AI</title><link>https://jina.ai/news</link></image><generator>Ghost 5.79</generator><lastBuildDate>Sun, 03 Mar 2024 01:27:12 GMT</lastBuildDate><atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Jina 3.23.5 Update]]></title><description><![CDATA[Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.]]></description><link>https://jina.ai/news/jina-3-23-5-update/</link><guid isPermaLink="false">65e0b09bb22368000152a3ff</guid><category><![CDATA[Releases]]></category><dc:creator><![CDATA[Engineering Group]]></dc:creator><pubDate>Thu, 29 Feb 2024 16:31:15 GMT</pubDate><media:content url="https://jina-ai-gmbh.ghost.io/content/images/2024/02/Image-Jina-dark-1-2.jpg" medium="image"/><content:encoded><![CDATA[<h2 id="release-note-3235">Release Note (<code>3.23.5</code>)</h2><img src="https://jina-ai-gmbh.ghost.io/content/images/2024/02/Image-Jina-dark-1-2.jpg" alt="Jina 3.23.5 Update"><p>This release contains 1 bug fix.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://github.com/jina-ai/jina/releases/tag/v3.23.5?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Release &#x1F4AB; Patch v3.23.5 &#xB7; jina-ai/jina</div><div class="kg-bookmark-description">Release Note (3.23.5) Release time: 2024-02-29 14:36:02 This release contains 1 bug fix.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[Jina AI]]></title><description><![CDATA[The official newsroom of Jina AI]]></description><link>https://jina.ai/news</link><image><url>https://jina.ai/favicon.ico</url><title>Jina AI</title><link>https://jina.ai/news</link></image><generator>Ghost 5.79</generator><lastBuildDate>Mon, 04 Mar 2024 15:11:57 GMT</lastBuildDate><atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Build a RAG system with Jina Embeddings and Qdrant]]></title><description><![CDATA[Create a RAG system with Jina Embeddings v2, Qdrant vector database, LlamaIndex, and Mistral LLM.]]></description><link>https://jina.ai/news/build-a-rag-system-with-jina-embeddings-and-qdrant/</link><guid isPermaLink="false">65ddadd039a5b70001810ea3</guid><category><![CDATA[Tech Blog]]></category><dc:creator><![CDATA[Scott Martens]]></dc:creator><pubDate>Mon, 04 Mar 2024 15:00:13 GMT</pubDate><media:content url="https://jina-ai-gmbh.ghost.io/content/images/2024/02/Blog-images--26-.jpg" medium="image"/><content:encoded><![CDATA[<img src="https://jina-ai-gmbh.ghost.io/content/images/2024/02/Blog-images--26-.jpg" alt="Build a RAG system with Jina Embeddings and Qdrant"><p>Retrieval-augmented generation is a rapidly growing group of techniques that were <a href="https://dl.acm.org/doi/abs/10.5555/3495724.3496517?ref=jina-ai-gmbh.ghost.io"><u>originally conceived as an extension to large language models</u></a> (LLMs) but are increasingly seen as an alternative paradigm that re-imagines the role of AI models entirely.</p><p>We&#x2019;ll show you how to make a basic RAG engine using the <a href="https://www.llamaindex.ai/?ref=jina-ai-gmbh.ghost.io">LlamaIndex framework</a>, an open-source <a href="https://docs.mistral.ai/?ref=jina-ai-gmbh.ghost.io">Mistral LLM</a>, <a href="https://jina.ai/embeddings?ref=jina-ai-gmbh.ghost.io">Jina Embeddings v2</a>, and <a href="https://qdrant.tech/?utm_source=jinaai&amp;utm_medium=partner&amp;utm_campaign=qdrant-jinaai-rag-blog" rel="noreferrer">Qdrant&#x2019;s AI-ready vector database</a>.</p><h2 id="rag-in-context"><strong>RAG in Context</strong></h2><p>In a RAG system, the role of the AI model is still central but much more limited. Instead of answering prompts from its internal knowledge, derived from its training data, it&#x2019;s presented with the relevant information in its prompt. The role of the model is then to understand and synthesize information into an output.</p><p>This plays to the strengths of AI models and minimizes its weaknesses.</p><p>For example, we might give the <a href="https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1?ref=jina-ai-gmbh.ghost.io"><u>Mistral-Instruct model</u></a> the following prompt:</p><pre><code>Answer the query. Please be brief, concise, and complete.
+Query: Why is Taylor Swift planning to attend the Superbowl?
+Answer:
+</code></pre><p>When I did that, the model responded with:</p><pre><code>I don&apos;t have real-time information. However, as of my last update,&#xA0;
+Taylor Swift is not officially confirmed to attend or perform at&#xA0;
+the Superbowl. If there are any updates, I recommend checking the&#xA0;
+latest news sources.</code></pre><p>Large language models are expensive to update and retrain, so their internal information can never be entirely up to date.</p><p>Furthermore, large language models are well known to &#x201C;hallucinate,&#x201D; i.e., confabulate plausible answers that may be partly or wholly incorrect and have to be verified.</p><pre><code>Answer the query. Please be brief, concise, and complete.
+Query: What was Weird Al Yankovic&apos;s first Taylor Swift parody?
+Answer:
+
+Weird Al Yankovic&apos;s first Taylor Swift parody was &quot;TMZ,&quot; a spoof&#xA0;
+of Swift&apos;s song &quot;Blank Space.&quot; The parody was released in 2014&#xA0;
+as part of Yankovic&apos;s album &quot;Mandatory Fun.&quot; The song humorously&#xA0;
+addresses the obsession with celebrity gossip and scandals, as&#xA0;
+reported by the tabloid news website TMZ.</code></pre><p>Weird Al Yankovic&#x2019;s <em>TMZ</em> was released in 2011 on the album <em>Alpocalypse</em> and is a parody of Swift&#x2019;s <a href="https://youtu.be/vwp8Ur6tO-8?ref=jina-ai-gmbh.ghost.io"><em><u>You Belong with Me</u></em></a>.</p><figure class="kg-card kg-embed-card"><iframe width="200" height="113" src="https://www.youtube.com/embed/BwqFgnl4rMs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="TMZ (Parody of &quot;You Belong With Me&quot; by Taylor Swift) (Official 4K Video)"></iframe></figure><p>The nature of neural networks makes hallucination difficult, if not impossible, to completely prevent and strongly undermines any plan to use AI models as information sources.</p><p>In the <a href="https://youtu.be/uaQZIK9gvNo?t=1130&amp;ref=jina-ai-gmbh.ghost.io"><u>words of Sam Altman</u></a>, CEO of OpenAI:</p><blockquote class="kg-blockquote-alt">&#x201C;I think people make a big mistake when they think of these models [LLMs] as a database. [&#x2026;] It will work, sort of. But it&#x2019;s, like, the world&#x2019;s most expensive, slowest, least accurate database.&#x201D;</blockquote><p>RAG minimizes reliance on an AI model&#x2019;s internal knowledge of facts about the world and takes advantage of its biggest strengths: natural language understanding and fluent language generation.</p><p>Let&#x2019;s take another example of a question Mistral-Instruct can&#x2019;t answer:</p><pre><code>Answer the query. Please be brief, concise, and complete.
+
+Query: What is the title of Taylor Swift&apos;s next album?
+Answer:
+
+As of the time I am providing this answer, Taylor Swift has&#xA0;
+not yet announced the title of her next album. She has released&#xA0;
+several re-recorded albums, but the title of her next original&#xA0;
+album remains unknown. I recommend checking her official social&#xA0;
+media channels or website for the latest updates.</code></pre><p>Now, a RAG system might have a database of recent news articles, or perhaps search the Internet for texts related to the title of Taylor Swift&#x2019;s next album. Then, it would insert the texts it finds into the prompt.</p><p>Let&#x2019;s assume it identifies <a href="https://apnews.com/article/taylor-swift-new-album-5e219107982b1498a3656caeea85e0eb?ref=jina-ai-gmbh.ghost.io"><u>this AP article</u></a> as relevant to the query and constructs the following prompt:</p><pre><code>Context information is below.
+---------------------
+February 6, 2024
+LOS ANGELES (AP) &#x2014; Forget her &#x201C;Reputation.&#x201D; Taylor Swift has a&#xA0;
+whole new album coming out.
+
+Accepting the Grammy for best pop vocal album on Sunday night,&#xA0;
+Taylor said she&#x2019;d been keeping a secret for two years.
+
+&#x201C;My brand-new album comes out April 19. It&#x2019;s called &#x2018;The Tortured&#xA0;
+Poets Department.&#x2019; I&#x2019;m going to go and post the cover right now&#xA0;
+backstage,&#x201D; she announced.
+
+And so she did.
+
+---------------------
+Given the context information and not prior knowledge, answer the query.&#xA0;
+Please be brief, concise, and complete.
+If the context information does not contain an answer to the query,&#xA0;
+respond with &quot;No information&quot;.
+Query: What is the title of Taylor Swift&apos;s next album?
+Answer:</code></pre><p>Mistral-Instruct responded with:</p><pre><code>The title of Taylor Swift&apos;s next album is &apos;The Tortured Poets Department&apos;.</code></pre><p>This kind of prompting also reduces the likelihood of hallucinations dramatically. For example:</p><pre><code>Context information is below.
+---------------------
+Alpocalypse is the thirteenth studio album by American parody&#xA0;
+musician &quot;Weird Al&quot; Yankovic, released on June 21, 2011.
+
+Track List
+
+1. Perform This Way (Parody of &quot;Born This Way&quot; by Lady Gaga)
+2. CNR
+3. TMZ (Parody of &quot;You Belong with Me&quot; by Taylor Swift)
+4. Skipper Dan
+5. Polka Face (Polka medley including songs by artists such as&#xA0;
+&#xA0;&#xA0;&#xA0;Lady Gaga, Justin Bieber, Britney Spears, Ke$ha, and others)
+6. Craigslist
+7. Party in the CIA (Parody of &quot;Party in the U.S.A.&quot; by Miley&#xA0;
+&#xA0;&#xA0;&#xA0;Cyrus)
+8. Ringtone
+9. Another Tattoo (Parody of &quot;Nothin&apos; on You&quot; by B.o.B featuring&#xA0;
+&#xA0;&#xA0;&#xA0;Bruno Mars)
+10. If That Isn&apos;t Love
+11. Whatever You Like (Parody of &quot;Whatever You Like&quot; by T.I.)
+12. Stop Forwarding That Crap to Me
+
+---------------------
+Given the context information and not prior knowledge, answer the&#xA0;
+query. Please be brief, concise, and complete.
+If the context information does not contain an answer to the query,&#xA0;
+respond with &quot;No information&quot;.
+Query: What was Weird Al Yankovic&apos;s first Taylor Swift parody, what&#xA0;
+year was it released, and what song was he parodying?
+Answer:
+
+Weird Al Yankovic&apos;s first Taylor Swift parody was &quot;TMZ,&quot; and it was&#xA0;
+released in 2011. He was parodying &quot;You Belong with Me&quot; by Taylor&#xA0;
+Swift.
+</code></pre><h2 id="anatomy-of-a-rag-system"><strong>Anatomy of a RAG system</strong></h2><p>A RAG system has, minimally, two components:</p><ul><li>A generative AI model.</li><li>An information retrieval system.</li></ul><p>In this article, we will use <a href="https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2?ref=jina-ai-gmbh.ghost.io">Mistral-Instruct</a> as the generative AI model and access it via the <a href="https://huggingface.co/docs/api-inference/index?ref=jina-ai-gmbh.ghost.io">Hugging Face Inference API</a>. We will use the <a href="https://qdrant.tech/?utm_source=jinaai&amp;utm_medium=partner&amp;utm_campaign=qdrant-jinaai-rag-blog">Qdrant vector database</a> and <a href="https://jina.ai/embeddings?ref=jina-ai-gmbh.ghost.io">Jina Embeddings</a> together for the information retrieval system.</p><p>As a data source, we will use the <a href="https://www.whitehouse.gov/wp-content/uploads/2023/05/National-Artificial-Intelligence-Research-and-Development-Strategic-Plan-2023-Update.pdf?ref=jina-ai-gmbh.ghost.io"><em><u>National Artificial Intelligence Research and Development Strategic Plan 2023 Update</u></em></a>, published in May 2023 by the <a href="https://www.whitehouse.gov/ostp/ostps-teams/nstc/?ref=jina-ai-gmbh.ghost.io">National Science and Technology Council</a>, a body that advises the US President on scientific and technical matters. This roughly 25,000-word document is a policy and strategic planning document for American AI policy and development.</p><p>It&apos;s also a classic &#x201C;tl;dr&#x201D; government policy paper. Most of it is very boring, and unless you have a stake or a close interest in this area, you probably aren&#x2019;t going to read it. But you might still want to know what it says.</p><p>This article will walk you through the steps of creating a RAG system able to answer questions about the text and its contents.</p><h2 id="install-the-prerequisites"><strong>Install the Prerequisites</strong></h2><p>First, make sure you have all the relevant Python libraries installed. In your Python environment, run the following:</p><pre><code class="language-shell">pip install llama-index qdrant-client pdfminer.six</code></pre><p>We will be using LlamaIndex to construct a RAG system around the Mistral-Instruct large language model and <a href="https://pypi.org/project/pdfminer.six/?ref=jina-ai-gmbh.ghost.io"><u>pdfminer.six</u></a> to process the PDF file into a Qdrant vector store.</p><h2 id="connect-to-mistral-instruct-via-the-hugging-face-inference-api"><strong>Connect to Mistral-Instruct via the Hugging Face Inference API</strong></h2><p>First, set up the LLM. You will need access to the Hugging Face Inference API, including an access token. If you have a Hugging Face account, you can get one from <a href="https://huggingface.co/settings/tokens.?ref=jina-ai-gmbh.ghost.io">your account settings page</a>.</p><p>If you do not have an account, first <a href="https://huggingface.co/join?ref=jina-ai-gmbh.ghost.io">set one up</a>, then create an <a href="https://huggingface.co/settings/tokens?ref=jina-ai-gmbh.ghost.io">access token</a>.</p><p>Place your token in a variable for future use:</p><pre><code class="language-python">hf_inference_api_key = &apos;&lt;your HuggingFace Inference API token&gt;&apos;</code></pre><p>Next, we construct a prompt template:</p><pre><code class="language-python">from llama_index import PromptTemplate
+
+qa_prompt_tmpl = (
+&#xA0;&#xA0;&#xA0;&#xA0;&quot;Context information is below.\\n&quot;
+&#xA0;&#xA0;&#xA0;&#xA0;&quot;---------------------\\n&quot;
+&#xA0;&#xA0;&#xA0;&#xA0;&quot;{context_str}\\n&quot;
+&#xA0;&#xA0;&#xA0;&#xA0;&quot;---------------------\\n&quot;
+&#xA0;&#xA0;&#xA0;&#xA0;&quot;Given the context information and not prior knowledge, &quot;
+&#xA0;&#xA0;&#xA0;&#xA0;&quot;answer the query. Please be brief, concise, and complete.\\n&quot;
+&#xA0;&#xA0;&#xA0;&#xA0;&quot;If the context information does not contain an answer to the query, &quot;
+&#xA0;&#xA0;&#xA0;&#xA0;&quot;respond with \\&quot;No information\\&quot;.\\n&quot;
+&#xA0;&#xA0;&#xA0;&#xA0;&quot;Query: {query_str}\\n&quot;
+&#xA0;&#xA0;&#xA0;&#xA0;&quot;Answer: &quot;
+)
+qa_prompt = PromptTemplate(qa_prompt_tmpl)</code></pre><p>This template instructs the LLM to use only the context information provided in the prompt to answer questions. This prompt has worked well for us in working with Mistral-Instruct, but you can experiment with other wordings to see what works for your use case.</p><p>Finally, create and initialize an object for the LlamaIndex framework that holds the connection to Mistral-Instruct. The code below comes from the <a href="https://jina.ai/news/full-stack-rag-with-jina-embeddings-v2-and-llamaindex/?ref=jina-ai-gmbh.ghost.io"><u>previous post on creating RAG systems using LlamaIndex</u></a>.</p><pre><code class="language-python">import requests
+from llama_index.llms import (
+    CustomLLM,
+    CompletionResponse,
+    CompletionResponseGen,
+    LLMMetadata,
+)
+from llama_index.llms.base import llm_completion_callback
+from typing import Any
+
+class MixtralLLM(CustomLLM):
+    context_window: int = 4096
+    num_output: int = 1024
+    model_name: str = &quot;mistralai/Mixtral-8x7B-Instruct-v0.1&quot;
+    api_key: str = hf_inference_api_key
+
+    @property
+    def metadata(self) -&gt; LLMMetadata:
+        &quot;&quot;&quot;Get LLM metadata.&quot;&quot;&quot;
+        return LLMMetadata(
+            context_window=self.context_window,
+            num_output=self.num_output,
+            model_name=self.model_name,
+        )
+
+    def do_hf_call(self, prompt: str) -&gt; str:
+        data = {
+            &quot;inputs&quot;: prompt
+        }
+
+        response = requests.post(
+            &apos;https://api-inference.huggingface.co/models/&apos; + self.model_name,
+            headers={
+                &apos;authorization&apos;: f&apos;Bearer {self.api_key}&apos;,
+                &apos;content-type&apos;: &apos;application/json&apos;,
+            },
+            json=data,
+            stream=True
+        )
+        if response.status_code != 200 or not response.json() or &apos;error&apos; in response.json():
+            print(f&quot;Error: {response}&quot;)
+            return &quot;Unable to answer for technical reasons.&quot;
+        full_txt = response.json()[0][&apos;generated_text&apos;]
+        offset = full_txt.find(&quot;---------------------&quot;)
+        ss = full_txt[offset:]
+        offset = ss.find(&quot;Answer:&quot;)
+        return ss[offset+7:].strip()
+
+    @llm_completion_callback()
+    def complete(self, prompt: str, **kwargs: Any) -&gt; CompletionResponse:
+        response = self.do_hf_call(prompt)
+        return CompletionResponse(text=response)
+
+mixtral_llm = MixtralLLM()</code></pre><p>This puts the connection to the Mistral LLM into the variable <code>mistral_llm</code>.</p><h2 id="information-retrieval-with-qdrant-and-jina-embeddings"><strong>Information Retrieval with Qdrant and Jina Embeddings</strong></h2><p>To set up the retrieval system, you will need a Jina Embeddings API key. You can get one for free with a 1 million-token prepaid budget at the <a href="https://jina.ai/embeddings/?ref=jina-ai-gmbh.ghost.io">Jina Embeddings website</a>.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://jina.ai/embeddings/?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Embedding API</div><div class="kg-bookmark-description">Start with 1M free tokens. Top-performing, 8192 context length bilingual embeddings for your search and RAG systems.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://jina.ai/icons/favicon-128x128.png" alt="Build a RAG system with Jina Embeddings and Qdrant"></div></div><div class="kg-bookmark-thumbnail"><img src="https://jina.ai/banner-embedding-api.png" alt="Build a RAG system with Jina Embeddings and Qdrant"></div></a></figure><p>Place your Jina Embeddings key in a variable for future use:</p><pre><code class="language-python">jina_emb_api_key = &quot;&lt;your Jina Embeddings API key&gt;&quot;</code></pre><p>Then, create a connector object using LlamaIndex for the Jina Embeddings server, selecting specifically the English monolingual model:</p><pre><code class="language-python">from llama_index.embeddings.jinaai import JinaEmbedding
+
+jina_embedding_model = JinaEmbedding(
+    api_key=jina_emb_api_key,
+    model=&quot;jina-embeddings-v2-base-en&quot;,
+)</code></pre><h3 id="load-text-data"><strong>Load text data</strong></h3><p>Next, we will load the document and split it up into paragraphs. First, download the PDF from the White House website into the variable <code>pdf_data</code>:</p><pre><code class="language-python">import urllib.request
+
+uri = &quot;https://www.whitehouse.gov/wp-content/uploads/2023/05/National-Artificial-Intelligence-Research-and-Development-Strategic-Plan-2023-Update.pdf&quot;
+pdf_data = urllib.request.urlopen(uri).read()</code></pre><p>Next, we will process the PDF page by page, extracting the text and then chunking it into paragraphs by splitting on double line breaks. These are stored in the list <code>text_paras</code>:</p><pre><code class="language-python">import regex as re
+from io import BytesIO, StringIO
+from pdfminer.converter import TextConverter
+from pdfminer.layout import LAParams
+from pdfminer.pdfdocument import PDFDocument
+from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
+from pdfminer.pdfpage import PDFPage
+from pdfminer.pdfparser import PDFParser
+
+text_paras = []
+parser = PDFParser(BytesIO(pdf_data))
+doc = PDFDocument(parser)
+rsrcmgr = PDFResourceManager()
+for page in PDFPage.create_pages(doc):
+&#xA0;&#xA0;&#xA0;&#xA0;output_string = StringIO()
+&#xA0;&#xA0;&#xA0;&#xA0;device = TextConverter(rsrcmgr, output_string, laparams=LAParams())
+&#xA0;&#xA0;&#xA0;&#xA0;interpreter = PDFPageInterpreter(rsrcmgr, device)
+&#xA0;&#xA0;&#xA0;&#xA0;interpreter.process_page(page)
+&#xA0;&#xA0;&#xA0;&#xA0;page_text = output_string.getvalue()
+&#xA0;&#xA0;&#xA0;&#xA0;text_paras.extend(re.split(r&apos;\\n\\s*\\n&apos;, page_text))
+</code></pre><p>Check that everything is loaded:</p><pre><code class="language-python">assert len(text_paras) == 615</code></pre><p>Next, we will covert this list of short texts into <a href="https://docs.llamaindex.ai/en/stable/module_guides/loading/documents_and_nodes/root.html?ref=jina-ai-gmbh.ghost.io">LlamaIndex Document objects</a>:</p><pre><code class="language-python">from llama_index.readers import StringIterableReader
+
+rag_docs = StringIterableReader().load_data(text_paras)</code></pre><p>And you can inspect the text:</p><pre><code class="language-python">print(rag_docs[0].text)</code></pre><p>Result:</p><pre><code>NATIONAL ARTIFICIAL INTELLIGENCE&#xA0;
+RESEARCH AND DEVELOPMENT&#xA0;
+STRATEGIC PLAN&#xA0;
+2023 UPDATE</code></pre><h3 id="set-up-a-qdrant-vector-database"><strong>Set up a Qdrant Vector Database</strong></h3><p>In this article, we will use the <a href="https://cloud.qdrant.io/?ref=jina-ai-gmbh.ghost.io"><u>Qdrant Vector Search Cloud</u></a> to implement the RAG system&#x2019;s database. Qdrant&#x2019;s free tier includes 1GB of storage, which is more than enough for this tutorial.</p><p>You will need to <a href="https://cloud.qdrant.io/login?ref=jina-ai-gmbh.ghost.io"><u>create an account on the Qdrant Cloud website</u></a> before continuing.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://cloud.qdrant.io/login?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Vector Search Database | Qdrant Cloud</div><div class="kg-bookmark-description">Managed cloud solution of the Qdrant vector search engine. Cloud-native vector database for high performant vector similarity search.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://cloud.qdrant.io/apple-touch-icon.png" alt="Build a RAG system with Jina Embeddings and Qdrant"><span class="kg-bookmark-author">Qdrant Cloud</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://cloud.qdrant.io/social.png" alt="Build a RAG system with Jina Embeddings and Qdrant"></div></a></figure><p>Once you have an account and are logged in, you will need to create a cluster. Follow the <a href="https://qdrant.tech/documentation/cloud/quickstart-cloud/?utm_source=jinaai&amp;utm_medium=partner&amp;utm_campaign=qdrant-jinaai-rag-blog" rel="noreferrer"><u>&#x201C;quick start&#x201D; instructions on the Qdrant Website</u></a> to set up a free cluster and get an API and the name of the Qdrant host server.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://qdrant.tech/documentation/cloud/quickstart-cloud/?utm_source=jinaai&amp;utm_medium=partner&amp;utm_campaign=qdrant-jinaai-rag-blog"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Quickstart - Qdrant</div><div class="kg-bookmark-description">Qdrant is an Open-Source Vector Database and Vector Search Engine written in Rust. It provides fast and scalable vector similarity search service with convenient API.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://qdrant.tech/images/apple-touch-icon.png" alt="Build a RAG system with Jina Embeddings and Qdrant"><span class="kg-bookmark-author">Edit on GitHub</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://qdrant.tech/documentation/cloud/quickstart-cloud-social-preview.png" alt="Build a RAG system with Jina Embeddings and Qdrant"></div></a></figure><p>Store the key and hostname in variables:</p><pre><code class="language-python">qdrant_api_key = &quot;&lt;your API key&gt;&quot;
+qdrant_server = &quot;https://&lt;your server&gt;&quot;</code></pre><p>Next, we will need to import the relevant components from the <code>qdrant_client</code> and <code>llama_index</code> packages:</p><pre><code class="language-python">import qdrant_client
+from llama_index.vector_stores.qdrant import QdrantVectorStore
+
+client = qdrant_client.QdrantClient(qdrant_server, api_key=qdrant_api_key)
+vector_store = QdrantVectorStore(client=client, collection_name=&quot;NTSC&quot;)</code></pre><p>This creates a collection named <code>NTSC</code> in your free cluster.</p><p>You can read the <a href="https://qdrant.tech/documentation/?utm_source=jinaai&amp;utm_medium=partner&amp;utm_campaign=qdrant-jinaai-rag-blog" rel="noreferrer"><u>Qdrant documentation</u></a> for information on constructing a local data store in memory or on disk and hosting your own Qdrant server instance in a docker container via a web API.</p><h3 id="complete-the-rag-system"><strong>Complete the RAG system</strong></h3><p>Now we will assemble these components into a complete RAG system using boilerplate code for LlamaIndex:</p><pre><code class="language-python">from llama_index.query_engine import RetrieverQueryEngine
+from llama_index.retrievers import VectorIndexRetriever
+from llama_index.storage.storage_context import StorageContext
+from llama_index import (
+		VectorStoreIndex,
+		ServiceContext,
+		get_response_synthesizer,
+)
+
+# set up the service and storage contexts
+service_context = ServiceContext.from_defaults(
+&#xA0;&#xA0;&#xA0;&#xA0;llm=mixtral_llm, embed_model=jina_embedding_model
+)
+storage_context = StorageContext.from_defaults(vector_store=vector_store)
+
+# create an index
+index = VectorStoreIndex.from_documents(
+&#xA0;&#xA0;&#xA0;&#xA0;rag_docs, storage_context=storage_context, service_context=service_context
+)
+
+# configure retriever
+retriever = VectorIndexRetriever(
+&#xA0;&#xA0;&#xA0;&#xA0;index=index,
+&#xA0;&#xA0;&#xA0;&#xA0;similarity_top_k=2,
+)
+
+# configure response synthesizer
+response_synthesizer = get_response_synthesizer(
+&#xA0;&#xA0;&#xA0;&#xA0;service_context=service_context,
+&#xA0;&#xA0;&#xA0;&#xA0;text_qa_template=qa_prompt,
+&#xA0;&#xA0;&#xA0;&#xA0;response_mode=&quot;compact&quot;,
+)
+
+# assemble query engine
+query_engine = RetrieverQueryEngine(
+&#xA0;&#xA0;&#xA0;&#xA0;retriever=retriever,
+&#xA0;&#xA0;&#xA0;&#xA0;response_synthesizer=response_synthesizer,
+)
+</code></pre><p>This system will use Jina Embeddings to index the paragraphs from our text source and will put the two best matches into the context of every prompt. To change to the three best, for example, just modify the <code>VectorIndexRetriever</code> initialization above to have a different <code>similarity_top_k</code> parameter:</p><pre><code class="language-python"># configure retriever
+retriever = VectorIndexRetriever(
+&#xA0;&#xA0;&#xA0;&#xA0;index=index,
+&#xA0;&#xA0;&#xA0;&#xA0;similarity_top_k=3,
+)</code></pre><p>Now the system is ready to use.</p><h3 id="query-a-document"><strong>Query a Document</strong></h3><p>Let&#x2019;s try a straightforward query:</p><pre><code class="language-python">response = query_engine.query(&quot;&quot;&quot;
+What is the Biden Administration&apos;s policy with regard to AI?&#xA0;
+&quot;&quot;&quot;)
+print(response.response)</code></pre><p>The result (yours may not be identical):</p><pre><code>The Biden Administration prioritizes responsible AI systems that&#xA0;
+are ethical, trustworthy, and safe, and serve the public good. The Administration has committed to substantial funding for AI R&amp;D, and has established the National AI Initiative Office to coordinate AI activities across the federal government.&#xA0;
+
+The Administration&apos;s AI policy focuses on developing evaluative
+techniques for AI, workforce development, public-private
+partnerships, and international collaboration in AI research.</code></pre><p>Or something more specific:</p><pre><code class="language-python">response = query_engine.query(&quot;&quot;&quot;
+What protections does the AI Bill of Rights propose to offer?
+&quot;&quot;&quot;)
+
+print(response.response)</code></pre><pre><code>The AI Bill of Rights proposes five core protections: Safe and&#xA0;
+Effective Systems; Algorithmic Discrimination Protections; Data&#xA0;
+Privacy; Notice and Explanation; and Human Alternatives,&#xA0;
+Consideration, and Fallback.</code></pre><p>Or even very specific:</p><pre><code class="language-python">response = query_engine.query(&quot;Who is Kei Koizumi?&quot;)
+print(response.response)</code></pre><pre><code>Kei Koizumi is the Principal Deputy Director for Policy at the Office&#xA0;
+of Science and Technology Policy (OSTP).</code></pre><p>You can also ask more fanciful questions:</p><pre><code class="language-python">response = query_engine.query(&quot;&quot;&quot;
+What rights will AI&apos;s receive under President Biden&apos;s proposed&#xA0;
+AI Bill of Rights?
+&quot;&quot;&quot;)
+print(response.response)</code></pre><pre><code>The proposed AI Bill of Rights does not grant rights to AI systems, but&#xA0;
+rather outlines principles to ensure that AI technologies are&#xA0;
+developed and used in a manner that respects human rights and values.&#xA0;
+The principles include safety, transparency, fairness, disclosure,&#xA0;
+data privacy, non-discrimination, and the ability for individuals to&#xA0;
+opt out of certain AI systems.</code></pre><pre><code class="language-python">response = query_engine.query(&quot;&quot;&quot;
+Why is President Biden&apos;s proposing an AI Bill of Rights?
+Does AI really need rights?
+&quot;&quot;&quot;)
+print(response.response)</code></pre><pre><code>President Biden&apos;s proposed AI Bill of Rights aims to ensure that AI&#xA0;
+technologies are developed and used ethically, legally, and with&#xA0;
+societal considerations in mind. The Bill of Rights is not granting&#xA0;
+&quot;rights&quot; to AI, but rather setting guidelines for the responsible&#xA0;
+development and deployment of AI systems to protect individuals and&#xA0;
+communities from potential negative impacts.</code></pre><pre><code class="language-python">response = query_engine.query(&quot;&quot;&quot;
+Has Donald Trump weighed in on AI?
+Will he Make Humans Great Again?
+&quot;&quot;&quot;)
+print(response.response)
+</code></pre><pre><code>No information. The context information does not mention Donald&#xA0;
+Trump&apos;s views on AI.</code></pre><h2 id="jina-ai-and-qdrant"><strong>Jina AI and Qdrant</strong></h2><p>Jina Embeddings&#x2019; 8k token context window makes it especially well-suited to retrieval-augmented generation because it can work with much larger blocks of text. Where other RAG applications often have to store individual sentences or pairs of sentences, in this tutorial, we could use whole paragraphs without worrying about their size.</p><p>This reduces the number of text items that have to be stored to carry the same information, lowering compute costs, sparing memory, and making retrieval faster.</p><p>Qdrant&#x2019;s vector database is simple to configure, fast, and cost-effective, and as you&#x2019;ve seen, it takes only a few lines of Python to integrate it into a RAG system.</p><p>For more about Qdrant&#x2019;s AI-ready database and cloud offerings, you can <a href="https://qdrant.tech/?utm_source=jinaai&amp;utm_medium=partner&amp;utm_campaign=qdrant-jinaai-rag-blog" rel="noreferrer"><u>visit their website</u></a>.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://qdrant.tech/?utm_source=jinaai&amp;utm_medium=partner&amp;utm_campaign=qdrant-jinaai-rag-blog"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Qdrant - Vector Database</div><div class="kg-bookmark-description">Qdrant is an Open-Source Vector Database and Vector Search Engine written in Rust. It provides fast and scalable vector similarity search service with convenient API.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://qdrant.tech/images/apple-touch-icon.png" alt="Build a RAG system with Jina Embeddings and Qdrant"><span class="kg-bookmark-author">Vector Database</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://qdrant.tech/images/previews/social-preview-P.png" alt="Build a RAG system with Jina Embeddings and Qdrant"></div></a></figure><h2 id="get-in-touch"><strong>Get in Touch</strong></h2><p>Jina AI is committed to bringing reliable, affordable AI technologies to enterprises of every size and type. We&#x2019;d love to hear about your use cases and help fit AI into your business processes. For more information about Jina AI&#x2019;s offerings and to contact us, check out the <a href="https://jina.ai/?ref=jina-ai-gmbh.ghost.io"><u>Jina AI website</u></a> or join our <a href="https://discord.jina.ai/?ref=jina-ai-gmbh.ghost.io"><u>community on Discord</u></a>.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://jina.ai/?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Jina AI - Best Embeddings and Perfect Prompts</div><div class="kg-bookmark-description">Jina AI provides best-in-class embedding API and prompt optimizer, easing the development of multimodal AI applications.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://jina.ai/icons/favicon-128x128.png" alt="Build a RAG system with Jina Embeddings and Qdrant"><span class="kg-bookmark-author">Best Embeddings and Perfect Prompts</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://jina.ai/banner.png" alt="Build a RAG system with Jina Embeddings and Qdrant"></div></a></figure><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://discord.com/invite/AWXCCC6G2P?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Join the Jina AI Discord Server!</div><div class="kg-bookmark-description">Check out the Jina AI community on Discord - hang out with 4493 other members and enjoy free voice and text chat.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://discord.com/assets/images/favicon.ico" alt="Build a RAG system with Jina Embeddings and Qdrant"><span class="kg-bookmark-author">Discord</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://cdn.discordapp.com/splashes/1106542220112302130/80f2c2128aefeb55209a5bdb2130bb92.jpg?size=512" alt="Build a RAG system with Jina Embeddings and Qdrant"></div></a></figure>]]></content:encoded></item><item><title><![CDATA[Jina 3.23.5 Update]]></title><description><![CDATA[Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.]]></description><link>https://jina.ai/news/jina-3-23-5-update/</link><guid isPermaLink="false">65e0b09bb22368000152a3ff</guid><category><![CDATA[Releases]]></category><dc:creator><![CDATA[Engineering Group]]></dc:creator><pubDate>Thu, 29 Feb 2024 16:31:15 GMT</pubDate><media:content url="https://jina-ai-gmbh.ghost.io/content/images/2024/02/Image-Jina-dark-1-2.jpg" medium="image"/><content:encoded><![CDATA[<h2 id="release-note-3235">Release Note (<code>3.23.5</code>)</h2><img src="https://jina-ai-gmbh.ghost.io/content/images/2024/02/Image-Jina-dark-1-2.jpg" alt="Jina 3.23.5 Update"><p>This release contains 1 bug fix.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://github.com/jina-ai/jina/releases/tag/v3.23.5?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Release &#x1F4AB; Patch v3.23.5 &#xB7; jina-ai/jina</div><div class="kg-bookmark-description">Release Note (3.23.5) Release time: 2024-02-29 14:36:02 This release contains 1 bug fix.
 &#x1F41E; Bug Fixes
 Fix batch transform endpoint for SageMaker with nested schemas (#6145)
 This release improves t&#x2026;</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg" alt="Jina 3.23.5 Update"><span class="kg-bookmark-author">GitHub</span><span class="kg-bookmark-publisher">jina-ai</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://opengraph.githubassets.com/0e601e49d37d6935a6e25fca8cffd5b4e98d0b1ed8605e0b1c72d54d290871a3/jina-ai/jina/releases/tag/v3.23.5" alt="Jina 3.23.5 Update"></div></a></figure><h2 id="%F0%9F%90%9E-bug-fixes">&#x1F41E; Bug Fixes</h2><h3 id="fix-batch-transform-endpoint-for-sagemaker-with-nested-schemas-6145">Fix batch transform endpoint for SageMaker with nested schemas (<a href="https://github.com/jina-ai/jina/pull/6145?ref=jina-ai-gmbh.ghost.io">#6145</a>)</h3><p>This release improves the SageMaker Batch Transform input data parsing logic so that data with more complex schema can be interpreted as expected.</p><h2 id="%F0%9F%A4%9F-contributors">&#x1F91F; Contributors</h2><p>We would like to thank all contributors to this release:</p><ul><li>Zac Li (<a href="https://github.com/zac-li?ref=jina-ai-gmbh.ghost.io">@zac-li</a>)</li></ul>]]></content:encoded></item><item><title><![CDATA[Maximizing Search Relevance and RAG Accuracy with Jina Reranker]]></title><description><![CDATA[Boost your search and RAG accuracy with Jina Reranker. Our new model improves the accuracy and relevance by 20% over simple vector search. Try it now for free!]]></description><link>https://jina.ai/news/maximizing-search-relevancy-and-rag-accuracy-with-jina-reranker/</link><guid isPermaLink="false">65dfb0f7b22368000152a205</guid><category><![CDATA[Press]]></category><dc:creator><![CDATA[Jina AI]]></dc:creator><pubDate>Thu, 29 Feb 2024 08:30:10 GMT</pubDate><media:content url="https://jina-ai-gmbh.ghost.io/content/images/2024/02/Reranker1.png" medium="image"/><content:encoded><![CDATA[<img src="https://jina-ai-gmbh.ghost.io/content/images/2024/02/Reranker1.png" alt="Maximizing Search Relevance and RAG Accuracy with Jina Reranker"><p>Text embeddings, known for their semantic representation capabilities, along with fast vector retrieval, are today&apos;s cornerstone in document search within vast datasets. However, the challenge often lies in filtering through these retrieved documents to accurately align with the user&apos;s search intent, a task that goes beyond the capabilities of simple cosine similarity measures.</p><p>Today, we&apos;re thrilled to announce <strong>Jina Reranker</strong> (<code>jina-reranker-v1-base-en</code>), a cutting-edge neural reranking model designed to tackle this critical issue of relevancy. Jina Reranker enhances your search and RAG (Retrieval-Augmented Generation) system by <em>reordering</em> retrieved documents in a manner that deeply and contextually understands the search query terms. Our evaluations demonstrated remarkable improvements for search systems employing the Jina Reranker <strong>with</strong> <strong>+8% in hit rate and +33% in mean reciprocal rank</strong>!</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://jina.ai/reranker?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Reranker API</div><div class="kg-bookmark-description">Maximize the search relevancy and RAG accuracy at ease</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://jina.ai/icons/favicon-128x128.png" alt="Maximizing Search Relevance and RAG Accuracy with Jina Reranker"></div></div><div class="kg-bookmark-thumbnail"><img src="https://jina.ai/banner-reranker-api.png" alt="Maximizing Search Relevance and RAG Accuracy with Jina Reranker"></div></a></figure><h2 id="what-is-a-reranker">What is a Reranker?</h2><p>Understanding the concept of a reranker often leads us to question the necessity of <em>re-</em>ranking mechanisms in search (ranking) systems. Common questions are, &quot;<em>Why do we need a </em><strong>re</strong><em>ranker?</em>&quot; and &quot;<em>Isn&apos;t ranking documents by cosine similarity between the query and document embeddings enough already?</em>&quot; To address these questions, let&apos;s first revisit the single embedding cosine similarity approach and its limitations.</p><p>Cosine similarity quantifies the similarity between two documents by measuring the cosine of the angle between their embedding vectors. This metric is valued for its simplicity and has been used in many vector databases as the default way of retrieval. However, this approach, commonly termed as a <em>representation-based </em>approach, tends to oversimplify interaction between query and documents. Specifically, it struggles with capturing the nuanced interaction at the sub-document level and sub-query level, often missing the full depth of user intent and the fine details of document relevance.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://jina-ai-gmbh.ghost.io/content/images/2024/02/Copy-of-Copy-of-colbert-blog-interaction.svg" class="kg-image" alt="Maximizing Search Relevance and RAG Accuracy with Jina Reranker" loading="lazy" width="168" height="150"><figcaption><span style="white-space: pre-wrap;">The comparison of the representation-based cosine similarity (left) and the reranker (right).</span></figcaption></figure><p>This is where rerankers come into play. Utilizing deep neural networks, rerankers delve deeper into the interactions between the query and the shortlisted documents. They move beyond basic document-level embeddings to embrace token-level interactions that occur within the query, within the document, and across the query-document boundary. Although this method is more computationally intensive compared to simple cosine similarity, it enables a nuanced comparison that incorporates context, semantic meaning, and the intent behind the query, substantially improving the relevancy of search results.</p>
@@ -1358,69 +1625,4 @@ fetch(&apos;https://api.scenex.jina.ai/v1/describe&apos;, {
       &quot;image&quot;: &quot;...&quot;
     }
   ]
-}&apos;</code></pre><h2 id="improve-your-image-accessibility-with-scenexplain%E2%80%99s-api">Improve your image accessibility with SceneXplain&#x2019;s API</h2><p>To get started, head over to <a href="https://scenex.jina.ai/api?ref=jina-ai-gmbh.ghost.io">SceneXplain&#x2019;s API page</a> to brush up on how it all works, generate a secret key, and then either adapt our notebook or create your own code to start improving accessibility today!</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://scenex.jina.ai/?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">SceneXplain - Leading AI Solution for Image Captions and Video Summaries</div><div class="kg-bookmark-description">Experience cutting-edge computer vision with our premier image captioning and video summarization algorithms. Tailored for content creators, media professionals, SEO experts, and e-commerce enterprises. Featuring multilingual support and seamless API integration. Elevate your digital presence today.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://scenex.jina.ai/icons/apple-icon-180x180.png" alt="Making Accessibility Accessible: Create Alt Text with SceneXplain&apos;s API"><span class="kg-bookmark-author">SceneXplain</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://scenex.jina.ai/banner.png" alt="Making Accessibility Accessible: Create Alt Text with SceneXplain&apos;s API"></div></a></figure>]]></content:encoded></item><item><title><![CDATA[Does Subspace Cosine Similarity Imply High-Dimensional Cosine Similarity?]]></title><description><![CDATA[Does high similarity in subspace assure a high overall similarity between vectors? This post examines the theory and practical implications of subspace similarity. ]]></description><link>https://jina.ai/news/does-subspace-cosine-similarity-imply-high-dimensional-cosine-similarity/</link><guid isPermaLink="false">65af98d28da8040001e17008</guid><category><![CDATA[Tech Blog]]></category><dc:creator><![CDATA[Han Xiao]]></dc:creator><pubDate>Tue, 23 Jan 2024 11:22:57 GMT</pubDate><media:content url="https://jina-ai-gmbh.ghost.io/content/images/2024/01/Explore-image-storytelling-beyond-pixels--34-.png" medium="image"/><content:encoded><![CDATA[<div class="kg-card kg-callout-card kg-callout-card-blue"><div class="kg-callout-emoji">&#x1F4A1;</div><div class="kg-callout-text">On Jan. 25, 2024, OpenAI released <a href="https://openai.com/blog/new-embedding-models-and-api-updates?ref=jina-ai-gmbh.ghost.io">a new embedding model</a> with a new feature called <i><b><strong class="italic" style="white-space: pre-wrap;">&quot;shortening&quot;</strong></b></i>, which allows developers to trim embeddings&#x2014;essentially cutting numbers from the sequence&apos;s end&#x2014;without compromising the embedding&apos;s ability to represent concepts effectively. Dive into this post for a solid theoretical foundation on the viability and rationale behind this innovation.</div></div><img src="https://jina-ai-gmbh.ghost.io/content/images/2024/01/Explore-image-storytelling-beyond-pixels--34-.png" alt="Does Subspace Cosine Similarity Imply High-Dimensional Cosine Similarity?"><p>Consider this: when measuring the cosine similarity of embedding vectors in high-dimensional spaces, how does their similarity in lower-dimensional subspaces imply the overall similarity? Is there a direct, proportional relationship, or is the reality more complex with high-dimensional data?</p><p>More concretely, <strong>does high similarity between vectors in their first 256 dimensions assure a high similarity in their full 768 dimensions?</strong> Conversely, if vectors significantly differ in some dimensions, does this spell a low overall similarity? These aren&apos;t mere theoretical musings; they are crucial considerations for efficient vector retrieval, database indexing, and the performance of RAG systems.</p><p>Developers often rely on heuristics, assuming that high subspace similarity equates to high overall similarity or that notable differences in one dimension significantly affect the overall similarity. The question is: are these heuristic methods built on firm theoretical ground, or are they simply assumptions of convenience?</p><p>This post delves into these questions, examining the theory and practical implications of subspace similarity in relation to overall vector similarity. </p><h2 id="bounding-the-cosine-similarity">Bounding the Cosine Similarity</h2><p>Given vectors $\mathbf{A}, \mathbf{B}\in \mathbb{R}^d$, we decompose them as $\mathbf{A}=[\mathbf{A}_1, \mathbf{A}_2]$ and $\mathbf{B}=[\mathbf{B}_1, \mathbf{B}_2]$, where $\mathbf{A}_1,\mathbf{B}_1\in\mathbb{R}^m$ and $\mathbf{A}_2,\mathbf{B}_2\in\mathbb{R}^n$, with $m+n=d$.</p><p>The cosine similarity in the subspace $\mathbb{R}^m$ is given by $\cos(\mathbf{A}_1, \mathbf{B}_1)=\frac{\mathbf{A}_1\cdot\mathbf{B}_1}{\|\mathbf{A}_1\|\|\mathbf{B}_1\|}$; similarly, the similarity in the subspace $\mathbb{R}^n$ is $\cos(\mathbf{A}_2, \mathbf{B}_2)=\frac{\mathbf{A}_2\cdot\mathbf{B}_2}{\|\mathbf{A}_2\|\|\mathbf{B}_2\|}$.</p><p>In the original space $\mathbb{R}^d$, the cosine similarity is defined as:$$\begin{align*}\cos(\mathbf{A},\mathbf{B})&amp;=\frac{\mathbf{A}\cdot\mathbf{B}}{\|\mathbf{A}\|\|\mathbf{B}\|}\\&amp;=\frac{\mathbf{A}_1\cdot\mathbf{B}_1+\mathbf{A}_2\cdot\mathbf{B}_2}{\sqrt{\|\mathbf{A}_1\|^2+\|\mathbf{A}_2\|^2}\sqrt{\|\mathbf{B}_1\|^2+\|\mathbf{B}_2\|^2}}\\&amp;=\frac{\cos(\mathbf{A}_1, \mathbf{B}_1)\|\mathbf{A}_1\|\|\mathbf{B}_1\|+\cos(\mathbf{A}_2, \mathbf{B}_2)\|\mathbf{A}_2\|\|\mathbf{B}_2\|}{\sqrt{\|\mathbf{A}_1\|^2+\|\mathbf{A}_2\|^2}\sqrt{\|\mathbf{B}_1\|^2+\|\mathbf{B}_2\|^2}}\end{align*}$$</p><p>Now, let $s := \max(\cos(\mathbf{A}_1, \mathbf{B}_1), \cos(\mathbf{A}_2, \mathbf{B}_2))$. Then, we have:$$\begin{align*}\cos(\mathbf{A},\mathbf{B})&amp;\leq\frac{s\|\mathbf{A}_1\|\|\mathbf{B}_1\|+s\|\mathbf{A}_2\|\|\mathbf{B}_2\|}{\sqrt{\|\mathbf{A}_1\|^2+\|\mathbf{A}_2\|^2}\sqrt{\|\mathbf{B}_1\|^2+\|\mathbf{B}_2\|^2}}\\&amp;=\frac{\|\mathbf{A}_1\|\|\mathbf{B}_1\|+\|\mathbf{A}_2\|\|\mathbf{B}_2\|}{\sqrt{\|\mathbf{A}_1\|^2+\|\mathbf{A}_2\|^2}\sqrt{\|\mathbf{B}_1\|^2+\|\mathbf{B}_2\|^2}}\cdot s\\&amp;=\cos(\underbrace{[\|\mathbf{A}_1\|, \|\mathbf{A}_2\|]}_{\mathbb{R}^2}, \underbrace{[\|\mathbf{B}_1\|, \|\mathbf{B}_2\|]}_{\mathbb{R}^2})\cdot s\\&amp;\leq 1\cdot s \\&amp;= \max(\cos(\mathbf{A}_1, \mathbf{B}_1), \cos(\mathbf{A}_2, \mathbf{B}_2))\end{align*}$$</p><p>End of proof. </p><p>Note that in the final step of the proof, we leverage that the cosine similarity is always less than or equal to 1. This forms our upper bound. Similarly, we can show that the lower bound of \(\cos(\mathbf{A},\mathbf{B})\) is given by: </p><p>\[ \cos(\mathbf{A},\mathbf{B}) \geq t \cdot \cos([\|\mathbf{A}_1\|, \|\mathbf{A}_2\|], [\|\mathbf{B}_1\|, \|\mathbf{B}_2\|]) \], where $t:= \min(\cos(\mathbf{A}_1, \mathbf{B}_1), \cos(\mathbf{A}_2, \mathbf{B}_2))$.</p><p>Note that for the lower bound, we can not hastily conclude that \(\cos(\mathbf{A},\mathbf{B}) \geq t\). This is because of the range of the cosine function, which spans between \([-1, 1]\). Due to this range, it&apos;s impossible to establish a tighter lower bound than the trivial value of -1.</p><p>So in conclusion, we have the following loose bound: $$ -1\leq\cos(\mathbf{A},\mathbf{B})\leq\max(\cos(\mathbf{A}_1, \mathbf{B}_1), \cos(\mathbf{A}_2, \mathbf{B}_2)).$$ and a tighter bound \[\begin{align*}  \gamma \cdot t\leq&amp;\cos(\mathbf{A}, \mathbf{B}) \leq\gamma\cdot s\\\gamma \cdot \min(\cos(\mathbf{A}_1, \mathbf{B}_1), \cos(\mathbf{A}_2, \mathbf{B}_2)) \leq &amp;\cos(\mathbf{A}, \mathbf{B}) \leq \gamma \cdot \max(\cos(\mathbf{A}_1, \mathbf{B}_1), \cos(\mathbf{A}_2, \mathbf{B}_2))\end{align*}\], where $\gamma = \cos([\|\mathbf{A}_1\|, \|\mathbf{A}_2\|], [\|\mathbf{B}_1\|, \|\mathbf{B}_2\|]) $.</p><h3 id="connection-to-johnson%E2%80%93lindenstrauss-lemma">Connection to Johnson&#x2013;Lindenstrauss Lemma</h3><p>The JL lemma asserts that for any \(0 &lt; \epsilon &lt; 1\) and any finite set of points \( S \) in \( \mathbb{R}^d \), there exists a mapping \( f: \mathbb{R}^d \rightarrow \mathbb{R}^k \) (with \( k = O(\epsilon^{-2} \log |S|) \)) such that for all \( \mathbf{u}, \mathbf{v} \in S \), the Euclidean distances are approximately preserved:<br><br>\[(1 - \epsilon) \|\mathbf{u} - \mathbf{v}\|^2 \leq \|f(\mathbf{u}) - f(\mathbf{v})\|^2 \leq (1 + \epsilon) \|\mathbf{u} - \mathbf{v}\|^2\]</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://en.wikipedia.org/wiki/Johnson%E2%80%93Lindenstrauss_lemma?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Johnson&#x2013;Lindenstrauss lemma - Wikipedia</div><div class="kg-bookmark-description"></div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://en.wikipedia.org/static/apple-touch/wikipedia.png" alt="Does Subspace Cosine Similarity Imply High-Dimensional Cosine Similarity?"><span class="kg-bookmark-author">Wikimedia Foundation, Inc.</span><span class="kg-bookmark-publisher">Contributors to Wikimedia projects</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7f173a9fe1686cca4e497db35b4f908926294930" alt="Does Subspace Cosine Similarity Imply High-Dimensional Cosine Similarity?"></div></a></figure><p>To make $f$ work like a subspace selection, we can use a diagonal matrix for projection, such as a \(5 \times 3\) matrix \(f\), albeit not random (note, the typical formulation of the JL lemma involves linear transformations that often utilize random matrices drawn from a Gaussian distribution). For instance, if we aim to retain the 1st, 3rd, and 5th dimensions from a 5-dimensional vector space, the matrix \(f\) could be designed as follows: \[f = \begin{bmatrix}1 &amp; 0 &amp; 0 \\0 &amp; 0 &amp; 0 \\0 &amp; 1 &amp; 0 \\0 &amp; 0 &amp; 0 \\0 &amp; 0 &amp; 1\end{bmatrix}\]<br>However, by specifying $f$ to be diagonal, we limit the class of functions that can be used for the projection. The JL lemma guarantees the existence of a suitable $f$ within the broader class of linear transformations, but when we restrict $f$ to be diagonal, such a suitable $f$ may not exist within this restricted class for applying the JL lemma&apos;s bounds.</p><h2 id="validating-the-bounds">Validating the Bounds</h2><p>To empirically explore the theoretical bounds on cosine similarity in high-dimensional vector spaces, we can employ a Monte Carlo simulation. This method allows us to generate a large number of random vector pairs, compute their similarities in both the original space and subspaces, and then assess how well the theoretical upper and lower bounds hold in practice.</p><p>The following Python code snippet implements this concept. It randomly generates pairs of vectors in a high-dimensional space and computes their cosine similarity. Then, it divides each vector into two subspaces, calculates the cosine similarity within each subspace, and evaluates the upper and lower bounds of the full-dimensional cosine similarity based on the subspace similarities.</p><figure class="kg-card kg-code-card"><pre><code class="language-python">import numpy as np
-
-
-def compute_cosine_similarity(U, V):
-    # Normalize the rows to unit vectors
-    U_norm = U / np.linalg.norm(U, axis=1, keepdims=True)
-    V_norm = V / np.linalg.norm(V, axis=1, keepdims=True)
-    # Compute pairwise cosine similarity
-    return np.sum(U_norm * V_norm, axis=1)
-
-
-# Generate random data
-num_points = 5000
-d = 1024
-A = np.random.random([num_points, d])
-B = np.random.random([num_points, d])
-
-# Compute cosine similarity between A and B
-cos_sim = compute_cosine_similarity(A, B)
-
-# randomly divide A and B into subspaces
-m = np.random.randint(1, d)
-A1 = A[:, :m]
-A2 = A[:, m:]
-B1 = B[:, :m]
-B2 = B[:, m:]
-
-# Compute cosine similarity in subspaces
-cos_sim1 = compute_cosine_similarity(A1, B1)
-cos_sim2 = compute_cosine_similarity(A2, B2)
-
-# Find the element-wise maximum and minimum of cos_sim1 and cos_sim2
-s = np.maximum(cos_sim1, cos_sim2)
-t = np.minimum(cos_sim1, cos_sim2)
-
-norm_A1 = np.linalg.norm(A1, axis=1)
-norm_A2 = np.linalg.norm(A2, axis=1)
-norm_B1 = np.linalg.norm(B1, axis=1)
-norm_B2 = np.linalg.norm(B2, axis=1)
-
-# Form new vectors in R^2 from the norms
-norm_A_vectors = np.stack((norm_A1, norm_A2), axis=1)
-norm_B_vectors = np.stack((norm_B1, norm_B2), axis=1)
-
-# Compute cosine similarity in R^2
-gamma = compute_cosine_similarity(norm_A_vectors, norm_B_vectors)
-
-# print some info and validate the lower bound and upper bound
-print(&apos;d: %d\n&apos;
-      &apos;m: %d\n&apos;
-      &apos;n: %d\n&apos;
-      &apos;avg. cosine(A,B): %f\n&apos;
-      &apos;avg. upper bound: %f\n&apos;
-      &apos;avg. lower bound: %f\n&apos;
-      &apos;lower bound satisfied: %s\n&apos;
-      &apos;upper bound satisfied: %s&apos; % (
-          d, m, (d - m), np.mean(cos_sim), np.mean(s), np.mean(gamma * t), np.all(s &gt;= cos_sim),
-          np.all(gamma * t &lt;= cos_sim)))
-</code></pre><figcaption><p><span style="white-space: pre-wrap;">A Monte Carlo validator for validating cosine similarity bounds</span></p></figcaption></figure><figure class="kg-card kg-code-card"><pre><code class="language-output">d: 1024
-m: 743
-n: 281
-avg. cosine(A,B): 0.750096
-avg. upper bound: 0.759080
-avg. lower bound: 0.741200
-lower bound satisfied: True
-upper bound satisfied: True</code></pre><figcaption><p><span style="white-space: pre-wrap;">A sample output from our Monte Carlo validator. It&apos;s important to note that the </span><code spellcheck="false" style="white-space: pre-wrap;"><span>lower/upper bound satisfied</span></code><span style="white-space: pre-wrap;"> condition is checked for every vector individually. Meanwhile, the </span><code spellcheck="false" style="white-space: pre-wrap;"><span>avg. lower/upper bound</span></code><span style="white-space: pre-wrap;"> provides a more intuitive overview of the statistics related to these bounds but doesn&apos;t directly influence the validation process.</span></p></figcaption></figure><h2 id="understanding-the-bounds">Understanding the Bounds</h2><p>In a nutshell, when comparing two high-dimensional vectors, the overall similarity lies between the best and worst similarities of their subspaces, adjusted for how large or important those subspaces are in the overall scheme. This is what the bounds for cosine similarity in higher dimensions intuitively represent: the balance between the most and least similar parts, weighted by their relative sizes or importance.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://jina-ai-gmbh.ghost.io/content/images/2024/01/Explore-image-storytelling-beyond-pixels--35-.png" class="kg-image" alt="Does Subspace Cosine Similarity Imply High-Dimensional Cosine Similarity?" loading="lazy" width="1200" height="627" srcset="https://jina-ai-gmbh.ghost.io/content/images/size/w600/2024/01/Explore-image-storytelling-beyond-pixels--35-.png 600w, https://jina-ai-gmbh.ghost.io/content/images/size/w1000/2024/01/Explore-image-storytelling-beyond-pixels--35-.png 1000w, https://jina-ai-gmbh.ghost.io/content/images/2024/01/Explore-image-storytelling-beyond-pixels--35-.png 1200w" sizes="(min-width: 720px) 720px"><figcaption><span style="white-space: pre-wrap;">Each pen has two main components: the body and the cap.</span></figcaption></figure><p>Imagine you&apos;re trying to compare two multi-part objects (let&apos;s say, two fancy pens) based on their overall similarity. Each pen has two main components: the body and the cap. The similarity of the whole pen (both body and cap) is what we&apos;re trying to determine:</p><h3 id="upper-bound-gamma-cdot-s">Upper Bound ($\gamma \cdot s$)</h3><p>Think of $s$ as the best match between corresponding parts of the pens. If the caps are very similar but the bodies aren&apos;t, $s$ is the similarity of the caps.</p><p>Now, $\gamma$ is like a scaling factor based on the size (or importance) of each part. If one pen has a very long body and a short cap, while the other has a short body and a long cap, $\gamma$ adjusts the overall similarity to account for these differences in proportions.</p><p>The upper bound tells us that no matter how similar some parts are, the overall similarity can&apos;t exceed this &quot;best part similarity&quot; scaled by the proportion factor.</p><h3 id="lower-bound-gamma-cdot-t">Lower Bound ($\gamma \cdot t$)</h3><p>Here, $t$ is the similarity of the least matching parts. If the bodies of the pens are quite different but the caps are similar, $t$ reflects the body&apos;s similarity.</p><p>Again, $\gamma$ scales this based on the proportion of each part.</p><p>The lower bound means that the overall similarity can&apos;t be worse than this &quot;worst part similarity&quot; after accounting for the proportion of each part.</p><h2 id="implications-of-the-bounds">Implications of the Bounds</h2><p>For software engineers working with embeddings, vector search, retrieval, or databases, understanding these bounds has practical implications, particularly when dealing with high-dimensional data. Vector search often involves finding the closest (most similar) vectors in a database to a given query vector, typically using cosine similarity as a measure of closeness. The bounds we discussed can provide insights into the effectiveness and limitations of using subspace similarities for such tasks.</p><h3 id="using-subspace-similarity-for-ranking">Using Subspace Similarity for Ranking</h3><p><strong>Safety and Accuracy</strong>: Using subspace similarity for ranking and retrieving top-k results can be effective, but with caution. The upper bound indicates that the overall similarity can&apos;t exceed the maximum similarity of the subspaces. Thus, if a pair of vectors is highly similar in a particular subspace, it&apos;s a strong candidate for being similar in the high-dimensional space.</p><p><strong>Potential Pitfalls</strong>: However, the lower bound suggests that two vectors with low similarity in one subspace could still be quite similar overall. Therefore, relying solely on subspace similarity might miss some relevant results.</p><h3 id="misconceptions-and-cautions">Misconceptions and Cautions</h3><p><strong>Overestimating Subspace Importance</strong>: A common misconception is overestimating the importance of a particular subspace. While high similarity in one subspace is a good indicator, it doesn&apos;t guarantee high overall similarity due to the influence of other subspaces.</p><p><strong>Ignoring Negative Similarities</strong>: In cases where the cosine similarity in a subspace is negative, it indicates an opposing relationship in that dimension. Engineers should be wary of how these negative similarities impact the overall similarity.</p>]]></content:encoded></item></channel></rss>
+}&apos;</code></pre><h2 id="improve-your-image-accessibility-with-scenexplain%E2%80%99s-api">Improve your image accessibility with SceneXplain&#x2019;s API</h2><p>To get started, head over to <a href="https://scenex.jina.ai/api?ref=jina-ai-gmbh.ghost.io">SceneXplain&#x2019;s API page</a> to brush up on how it all works, generate a secret key, and then either adapt our notebook or create your own code to start improving accessibility today!</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://scenex.jina.ai/?ref=jina-ai-gmbh.ghost.io"><div class="kg-bookmark-content"><div class="kg-bookmark-title">SceneXplain - Leading AI Solution for Image Captions and Video Summaries</div><div class="kg-bookmark-description">Experience cutting-edge computer vision with our premier image captioning and video summarization algorithms. Tailored for content creators, media professionals, SEO experts, and e-commerce enterprises. Featuring multilingual support and seamless API integration. Elevate your digital presence today.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://scenex.jina.ai/icons/apple-icon-180x180.png" alt="Making Accessibility Accessible: Create Alt Text with SceneXplain&apos;s API"><span class="kg-bookmark-author">SceneXplain</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://scenex.jina.ai/banner.png" alt="Making Accessibility Accessible: Create Alt Text with SceneXplain&apos;s API"></div></a></figure>]]></content:encoded></item></channel></rss>
