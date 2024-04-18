@@ -1,19 +1,19 @@
 {
   "stars": {
     "docarray": "2.7K",
-    "jina": "19.9K",
+    "jina": "20K",
     "finetuner": "1.4K",
     "dalle-flow": "2.8K",
     "discoart": "3.8K",
     "clip-as-service": "12.2K",
-    "jcloud": "294",
+    "jcloud": "295",
     "langchain-serve": "1.6K",
     "thinkgpt": "1.5K",
     "dev-gpt": "1.6K",
-    "rungpt": "136",
+    "rungpt": "137",
     "vectordb": "460",
     "jerboa": "35",
-    "total": "48.5K"
+    "total": "48.6K"
   },
   "jobs": [
     {
