@@ -1,1 +1,0 @@
-import{b as t,c as n}from"./index.d7d7bff0.js";import c from"./index.ef1677b9.js";const a="en-US";var g=t(({app:o,store:l})=>{const e=n({locale:a,fallbackLocale:a,legacy:!1,globalInjection:!1,messages:{"en-US":c}});l.use(({store:s})=>{s.t=e.global.t}),o.use(e)});export{g as default};
