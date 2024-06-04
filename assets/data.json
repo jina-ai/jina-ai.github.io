@@ -11,9 +11,9 @@
     "thinkgpt": "1.5K",
     "dev-gpt": "1.7K",
     "rungpt": "141",
-    "vectordb": "485",
+    "vectordb": "487",
     "jerboa": "36",
-    "total": "49.1K"
+    "total": "49.2K"
   },
   "jobs": {
     "ok": false,
