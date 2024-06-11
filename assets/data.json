@@ -5,7 +5,7 @@
     "finetuner": "1.4K",
     "dalle-flow": "2.8K",
     "discoart": "3.8K",
-    "clip-as-service": "12.2K",
+    "clip-as-service": "12.3K",
     "jcloud": "293",
     "langchain-serve": "1.6K",
     "thinkgpt": "1.5K",
@@ -13,7 +13,7 @@
     "rungpt": "141",
     "vectordb": "489",
     "jerboa": "37",
-    "total": "49.2K"
+    "total": "49.3K"
   },
   "jobs": {
     "ok": false,
