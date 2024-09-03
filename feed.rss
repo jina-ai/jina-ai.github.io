@@ -9,7 +9,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
     <channel>
         <title>Jina AI</title>
-        <link>https://jina-ai-gmbh.ghost.io</link>
+        <link>https://jina.ai</link>
         <description>The official newsroom of Jina AI</description>
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
