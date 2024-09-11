@@ -14,8 +14,16 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Mon, 09 Sep 2024 09:55:59 +0200</lastBuildDate>
+        <lastBuildDate>Wed, 11 Sep 2024 12:36:55 +0200</lastBuildDate>
 
+            <item>
+                <title>Reader-LM: Small Language Models for Cleaning and Converting HTML to Markdown</title>
+                <link>https://jina.ai/news/reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown/</link>
+                <pubDate>Wed, 11 Sep 2024 12:25:03 +0200</pubDate>
+                <guid isPermaLink="false">66dff7eba241f5000155d851</guid>
+                <category><![CDATA[ Press ]]></category>
+                <description>Reader-LM-0.5B and Reader-LM-1.5B are two novel small language models inspired by Jina Reader, designed to convert raw, noisy HTML from the open web into clean markdown.</description>
+            </item>
             <item>
                 <title>Jina ColBERT v2: Multilingual Late Interaction Retriever for Embedding and Reranking</title>
                 <link>https://jina.ai/news/jina-colbert-v2-multilingual-late-interaction-retriever-for-embedding-and-reranking/</link>
