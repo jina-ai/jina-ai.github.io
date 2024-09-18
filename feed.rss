@@ -14,7 +14,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Thu, 12 Sep 2024 12:02:56 +0200</lastBuildDate>
+        <lastBuildDate>Wed, 18 Sep 2024 04:49:34 +0200</lastBuildDate>
 
             <item>
                 <title>Reader-LM: Small Language Models for Cleaning and Converting HTML to Markdown</title>
