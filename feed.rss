@@ -14,8 +14,16 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Wed, 18 Sep 2024 04:49:34 +0200</lastBuildDate>
+        <lastBuildDate>Wed, 18 Sep 2024 10:49:20 +0200</lastBuildDate>
 
+            <item>
+                <title>Jina Embeddings V3: A Frontier Multilingual Embedding Model</title>
+                <link>https://jina.ai/news/jina-embeddings-v3-a-frontier-multilingual-embedding-model/</link>
+                <pubDate>Wed, 18 Sep 2024 10:37:31 +0200</pubDate>
+                <guid isPermaLink="false">66ea352ab0c14d00013bc7f1</guid>
+                <category><![CDATA[ Press ]]></category>
+                <description>jina-embeddings-v3 is a frontier multilingual text embedding model with 570M parameters and 8192 token-length, outperforming the latest proprietary embeddings from OpenAI and Cohere on MTEB.</description>
+            </item>
             <item>
                 <title>Reader-LM: Small Language Models for Cleaning and Converting HTML to Markdown</title>
                 <link>https://jina.ai/news/reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown/</link>
