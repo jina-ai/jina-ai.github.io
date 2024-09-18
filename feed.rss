@@ -14,7 +14,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Wed, 18 Sep 2024 10:49:20 +0200</lastBuildDate>
+        <lastBuildDate>Wed, 18 Sep 2024 11:27:15 +0200</lastBuildDate>
 
             <item>
                 <title>Jina Embeddings V3: A Frontier Multilingual Embedding Model</title>
