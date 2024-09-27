@@ -14,8 +14,16 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Tue, 24 Sep 2024 11:37:02 +0200</lastBuildDate>
+        <lastBuildDate>Fri, 27 Sep 2024 17:44:51 +0200</lastBuildDate>
 
+            <item>
+                <title>Migration From Jina Embeddings v2 to v3</title>
+                <link>https://jina.ai/news/migration-from-jina-embeddings-v2-to-v3/</link>
+                <pubDate>Fri, 27 Sep 2024 17:32:59 +0200</pubDate>
+                <guid isPermaLink="false">66f3d0e34b7bde000124bbdb</guid>
+                <category><![CDATA[ Tech Blog ]]></category>
+                <description>We collected some tips to help you migrate from Jina Embeddings v2 to v3.</description>
+            </item>
             <item>
                 <title>Jina Embeddings v3: A Frontier Multilingual Embedding Model</title>
                 <link>https://jina.ai/news/jina-embeddings-v3-a-frontier-multilingual-embedding-model/</link>
