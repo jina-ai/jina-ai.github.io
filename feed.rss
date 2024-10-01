@@ -14,7 +14,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Mon, 30 Sep 2024 04:42:44 +0200</lastBuildDate>
+        <lastBuildDate>Tue, 01 Oct 2024 13:56:49 +0200</lastBuildDate>
 
             <item>
                 <title>Migration From Jina Embeddings v2 to v3</title>
