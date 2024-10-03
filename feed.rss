@@ -14,8 +14,16 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Tue, 01 Oct 2024 13:56:49 +0200</lastBuildDate>
+        <lastBuildDate>Thu, 03 Oct 2024 19:31:08 +0200</lastBuildDate>
 
+            <item>
+                <title>What Late Chunking Really Is &amp; What It’s Not: Part II</title>
+                <link>https://jina.ai/news/what-late-chunking-really-is-and-what-its-not-part-ii/</link>
+                <pubDate>Thu, 03 Oct 2024 19:19:16 +0200</pubDate>
+                <guid isPermaLink="false">66fe70236ca44300014cabe4</guid>
+                <category><![CDATA[ Tech Blog ]]></category>
+                <description>Part 2 of our exploration of Late Chunking, a deep dive into why it is the best method for chunk embeddings and improving search/RAG performance.</description>
+            </item>
             <item>
                 <title>Migration From Jina Embeddings v2 to v3</title>
                 <link>https://jina.ai/news/migration-from-jina-embeddings-v2-to-v3/</link>
