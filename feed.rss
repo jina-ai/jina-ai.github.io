@@ -14,8 +14,16 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Tue, 08 Oct 2024 16:39:36 +0200</lastBuildDate>
+        <lastBuildDate>Wed, 09 Oct 2024 14:54:22 +0200</lastBuildDate>
 
+            <item>
+                <title>Bridging Language Gaps in Multilingual Embeddings via Contrastive Learning</title>
+                <link>https://jina.ai/news/bridging-language-gaps-in-multilingual-embeddings-via-contrastive-learning/</link>
+                <pubDate>Wed, 09 Oct 2024 14:42:22 +0200</pubDate>
+                <guid isPermaLink="false">67066bd652567c0001d0f2cd</guid>
+                <category><![CDATA[ Tech Blog ]]></category>
+                <description>Multilingual models often face a &quot;language gap,&quot; where similar phrases in different languages don&#x27;t align. We show how contrastive learning can bridge this gap, enhancing cross-language performance.</description>
+            </item>
             <item>
                 <title>What Late Chunking Really Is &amp; What It’s Not: Part II</title>
                 <link>https://jina.ai/news/what-late-chunking-really-is-and-what-its-not-part-ii/</link>
