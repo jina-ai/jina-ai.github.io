@@ -14,7 +14,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Fri, 11 Oct 2024 05:27:30 +0200</lastBuildDate>
+        <lastBuildDate>Fri, 11 Oct 2024 14:29:12 +0200</lastBuildDate>
 
             <item>
                 <title>Bridging Language Gaps in Multilingual Embeddings via Contrastive Learning</title>
