@@ -14,8 +14,16 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Fri, 11 Oct 2024 14:29:12 +0200</lastBuildDate>
+        <lastBuildDate>Tue, 15 Oct 2024 10:20:06 +0200</lastBuildDate>
 
+            <item>
+                <title>Fact-Checking with New Grounding API in Jina Reader</title>
+                <link>https://jina.ai/news/fact-checking-with-new-grounding-api-in-jina-reader/</link>
+                <pubDate>Tue, 15 Oct 2024 10:08:02 +0200</pubDate>
+                <guid isPermaLink="false">670cd94952567c0001d0f33e</guid>
+                <category><![CDATA[ Press ]]></category>
+                <description>With the new g.jina.ai, you can easily ground statements to reduce LLM hallucinations or improve the integrity of human-written content.</description>
+            </item>
             <item>
                 <title>Bridging Language Gaps in Multilingual Embeddings via Contrastive Learning</title>
                 <link>https://jina.ai/news/bridging-language-gaps-in-multilingual-embeddings-via-contrastive-learning/</link>
