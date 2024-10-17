@@ -14,7 +14,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Thu, 17 Oct 2024 04:34:00 +0200</lastBuildDate>
+        <lastBuildDate>Thu, 17 Oct 2024 05:46:34 +0200</lastBuildDate>
 
             <item>
                 <title>Fact-Checking with New Grounding API in Jina Reader</title>
