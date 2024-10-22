@@ -1,1 +1,0 @@
-import{b as s,c as n}from"./index-Cx0E5SmX.js";import c from"./index-Cl_gk9cQ.js";const l="en-US",b=s(({app:o,store:t})=>{const e=n({locale:l,fallbackLocale:l,legacy:!1,globalInjection:!1,messages:{"en-US":c}});t.use(({store:a})=>{a.t=e.global.t,a.te=e.global.te}),o.use(e)});export{b as default};
