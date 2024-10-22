@@ -1,0 +1,1 @@
+import{b as t,Q as o}from"./index-C8GZlD80.js";const l=Object.assign({}),c=t(async()=>{const a="en-US";try{const n=await l[`../../node_modules/quasar/lang/${a}.mjs`]();o.lang.set(n.default)}catch{}});export{c as default};
