@@ -14,7 +14,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Wed, 23 Oct 2024 07:30:55 +0200</lastBuildDate>
+        <lastBuildDate>Thu, 24 Oct 2024 04:15:32 +0200</lastBuildDate>
 
             <item>
                 <title>Jina Classifier API for High Performance Zero-Shot and Few-Shot Classification</title>
