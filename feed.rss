@@ -14,7 +14,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Fri, 25 Oct 2024 13:26:49 +0200</lastBuildDate>
+        <lastBuildDate>Sat, 26 Oct 2024 05:56:48 +0200</lastBuildDate>
 
             <item>
                 <title>Finding Optimal Breakpoints in Long Documents Using Small Language Models</title>
@@ -298,28 +298,12 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
                 <description>With full integration of Jina Reranker, you can now bring Jina AI&#x27;s state-of-the-art technology to SQL retrieval.</description>
             </item>
             <item>
-                <title>Jina 3.25.1 Update</title>
-                <link>https://jina.ai/news/jina-3-25-1-update/</link>
-                <pubDate>Thu, 11 Apr 2024 15:13:59 +0200</pubDate>
-                <guid isPermaLink="false">6617e163797dcd00012e7daf</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
-            </item>
-            <item>
                 <title>Retrieve Jira Tickets with Jina Reranker and Haystack 2.0</title>
                 <link>https://jina.ai/news/retrieve-jira-tickets-with-jina-reranker-and-haystack-20/</link>
                 <pubDate>Wed, 10 Apr 2024 16:00:49 +0200</pubDate>
                 <guid isPermaLink="false">661543ffd6a1020001681e99</guid>
                 <category><![CDATA[ Tech Blog ]]></category>
                 <description>Learn how to use Jina Reranker and Embeddings with Haystack to create your own Jira ticket search engine, streamlining your operations and never again waste time creating duplicate issues.</description>
-            </item>
-            <item>
-                <title>Jina 3.25.0 Update</title>
-                <link>https://jina.ai/news/jina-3-25-0-update/</link>
-                <pubDate>Tue, 02 Apr 2024 15:44:34 +0200</pubDate>
-                <guid isPermaLink="false">660c0aafd6a1020001681e67</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
             </item>
             <item>
                 <title>DSPy: Not Your Average Prompt Engineering</title>
@@ -354,14 +338,6 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
                 <description>See how PromptPerfect can level up your LLM prompting and optimize your email and social media marketing campaigns.</description>
             </item>
             <item>
-                <title>Jina 3.24.1 Update</title>
-                <link>https://jina.ai/news/jina-3-24-1-update/</link>
-                <pubDate>Wed, 20 Mar 2024 15:54:53 +0100</pubDate>
-                <guid isPermaLink="false">65faf82c502fd000011c6727</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
-            </item>
-            <item>
                 <title>Get More with PromptPerfect: Improved Subscription Choices &amp; Cutting-Edge Interactive Optimizer</title>
                 <link>https://jina.ai/news/get-more-with-promptperfect-improved-subscription-choices-cutting-edge-interactive-optimizer/</link>
                 <pubDate>Mon, 18 Mar 2024 16:00:23 +0100</pubDate>
@@ -386,14 +362,6 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
                 <description>Jina Embeddings v2 are now integrated directly into SuperDuperDB, letting you skip the complexity of AI operations in your data-driven applications.</description>
             </item>
             <item>
-                <title>Jina 3.24.0 Update</title>
-                <link>https://jina.ai/news/jina-3-24-0-update/</link>
-                <pubDate>Mon, 11 Mar 2024 11:30:15 +0100</pubDate>
-                <guid isPermaLink="false">65eedc3c28f704000180e2dc</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
-            </item>
-            <item>
                 <title>Precise RAG with Jina Reranker and LlamaIndex</title>
                 <link>https://jina.ai/news/precise-rag-with-jina-reranker-and-llamaindex/</link>
                 <pubDate>Thu, 07 Mar 2024 15:00:01 +0100</pubDate>
@@ -408,14 +376,6 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
                 <guid isPermaLink="false">65ddadd039a5b70001810ea3</guid>
                 <category><![CDATA[ Tech Blog ]]></category>
                 <description>Create a RAG system with Jina Embeddings v2, Qdrant vector database, LlamaIndex, and Mistral LLM.</description>
-            </item>
-            <item>
-                <title>Jina 3.23.5 Update</title>
-                <link>https://jina.ai/news/jina-3-23-5-update/</link>
-                <pubDate>Thu, 29 Feb 2024 17:31:15 +0100</pubDate>
-                <guid isPermaLink="false">65e0b09bb22368000152a3ff</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
             </item>
             <item>
                 <title>Maximizing Search Relevance and RAG Accuracy with Jina Reranker</title>
@@ -434,28 +394,12 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
                 <description>Our new paper explores how our Spanish-English and German-English models use multi-task contrastive learning and a sophisticated data pipeline to master language understanding and cross-lingual efficiency for texts up to 8192 tokens</description>
             </item>
             <item>
-                <title>Jina 3.23.4 Update</title>
-                <link>https://jina.ai/news/jina-3-23-4-update/</link>
-                <pubDate>Tue, 27 Feb 2024 11:01:33 +0100</pubDate>
-                <guid isPermaLink="false">65ddb23939a5b70001810ef5</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
-            </item>
-            <item>
                 <title>What is ColBERT and Late Interaction and Why They Matter in Search?</title>
                 <link>https://jina.ai/news/what-is-colbert-and-late-interaction-and-why-they-matter-in-search/</link>
                 <pubDate>Tue, 20 Feb 2024 02:19:04 +0100</pubDate>
                 <guid isPermaLink="false">65d3a2134a32310001f5b71b</guid>
                 <category><![CDATA[ Tech Blog ]]></category>
                 <description>Jina AI&#x27;s ColBERT on Hugging Face has set Twitter abuzz, bringing a fresh perspective to search with its 8192-token capability. This article unpacks the nuances of ColBERT and ColBERTv2, showcasing their innovative designs and why their late interaction feature is a game-changer for search.</description>
-            </item>
-            <item>
-                <title>Jina 3.23.3 Update</title>
-                <link>https://jina.ai/news/jina-3-23-3-update/</link>
-                <pubDate>Fri, 16 Feb 2024 12:29:17 +0100</pubDate>
-                <guid isPermaLink="false">65cf33b44a32310001f5b6d8</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
             </item>
             <item>
                 <title>Aquí Se Habla Español: Top-Quality Spanish-English Embeddings and 8k Context</title>
@@ -505,14 +449,6 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
                 <category><![CDATA[ Tech Blog ]]></category>
                 <description>Jina AI&#x27;s open-source bilingual embedding models for German-English and Chinese-English are now on Hugging Face.
 We’re going to walk through installation and cross-language retrieval.</description>
-            </item>
-            <item>
-                <title>Discover the Hidden Business Value in Images with SceneXplain | MarTech Online Workshop</title>
-                <link>https://jina.ai/news/discover-the-hidden-business-value-in-images-with-scenexplain-martech-online-workshop/</link>
-                <pubDate>Fri, 26 Jan 2024 16:03:35 +0100</pubDate>
-                <guid isPermaLink="false">65b225a58da8040001e1739f</guid>
-                <category><![CDATA[ Events ]]></category>
-                <description>Discover how SceneXplain, our AI tool, transforms images into valuable assets for marketers, advertisers, and e-commerce pros.</description>
             </item>
             <item>
                 <title>Making Accessibility Accessible: Create Alt Text with SceneXplain&#x27;s API</title>
@@ -571,14 +507,6 @@ We’re going to walk through installation and cross-language retrieval.</descri
                 <description>Effortlessly create JSON Schemas with SceneXplain: Describe your needs in natural language, and get the perfect schema for extracting JSON from your images!</description>
             </item>
             <item>
-                <title>DocArray 0.40.0 Update</title>
-                <link>https://jina.ai/news/docarray-0-40-0-update/</link>
-                <pubDate>Fri, 22 Dec 2023 15:20:33 +0100</pubDate>
-                <guid isPermaLink="false">658599a20bab3100012d2b68</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>DocArray is a library for representing, sending and storing multi-modal data, perfect for Machine Learning applications.</description>
-            </item>
-            <item>
                 <title>Full-stack RAG with Jina Embeddings v2 and LlamaIndex</title>
                 <link>https://jina.ai/news/full-stack-rag-with-jina-embeddings-v2-and-llamaindex/</link>
                 <pubDate>Fri, 22 Dec 2023 14:00:07 +0100</pubDate>
@@ -609,14 +537,6 @@ We’re going to walk through installation and cross-language retrieval.</descri
                 <guid isPermaLink="false">657c3d130bab3100012d2878</guid>
                 <category><![CDATA[ Events ]]></category>
                 <description>Just back from EMNLP2023 and my mind&#x27;s still reeling! Witnessed NLP&#x27;s seismic shift firsthand through daring papers and provocative posters that are challenging everything we thought we knew. Check out my take on the conference&#x27;s boldest ideas.</description>
-            </item>
-            <item>
-                <title>Jina 3.23.2 Update</title>
-                <link>https://jina.ai/news/jina-3-23-2-update/</link>
-                <pubDate>Thu, 14 Dec 2023 16:54:21 +0100</pubDate>
-                <guid isPermaLink="false">657b24340bab3100012d27cb</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
             </item>
             <item>
                 <title>There&#x27;s a Time and a Place: Unleashing Dynamic Variables in PromptPerfect</title>
@@ -651,14 +571,6 @@ We’re going to walk through installation and cross-language retrieval.</descri
                 <description>Mark your calendars for an immersive BoF session on Embeddings at EMNLP 2023. Join us on December 9th from 11:00 AM to 12:30 PM, Singapore time, in the &#x27;Aquarius 1&#x27; room for a deep dive into the latest embeddings.</description>
             </item>
             <item>
-                <title>Jina 3.23.1 Update</title>
-                <link>https://jina.ai/news/jina-3-23-1-update/</link>
-                <pubDate>Fri, 01 Dec 2023 10:59:57 +0100</pubDate>
-                <guid isPermaLink="false">6569a11066eb300001a2899e</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
-            </item>
-            <item>
                 <title>Give and Take in FDP&#x27;s AI Geopolitics Panel</title>
                 <link>https://jina.ai/news/give-and-take-in-fdps-ai-geopolitics-panel/</link>
                 <pubDate>Wed, 29 Nov 2023 14:04:01 +0100</pubDate>
@@ -689,14 +601,6 @@ We’re going to walk through installation and cross-language retrieval.</descri
                 <guid isPermaLink="false">65577ae1bb728c000101be6c</guid>
                 <category><![CDATA[ Press ]]></category>
                 <description>Jina AI launches 8K token length embedding v2 models on AWS marketplace, elevating enterprise AI deployments with EU-engineered innovation and a commitment to data sovereignty.</description>
-            </item>
-            <item>
-                <title>Jina 3.23.0 Update</title>
-                <link>https://jina.ai/news/jina-3-23-0-update/</link>
-                <pubDate>Mon, 20 Nov 2023 11:20:23 +0100</pubDate>
-                <guid isPermaLink="false">655b2af0bb728c000101bee8</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
             </item>
             <item>
                 <title>SceneXplain&#x27;s OCR beats GPT-4V hands down: Chinese, Japanese, Korean, Arabic, Hindi, and more!</title>
@@ -731,14 +635,6 @@ We’re going to walk through installation and cross-language retrieval.</descri
                 <description>With Jina Embeddings 2 models you get high-quality embeddings from an open-source, downloadable model with an input size of 8,192 tokens.</description>
             </item>
             <item>
-                <title>Jina 3.22.4 Update</title>
-                <link>https://jina.ai/news/jina-3-22-4-update/</link>
-                <pubDate>Tue, 31 Oct 2023 15:45:42 +0100</pubDate>
-                <guid isPermaLink="false">65411268d9dd650001cdb18b</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
-            </item>
-            <item>
                 <title>Case Study: Revolutionizing E-Commerce User Experience And Streamlining Search With SceneXplain</title>
                 <link>https://jina.ai/news/case-study-revolutionizing-e-commerce-user-experience-and-streamlining-search-with-scenexplain/</link>
                 <pubDate>Mon, 30 Oct 2023 14:00:20 +0100</pubDate>
@@ -763,36 +659,12 @@ We’re going to walk through installation and cross-language retrieval.</descri
                 <description>SceneXplain&#x27;s state-of-the-art Jelly algorithm is more concise, readable and accurate than ever before, while killing hallucinations.</description>
             </item>
             <item>
-                <title>Jina 3.22.3 Update</title>
-                <link>https://jina.ai/news/jina-3-22-3-update/</link>
-                <pubDate>Wed, 25 Oct 2023 14:10:20 +0200</pubDate>
-                <guid isPermaLink="false">65390517dcdd090001c7d210</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
-            </item>
-            <item>
                 <title>Jina AI Launches World&#x27;s First Open-Source 8K Text Embedding, Rivaling OpenAI</title>
                 <link>https://jina.ai/news/jina-ai-launches-worlds-first-open-source-8k-text-embedding-rivaling-openai/</link>
                 <pubDate>Wed, 25 Oct 2023 07:43:17 +0200</pubDate>
                 <guid isPermaLink="false">6538999ddcdd090001c7d17f</guid>
                 <category><![CDATA[ Press ]]></category>
                 <description>Jina AI introduces jina-embeddings-v2, the world&#x27;s first open-source model boasting an 8K context length. Matching the prowess of OpenAI&#x27;s proprietary models, this innovation is now publicly accessible on Huggingface, signaling a significant milestone in the landscape of text embeddings.</description>
-            </item>
-            <item>
-                <title>DocArray 0.39.1 Update</title>
-                <link>https://jina.ai/news/docarray-0-39-1-update/</link>
-                <pubDate>Mon, 23 Oct 2023 11:19:10 +0200</pubDate>
-                <guid isPermaLink="false">653639aa6930100001517b22</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>DocArray is a library for representing, sending and storing multi-modal data, perfect for Machine Learning applications.</description>
-            </item>
-            <item>
-                <title>Jina 3.22.2 Update</title>
-                <link>https://jina.ai/news/jina-3-22-2-update/</link>
-                <pubDate>Fri, 20 Oct 2023 17:17:10 +0200</pubDate>
-                <guid isPermaLink="false">653298e658a10800011a4c32</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
             </item>
             <item>
                 <title>How Embeddings Drive AI: A Comprehensive Presentation</title>
@@ -811,38 +683,6 @@ We’re going to walk through installation and cross-language retrieval.</descri
                 <description>Introducing PromptPerfect&#x27;s Affiliate Program, an initiative for enthusiasts to bring attention to Jina AI&#x27;s innovative technologies and show our appreciation to the community that makes PromptPerfect great!</description>
             </item>
             <item>
-                <title>Jina 3.22.1 Update</title>
-                <link>https://jina.ai/news/jina-3-22-1-update/</link>
-                <pubDate>Fri, 06 Oct 2023 16:54:43 +0200</pubDate>
-                <guid isPermaLink="false">65200886701fe20001daea2c</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
-            </item>
-            <item>
-                <title>Jina 3.22.0 Update</title>
-                <link>https://jina.ai/news/jina-3-22-0-update/</link>
-                <pubDate>Wed, 04 Oct 2023 14:53:54 +0200</pubDate>
-                <guid isPermaLink="false">651d461cd921f000016560c5</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
-            </item>
-            <item>
-                <title>DocArray 0.39 Update</title>
-                <link>https://jina.ai/news/docarray-0-39-update/</link>
-                <pubDate>Mon, 02 Oct 2023 15:43:56 +0200</pubDate>
-                <guid isPermaLink="false">651ac836330c280001e2c0bd</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>DocArray is a library for representing, sending and storing multi-modal data, perfect for Machine Learning applications.</description>
-            </item>
-            <item>
-                <title>Jina 3.21.1 Update</title>
-                <link>https://jina.ai/news/jina-3-21-1-update/</link>
-                <pubDate>Fri, 29 Sep 2023 13:01:10 +0200</pubDate>
-                <guid isPermaLink="false">6516adfe545c930001d5bd82</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
-            </item>
-            <item>
                 <title>SceneXplain vs. GPT-4 Vision: The Best Image Captioning Tool in 2023?</title>
                 <link>https://jina.ai/news/scenexplain-vs-gpt-4-vision-the-best-image-captioning-tool-in-2023/</link>
                 <pubDate>Thu, 28 Sep 2023 16:29:26 +0200</pubDate>
@@ -857,14 +697,6 @@ We’re going to walk through installation and cross-language retrieval.</descri
                 <guid isPermaLink="false">6512f523b8ba9c00011e12cb</guid>
                 <category><![CDATA[ Releases ]]></category>
                 <description>Introducing Unified Credits: Seamlessly share credits between PromptPerfect and SceneXplain, maximizing efficiency and cost savings for power users. </description>
-            </item>
-            <item>
-                <title>Jina 3.21.0 Update</title>
-                <link>https://jina.ai/news/jina-3-21-0-update/</link>
-                <pubDate>Tue, 26 Sep 2023 18:27:16 +0200</pubDate>
-                <guid isPermaLink="false">6513056fb8ba9c00011e132c</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
             </item>
             <item>
                 <title>SceneXplain&#x27;s Image-to-JSON: Extract Structured Data from Images with Precision</title>
@@ -891,36 +723,12 @@ We’re going to walk through installation and cross-language retrieval.</descri
                 <description>Diving into PromptPerfect&#x27;s LLM-as-a-database: a middle ground between few-shot prompts and RAG. Its nuanced approach outshines GPT-4 in complex queries. Evolution in action.</description>
             </item>
             <item>
-                <title>DocArray 0.38 Update</title>
-                <link>https://jina.ai/news/docarray-0-38-update/</link>
-                <pubDate>Thu, 07 Sep 2023 15:48:55 +0200</pubDate>
-                <guid isPermaLink="false">64f9d1ed5fa9490001805e63</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>DocArray is a library for representing, sending and storing multi-modal data, perfect for Machine Learning applications.</description>
-            </item>
-            <item>
                 <title>Distilled AI: Using Large Models to Teach Smaller Ones</title>
                 <link>https://jina.ai/news/distilled-ai-using-large-models-to-teach-smaller-ones/</link>
                 <pubDate>Thu, 07 Sep 2023 15:31:38 +0200</pubDate>
                 <guid isPermaLink="false">64f88a2a5fa9490001805c0c</guid>
                 <category><![CDATA[ Tech Blog ]]></category>
                 <description>Better AI with smaller models and cheaper data costs! But only if you use AI to train AI.</description>
-            </item>
-            <item>
-                <title>Jina 3.20.3 Update</title>
-                <link>https://jina.ai/news/jina-3-20-3-update/</link>
-                <pubDate>Thu, 07 Sep 2023 10:52:25 +0200</pubDate>
-                <guid isPermaLink="false">64f986615fa9490001805cad</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
-            </item>
-            <item>
-                <title>Jina 3.20.2 Update</title>
-                <link>https://jina.ai/news/jina-3-20-2-update/</link>
-                <pubDate>Wed, 06 Sep 2023 10:31:45 +0200</pubDate>
-                <guid isPermaLink="false">64f836cb920c5d0001002bb6</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
             </item>
             <item>
                 <title>Do You Truly Need a Dedicated Vector Store?</title>
@@ -1005,14 +813,6 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>The latest BestBanner release will transform your banner generation experience! Just paste in your content, and let BestBanner surprise you.</description>
             </item>
             <item>
-                <title>Jina 3.20.1 Update</title>
-                <link>https://jina.ai/news/jina-3-20-1-update/</link>
-                <pubDate>Fri, 11 Aug 2023 14:39:56 +0200</pubDate>
-                <guid isPermaLink="false">64d6296ad093db00013b4c9b</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
-            </item>
-            <item>
                 <title>This Week in Generative AI</title>
                 <link>https://jina.ai/news/this-week-in-generative-ai-02/</link>
                 <pubDate>Thu, 10 Aug 2023 15:30:26 +0200</pubDate>
@@ -1027,14 +827,6 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <guid isPermaLink="false">64c8ed6a180f110001883c41</guid>
                 <category><![CDATA[ Tech Blog ]]></category>
                 <description>Dive into the world of Stable Diffusion and Prompt Engineering by fine-tuning your own LoRA, converting your words into stunning art and bringing your dream stickers to life.</description>
-            </item>
-            <item>
-                <title>Jina 3.20 Update</title>
-                <link>https://jina.ai/news/jina-3-20-update/</link>
-                <pubDate>Fri, 04 Aug 2023 14:16:55 +0200</pubDate>
-                <guid isPermaLink="false">64ccdf937779d400018d9a63</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
             </item>
             <item>
                 <title>This week in Generative AI</title>
@@ -1053,28 +845,12 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>Dive into the realm of generative AI as we unravel, compare, and implement super-resolution models for image upscaling on Jina AI Cloud.</description>
             </item>
             <item>
-                <title>DocArray 0.37 Update</title>
-                <link>https://jina.ai/news/docarray-0-37-update/</link>
-                <pubDate>Thu, 03 Aug 2023 09:23:06 +0200</pubDate>
-                <guid isPermaLink="false">64cb53a236a10e00011d7e1f</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>DocArray is a library for representing, sending and storing multi-modal data, perfect for Machine Learning applications.</description>
-            </item>
-            <item>
                 <title>Taming OpenAI&#x27;s Function Call: A Dive into PromptPerfect&#x27;s Function Debugger</title>
                 <link>https://jina.ai/news/taming-openais-function-call-a-dive-into-promptperfects-function-debugger/</link>
                 <pubDate>Tue, 01 Aug 2023 20:36:52 +0200</pubDate>
                 <guid isPermaLink="false">64c8fb7a180f110001883ccf</guid>
                 <category><![CDATA[ Tech Blog ]]></category>
                 <description>Discover how PromptPerfect simplifies function calls in OpenAI&#x27;s language models, offering auto JSON Schema generation, advanced debugging, and more.</description>
-            </item>
-            <item>
-                <title>Finetuner 0.8.1 Update</title>
-                <link>https://jina.ai/news/release-note-finetuner-0-8-1/</link>
-                <pubDate>Wed, 26 Jul 2023 10:49:15 +0200</pubDate>
-                <guid isPermaLink="false">64c0ce63fde43000018df1b0</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Finetuner makes neural network fine-tuning easier and faster by streamlining the workflow and handling all the complexity and infrastructure requirements in the cloud.</description>
             </item>
             <item>
                 <title>Fine-Tuning Falcon40b for Code Generation</title>
@@ -1093,23 +869,6 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>We&#x27;re turbocharging SceneXplain&#x27;s visual question answering with an OCR upgrade, making it easier than ever to get answers out of your images</description>
             </item>
             <item>
-                <title>DocArray 0.36 Update</title>
-                <link>https://jina.ai/news/docarray-0-36-update/</link>
-                <pubDate>Wed, 19 Jul 2023 11:39:41 +0200</pubDate>
-                <guid isPermaLink="false">64b692ec0433c700015c3081</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>DocArray is a library for representing, sending and storing multi-modal data, perfect for Machine Learning applications.
-</description>
-            </item>
-            <item>
-                <title>Jina 3.19.1 Update</title>
-                <link>https://jina.ai/news/jina-3-19-1-update/</link>
-                <pubDate>Wed, 19 Jul 2023 11:23:07 +0200</pubDate>
-                <guid isPermaLink="false">64b6af920433c700015c30f7</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
-            </item>
-            <item>
                 <title>VectorDB: a Python vector database you just need - no more, no less</title>
                 <link>https://jina.ai/news/vectordb-a-python-vector-database-you-just-need-no-more-no-less/</link>
                 <pubDate>Fri, 14 Jul 2023 13:22:20 +0200</pubDate>
@@ -1118,28 +877,12 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>VectorDB is a Pythonic vector database offers a comprehensive suite of CRUD operations and robust scalability options, including sharding and replication. It&#x27;s readily deployable in a variety of environments, from local to on-premise and cloud. vectordb delivers exactly what you need.</description>
             </item>
             <item>
-                <title>Finetuner 0.8.0 Update</title>
-                <link>https://jina.ai/news/release-note-finetuner-0-8-0/</link>
-                <pubDate>Thu, 13 Jul 2023 15:55:18 +0200</pubDate>
-                <guid isPermaLink="false">64afe821733bc60001949db4</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Finetuner makes neural network fine-tuning easier and faster by streamlining the workflow and handling all the complexity and infrastructure requirements in the cloud.</description>
-            </item>
-            <item>
                 <title>Redefining Text-to-Image: How BestBanner Outperforms Midjourney and Stable Diffusion - A Benchmark Analysis</title>
                 <link>https://jina.ai/news/redefining-text-to-image-how-bestbanner-outperforms-midjourney-and-stable-diffusion-a-benchmark-analysis/</link>
                 <pubDate>Wed, 12 Jul 2023 15:30:14 +0200</pubDate>
                 <guid isPermaLink="false">64ad663b733bc60001949b6f</guid>
                 <category><![CDATA[ Tech Blog ]]></category>
                 <description>BestBanner is an AI-powered text-to-image generation system. It takes article text as input and generates high-quality social media banners. This saves you from the task of crafting images and lets you focus on creating content.</description>
-            </item>
-            <item>
-                <title>Jina 3.19 Update</title>
-                <link>https://jina.ai/news/jina-3-19-update/</link>
-                <pubDate>Mon, 10 Jul 2023 12:09:34 +0200</pubDate>
-                <guid isPermaLink="false">64abcccbd6e67d0001bb5542</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
             </item>
             <item>
                 <title>LangChain-serve: Powering your Slack with LangChain</title>
@@ -1164,15 +907,6 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <guid isPermaLink="false">649a9858abbd1d0001f4eb96</guid>
                 <category><![CDATA[ Tech Blog ]]></category>
                 <description>Digging deep into images to uncover sentiment and brand can be a wild ride. Tackle it with SceneXplain, and you&#x27;ve got yourself a business power-up, ready to take the market by storm</description>
-            </item>
-            <item>
-                <title>DocArray 0.35 Update</title>
-                <link>https://jina.ai/news/docarray-0-35-update/</link>
-                <pubDate>Mon, 03 Jul 2023 15:11:03 +0200</pubDate>
-                <guid isPermaLink="false">64a2bba68b88230001c7ddf4</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>DocArray is a library for representing, sending and storing multi-modal data, perfect for Machine Learning applications.
-</description>
             </item>
             <item>
                 <title>Making Visuals Vocal: SceneXplain&#x27;s Impact on Product Image Accessibility</title>
@@ -1207,23 +941,6 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>Deploy prompts and flexible template prompts as REST API services, and integrate them into your applications with just a few clicks</description>
             </item>
             <item>
-                <title>Jina 3.18 Update</title>
-                <link>https://jina.ai/news/jina-3-18-update/</link>
-                <pubDate>Thu, 22 Jun 2023 15:49:56 +0200</pubDate>
-                <guid isPermaLink="false">64944f3eabbd1d0001f4eafd</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
-            </item>
-            <item>
-                <title>DocArray 0.34 Update</title>
-                <link>https://jina.ai/news/docarray-0-34-update/</link>
-                <pubDate>Wed, 21 Jun 2023 11:23:18 +0200</pubDate>
-                <guid isPermaLink="false">6492b21fabbd1d0001f4e8f7</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>DocArray is a library for representing, sending and storing multi-modal data, perfect for Machine Learning applications.
-</description>
-            </item>
-            <item>
                 <title>Traditional Prompt Engineering Is Dead. PromptPerfect is What Comes Next</title>
                 <link>https://jina.ai/news/traditional-prompt-engineering-is-dead-heres-what-comes-next/</link>
                 <pubDate>Thu, 15 Jun 2023 16:17:12 +0200</pubDate>
@@ -1232,38 +949,12 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>AI is coming to replace even the prompt engineers. Use PromptPerfect to stay ahead of the crowd and optimize your prompts for LLMs and image generation</description>
             </item>
             <item>
-                <title>Finetuner 0.7.8 Update</title>
-                <link>https://jina.ai/news/finetuner-0-7-8-update/</link>
-                <pubDate>Thu, 08 Jun 2023 16:19:07 +0200</pubDate>
-                <guid isPermaLink="false">6481d2ce9f8c8000019c7166</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Finetuner makes neural network fine-tuning easier and faster by streamlining the workflow and handling all the complexity and infrastructure requirements in the cloud.</description>
-            </item>
-            <item>
                 <title>Boosting AI Model Performance: Fine-tuning with Synthetic Data for Enhanced Results</title>
                 <link>https://jina.ai/news/boosting-ai-model-performance-fine-tuning-with-synthetic-data-for-enhanced-results/</link>
                 <pubDate>Wed, 07 Jun 2023 17:11:33 +0200</pubDate>
                 <guid isPermaLink="false">648097219f8c8000019c70bd</guid>
                 <category><![CDATA[ Tech Blog ]]></category>
                 <description>Using Finetuner for data synthesis means that adapting your AI-powered information retrieval system to your domain is now as easy as collecting your logs.</description>
-            </item>
-            <item>
-                <title>DocArray 0.33 Update</title>
-                <link>https://jina.ai/news/docarray-0-33-update/</link>
-                <pubDate>Wed, 07 Jun 2023 10:11:58 +0200</pubDate>
-                <guid isPermaLink="false">648033719f8c8000019c7003</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>DocArray is a library for representing, sending and storing multi-modal data, perfect for Machine Learning applications.
-
-</description>
-            </item>
-            <item>
-                <title>Jina 3.17 Update</title>
-                <link>https://jina.ai/news/jina-3-17-update/</link>
-                <pubDate>Wed, 07 Jun 2023 10:11:34 +0200</pubDate>
-                <guid isPermaLink="false">6480399a9f8c8000019c7042</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
             </item>
             <item>
                 <title>Inference: How Can Jina AI Offer the Best-in-Class Model-as-a-Service So Affordably?</title>
@@ -1280,22 +971,6 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <guid isPermaLink="false">6458dd5c86c82f0001b4a1f4</guid>
                 <category><![CDATA[ Tech Blog ]]></category>
                 <description>Discover the power of hybrid search, a cutting-edge technology bridging keyword precision with vector versatility for a tailored search experience. Dive into how hybrid search works, its essential components, and using DocArray with Weaviate for optimized searches on your data.</description>
-            </item>
-            <item>
-                <title>Jina 3.16.1 Update</title>
-                <link>https://jina.ai/news/jina-3-16-1-update/</link>
-                <pubDate>Wed, 24 May 2023 10:14:15 +0200</pubDate>
-                <guid isPermaLink="false">646dc5cb8a6949000136f2bf</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
-            </item>
-            <item>
-                <title>Finetuner 0.7.7 Update</title>
-                <link>https://jina.ai/news/finetuner-0-7-7-update/</link>
-                <pubDate>Wed, 24 May 2023 09:17:22 +0200</pubDate>
-                <guid isPermaLink="false">646cd4688a6949000136f271</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Finetuner makes neural network fine-tuning easier and faster by streamlining the workflow and handling all the complexity and infrastructure requirements in the cloud.</description>
             </item>
             <item>
                 <title>Gold Retriever: Let ChatGPT talk to your data</title>
@@ -1322,44 +997,12 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>Exploring DocArray v2 by building a word game using GPT</description>
             </item>
             <item>
-                <title>DocArray 0.32 Update</title>
-                <link>https://jina.ai/news/docarray-0-32-update/</link>
-                <pubDate>Wed, 17 May 2023 12:06:43 +0200</pubDate>
-                <guid isPermaLink="false">64648652ac8fc60001d5bff2</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>DocArray is a library for representing, sending and storing multi-modal data, perfect for Machine Learning applications.</description>
-            </item>
-            <item>
-                <title>Jina 3.16 Update</title>
-                <link>https://jina.ai/news/jina-3-16-update/</link>
-                <pubDate>Mon, 15 May 2023 11:49:02 +0200</pubDate>
-                <guid isPermaLink="false">6461ed746631e3000178df81</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
-            </item>
-            <item>
-                <title>DocArray 0.31.1 Update</title>
-                <link>https://jina.ai/news/docarray-0-31-1-update/</link>
-                <pubDate>Thu, 11 May 2023 13:37:03 +0200</pubDate>
-                <guid isPermaLink="false">645cd05d6631e3000178df3e</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>DocArray is a library for representing, sending and storing multi-modal data, perfect for Machine Learning applications.</description>
-            </item>
-            <item>
                 <title>Jina AI Cloud: Production-ready Scalable Multimodal AI</title>
                 <link>https://jina.ai/news/jina-ai-cloud-production-ready-scalable-multimodal-ai/</link>
                 <pubDate>Tue, 09 May 2023 16:00:22 +0200</pubDate>
                 <guid isPermaLink="false">64536334a32bc90001a6f922</guid>
                 <category><![CDATA[ Tech Blog ]]></category>
                 <description>Jina AI Cloud is the most advanced MLOps platform for building multimodal AI applications in the cloud. Users can translate their data and a few lines of code into a production-ready service without dealing with infrastructure complexity or scaling hassles.</description>
-            </item>
-            <item>
-                <title>DocArray 0.31 Update</title>
-                <link>https://jina.ai/news/docarray-0-31-update/</link>
-                <pubDate>Mon, 08 May 2023 17:00:53 +0200</pubDate>
-                <guid isPermaLink="false">6458e78086c82f0001b4a2d0</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>DocArray is a library for representing, sending and storing multi-modal data, perfect for Machine Learning applications.</description>
             </item>
             <item>
                 <title>Jina Core&#x27;s New Logo: A Creative Spin on Planetary Design</title>
@@ -1378,14 +1021,6 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>If you are looking at integrating AI into your business, fine-tuning is essential to getting the most value out of your AI investments. Jina AI can help with software, services, and consultants for organizations of all kinds, sizes, and technical experience.</description>
             </item>
             <item>
-                <title>DocArray v2 Release</title>
-                <link>https://jina.ai/news/docarray-v2-update/</link>
-                <pubDate>Thu, 20 Apr 2023 16:00:43 +0200</pubDate>
-                <guid isPermaLink="false">643fece1772098003de4abe6</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Announcing the brand new rewrite of DocArray. If you&#x27;re building a machine learning application that deals with multimodal data, then DocArray is the way to go</description>
-            </item>
-            <item>
                 <title>SceneXplain vs. MiniGPT4: A Comprehensive Benchmark of Top 5 Image Captioning Algorithms for Understanding Complex Scenes</title>
                 <link>https://jina.ai/news/scenexplain-vs-minigpt4-a-comprehensive-benchmark-of-top-5-image-captioning-algorithms-for-understanding-complex-scenes/</link>
                 <pubDate>Wed, 19 Apr 2023 15:08:18 +0200</pubDate>
@@ -1394,36 +1029,12 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>Uncover the future of image captioning as SceneXplain and its rivals face off in an epic showdown. Explore their impact on accessibility, SEO, and storytelling, and dive into our intriguing results to witness the cutting-edge capabilities of these algorithms.</description>
             </item>
             <item>
-                <title>Finetuner Update 0.7.6</title>
-                <link>https://jina.ai/news/finetuner-update-0-7-6/</link>
-                <pubDate>Tue, 18 Apr 2023 17:40:38 +0200</pubDate>
-                <guid isPermaLink="false">643ea3b4772098003de4aa28</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Finetuner makes neural network fine-tuning easier and faster by streamlining the workflow and handling all the complexity and infrastructure requirements in the cloud.</description>
-            </item>
-            <item>
                 <title>Fine-tuning: Unlocking the full potential of AI for businesses</title>
                 <link>https://jina.ai/news/fine-tuning-unlocking-the-full-potential-of-ai-for-businesses/</link>
                 <pubDate>Mon, 17 Apr 2023 18:00:00 +0200</pubDate>
                 <guid isPermaLink="false">64395d028f2e0b003d5592df</guid>
                 <category><![CDATA[ Knowledge Base ]]></category>
                 <description>Fine-tuning is a way of &quot;tweaking&quot; an AI model, like how a musician can fine-tune an instrument, and in the case of AI models, it can make an enormous difference.</description>
-            </item>
-            <item>
-                <title>Jina 3.15 Update</title>
-                <link>https://jina.ai/news/jina-3-15-update/</link>
-                <pubDate>Fri, 14 Apr 2023 12:44:06 +0200</pubDate>
-                <guid isPermaLink="false">643926108f2e0b003d5591f2</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
-            </item>
-            <item>
-                <title>Finetuner Update 0.7.5</title>
-                <link>https://jina.ai/news/finetuner-update-0-7-5/</link>
-                <pubDate>Fri, 14 Apr 2023 09:43:34 +0200</pubDate>
-                <guid isPermaLink="false">6438fe628f2e0b003d5591b6</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Finetuner makes neural network fine-tuning easier and faster by streamlining the workflow and handling all the complexity and infrastructure requirements in the cloud.</description>
             </item>
             <item>
                 <title>Auto-GPT Unmasked: The Hype and Hard Truths of Its Production Pitfalls</title>
@@ -1458,36 +1069,12 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>Uncover the game-changing potential of SceneXplain, an advanced image captioning solution powered by LLMs. Check out the benchmark against Midjourney, CLIP, BLIP2, and other alternatives. Dive into our blog post and experience the revolution firsthand!</description>
             </item>
             <item>
-                <title>Jina AI Virtual Ticket Giveaway for PyCon 2023 Online</title>
-                <link>https://jina.ai/news/jina-ap-virtual-ticket-giveaway-for-pycon-2023/</link>
-                <pubDate>Mon, 03 Apr 2023 23:26:02 +0200</pubDate>
-                <guid isPermaLink="false">6425bf01a81512003d621b1a</guid>
-                <category><![CDATA[ Events ]]></category>
-                <description>Jina AI&#x27;s giving away PyCon US Online passes. Deadline April 10.</description>
-            </item>
-            <item>
                 <title>Supercharge Your LangChain Workflow with Jina AI’s Inference: Seamless Integration for Powerful Applications</title>
                 <link>https://jina.ai/news/langchain_jina_inference/</link>
                 <pubDate>Mon, 03 Apr 2023 16:00:53 +0200</pubDate>
                 <guid isPermaLink="false">64257f08a81512003d621a75</guid>
                 <category><![CDATA[ Tech Blog ]]></category>
                 <description>How Jina AI&#x27;s Inference integrates with LangChain, allowing developers to build cutting-edge applications with ease</description>
-            </item>
-            <item>
-                <title>Jina AI is Coming to PyCon US 2023</title>
-                <link>https://jina.ai/news/jina-ai-is-coming-to-pycon-us-2023/</link>
-                <pubDate>Thu, 30 Mar 2023 09:20:34 +0200</pubDate>
-                <guid isPermaLink="false">64248081a81512003d621a01</guid>
-                <category><![CDATA[ Events ]]></category>
-                <description>Jina AI senior software engineer Johannes Messner is delivering a sold-out presentation at PyCon US 2023 titled “Modern Typed Python for (Multimodal) ML: From Training to Deployment.”</description>
-            </item>
-            <item>
-                <title>Finetuner Update 0.7.4</title>
-                <link>https://jina.ai/news/finetuner-update-0-7-4/</link>
-                <pubDate>Wed, 29 Mar 2023 10:33:09 +0200</pubDate>
-                <guid isPermaLink="false">6423f3efa81512003d621991</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Finetuner makes neural network fine-tuning easier and faster by streamlining the workflow and handling all the complexity and infrastructure requirements in the cloud.</description>
             </item>
             <item>
                 <title>DataTalksClub Open Source Spotlight  x Jina AI</title>
@@ -1506,22 +1093,6 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>Reverse engineer your image prompts for Midjourney, Stable Diffusion, and DALL-E 2</description>
             </item>
             <item>
-                <title>Jina AI’s PyCon US 2023 Ticket Giveaway Challenge</title>
-                <link>https://jina.ai/news/jina-ais-pycon-us-2023-ticket-giveaway/</link>
-                <pubDate>Wed, 22 Mar 2023 17:00:25 +0100</pubDate>
-                <guid isPermaLink="false">6419eaacf4d50d003d590414</guid>
-                <category><![CDATA[ Events ]]></category>
-                <description>We’re giving away chances to win full conference passes to PyCon US, valued at 750 USD</description>
-            </item>
-            <item>
-                <title>Finetuner Update 0.7.3</title>
-                <link>https://jina.ai/news/finetuner-update-0-7-3/</link>
-                <pubDate>Thu, 16 Mar 2023 17:19:59 +0100</pubDate>
-                <guid isPermaLink="false">641335a9ca6bb2003d1914ec</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Finetuner makes neural network fine-tuning easier and faster by streamlining the workflow and handling all the complexity and infrastructure requirements in the cloud. </description>
-            </item>
-            <item>
                 <title>AgentChain: Chain together models to perform complex tasks</title>
                 <link>https://jina.ai/news/agentchain-chain-together-models-to-perform-complex-tasks/</link>
                 <pubDate>Wed, 15 Mar 2023 17:38:25 +0100</pubDate>
@@ -1536,14 +1107,6 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <guid isPermaLink="false">63ee160fecf6fc003d091d0b</guid>
                 <category><![CDATA[ Insights ]]></category>
                 <description>New Generative AI technologies have important consequences for IP regulatory law, and how they are ultimately handled will strongly affect the development of this sector.</description>
-            </item>
-            <item>
-                <title>Join Jina AI for Multimodal AI innovation through Google Summer of Code 2023</title>
-                <link>https://jina.ai/news/join-jina-ai-for-multimodal-ai-innovation-through-gsoc-2023/</link>
-                <pubDate>Tue, 14 Mar 2023 14:00:00 +0100</pubDate>
-                <guid isPermaLink="false">640f12ee71e386003db15100</guid>
-                <category><![CDATA[ Events ]]></category>
-                <description>Jina AI&#x27;s GSoC 2023: Multimodal AI at your fingertips and world-class mentors by your side. Join us now! </description>
             </item>
             <item>
                 <title>Multimodal Visual Question Answering with BLIP-2 and Jina</title>
@@ -1578,44 +1141,12 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>The appeal of the dancing bears was in how remarkable it was to see a bear dance and perform tricks and act like a person. The appeal of Generative AI is much the same. But lately, Generative AI has gone from dancing bear to cocaine bear. What&#x27;s really going on beneath the hype?</description>
             </item>
             <item>
-                <title>Finetuner Update 0.7.2</title>
-                <link>https://jina.ai/news/finetuner-update-0-7-2/</link>
-                <pubDate>Thu, 02 Mar 2023 14:16:05 +0100</pubDate>
-                <guid isPermaLink="false">64009bb560dc52003d59502a</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Finetuner makes neural network fine-tuning easier and faster by streamlining the workflow and handling all the complexity and infrastructure requirements in the cloud. </description>
-            </item>
-            <item>
                 <title>PromptPerfect: Automatic Prompt Engineering Done Right</title>
                 <link>https://jina.ai/news/promptperfect-prompt-engineering-done-right/</link>
                 <pubDate>Thu, 02 Mar 2023 13:32:53 +0100</pubDate>
                 <guid isPermaLink="false">64007e7f60dc52003d594f18</guid>
                 <category><![CDATA[ Releases ]]></category>
                 <description>Struggling with manual prompt engineering? Let PromptPerfect automate the process for you! Our cutting-edge tool automatically optimizes prompts for your language models with advanced machine learning techniques. Say goodbye to subpar AI-generated content and hello to prompt perfection!</description>
-            </item>
-            <item>
-                <title>Jina 3.14.1 Update</title>
-                <link>https://jina.ai/news/jina-3-14-1-update/</link>
-                <pubDate>Fri, 24 Feb 2023 16:00:08 +0100</pubDate>
-                <guid isPermaLink="false">63f8a04c229327003db4d896</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud</description>
-            </item>
-            <item>
-                <title>This Week(s) in DocArray</title>
-                <link>https://jina.ai/news/this-week-in-docarray-2/</link>
-                <pubDate>Wed, 22 Feb 2023 16:00:57 +0100</pubDate>
-                <guid isPermaLink="false">63f4b2edf477c3003d84d406</guid>
-                <category><![CDATA[ Tech Blog ]]></category>
-                <description>MultimodalDataset, TensorFlow support and more in the latest update from the DocArray team</description>
-            </item>
-            <item>
-                <title>Jina 3.14 Update</title>
-                <link>https://jina.ai/news/jina-3-14-update/</link>
-                <pubDate>Tue, 21 Feb 2023 13:15:37 +0100</pubDate>
-                <guid isPermaLink="false">63f388faeeb8aa004dd6cf8c</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud</description>
             </item>
             <item>
                 <title>AI-Powered 3D Asset Management with Neural Search</title>
@@ -1626,46 +1157,6 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>Using Asset Ovi, a 3D model repository based on Neural Search, you can just upload a 3D model to search for similar ones, or click on an existing model to find other models like it.</description>
             </item>
             <item>
-                <title>Finetuner Update 0.7.1</title>
-                <link>https://jina.ai/news/finetuner-update-0-7-1/</link>
-                <pubDate>Wed, 15 Feb 2023 16:21:20 +0100</pubDate>
-                <guid isPermaLink="false">63e6221df95cc7003d6f1797</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Finetuner makes neural network fine-tuning easier and faster by streamlining the workflow and handling all the complexity and infrastructure requirements in the cloud. </description>
-            </item>
-            <item>
-                <title>Rationale 0.8 Update</title>
-                <link>https://jina.ai/news/rationale-0-8-update/</link>
-                <pubDate>Sun, 12 Feb 2023 20:22:12 +0100</pubDate>
-                <guid isPermaLink="false">63e92eddf95cc7003d6f180b</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Introducing Rationale 0.8: Make Better Decisions with Personalized Context Analysis! Experience improved outcomes analysis that considers the context of your decisions. Plus, a new persona system with up to 2000 letters of backstory, and UI improvements. Upgrade now!</description>
-            </item>
-            <item>
-                <title>This week(s) in DocArray</title>
-                <link>https://jina.ai/news/this-week-in-docarray-1/</link>
-                <pubDate>Thu, 09 Feb 2023 13:43:10 +0100</pubDate>
-                <guid isPermaLink="false">63e25b01cee252003d39b5fb</guid>
-                <category><![CDATA[ Tech Blog ]]></category>
-                <description>It&#x27;s already been two weeks since the last alpha release of DocArray v2. And since then a lot has happened — we&#x27;ve merged features we&#x27;re really proud of, and cried tears of joy and misery trying to coerce Python into doing what we want.</description>
-            </item>
-            <item>
-                <title>Rationale 0.7 Update</title>
-                <link>https://jina.ai/news/rationale-0-7-updates/</link>
-                <pubDate>Mon, 06 Feb 2023 11:10:41 +0100</pubDate>
-                <guid isPermaLink="false">63e0ca6010db22004d835496</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Get ready for a sleek and modern experience with Rationale 0.7! We&#x27;ve updated our desktop and mobile UX for a clean and easy-to-use interface. Upgrade now for the best decision-making experience!</description>
-            </item>
-            <item>
-                <title>Rationale 0.6 Update</title>
-                <link>https://jina.ai/news/rationale-0-6-update/</link>
-                <pubDate>Mon, 30 Jan 2023 14:50:54 +0100</pubDate>
-                <guid isPermaLink="false">63d783a89361fc004dedb970</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Discover the future with Rationale 0.6! Our groundbreaking &quot;Multiverse&quot; mode shows the outcomes of your decisions in a causal chain, up to 3 levels deep. See the potential consequences of your choices and make informed decisions. Try Rationale 0.6 today!</description>
-            </item>
-            <item>
                 <title>How to Personalize Stable Diffusion for ALL the Things</title>
                 <link>https://jina.ai/news/how-to-personalize-stable-diffusion-for-all-the-things/</link>
                 <pubDate>Mon, 30 Jan 2023 14:05:48 +0100</pubDate>
@@ -1674,76 +1165,12 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>Jina AI&#x27;s BIG metamodel lets you fine-tune Stable Diffusion to the next level, creating images of multiple subjects in any style you want</description>
             </item>
             <item>
-                <title>Rationale 0.5 Update</title>
-                <link>https://jina.ai/news/rationale-0-5-update/</link>
-                <pubDate>Thu, 26 Jan 2023 19:15:03 +0100</pubDate>
-                <guid isPermaLink="false">63d2beb59361fc004dedb8e4</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Introducing Rationale 0.5 – the ultimate decision-making tool with a new &quot;Sharing Rewards&quot; feature. Share your decision analysis and earn rewards. Also, join our new Discord community server, where you can get support, ask questions and shape the future of Rationale.</description>
-            </item>
-            <item>
-                <title>Jina AI Cloud Alpha Launch</title>
-                <link>https://jina.ai/news/jina-ai-cloud-alpha/</link>
-                <pubDate>Tue, 24 Jan 2023 14:43:33 +0100</pubDate>
-                <guid isPermaLink="false">63ce989ac6ba39003d7718b7</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Announcing the alpha launch of Jina AI Cloud, designed to streamline and simplify deployment and management of your multimodal applications</description>
-            </item>
-            <item>
-                <title>Finetuner 0.7 Update</title>
-                <link>https://jina.ai/news/finetuner-0-7-update/</link>
-                <pubDate>Wed, 18 Jan 2023 10:19:50 +0100</pubDate>
-                <guid isPermaLink="false">63c583d7367e53003d7bf671</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Finetuner makes neural network fine-tuning easier and faster by streamlining the workflow and handling all the complexity and infrastructure requirements in the cloud. </description>
-            </item>
-            <item>
-                <title>DocArray 0.21 Update</title>
-                <link>https://jina.ai/news/docarray-0-21-update/</link>
-                <pubDate>Tue, 17 Jan 2023 13:38:43 +0100</pubDate>
-                <guid isPermaLink="false">63c67ad53d693f003dd569d8</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>DocArray is a library for nested, unstructured, multimodal data in transit, including text, image, audio, video, 3D mesh, etc. It allows deep-learning engineers to efficiently process, embed, search, recommend, store, and transfer multimodal data with a Pythonic API.</description>
-            </item>
-            <item>
-                <title>Rationale 0.4 Update</title>
-                <link>https://jina.ai/news/rationale-0-4-update/</link>
-                <pubDate>Mon, 16 Jan 2023 13:52:03 +0100</pubDate>
-                <guid isPermaLink="false">63c5450e367e53003d7bf62d</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Introducing Rationale 0.4 - the ultimate decision-making tool now with personalized profiles! Create multiple profiles, input your backstory and context information, and get accurate analysis tailored to your background. </description>
-            </item>
-            <item>
-                <title>Rationale 0.3 Update</title>
-                <link>https://jina.ai/news/rationale-0-3-update/</link>
-                <pubDate>Thu, 12 Jan 2023 09:23:54 +0100</pubDate>
-                <guid isPermaLink="false">63bfb9e3367e53003d7bf5cc</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>With new capabilities such as the ability to share your decision analysis with the public, update notifications, improvements to the quality of analysis, and bug fixes, Rationale 0.3 makes it easy to make informed decisions with confidence.</description>
-            </item>
-            <item>
                 <title>How to Use Every Vector Database in Python with DocArray</title>
                 <link>https://jina.ai/news/how-to-use-every-vector-database-in-python-with-docarray/</link>
                 <pubDate>Tue, 10 Jan 2023 18:32:09 +0100</pubDate>
                 <guid isPermaLink="false">63bbf4e6c292d6003da2efe4</guid>
                 <category><![CDATA[ Knowledge Base ]]></category>
                 <description>DocArray handles multimodal data and works with every vector database using a universal API. Here&#x27;s how you can do it in Python.</description>
-            </item>
-            <item>
-                <title>Rationale 0.2 Update</title>
-                <link>https://jina.ai/news/rationale-0-2-update/</link>
-                <pubDate>Mon, 09 Jan 2023 15:35:19 +0100</pubDate>
-                <guid isPermaLink="false">63bc186fe1b239003d622aba</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>With Rationale&#x27;s new multi-option analysis feature, you&#x27;ll have the tools you need to tackle even the toughest multi-option problems. Try out the new multi-option analysis feature in Rationale 0.2 today!</description>
-            </item>
-            <item>
-                <title>Rationale 0.1 Update</title>
-                <link>https://jina.ai/news/rationale-0-1-update/</link>
-                <pubDate>Fri, 06 Jan 2023 18:24:10 +0100</pubDate>
-                <guid isPermaLink="false">63b85309b167bd003d610837</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Rationale 0.1 introduces a new achievement system that rewards users with free credits for completing tasks in the app. Unlock all achievements and earn an extra 20 credits on top of that. Keep an eye out for new achievements and continue to hone your decision-making skills with Rationale.</description>
             </item>
             <item>
                 <title>From Confused to Confident: How Rationale Can Help You Make Better Decisions with AI</title>
@@ -1762,44 +1189,12 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>With the incredible capabilities of generative AI, 2023 is shaping up to be a game-changing year for startups and builders. Don’t just take our word for it; try Rationale out for yourself and see the difference it can make for your business. Get started today!</description>
             </item>
             <item>
-                <title>Jina 3.13.2 Hotfix</title>
-                <link>https://jina.ai/news/jina-3-13-2-hotfix/</link>
-                <pubDate>Fri, 30 Dec 2022 12:27:13 +0100</pubDate>
-                <guid isPermaLink="false">63aec59cb167bd003d610610</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
-            </item>
-            <item>
-                <title>Celebrating a Year of Community Growth and Accomplishment</title>
-                <link>https://jina.ai/news/celebrating-a-year-of-community-growth-and-accomplishment/</link>
-                <pubDate>Fri, 23 Dec 2022 16:39:41 +0100</pubDate>
-                <guid isPermaLink="false">63a599a3b167bd003d6104b4</guid>
-                <category><![CDATA[ Events ]]></category>
-                <description>In true open source fashion, we want to highlight how you, our community, have been instrumental in our collective accomplishments! </description>
-            </item>
-            <item>
-                <title>Jina 3.13.1 Update</title>
-                <link>https://jina.ai/news/jina-3-13-1-update/</link>
-                <pubDate>Wed, 21 Dec 2022 14:36:20 +0100</pubDate>
-                <guid isPermaLink="false">63a308b6b167bd003d610414</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud</description>
-            </item>
-            <item>
                 <title>Improving Search Quality for Non-English Queries with Fine-tuned Multilingual CLIP Models</title>
                 <link>https://jina.ai/news/improving-search-quality-non-english-queries-fine-tuned-multilingual-clip-models/</link>
                 <pubDate>Mon, 19 Dec 2022 19:27:40 +0100</pubDate>
                 <guid isPermaLink="false">63a025ee3ac09a003df47537</guid>
                 <category><![CDATA[ Tech Blog ]]></category>
                 <description>Having trouble with non-English search queries? Fine-tuning your multilingual CLIP models may be the answer. In this post, we&#x27;ll show you how Finetuner can be used on multilingual CLIP to improve search quality and give you better results.</description>
-            </item>
-            <item>
-                <title>Jina 3.13 Update</title>
-                <link>https://jina.ai/news/jina-3-13-update/</link>
-                <pubDate>Thu, 15 Dec 2022 17:08:06 +0100</pubDate>
-                <guid isPermaLink="false">6399c5770c13c3003df39d20</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud</description>
             </item>
             <item>
                 <title>SEO is Dead, Long Live LLMO</title>
@@ -1818,28 +1213,12 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>Imagine an AI-powered grep command, one that could process a film and find segments matching a text. With Jina AI&#x27;s CLIP-as-service, you can do that today. We&#x27;ll show you how.</description>
             </item>
             <item>
-                <title>DocArray 0.20.1 Update</title>
-                <link>https://jina.ai/news/docarray-0-20-1-update/</link>
-                <pubDate>Mon, 12 Dec 2022 11:01:21 +0100</pubDate>
-                <guid isPermaLink="false">6396f860dc1dc9003d8ff405</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>DocArray is a library for nested, unstructured, multimodal data in transit, including text, image, audio, video, 3D mesh, etc</description>
-            </item>
-            <item>
                 <title>Tech Talk and Cheer: Celebrating the Holidays at Our 2022 Annual Christmas Party</title>
                 <link>https://jina.ai/news/jina-ai-annual-event/</link>
                 <pubDate>Thu, 08 Dec 2022 16:56:52 +0100</pubDate>
                 <guid isPermaLink="false">638f3e3f042d72003d3c51ee</guid>
                 <category><![CDATA[ Events ]]></category>
                 <description>The holiday season is upon us! As we reflect on this past year, we made a huge difference together with the support from our team, community members, and our partners.</description>
-            </item>
-            <item>
-                <title>DocArray 0.20 Update</title>
-                <link>https://jina.ai/news/docarray-0-20-update/</link>
-                <pubDate>Wed, 07 Dec 2022 16:05:14 +0100</pubDate>
-                <guid isPermaLink="false">638e0893180dcb003d54aaef</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>DocArray is a library for nested, unstructured, multimodal data in transit, including text, image, audio, video, 3D mesh, etc.</description>
             </item>
             <item>
                 <title>Fine-tuning with Low Budget and High Expectations</title>
@@ -1866,22 +1245,6 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>In Jina 3.12 tracing and monitoring become much easier with built-in OpenTelemetry integration, leading to a quicker response time and faster turnaround time for fixing issues.</description>
             </item>
             <item>
-                <title>Jina 3.12 Update</title>
-                <link>https://jina.ai/news/jina-3-12-update/</link>
-                <pubDate>Fri, 25 Nov 2022 17:00:00 +0100</pubDate>
-                <guid isPermaLink="false">637f45d3032e16003d863869</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud</description>
-            </item>
-            <item>
-                <title>Finetuner Update 0.6.7</title>
-                <link>https://jina.ai/news/finetuner-update-0-6-6/</link>
-                <pubDate>Thu, 24 Nov 2022 19:06:54 +0100</pubDate>
-                <guid isPermaLink="false">637f75a8032e16003d863a31</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Finetuner makes neural network fine-tuning easier and faster by streamlining the workflow and handling all the complexity and infrastructure requirements in the cloud. </description>
-            </item>
-            <item>
                 <title>What is Multimodal Deep Learning and What are the Applications?</title>
                 <link>https://jina.ai/news/what-is-multimodal-deep-learning-and-what-are-the-applications/</link>
                 <pubDate>Thu, 24 Nov 2022 14:56:44 +0100</pubDate>
@@ -1890,28 +1253,12 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>Multimodal deep learning allows for a more holistic understanding of data, as well as increased accuracy and efficiency. But first, what are multimodal deep learning? And what are the applications? This article will answer these two questions.</description>
             </item>
             <item>
-                <title>DocArray 0.19.1 Update</title>
-                <link>https://jina.ai/news/docarray-0-19-1-update/</link>
-                <pubDate>Thu, 24 Nov 2022 11:17:23 +0100</pubDate>
-                <guid isPermaLink="false">637c9162f7710d003dcbd1f9</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>DocArray is a library for nested, unstructured, multimodal data in transit, including text, image, audio, video, 3D mesh, etc</description>
-            </item>
-            <item>
                 <title>Cloud-Native Helps You Build Multimodal AI in Production: Here&#x27;s How</title>
                 <link>https://jina.ai/news/cloud-native-helps-you-build-multimodal-ai-in-production-here-is-how/</link>
                 <pubDate>Thu, 24 Nov 2022 11:13:49 +0100</pubDate>
                 <guid isPermaLink="false">637e7866f7710d003dcbd430</guid>
                 <category><![CDATA[ Knowledge Base ]]></category>
                 <description>How would cloud-native actually help you on building multimodal AI in production? What is cloud-native anyway? Is it just a buzzword to get VC&#x27;s money yet delivers an empty promise?</description>
-            </item>
-            <item>
-                <title>Jina 3.11.2 Hotfix</title>
-                <link>https://jina.ai/news/jina-3-11-2-update/</link>
-                <pubDate>Tue, 22 Nov 2022 14:29:15 +0100</pubDate>
-                <guid isPermaLink="false">637cbe78f7710d003dcbd210</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.</description>
             </item>
             <item>
                 <title>We&#x27;re Donating DocArray to LF for an Inclusive and Standard Multimodal Data Model</title>
@@ -1946,22 +1293,6 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>In DocArray, Documents inside a DocumentArray can live in a document store instead of in memory. External store provides longer persistence and faster retrieval. Ever wonder about which one is best for your use case? Here&#x27;s a comprehensive benchmark to help guide you.</description>
             </item>
             <item>
-                <title>DocArray 0.19 Update</title>
-                <link>https://jina.ai/news/docarray-0-19-update/</link>
-                <pubDate>Tue, 15 Nov 2022 18:19:37 +0100</pubDate>
-                <guid isPermaLink="false">63722ba9413778003dd523d7</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>DocArray is a library for nested, unstructured, multimodal data in transit, including text, image, audio, video, 3D mesh, etc</description>
-            </item>
-            <item>
-                <title>CLIP-as-service 0.8.1 Update</title>
-                <link>https://jina.ai/news/clip-as-service-0-8-1-update/</link>
-                <pubDate>Tue, 15 Nov 2022 14:23:00 +0100</pubDate>
-                <guid isPermaLink="false">637374f09d1f71003df078d9</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>CLIP-as-service is a low-latency high-scalability service for embedding images and text. It can be easily integrated as a micro-service into neural search solutions.</description>
-            </item>
-            <item>
                 <title>How to Start Your Career in Open Source</title>
                 <link>https://jina.ai/news/how-to-start-your-career-in-open-source/</link>
                 <pubDate>Mon, 14 Nov 2022 14:02:33 +0100</pubDate>
@@ -1970,36 +1301,12 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>For fresh grads, we summarized some tips that you can use to make your profile stand out and help you to develop skills in engineering, marketing, and open-source community operations.</description>
             </item>
             <item>
-                <title>Finetuner Update 0.6.5</title>
-                <link>https://jina.ai/news/finetuner-update-0-6-5/</link>
-                <pubDate>Fri, 11 Nov 2022 15:05:18 +0100</pubDate>
-                <guid isPermaLink="false">636bca3d413778003dd51f1c</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Finetuner makes neural network fine-tuning easier and faster by streamlining the workflow and handling all the complexity and infrastructure requirements in the cloud. </description>
-            </item>
-            <item>
                 <title>Real-Time Product Recommendation via DocArray and Redis</title>
                 <link>https://jina.ai/news/real-time-product-recommendation-using-redis-and-docarray/</link>
                 <pubDate>Wed, 09 Nov 2022 16:08:16 +0100</pubDate>
                 <guid isPermaLink="false">635a98d4a2b381003d0588a7</guid>
                 <category><![CDATA[ Tech Blog ]]></category>
                 <description>By using Redis backend inside DocArray, building a real-time product recommendation system via vector similarity search is easy and straightforward. Follow along to learn the essential steps and how it works.</description>
-            </item>
-            <item>
-                <title>The Lifestyle of Developers in Shanghai DevJoy 2022</title>
-                <link>https://jina.ai/news/the-lifestyle-of-developers-in-shanghai-devjoy-2022/</link>
-                <pubDate>Wed, 09 Nov 2022 15:32:43 +0100</pubDate>
-                <guid isPermaLink="false">636a227b47e6b5003d7d886a</guid>
-                <category><![CDATA[ Events ]]></category>
-                <description>Jina AI was invited to attend DevJoy 2022 in Shanghai on November 5th-6th with Microsoft Reactor, Bilibili, Amazon Web Services, and other exhibitors. More than a thousand developers joined DevJoy and shared a pleasant and fruitful two days together.</description>
-            </item>
-            <item>
-                <title>Get the Inside Scoop on Neural Search with Our New Book!</title>
-                <link>https://jina.ai/news/neural-search-from-prototype-to-production-with-jina/</link>
-                <pubDate>Wed, 09 Nov 2022 15:10:28 +0100</pubDate>
-                <guid isPermaLink="false">636b84e0413778003dd51c6c</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>If you’re an AI engineer building search systems for any kind of data type – text, Q+A, image, audio, PDF, 3D models, etc. – or a Python developer interested in search or state-of-the-art deep learning techniques, then our new book &quot;Neural Search - From Prototype to Production with Jina&quot; is for you.</description>
             </item>
             <item>
                 <title>Neural Search: The Definitive Guide to Building a Neural Search Engine with Jina</title>
@@ -2074,44 +1381,12 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>Sharding is a piece of cake, or is it? Thankfully,  Jina framework supports sharding out of the box. Users can process their data between multiple machines to get faster performance.</description>
             </item>
             <item>
-                <title>Finetuner 0.6.4 Update</title>
-                <link>https://jina.ai/news/finetuner-0-6-4/</link>
-                <pubDate>Thu, 27 Oct 2022 15:20:10 +0200</pubDate>
-                <guid isPermaLink="false">6351269e37b957003d5496f1</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description></description>
-            </item>
-            <item>
                 <title>How Much Do We Get by Finetuning CLIP?</title>
                 <link>https://jina.ai/news/applying-jina-ai-finetuner-to-clip-less-data-smaller-models-higher-performance/</link>
                 <pubDate>Thu, 27 Oct 2022 13:57:35 +0200</pubDate>
                 <guid isPermaLink="false">6357f1aaa2b381003d058160</guid>
                 <category><![CDATA[ Tech Blog ]]></category>
                 <description>Jina AI Finetuner can bring performance improvements of up to 63% to pre-trained CLIP models. Here is how we did that.</description>
-            </item>
-            <item>
-                <title>Web Summit, we are coming!</title>
-                <link>https://jina.ai/news/web-summit-we-are-coming/</link>
-                <pubDate>Thu, 27 Oct 2022 10:13:34 +0200</pubDate>
-                <guid isPermaLink="false">6357b5bba2b381003d058111</guid>
-                <category><![CDATA[ Events ]]></category>
-                <description>We are excited to go to Lisbon to attend the Web Summit on November 1-4th, 2022, and look forward to sharing our work with the wider community. If you&#x27;re interested in connecting with us at the conference, please feel free to book a meeting! </description>
-            </item>
-            <item>
-                <title>Jina 3.11 Update</title>
-                <link>https://jina.ai/news/jina-3-11/</link>
-                <pubDate>Mon, 24 Oct 2022 18:19:48 +0200</pubDate>
-                <guid isPermaLink="false">635696b5a2b381003d0580c9</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Announcing OpenTelemetry tracing and metrics</description>
-            </item>
-            <item>
-                <title>New Community Reward Program is Coming!</title>
-                <link>https://jina.ai/news/from-zero-to-hero-at-jina-ai-community/</link>
-                <pubDate>Mon, 24 Oct 2022 09:17:33 +0200</pubDate>
-                <guid isPermaLink="false">63561904a2b381003d057fe7</guid>
-                <category><![CDATA[ Events ]]></category>
-                <description>We are excited to introduce a new Reward Plan to recognize active community members! You can gain credits by engaging with the community. How? Read on! </description>
             </item>
             <item>
                 <title>COLING2022 Summary on Multimodal AI</title>
@@ -2122,44 +1397,12 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>Last week I was in Gyeongju, Korea for the COLING2022 conference. COLING is the premier conference in computational linguistics held every two years. In this article, I will review the multimodal AI-related work in COLING 2022.</description>
             </item>
             <item>
-                <title>DocArray 0.18 Update</title>
-                <link>https://jina.ai/news/docarray-0-18-update/</link>
-                <pubDate>Thu, 20 Oct 2022 18:18:49 +0200</pubDate>
-                <guid isPermaLink="false">6351669937b957003d54992f</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>DocArray is a library for nested, unstructured, multimodal data in transit, including text, image, audio, video, 3D mesh, etc. This release contains 7 new features, 6 bug fixes, and 8 documentation improvements. It also contains breaking changes.</description>
-            </item>
-            <item>
-                <title>Join Tech Job Fair on Nov 10 and Meet Our Team</title>
-                <link>https://jina.ai/news/berlin-tech-job-fair/</link>
-                <pubDate>Wed, 19 Oct 2022 13:46:35 +0200</pubDate>
-                <guid isPermaLink="false">634e7b40eccb98004da73801</guid>
-                <category><![CDATA[ Events ]]></category>
-                <description>Jina AI is happy to announce that on the 10th of November we will participate in the Berlin Tech Job Fair. You&#x27;ll have a chance to learn from the top experts in the IT/digital industries and network with peers!</description>
-            </item>
-            <item>
                 <title>Speech-to-Image Creation Using Jina</title>
                 <link>https://jina.ai/news/speech-to-image-generation/</link>
                 <pubDate>Fri, 14 Oct 2022 15:10:08 +0200</pubDate>
                 <guid isPermaLink="false">63495055cebfc1003d8ab603</guid>
                 <category><![CDATA[ Tech Blog ]]></category>
                 <description>Use Jina, Whisper and Stable Diffusion to build a cloud-native application for generating images using your speech.</description>
-            </item>
-            <item>
-                <title>Finetuner 0.6.3 Update</title>
-                <link>https://jina.ai/news/finetuner-0-6-3-update/</link>
-                <pubDate>Thu, 13 Oct 2022 15:09:36 +0200</pubDate>
-                <guid isPermaLink="false">634806a0cebfc1003d8ab590</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description></description>
-            </item>
-            <item>
-                <title>CLIP-as-service 0.8.0 Update</title>
-                <link>https://jina.ai/news/clip-as-service-0-8-0-update/</link>
-                <pubDate>Wed, 12 Oct 2022 10:40:11 +0200</pubDate>
-                <guid isPermaLink="false">63467664cebfc1003d8ab504</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description></description>
             </item>
             <item>
                 <title>The Paradigm Shift Towards Multimodal AI</title>
@@ -2170,59 +1413,11 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>We are on the cusp of a new era in AI, one in which multimodal AI will be the norm. At Jina AI, our MLOps platform helps businesses and developers win while they&#x27;re right at the starting line of this paradigm shift, and build the applications of the future today.</description>
             </item>
             <item>
-                <title>Jina 3.10.1 Update</title>
-                <link>https://jina.ai/news/jina-3-10-1-update/</link>
-                <pubDate>Thu, 06 Oct 2022 17:55:00 +0200</pubDate>
-                <guid isPermaLink="false">633eee4e393501004d1c860a</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description></description>
-            </item>
-            <item>
                 <title>From Zero to Hero: Vector Search Hackday Summary</title>
                 <link>https://jina.ai/news/hackday-with-jina-ai/</link>
                 <pubDate>Tue, 04 Oct 2022 13:39:35 +0200</pubDate>
                 <guid isPermaLink="false">6336a08987b80b004db807bd</guid>
                 <category><![CDATA[ Events ]]></category>
-                <description></description>
-            </item>
-            <item>
-                <title>Jina 3.10.0 Update</title>
-                <link>https://jina.ai/news/jina-3-10-0-release-note/</link>
-                <pubDate>Thu, 29 Sep 2022 19:33:00 +0200</pubDate>
-                <guid isPermaLink="false">6335aa7f87b80b004db80650</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud. It uplifts a PoC into a production-ready service. Jina handles the infrastructure complexity, making advanced solution engineering and cloud-native technologies</description>
-            </item>
-            <item>
-                <title>Finetuner 0.6.2 Update</title>
-                <link>https://jina.ai/news/finetuner-release-note-0-6-2/</link>
-                <pubDate>Thu, 29 Sep 2022 17:58:24 +0200</pubDate>
-                <guid isPermaLink="false">6335a94487b80b004db80631</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description></description>
-            </item>
-            <item>
-                <title>Security Update to Finetuner 0.6.1</title>
-                <link>https://jina.ai/news/finetuner-security-update-2022-28/</link>
-                <pubDate>Wed, 28 Sep 2022 14:00:28 +0200</pubDate>
-                <guid isPermaLink="false">633427b387b80b004db8059e</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Between 2022.09.23 and 2022.09.25, the Finetuner database was hacked and metadata from Finetuner runs was compromised. Training data and models were not compromised.</description>
-            </item>
-            <item>
-                <title>Join Berlin AI Summit on Oct. 5th and Meet Our Team</title>
-                <link>https://jina.ai/news/join-berlin-ai-summit-on-oct-4-6-and-meet-our-team/</link>
-                <pubDate>Wed, 28 Sep 2022 12:39:41 +0200</pubDate>
-                <guid isPermaLink="false">63340a1887b80b004db8050a</guid>
-                <category><![CDATA[ Events ]]></category>
-                <description></description>
-            </item>
-            <item>
-                <title>DocArray 0.17 Update</title>
-                <link>https://jina.ai/news/docarray-0-17-update/</link>
-                <pubDate>Sat, 24 Sep 2022 17:58:02 +0200</pubDate>
-                <guid isPermaLink="false">632f19253e4e55003d525997</guid>
-                <category><![CDATA[ Releases ]]></category>
                 <description></description>
             </item>
     </channel>
