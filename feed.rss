@@ -14,8 +14,16 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Sat, 26 Oct 2024 05:56:48 +0200</lastBuildDate>
+        <lastBuildDate>Tue, 29 Oct 2024 12:03:12 +0100</lastBuildDate>
 
+            <item>
+                <title>Beyond CLIP: How Jina-CLIP Advances Multimodal Search</title>
+                <link>https://jina.ai/news/beyond-clip-how-jina-clip-advances-multimodal-search/</link>
+                <pubDate>Tue, 29 Oct 2024 11:51:40 +0100</pubDate>
+                <guid isPermaLink="false">671b96784821eb000165d2de</guid>
+                <category><![CDATA[ Tech Blog ]]></category>
+                <description>Learn how Jina-CLIP enhances OpenAI&#x27;s CLIP with better retrieval accuracy and more diverse results through unified text-image embeddings.</description>
+            </item>
             <item>
                 <title>Finding Optimal Breakpoints in Long Documents Using Small Language Models</title>
                 <link>https://jina.ai/news/finding-optimal-breakpoints-in-long-documents-using-small-language-models/</link>
