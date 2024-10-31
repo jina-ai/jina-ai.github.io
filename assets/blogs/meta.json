@@ -1,0 +1,185 @@
+{
+  "blogs": [
+    {
+      "lang": "ru",
+      "slug": "fact-checking-with-new-grounding-api-in-jina-reader",
+      "translated_at": "2024-10-31T14:27:13.858Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "fact-checking-with-new-grounding-api-in-jina-reader",
+      "translated_at": "2024-10-31T14:27:13.857Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "fact-checking-with-new-grounding-api-in-jina-reader",
+      "translated_at": "2024-10-31T14:27:13.856Z"
+    },
+    {
+      "lang": "es",
+      "slug": "fact-checking-with-new-grounding-api-in-jina-reader",
+      "translated_at": "2024-10-31T14:27:13.855Z"
+    },
+    {
+      "lang": "it",
+      "slug": "fact-checking-with-new-grounding-api-in-jina-reader",
+      "translated_at": "2024-10-31T14:27:13.855Z"
+    },
+    {
+      "lang": "de",
+      "slug": "fact-checking-with-new-grounding-api-in-jina-reader",
+      "translated_at": "2024-10-31T14:27:13.854Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "fact-checking-with-new-grounding-api-in-jina-reader",
+      "translated_at": "2024-10-31T14:27:13.854Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "fact-checking-with-new-grounding-api-in-jina-reader",
+      "translated_at": "2024-10-31T14:27:13.852Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "fact-checking-with-new-grounding-api-in-jina-reader",
+      "translated_at": "2024-10-31T14:27:13.852Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "jina-classifier-for-high-performance-zero-shot-and-few-shot-classification",
+      "translated_at": "2024-10-31T07:48:29.400Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "jina-classifier-for-high-performance-zero-shot-and-few-shot-classification",
+      "translated_at": "2024-10-31T07:48:29.399Z"
+    },
+    {
+      "lang": "it",
+      "slug": "jina-classifier-for-high-performance-zero-shot-and-few-shot-classification",
+      "translated_at": "2024-10-31T07:48:29.398Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "jina-classifier-for-high-performance-zero-shot-and-few-shot-classification",
+      "translated_at": "2024-10-31T07:48:29.398Z"
+    },
+    {
+      "lang": "es",
+      "slug": "jina-classifier-for-high-performance-zero-shot-and-few-shot-classification",
+      "translated_at": "2024-10-31T07:48:29.397Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "jina-classifier-for-high-performance-zero-shot-and-few-shot-classification",
+      "translated_at": "2024-10-31T07:48:29.396Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "jina-classifier-for-high-performance-zero-shot-and-few-shot-classification",
+      "translated_at": "2024-10-31T07:48:29.395Z"
+    },
+    {
+      "lang": "de",
+      "slug": "jina-classifier-for-high-performance-zero-shot-and-few-shot-classification",
+      "translated_at": "2024-10-31T07:48:29.395Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "jina-classifier-for-high-performance-zero-shot-and-few-shot-classification",
+      "translated_at": "2024-10-31T07:48:29.393Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "finding-optimal-breakpoints-in-long-documents-using-small-language-models",
+      "translated_at": "2024-10-31T07:34:49.468Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "finding-optimal-breakpoints-in-long-documents-using-small-language-models",
+      "translated_at": "2024-10-31T07:34:48.468Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "finding-optimal-breakpoints-in-long-documents-using-small-language-models",
+      "translated_at": "2024-10-31T07:34:47.468Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "finding-optimal-breakpoints-in-long-documents-using-small-language-models",
+      "translated_at": "2024-10-31T07:34:46.468Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "finding-optimal-breakpoints-in-long-documents-using-small-language-models",
+      "translated_at": "2024-10-31T07:34:45.468Z"
+    },
+    {
+      "lang": "it",
+      "slug": "finding-optimal-breakpoints-in-long-documents-using-small-language-models",
+      "translated_at": "2024-10-31T07:34:44.468Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "finding-optimal-breakpoints-in-long-documents-using-small-language-models",
+      "translated_at": "2024-10-31T07:34:43.468Z"
+    },
+    {
+      "lang": "es",
+      "slug": "finding-optimal-breakpoints-in-long-documents-using-small-language-models",
+      "translated_at": "2024-10-31T07:34:42.468Z"
+    },
+    {
+      "lang": "de",
+      "slug": "finding-optimal-breakpoints-in-long-documents-using-small-language-models",
+      "translated_at": "2024-10-31T07:34:41.468Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "beyond-clip-how-jina-clip-advances-multimodal-search",
+      "translated_at": "2024-10-30T07:34:49.468Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "beyond-clip-how-jina-clip-advances-multimodal-search",
+      "translated_at": "2024-10-30T07:34:48.468Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "beyond-clip-how-jina-clip-advances-multimodal-search",
+      "translated_at": "2024-10-30T07:34:47.468Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "beyond-clip-how-jina-clip-advances-multimodal-search",
+      "translated_at": "2024-10-30T07:34:46.468Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "beyond-clip-how-jina-clip-advances-multimodal-search",
+      "translated_at": "2024-10-30T07:34:45.468Z"
+    },
+    {
+      "lang": "it",
+      "slug": "beyond-clip-how-jina-clip-advances-multimodal-search",
+      "translated_at": "2024-10-30T07:34:44.468Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "beyond-clip-how-jina-clip-advances-multimodal-search",
+      "translated_at": "2024-10-30T07:34:43.468Z"
+    },
+    {
+      "lang": "es",
+      "slug": "beyond-clip-how-jina-clip-advances-multimodal-search",
+      "translated_at": "2024-10-30T07:34:42.468Z"
+    },
+    {
+      "lang": "de",
+      "slug": "beyond-clip-how-jina-clip-advances-multimodal-search",
+      "translated_at": "2024-10-30T07:34:41.468Z"
+    }
+  ],
+  "updated_at": "2024-10-31T14:27:13.858Z"
+}

@@ -11,12 +11,8 @@
     "thinkgpt": "1.5K",
     "dev-gpt": "1.8K",
     "rungpt": "153",
-    "vectordb": "553",
+    "vectordb": "554",
     "jerboa": "42",
     "total": "50.6K"
-  },
-  "jobs": {
-    "ok": false,
-    "error": "Document not found"
   }
 }
