@@ -14,7 +14,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Thu, 31 Oct 2024 07:56:26 +0100</lastBuildDate>
+        <lastBuildDate>Thu, 31 Oct 2024 09:38:17 +0100</lastBuildDate>
 
             <item>
                 <title>Beyond CLIP: How Jina-CLIP Advances Multimodal Search</title>
