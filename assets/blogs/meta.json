@@ -2,6 +2,2436 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "8k-token-length-bilingual-embeddings-break-language-barriers-in-chinese-and-english",
+      "translated_at": "2024-11-04T04:28:06.608Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "8k-token-length-bilingual-embeddings-break-language-barriers-in-chinese-and-english",
+      "translated_at": "2024-11-04T04:28:06.607Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "8k-token-length-bilingual-embeddings-break-language-barriers-in-chinese-and-english",
+      "translated_at": "2024-11-04T04:28:06.606Z"
+    },
+    {
+      "lang": "it",
+      "slug": "8k-token-length-bilingual-embeddings-break-language-barriers-in-chinese-and-english",
+      "translated_at": "2024-11-04T04:28:06.605Z"
+    },
+    {
+      "lang": "es",
+      "slug": "8k-token-length-bilingual-embeddings-break-language-barriers-in-chinese-and-english",
+      "translated_at": "2024-11-04T04:28:06.604Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "8k-token-length-bilingual-embeddings-break-language-barriers-in-chinese-and-english",
+      "translated_at": "2024-11-04T04:28:06.602Z"
+    },
+    {
+      "lang": "de",
+      "slug": "8k-token-length-bilingual-embeddings-break-language-barriers-in-chinese-and-english",
+      "translated_at": "2024-11-04T04:28:06.601Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "8k-token-length-bilingual-embeddings-break-language-barriers-in-chinese-and-english",
+      "translated_at": "2024-11-04T04:28:06.599Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "8k-token-length-bilingual-embeddings-break-language-barriers-in-chinese-and-english",
+      "translated_at": "2024-11-04T04:28:06.598Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "ich-bin-ein-berliner-german-english-bilingual-embeddings-with-8k-token-length",
+      "translated_at": "2024-11-04T04:26:48.726Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "ich-bin-ein-berliner-german-english-bilingual-embeddings-with-8k-token-length",
+      "translated_at": "2024-11-04T04:26:48.725Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "ich-bin-ein-berliner-german-english-bilingual-embeddings-with-8k-token-length",
+      "translated_at": "2024-11-04T04:26:48.724Z"
+    },
+    {
+      "lang": "it",
+      "slug": "ich-bin-ein-berliner-german-english-bilingual-embeddings-with-8k-token-length",
+      "translated_at": "2024-11-04T04:26:48.723Z"
+    },
+    {
+      "lang": "es",
+      "slug": "ich-bin-ein-berliner-german-english-bilingual-embeddings-with-8k-token-length",
+      "translated_at": "2024-11-04T04:26:48.722Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "ich-bin-ein-berliner-german-english-bilingual-embeddings-with-8k-token-length",
+      "translated_at": "2024-11-04T04:26:48.721Z"
+    },
+    {
+      "lang": "de",
+      "slug": "ich-bin-ein-berliner-german-english-bilingual-embeddings-with-8k-token-length",
+      "translated_at": "2024-11-04T04:26:48.720Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "ich-bin-ein-berliner-german-english-bilingual-embeddings-with-8k-token-length",
+      "translated_at": "2024-11-04T04:26:48.719Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "ich-bin-ein-berliner-german-english-bilingual-embeddings-with-8k-token-length",
+      "translated_at": "2024-11-04T04:26:48.717Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "jina-embeddings-v2-and-deepset-haystack",
+      "translated_at": "2024-11-04T04:25:39.165Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "jina-embeddings-v2-and-deepset-haystack",
+      "translated_at": "2024-11-04T04:25:39.164Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "jina-embeddings-v2-and-deepset-haystack",
+      "translated_at": "2024-11-04T04:25:39.163Z"
+    },
+    {
+      "lang": "it",
+      "slug": "jina-embeddings-v2-and-deepset-haystack",
+      "translated_at": "2024-11-04T04:25:39.162Z"
+    },
+    {
+      "lang": "es",
+      "slug": "jina-embeddings-v2-and-deepset-haystack",
+      "translated_at": "2024-11-04T04:25:39.161Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "jina-embeddings-v2-and-deepset-haystack",
+      "translated_at": "2024-11-04T04:25:39.160Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "jina-embeddings-v2-and-deepset-haystack",
+      "translated_at": "2024-11-04T04:25:39.159Z"
+    },
+    {
+      "lang": "de",
+      "slug": "jina-embeddings-v2-and-deepset-haystack",
+      "translated_at": "2024-11-04T04:25:39.159Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "jina-embeddings-v2-and-deepset-haystack",
+      "translated_at": "2024-11-04T04:25:39.157Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "does-subspace-cosine-similarity-imply-high-dimensional-cosine-similarity",
+      "translated_at": "2024-11-04T04:25:22.064Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "does-subspace-cosine-similarity-imply-high-dimensional-cosine-similarity",
+      "translated_at": "2024-11-04T04:25:22.062Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "does-subspace-cosine-similarity-imply-high-dimensional-cosine-similarity",
+      "translated_at": "2024-11-04T04:25:22.053Z"
+    },
+    {
+      "lang": "it",
+      "slug": "does-subspace-cosine-similarity-imply-high-dimensional-cosine-similarity",
+      "translated_at": "2024-11-04T04:25:22.051Z"
+    },
+    {
+      "lang": "es",
+      "slug": "does-subspace-cosine-similarity-imply-high-dimensional-cosine-similarity",
+      "translated_at": "2024-11-04T04:25:22.047Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "does-subspace-cosine-similarity-imply-high-dimensional-cosine-similarity",
+      "translated_at": "2024-11-04T04:25:22.042Z"
+    },
+    {
+      "lang": "de",
+      "slug": "does-subspace-cosine-similarity-imply-high-dimensional-cosine-similarity",
+      "translated_at": "2024-11-04T04:25:22.032Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "does-subspace-cosine-similarity-imply-high-dimensional-cosine-similarity",
+      "translated_at": "2024-11-04T04:25:22.030Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "does-subspace-cosine-similarity-imply-high-dimensional-cosine-similarity",
+      "translated_at": "2024-11-04T04:25:22.029Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "make-accessibility-accessible-generate-alt-text-with-scenexplain",
+      "translated_at": "2024-11-04T04:24:07.556Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "make-accessibility-accessible-generate-alt-text-with-scenexplain",
+      "translated_at": "2024-11-04T04:24:07.555Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "make-accessibility-accessible-generate-alt-text-with-scenexplain",
+      "translated_at": "2024-11-04T04:24:07.554Z"
+    },
+    {
+      "lang": "it",
+      "slug": "make-accessibility-accessible-generate-alt-text-with-scenexplain",
+      "translated_at": "2024-11-04T04:24:07.553Z"
+    },
+    {
+      "lang": "es",
+      "slug": "make-accessibility-accessible-generate-alt-text-with-scenexplain",
+      "translated_at": "2024-11-04T04:24:07.552Z"
+    },
+    {
+      "lang": "de",
+      "slug": "make-accessibility-accessible-generate-alt-text-with-scenexplain",
+      "translated_at": "2024-11-04T04:24:07.550Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "make-accessibility-accessible-generate-alt-text-with-scenexplain",
+      "translated_at": "2024-11-04T04:24:07.550Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "make-accessibility-accessible-generate-alt-text-with-scenexplain",
+      "translated_at": "2024-11-04T04:24:07.549Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "make-accessibility-accessible-generate-alt-text-with-scenexplain",
+      "translated_at": "2024-11-04T04:24:07.547Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "jina-embeddings-v2-bilingual-models-are-now-open-source-on-hugging-face",
+      "translated_at": "2024-11-04T04:22:55.682Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "jina-embeddings-v2-bilingual-models-are-now-open-source-on-hugging-face",
+      "translated_at": "2024-11-04T04:22:55.681Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "jina-embeddings-v2-bilingual-models-are-now-open-source-on-hugging-face",
+      "translated_at": "2024-11-04T04:22:55.679Z"
+    },
+    {
+      "lang": "it",
+      "slug": "jina-embeddings-v2-bilingual-models-are-now-open-source-on-hugging-face",
+      "translated_at": "2024-11-04T04:22:55.677Z"
+    },
+    {
+      "lang": "es",
+      "slug": "jina-embeddings-v2-bilingual-models-are-now-open-source-on-hugging-face",
+      "translated_at": "2024-11-04T04:22:55.676Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "jina-embeddings-v2-bilingual-models-are-now-open-source-on-hugging-face",
+      "translated_at": "2024-11-04T04:22:55.674Z"
+    },
+    {
+      "lang": "de",
+      "slug": "jina-embeddings-v2-bilingual-models-are-now-open-source-on-hugging-face",
+      "translated_at": "2024-11-04T04:22:55.672Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "jina-embeddings-v2-bilingual-models-are-now-open-source-on-hugging-face",
+      "translated_at": "2024-11-04T04:22:55.670Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "jina-embeddings-v2-bilingual-models-are-now-open-source-on-hugging-face",
+      "translated_at": "2024-11-04T04:22:55.668Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "myscale-jina-ai-unleashing-great-potential-for-your-ai-applications",
+      "translated_at": "2024-11-04T04:21:41.080Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "myscale-jina-ai-unleashing-great-potential-for-your-ai-applications",
+      "translated_at": "2024-11-04T04:21:41.079Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "myscale-jina-ai-unleashing-great-potential-for-your-ai-applications",
+      "translated_at": "2024-11-04T04:21:41.078Z"
+    },
+    {
+      "lang": "it",
+      "slug": "myscale-jina-ai-unleashing-great-potential-for-your-ai-applications",
+      "translated_at": "2024-11-04T04:21:41.077Z"
+    },
+    {
+      "lang": "es",
+      "slug": "myscale-jina-ai-unleashing-great-potential-for-your-ai-applications",
+      "translated_at": "2024-11-04T04:21:41.076Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "myscale-jina-ai-unleashing-great-potential-for-your-ai-applications",
+      "translated_at": "2024-11-04T04:21:41.075Z"
+    },
+    {
+      "lang": "de",
+      "slug": "myscale-jina-ai-unleashing-great-potential-for-your-ai-applications",
+      "translated_at": "2024-11-04T04:21:41.074Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "myscale-jina-ai-unleashing-great-potential-for-your-ai-applications",
+      "translated_at": "2024-11-04T04:21:41.073Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "myscale-jina-ai-unleashing-great-potential-for-your-ai-applications",
+      "translated_at": "2024-11-04T04:21:41.073Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "a-deep-dive-into-tokenization",
+      "translated_at": "2024-11-04T04:21:23.037Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "a-deep-dive-into-tokenization",
+      "translated_at": "2024-11-04T04:21:23.036Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "a-deep-dive-into-tokenization",
+      "translated_at": "2024-11-04T04:21:23.035Z"
+    },
+    {
+      "lang": "it",
+      "slug": "a-deep-dive-into-tokenization",
+      "translated_at": "2024-11-04T04:21:23.033Z"
+    },
+    {
+      "lang": "es",
+      "slug": "a-deep-dive-into-tokenization",
+      "translated_at": "2024-11-04T04:21:23.031Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "a-deep-dive-into-tokenization",
+      "translated_at": "2024-11-04T04:21:23.029Z"
+    },
+    {
+      "lang": "de",
+      "slug": "a-deep-dive-into-tokenization",
+      "translated_at": "2024-11-04T04:21:23.027Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "a-deep-dive-into-tokenization",
+      "translated_at": "2024-11-04T04:21:23.025Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "a-deep-dive-into-tokenization",
+      "translated_at": "2024-11-04T04:21:23.022Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "elevate-your-code-search-with-new-jina-code-embeddings",
+      "translated_at": "2024-11-04T04:19:44.292Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "elevate-your-code-search-with-new-jina-code-embeddings",
+      "translated_at": "2024-11-04T04:19:44.291Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "elevate-your-code-search-with-new-jina-code-embeddings",
+      "translated_at": "2024-11-04T04:19:44.290Z"
+    },
+    {
+      "lang": "it",
+      "slug": "elevate-your-code-search-with-new-jina-code-embeddings",
+      "translated_at": "2024-11-04T04:19:44.289Z"
+    },
+    {
+      "lang": "es",
+      "slug": "elevate-your-code-search-with-new-jina-code-embeddings",
+      "translated_at": "2024-11-04T04:19:44.288Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "elevate-your-code-search-with-new-jina-code-embeddings",
+      "translated_at": "2024-11-04T04:19:44.287Z"
+    },
+    {
+      "lang": "de",
+      "slug": "elevate-your-code-search-with-new-jina-code-embeddings",
+      "translated_at": "2024-11-04T04:19:44.286Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "elevate-your-code-search-with-new-jina-code-embeddings",
+      "translated_at": "2024-11-04T04:19:44.285Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "elevate-your-code-search-with-new-jina-code-embeddings",
+      "translated_at": "2024-11-04T04:19:44.284Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "aqui-se-habla-espanol-top-quality-spanish-english-embeddings-and-8k-context",
+      "translated_at": "2024-11-04T04:18:27.478Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "aqui-se-habla-espanol-top-quality-spanish-english-embeddings-and-8k-context",
+      "translated_at": "2024-11-04T04:18:27.478Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "aqui-se-habla-espanol-top-quality-spanish-english-embeddings-and-8k-context",
+      "translated_at": "2024-11-04T04:18:27.477Z"
+    },
+    {
+      "lang": "it",
+      "slug": "aqui-se-habla-espanol-top-quality-spanish-english-embeddings-and-8k-context",
+      "translated_at": "2024-11-04T04:18:27.475Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "aqui-se-habla-espanol-top-quality-spanish-english-embeddings-and-8k-context",
+      "translated_at": "2024-11-04T04:18:27.474Z"
+    },
+    {
+      "lang": "es",
+      "slug": "aqui-se-habla-espanol-top-quality-spanish-english-embeddings-and-8k-context",
+      "translated_at": "2024-11-04T04:18:27.474Z"
+    },
+    {
+      "lang": "de",
+      "slug": "aqui-se-habla-espanol-top-quality-spanish-english-embeddings-and-8k-context",
+      "translated_at": "2024-11-04T04:18:27.473Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "aqui-se-habla-espanol-top-quality-spanish-english-embeddings-and-8k-context",
+      "translated_at": "2024-11-04T04:18:27.472Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "aqui-se-habla-espanol-top-quality-spanish-english-embeddings-and-8k-context",
+      "translated_at": "2024-11-04T04:18:27.471Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "what-is-colbert-and-late-interaction-and-why-they-matter-in-search",
+      "translated_at": "2024-11-04T04:17:15.974Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "what-is-colbert-and-late-interaction-and-why-they-matter-in-search",
+      "translated_at": "2024-11-04T04:17:15.972Z"
+    },
+    {
+      "lang": "it",
+      "slug": "what-is-colbert-and-late-interaction-and-why-they-matter-in-search",
+      "translated_at": "2024-11-04T04:17:15.971Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "what-is-colbert-and-late-interaction-and-why-they-matter-in-search",
+      "translated_at": "2024-11-04T04:17:15.971Z"
+    },
+    {
+      "lang": "es",
+      "slug": "what-is-colbert-and-late-interaction-and-why-they-matter-in-search",
+      "translated_at": "2024-11-04T04:17:15.970Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "what-is-colbert-and-late-interaction-and-why-they-matter-in-search",
+      "translated_at": "2024-11-04T04:17:15.968Z"
+    },
+    {
+      "lang": "de",
+      "slug": "what-is-colbert-and-late-interaction-and-why-they-matter-in-search",
+      "translated_at": "2024-11-04T04:17:15.967Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "what-is-colbert-and-late-interaction-and-why-they-matter-in-search",
+      "translated_at": "2024-11-04T04:17:15.965Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "what-is-colbert-and-late-interaction-and-why-they-matter-in-search",
+      "translated_at": "2024-11-04T04:17:15.964Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "revolutionizing-bilingual-text-embeddings-with-multi-task-contrastive-learning",
+      "translated_at": "2024-11-04T04:15:49.334Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "revolutionizing-bilingual-text-embeddings-with-multi-task-contrastive-learning",
+      "translated_at": "2024-11-04T04:15:49.333Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "revolutionizing-bilingual-text-embeddings-with-multi-task-contrastive-learning",
+      "translated_at": "2024-11-04T04:15:49.332Z"
+    },
+    {
+      "lang": "it",
+      "slug": "revolutionizing-bilingual-text-embeddings-with-multi-task-contrastive-learning",
+      "translated_at": "2024-11-04T04:15:49.331Z"
+    },
+    {
+      "lang": "es",
+      "slug": "revolutionizing-bilingual-text-embeddings-with-multi-task-contrastive-learning",
+      "translated_at": "2024-11-04T04:15:49.330Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "revolutionizing-bilingual-text-embeddings-with-multi-task-contrastive-learning",
+      "translated_at": "2024-11-04T04:15:49.329Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "revolutionizing-bilingual-text-embeddings-with-multi-task-contrastive-learning",
+      "translated_at": "2024-11-04T04:15:49.328Z"
+    },
+    {
+      "lang": "de",
+      "slug": "revolutionizing-bilingual-text-embeddings-with-multi-task-contrastive-learning",
+      "translated_at": "2024-11-04T04:15:49.328Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "revolutionizing-bilingual-text-embeddings-with-multi-task-contrastive-learning",
+      "translated_at": "2024-11-04T04:15:49.326Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "maximizing-search-relevancy-and-rag-accuracy-with-jina-reranker",
+      "translated_at": "2024-11-04T04:14:57.894Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "maximizing-search-relevancy-and-rag-accuracy-with-jina-reranker",
+      "translated_at": "2024-11-04T04:14:57.893Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "maximizing-search-relevancy-and-rag-accuracy-with-jina-reranker",
+      "translated_at": "2024-11-04T04:14:57.892Z"
+    },
+    {
+      "lang": "it",
+      "slug": "maximizing-search-relevancy-and-rag-accuracy-with-jina-reranker",
+      "translated_at": "2024-11-04T04:14:57.891Z"
+    },
+    {
+      "lang": "es",
+      "slug": "maximizing-search-relevancy-and-rag-accuracy-with-jina-reranker",
+      "translated_at": "2024-11-04T04:14:57.890Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "maximizing-search-relevancy-and-rag-accuracy-with-jina-reranker",
+      "translated_at": "2024-11-04T04:14:57.886Z"
+    },
+    {
+      "lang": "de",
+      "slug": "maximizing-search-relevancy-and-rag-accuracy-with-jina-reranker",
+      "translated_at": "2024-11-04T04:14:57.885Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "maximizing-search-relevancy-and-rag-accuracy-with-jina-reranker",
+      "translated_at": "2024-11-04T04:14:57.884Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "maximizing-search-relevancy-and-rag-accuracy-with-jina-reranker",
+      "translated_at": "2024-11-04T04:14:57.882Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "build-a-rag-system-with-jina-embeddings-and-qdrant",
+      "translated_at": "2024-11-04T04:13:43.498Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "build-a-rag-system-with-jina-embeddings-and-qdrant",
+      "translated_at": "2024-11-04T04:13:43.497Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "build-a-rag-system-with-jina-embeddings-and-qdrant",
+      "translated_at": "2024-11-04T04:13:43.495Z"
+    },
+    {
+      "lang": "it",
+      "slug": "build-a-rag-system-with-jina-embeddings-and-qdrant",
+      "translated_at": "2024-11-04T04:13:43.494Z"
+    },
+    {
+      "lang": "es",
+      "slug": "build-a-rag-system-with-jina-embeddings-and-qdrant",
+      "translated_at": "2024-11-04T04:13:43.492Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "build-a-rag-system-with-jina-embeddings-and-qdrant",
+      "translated_at": "2024-11-04T04:13:43.491Z"
+    },
+    {
+      "lang": "de",
+      "slug": "build-a-rag-system-with-jina-embeddings-and-qdrant",
+      "translated_at": "2024-11-04T04:13:43.490Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "build-a-rag-system-with-jina-embeddings-and-qdrant",
+      "translated_at": "2024-11-04T04:13:43.489Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "build-a-rag-system-with-jina-embeddings-and-qdrant",
+      "translated_at": "2024-11-04T04:13:43.487Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "precise-rag-with-jina-reranker-and-llamaindex",
+      "translated_at": "2024-11-04T04:12:31.129Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "precise-rag-with-jina-reranker-and-llamaindex",
+      "translated_at": "2024-11-04T04:12:31.128Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "precise-rag-with-jina-reranker-and-llamaindex",
+      "translated_at": "2024-11-04T04:12:31.126Z"
+    },
+    {
+      "lang": "it",
+      "slug": "precise-rag-with-jina-reranker-and-llamaindex",
+      "translated_at": "2024-11-04T04:12:31.125Z"
+    },
+    {
+      "lang": "es",
+      "slug": "precise-rag-with-jina-reranker-and-llamaindex",
+      "translated_at": "2024-11-04T04:12:31.124Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "precise-rag-with-jina-reranker-and-llamaindex",
+      "translated_at": "2024-11-04T04:12:31.122Z"
+    },
+    {
+      "lang": "de",
+      "slug": "precise-rag-with-jina-reranker-and-llamaindex",
+      "translated_at": "2024-11-04T04:12:31.117Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "precise-rag-with-jina-reranker-and-llamaindex",
+      "translated_at": "2024-11-04T04:12:31.115Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "precise-rag-with-jina-reranker-and-llamaindex",
+      "translated_at": "2024-11-04T04:12:31.113Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "building-rag-with-jina-ai-and-superduperdb",
+      "translated_at": "2024-11-04T04:11:23.797Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "building-rag-with-jina-ai-and-superduperdb",
+      "translated_at": "2024-11-04T04:11:23.797Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "building-rag-with-jina-ai-and-superduperdb",
+      "translated_at": "2024-11-04T04:11:23.796Z"
+    },
+    {
+      "lang": "it",
+      "slug": "building-rag-with-jina-ai-and-superduperdb",
+      "translated_at": "2024-11-04T04:11:23.795Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "building-rag-with-jina-ai-and-superduperdb",
+      "translated_at": "2024-11-04T04:11:23.793Z"
+    },
+    {
+      "lang": "es",
+      "slug": "building-rag-with-jina-ai-and-superduperdb",
+      "translated_at": "2024-11-04T04:11:23.793Z"
+    },
+    {
+      "lang": "de",
+      "slug": "building-rag-with-jina-ai-and-superduperdb",
+      "translated_at": "2024-11-04T04:11:23.792Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "building-rag-with-jina-ai-and-superduperdb",
+      "translated_at": "2024-11-04T04:11:23.791Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "building-rag-with-jina-ai-and-superduperdb",
+      "translated_at": "2024-11-04T04:11:23.790Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "how-to-build-article-recommendations-with-jina-reranker-api-only",
+      "translated_at": "2024-11-04T04:10:50.066Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "how-to-build-article-recommendations-with-jina-reranker-api-only",
+      "translated_at": "2024-11-04T04:10:50.066Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "how-to-build-article-recommendations-with-jina-reranker-api-only",
+      "translated_at": "2024-11-04T04:10:50.065Z"
+    },
+    {
+      "lang": "it",
+      "slug": "how-to-build-article-recommendations-with-jina-reranker-api-only",
+      "translated_at": "2024-11-04T04:10:50.064Z"
+    },
+    {
+      "lang": "es",
+      "slug": "how-to-build-article-recommendations-with-jina-reranker-api-only",
+      "translated_at": "2024-11-04T04:10:50.063Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "how-to-build-article-recommendations-with-jina-reranker-api-only",
+      "translated_at": "2024-11-04T04:10:50.062Z"
+    },
+    {
+      "lang": "de",
+      "slug": "how-to-build-article-recommendations-with-jina-reranker-api-only",
+      "translated_at": "2024-11-04T04:10:50.060Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "how-to-build-article-recommendations-with-jina-reranker-api-only",
+      "translated_at": "2024-11-04T04:10:50.059Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "how-to-build-article-recommendations-with-jina-reranker-api-only",
+      "translated_at": "2024-11-04T04:10:50.058Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "get-more-with-promptperfect-improved-subscription-choices-cutting-edge-interactive-optimizer",
+      "translated_at": "2024-11-04T04:09:36.623Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "get-more-with-promptperfect-improved-subscription-choices-cutting-edge-interactive-optimizer",
+      "translated_at": "2024-11-04T04:09:36.622Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "get-more-with-promptperfect-improved-subscription-choices-cutting-edge-interactive-optimizer",
+      "translated_at": "2024-11-04T04:09:36.622Z"
+    },
+    {
+      "lang": "it",
+      "slug": "get-more-with-promptperfect-improved-subscription-choices-cutting-edge-interactive-optimizer",
+      "translated_at": "2024-11-04T04:09:36.621Z"
+    },
+    {
+      "lang": "es",
+      "slug": "get-more-with-promptperfect-improved-subscription-choices-cutting-edge-interactive-optimizer",
+      "translated_at": "2024-11-04T04:09:36.620Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "get-more-with-promptperfect-improved-subscription-choices-cutting-edge-interactive-optimizer",
+      "translated_at": "2024-11-04T04:09:36.619Z"
+    },
+    {
+      "lang": "de",
+      "slug": "get-more-with-promptperfect-improved-subscription-choices-cutting-edge-interactive-optimizer",
+      "translated_at": "2024-11-04T04:09:36.618Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "get-more-with-promptperfect-improved-subscription-choices-cutting-edge-interactive-optimizer",
+      "translated_at": "2024-11-04T04:09:36.617Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "get-more-with-promptperfect-improved-subscription-choices-cutting-edge-interactive-optimizer",
+      "translated_at": "2024-11-04T04:09:36.615Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "click-worthy-content-with-promptperfect-ai-marketing-for-newsletters-and-social-media",
+      "translated_at": "2024-11-04T04:08:18.257Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "click-worthy-content-with-promptperfect-ai-marketing-for-newsletters-and-social-media",
+      "translated_at": "2024-11-04T04:08:18.256Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "click-worthy-content-with-promptperfect-ai-marketing-for-newsletters-and-social-media",
+      "translated_at": "2024-11-04T04:08:18.256Z"
+    },
+    {
+      "lang": "it",
+      "slug": "click-worthy-content-with-promptperfect-ai-marketing-for-newsletters-and-social-media",
+      "translated_at": "2024-11-04T04:08:18.254Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "click-worthy-content-with-promptperfect-ai-marketing-for-newsletters-and-social-media",
+      "translated_at": "2024-11-04T04:08:18.253Z"
+    },
+    {
+      "lang": "es",
+      "slug": "click-worthy-content-with-promptperfect-ai-marketing-for-newsletters-and-social-media",
+      "translated_at": "2024-11-04T04:08:18.253Z"
+    },
+    {
+      "lang": "de",
+      "slug": "click-worthy-content-with-promptperfect-ai-marketing-for-newsletters-and-social-media",
+      "translated_at": "2024-11-04T04:08:18.252Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "click-worthy-content-with-promptperfect-ai-marketing-for-newsletters-and-social-media",
+      "translated_at": "2024-11-04T04:08:18.250Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "click-worthy-content-with-promptperfect-ai-marketing-for-newsletters-and-social-media",
+      "translated_at": "2024-11-04T04:08:18.250Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "next-level-cloud-ai-jina-embeddings-and-rerankers-on-amazon-sagemaker",
+      "translated_at": "2024-11-04T04:06:40.911Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "next-level-cloud-ai-jina-embeddings-and-rerankers-on-amazon-sagemaker",
+      "translated_at": "2024-11-04T04:06:40.909Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "next-level-cloud-ai-jina-embeddings-and-rerankers-on-amazon-sagemaker",
+      "translated_at": "2024-11-04T04:06:40.908Z"
+    },
+    {
+      "lang": "it",
+      "slug": "next-level-cloud-ai-jina-embeddings-and-rerankers-on-amazon-sagemaker",
+      "translated_at": "2024-11-04T04:06:40.906Z"
+    },
+    {
+      "lang": "es",
+      "slug": "next-level-cloud-ai-jina-embeddings-and-rerankers-on-amazon-sagemaker",
+      "translated_at": "2024-11-04T04:06:40.904Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "next-level-cloud-ai-jina-embeddings-and-rerankers-on-amazon-sagemaker",
+      "translated_at": "2024-11-04T04:06:40.902Z"
+    },
+    {
+      "lang": "de",
+      "slug": "next-level-cloud-ai-jina-embeddings-and-rerankers-on-amazon-sagemaker",
+      "translated_at": "2024-11-04T04:06:40.900Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "next-level-cloud-ai-jina-embeddings-and-rerankers-on-amazon-sagemaker",
+      "translated_at": "2024-11-04T04:06:40.896Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "next-level-cloud-ai-jina-embeddings-and-rerankers-on-amazon-sagemaker",
+      "translated_at": "2024-11-04T04:06:40.894Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "elevating-youtube-scripts-with-promptperfect-ai-mastery-for-video-content-creators",
+      "translated_at": "2024-11-04T04:05:16.143Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "elevating-youtube-scripts-with-promptperfect-ai-mastery-for-video-content-creators",
+      "translated_at": "2024-11-04T04:05:16.142Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "elevating-youtube-scripts-with-promptperfect-ai-mastery-for-video-content-creators",
+      "translated_at": "2024-11-04T04:05:16.141Z"
+    },
+    {
+      "lang": "it",
+      "slug": "elevating-youtube-scripts-with-promptperfect-ai-mastery-for-video-content-creators",
+      "translated_at": "2024-11-04T04:05:16.140Z"
+    },
+    {
+      "lang": "es",
+      "slug": "elevating-youtube-scripts-with-promptperfect-ai-mastery-for-video-content-creators",
+      "translated_at": "2024-11-04T04:05:16.139Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "elevating-youtube-scripts-with-promptperfect-ai-mastery-for-video-content-creators",
+      "translated_at": "2024-11-04T04:05:16.138Z"
+    },
+    {
+      "lang": "de",
+      "slug": "elevating-youtube-scripts-with-promptperfect-ai-mastery-for-video-content-creators",
+      "translated_at": "2024-11-04T04:05:16.136Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "elevating-youtube-scripts-with-promptperfect-ai-mastery-for-video-content-creators",
+      "translated_at": "2024-11-04T04:05:16.135Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "elevating-youtube-scripts-with-promptperfect-ai-mastery-for-video-content-creators",
+      "translated_at": "2024-11-04T04:05:16.134Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "dspy-not-your-average-prompt-engineering",
+      "translated_at": "2024-11-04T04:04:08.046Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "dspy-not-your-average-prompt-engineering",
+      "translated_at": "2024-11-04T04:04:08.045Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "dspy-not-your-average-prompt-engineering",
+      "translated_at": "2024-11-04T04:04:08.044Z"
+    },
+    {
+      "lang": "it",
+      "slug": "dspy-not-your-average-prompt-engineering",
+      "translated_at": "2024-11-04T04:04:08.043Z"
+    },
+    {
+      "lang": "es",
+      "slug": "dspy-not-your-average-prompt-engineering",
+      "translated_at": "2024-11-04T04:04:08.042Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "dspy-not-your-average-prompt-engineering",
+      "translated_at": "2024-11-04T04:04:08.041Z"
+    },
+    {
+      "lang": "de",
+      "slug": "dspy-not-your-average-prompt-engineering",
+      "translated_at": "2024-11-04T04:04:08.040Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "dspy-not-your-average-prompt-engineering",
+      "translated_at": "2024-11-04T04:04:08.039Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "dspy-not-your-average-prompt-engineering",
+      "translated_at": "2024-11-04T04:04:08.038Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "retrieve-jira-tickets-with-jina-reranker-and-haystack-20",
+      "translated_at": "2024-11-04T04:02:41.406Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "retrieve-jira-tickets-with-jina-reranker-and-haystack-20",
+      "translated_at": "2024-11-04T04:02:41.405Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "retrieve-jira-tickets-with-jina-reranker-and-haystack-20",
+      "translated_at": "2024-11-04T04:02:41.405Z"
+    },
+    {
+      "lang": "it",
+      "slug": "retrieve-jira-tickets-with-jina-reranker-and-haystack-20",
+      "translated_at": "2024-11-04T04:02:41.404Z"
+    },
+    {
+      "lang": "es",
+      "slug": "retrieve-jira-tickets-with-jina-reranker-and-haystack-20",
+      "translated_at": "2024-11-04T04:02:41.402Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "retrieve-jira-tickets-with-jina-reranker-and-haystack-20",
+      "translated_at": "2024-11-04T04:02:41.401Z"
+    },
+    {
+      "lang": "de",
+      "slug": "retrieve-jira-tickets-with-jina-reranker-and-haystack-20",
+      "translated_at": "2024-11-04T04:02:41.400Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "retrieve-jira-tickets-with-jina-reranker-and-haystack-20",
+      "translated_at": "2024-11-04T04:02:41.399Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "retrieve-jira-tickets-with-jina-reranker-and-haystack-20",
+      "translated_at": "2024-11-04T04:02:41.398Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "enhancing-search-results-with-jina-ais-reranker-api-in-myscale",
+      "translated_at": "2024-11-04T04:01:31.709Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "enhancing-search-results-with-jina-ais-reranker-api-in-myscale",
+      "translated_at": "2024-11-04T04:01:31.708Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "enhancing-search-results-with-jina-ais-reranker-api-in-myscale",
+      "translated_at": "2024-11-04T04:01:31.708Z"
+    },
+    {
+      "lang": "it",
+      "slug": "enhancing-search-results-with-jina-ais-reranker-api-in-myscale",
+      "translated_at": "2024-11-04T04:01:31.707Z"
+    },
+    {
+      "lang": "es",
+      "slug": "enhancing-search-results-with-jina-ais-reranker-api-in-myscale",
+      "translated_at": "2024-11-04T04:01:31.706Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "enhancing-search-results-with-jina-ais-reranker-api-in-myscale",
+      "translated_at": "2024-11-04T04:01:31.705Z"
+    },
+    {
+      "lang": "de",
+      "slug": "enhancing-search-results-with-jina-ais-reranker-api-in-myscale",
+      "translated_at": "2024-11-04T04:01:31.704Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "enhancing-search-results-with-jina-ais-reranker-api-in-myscale",
+      "translated_at": "2024-11-04T04:01:31.703Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "enhancing-search-results-with-jina-ais-reranker-api-in-myscale",
+      "translated_at": "2024-11-04T04:01:31.703Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "smaller-faster-cheaper-jina-rerankers-turbo-and-tiny",
+      "translated_at": "2024-11-04T04:01:02.952Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "smaller-faster-cheaper-jina-rerankers-turbo-and-tiny",
+      "translated_at": "2024-11-04T04:01:02.952Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "smaller-faster-cheaper-jina-rerankers-turbo-and-tiny",
+      "translated_at": "2024-11-04T04:01:02.951Z"
+    },
+    {
+      "lang": "it",
+      "slug": "smaller-faster-cheaper-jina-rerankers-turbo-and-tiny",
+      "translated_at": "2024-11-04T04:01:02.950Z"
+    },
+    {
+      "lang": "es",
+      "slug": "smaller-faster-cheaper-jina-rerankers-turbo-and-tiny",
+      "translated_at": "2024-11-04T04:01:02.949Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "smaller-faster-cheaper-jina-rerankers-turbo-and-tiny",
+      "translated_at": "2024-11-04T04:01:02.948Z"
+    },
+    {
+      "lang": "de",
+      "slug": "smaller-faster-cheaper-jina-rerankers-turbo-and-tiny",
+      "translated_at": "2024-11-04T04:01:02.946Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "smaller-faster-cheaper-jina-rerankers-turbo-and-tiny",
+      "translated_at": "2024-11-04T04:01:02.945Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "smaller-faster-cheaper-jina-rerankers-turbo-and-tiny",
+      "translated_at": "2024-11-04T04:01:02.943Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "having-it-both-ways-combining-bm25-with-ai-reranking",
+      "translated_at": "2024-11-04T03:59:50.850Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "having-it-both-ways-combining-bm25-with-ai-reranking",
+      "translated_at": "2024-11-04T03:59:50.849Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "having-it-both-ways-combining-bm25-with-ai-reranking",
+      "translated_at": "2024-11-04T03:59:50.848Z"
+    },
+    {
+      "lang": "it",
+      "slug": "having-it-both-ways-combining-bm25-with-ai-reranking",
+      "translated_at": "2024-11-04T03:59:50.847Z"
+    },
+    {
+      "lang": "es",
+      "slug": "having-it-both-ways-combining-bm25-with-ai-reranking",
+      "translated_at": "2024-11-04T03:59:50.846Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "having-it-both-ways-combining-bm25-with-ai-reranking",
+      "translated_at": "2024-11-04T03:59:50.845Z"
+    },
+    {
+      "lang": "de",
+      "slug": "having-it-both-ways-combining-bm25-with-ai-reranking",
+      "translated_at": "2024-11-04T03:59:50.844Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "having-it-both-ways-combining-bm25-with-ai-reranking",
+      "translated_at": "2024-11-04T03:59:50.843Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "having-it-both-ways-combining-bm25-with-ai-reranking",
+      "translated_at": "2024-11-04T03:59:50.842Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "jina-embeddings-and-reranker-on-azure-scalable-business-ready-ai-solutions",
+      "translated_at": "2024-11-04T03:58:39.892Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "jina-embeddings-and-reranker-on-azure-scalable-business-ready-ai-solutions",
+      "translated_at": "2024-11-04T03:58:39.891Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "jina-embeddings-and-reranker-on-azure-scalable-business-ready-ai-solutions",
+      "translated_at": "2024-11-04T03:58:39.890Z"
+    },
+    {
+      "lang": "it",
+      "slug": "jina-embeddings-and-reranker-on-azure-scalable-business-ready-ai-solutions",
+      "translated_at": "2024-11-04T03:58:39.889Z"
+    },
+    {
+      "lang": "es",
+      "slug": "jina-embeddings-and-reranker-on-azure-scalable-business-ready-ai-solutions",
+      "translated_at": "2024-11-04T03:58:39.888Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "jina-embeddings-and-reranker-on-azure-scalable-business-ready-ai-solutions",
+      "translated_at": "2024-11-04T03:58:39.887Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "jina-embeddings-and-reranker-on-azure-scalable-business-ready-ai-solutions",
+      "translated_at": "2024-11-04T03:58:39.886Z"
+    },
+    {
+      "lang": "de",
+      "slug": "jina-embeddings-and-reranker-on-azure-scalable-business-ready-ai-solutions",
+      "translated_at": "2024-11-04T03:58:39.886Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "jina-embeddings-and-reranker-on-azure-scalable-business-ready-ai-solutions",
+      "translated_at": "2024-11-04T03:58:39.884Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "create-your-personalized-podcast-with-jina-reader-and-promptperfect",
+      "translated_at": "2024-11-04T03:57:35.430Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "create-your-personalized-podcast-with-jina-reader-and-promptperfect",
+      "translated_at": "2024-11-04T03:57:35.429Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "create-your-personalized-podcast-with-jina-reader-and-promptperfect",
+      "translated_at": "2024-11-04T03:57:35.428Z"
+    },
+    {
+      "lang": "it",
+      "slug": "create-your-personalized-podcast-with-jina-reader-and-promptperfect",
+      "translated_at": "2024-11-04T03:57:35.427Z"
+    },
+    {
+      "lang": "es",
+      "slug": "create-your-personalized-podcast-with-jina-reader-and-promptperfect",
+      "translated_at": "2024-11-04T03:57:35.426Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "create-your-personalized-podcast-with-jina-reader-and-promptperfect",
+      "translated_at": "2024-11-04T03:57:35.425Z"
+    },
+    {
+      "lang": "de",
+      "slug": "create-your-personalized-podcast-with-jina-reader-and-promptperfect",
+      "translated_at": "2024-11-04T03:57:35.424Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "create-your-personalized-podcast-with-jina-reader-and-promptperfect",
+      "translated_at": "2024-11-04T03:57:35.423Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "create-your-personalized-podcast-with-jina-reader-and-promptperfect",
+      "translated_at": "2024-11-04T03:57:35.422Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "when-ai-makes-ai-synthetic-data-model-distillation-and-model-collapse",
+      "translated_at": "2024-11-04T03:56:19.167Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "when-ai-makes-ai-synthetic-data-model-distillation-and-model-collapse",
+      "translated_at": "2024-11-04T03:56:19.167Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "when-ai-makes-ai-synthetic-data-model-distillation-and-model-collapse",
+      "translated_at": "2024-11-04T03:56:19.166Z"
+    },
+    {
+      "lang": "it",
+      "slug": "when-ai-makes-ai-synthetic-data-model-distillation-and-model-collapse",
+      "translated_at": "2024-11-04T03:56:19.165Z"
+    },
+    {
+      "lang": "es",
+      "slug": "when-ai-makes-ai-synthetic-data-model-distillation-and-model-collapse",
+      "translated_at": "2024-11-04T03:56:19.163Z"
+    },
+    {
+      "lang": "de",
+      "slug": "when-ai-makes-ai-synthetic-data-model-distillation-and-model-collapse",
+      "translated_at": "2024-11-04T03:56:19.162Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "when-ai-makes-ai-synthetic-data-model-distillation-and-model-collapse",
+      "translated_at": "2024-11-04T03:56:19.162Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "when-ai-makes-ai-synthetic-data-model-distillation-and-model-collapse",
+      "translated_at": "2024-11-04T03:56:19.160Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "when-ai-makes-ai-synthetic-data-model-distillation-and-model-collapse",
+      "translated_at": "2024-11-04T03:56:19.159Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "whats-interesting-in-iclr2024",
+      "translated_at": "2024-11-04T03:54:53.831Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "whats-interesting-in-iclr2024",
+      "translated_at": "2024-11-04T03:54:53.830Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "whats-interesting-in-iclr2024",
+      "translated_at": "2024-11-04T03:54:53.829Z"
+    },
+    {
+      "lang": "it",
+      "slug": "whats-interesting-in-iclr2024",
+      "translated_at": "2024-11-04T03:54:53.827Z"
+    },
+    {
+      "lang": "es",
+      "slug": "whats-interesting-in-iclr2024",
+      "translated_at": "2024-11-04T03:54:53.826Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "whats-interesting-in-iclr2024",
+      "translated_at": "2024-11-04T03:54:53.825Z"
+    },
+    {
+      "lang": "de",
+      "slug": "whats-interesting-in-iclr2024",
+      "translated_at": "2024-11-04T03:54:53.824Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "whats-interesting-in-iclr2024",
+      "translated_at": "2024-11-04T03:54:53.822Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "whats-interesting-in-iclr2024",
+      "translated_at": "2024-11-04T03:54:53.820Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "albus-by-springworks-empowering-employees-with-enterprise-search",
+      "translated_at": "2024-11-04T03:53:25.658Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "albus-by-springworks-empowering-employees-with-enterprise-search",
+      "translated_at": "2024-11-04T03:53:25.657Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "albus-by-springworks-empowering-employees-with-enterprise-search",
+      "translated_at": "2024-11-04T03:53:25.657Z"
+    },
+    {
+      "lang": "it",
+      "slug": "albus-by-springworks-empowering-employees-with-enterprise-search",
+      "translated_at": "2024-11-04T03:53:25.656Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "albus-by-springworks-empowering-employees-with-enterprise-search",
+      "translated_at": "2024-11-04T03:53:25.654Z"
+    },
+    {
+      "lang": "es",
+      "slug": "albus-by-springworks-empowering-employees-with-enterprise-search",
+      "translated_at": "2024-11-04T03:53:25.654Z"
+    },
+    {
+      "lang": "de",
+      "slug": "albus-by-springworks-empowering-employees-with-enterprise-search",
+      "translated_at": "2024-11-04T03:53:25.653Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "albus-by-springworks-empowering-employees-with-enterprise-search",
+      "translated_at": "2024-11-04T03:53:25.652Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "albus-by-springworks-empowering-employees-with-enterprise-search",
+      "translated_at": "2024-11-04T03:53:25.651Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "jina-reader-for-search-grounding-to-improve-factuality-of-llms",
+      "translated_at": "2024-11-04T03:52:14.436Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "jina-reader-for-search-grounding-to-improve-factuality-of-llms",
+      "translated_at": "2024-11-04T03:52:14.435Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "jina-reader-for-search-grounding-to-improve-factuality-of-llms",
+      "translated_at": "2024-11-04T03:52:14.434Z"
+    },
+    {
+      "lang": "it",
+      "slug": "jina-reader-for-search-grounding-to-improve-factuality-of-llms",
+      "translated_at": "2024-11-04T03:52:14.433Z"
+    },
+    {
+      "lang": "es",
+      "slug": "jina-reader-for-search-grounding-to-improve-factuality-of-llms",
+      "translated_at": "2024-11-04T03:52:14.432Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "jina-reader-for-search-grounding-to-improve-factuality-of-llms",
+      "translated_at": "2024-11-04T03:52:14.431Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "jina-reader-for-search-grounding-to-improve-factuality-of-llms",
+      "translated_at": "2024-11-04T03:52:14.430Z"
+    },
+    {
+      "lang": "de",
+      "slug": "jina-reader-for-search-grounding-to-improve-factuality-of-llms",
+      "translated_at": "2024-11-04T03:52:14.430Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "jina-reader-for-search-grounding-to-improve-factuality-of-llms",
+      "translated_at": "2024-11-04T03:52:14.429Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "binary-embeddings-all-the-ai-3125-of-the-fat",
+      "translated_at": "2024-11-04T03:51:07.604Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "binary-embeddings-all-the-ai-3125-of-the-fat",
+      "translated_at": "2024-11-04T03:51:07.603Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "binary-embeddings-all-the-ai-3125-of-the-fat",
+      "translated_at": "2024-11-04T03:51:07.602Z"
+    },
+    {
+      "lang": "it",
+      "slug": "binary-embeddings-all-the-ai-3125-of-the-fat",
+      "translated_at": "2024-11-04T03:51:07.601Z"
+    },
+    {
+      "lang": "es",
+      "slug": "binary-embeddings-all-the-ai-3125-of-the-fat",
+      "translated_at": "2024-11-04T03:51:07.600Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "binary-embeddings-all-the-ai-3125-of-the-fat",
+      "translated_at": "2024-11-04T03:51:07.599Z"
+    },
+    {
+      "lang": "de",
+      "slug": "binary-embeddings-all-the-ai-3125-of-the-fat",
+      "translated_at": "2024-11-04T03:51:07.598Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "binary-embeddings-all-the-ai-3125-of-the-fat",
+      "translated_at": "2024-11-04T03:51:07.597Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "binary-embeddings-all-the-ai-3125-of-the-fat",
+      "translated_at": "2024-11-04T03:51:07.596Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "air-bench-better-metrics-for-better-search-foundation",
+      "translated_at": "2024-11-04T03:49:48.348Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "air-bench-better-metrics-for-better-search-foundation",
+      "translated_at": "2024-11-04T03:49:48.347Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "air-bench-better-metrics-for-better-search-foundation",
+      "translated_at": "2024-11-04T03:49:48.346Z"
+    },
+    {
+      "lang": "it",
+      "slug": "air-bench-better-metrics-for-better-search-foundation",
+      "translated_at": "2024-11-04T03:49:48.345Z"
+    },
+    {
+      "lang": "es",
+      "slug": "air-bench-better-metrics-for-better-search-foundation",
+      "translated_at": "2024-11-04T03:49:48.344Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "air-bench-better-metrics-for-better-search-foundation",
+      "translated_at": "2024-11-04T03:49:48.343Z"
+    },
+    {
+      "lang": "de",
+      "slug": "air-bench-better-metrics-for-better-search-foundation",
+      "translated_at": "2024-11-04T03:49:48.342Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "air-bench-better-metrics-for-better-search-foundation",
+      "translated_at": "2024-11-04T03:49:48.340Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "air-bench-better-metrics-for-better-search-foundation",
+      "translated_at": "2024-11-04T03:49:48.339Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "bypass-limitations-with-promptperfect-generate-the-images-the-models-dont-want-you-to-see",
+      "translated_at": "2024-11-04T03:48:18.571Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "bypass-limitations-with-promptperfect-generate-the-images-the-models-dont-want-you-to-see",
+      "translated_at": "2024-11-04T03:48:18.570Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "bypass-limitations-with-promptperfect-generate-the-images-the-models-dont-want-you-to-see",
+      "translated_at": "2024-11-04T03:48:18.570Z"
+    },
+    {
+      "lang": "it",
+      "slug": "bypass-limitations-with-promptperfect-generate-the-images-the-models-dont-want-you-to-see",
+      "translated_at": "2024-11-04T03:48:18.569Z"
+    },
+    {
+      "lang": "es",
+      "slug": "bypass-limitations-with-promptperfect-generate-the-images-the-models-dont-want-you-to-see",
+      "translated_at": "2024-11-04T03:48:18.568Z"
+    },
+    {
+      "lang": "de",
+      "slug": "bypass-limitations-with-promptperfect-generate-the-images-the-models-dont-want-you-to-see",
+      "translated_at": "2024-11-04T03:48:18.566Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "bypass-limitations-with-promptperfect-generate-the-images-the-models-dont-want-you-to-see",
+      "translated_at": "2024-11-04T03:48:18.566Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "bypass-limitations-with-promptperfect-generate-the-images-the-models-dont-want-you-to-see",
+      "translated_at": "2024-11-04T03:48:18.565Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "bypass-limitations-with-promptperfect-generate-the-images-the-models-dont-want-you-to-see",
+      "translated_at": "2024-11-04T03:48:18.564Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "rag-is-dead-again",
+      "translated_at": "2024-11-04T03:47:05.897Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "rag-is-dead-again",
+      "translated_at": "2024-11-04T03:47:05.897Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "rag-is-dead-again",
+      "translated_at": "2024-11-04T03:47:05.896Z"
+    },
+    {
+      "lang": "it",
+      "slug": "rag-is-dead-again",
+      "translated_at": "2024-11-04T03:47:05.895Z"
+    },
+    {
+      "lang": "es",
+      "slug": "rag-is-dead-again",
+      "translated_at": "2024-11-04T03:47:05.894Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "rag-is-dead-again",
+      "translated_at": "2024-11-04T03:47:05.893Z"
+    },
+    {
+      "lang": "de",
+      "slug": "rag-is-dead-again",
+      "translated_at": "2024-11-04T03:47:05.892Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "rag-is-dead-again",
+      "translated_at": "2024-11-04T03:47:05.891Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "rag-is-dead-again",
+      "translated_at": "2024-11-04T03:47:05.891Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "implementing-a-chat-history-rag-with-jina-ai-and-milvus-lite",
+      "translated_at": "2024-11-04T03:45:54.634Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "implementing-a-chat-history-rag-with-jina-ai-and-milvus-lite",
+      "translated_at": "2024-11-04T03:45:54.634Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "implementing-a-chat-history-rag-with-jina-ai-and-milvus-lite",
+      "translated_at": "2024-11-04T03:45:54.632Z"
+    },
+    {
+      "lang": "es",
+      "slug": "implementing-a-chat-history-rag-with-jina-ai-and-milvus-lite",
+      "translated_at": "2024-11-04T03:45:54.631Z"
+    },
+    {
+      "lang": "it",
+      "slug": "implementing-a-chat-history-rag-with-jina-ai-and-milvus-lite",
+      "translated_at": "2024-11-04T03:45:54.631Z"
+    },
+    {
+      "lang": "de",
+      "slug": "implementing-a-chat-history-rag-with-jina-ai-and-milvus-lite",
+      "translated_at": "2024-11-04T03:45:54.630Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "implementing-a-chat-history-rag-with-jina-ai-and-milvus-lite",
+      "translated_at": "2024-11-04T03:45:54.630Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "implementing-a-chat-history-rag-with-jina-ai-and-milvus-lite",
+      "translated_at": "2024-11-04T03:45:54.629Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "implementing-a-chat-history-rag-with-jina-ai-and-milvus-lite",
+      "translated_at": "2024-11-04T03:45:54.628Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "jina-clip-v1-a-truly-multimodal-embeddings-model-for-text-and-image",
+      "translated_at": "2024-11-04T03:44:42.800Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "jina-clip-v1-a-truly-multimodal-embeddings-model-for-text-and-image",
+      "translated_at": "2024-11-04T03:44:42.800Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "jina-clip-v1-a-truly-multimodal-embeddings-model-for-text-and-image",
+      "translated_at": "2024-11-04T03:44:42.799Z"
+    },
+    {
+      "lang": "it",
+      "slug": "jina-clip-v1-a-truly-multimodal-embeddings-model-for-text-and-image",
+      "translated_at": "2024-11-04T03:44:42.798Z"
+    },
+    {
+      "lang": "es",
+      "slug": "jina-clip-v1-a-truly-multimodal-embeddings-model-for-text-and-image",
+      "translated_at": "2024-11-04T03:44:42.797Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "jina-clip-v1-a-truly-multimodal-embeddings-model-for-text-and-image",
+      "translated_at": "2024-11-04T03:44:42.796Z"
+    },
+    {
+      "lang": "de",
+      "slug": "jina-clip-v1-a-truly-multimodal-embeddings-model-for-text-and-image",
+      "translated_at": "2024-11-04T03:44:42.795Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "jina-clip-v1-a-truly-multimodal-embeddings-model-for-text-and-image",
+      "translated_at": "2024-11-04T03:44:42.794Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "jina-clip-v1-a-truly-multimodal-embeddings-model-for-text-and-image",
+      "translated_at": "2024-11-04T03:44:42.793Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "ai-explainability-made-easy-how-late-interaction-makes-jina-colbert-transparent",
+      "translated_at": "2024-11-04T03:43:07.389Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "ai-explainability-made-easy-how-late-interaction-makes-jina-colbert-transparent",
+      "translated_at": "2024-11-04T03:43:07.389Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "ai-explainability-made-easy-how-late-interaction-makes-jina-colbert-transparent",
+      "translated_at": "2024-11-04T03:43:07.388Z"
+    },
+    {
+      "lang": "it",
+      "slug": "ai-explainability-made-easy-how-late-interaction-makes-jina-colbert-transparent",
+      "translated_at": "2024-11-04T03:43:07.387Z"
+    },
+    {
+      "lang": "es",
+      "slug": "ai-explainability-made-easy-how-late-interaction-makes-jina-colbert-transparent",
+      "translated_at": "2024-11-04T03:43:07.386Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "ai-explainability-made-easy-how-late-interaction-makes-jina-colbert-transparent",
+      "translated_at": "2024-11-04T03:43:07.385Z"
+    },
+    {
+      "lang": "de",
+      "slug": "ai-explainability-made-easy-how-late-interaction-makes-jina-colbert-transparent",
+      "translated_at": "2024-11-04T03:43:07.384Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "ai-explainability-made-easy-how-late-interaction-makes-jina-colbert-transparent",
+      "translated_at": "2024-11-04T03:43:07.382Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "ai-explainability-made-easy-how-late-interaction-makes-jina-colbert-transparent",
+      "translated_at": "2024-11-04T03:43:07.381Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "jina-reranker-v2-for-agentic-rag-ultra-fast-multilingual-function-calling-and-code-search",
+      "translated_at": "2024-11-04T03:41:44.039Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "jina-reranker-v2-for-agentic-rag-ultra-fast-multilingual-function-calling-and-code-search",
+      "translated_at": "2024-11-04T03:41:44.038Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "jina-reranker-v2-for-agentic-rag-ultra-fast-multilingual-function-calling-and-code-search",
+      "translated_at": "2024-11-04T03:41:44.037Z"
+    },
+    {
+      "lang": "it",
+      "slug": "jina-reranker-v2-for-agentic-rag-ultra-fast-multilingual-function-calling-and-code-search",
+      "translated_at": "2024-11-04T03:41:44.036Z"
+    },
+    {
+      "lang": "es",
+      "slug": "jina-reranker-v2-for-agentic-rag-ultra-fast-multilingual-function-calling-and-code-search",
+      "translated_at": "2024-11-04T03:41:44.035Z"
+    },
+    {
+      "lang": "de",
+      "slug": "jina-reranker-v2-for-agentic-rag-ultra-fast-multilingual-function-calling-and-code-search",
+      "translated_at": "2024-11-04T03:41:44.033Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "jina-reranker-v2-for-agentic-rag-ultra-fast-multilingual-function-calling-and-code-search",
+      "translated_at": "2024-11-04T03:41:44.033Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "jina-reranker-v2-for-agentic-rag-ultra-fast-multilingual-function-calling-and-code-search",
+      "translated_at": "2024-11-04T03:41:44.031Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "jina-reranker-v2-for-agentic-rag-ultra-fast-multilingual-function-calling-and-code-search",
+      "translated_at": "2024-11-04T03:41:44.030Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "handcrafting-image-prompts-is-dead-reverse-engineer-midjourney-style-images-with-promptperfect",
+      "translated_at": "2024-11-04T03:40:25.437Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "handcrafting-image-prompts-is-dead-reverse-engineer-midjourney-style-images-with-promptperfect",
+      "translated_at": "2024-11-04T03:40:25.436Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "handcrafting-image-prompts-is-dead-reverse-engineer-midjourney-style-images-with-promptperfect",
+      "translated_at": "2024-11-04T03:40:25.435Z"
+    },
+    {
+      "lang": "it",
+      "slug": "handcrafting-image-prompts-is-dead-reverse-engineer-midjourney-style-images-with-promptperfect",
+      "translated_at": "2024-11-04T03:40:25.434Z"
+    },
+    {
+      "lang": "es",
+      "slug": "handcrafting-image-prompts-is-dead-reverse-engineer-midjourney-style-images-with-promptperfect",
+      "translated_at": "2024-11-04T03:40:25.433Z"
+    },
+    {
+      "lang": "de",
+      "slug": "handcrafting-image-prompts-is-dead-reverse-engineer-midjourney-style-images-with-promptperfect",
+      "translated_at": "2024-11-04T03:40:25.432Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "handcrafting-image-prompts-is-dead-reverse-engineer-midjourney-style-images-with-promptperfect",
+      "translated_at": "2024-11-04T03:40:25.432Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "handcrafting-image-prompts-is-dead-reverse-engineer-midjourney-style-images-with-promptperfect",
+      "translated_at": "2024-11-04T03:40:25.431Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "handcrafting-image-prompts-is-dead-reverse-engineer-midjourney-style-images-with-promptperfect",
+      "translated_at": "2024-11-04T03:40:25.429Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "no-you-cant-use-reranker-to-improve-seo",
+      "translated_at": "2024-11-04T03:39:12.100Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "no-you-cant-use-reranker-to-improve-seo",
+      "translated_at": "2024-11-04T03:39:12.100Z"
+    },
+    {
+      "lang": "it",
+      "slug": "no-you-cant-use-reranker-to-improve-seo",
+      "translated_at": "2024-11-04T03:39:12.098Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "no-you-cant-use-reranker-to-improve-seo",
+      "translated_at": "2024-11-04T03:39:12.098Z"
+    },
+    {
+      "lang": "es",
+      "slug": "no-you-cant-use-reranker-to-improve-seo",
+      "translated_at": "2024-11-04T03:39:12.097Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "no-you-cant-use-reranker-to-improve-seo",
+      "translated_at": "2024-11-04T03:39:12.096Z"
+    },
+    {
+      "lang": "de",
+      "slug": "no-you-cant-use-reranker-to-improve-seo",
+      "translated_at": "2024-11-04T03:39:12.095Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "no-you-cant-use-reranker-to-improve-seo",
+      "translated_at": "2024-11-04T03:39:12.094Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "no-you-cant-use-reranker-to-improve-seo",
+      "translated_at": "2024-11-04T03:39:12.093Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "is-romance-generative-ai-s-killer-app-we-hope-not",
+      "translated_at": "2024-11-04T03:37:48.747Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "is-romance-generative-ai-s-killer-app-we-hope-not",
+      "translated_at": "2024-11-04T03:37:48.746Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "is-romance-generative-ai-s-killer-app-we-hope-not",
+      "translated_at": "2024-11-04T03:37:48.745Z"
+    },
+    {
+      "lang": "it",
+      "slug": "is-romance-generative-ai-s-killer-app-we-hope-not",
+      "translated_at": "2024-11-04T03:37:48.744Z"
+    },
+    {
+      "lang": "es",
+      "slug": "is-romance-generative-ai-s-killer-app-we-hope-not",
+      "translated_at": "2024-11-04T03:37:48.743Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "is-romance-generative-ai-s-killer-app-we-hope-not",
+      "translated_at": "2024-11-04T03:37:48.742Z"
+    },
+    {
+      "lang": "de",
+      "slug": "is-romance-generative-ai-s-killer-app-we-hope-not",
+      "translated_at": "2024-11-04T03:37:48.740Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "is-romance-generative-ai-s-killer-app-we-hope-not",
+      "translated_at": "2024-11-04T03:37:48.739Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "is-romance-generative-ai-s-killer-app-we-hope-not",
+      "translated_at": "2024-11-04T03:37:48.737Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "can-embedding-reranker-models-compare-numbers",
+      "translated_at": "2024-11-04T03:36:13.354Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "can-embedding-reranker-models-compare-numbers",
+      "translated_at": "2024-11-04T03:36:13.353Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "can-embedding-reranker-models-compare-numbers",
+      "translated_at": "2024-11-04T03:36:13.352Z"
+    },
+    {
+      "lang": "it",
+      "slug": "can-embedding-reranker-models-compare-numbers",
+      "translated_at": "2024-11-04T03:36:13.351Z"
+    },
+    {
+      "lang": "es",
+      "slug": "can-embedding-reranker-models-compare-numbers",
+      "translated_at": "2024-11-04T03:36:13.350Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "can-embedding-reranker-models-compare-numbers",
+      "translated_at": "2024-11-04T03:36:13.349Z"
+    },
+    {
+      "lang": "de",
+      "slug": "can-embedding-reranker-models-compare-numbers",
+      "translated_at": "2024-11-04T03:36:13.348Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "can-embedding-reranker-models-compare-numbers",
+      "translated_at": "2024-11-04T03:36:13.347Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "can-embedding-reranker-models-compare-numbers",
+      "translated_at": "2024-11-04T03:36:13.345Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "what-we-learned-at-icml2024-ft-plag-xrm-tinybenchmark-magiclens-prompt-sketching-etc",
+      "translated_at": "2024-11-04T03:33:31.253Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "what-we-learned-at-icml2024-ft-plag-xrm-tinybenchmark-magiclens-prompt-sketching-etc",
+      "translated_at": "2024-11-04T03:33:31.252Z"
+    },
+    {
+      "lang": "it",
+      "slug": "what-we-learned-at-icml2024-ft-plag-xrm-tinybenchmark-magiclens-prompt-sketching-etc",
+      "translated_at": "2024-11-04T03:33:31.251Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "what-we-learned-at-icml2024-ft-plag-xrm-tinybenchmark-magiclens-prompt-sketching-etc",
+      "translated_at": "2024-11-04T03:33:31.251Z"
+    },
+    {
+      "lang": "es",
+      "slug": "what-we-learned-at-icml2024-ft-plag-xrm-tinybenchmark-magiclens-prompt-sketching-etc",
+      "translated_at": "2024-11-04T03:33:31.249Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "what-we-learned-at-icml2024-ft-plag-xrm-tinybenchmark-magiclens-prompt-sketching-etc",
+      "translated_at": "2024-11-04T03:33:31.248Z"
+    },
+    {
+      "lang": "de",
+      "slug": "what-we-learned-at-icml2024-ft-plag-xrm-tinybenchmark-magiclens-prompt-sketching-etc",
+      "translated_at": "2024-11-04T03:33:31.247Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "what-we-learned-at-icml2024-ft-plag-xrm-tinybenchmark-magiclens-prompt-sketching-etc",
+      "translated_at": "2024-11-04T03:33:31.246Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "what-we-learned-at-icml2024-ft-plag-xrm-tinybenchmark-magiclens-prompt-sketching-etc",
+      "translated_at": "2024-11-04T03:33:31.245Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "by-hoovering-up-the-web-ai-is-poisoning-itself",
+      "translated_at": "2024-11-04T03:32:08.414Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "by-hoovering-up-the-web-ai-is-poisoning-itself",
+      "translated_at": "2024-11-04T03:32:08.413Z"
+    },
+    {
+      "lang": "it",
+      "slug": "by-hoovering-up-the-web-ai-is-poisoning-itself",
+      "translated_at": "2024-11-04T03:32:08.412Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "by-hoovering-up-the-web-ai-is-poisoning-itself",
+      "translated_at": "2024-11-04T03:32:08.412Z"
+    },
+    {
+      "lang": "es",
+      "slug": "by-hoovering-up-the-web-ai-is-poisoning-itself",
+      "translated_at": "2024-11-04T03:32:08.410Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "by-hoovering-up-the-web-ai-is-poisoning-itself",
+      "translated_at": "2024-11-04T03:32:08.409Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "by-hoovering-up-the-web-ai-is-poisoning-itself",
+      "translated_at": "2024-11-04T03:32:08.408Z"
+    },
+    {
+      "lang": "de",
+      "slug": "by-hoovering-up-the-web-ai-is-poisoning-itself",
+      "translated_at": "2024-11-04T03:32:08.408Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "by-hoovering-up-the-web-ai-is-poisoning-itself",
+      "translated_at": "2024-11-04T03:32:08.406Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "late-chunking-in-long-context-embedding-models",
+      "translated_at": "2024-11-04T03:30:35.137Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "late-chunking-in-long-context-embedding-models",
+      "translated_at": "2024-11-04T03:30:35.136Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "late-chunking-in-long-context-embedding-models",
+      "translated_at": "2024-11-04T03:30:35.135Z"
+    },
+    {
+      "lang": "it",
+      "slug": "late-chunking-in-long-context-embedding-models",
+      "translated_at": "2024-11-04T03:30:35.134Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "late-chunking-in-long-context-embedding-models",
+      "translated_at": "2024-11-04T03:30:35.133Z"
+    },
+    {
+      "lang": "es",
+      "slug": "late-chunking-in-long-context-embedding-models",
+      "translated_at": "2024-11-04T03:30:35.133Z"
+    },
+    {
+      "lang": "de",
+      "slug": "late-chunking-in-long-context-embedding-models",
+      "translated_at": "2024-11-04T03:30:35.132Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "late-chunking-in-long-context-embedding-models",
+      "translated_at": "2024-11-04T03:30:35.131Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "late-chunking-in-long-context-embedding-models",
+      "translated_at": "2024-11-04T03:30:35.130Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "the-what-and-why-of-text-image-modality-gap-in-clip-models",
+      "translated_at": "2024-11-04T03:29:12.737Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "the-what-and-why-of-text-image-modality-gap-in-clip-models",
+      "translated_at": "2024-11-04T03:29:12.736Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "the-what-and-why-of-text-image-modality-gap-in-clip-models",
+      "translated_at": "2024-11-04T03:29:12.735Z"
+    },
+    {
+      "lang": "it",
+      "slug": "the-what-and-why-of-text-image-modality-gap-in-clip-models",
+      "translated_at": "2024-11-04T03:29:12.734Z"
+    },
+    {
+      "lang": "es",
+      "slug": "the-what-and-why-of-text-image-modality-gap-in-clip-models",
+      "translated_at": "2024-11-04T03:29:12.733Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "the-what-and-why-of-text-image-modality-gap-in-clip-models",
+      "translated_at": "2024-11-04T03:29:12.732Z"
+    },
+    {
+      "lang": "de",
+      "slug": "the-what-and-why-of-text-image-modality-gap-in-clip-models",
+      "translated_at": "2024-11-04T03:29:12.731Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "the-what-and-why-of-text-image-modality-gap-in-clip-models",
+      "translated_at": "2024-11-04T03:29:12.730Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "the-what-and-why-of-text-image-modality-gap-in-clip-models",
+      "translated_at": "2024-11-04T03:29:12.729Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "jina-colbert-v2-multilingual-late-interaction-retriever-for-embedding-and-reranking",
+      "translated_at": "2024-11-04T03:27:48.818Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "jina-colbert-v2-multilingual-late-interaction-retriever-for-embedding-and-reranking",
+      "translated_at": "2024-11-04T03:27:48.816Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "jina-colbert-v2-multilingual-late-interaction-retriever-for-embedding-and-reranking",
+      "translated_at": "2024-11-04T03:27:48.816Z"
+    },
+    {
+      "lang": "it",
+      "slug": "jina-colbert-v2-multilingual-late-interaction-retriever-for-embedding-and-reranking",
+      "translated_at": "2024-11-04T03:27:48.815Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "jina-colbert-v2-multilingual-late-interaction-retriever-for-embedding-and-reranking",
+      "translated_at": "2024-11-04T03:27:48.814Z"
+    },
+    {
+      "lang": "es",
+      "slug": "jina-colbert-v2-multilingual-late-interaction-retriever-for-embedding-and-reranking",
+      "translated_at": "2024-11-04T03:27:48.814Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "jina-colbert-v2-multilingual-late-interaction-retriever-for-embedding-and-reranking",
+      "translated_at": "2024-11-04T03:27:48.812Z"
+    },
+    {
+      "lang": "de",
+      "slug": "jina-colbert-v2-multilingual-late-interaction-retriever-for-embedding-and-reranking",
+      "translated_at": "2024-11-04T03:27:48.812Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "jina-colbert-v2-multilingual-late-interaction-retriever-for-embedding-and-reranking",
+      "translated_at": "2024-11-04T03:27:48.811Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown",
+      "translated_at": "2024-11-04T03:26:36.726Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown",
+      "translated_at": "2024-11-04T03:26:36.725Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown",
+      "translated_at": "2024-11-04T03:26:36.724Z"
+    },
+    {
+      "lang": "it",
+      "slug": "reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown",
+      "translated_at": "2024-11-04T03:26:36.723Z"
+    },
+    {
+      "lang": "es",
+      "slug": "reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown",
+      "translated_at": "2024-11-04T03:26:36.722Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown",
+      "translated_at": "2024-11-04T03:26:36.721Z"
+    },
+    {
+      "lang": "de",
+      "slug": "reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown",
+      "translated_at": "2024-11-04T03:26:36.720Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown",
+      "translated_at": "2024-11-04T03:26:36.719Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown",
+      "translated_at": "2024-11-04T03:26:36.718Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "jina-embeddings-v3-a-frontier-multilingual-embedding-model",
+      "translated_at": "2024-11-04T03:25:14.119Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "jina-embeddings-v3-a-frontier-multilingual-embedding-model",
+      "translated_at": "2024-11-04T03:25:14.118Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "jina-embeddings-v3-a-frontier-multilingual-embedding-model",
+      "translated_at": "2024-11-04T03:25:14.117Z"
+    },
+    {
+      "lang": "it",
+      "slug": "jina-embeddings-v3-a-frontier-multilingual-embedding-model",
+      "translated_at": "2024-11-04T03:25:14.116Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "jina-embeddings-v3-a-frontier-multilingual-embedding-model",
+      "translated_at": "2024-11-04T03:25:14.115Z"
+    },
+    {
+      "lang": "es",
+      "slug": "jina-embeddings-v3-a-frontier-multilingual-embedding-model",
+      "translated_at": "2024-11-04T03:25:14.115Z"
+    },
+    {
+      "lang": "de",
+      "slug": "jina-embeddings-v3-a-frontier-multilingual-embedding-model",
+      "translated_at": "2024-11-04T03:25:14.113Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "jina-embeddings-v3-a-frontier-multilingual-embedding-model",
+      "translated_at": "2024-11-04T03:25:14.112Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "jina-embeddings-v3-a-frontier-multilingual-embedding-model",
+      "translated_at": "2024-11-04T03:25:14.112Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "migration-from-jina-embeddings-v2-to-v3",
+      "translated_at": "2024-11-04T03:23:53.547Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "migration-from-jina-embeddings-v2-to-v3",
+      "translated_at": "2024-11-04T03:23:53.546Z"
+    },
+    {
+      "lang": "it",
+      "slug": "migration-from-jina-embeddings-v2-to-v3",
+      "translated_at": "2024-11-04T03:23:53.545Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "migration-from-jina-embeddings-v2-to-v3",
+      "translated_at": "2024-11-04T03:23:53.545Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "migration-from-jina-embeddings-v2-to-v3",
+      "translated_at": "2024-11-04T03:23:53.544Z"
+    },
+    {
+      "lang": "es",
+      "slug": "migration-from-jina-embeddings-v2-to-v3",
+      "translated_at": "2024-11-04T03:23:53.544Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "migration-from-jina-embeddings-v2-to-v3",
+      "translated_at": "2024-11-04T03:23:53.542Z"
+    },
+    {
+      "lang": "de",
+      "slug": "migration-from-jina-embeddings-v2-to-v3",
+      "translated_at": "2024-11-04T03:23:53.542Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "migration-from-jina-embeddings-v2-to-v3",
+      "translated_at": "2024-11-04T03:23:53.541Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "what-late-chunking-really-is-and-what-its-not-part-ii",
+      "translated_at": "2024-11-04T03:22:32.717Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "what-late-chunking-really-is-and-what-its-not-part-ii",
+      "translated_at": "2024-11-04T03:22:32.717Z"
+    },
+    {
+      "lang": "it",
+      "slug": "what-late-chunking-really-is-and-what-its-not-part-ii",
+      "translated_at": "2024-11-04T03:22:32.715Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "what-late-chunking-really-is-and-what-its-not-part-ii",
+      "translated_at": "2024-11-04T03:22:32.715Z"
+    },
+    {
+      "lang": "es",
+      "slug": "what-late-chunking-really-is-and-what-its-not-part-ii",
+      "translated_at": "2024-11-04T03:22:32.714Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "what-late-chunking-really-is-and-what-its-not-part-ii",
+      "translated_at": "2024-11-04T03:22:32.713Z"
+    },
+    {
+      "lang": "de",
+      "slug": "what-late-chunking-really-is-and-what-its-not-part-ii",
+      "translated_at": "2024-11-04T03:22:32.712Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "what-late-chunking-really-is-and-what-its-not-part-ii",
+      "translated_at": "2024-11-04T03:22:32.711Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "what-late-chunking-really-is-and-what-its-not-part-ii",
+      "translated_at": "2024-11-04T03:22:32.711Z"
+    },
+    {
+      "lang": "ru",
+      "slug": "bridging-language-gaps-in-multilingual-embeddings-via-contrastive-learning",
+      "translated_at": "2024-11-04T03:17:35.864Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "bridging-language-gaps-in-multilingual-embeddings-via-contrastive-learning",
+      "translated_at": "2024-11-04T03:17:35.862Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "bridging-language-gaps-in-multilingual-embeddings-via-contrastive-learning",
+      "translated_at": "2024-11-04T03:17:35.862Z"
+    },
+    {
+      "lang": "it",
+      "slug": "bridging-language-gaps-in-multilingual-embeddings-via-contrastive-learning",
+      "translated_at": "2024-11-04T03:17:35.861Z"
+    },
+    {
+      "lang": "es",
+      "slug": "bridging-language-gaps-in-multilingual-embeddings-via-contrastive-learning",
+      "translated_at": "2024-11-04T03:17:35.860Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "bridging-language-gaps-in-multilingual-embeddings-via-contrastive-learning",
+      "translated_at": "2024-11-04T03:17:35.858Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "bridging-language-gaps-in-multilingual-embeddings-via-contrastive-learning",
+      "translated_at": "2024-11-04T03:17:35.857Z"
+    },
+    {
+      "lang": "de",
+      "slug": "bridging-language-gaps-in-multilingual-embeddings-via-contrastive-learning",
+      "translated_at": "2024-11-04T03:17:35.857Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "bridging-language-gaps-in-multilingual-embeddings-via-contrastive-learning",
+      "translated_at": "2024-11-04T03:17:35.856Z"
+    },
+    {
+      "lang": "ru",
       "slug": "fact-checking-with-new-grounding-api-in-jina-reader",
       "translated_at": "2024-10-31T14:27:13.858Z"
     },
@@ -181,5 +2611,5 @@
       "translated_at": "2024-10-30T07:34:41.468Z"
     }
   ],
-  "updated_at": "2024-10-31T14:27:13.858Z"
+  "updated_at": "2024-11-04T04:28:06.609Z"
 }
