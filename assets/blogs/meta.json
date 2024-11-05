@@ -2,6 +2,51 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "call-for-participants-emnlp-2024-bof-on-embeddings-reranker-small-lms-for-better-search",
+      "translated_at": "2024-11-05T14:28:41.202Z"
+    },
+    {
+      "lang": "ko",
+      "slug": "call-for-participants-emnlp-2024-bof-on-embeddings-reranker-small-lms-for-better-search",
+      "translated_at": "2024-11-05T14:28:41.201Z"
+    },
+    {
+      "lang": "ja",
+      "slug": "call-for-participants-emnlp-2024-bof-on-embeddings-reranker-small-lms-for-better-search",
+      "translated_at": "2024-11-05T14:28:41.200Z"
+    },
+    {
+      "lang": "it",
+      "slug": "call-for-participants-emnlp-2024-bof-on-embeddings-reranker-small-lms-for-better-search",
+      "translated_at": "2024-11-05T14:28:41.199Z"
+    },
+    {
+      "lang": "es",
+      "slug": "call-for-participants-emnlp-2024-bof-on-embeddings-reranker-small-lms-for-better-search",
+      "translated_at": "2024-11-05T14:28:41.198Z"
+    },
+    {
+      "lang": "fr",
+      "slug": "call-for-participants-emnlp-2024-bof-on-embeddings-reranker-small-lms-for-better-search",
+      "translated_at": "2024-11-05T14:28:41.197Z"
+    },
+    {
+      "lang": "de",
+      "slug": "call-for-participants-emnlp-2024-bof-on-embeddings-reranker-small-lms-for-better-search",
+      "translated_at": "2024-11-05T14:28:41.196Z"
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "call-for-participants-emnlp-2024-bof-on-embeddings-reranker-small-lms-for-better-search",
+      "translated_at": "2024-11-05T14:28:41.195Z"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "call-for-participants-emnlp-2024-bof-on-embeddings-reranker-small-lms-for-better-search",
+      "translated_at": "2024-11-05T14:28:41.194Z"
+    },
+    {
+      "lang": "ru",
       "slug": "8k-token-length-bilingual-embeddings-break-language-barriers-in-chinese-and-english",
       "translated_at": "2024-11-04T04:28:06.608Z",
       "title": "8K-токенные двуязычные эмбеддинги разрушают языковые барьеры между китайским и английским языками",
@@ -3655,5 +3700,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2024-11-04T04:28:06.609Z"
+  "updated_at": "2024-11-05T14:28:41.202Z"
 }

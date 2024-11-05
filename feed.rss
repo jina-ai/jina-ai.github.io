@@ -14,8 +14,16 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Mon, 04 Nov 2024 10:31:26 +0100</lastBuildDate>
+        <lastBuildDate>Tue, 05 Nov 2024 15:27:48 +0100</lastBuildDate>
 
+            <item>
+                <title>Call for Participants: EMNLP 2024 BoF on Embeddings, Reranker &amp; Small LMs for Better Search</title>
+                <link>https://jina.ai/news/call-for-participants-emnlp-2024-bof-on-embeddings-reranker-small-lms-for-better-search/</link>
+                <pubDate>Tue, 05 Nov 2024 15:16:19 +0100</pubDate>
+                <guid isPermaLink="false">672a11852798ce0001057fcf</guid>
+                <category><![CDATA[ Events ]]></category>
+                <description>At EMNLP 2024 Miami? Join us for a Birds of a Feather session focusing on embeddings, rerankers, and small LMs for better search.</description>
+            </item>
             <item>
                 <title>Beyond CLIP: How Jina-CLIP Advances Multimodal Search</title>
                 <link>https://jina.ai/news/beyond-clip-how-jina-clip-advances-multimodal-search/</link>
