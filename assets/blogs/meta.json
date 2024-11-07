@@ -3,47 +3,65 @@
     {
       "lang": "ru",
       "slug": "call-for-participants-emnlp-2024-bof-on-embeddings-reranker-small-lms-for-better-search",
-      "translated_at": "2024-11-05T14:28:41.202Z"
+      "translated_at": "2024-11-05T14:28:41.202Z",
+      "title": "Приглашение к участию: встреча единомышленников (BoF) на EMNLP 2024 по темам Embeddings, Reranker и малых LM для улучшения поиска",
+      "excerpt": "Будете на EMNLP 2024 в Майами? Присоединяйтесь к нашей неформальной встрече по теме embeddings, rerankers и малых LM для улучшения поиска."
     },
     {
       "lang": "ko",
       "slug": "call-for-participants-emnlp-2024-bof-on-embeddings-reranker-small-lms-for-better-search",
-      "translated_at": "2024-11-05T14:28:41.201Z"
+      "translated_at": "2024-11-05T14:28:41.201Z",
+      "title": "참가자 모집: EMNLP 2024 임베딩, 리랭커 & 소형 LM을 활용한 검색 향상 BoF",
+      "excerpt": "EMNLP 2024 Miami에 참석하시나요? 더 나은 검색을 위한 임베딩, 리랭커, 소형 LM에 초점을 맞춘 Birds of a Feather 세션에 참여해 보세요."
     },
     {
       "lang": "ja",
       "slug": "call-for-participants-emnlp-2024-bof-on-embeddings-reranker-small-lms-for-better-search",
-      "translated_at": "2024-11-05T14:28:41.200Z"
+      "translated_at": "2024-11-05T14:28:41.200Z",
+      "title": "EMNLPボーディング募集：より良い検索のための Embeddings、Reranker、Small LMs に関する 2024年 Birds of a Feather セッション",
+      "excerpt": "EMNLP 2024 マイアミに参加予定ですか？embeddings、rerankers、および検索性能を向上させる小規模な LMs に焦点を当てた Birds of a Feather セッションにぜひご参加ください。"
     },
     {
       "lang": "it",
       "slug": "call-for-participants-emnlp-2024-bof-on-embeddings-reranker-small-lms-for-better-search",
-      "translated_at": "2024-11-05T14:28:41.199Z"
+      "translated_at": "2024-11-05T14:28:41.199Z",
+      "title": "Invito ai Partecipanti: EMNLP 2024 BoF su Embedding, Reranker e Small LM per Migliorare la Ricerca",
+      "excerpt": "All'EMNLP 2024 di Miami? Unisciti a noi per una sessione Birds of a Feather incentrata su embeddings, reranker e piccoli LM per migliorare la ricerca."
     },
     {
       "lang": "es",
       "slug": "call-for-participants-emnlp-2024-bof-on-embeddings-reranker-small-lms-for-better-search",
-      "translated_at": "2024-11-05T14:28:41.198Z"
+      "translated_at": "2024-11-05T14:28:41.198Z",
+      "title": "Convocatoria de Participantes: EMNLP 2024 BoF sobre Embeddings, Rerankers y LMs Pequeños para Mejorar la Búsqueda",
+      "excerpt": "¿Asistirás a EMNLP 2024 en Miami? Únete a nuestra sesión Birds of a Feather enfocada en embeddings, rerankers y LMs pequeños para mejorar las búsquedas."
     },
     {
       "lang": "fr",
       "slug": "call-for-participants-emnlp-2024-bof-on-embeddings-reranker-small-lms-for-better-search",
-      "translated_at": "2024-11-05T14:28:41.197Z"
+      "translated_at": "2024-11-05T14:28:41.197Z",
+      "title": "Appel à participants : Session BoF EMNLP 2024 sur les Embeddings, Rerankers et petits LMs pour améliorer la recherche",
+      "excerpt": "Vous serez à l'EMNLP 2024 à Miami ? Rejoignez-nous pour une session Birds of a Feather axée sur les embeddings, les rerankers et les petits LMs pour améliorer la recherche."
     },
     {
       "lang": "de",
       "slug": "call-for-participants-emnlp-2024-bof-on-embeddings-reranker-small-lms-for-better-search",
-      "translated_at": "2024-11-05T14:28:41.196Z"
+      "translated_at": "2024-11-05T14:28:41.196Z",
+      "title": "Aufruf zur Teilnahme: EMNLP 2024 BoF über Embeddings, Reranker & Small LMs für bessere Suche",
+      "excerpt": "Bist du bei der EMNLP 2024 in Miami? Nimm an unserer Birds-of-a-Feather-Session teil, die sich auf Embeddings, Reranker und kleine LMs für bessere Suche konzentriert."
     },
     {
       "lang": "zh-TW",
       "slug": "call-for-participants-emnlp-2024-bof-on-embeddings-reranker-small-lms-for-better-search",
-      "translated_at": "2024-11-05T14:28:41.195Z"
+      "translated_at": "2024-11-05T14:28:41.195Z",
+      "title": "呼籲參與：EMNLP 2024 BoF 研討會 - 探討 Embeddings、Reranker 與小型 LMs 在優化搜尋上的應用",
+      "excerpt": "參加 EMNLP 2024 Miami 嗎？歡迎加入我們的 Birds of a Feather 研討會，重點探討如何運用 embeddings、rerankers 和小型 LMs 來優化搜尋。"
     },
     {
       "lang": "zh-CN",
       "slug": "call-for-participants-emnlp-2024-bof-on-embeddings-reranker-small-lms-for-better-search",
-      "translated_at": "2024-11-05T14:28:41.194Z"
+      "translated_at": "2024-11-05T14:28:41.194Z",
+      "title": "征集参会者：EMNLP 2024 关于 Embeddings、Reranker 和小型 LM 优化搜索的主题探讨会",
+      "excerpt": "参加迈阿密 EMNLP 2024 吗？欢迎加入我们的 Birds of a Feather 专题讨论会，重点探讨 embeddings、rerankers 和小型 LMs 在提升搜索效果方面的应用。"
     },
     {
       "lang": "ru",
