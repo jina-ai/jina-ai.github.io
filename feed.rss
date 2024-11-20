@@ -14,8 +14,16 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Tue, 12 Nov 2024 13:16:36 +0100</lastBuildDate>
+        <lastBuildDate>Tue, 19 Nov 2024 23:14:45 +0100</lastBuildDate>
 
+            <item>
+                <title>Meta-Prompt for Better Jina API Integration and CodeGen</title>
+                <link>https://jina.ai/news/meta-prompt-for-better-jina-api-integration-and-codegen/</link>
+                <pubDate>Tue, 19 Nov 2024 23:03:02 +0100</pubDate>
+                <guid isPermaLink="false">67331de8a0c24200013a003c</guid>
+                <category><![CDATA[ Tech Blog ]]></category>
+                <description>Is Meta-Prompt the new norm for API specs? Feed it to LLMs and generate integration code that reliably integrates Jina&#x27;s APIs, saving you from the usual trial-and-error process.</description>
+            </item>
             <item>
                 <title>Call for Participants: EMNLP 2024 BoF on Embeddings, Reranker &amp; Small LMs for Better Search</title>
                 <link>https://jina.ai/news/call-for-participants-emnlp-2024-bof-on-embeddings-reranker-small-lms-for-better-search/</link>

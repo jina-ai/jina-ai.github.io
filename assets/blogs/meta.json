@@ -2,6 +2,69 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "meta-prompt-for-better-jina-api-integration-and-codegen",
+      "translated_at": "2024-11-20T01:21:38.531Z",
+      "title": "Мета-промпт для улучшенной интеграции Jina API и CodeGen",
+      "excerpt": "Станет ли Meta-Prompt новым стандартом для API-спецификаций? Передайте его в LLM и сгенерируйте интеграционный код, который надежно интегрирует API от Jina, избавляя вас от обычного процесса проб и ошибок."
+    },
+    {
+      "lang": "ko",
+      "slug": "meta-prompt-for-better-jina-api-integration-and-codegen",
+      "translated_at": "2024-11-20T01:21:38.530Z",
+      "title": "Jina API 통합 및 코드 생성을 위한 메타 프롬프트",
+      "excerpt": "Meta-Prompt가 API 명세의 새로운 표준이 될까요? LLM에 이를 입력하면 Jina의 API를 안정적으로 통합하는 코드를 생성하여 일반적인 시행착오 과정을 생략할 수 있습니다."
+    },
+    {
+      "lang": "ja",
+      "slug": "meta-prompt-for-better-jina-api-integration-and-codegen",
+      "translated_at": "2024-11-20T01:21:38.528Z",
+      "title": "より良い Jina API 統合とコード生成のためのメタプロンプト",
+      "excerpt": "Meta-Prompt は API 仕様の新しい標準になるのでしょうか？これを LLM に与えることで、Jina の API を確実に統合するコードを生成し、通常の試行錯誤のプロセスを省くことができます。"
+    },
+    {
+      "lang": "it",
+      "slug": "meta-prompt-for-better-jina-api-integration-and-codegen",
+      "translated_at": "2024-11-20T01:21:38.527Z",
+      "title": "Meta-Prompt per una migliore integrazione API Jina e CodeGen",
+      "excerpt": "Meta-Prompt è il nuovo standard per le specifiche delle API? Forniscilo ai LLM e genera codice di integrazione che integra in modo affidabile le API di Jina, evitandoti il solito processo di tentativi ed errori."
+    },
+    {
+      "lang": "es",
+      "slug": "meta-prompt-for-better-jina-api-integration-and-codegen",
+      "translated_at": "2024-11-20T01:21:38.526Z",
+      "title": "Meta-Prompt para una mejor integración de la API de Jina y CodeGen",
+      "excerpt": "¿Es Meta-Prompt la nueva norma para las especificaciones de API? Aliméntalo a los LLMs y genera código de integración que integre de manera confiable las APIs de Jina, ahorrándote el proceso habitual de prueba y error."
+    },
+    {
+      "lang": "fr",
+      "slug": "meta-prompt-for-better-jina-api-integration-and-codegen",
+      "translated_at": "2024-11-20T01:21:38.525Z",
+      "title": "Meta-Prompt pour une meilleure intégration de l'API Jina et CodeGen",
+      "excerpt": "Le Meta-Prompt est-il la nouvelle norme pour les spécifications d'API ? Alimentez-le aux LLMs et générez du code d'intégration qui intègre de manière fiable les APIs de Jina, vous épargnant ainsi le processus habituel d'essais et d'erreurs."
+    },
+    {
+      "lang": "de",
+      "slug": "meta-prompt-for-better-jina-api-integration-and-codegen",
+      "translated_at": "2024-11-20T01:21:38.522Z",
+      "title": "Meta-Prompt für bessere Jina API-Integration und CodeGen",
+      "excerpt": "Ist Meta-Prompt der neue Standard für API-Spezifikationen? Man kann ihn in LLMs einspeisen und Integrationscode generieren, der Jinas APIs zuverlässig integriert und einem den üblichen Trial-and-Error-Prozess erspart."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "meta-prompt-for-better-jina-api-integration-and-codegen",
+      "translated_at": "2024-11-20T01:21:38.521Z",
+      "title": "更好進行 Jina API 整合與程式碼生成的元提示詞",
+      "excerpt": "是否 Meta-Prompt 已成為 API 規範的新標準？將它輸入至 LLMs 就能生成可靠整合 Jina API 的程式碼，讓你免去反覆嘗試的過程。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "meta-prompt-for-better-jina-api-integration-and-codegen",
+      "translated_at": "2024-11-20T01:21:38.518Z",
+      "title": "更好的 Jina API 集成和代码生成的元提示词",
+      "excerpt": "Meta-Prompt 会成为 API 规范的新标准吗？将其提供给 LLM，即可生成可靠集成 Jina API 的代码，让您免去常见的反复试错过程。"
+    },
+    {
+      "lang": "ru",
       "slug": "call-for-participants-emnlp-2024-bof-on-embeddings-reranker-small-lms-for-better-search",
       "translated_at": "2024-11-05T14:28:41.202Z",
       "title": "Приглашение к участию: встреча единомышленников (BoF) на EMNLP 2024 по темам Embeddings, Reranker и малых LM для улучшения поиска",
@@ -3718,5 +3781,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2024-11-05T14:28:41.202Z"
+  "updated_at": "2024-11-20T01:21:38.531Z"
 }
