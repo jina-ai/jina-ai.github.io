@@ -14,7 +14,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Thu, 21 Nov 2024 17:41:17 +0100</lastBuildDate>
+        <lastBuildDate>Thu, 21 Nov 2024 19:23:55 +0100</lastBuildDate>
 
             <item>
                 <title>Jina CLIP v2: Multilingual Multimodal Embeddings for Text and Images</title>
