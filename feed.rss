@@ -14,7 +14,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Tue, 19 Nov 2024 23:14:45 +0100</lastBuildDate>
+        <lastBuildDate>Thu, 21 Nov 2024 03:32:04 +0100</lastBuildDate>
 
             <item>
                 <title>Meta-Prompt for Better Jina API Integration and CodeGen</title>
