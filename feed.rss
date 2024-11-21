@@ -14,8 +14,16 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Thu, 21 Nov 2024 03:32:04 +0100</lastBuildDate>
+        <lastBuildDate>Thu, 21 Nov 2024 17:41:17 +0100</lastBuildDate>
 
+            <item>
+                <title>Jina CLIP v2: Multilingual Multimodal Embeddings for Text and Images</title>
+                <link>https://jina.ai/news/jina-clip-v2-multilingual-multimodal-embeddings-for-text-and-images/</link>
+                <pubDate>Thu, 21 Nov 2024 17:29:45 +0100</pubDate>
+                <guid isPermaLink="false">673cc4a7a7c46d00015cf1f5</guid>
+                <category><![CDATA[ Press ]]></category>
+                <description>Jina-CLIP v2, a 0.9B multimodal embedding model with multilingual support of 89 languages, high image resolution at 512x512, and Matryoshka representations.</description>
+            </item>
             <item>
                 <title>Meta-Prompt for Better Jina API Integration and CodeGen</title>
                 <link>https://jina.ai/news/meta-prompt-for-better-jina-api-integration-and-codegen/</link>

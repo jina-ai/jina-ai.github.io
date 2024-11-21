@@ -1,6 +1,69 @@
 {
   "blogs": [
     {
+      "lang": "ko",
+      "slug": "jina-clip-v2-multilingual-multimodal-embeddings-for-text-and-images",
+      "translated_at": "2024-11-21T16:42:35.990Z",
+      "title": "Jina CLIP v2: 텍스트와 이미지를 위한 다국어 멀티모달 임베딩",
+      "excerpt": "Jina-CLIP v2는 89개 언어를 지원하는 다국어 기능, 512x512의 고해상도 이미지 처리, 그리고 Matryoshka 표현을 갖춘 0.9B 규모의 멀티모달 임베딩 모델입니다."
+    },
+    {
+      "lang": "ru",
+      "slug": "jina-clip-v2-multilingual-multimodal-embeddings-for-text-and-images",
+      "translated_at": "2024-11-21T16:42:35.990Z",
+      "title": "Jina CLIP v2: Мультиязычные мультимодальные эмбеддинги для текста и изображений",
+      "excerpt": "Jina-CLIP v2 — мультимодальная модель эмбеддингов размером 0.9B с многоязычной поддержкой 89 языков, высоким разрешением изображений 512x512 и представлениями Matryoshka."
+    },
+    {
+      "lang": "ja",
+      "slug": "jina-clip-v2-multilingual-multimodal-embeddings-for-text-and-images",
+      "translated_at": "2024-11-21T16:42:35.989Z",
+      "title": "Jina CLIP v2：テキストと画像のための多言語マルチモーダル埋め込み",
+      "excerpt": "89言語のマルチリンガルサポート、512x512 の高解像度画像対応、および Matryoshka 表現を備えた 0.9B のマルチモーダル埋め込みモデル、Jina-CLIP v2。"
+    },
+    {
+      "lang": "it",
+      "slug": "jina-clip-v2-multilingual-multimodal-embeddings-for-text-and-images",
+      "translated_at": "2024-11-21T16:42:35.988Z",
+      "title": "Jina CLIP v2: Embedding multilingue e multimodale per testo e immagini",
+      "excerpt": "Jina-CLIP v2, un modello di embedding multimodale da 0,9B con supporto multilingue per 89 lingue, alta risoluzione delle immagini a 512x512 e rappresentazioni Matryoshka."
+    },
+    {
+      "lang": "es",
+      "slug": "jina-clip-v2-multilingual-multimodal-embeddings-for-text-and-images",
+      "translated_at": "2024-11-21T16:42:35.987Z",
+      "title": "Jina CLIP v2: Embeddings multimodales y multilingües para texto e imágenes",
+      "excerpt": "Jina-CLIP v2, un modelo de embeddings multimodal de 0.9B con soporte multilingüe para 89 idiomas, alta resolución de imagen de 512x512 y representaciones Matryoshka."
+    },
+    {
+      "lang": "fr",
+      "slug": "jina-clip-v2-multilingual-multimodal-embeddings-for-text-and-images",
+      "translated_at": "2024-11-21T16:42:35.985Z",
+      "title": "Jina CLIP v2 : Embeddings multilingues et multimodales pour le texte et les images",
+      "excerpt": "Jina-CLIP v2, un modèle d'embedding multimodal de 0,9B avec un support multilingue de 89 langues, une haute résolution d'image à 512x512, et des représentations Matryoshka."
+    },
+    {
+      "lang": "de",
+      "slug": "jina-clip-v2-multilingual-multimodal-embeddings-for-text-and-images",
+      "translated_at": "2024-11-21T16:42:35.984Z",
+      "title": "Jina CLIP v2: Multilinguale und Multimodale Embeddings für Text und Bilder",
+      "excerpt": "Jina-CLIP v2, ein multimodales Embedding-Modell mit 0,9 Milliarden Parametern, das 89 Sprachen unterstützt, eine hohe Bildauflösung von 512x512 bietet und Matryoshka-Repräsentationen verwendet."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "jina-clip-v2-multilingual-multimodal-embeddings-for-text-and-images",
+      "translated_at": "2024-11-21T16:42:35.983Z",
+      "title": "Jina CLIP v2：文本與影像的多語言多模態嵌入表示",
+      "excerpt": "Jina-CLIP v2，一個規模為 0.9B 的多模態嵌入模型，支援 89 種語言的多語言功能、512x512 的高解析度圖像處理能力，以及具備 Matryoshka 表示法。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "jina-clip-v2-multilingual-multimodal-embeddings-for-text-and-images",
+      "translated_at": "2024-11-21T16:42:35.982Z",
+      "title": "Jina CLIP v2：用于文本和图像的多语言多模态嵌入",
+      "excerpt": "Jina-CLIP v2，这是一个 0.9B 参数的多模态嵌入模型，支持 89 种语言的多语言处理，可处理 512x512 的高分辨率图像，并具有俄罗斯套娃式表征能力。"
+    },
+    {
       "lang": "ru",
       "slug": "meta-prompt-for-better-jina-api-integration-and-codegen",
       "translated_at": "2024-11-20T01:21:38.531Z",
@@ -3781,5 +3844,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2024-11-20T01:21:38.531Z"
+  "updated_at": "2024-11-21T16:42:35.991Z"
 }
