@@ -14,7 +14,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Thu, 21 Nov 2024 19:23:55 +0100</lastBuildDate>
+        <lastBuildDate>Sat, 23 Nov 2024 07:34:16 +0100</lastBuildDate>
 
             <item>
                 <title>Jina CLIP v2: Multilingual Multimodal Embeddings for Text and Images</title>
@@ -707,28 +707,12 @@ We’re going to walk through installation and cross-language retrieval.</descri
                 <description>Embeddings are a core concept and technology in AI, present in some form across the spectrum of AI applications. Properly understanding and mastering this technology positions you to leverage AI models to add the most value to your business.</description>
             </item>
             <item>
-                <title>Unveiling the Magic: Become a Part of PromptPerfect&#x27;s Affiliate Family</title>
-                <link>https://jina.ai/news/unveiling-the-magic-become-a-part-of-promptperfects-affiliate-family/</link>
-                <pubDate>Wed, 18 Oct 2023 15:45:05 +0200</pubDate>
-                <guid isPermaLink="false">652e4e73bfcbdb000148afe6</guid>
-                <category><![CDATA[ Knowledge Base ]]></category>
-                <description>Introducing PromptPerfect&#x27;s Affiliate Program, an initiative for enthusiasts to bring attention to Jina AI&#x27;s innovative technologies and show our appreciation to the community that makes PromptPerfect great!</description>
-            </item>
-            <item>
                 <title>SceneXplain vs. GPT-4 Vision: The Best Image Captioning Tool in 2023?</title>
                 <link>https://jina.ai/news/scenexplain-vs-gpt-4-vision-the-best-image-captioning-tool-in-2023/</link>
                 <pubDate>Thu, 28 Sep 2023 16:29:26 +0200</pubDate>
                 <guid isPermaLink="false">65158235545c930001d5bcce</guid>
                 <category><![CDATA[ Knowledge Base ]]></category>
                 <description>Discover the future of visual comprehension with SceneXplain, the leading image captioning tool of 2023. Dive deep into its transformative features, real-world applications, and see how it stands tall against GPT-4 Vision. </description>
-            </item>
-            <item>
-                <title>Maximizing Efficiency and Savings with PromptPerfect&#x27;s New Feature: Unified Credits</title>
-                <link>https://jina.ai/news/maximizing-efficiency-and-savings-with-promptperfects-new-feature-unified-credits/</link>
-                <pubDate>Wed, 27 Sep 2023 16:00:33 +0200</pubDate>
-                <guid isPermaLink="false">6512f523b8ba9c00011e12cb</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Introducing Unified Credits: Seamlessly share credits between PromptPerfect and SceneXplain, maximizing efficiency and cost savings for power users. </description>
             </item>
             <item>
                 <title>SceneXplain&#x27;s Image-to-JSON: Extract Structured Data from Images with Precision</title>
@@ -1037,14 +1021,6 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>Jina AI Cloud is the most advanced MLOps platform for building multimodal AI applications in the cloud. Users can translate their data and a few lines of code into a production-ready service without dealing with infrastructure complexity or scaling hassles.</description>
             </item>
             <item>
-                <title>Jina Core&#x27;s New Logo: A Creative Spin on Planetary Design</title>
-                <link>https://jina.ai/news/jina-cores-new-logo-a-creative-spin-on-planetary-design/</link>
-                <pubDate>Mon, 08 May 2023 16:00:14 +0200</pubDate>
-                <guid isPermaLink="false">64536296a32bc90001a6f90a</guid>
-                <category><![CDATA[ Tech Blog ]]></category>
-                <description>It’s time to give Jina Core a makeover. And that all starts with our new logo.</description>
-            </item>
-            <item>
                 <title>Fine-Tuning: How To Get the Most of Your AI Investments</title>
                 <link>https://jina.ai/news/fine-tuning-how-to-get-the-most-of-your-ai-investments/</link>
                 <pubDate>Tue, 02 May 2023 10:53:49 +0200</pubDate>
@@ -1307,14 +1283,6 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <guid isPermaLink="false">6375f56247f152003da75656</guid>
                 <category><![CDATA[ Insights ]]></category>
                 <description>The biggest competition of neural search may come from a technology that doesn&#x27;t even need embeddings as an intermediate representation – an end-to-end technology that directly returns the result you want.</description>
-            </item>
-            <item>
-                <title>How to Manage Jina Resources with Namespace</title>
-                <link>https://jina.ai/news/how-to-manage-jina-resources-with-namespaces/</link>
-                <pubDate>Wed, 16 Nov 2022 17:55:20 +0100</pubDate>
-                <guid isPermaLink="false">6374c5ee47f152003da753e9</guid>
-                <category><![CDATA[ Tech Blog ]]></category>
-                <description>With Jina AI Cloud&#x27;s user namespaces, all users can have their own DocumentArrays and Executors with the same name, with no fear of naming conflicts.</description>
             </item>
             <item>
                 <title>Benchmark Vector Search Databases with One Million Data</title>
