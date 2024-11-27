@@ -1,6 +1,69 @@
 {
   "blogs": [
     {
+      "lang": "ru",
+      "slug": "watermarking-text-with-embedding-models-to-protect-against-content-theft",
+      "translated_at": "2024-11-27T02:34:38.231Z",
+      "title": "Защита от кражи контента путем водяного маркирования текста с помощью встраиваемых моделей",
+      "excerpt": "Вы используете наши модели встраивания для чего? Это, возможно, самые «нестандартные» способы применения встраиваний, о которых мы узнали на EMNLP 2024."
+    },
+    {
+      "lang": "ko",
+      "slug": "watermarking-text-with-embedding-models-to-protect-against-content-theft",
+      "translated_at": "2024-11-27T02:34:38.230Z",
+      "title": "콘텐츠 도용 방지를 위한 임베딩 모델을 활용한 텍스트 워터마킹",
+      "excerpt": "임베딩 모델을 어떻게 사용하시나요? 이것은 EMNLP 2024에서 우리가 알게 된 임베딩의 가장 \"도메인에서 벗어난\" 응용 사례일 것입니다."
+    },
+    {
+      "lang": "ja",
+      "slug": "watermarking-text-with-embedding-models-to-protect-against-content-theft",
+      "translated_at": "2024-11-27T02:34:38.229Z",
+      "title": "埋め込みモデルを使用したテキストへのウォーターマーク付与によるコンテンツ盗用対策",
+      "excerpt": "埋め込みモデルをどのように使用していますか？これは EMNLP 2024 で学んだ埋め込みの最も「異分野」な応用例かもしれません。"
+    },
+    {
+      "lang": "it",
+      "slug": "watermarking-text-with-embedding-models-to-protect-against-content-theft",
+      "translated_at": "2024-11-27T02:34:38.228Z",
+      "title": "Filigrana per testi con modelli di embedding per proteggere dal furto di contenuti",
+      "excerpt": "Come utilizzate i nostri modelli di embedding? Queste potrebbero essere le applicazioni più \"fuori contesto\" degli embedding che abbiamo appreso all'EMNLP 2024."
+    },
+    {
+      "lang": "es",
+      "slug": "watermarking-text-with-embedding-models-to-protect-against-content-theft",
+      "translated_at": "2024-11-27T02:34:38.227Z",
+      "title": "Protección contra el robo de contenido mediante marcas de agua en textos usando modelos de embedding",
+      "excerpt": "¿Para qué utilizas nuestros modelos de embeddings? Estos podrían ser los usos más \"fuera de dominio\" de embeddings que aprendimos en EMNLP 2024."
+    },
+    {
+      "lang": "fr",
+      "slug": "watermarking-text-with-embedding-models-to-protect-against-content-theft",
+      "translated_at": "2024-11-27T02:34:38.226Z",
+      "title": "Protection contre le vol de contenu : le filigrane numérique de texte avec des modèles d'embedding",
+      "excerpt": "Que faites-vous avec nos modèles d'embedding ? Ce sont peut-être les applications les plus « hors domaine » des embeddings que nous avons découvertes à EMNLP 2024."
+    },
+    {
+      "lang": "de",
+      "slug": "watermarking-text-with-embedding-models-to-protect-against-content-theft",
+      "translated_at": "2024-11-27T02:34:38.225Z",
+      "title": "Textmarkierung mit Embedding-Modellen zum Schutz vor Content-Diebstahl",
+      "excerpt": "Wofür nutzen Sie unsere Embedding-Modelle? Dies könnten die \"ungewöhnlichsten\" Anwendungen von Embeddings sein, die wir auf der EMNLP 2024 kennengelernt haben."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "watermarking-text-with-embedding-models-to-protect-against-content-theft",
+      "translated_at": "2024-11-27T02:34:38.224Z",
+      "title": "利用嵌入模型為文字加入浮水印以防止內容盜竊",
+      "excerpt": "你怎麼使用我們的 embedding 模型？這可能是我們在 EMNLP 2024 上了解到的最\"脫離常規\"的 embedding 應用案例。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "watermarking-text-with-embedding-models-to-protect-against-content-theft",
+      "translated_at": "2024-11-27T02:34:38.222Z",
+      "title": "使用嵌入模型对文本进行水印处理以防止内容盗窃",
+      "excerpt": "你用我们的嵌入模型来做什么？这可能是我们在 EMNLP 2024 上了解到的最\"超出常规\"的嵌入应用。"
+    },
+    {
       "lang": "ko",
       "slug": "jina-clip-v2-multilingual-multimodal-embeddings-for-text-and-images",
       "translated_at": "2024-11-21T16:42:35.990Z",
@@ -3844,5 +3907,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2024-11-21T16:42:35.991Z"
+  "updated_at": "2024-11-27T02:34:38.231Z"
 }

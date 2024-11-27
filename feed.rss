@@ -14,8 +14,16 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Tue, 26 Nov 2024 11:46:52 +0100</lastBuildDate>
+        <lastBuildDate>Wed, 27 Nov 2024 03:33:11 +0100</lastBuildDate>
 
+            <item>
+                <title>Watermarking Text with Embedding Models to Protect Against Content Theft</title>
+                <link>https://jina.ai/news/watermarking-text-with-embedding-models-to-protect-against-content-theft/</link>
+                <pubDate>Wed, 27 Nov 2024 03:21:28 +0100</pubDate>
+                <guid isPermaLink="false">674164338845620001704a96</guid>
+                <category><![CDATA[ Tech Blog ]]></category>
+                <description>You use our embedding models to do what? This might be the most &quot;out-of-domain&quot; applications of embeddings we learned at EMNLP 2024.</description>
+            </item>
             <item>
                 <title>Jina CLIP v2: Multilingual Multimodal Embeddings for Text and Images</title>
                 <link>https://jina.ai/news/jina-clip-v2-multilingual-multimodal-embeddings-for-text-and-images/</link>
