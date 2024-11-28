@@ -1,0 +1,1 @@
+import{j as i,w as o,ck as t,c1 as l,c0 as u,ah as v,cl as c}from"./index-Dh9do1UK.js";function d(a){{const e={active:!0};if(typeof a=="function"){const n=i(a);e.val=n.value,o(n,s=>{e.val=s,e.active===!0&&t()})}else e.val=a;c.push(e),t(),l(()=>{e.active=!0,t()}),u(()=>{e.active=!1,t()}),v(()=>{c.splice(c.indexOf(e),1),t()})}}export{d as u};

@@ -14,7 +14,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Wed, 27 Nov 2024 03:33:11 +0100</lastBuildDate>
+        <lastBuildDate>Thu, 28 Nov 2024 06:31:23 +0100</lastBuildDate>
 
             <item>
                 <title>Watermarking Text with Embedding Models to Protect Against Content Theft</title>
