@@ -1888,7 +1888,7 @@
       "slug": "having-it-both-ways-combining-bm25-with-ai-reranking",
       "translated_at": "2024-11-04T03:59:50.842Z",
       "title": "兼得两全其美：BM25 结合 AI 重排序",
-      "excerpt": "了解如何将 Jina Reranker 与传统词法搜索引擎集成，以获得更优的语义理解能力，同时避免迁移到完整向量搜索基础设施所带来的不便。"
+      "excerpt": "了解如何将 Jina Reranker 与传统词法搜索引擎集成，以获得更优的语义理解能力，同时避免迁移到完整向量搜索底座设施所带来的不便。"
     },
     {
       "lang": "ru",
@@ -2391,7 +2391,7 @@
       "lang": "zh-CN",
       "slug": "air-bench-better-metrics-for-better-search-foundation",
       "translated_at": "2024-11-04T03:49:48.339Z",
-      "title": "AIR-Bench：更好的搜索基础需要更好的评测标准",
+      "title": "AIR-Bench：更好的搜索底座需要更好的评测标准",
       "excerpt": "AIR-Bench 是一种新型的 AI 评测方法，它利用生成式 AI 来制作更加真实和灵活的基准测试。通过 AIR-Bench，你可以为自己的领域创建专属的基准测试，并且能够确保基准测试数据没有泄露到模型训练数据中。"
     },
     {
