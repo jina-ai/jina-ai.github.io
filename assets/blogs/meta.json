@@ -2,6 +2,69 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "still-need-chunking-when-long-context-models-can-do-it-all",
+      "translated_at": "2024-12-05T00:09:11.112Z",
+      "title": "Нужно ли всё ещё разбивать текст на части, когда модели с длинным контекстом могут обрабатывать его целиком?",
+      "excerpt": "Сравнение эффективности моделей встраивания с длинным контекстом при использовании различных стратегий разбиения на чанки для поиска оптимального подхода под ваши задачи."
+    },
+    {
+      "lang": "ko",
+      "slug": "still-need-chunking-when-long-context-models-can-do-it-all",
+      "translated_at": "2024-12-05T00:09:11.111Z",
+      "title": "긴 맥락 처리가 가능한 모델이 있는데도 청킹이 여전히 필요할까?",
+      "excerpt": "서로 다른 청킹 전략을 사용하여 긴 문맥 임베딩 모델의 성능을 비교하고 필요에 맞는 최적의 접근 방식을 찾는 방법을 알아봅니다."
+    },
+    {
+      "lang": "ja",
+      "slug": "still-need-chunking-when-long-context-models-can-do-it-all",
+      "translated_at": "2024-12-05T00:09:11.110Z",
+      "title": "長文脈モデルが全部処理できるのに、チャンキングはまだ必要なのか？",
+      "excerpt": "長いコンテキストの埋め込みモデルにおける異なるチャンク分割戦略のパフォーマンスを比較し、目的に最適なアプローチを見つける方法"
+    },
+    {
+      "lang": "it",
+      "slug": "still-need-chunking-when-long-context-models-can-do-it-all",
+      "translated_at": "2024-12-05T00:09:11.109Z",
+      "title": "C'è Ancora Bisogno del Chunking Quando i Modelli Long-Context Possono Fare Tutto?",
+      "excerpt": "Confronto delle prestazioni dei modelli di embedding a contesto lungo con diverse strategie di suddivisione per trovare l'approccio ottimale per le tue esigenze."
+    },
+    {
+      "lang": "es",
+      "slug": "still-need-chunking-when-long-context-models-can-do-it-all",
+      "translated_at": "2024-12-05T00:09:11.108Z",
+      "title": "¿Aún Se Necesita el Chunking Cuando los Modelos de Contexto Largo Pueden Hacerlo Todo?",
+      "excerpt": "Comparación de cómo se comportan los modelos de embeddings de contexto largo con diferentes estrategias de segmentación para encontrar el enfoque óptimo según tus necesidades."
+    },
+    {
+      "lang": "fr",
+      "slug": "still-need-chunking-when-long-context-models-can-do-it-all",
+      "translated_at": "2024-12-05T00:09:11.107Z",
+      "title": "A-t-on encore besoin du découpage avec les modèles qui gèrent les longs contextes ?",
+      "excerpt": "Comparaison des performances des modèles d'embedding à contexte long selon différentes stratégies de découpage pour trouver l'approche optimale adaptée à vos besoins."
+    },
+    {
+      "lang": "de",
+      "slug": "still-need-chunking-when-long-context-models-can-do-it-all",
+      "translated_at": "2024-12-05T00:09:11.105Z",
+      "title": "Braucht man immer noch Chunking, wenn Long-Context-Modelle alles können?",
+      "excerpt": "Vergleich der Leistung von Long-Context-Embedding-Modellen mit verschiedenen Chunking-Strategien, um den optimalen Ansatz für Ihre Anforderungen zu finden."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "still-need-chunking-when-long-context-models-can-do-it-all",
+      "translated_at": "2024-12-05T00:09:11.104Z",
+      "title": "當長上下文模型能夠處理所有內容時，還需要分塊嗎？",
+      "excerpt": "比較不同切分策略對長文本嵌入模型的性能表現，以找出最適合你需求的方法。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "still-need-chunking-when-long-context-models-can-do-it-all",
+      "translated_at": "2024-12-05T00:09:11.102Z",
+      "title": "长文本模型已全能，我们还需要分块处理吗？\n\n{{{output start}}}",
+      "excerpt": "对比不同分块策略下长文本嵌入模型的表现，以找到最适合您需求的最佳方案。"
+    },
+    {
+      "lang": "ru",
       "slug": "watermarking-text-with-embedding-models-to-protect-against-content-theft",
       "translated_at": "2024-11-27T02:34:38.231Z",
       "title": "Защита от кражи контента путем водяного маркирования текста с помощью встраиваемых моделей",
@@ -3907,5 +3970,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2024-11-27T02:34:38.231Z"
+  "updated_at": "2024-12-05T00:09:11.112Z"
 }

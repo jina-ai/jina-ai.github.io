@@ -14,8 +14,16 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Tue, 03 Dec 2024 11:49:43 +0100</lastBuildDate>
+        <lastBuildDate>Thu, 05 Dec 2024 01:07:27 +0100</lastBuildDate>
 
+            <item>
+                <title>Still Need Chunking When Long-Context Models Can Do It All?</title>
+                <link>https://jina.ai/news/still-need-chunking-when-long-context-models-can-do-it-all/</link>
+                <pubDate>Thu, 05 Dec 2024 00:55:21 +0100</pubDate>
+                <guid isPermaLink="false">674f1a8eb3efb50001df0e4e</guid>
+                <category><![CDATA[ Tech Blog ]]></category>
+                <description>Comparing how long-context embedding models perform with different chunking strategies to find the optimal approach for your needs.</description>
+            </item>
             <item>
                 <title>Watermarking Text with Embedding Models to Protect Against Content Theft</title>
                 <link>https://jina.ai/news/watermarking-text-with-embedding-models-to-protect-against-content-theft/</link>
