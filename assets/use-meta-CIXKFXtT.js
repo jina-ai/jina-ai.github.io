@@ -1,0 +1,1 @@
+import{m as i,w as o,c7 as t,bK as l,bJ as u,al as v,c8 as c}from"./index-BCTjxjxh.js";function d(a){{const e={active:!0};if(typeof a=="function"){const n=i(a);e.val=n.value,o(n,s=>{e.val=s,e.active===!0&&t()})}else e.val=a;c.push(e),t(),l(()=>{e.active=!0,t()}),u(()=>{e.active=!1,t()}),v(()=>{c.splice(c.indexOf(e),1),t()})}}export{d as u};
