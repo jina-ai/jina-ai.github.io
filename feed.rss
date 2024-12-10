@@ -14,7 +14,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Mon, 09 Dec 2024 12:41:44 +0100</lastBuildDate>
+        <lastBuildDate>Tue, 10 Dec 2024 22:48:43 +0100</lastBuildDate>
 
             <item>
                 <title>Still Need Chunking When Long-Context Models Can Do It All?</title>
