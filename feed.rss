@@ -14,8 +14,16 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Thu, 12 Dec 2024 08:59:19 +0100</lastBuildDate>
+        <lastBuildDate>Thu, 12 Dec 2024 18:06:04 +0100</lastBuildDate>
 
+            <item>
+                <title>Scaling Test-Time Compute For Embedding Models</title>
+                <link>https://jina.ai/news/scaling-test-time-compute-for-embedding-models/</link>
+                <pubDate>Thu, 12 Dec 2024 17:54:17 +0100</pubDate>
+                <guid isPermaLink="false">675a84f80ce9930001b86f09</guid>
+                <category><![CDATA[ Tech Blog ]]></category>
+                <description>Better results scale with compute—more on learning, more on search. A good pretrained model takes you far, but test-time compute takes you further. It&#x27;s important to recognize this new paradigm of scaling test-time compute, even for embedding models.</description>
+            </item>
             <item>
                 <title>Still Need Chunking When Long-Context Models Can Do It All?</title>
                 <link>https://jina.ai/news/still-need-chunking-when-long-context-models-can-do-it-all/</link>

@@ -2,6 +2,69 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "scaling-test-time-compute-for-embedding-models",
+      "translated_at": "2024-12-12T17:18:30.954Z",
+      "title": "Масштабирование вычислений во время тестирования для моделей встраивания",
+      "excerpt": "Качество результатов растет с увеличением вычислений — больше на обучение, больше на поиск. Хорошая предварительно обученная модель дает отличный старт, но вычисления во время тестирования продвигают вас еще дальше. Важно понимать эту новую парадигму масштабирования вычислений во время тестирования, даже для моделей встраивания."
+    },
+    {
+      "lang": "ja",
+      "slug": "scaling-test-time-compute-for-embedding-models",
+      "translated_at": "2024-12-12T17:18:30.952Z",
+      "title": "埋め込みモデルにおけるテスト時の計算リソースのスケーリング",
+      "excerpt": "より良い結果はコンピュート量に比例して向上します—より多くの学習、より多くの探索に。優れた事前学習モデルは大きな成果をもたらしますが、テスト時のコンピュート量を増やすことでさらなる向上が得られます。埋め込みモデルであっても、テスト時のコンピュート量をスケールさせるという新しいパラダイムを認識することが重要です。"
+    },
+    {
+      "lang": "ko",
+      "slug": "scaling-test-time-compute-for-embedding-models",
+      "translated_at": "2024-12-12T17:18:30.952Z",
+      "title": "임베딩 모델의 테스트 시 컴퓨팅 스케일링",
+      "excerpt": "더 많은 컴퓨팅 자원을 투입할수록 더 나은 결과가 나옵니다—더 많은 학습과 더 많은 검색에서 말입니다. 좋은 사전 학습 모델은 많은 것을 가능하게 하지만, 테스트 시점의 컴퓨팅은 그 이상을 가능하게 합니다. 임베딩 모델에서조차 테스트 시점의 컴퓨팅을 확장하는 이러한 새로운 패러다임을 인식하는 것이 중요합니다."
+    },
+    {
+      "lang": "it",
+      "slug": "scaling-test-time-compute-for-embedding-models",
+      "translated_at": "2024-12-12T17:18:30.951Z",
+      "title": "Scalare il Calcolo di Test-Time per i Modelli di Embedding",
+      "excerpt": "I risultati migliori si ottengono con più potenza di calcolo—più per l'apprendimento, più per la ricerca. Un buon modello pre-addestrato ti porta lontano, ma la potenza di calcolo in fase di test ti porta ancora più lontano. È importante riconoscere questo nuovo paradigma di scaling della potenza di calcolo in fase di test, anche per i modelli di embedding."
+    },
+    {
+      "lang": "es",
+      "slug": "scaling-test-time-compute-for-embedding-models",
+      "translated_at": "2024-12-12T17:18:30.949Z",
+      "title": "Escalando el Cómputo en Tiempo de Prueba para Modelos de Embeddings",
+      "excerpt": "Los mejores resultados escalan con la capacidad de cómputo—más en aprendizaje, más en búsqueda. Un buen modelo pre-entrenado te lleva lejos, pero el cómputo en tiempo de prueba te lleva aún más lejos. Es importante reconocer este nuevo paradigma de escalar el cómputo en tiempo de prueba, incluso para modelos de embeddings."
+    },
+    {
+      "lang": "fr",
+      "slug": "scaling-test-time-compute-for-embedding-models",
+      "translated_at": "2024-12-12T17:18:30.948Z",
+      "title": "Augmenter les ressources de calcul au moment du test pour les modèles d'embedding",
+      "excerpt": "Les meilleurs résultats augmentent avec la puissance de calcul—plus d'apprentissage, plus de recherche. Un bon modèle pré-entraîné vous mène loin, mais le calcul lors de l'inférence vous mène encore plus loin. Il est important de reconnaître ce nouveau paradigme d'augmentation de la puissance de calcul lors de l'inférence, même pour les modèles d'embedding."
+    },
+    {
+      "lang": "de",
+      "slug": "scaling-test-time-compute-for-embedding-models",
+      "translated_at": "2024-12-12T17:18:30.947Z",
+      "title": "Skalierung der Rechenleistung zur Testzeit bei Embedding-Modellen",
+      "excerpt": "Bessere Ergebnisse skalieren mit Rechenleistung—mehr beim Lernen, mehr bei der Suche. Ein gutes vortrainiertes Modell bringt einen weit, aber Rechenleistung zur Testzeit bringt einen noch weiter. Es ist wichtig, dieses neue Paradigma der Skalierung von Rechenleistung zur Testzeit zu erkennen, selbst bei Embedding-Modellen."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "scaling-test-time-compute-for-embedding-models",
+      "translated_at": "2024-12-12T17:18:30.946Z",
+      "title": "調整嵌入模型的測試時計算資源",
+      "excerpt": "更好的效果隨著運算能力而擴展——更多學習，更多搜尋。一個優秀的預訓練模型能帶你走很遠，但測試階段的運算能力能讓你走得更遠。即便是對於 embedding 模型，認識到這種擴展測試階段運算能力的新範式也很重要。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "scaling-test-time-compute-for-embedding-models",
+      "translated_at": "2024-12-12T17:18:30.944Z",
+      "title": "嵌入模型的推理计算规模化",
+      "excerpt": "更好的结果会随着计算量的增加而提升——更多的学习，更多的搜索。一个好的预训练模型可以让你走得更远，但测试时的计算量可以让你走得更远。重要的是要认识到这种测试时计算量扩展的新范式，即使是对于 embedding 模型也是如此。"
+    },
+    {
+      "lang": "ru",
       "slug": "still-need-chunking-when-long-context-models-can-do-it-all",
       "translated_at": "2024-12-05T00:09:11.112Z",
       "title": "Нужно ли всё ещё разбивать текст на части, когда модели с длинным контекстом могут обрабатывать его целиком?",
@@ -3970,5 +4033,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2024-12-05T00:09:11.112Z"
+  "updated_at": "2024-12-12T17:18:30.954Z"
 }
