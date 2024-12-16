@@ -1,6 +1,69 @@
 {
   "blogs": [
     {
+      "lang": "ko",
+      "slug": "re-search-order-2024-yearbook-of-search-foundation-advances",
+      "translated_at": "2024-12-16T14:48:16.415Z",
+      "title": "Re·Search: Search Foundation의 2024년도 연구 성과집",
+      "excerpt": "2024년 최고의 연구 논문과 검색 기반 모델을 선보이는 프리미엄 연감 Re·Search를 소개합니다. 스팟 UV 코팅된 하드커버, 160쪽의 풀 컬러 페이지, 섬세한 디자인이 특징입니다. 전 세계 배송비 포함 35달러에 구매하실 수 있습니다."
+    },
+    {
+      "lang": "ru",
+      "slug": "re-search-order-2024-yearbook-of-search-foundation-advances",
+      "translated_at": "2024-12-16T14:48:16.415Z",
+      "title": "Re·Search: Ежегодник 2024 о достижениях в области поисковых технологий",
+      "excerpt": "Встречайте Re·Search — наш премиальный ежегодник, в котором собраны лучшие исследовательские статьи и базовые модели поиска за 2024 год. Издание отличает твердая обложка с выборочным УФ-лакированием, 160 полноцветных страниц и тщательно продуманный дизайн. Доступен по всему миру по цене $35, включая доставку."
+    },
+    {
+      "lang": "ja",
+      "slug": "re-search-order-2024-yearbook-of-search-foundation-advances",
+      "translated_at": "2024-12-16T14:48:16.414Z",
+      "title": "Re·Search：検索基盤の進化 2024年鑑",
+      "excerpt": "2024年の最高の研究論文と検索基盤モデルを集めた、プレミアム版の年鑑 Re·Search をご紹介します。スポット UV コート加工のハードカバー、160ページのフルカラー、細部までこだわったデザインを特徴としています。送料込み35ドルで世界中でお求めいただけます。"
+    },
+    {
+      "lang": "it",
+      "slug": "re-search-order-2024-yearbook-of-search-foundation-advances",
+      "translated_at": "2024-12-16T14:48:16.413Z",
+      "title": "Re·Search: Order 2024 Annuario dei Progressi della Fondazione per la Ricerca",
+      "excerpt": "Scopri Re·Search, il nostro esclusivo annuario che presenta i nostri migliori articoli di ricerca e modelli di ricerca fondamentali del 2024. Con copertina rigida rifinita in UV spot, 160 pagine a colori e design meticoloso in ogni dettaglio. Disponibile in tutto il mondo a $35, spedizione inclusa."
+    },
+    {
+      "lang": "es",
+      "slug": "re-search-order-2024-yearbook-of-search-foundation-advances",
+      "translated_at": "2024-12-16T14:48:16.412Z",
+      "title": "Re·Search: Anuario 2024 de los Avances de la Fundación de Búsqueda",
+      "excerpt": "Descubre Re·Search, nuestro anuario premium que presenta nuestros mejores artículos de investigación y modelos fundacionales de búsqueda en 2024. Cuenta con una tapa dura con recubrimiento UV puntual, 160 páginas a todo color y un diseño meticuloso de principio a fin. Disponible mundialmente por $35, envío incluido."
+    },
+    {
+      "lang": "fr",
+      "slug": "re-search-order-2024-yearbook-of-search-foundation-advances",
+      "translated_at": "2024-12-16T14:48:16.411Z",
+      "title": "Re·Search : Almanach 2024 des Avancées de la Fondation Search",
+      "excerpt": "Découvrez Re·Search, notre livre annuel premium qui présente nos meilleurs articles de recherche et modèles de base de recherche en 2024. Avec une couverture rigide au vernis sélectif UV, 160 pages en couleur et une conception méticuleuse de bout en bout. Disponible dans le monde entier à 35 $, frais de port inclus."
+    },
+    {
+      "lang": "de",
+      "slug": "re-search-order-2024-yearbook-of-search-foundation-advances",
+      "translated_at": "2024-12-16T14:48:16.410Z",
+      "title": "Re·Search: Jahrbuch 2024 zu Fortschritten in der Search Foundation",
+      "excerpt": "Entdecken Sie Re·Search, unser hochwertiges Jahrbuch, das unsere besten Forschungsartikel und Search Foundation Models 2024 präsentiert. Mit UV-beschichtetem Hardcover, 160 Seiten in Vollfarbe und sorgfältiger Gestaltung bis ins Detail. Weltweit erhältlich für $35, inklusive Versand."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "re-search-order-2024-yearbook-of-search-foundation-advances",
+      "translated_at": "2024-12-16T14:48:16.409Z",
+      "title": "Re·Search：搜尋基礎進展 2024 年刊",
+      "excerpt": "探索 Re·Search，我們精心製作的 2024 年度專刊，匯集了我們最優秀的研究文章和搜尋基礎模型。採用局部 UV 塗層精裝封面，160 頁全彩印刷，處處展現細膩設計。全球發售，含運費 35 美元。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "re-search-order-2024-yearbook-of-search-foundation-advances",
+      "translated_at": "2024-12-16T14:48:16.408Z",
+      "title": "Re·Search：2024 搜索基础研究进展年鉴",
+      "excerpt": "探索 Re·Search，这是我们的精选年度画册，展示了我们在 2024 年最优秀的研究文章和搜索基础模型。特色包括局部 UV 涂层精装封面，160 页全彩内页，以及精心设计的整体风格。全球发售，售价 35 美元，含运费。"
+    },
+    {
       "lang": "ru",
       "slug": "scaling-test-time-compute-for-embedding-models",
       "translated_at": "2024-12-12T17:18:30.954Z",
@@ -4033,5 +4096,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2024-12-12T17:18:30.954Z"
+  "updated_at": "2024-12-16T14:48:16.416Z"
 }

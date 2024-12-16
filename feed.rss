@@ -14,8 +14,16 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Fri, 13 Dec 2024 05:17:23 +0100</lastBuildDate>
+        <lastBuildDate>Mon, 16 Dec 2024 15:47:34 +0100</lastBuildDate>
 
+            <item>
+                <title>Re·Search: Order 2024 Yearbook of Search Foundation Advances</title>
+                <link>https://jina.ai/news/re-search-order-2024-yearbook-of-search-foundation-advances/</link>
+                <pubDate>Mon, 16 Dec 2024 15:35:49 +0100</pubDate>
+                <guid isPermaLink="false">675f75780ce9930001b870a7</guid>
+                <category><![CDATA[ Press ]]></category>
+                <description>Discover Re·Search, our premium yearbook showcasing our best research articles and search foundation models in 2024. Featuring spot UV-coated hardcover, 160 full-color pages, and meticulous design throughout. Available worldwide at $35, shipping included.</description>
+            </item>
             <item>
                 <title>Scaling Test-Time Compute For Embedding Models</title>
                 <link>https://jina.ai/news/scaling-test-time-compute-for-embedding-models/</link>
