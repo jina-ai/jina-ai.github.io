@@ -1,6 +1,69 @@
 {
   "blogs": [
     {
+      "lang": "ru",
+      "slug": "text-embeddings-fail-to-capture-word-order-and-how-to-fix-it",
+      "translated_at": "2024-12-17T16:10:54.979Z",
+      "title": "Текстовые эмбеддинги не сохраняют порядок слов и как это исправить",
+      "excerpt": "Модели текстовых эмбеддингов испытывают трудности с захватом тонких лингвистических нюансов, таких как порядок слов, направленные отношения, временные последовательности, причинно-следственные связи, сравнения и отрицания. Понимание этих проблем является ключом к улучшению производительности моделей."
+    },
+    {
+      "lang": "ja",
+      "slug": "text-embeddings-fail-to-capture-word-order-and-how-to-fix-it",
+      "translated_at": "2024-12-17T16:10:54.977Z",
+      "title": "テキスト埋め込みが語順を捉えられない問題とその解決方法",
+      "excerpt": "テキスト埋め込みモデルは、単語の順序、方向性のある関係、時間の順序、因果関係、比較、否定など、微妙な言語的ニュアンスを捉えることに苦労しています。これらの課題を理解することが、モデルのパフォーマンス向上への鍵となります。"
+    },
+    {
+      "lang": "ko",
+      "slug": "text-embeddings-fail-to-capture-word-order-and-how-to-fix-it",
+      "translated_at": "2024-12-17T16:10:54.977Z",
+      "title": "단어 순서 인코딩에 실패하는 텍스트 임베딩과 그 해결 방법",
+      "excerpt": "텍스트 임베딩 모델은 단어 순서, 방향성 관계, 시간적 순서, 인과 관계, 비교, 부정과 같은 미묘한 언어적 뉘앙스를 포착하는 데 어려움을 겪고 있습니다. 이러한 과제들을 이해하는 것이 모델 성능을 향상시키는 데 핵심입니다."
+    },
+    {
+      "lang": "it",
+      "slug": "text-embeddings-fail-to-capture-word-order-and-how-to-fix-it",
+      "translated_at": "2024-12-17T16:10:54.976Z",
+      "title": "Gli Embedding di Testo Falliscono nel Catturare l'Ordine delle Parole e Come Risolvere il Problema",
+      "excerpt": "I modelli di embedding testuale faticano a catturare sottili sfumature linguistiche come l'ordine delle parole, le relazioni direzionali, le sequenze temporali, le connessioni causali, i confronti e la negazione. Comprendere queste sfide è fondamentale per migliorare le prestazioni del modello."
+    },
+    {
+      "lang": "es",
+      "slug": "text-embeddings-fail-to-capture-word-order-and-how-to-fix-it",
+      "translated_at": "2024-12-17T16:10:54.975Z",
+      "title": "Los Text Embeddings fallan al capturar el orden de las palabras y cómo solucionarlo",
+      "excerpt": "Los modelos de incrustación de texto tienen dificultades para captar sutiles matices lingüísticos como el orden de las palabras, las relaciones direccionales, las secuencias temporales, las conexiones causales, las comparaciones y la negación. Comprender estos desafíos es clave para mejorar el rendimiento del modelo."
+    },
+    {
+      "lang": "fr",
+      "slug": "text-embeddings-fail-to-capture-word-order-and-how-to-fix-it",
+      "translated_at": "2024-12-17T16:10:54.974Z",
+      "title": "Les embeddings textuels échouent à capturer l'ordre des mots et comment y remédier",
+      "excerpt": "Les modèles d'intégration de texte peinent à capturer les nuances linguistiques subtiles comme l'ordre des mots, les relations directionnelles, les séquences temporelles, les liens de causalité, les comparaisons et la négation. Comprendre ces défis est essentiel pour améliorer les performances des modèles."
+    },
+    {
+      "lang": "de",
+      "slug": "text-embeddings-fail-to-capture-word-order-and-how-to-fix-it",
+      "translated_at": "2024-12-17T16:10:54.972Z",
+      "title": "Texteinbettungen erfassen die Wortreihenfolge nicht - und wie man das beheben kann",
+      "excerpt": "Texteinbettungsmodelle haben Schwierigkeiten damit, subtile sprachliche Nuancen wie Wortstellung, direktionale Beziehungen, zeitliche Abfolgen, kausale Zusammenhänge, Vergleiche und Verneinungen zu erfassen. Das Verständnis dieser Herausforderungen ist der Schlüssel zur Verbesserung der Modellleistung."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "text-embeddings-fail-to-capture-word-order-and-how-to-fix-it",
+      "translated_at": "2024-12-17T16:10:54.971Z",
+      "title": "文字嵌入無法捕捉詞序以及如何解決這個問題",
+      "excerpt": "文字嵌入模型在捕捉微妙的語言細微差別時仍有困難，例如詞序、方向性關係、時序、因果關係、比較以及否定等。了解這些挑戰對於提升模型效能至關重要。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "text-embeddings-fail-to-capture-word-order-and-how-to-fix-it",
+      "translated_at": "2024-12-17T16:10:54.969Z",
+      "title": "文本嵌入无法捕捉词序问题及其解决方案",
+      "excerpt": "文本嵌入模型在捕捉细微的语言细节方面仍存在困难，例如词序、方向关系、时间序列、因果关系、比较关系以及否定语义。理解这些挑战对于提升模型性能至关重要。"
+    },
+    {
       "lang": "ko",
       "slug": "re-search-order-2024-yearbook-of-search-foundation-advances",
       "translated_at": "2024-12-16T14:48:16.415Z",
@@ -4096,5 +4159,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2024-12-16T14:48:16.416Z"
+  "updated_at": "2024-12-17T16:10:54.979Z"
 }

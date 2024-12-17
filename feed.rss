@@ -14,8 +14,16 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Mon, 16 Dec 2024 15:47:34 +0100</lastBuildDate>
+        <lastBuildDate>Tue, 17 Dec 2024 16:42:38 +0100</lastBuildDate>
 
+            <item>
+                <title>Text Embeddings Fail to Capture Word Order and How to Fix It</title>
+                <link>https://jina.ai/news/text-embeddings-fail-to-capture-word-order-and-how-to-fix-it/</link>
+                <pubDate>Tue, 17 Dec 2024 16:30:27 +0100</pubDate>
+                <guid isPermaLink="false">6761676f2defad0001fb5d8a</guid>
+                <category><![CDATA[ Tech Blog ]]></category>
+                <description>Text embedding models struggle with capturing subtle linguistic nuances like word order, directional relationships, temporal sequences, causal connections, comparisons, and negation. Understanding these challenges is key to improving model performance.</description>
+            </item>
             <item>
                 <title>Re·Search: Order 2024 Yearbook of Search Foundation Advances</title>
                 <link>https://jina.ai/news/re-search-order-2024-yearbook-of-search-foundation-advances/</link>
