@@ -14,7 +14,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2024</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Wed, 18 Dec 2024 05:18:15 +0100</lastBuildDate>
+        <lastBuildDate>Mon, 23 Dec 2024 03:39:43 +0100</lastBuildDate>
 
             <item>
                 <title>Text Embeddings Fail to Capture Word Order and How to Fix It</title>
@@ -643,14 +643,6 @@ We’re going to walk through installation and cross-language retrieval.</descri
                 <description>Mark your calendars for an immersive BoF session on Embeddings at EMNLP 2023. Join us on December 9th from 11:00 AM to 12:30 PM, Singapore time, in the &#x27;Aquarius 1&#x27; room for a deep dive into the latest embeddings.</description>
             </item>
             <item>
-                <title>Give and Take in FDP&#x27;s AI Geopolitics Panel</title>
-                <link>https://jina.ai/news/give-and-take-in-fdps-ai-geopolitics-panel/</link>
-                <pubDate>Wed, 29 Nov 2023 14:04:01 +0100</pubDate>
-                <guid isPermaLink="false">6567283bd64f01000187a058</guid>
-                <category><![CDATA[ Events ]]></category>
-                <description>This blog post captures my personal reflections and contributions to the panel, highlighting key differences in AI strategies among global powers like the US, China, and the EU.</description>
-            </item>
-            <item>
                 <title>SceneXplain&#x27;s JSON Schema Store: Automate Your Alt-Text, and More!</title>
                 <link>https://jina.ai/news/scenexplains-json-schema-store-automate-your-alt-text-and-more/</link>
                 <pubDate>Mon, 27 Nov 2023 16:00:14 +0100</pubDate>
@@ -869,28 +861,12 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>The latest BestBanner release will transform your banner generation experience! Just paste in your content, and let BestBanner surprise you.</description>
             </item>
             <item>
-                <title>This Week in Generative AI</title>
-                <link>https://jina.ai/news/this-week-in-generative-ai-02/</link>
-                <pubDate>Thu, 10 Aug 2023 15:30:26 +0200</pubDate>
-                <guid isPermaLink="false">64d3847ed093db00013b4bce</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>The latest updates in Jina AI&#x27;s generative AI apps - SceneXplain, BestBanner, JinaChat, PromptPerfect and Rationale</description>
-            </item>
-            <item>
                 <title>From Words to Art: Create Your Dream Stickers with Stable Diffusion</title>
                 <link>https://jina.ai/news/from-words-to-art-create-your-dream-stickers-with-stable-diffusion/</link>
                 <pubDate>Mon, 07 Aug 2023 15:30:59 +0200</pubDate>
                 <guid isPermaLink="false">64c8ed6a180f110001883c41</guid>
                 <category><![CDATA[ Tech Blog ]]></category>
                 <description>Dive into the world of Stable Diffusion and Prompt Engineering by fine-tuning your own LoRA, converting your words into stunning art and bringing your dream stickers to life.</description>
-            </item>
-            <item>
-                <title>This week in Generative AI</title>
-                <link>https://jina.ai/news/this-week-in-generative-ai-01/</link>
-                <pubDate>Thu, 03 Aug 2023 15:30:10 +0200</pubDate>
-                <guid isPermaLink="false">64cb65fc36a10e00011d7e91</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>The latest updates in Jina AI&#x27;s generative AI apps - SceneXplain, BestBanner, JinaChat, PromptPerfect and Rationale</description>
             </item>
             <item>
                 <title>A Guide for Super-Resolution- Ordinary to Extraordinary with Inference</title>
@@ -1053,14 +1029,6 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>Exploring DocArray v2 by building a word game using GPT</description>
             </item>
             <item>
-                <title>Jina AI Cloud: Production-ready Scalable Multimodal AI</title>
-                <link>https://jina.ai/news/jina-ai-cloud-production-ready-scalable-multimodal-ai/</link>
-                <pubDate>Tue, 09 May 2023 16:00:22 +0200</pubDate>
-                <guid isPermaLink="false">64536334a32bc90001a6f922</guid>
-                <category><![CDATA[ Tech Blog ]]></category>
-                <description>Jina AI Cloud is the most advanced MLOps platform for building multimodal AI applications in the cloud. Users can translate their data and a few lines of code into a production-ready service without dealing with infrastructure complexity or scaling hassles.</description>
-            </item>
-            <item>
                 <title>Fine-Tuning: How To Get the Most of Your AI Investments</title>
                 <link>https://jina.ai/news/fine-tuning-how-to-get-the-most-of-your-ai-investments/</link>
                 <pubDate>Tue, 02 May 2023 10:53:49 +0200</pubDate>
@@ -1091,14 +1059,6 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <guid isPermaLink="false">643805d58f2e0b003d558fc5</guid>
                 <category><![CDATA[ Insights ]]></category>
                 <description>Auto-GPT: A groundbreaking project or just another overhyped AI experiment? In this blog post, we unravel the truth behind the buzz and reveal the limitations that make this project unsuitable for real-world applications.</description>
-            </item>
-            <item>
-                <title>Turbocharge Your AI with Finetuner+</title>
-                <link>https://jina.ai/news/turbocharge-your-ai-with-finetuner/</link>
-                <pubDate>Tue, 11 Apr 2023 16:00:50 +0200</pubDate>
-                <guid isPermaLink="false">642e86d5fc3fd2003d47674b</guid>
-                <category><![CDATA[ Releases ]]></category>
-                <description>Finetuner+ is an on-prem finetuning solution that leverages state-of-the-art features of Finetuner, without the need for clients to implement it themselves.</description>
             </item>
             <item>
                 <title>Enhancing Digital Accessibility: How SceneXplain Transforms Multimedia Content for Public Sector Organizations</title>
@@ -1261,14 +1221,6 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>Imagine an AI-powered grep command, one that could process a film and find segments matching a text. With Jina AI&#x27;s CLIP-as-service, you can do that today. We&#x27;ll show you how.</description>
             </item>
             <item>
-                <title>Tech Talk and Cheer: Celebrating the Holidays at Our 2022 Annual Christmas Party</title>
-                <link>https://jina.ai/news/jina-ai-annual-event/</link>
-                <pubDate>Thu, 08 Dec 2022 16:56:52 +0100</pubDate>
-                <guid isPermaLink="false">638f3e3f042d72003d3c51ee</guid>
-                <category><![CDATA[ Events ]]></category>
-                <description>The holiday season is upon us! As we reflect on this past year, we made a huge difference together with the support from our team, community members, and our partners.</description>
-            </item>
-            <item>
                 <title>Fine-tuning with Low Budget and High Expectations</title>
                 <link>https://jina.ai/news/fine-tuning-with-low-budget-and-high-expectations/</link>
                 <pubDate>Thu, 01 Dec 2022 16:37:52 +0100</pubDate>
@@ -1333,28 +1285,12 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <description>In DocArray, Documents inside a DocumentArray can live in a document store instead of in memory. External store provides longer persistence and faster retrieval. Ever wonder about which one is best for your use case? Here&#x27;s a comprehensive benchmark to help guide you.</description>
             </item>
             <item>
-                <title>How to Start Your Career in Open Source</title>
-                <link>https://jina.ai/news/how-to-start-your-career-in-open-source/</link>
-                <pubDate>Mon, 14 Nov 2022 14:02:33 +0100</pubDate>
-                <guid isPermaLink="false">636e063d413778003dd52048</guid>
-                <category><![CDATA[ Events ]]></category>
-                <description>For fresh grads, we summarized some tips that you can use to make your profile stand out and help you to develop skills in engineering, marketing, and open-source community operations.</description>
-            </item>
-            <item>
                 <title>Real-Time Product Recommendation via DocArray and Redis</title>
                 <link>https://jina.ai/news/real-time-product-recommendation-using-redis-and-docarray/</link>
                 <pubDate>Wed, 09 Nov 2022 16:08:16 +0100</pubDate>
                 <guid isPermaLink="false">635a98d4a2b381003d0588a7</guid>
                 <category><![CDATA[ Tech Blog ]]></category>
                 <description>By using Redis backend inside DocArray, building a real-time product recommendation system via vector similarity search is easy and straightforward. Follow along to learn the essential steps and how it works.</description>
-            </item>
-            <item>
-                <title>Neural Search: The Definitive Guide to Building a Neural Search Engine with Jina</title>
-                <link>https://jina.ai/news/what-is-neural-search-and-learn-to-build-a-neural-search-engine/</link>
-                <pubDate>Tue, 08 Nov 2022 15:09:01 +0100</pubDate>
-                <guid isPermaLink="false">636a3f59413778003dd519b8</guid>
-                <category><![CDATA[ Knowledge Base ]]></category>
-                <description>One of the most promising applications of cross-modal machine learning is neural search. The core idea of neural search is to leverage state-of-the-art deep neural networks to build every component of a search system.</description>
             </item>
             <item>
                 <title>5 Most Trending Open Source MLOps Tools of 2022</title>
@@ -1451,14 +1387,6 @@ Now graph embeddings vectorize nodes. Distill graphs into geometry. Embeddings w
                 <guid isPermaLink="false">633ffc9b393501004d1c865c</guid>
                 <category><![CDATA[ Insights ]]></category>
                 <description>We are on the cusp of a new era in AI, one in which multimodal AI will be the norm. At Jina AI, our MLOps platform helps businesses and developers win while they&#x27;re right at the starting line of this paradigm shift, and build the applications of the future today.</description>
-            </item>
-            <item>
-                <title>From Zero to Hero: Vector Search Hackday Summary</title>
-                <link>https://jina.ai/news/hackday-with-jina-ai/</link>
-                <pubDate>Tue, 04 Oct 2022 13:39:35 +0200</pubDate>
-                <guid isPermaLink="false">6336a08987b80b004db807bd</guid>
-                <category><![CDATA[ Events ]]></category>
-                <description></description>
             </item>
     </channel>
 </rss>
