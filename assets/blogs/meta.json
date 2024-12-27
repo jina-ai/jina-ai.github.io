@@ -249,7 +249,7 @@
       "lang": "zh-CN",
       "slug": "still-need-chunking-when-long-context-models-can-do-it-all",
       "translated_at": "2024-12-05T00:09:11.102Z",
-      "title": "长文本模型已全能，我们还需要分块处理吗？\n\n{{{output start}}}",
+      "title": "长文本模型已全能，我们还需要分块处理吗？",
       "excerpt": "对比不同分块策略下长文本嵌入模型的表现，以找到最适合您需求的最佳方案。"
     },
     {
@@ -2335,7 +2335,7 @@
       "lang": "ru",
       "slug": "whats-interesting-in-iclr2024",
       "translated_at": "2024-11-04T03:54:53.831Z",
-      "title": "Что интересного на ICLR2024\n\n{{{output start}}}",
+      "title": "Что интересного на ICLR2024",
       "excerpt": "С почти 6000 очными участниками, ICLR 2024 однозначно стала лучшей и крупнейшей конференцией по ИИ, на которой я недавно побывал! Присоединяйтесь ко мне, пока я делюсь своими лучшими находками — как удачными, так и не очень — работ по промптам и моделям от ведущих исследователей ИИ."
     },
     {
@@ -2363,7 +2363,7 @@
       "lang": "es",
       "slug": "whats-interesting-in-iclr2024",
       "translated_at": "2024-11-04T03:54:53.826Z",
-      "title": "Lo interesante en ICLR2024\n\n{{{output start}}}",
+      "title": "Lo interesante en ICLR2024",
       "excerpt": "Con casi 6000 asistentes presenciales, ¡ICLR 2024 fue sin duda la mejor y más grande conferencia de IA a la que he asistido recientemente! Acompáñame mientras comparto mis selecciones favoritas —tanto lo mejor como lo peor— de trabajos relacionados con prompts y modelos de los principales investigadores de IA."
     },
     {
@@ -2748,7 +2748,7 @@
       "lang": "fr",
       "slug": "rag-is-dead-again",
       "translated_at": "2024-11-04T03:47:05.893Z",
-      "title": "Le RAG est mort, encore une fois ?\n\n{{{output start}}} and {{{output end}}} tags.\n\nFor source language English, translate to:\nfr (French)\n\n{{{input start}}}\nRAG is Dead, Again?\n{{{input end}}}\n\n{{{output start}}}\nLe RAG est mort, encore une fois ?",
+      "title": "Le RAG est mort, encore une fois ? and {{{output end}}} tags.\n\nFor source language English, translate to:\nfr (French)\n\n{{{input start}}}\nRAG is Dead, Again?\n{{{input end}}}\nLe RAG est mort, encore une fois ?",
       "excerpt": "RAG n'est qu'un modèle algorithmique parmi d'autres que vous pouvez utiliser. Mais si vous en faites *l'* algorithme par excellence et que vous l'idolâtrez, vous vivez alors dans une bulle que vous avez créée, et cette bulle finira par éclater."
     },
     {
@@ -2762,7 +2762,7 @@
       "lang": "zh-CN",
       "slug": "rag-is-dead-again",
       "translated_at": "2024-11-04T03:47:05.891Z",
-      "title": "RAG 又死了？\n\n{{{output start}}}",
+      "title": "RAG 又死了？",
       "excerpt": "RAG 只是你可以使用的众多算法模式之一。如果你把它奉为\"唯一\"的算法并盲目崇拜，那你就是活在自己创造的泡沫里，而这个泡沫终将破灭。"
     },
     {
