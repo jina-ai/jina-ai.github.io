@@ -14,7 +14,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2025</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Mon, 06 Jan 2025 10:42:12 +0100</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jan 2025 09:20:43 +0100</lastBuildDate>
 
             <item>
                 <title>Text Embeddings Fail to Capture Word Order and How to Fix It</title>
