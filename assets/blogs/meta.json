@@ -2,6 +2,69 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "text-image-global-contrastive-alignment-and-token-patch-local-alignment",
+      "translated_at": "2025-01-07T11:36:54.280Z",
+      "title": "Глобальное контрастное выравнивание текста и изображения и локальное выравнивание токенов и патчей",
+      "excerpt": "CLIP может визуализировать сходства между токенами и патчами, однако, это скорее постфактум интерпретационный трюк, чем надежное или официальное \"внимание\" модели. Вот почему."
+    },
+    {
+      "lang": "ko",
+      "slug": "text-image-global-contrastive-alignment-and-token-patch-local-alignment",
+      "translated_at": "2025-01-07T11:36:54.279Z",
+      "title": "텍스트-이미지 전역적 대조 정렬과 토큰-패치 지역적 정렬",
+      "excerpt": "CLIP은 토큰-패치 유사성을 시각화할 수 있지만, 이는 모델의 강건하거나 공식적인 \"어텐션\"이라기보다는 사후 해석 가능성을 위한 트릭에 가깝습니다. 그 이유는 다음과 같습니다."
+    },
+    {
+      "lang": "ja",
+      "slug": "text-image-global-contrastive-alignment-and-token-patch-local-alignment",
+      "translated_at": "2025-01-07T11:36:54.278Z",
+      "title": "テキストと画像のグローバルな対照的アラインメントおよびトークンとパッチのローカルアラインメント",
+      "excerpt": "CLIP はトークン-パッチの類似性を可視化することができますが、それはモデルからの堅牢または公式な「アテンション」というよりも、事後解釈のテクニックです。これが理由です。"
+    },
+    {
+      "lang": "it",
+      "slug": "text-image-global-contrastive-alignment-and-token-patch-local-alignment",
+      "translated_at": "2025-01-07T11:36:54.277Z",
+      "title": "Allineamento Contrastivo Globale Testo-Immagine e Allineamento Locale Token-Patch",
+      "excerpt": "CLIP può visualizzare le similitudini token-patch, tuttavia, si tratta più di un trucco di interpretabilità post-hoc che di una \"attenzione\" robusta o ufficiale del modello. Ecco perché."
+    },
+    {
+      "lang": "es",
+      "slug": "text-image-global-contrastive-alignment-and-token-patch-local-alignment",
+      "translated_at": "2025-01-07T11:36:54.276Z",
+      "title": "Alineación contrastiva global de texto-imagen y alineación local de token-parche",
+      "excerpt": "CLIP puede visualizar similitudes entre tokens y parches, sin embargo, se trata más de un truco de interpretabilidad post-hoc que de una \"atención\" robusta u oficial del modelo. Aquí la razón."
+    },
+    {
+      "lang": "fr",
+      "slug": "text-image-global-contrastive-alignment-and-token-patch-local-alignment",
+      "translated_at": "2025-01-07T11:36:54.275Z",
+      "title": "Alignement global contrastif texte-image et alignement local token-patch",
+      "excerpt": "CLIP peut visualiser les similarités entre les tokens et les patches, cependant, il s'agit davantage d'une astuce d'interprétabilité post-hoc que d'une véritable \"attention\" robuste ou officielle du modèle. Voici pourquoi."
+    },
+    {
+      "lang": "de",
+      "slug": "text-image-global-contrastive-alignment-and-token-patch-local-alignment",
+      "translated_at": "2025-01-07T11:36:54.273Z",
+      "title": "Globale kontrastive Text-Bild-Ausrichtung und lokale Token-Patch-Ausrichtung",
+      "excerpt": "CLIP kann Token-Patch-Ähnlichkeiten visualisieren, allerdings ist dies eher ein nachträglicher Interpretations-Trick als eine robuste oder offizielle \"Attention\" des Modells. Das ist der Grund dafür."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "text-image-global-contrastive-alignment-and-token-patch-local-alignment",
+      "translated_at": "2025-01-07T11:36:54.272Z",
+      "title": "文字-圖像全域對比對準與詞符-區塊局部對準",
+      "excerpt": "CLIP 可以視覺化 token 與圖像區塊的相似度，但這比較像是一種事後的可解釋性技巧，而不是模型中穩健或官方的「注意力機制」（attention）。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "text-image-global-contrastive-alignment-and-token-patch-local-alignment",
+      "translated_at": "2025-01-07T11:36:54.271Z",
+      "title": "文本-图像全局对比对齐和 Token-Patch 局部对齐",
+      "excerpt": "CLIP 可以可视化 token-patch 相似度，但这更像是一种事后解释性技巧，而不是来自模型的稳健或正式的\"注意力\"。这就是原因。"
+    },
+    {
+      "lang": "ru",
       "slug": "text-embeddings-fail-to-capture-word-order-and-how-to-fix-it",
       "translated_at": "2024-12-17T16:10:54.979Z",
       "title": "Текстовые эмбеддинги не сохраняют порядок слов и как это исправить",
@@ -4159,5 +4222,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2024-12-17T16:10:54.979Z"
+  "updated_at": "2025-01-07T11:36:54.280Z"
 }

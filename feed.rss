@@ -14,8 +14,16 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2025</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Tue, 07 Jan 2025 09:20:43 +0100</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jan 2025 12:35:37 +0100</lastBuildDate>
 
+            <item>
+                <title>Text-Image Global Contrastive Alignment and Token-Patch Local Alignment</title>
+                <link>https://jina.ai/news/text-image-global-contrastive-alignment-and-token-patch-local-alignment/</link>
+                <pubDate>Tue, 07 Jan 2025 12:23:50 +0100</pubDate>
+                <guid isPermaLink="false">677be55d2defad0001fb5e13</guid>
+                <category><![CDATA[ Tech Blog ]]></category>
+                <description>CLIP can visualize token-patch similarities, however, it’s more of a post-hoc interpretability trick than a robust or official &quot;attention&quot; from the model. Here&#x27;s why.</description>
+            </item>
             <item>
                 <title>Text Embeddings Fail to Capture Word Order and How to Fix It</title>
                 <link>https://jina.ai/news/text-embeddings-fail-to-capture-word-order-and-how-to-fix-it/</link>
