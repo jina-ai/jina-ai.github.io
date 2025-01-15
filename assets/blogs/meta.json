@@ -2,6 +2,69 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "readerlm-v2-frontier-small-language-model-for-html-to-markdown-and-json",
+      "translated_at": "2025-01-15T10:48:15.521Z",
+      "title": "ReaderLM v2: Передовая малая языковая модель для преобразования HTML в Markdown и JSON",
+      "excerpt": "ReaderLM-v2 — это небольшая языковая модель размером 1.5B, предназначенная для конвертации HTML в Markdown и извлечения данных из HTML в JSON с исключительной точностью."
+    },
+    {
+      "lang": "ko",
+      "slug": "readerlm-v2-frontier-small-language-model-for-html-to-markdown-and-json",
+      "translated_at": "2025-01-15T10:48:15.519Z",
+      "title": "ReaderLM v2: HTML을 Markdown과 JSON으로 변환하는 프론티어 소형 언어 모델",
+      "excerpt": "ReaderLM-v2는 HTML을 Markdown으로 변환하고 HTML을 JSON으로 추출하는 데 탁월한 정확도를 보이는 1.5B 크기의 소형 언어 모델입니다."
+    },
+    {
+      "lang": "ja",
+      "slug": "readerlm-v2-frontier-small-language-model-for-html-to-markdown-and-json",
+      "translated_at": "2025-01-15T10:48:15.518Z",
+      "title": "ReaderLM v2：HTML から Markdown と JSON への変換を行う最先端の小規模言語モデル",
+      "excerpt": "ReaderLM-v2 は、HTML から Markdown への変換と HTML から JSON への抽出を高精度で行う 1.5B の小規模な言語モデルです。"
+    },
+    {
+      "lang": "it",
+      "slug": "readerlm-v2-frontier-small-language-model-for-html-to-markdown-and-json",
+      "translated_at": "2025-01-15T10:48:15.517Z",
+      "title": "ReaderLM v2: Modello linguistico di frontiera di piccole dimensioni per HTML verso Markdown e JSON",
+      "excerpt": "ReaderLM-v2 è un piccolo modello linguistico da 1.5B per la conversione da HTML a Markdown e l'estrazione da HTML a JSON con precisione eccezionale."
+    },
+    {
+      "lang": "es",
+      "slug": "readerlm-v2-frontier-small-language-model-for-html-to-markdown-and-json",
+      "translated_at": "2025-01-15T10:48:15.515Z",
+      "title": "ReaderLM v2: Modelo de Lenguaje Pequeño de Vanguardia para HTML a Markdown y JSON",
+      "excerpt": "ReaderLM-v2 es un modelo de lenguaje pequeño de 1.5B para la conversión de HTML a Markdown y la extracción de HTML a JSON con una precisión excepcional."
+    },
+    {
+      "lang": "fr",
+      "slug": "readerlm-v2-frontier-small-language-model-for-html-to-markdown-and-json",
+      "translated_at": "2025-01-15T10:48:15.514Z",
+      "title": "ReaderLM v2 : Un petit modèle de langage de pointe pour la conversion HTML vers Markdown et JSON",
+      "excerpt": "ReaderLM-v2 est un petit modèle de langage de 1,5B destiné à la conversion HTML-vers-Markdown et à l'extraction HTML-vers-JSON avec une précision exceptionnelle."
+    },
+    {
+      "lang": "de",
+      "slug": "readerlm-v2-frontier-small-language-model-for-html-to-markdown-and-json",
+      "translated_at": "2025-01-15T10:48:15.513Z",
+      "title": "ReaderLM v2: Fortschrittliches kleines Sprachmodell für HTML zu Markdown und JSON",
+      "excerpt": "ReaderLM-v2 ist ein kleines Sprachmodell mit 1,5 Milliarden Parametern für HTML-to-Markdown-Konvertierung und HTML-to-JSON-Extraktion mit außergewöhnlicher Genauigkeit."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "readerlm-v2-frontier-small-language-model-for-html-to-markdown-and-json",
+      "translated_at": "2025-01-15T10:48:15.511Z",
+      "title": "ReaderLM v2：用於 HTML 轉換 Markdown 和 JSON 的前沿小型語言模型",
+      "excerpt": "ReaderLM-v2 是一個擁有 15 億參數的小型語言模型，專門用於 HTML 轉 Markdown 轉換和 HTML 轉 JSON 提取，具有卓越的準確性。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "readerlm-v2-frontier-small-language-model-for-html-to-markdown-and-json",
+      "translated_at": "2025-01-15T10:48:15.510Z",
+      "title": "ReaderLM v2：用于 HTML 转 Markdown 和 JSON 的前沿小型语言模型",
+      "excerpt": "ReaderLM-v2 是一个参数量为 1.5B 的小型语言模型，专门用于 HTML 转 Markdown 转换和 HTML 转 JSON 提取，具有卓越的准确性。"
+    },
+    {
+      "lang": "ru",
       "slug": "text-image-global-contrastive-alignment-and-token-patch-local-alignment",
       "translated_at": "2025-01-07T11:36:54.280Z",
       "title": "Глобальное контрастное выравнивание текста и изображения и локальное выравнивание токенов и патчей",
@@ -4222,5 +4285,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2025-01-07T11:36:54.280Z"
+  "updated_at": "2025-01-15T10:48:15.521Z"
 }
