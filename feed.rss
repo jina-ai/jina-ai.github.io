@@ -14,7 +14,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <language>en</language>
         <copyright>Jina AI Copyright 2025</copyright>
         <atom:link href="https://jina.ai/feed.rss" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>Wed, 15 Jan 2025 13:09:50 +0100</lastBuildDate>
+        <lastBuildDate>Thu, 16 Jan 2025 02:38:45 +0100</lastBuildDate>
 
             <item>
                 <title>ReaderLM v2: Frontier Small Language Model for HTML to Markdown and JSON</title>
@@ -22,7 +22,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
                 <pubDate>Wed, 15 Jan 2025 11:35:18 +0100</pubDate>
                 <guid isPermaLink="false">6785bfd62defad0001fb5f22</guid>
                 <category><![CDATA[ Press ]]></category>
-                <description>ReaderLM-v2 is a 1.5B small language model for HTML-to-Markdown conversion and HTML-to-JSON extraction with exceptional accuracy.</description>
+                <description>ReaderLM-v2 is a 1.5B small language model for HTML-to-Markdown conversion and HTML-to-JSON extraction with exceptional quality.</description>
             </item>
             <item>
                 <title>Text-Image Global Contrastive Alignment and Token-Patch Local Alignment</title>
