@@ -27,6 +27,7 @@
             padding: 0.75rem;
             text-align: left;
             border-bottom: 1px solid #ddd;
+            vertical-align: top;
           }
           th {
             background-color: #f8f9fa;
@@ -38,6 +39,8 @@
           .url {
             color: #0366d6;
             text-decoration: none;
+            display: block;
+            margin-bottom: 0.25rem;
           }
           .url:hover {
             text-decoration: underline;
@@ -49,6 +52,24 @@
           .stats {
             color: #586069;
             font-size: 0.875rem;
+          }
+          .alternates {
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 0.25rem;
+            line-height: 1.4;
+          }
+          .lang-link {
+            color: #0366d6;
+            text-decoration: none;
+            white-space: nowrap;
+          }
+          .lang-link:hover {
+            text-decoration: underline;
+          }
+          .separator {
+            color: #ccc;
+            margin: 0 0.25rem;
           }
         </style>
       </head>
@@ -84,7 +105,22 @@
         <xsl:for-each select="sitemap:url">
           <tr>
             <td>
-              <a class="url" href="{sitemap:loc}"><xsl:value-of select="sitemap:loc"/></a>
+              <a class="url" href="{sitemap:loc}">
+                <xsl:value-of select="sitemap:loc"/>
+              </a>
+              <xsl:if test="xhtml:link">
+                <div class="alternates">
+                  Alternate languages:
+                  <xsl:for-each select="xhtml:link">
+                    <xsl:if test="position() > 1">
+                      <span class="separator">|</span>
+                    </xsl:if>
+                    <a class="lang-link" href="{@href}">
+                      <xsl:value-of select="@hreflang"/>
+                    </a>
+                  </xsl:for-each>
+                </div>
+              </xsl:if>
             </td>
             <td><xsl:value-of select="sitemap:lastmod"/></td>
             <td><xsl:value-of select="sitemap:changefreq"/></td>
@@ -107,9 +143,13 @@
         <xsl:for-each select="sitemap:sitemap">
           <tr>
             <td>
-              <a class="url" href="{sitemap:loc}"><xsl:value-of select="sitemap:loc"/></a>
+              <a class="url" href="{sitemap:loc}">
+                <xsl:value-of select="sitemap:loc"/>
+              </a>
             </td>
-            <td><xsl:value-of select="sitemap:lastmod"/></td>
+            <td>
+              <xsl:value-of select="sitemap:lastmod"/>
+            </td>
           </tr>
         </xsl:for-each>
       </tbody>
