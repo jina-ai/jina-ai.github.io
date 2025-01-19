@@ -9,7 +9,7 @@
 
     <url>
       <loc>https://jina.ai/</loc>
-      <lastmod>2025-01-19T02:44:37.784Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.958Z</lastmod>
       <changefreq>always</changefreq>
       <priority>1.0</priority>
       
@@ -62,7 +62,7 @@
 
     <url>
       <loc>https://jina.ai/api-dashboard/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.959Z</lastmod>
       <changefreq>always</changefreq>
       <priority>0.9</priority>
       
@@ -115,7 +115,7 @@
 
     <url>
       <loc>https://jina.ai/news/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.959Z</lastmod>
       <changefreq>always</changefreq>
       <priority>0.9</priority>
       
@@ -168,7 +168,7 @@
 
     <url>
       <loc>https://jina.ai/embeddings/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.959Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.9</priority>
       
@@ -221,7 +221,7 @@
 
     <url>
       <loc>https://jina.ai/reranker/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.959Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.9</priority>
       
@@ -274,7 +274,7 @@
 
     <url>
       <loc>https://jina.ai/reader/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.959Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.9</priority>
       
@@ -327,7 +327,7 @@
 
     <url>
       <loc>https://jina.ai/classifier/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.959Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.9</priority>
       
@@ -380,7 +380,7 @@
 
     <url>
       <loc>https://jina.ai/tokenizer/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.959Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.9</priority>
       
@@ -433,7 +433,7 @@
 
     <url>
       <loc>https://jina.ai/segmenter/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.959Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.9</priority>
       
@@ -486,7 +486,7 @@
 
     <url>
       <loc>https://jina.ai/models/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.959Z</lastmod>
       <changefreq>always</changefreq>
       <priority>0.9</priority>
       
@@ -539,7 +539,7 @@
 
     <url>
       <loc>https://jina.ai/about-us/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.959Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -592,7 +592,7 @@
 
     <url>
       <loc>https://jina.ai/contact-sales/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.959Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -645,7 +645,7 @@
 
     <url>
       <loc>https://jina.ai/internship/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.959Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -698,7 +698,7 @@
 
     <url>
       <loc>https://jina.ai/legal/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.959Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.7</priority>
       
@@ -751,7 +751,7 @@
 
     <url>
       <loc>https://jina.ai/news/readerlm-v2-frontier-small-language-model-for-html-to-markdown-and-json/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.959Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -804,7 +804,7 @@
 
     <url>
       <loc>https://jina.ai/news/text-image-global-contrastive-alignment-and-token-patch-local-alignment/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.959Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -857,7 +857,7 @@
 
     <url>
       <loc>https://jina.ai/news/text-embeddings-fail-to-capture-word-order-and-how-to-fix-it/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.959Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -910,7 +910,7 @@
 
     <url>
       <loc>https://jina.ai/news/re-search-order-2024-yearbook-of-search-foundation-advances/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.959Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -963,7 +963,7 @@
 
     <url>
       <loc>https://jina.ai/news/scaling-test-time-compute-for-embedding-models/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.959Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -1016,7 +1016,7 @@
 
     <url>
       <loc>https://jina.ai/news/still-need-chunking-when-long-context-models-can-do-it-all/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.959Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -1069,7 +1069,7 @@
 
     <url>
       <loc>https://jina.ai/news/watermarking-text-with-embedding-models-to-protect-against-content-theft/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.959Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -1122,7 +1122,7 @@
 
     <url>
       <loc>https://jina.ai/news/jina-clip-v2-multilingual-multimodal-embeddings-for-text-and-images/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.959Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -1175,7 +1175,7 @@
 
     <url>
       <loc>https://jina.ai/news/meta-prompt-for-better-jina-api-integration-and-codegen/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.959Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -1228,7 +1228,7 @@
 
     <url>
       <loc>https://jina.ai/news/call-for-participants-emnlp-2024-bof-on-embeddings-reranker-small-lms-for-better-search/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.959Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -1281,7 +1281,7 @@
 
     <url>
       <loc>https://jina.ai/news/beyond-clip-how-jina-clip-advances-multimodal-search/</loc>
-      <lastmod>2025-01-19T02:44:37.785Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.960Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -1334,7 +1334,7 @@
 
     <url>
       <loc>https://jina.ai/news/finding-optimal-breakpoints-in-long-documents-using-small-language-models/</loc>
-      <lastmod>2025-01-19T02:44:37.786Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.960Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -1387,7 +1387,7 @@
 
     <url>
       <loc>https://jina.ai/news/jina-classifier-for-high-performance-zero-shot-and-few-shot-classification/</loc>
-      <lastmod>2025-01-19T02:44:37.786Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.960Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -1440,7 +1440,7 @@
 
     <url>
       <loc>https://jina.ai/news/fact-checking-with-new-grounding-api-in-jina-reader/</loc>
-      <lastmod>2025-01-19T02:44:37.786Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.960Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -1493,7 +1493,7 @@
 
     <url>
       <loc>https://jina.ai/news/bridging-language-gaps-in-multilingual-embeddings-via-contrastive-learning/</loc>
-      <lastmod>2025-01-19T02:44:37.786Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.960Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -1546,7 +1546,7 @@
 
     <url>
       <loc>https://jina.ai/news/what-late-chunking-really-is-and-what-its-not-part-ii/</loc>
-      <lastmod>2025-01-19T02:44:37.786Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.960Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -1599,7 +1599,7 @@
 
     <url>
       <loc>https://jina.ai/news/migration-from-jina-embeddings-v2-to-v3/</loc>
-      <lastmod>2025-01-19T02:44:37.786Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.960Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -1652,7 +1652,7 @@
 
     <url>
       <loc>https://jina.ai/news/jina-embeddings-v3-a-frontier-multilingual-embedding-model/</loc>
-      <lastmod>2025-01-19T02:44:37.786Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.960Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -1705,7 +1705,7 @@
 
     <url>
       <loc>https://jina.ai/news/reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown/</loc>
-      <lastmod>2025-01-19T02:44:37.786Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.960Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -1758,7 +1758,7 @@
 
     <url>
       <loc>https://jina.ai/news/jina-colbert-v2-multilingual-late-interaction-retriever-for-embedding-and-reranking/</loc>
-      <lastmod>2025-01-19T02:44:37.786Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.960Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -1811,7 +1811,7 @@
 
     <url>
       <loc>https://jina.ai/news/the-what-and-why-of-text-image-modality-gap-in-clip-models/</loc>
-      <lastmod>2025-01-19T02:44:37.786Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.960Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -1864,7 +1864,7 @@
 
     <url>
       <loc>https://jina.ai/news/late-chunking-in-long-context-embedding-models/</loc>
-      <lastmod>2025-01-19T02:44:37.786Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.960Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -1917,7 +1917,7 @@
 
     <url>
       <loc>https://jina.ai/news/by-hoovering-up-the-web-ai-is-poisoning-itself/</loc>
-      <lastmod>2025-01-19T02:44:37.786Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.960Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -1970,7 +1970,7 @@
 
     <url>
       <loc>https://jina.ai/news/what-we-learned-at-icml2024-ft-plag-xrm-tinybenchmark-magiclens-prompt-sketching-etc/</loc>
-      <lastmod>2025-01-19T02:44:37.786Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.960Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -2023,7 +2023,7 @@
 
     <url>
       <loc>https://jina.ai/news/rephrased-labels-improve-zero-shot-text-classification-30/</loc>
-      <lastmod>2025-01-19T02:44:37.786Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.960Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -2031,7 +2031,7 @@
 
     <url>
       <loc>https://jina.ai/news/can-embedding-reranker-models-compare-numbers/</loc>
-      <lastmod>2025-01-19T02:44:37.786Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -2084,7 +2084,7 @@
 
     <url>
       <loc>https://jina.ai/news/is-romance-generative-ai-s-killer-app-we-hope-not/</loc>
-      <lastmod>2025-01-19T02:44:37.786Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -2137,7 +2137,7 @@
 
     <url>
       <loc>https://jina.ai/news/no-you-cant-use-reranker-to-improve-seo/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -2190,7 +2190,7 @@
 
     <url>
       <loc>https://jina.ai/news/handcrafting-image-prompts-is-dead-reverse-engineer-midjourney-style-images-with-promptperfect/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -2243,7 +2243,7 @@
 
     <url>
       <loc>https://jina.ai/news/jina-reranker-v2-for-agentic-rag-ultra-fast-multilingual-function-calling-and-code-search/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -2296,7 +2296,7 @@
 
     <url>
       <loc>https://jina.ai/news/ai-explainability-made-easy-how-late-interaction-makes-jina-colbert-transparent/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -2349,7 +2349,7 @@
 
     <url>
       <loc>https://jina.ai/news/jina-clip-v1-a-truly-multimodal-embeddings-model-for-text-and-image/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -2402,7 +2402,7 @@
 
     <url>
       <loc>https://jina.ai/news/implementing-a-chat-history-rag-with-jina-ai-and-milvus-lite/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -2455,7 +2455,7 @@
 
     <url>
       <loc>https://jina.ai/news/rag-is-dead-again/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -2508,7 +2508,7 @@
 
     <url>
       <loc>https://jina.ai/news/bypass-limitations-with-promptperfect-generate-the-images-the-models-dont-want-you-to-see/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -2561,7 +2561,7 @@
 
     <url>
       <loc>https://jina.ai/news/air-bench-better-metrics-for-better-search-foundation/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -2614,7 +2614,7 @@
 
     <url>
       <loc>https://jina.ai/news/binary-embeddings-all-the-ai-3125-of-the-fat/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -2667,7 +2667,7 @@
 
     <url>
       <loc>https://jina.ai/news/jina-reader-for-search-grounding-to-improve-factuality-of-llms/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -2720,7 +2720,7 @@
 
     <url>
       <loc>https://jina.ai/news/albus-by-springworks-empowering-employees-with-enterprise-search/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -2773,7 +2773,7 @@
 
     <url>
       <loc>https://jina.ai/news/whats-interesting-in-iclr2024/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -2826,7 +2826,7 @@
 
     <url>
       <loc>https://jina.ai/news/when-ai-makes-ai-synthetic-data-model-distillation-and-model-collapse/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -2879,7 +2879,7 @@
 
     <url>
       <loc>https://jina.ai/news/create-your-personalized-podcast-with-jina-reader-and-promptperfect/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -2932,7 +2932,7 @@
 
     <url>
       <loc>https://jina.ai/news/jina-embeddings-and-reranker-on-azure-scalable-business-ready-ai-solutions/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -2985,7 +2985,7 @@
 
     <url>
       <loc>https://jina.ai/news/having-it-both-ways-combining-bm25-with-ai-reranking/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -3038,7 +3038,7 @@
 
     <url>
       <loc>https://jina.ai/news/smaller-faster-cheaper-jina-rerankers-turbo-and-tiny/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -3091,7 +3091,7 @@
 
     <url>
       <loc>https://jina.ai/news/enhancing-search-results-with-jina-ais-reranker-api-in-myscale/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -3144,7 +3144,7 @@
 
     <url>
       <loc>https://jina.ai/news/retrieve-jira-tickets-with-jina-reranker-and-haystack-20/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -3197,7 +3197,7 @@
 
     <url>
       <loc>https://jina.ai/news/dspy-not-your-average-prompt-engineering/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -3250,7 +3250,7 @@
 
     <url>
       <loc>https://jina.ai/news/elevating-youtube-scripts-with-promptperfect-ai-mastery-for-video-content-creators/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -3303,7 +3303,7 @@
 
     <url>
       <loc>https://jina.ai/news/next-level-cloud-ai-jina-embeddings-and-rerankers-on-amazon-sagemaker/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.961Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -3356,7 +3356,7 @@
 
     <url>
       <loc>https://jina.ai/news/click-worthy-content-with-promptperfect-ai-marketing-for-newsletters-and-social-media/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -3409,7 +3409,7 @@
 
     <url>
       <loc>https://jina.ai/news/get-more-with-promptperfect-improved-subscription-choices-cutting-edge-interactive-optimizer/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -3462,7 +3462,7 @@
 
     <url>
       <loc>https://jina.ai/news/how-to-build-article-recommendations-with-jina-reranker-api-only/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -3515,7 +3515,7 @@
 
     <url>
       <loc>https://jina.ai/news/building-rag-with-jina-ai-and-superduperdb/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -3568,7 +3568,7 @@
 
     <url>
       <loc>https://jina.ai/news/precise-rag-with-jina-reranker-and-llamaindex/</loc>
-      <lastmod>2025-01-19T02:44:37.787Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -3621,7 +3621,7 @@
 
     <url>
       <loc>https://jina.ai/news/build-a-rag-system-with-jina-embeddings-and-qdrant/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -3674,7 +3674,7 @@
 
     <url>
       <loc>https://jina.ai/news/maximizing-search-relevancy-and-rag-accuracy-with-jina-reranker/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -3727,7 +3727,7 @@
 
     <url>
       <loc>https://jina.ai/news/revolutionizing-bilingual-text-embeddings-with-multi-task-contrastive-learning/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -3780,7 +3780,7 @@
 
     <url>
       <loc>https://jina.ai/news/what-is-colbert-and-late-interaction-and-why-they-matter-in-search/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -3833,7 +3833,7 @@
 
     <url>
       <loc>https://jina.ai/news/aqui-se-habla-espanol-top-quality-spanish-english-embeddings-and-8k-context/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -3886,7 +3886,7 @@
 
     <url>
       <loc>https://jina.ai/news/scenexplain-alt-text-and-better-seo-for-your-ghost-blog-with-just-one-command/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -3894,7 +3894,7 @@
 
     <url>
       <loc>https://jina.ai/news/elevate-your-code-search-with-new-jina-code-embeddings/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -3947,7 +3947,7 @@
 
     <url>
       <loc>https://jina.ai/news/a-deep-dive-into-tokenization/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4000,7 +4000,7 @@
 
     <url>
       <loc>https://jina.ai/news/myscale-jina-ai-unleashing-great-potential-for-your-ai-applications/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4053,7 +4053,7 @@
 
     <url>
       <loc>https://jina.ai/news/jina-embeddings-v2-bilingual-models-are-now-open-source-on-hugging-face/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4106,7 +4106,7 @@
 
     <url>
       <loc>https://jina.ai/news/make-accessibility-accessible-generate-alt-text-with-scenexplain/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4159,7 +4159,7 @@
 
     <url>
       <loc>https://jina.ai/news/does-subspace-cosine-similarity-imply-high-dimensional-cosine-similarity/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4212,7 +4212,7 @@
 
     <url>
       <loc>https://jina.ai/news/jina-embeddings-v2-and-deepset-haystack/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4265,7 +4265,7 @@
 
     <url>
       <loc>https://jina.ai/news/ich-bin-ein-berliner-german-english-bilingual-embeddings-with-8k-token-length/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4318,7 +4318,7 @@
 
     <url>
       <loc>https://jina.ai/news/8k-token-length-bilingual-embeddings-break-language-barriers-in-chinese-and-english/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4371,7 +4371,7 @@
 
     <url>
       <loc>https://jina.ai/news/words-json-images-scenexplains-new-json-schema-builder/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4379,7 +4379,7 @@
 
     <url>
       <loc>https://jina.ai/news/full-stack-rag-with-jina-embeddings-v2-and-llamaindex/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4387,7 +4387,7 @@
 
     <url>
       <loc>https://jina.ai/news/a-magic-carpet-ride-building-vivid-product-stories-with-scenexplain/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4395,7 +4395,7 @@
 
     <url>
       <loc>https://jina.ai/news/multi-agent-simulations-in-promptperfect-n-heads-are-better-than-one/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4403,7 +4403,7 @@
 
     <url>
       <loc>https://jina.ai/news/a-tale-of-two-worlds-emnlp-2023-at-sentosa/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4411,7 +4411,7 @@
 
     <url>
       <loc>https://jina.ai/news/theres-a-time-and-a-place-unleashing-dynamic-variables-in-promptperfect/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4419,7 +4419,7 @@
 
     <url>
       <loc>https://jina.ai/news/dify-ai-integrates-jina-embeddings-for-rag/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4427,7 +4427,7 @@
 
     <url>
       <loc>https://jina.ai/news/jina-embeddings-v2-and-mongodb-atlas/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.962Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4435,7 +4435,7 @@
 
     <url>
       <loc>https://jina.ai/news/discover-the-latest-in-embeddings-at-emnlp-2023-in-person-bof-session/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.963Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4443,7 +4443,7 @@
 
     <url>
       <loc>https://jina.ai/news/scenexplains-json-schema-store-automate-your-alt-text-and-more/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.963Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4451,7 +4451,7 @@
 
     <url>
       <loc>https://jina.ai/news/artificial-general-intelligence-is-cursed-and-science-fiction-isnt-helping/</loc>
-      <lastmod>2025-01-19T02:44:37.788Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.963Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4459,7 +4459,7 @@
 
     <url>
       <loc>https://jina.ai/news/jina-ai-8k-embedding-models-hit-aws-marketplace-for-on-prem-deployment/</loc>
-      <lastmod>2025-01-19T02:44:37.789Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.963Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4467,7 +4467,7 @@
 
     <url>
       <loc>https://jina.ai/news/scenexplains-ocr-beats-gpt-4v-hands-down-chinese-japanese-korean-arabic-hindi-and-more/</loc>
-      <lastmod>2025-01-19T02:44:37.789Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.963Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4475,7 +4475,7 @@
 
     <url>
       <loc>https://jina.ai/news/embeddings-in-depth/</loc>
-      <lastmod>2025-01-19T02:44:37.789Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.963Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4483,7 +4483,7 @@
 
     <url>
       <loc>https://jina.ai/news/look-up-in-the-sky-using-scenexplain-to-classify-land-use-from-satellite-data/</loc>
-      <lastmod>2025-01-19T02:44:37.789Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.963Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4491,7 +4491,7 @@
 
     <url>
       <loc>https://jina.ai/news/jina-embeddings-2-the-best-solution-for-embedding-long-documents/</loc>
-      <lastmod>2025-01-19T02:44:37.789Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.963Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4499,7 +4499,7 @@
 
     <url>
       <loc>https://jina.ai/news/case-study-revolutionizing-e-commerce-user-experience-and-streamlining-search-with-scenexplain/</loc>
-      <lastmod>2025-01-19T02:44:37.789Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.963Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4507,7 +4507,7 @@
 
     <url>
       <loc>https://jina.ai/news/how-to-caption-image-segments-with-scenexplain-introducing-cropn-explain/</loc>
-      <lastmod>2025-01-19T02:44:37.789Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.963Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4515,7 +4515,7 @@
 
     <url>
       <loc>https://jina.ai/news/are-you-ready-for-this-jelly-scenexplains-new-algo-kills-hallucinations-dead/</loc>
-      <lastmod>2025-01-19T02:44:37.789Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.963Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4523,7 +4523,7 @@
 
     <url>
       <loc>https://jina.ai/news/jina-ai-launches-worlds-first-open-source-8k-text-embedding-rivaling-openai/</loc>
-      <lastmod>2025-01-19T02:44:37.789Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.963Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4531,7 +4531,7 @@
 
     <url>
       <loc>https://jina.ai/news/how-embeddings-drive-ai-a-guide/</loc>
-      <lastmod>2025-01-19T02:44:37.789Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.963Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4539,7 +4539,7 @@
 
     <url>
       <loc>https://jina.ai/news/scenexplain-vs-gpt-4-vision-the-best-image-captioning-tool-in-2023/</loc>
-      <lastmod>2025-01-19T02:44:37.789Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.963Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4547,7 +4547,7 @@
 
     <url>
       <loc>https://jina.ai/news/scenexplains-image-json-extract-structured-data-images-precision/</loc>
-      <lastmod>2025-01-19T02:44:37.789Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.963Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4555,7 +4555,7 @@
 
     <url>
       <loc>https://jina.ai/news/embeddings-the-swiss-army-knife-of-ai/</loc>
-      <lastmod>2025-01-19T02:44:37.789Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.963Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4563,7 +4563,7 @@
 
     <url>
       <loc>https://jina.ai/news/promptperfects-llm-database-blurring-boundaries-search-vs-generation/</loc>
-      <lastmod>2025-01-19T02:44:37.789Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.963Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4571,7 +4571,7 @@
 
     <url>
       <loc>https://jina.ai/news/distilled-ai-using-large-models-to-teach-smaller-ones/</loc>
-      <lastmod>2025-01-19T02:44:37.789Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.963Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4579,7 +4579,7 @@
 
     <url>
       <loc>https://jina.ai/news/do-you-truly-need-a-dedicated-vector-store/</loc>
-      <lastmod>2025-01-19T02:44:37.789Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.964Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4587,7 +4587,7 @@
 
     <url>
       <loc>https://jina.ai/news/how-scenexplain-solves-video-to-text-comprehension/</loc>
-      <lastmod>2025-01-19T02:44:37.789Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.964Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4595,7 +4595,7 @@
 
     <url>
       <loc>https://jina.ai/news/graph-embedding-101-unraveling-the-magic-of-relational-data/</loc>
-      <lastmod>2025-01-19T02:44:37.789Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.964Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4603,7 +4603,7 @@
 
     <url>
       <loc>https://jina.ai/news/fine-tuning-gpt-3-5-turbo-a-costly-mirage/</loc>
-      <lastmod>2025-01-19T02:44:37.789Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.964Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4611,7 +4611,7 @@
 
     <url>
       <loc>https://jina.ai/news/the-boundless-horizon-of-ai-its-not-just-about-the-size/</loc>
-      <lastmod>2025-01-19T02:44:37.790Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.964Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4619,7 +4619,7 @@
 
     <url>
       <loc>https://jina.ai/news/building-a-streaming-api-for-llama-2-real-time-ai-with-jina-and-docarray/</loc>
-      <lastmod>2025-01-19T02:44:37.790Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.964Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4627,7 +4627,7 @@
 
     <url>
       <loc>https://jina.ai/news/training-smarter-not-harder-slimming-sentence-embeddings/</loc>
-      <lastmod>2025-01-19T02:44:37.790Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.964Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4635,7 +4635,7 @@
 
     <url>
       <loc>https://jina.ai/news/beyond-pixels-to-prose-scenexplains-hearth-algorithm-breathes-audible-life-into-images/</loc>
-      <lastmod>2025-01-19T02:44:37.790Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.964Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4643,7 +4643,7 @@
 
     <url>
       <loc>https://jina.ai/news/whats-new-in-promptperfect-new-optimizer-streaming-bulk-optimization/</loc>
-      <lastmod>2025-01-19T02:44:37.790Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.964Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4651,7 +4651,7 @@
 
     <url>
       <loc>https://jina.ai/news/bestbanner-0-6-unleash-the-power-of-social-marketing-with-these-stunning-banners-and-titles/</loc>
-      <lastmod>2025-01-19T02:44:37.790Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.964Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4659,7 +4659,7 @@
 
     <url>
       <loc>https://jina.ai/news/from-words-to-art-create-your-dream-stickers-with-stable-diffusion/</loc>
-      <lastmod>2025-01-19T02:44:37.790Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.964Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4667,7 +4667,7 @@
 
     <url>
       <loc>https://jina.ai/news/a-guide-for-super-resolution-ordinary-to-extraordinary-with-inference/</loc>
-      <lastmod>2025-01-19T02:44:37.790Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.964Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4675,7 +4675,7 @@
 
     <url>
       <loc>https://jina.ai/news/taming-openais-function-call-a-dive-into-promptperfects-function-debugger/</loc>
-      <lastmod>2025-01-19T02:44:37.790Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.964Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4683,7 +4683,7 @@
 
     <url>
       <loc>https://jina.ai/news/fine-tuning-falcon40b-for-code-generation/</loc>
-      <lastmod>2025-01-19T02:44:37.790Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.964Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4691,7 +4691,7 @@
 
     <url>
       <loc>https://jina.ai/news/read-my-pics-you-got-ocr-in-my-visual-question-answering/</loc>
-      <lastmod>2025-01-19T02:44:37.790Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.964Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4699,7 +4699,7 @@
 
     <url>
       <loc>https://jina.ai/news/vectordb-a-python-vector-database-you-just-need-no-more-no-less/</loc>
-      <lastmod>2025-01-19T02:44:37.790Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.964Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4707,7 +4707,7 @@
 
     <url>
       <loc>https://jina.ai/news/redefining-text-to-image-how-bestbanner-outperforms-midjourney-and-stable-diffusion-a-benchmark-analysis/</loc>
-      <lastmod>2025-01-19T02:44:37.790Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.964Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4715,7 +4715,7 @@
 
     <url>
       <loc>https://jina.ai/news/langchain-serve-powering-your-slack-with-langchain/</loc>
-      <lastmod>2025-01-19T02:44:37.790Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.964Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4723,7 +4723,7 @@
 
     <url>
       <loc>https://jina.ai/news/docarray-and-the-otter-model-native-multi-modal-ai-meets-native-multi-modal-data-structures/</loc>
-      <lastmod>2025-01-19T02:44:37.790Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.964Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4731,7 +4731,7 @@
 
     <url>
       <loc>https://jina.ai/news/brand-engagement-reimagined-ai-powered-sentiment-analysis-with-scenexplain/</loc>
-      <lastmod>2025-01-19T02:44:37.790Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.965Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4739,7 +4739,7 @@
 
     <url>
       <loc>https://jina.ai/news/making-visuals-vocal-scenexplains-impact-on-product-image-accessibility/</loc>
-      <lastmod>2025-01-19T02:44:37.790Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.965Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4747,7 +4747,7 @@
 
     <url>
       <loc>https://jina.ai/news/dont-build-the-thing-build-the-thing-that-builds-the-thing/</loc>
-      <lastmod>2025-01-19T02:44:37.790Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.965Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4755,7 +4755,7 @@
 
     <url>
       <loc>https://jina.ai/news/langchain-serve-bringing-langchain-apps-closer-to-your-users/</loc>
-      <lastmod>2025-01-19T02:44:37.791Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.965Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4763,7 +4763,7 @@
 
     <url>
       <loc>https://jina.ai/news/whats-next-for-prompt-engineering-prompts-as-a-service/</loc>
-      <lastmod>2025-01-19T02:44:37.791Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.965Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4771,7 +4771,7 @@
 
     <url>
       <loc>https://jina.ai/news/traditional-prompt-engineering-is-dead-heres-what-comes-next/</loc>
-      <lastmod>2025-01-19T02:44:37.791Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.965Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4779,7 +4779,7 @@
 
     <url>
       <loc>https://jina.ai/news/boosting-ai-model-performance-fine-tuning-with-synthetic-data-for-enhanced-results/</loc>
-      <lastmod>2025-01-19T02:44:37.791Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.965Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4787,7 +4787,7 @@
 
     <url>
       <loc>https://jina.ai/news/inference-how-can-jina-ai-offer-the-best-in-class-model-as-a-service-so-affordably/</loc>
-      <lastmod>2025-01-19T02:44:37.791Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.965Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4795,7 +4795,7 @@
 
     <url>
       <loc>https://jina.ai/news/docarray-and-weaviate-your-guide-to-hybrid-search/</loc>
-      <lastmod>2025-01-19T02:44:37.791Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.965Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4803,7 +4803,7 @@
 
     <url>
       <loc>https://jina.ai/news/gold-retriever-let-chatgpt-talk-to-your-data/</loc>
-      <lastmod>2025-01-19T02:44:37.791Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.965Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4811,7 +4811,7 @@
 
     <url>
       <loc>https://jina.ai/news/cross-modal-search-with-imagebind-and-docarray/</loc>
-      <lastmod>2025-01-19T02:44:37.791Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.965Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4819,7 +4819,7 @@
 
     <url>
       <loc>https://jina.ai/news/do-you-want-to-play-a-game-lets-build-semantle-with-docarray-and-gpt/</loc>
-      <lastmod>2025-01-19T02:44:37.791Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.965Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4827,7 +4827,7 @@
 
     <url>
       <loc>https://jina.ai/news/fine-tuning-how-to-get-the-most-of-your-ai-investments/</loc>
-      <lastmod>2025-01-19T02:44:37.791Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.965Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4835,7 +4835,7 @@
 
     <url>
       <loc>https://jina.ai/news/scenexplain-vs-minigpt4-a-comprehensive-benchmark-of-top-5-image-captioning-algorithms-for-understanding-complex-scenes/</loc>
-      <lastmod>2025-01-19T02:44:37.791Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.965Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4843,7 +4843,7 @@
 
     <url>
       <loc>https://jina.ai/news/fine-tuning-unlocking-the-full-potential-of-ai-for-businesses/</loc>
-      <lastmod>2025-01-19T02:44:37.791Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.965Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4851,7 +4851,7 @@
 
     <url>
       <loc>https://jina.ai/news/auto-gpt-unmasked-hype-hard-truths-production-pitfalls/</loc>
-      <lastmod>2025-01-19T02:44:37.791Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.965Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4859,7 +4859,7 @@
 
     <url>
       <loc>https://jina.ai/news/enhancing-digital-accessibility-scenexplain-transforms-multimedia-content-public-sector-organizations/</loc>
-      <lastmod>2025-01-19T02:44:37.791Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.965Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4867,7 +4867,7 @@
 
     <url>
       <loc>https://jina.ai/news/scenexplain-unleash-advanced-image-captioning-storytelling/</loc>
-      <lastmod>2025-01-19T02:44:37.791Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.965Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4875,7 +4875,7 @@
 
     <url>
       <loc>https://jina.ai/news/langchain_jina_inference/</loc>
-      <lastmod>2025-01-19T02:44:37.791Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.966Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4883,7 +4883,7 @@
 
     <url>
       <loc>https://jina.ai/news/datatalksclub-spotlight-x-jina-ai/</loc>
-      <lastmod>2025-01-19T02:44:37.791Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.966Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4891,7 +4891,7 @@
 
     <url>
       <loc>https://jina.ai/news/reverse-engineering-image-prompts-with-promptperfect/</loc>
-      <lastmod>2025-01-19T02:44:37.791Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.966Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4899,7 +4899,7 @@
 
     <url>
       <loc>https://jina.ai/news/agentchain-chain-together-models-to-perform-complex-tasks/</loc>
-      <lastmod>2025-01-19T02:44:37.792Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.966Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4907,7 +4907,7 @@
 
     <url>
       <loc>https://jina.ai/news/generative-ai-as-ip/</loc>
-      <lastmod>2025-01-19T02:44:37.792Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.966Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4915,7 +4915,7 @@
 
     <url>
       <loc>https://jina.ai/news/multimodal-visual-question-answering-with-blip-2-and-jina/</loc>
-      <lastmod>2025-01-19T02:44:37.792Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.966Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4923,7 +4923,7 @@
 
     <url>
       <loc>https://jina.ai/news/deploy-deep-learning-model/</loc>
-      <lastmod>2025-01-19T02:44:37.792Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.966Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4931,7 +4931,7 @@
 
     <url>
       <loc>https://jina.ai/news/promptperfect-0-1-release/</loc>
-      <lastmod>2025-01-19T02:44:37.792Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.966Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4939,7 +4939,7 @@
 
     <url>
       <loc>https://jina.ai/news/dancing-bears-or-why-generative-ai-is-nothing-to-panic-about/</loc>
-      <lastmod>2025-01-19T02:44:37.792Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.966Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4947,7 +4947,7 @@
 
     <url>
       <loc>https://jina.ai/news/promptperfect-prompt-engineering-done-right/</loc>
-      <lastmod>2025-01-19T02:44:37.792Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.966Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4955,7 +4955,7 @@
 
     <url>
       <loc>https://jina.ai/news/asset_ovi/</loc>
-      <lastmod>2025-01-19T02:44:37.792Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.966Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4963,7 +4963,7 @@
 
     <url>
       <loc>https://jina.ai/news/how-to-personalize-stable-diffusion-for-all-the-things/</loc>
-      <lastmod>2025-01-19T02:44:37.792Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.966Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4971,7 +4971,7 @@
 
     <url>
       <loc>https://jina.ai/news/how-to-use-every-vector-database-in-python-with-docarray/</loc>
-      <lastmod>2025-01-19T02:44:37.792Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.966Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4979,7 +4979,7 @@
 
     <url>
       <loc>https://jina.ai/news/confused-confident-rationale-can-help-make-better-decisions-ai/</loc>
-      <lastmod>2025-01-19T02:44:37.792Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.966Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4987,7 +4987,7 @@
 
     <url>
       <loc>https://jina.ai/news/introducing-rationale-decision-making-tool-powered-latest-gpt-context-learning/</loc>
-      <lastmod>2025-01-19T02:44:37.792Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.966Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -4995,7 +4995,7 @@
 
     <url>
       <loc>https://jina.ai/news/improving-search-quality-non-english-queries-fine-tuned-multilingual-clip-models/</loc>
-      <lastmod>2025-01-19T02:44:37.792Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.967Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5003,7 +5003,7 @@
 
     <url>
       <loc>https://jina.ai/news/seo-is-dead-long-live-llmo/</loc>
-      <lastmod>2025-01-19T02:44:37.792Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.967Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5011,7 +5011,7 @@
 
     <url>
       <loc>https://jina.ai/news/want-search-inside-videos-like-pro-clip-service-can-help/</loc>
-      <lastmod>2025-01-19T02:44:37.792Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.967Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5019,7 +5019,7 @@
 
     <url>
       <loc>https://jina.ai/news/fine-tuning-with-low-budget-and-high-expectations/</loc>
-      <lastmod>2025-01-19T02:44:37.792Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.967Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5027,7 +5027,7 @@
 
     <url>
       <loc>https://jina.ai/news/why-dont-people-use-your-software-framework/</loc>
-      <lastmod>2025-01-19T02:44:37.792Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.967Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5035,7 +5035,7 @@
 
     <url>
       <loc>https://jina.ai/news/guide-using-opentelemetry-jina-monitoring-tracing-applications/</loc>
-      <lastmod>2025-01-19T02:44:37.792Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.967Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5043,7 +5043,7 @@
 
     <url>
       <loc>https://jina.ai/news/what-is-multimodal-deep-learning-and-what-are-the-applications/</loc>
-      <lastmod>2025-01-19T02:44:37.792Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.967Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5051,7 +5051,7 @@
 
     <url>
       <loc>https://jina.ai/news/cloud-native-helps-you-build-multimodal-ai-in-production-here-is-how/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.967Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5059,7 +5059,7 @@
 
     <url>
       <loc>https://jina.ai/news/donate-docarray-lf-for-inclusive-standard-multimodal-data-model/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.967Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5067,7 +5067,7 @@
 
     <url>
       <loc>https://jina.ai/news/search-is-overfitted-create-create-is-underfitted-search/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.967Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5075,7 +5075,7 @@
 
     <url>
       <loc>https://jina.ai/news/benchmark-vector-search-databases-with-one-million-data/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.967Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5083,7 +5083,7 @@
 
     <url>
       <loc>https://jina.ai/news/real-time-product-recommendation-using-redis-and-docarray/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.967Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5091,7 +5091,7 @@
 
     <url>
       <loc>https://jina.ai/news/five-most-trending-open-source-mlops-tools-of-2022/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.967Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5099,7 +5099,7 @@
 
     <url>
       <loc>https://jina.ai/news/hype-and-hybrids-multimodal-search-means-more-than-keywords-and-vectors-2/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.967Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5107,7 +5107,7 @@
 
     <url>
       <loc>https://jina.ai/news/search-r-questions-on-stack-overflow-with-python/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.967Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5115,7 +5115,7 @@
 
     <url>
       <loc>https://jina.ai/news/time-slicing-gpus-with-karpenter/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.967Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5123,7 +5123,7 @@
 
     <url>
       <loc>https://jina.ai/news/search-pdfs-with-ai-and-python-part-3/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.967Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5131,7 +5131,7 @@
 
     <url>
       <loc>https://jina.ai/news/search-pdfs-with-ai-and-python-part-2/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.967Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5139,7 +5139,7 @@
 
     <url>
       <loc>https://jina.ai/news/search-pdfs-with-ai-and-python-part-1/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5147,7 +5147,7 @@
 
     <url>
       <loc>https://jina.ai/news/its-hard-to-shard/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5155,7 +5155,7 @@
 
     <url>
       <loc>https://jina.ai/news/applying-jina-ai-finetuner-to-clip-less-data-smaller-models-higher-performance/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5163,7 +5163,7 @@
 
     <url>
       <loc>https://jina.ai/news/coling2022/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5171,7 +5171,7 @@
 
     <url>
       <loc>https://jina.ai/news/speech-to-image-generation/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5179,7 +5179,7 @@
 
     <url>
       <loc>https://jina.ai/news/paradigm-shift-towards-multimodal-ai/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5187,7 +5187,7 @@
 
     <url>
       <loc>https://jina.ai/models/reader-lm-1.5b/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5240,7 +5240,7 @@
 
     <url>
       <loc>https://jina.ai/models/reader-lm-0.5b/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5293,7 +5293,7 @@
 
     <url>
       <loc>https://jina.ai/models/jina-reranker-v2-base-multilingual/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5346,7 +5346,7 @@
 
     <url>
       <loc>https://jina.ai/models/jina-reranker-v1-turbo-en/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5399,7 +5399,7 @@
 
     <url>
       <loc>https://jina.ai/models/jina-reranker-v1-tiny-en/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5452,7 +5452,7 @@
 
     <url>
       <loc>https://jina.ai/models/jina-reranker-v1-base-en/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5505,7 +5505,7 @@
 
     <url>
       <loc>https://jina.ai/models/jina-embeddings-v3/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5558,7 +5558,7 @@
 
     <url>
       <loc>https://jina.ai/models/jina-embeddings-v2-base-zh/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5611,7 +5611,7 @@
 
     <url>
       <loc>https://jina.ai/models/jina-embeddings-v2-base-es/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5664,7 +5664,7 @@
 
     <url>
       <loc>https://jina.ai/models/jina-embeddings-v2-base-en/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5717,7 +5717,7 @@
 
     <url>
       <loc>https://jina.ai/models/jina-embeddings-v2-base-de/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5770,7 +5770,7 @@
 
     <url>
       <loc>https://jina.ai/models/jina-embeddings-v2-base-code/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5823,7 +5823,7 @@
 
     <url>
       <loc>https://jina.ai/models/jina-embedding-b-en-v1/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5876,7 +5876,7 @@
 
     <url>
       <loc>https://jina.ai/models/jina-colbert-v2/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5929,7 +5929,7 @@
 
     <url>
       <loc>https://jina.ai/models/jina-colbert-v1-en/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -5982,7 +5982,7 @@
 
     <url>
       <loc>https://jina.ai/models/jina-clip-v2/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -6035,7 +6035,7 @@
 
     <url>
       <loc>https://jina.ai/models/jina-clip-v1/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
@@ -6088,7 +6088,7 @@
 
     <url>
       <loc>https://jina.ai/models/ReaderLM-v2/</loc>
-      <lastmod>2025-01-19T02:44:37.793Z</lastmod>
+      <lastmod>2025-01-19T12:39:57.968Z</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
       
