@@ -2,6 +2,69 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "what-should-we-learn-from-modernbert",
+      "translated_at": "2025-01-22T07:44:24.645Z",
+      "title": "Что нам следует извлечь из ModernBERT?",
+      "excerpt": "ModernBERT задает направление для будущих BERT-подобных моделей благодаря увеличенным тренировочным данным, эффективному подбору параметров и глубокой, но компактной архитектуре."
+    },
+    {
+      "lang": "ko",
+      "slug": "what-should-we-learn-from-modernbert",
+      "translated_at": "2025-01-22T07:44:24.644Z",
+      "title": "ModernBERT로부터 우리는 무엇을 배워야 하는가?",
+      "excerpt": "더 큰 학습 데이터, 효율적인 파라미터 크기 조정, 그리고 깊지만 얇은 아키텍처를 가진 ModernBERT는 향후 BERT 계열 모델들의 방향을 제시합니다."
+    },
+    {
+      "lang": "ja",
+      "slug": "what-should-we-learn-from-modernbert",
+      "translated_at": "2025-01-22T07:44:24.643Z",
+      "title": "ModernBERT から何を学ぶべきか？",
+      "excerpt": "より大規模なトレーニングデータ、効率的なパラメータサイジング、そして深くて薄いアーキテクチャを特徴とする ModernBERT は、今後の BERT 系モデルの方向性を示しています。"
+    },
+    {
+      "lang": "it",
+      "slug": "what-should-we-learn-from-modernbert",
+      "translated_at": "2025-01-22T07:44:24.642Z",
+      "title": "Cosa Dovremmo Imparare da ModernBERT?",
+      "excerpt": "Dati di addestramento più ampi, dimensionamento efficiente dei parametri e un'architettura profonda ma snella: ModernBERT traccia una direzione per i futuri modelli di tipo BERT."
+    },
+    {
+      "lang": "es",
+      "slug": "what-should-we-learn-from-modernbert",
+      "translated_at": "2025-01-22T07:44:24.641Z",
+      "title": "¿Qué deberíamos aprender de ModernBERT?",
+      "excerpt": "Más datos de entrenamiento, un dimensionamiento eficiente de parámetros y una arquitectura profunda pero delgada: ModernBERT marca una dirección para los futuros modelos tipo BERT."
+    },
+    {
+      "lang": "fr",
+      "slug": "what-should-we-learn-from-modernbert",
+      "translated_at": "2025-01-22T07:44:24.640Z",
+      "title": "Que devrions-nous apprendre de ModernBERT ?",
+      "excerpt": "Des données d'entraînement plus volumineuses, un dimensionnement efficace des paramètres et une architecture profonde mais fine, ModernBERT trace la voie pour les futurs modèles de type BERT."
+    },
+    {
+      "lang": "de",
+      "slug": "what-should-we-learn-from-modernbert",
+      "translated_at": "2025-01-22T07:44:24.639Z",
+      "title": "Was können wir von ModernBERT lernen?",
+      "excerpt": "Größere Trainingsdaten, effiziente Parameter-Dimensionierung und eine tiefe, aber schlanke Architektur - ModernBERT weist den Weg für zukünftige BERT-ähnliche Modelle."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "what-should-we-learn-from-modernbert",
+      "translated_at": "2025-01-22T07:44:24.637Z",
+      "title": "從 ModernBERT 中我們應該學到什麼？",
+      "excerpt": "更大的訓練資料、高效的參數配置，以及深而窄的架構，ModernBERT 為未來類 BERT 模型指出了發展方向。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "what-should-we-learn-from-modernbert",
+      "translated_at": "2025-01-22T07:44:24.636Z",
+      "title": "从 ModernBERT 中我们应该学到什么？",
+      "excerpt": "更大的训练数据、高效的参数配置以及深而窄的架构，ModernBERT 为未来类 BERT 模型指明了方向。"
+    },
+    {
+      "lang": "ru",
       "slug": "readerlm-v2-frontier-small-language-model-for-html-to-markdown-and-json",
       "translated_at": "2025-01-15T10:48:15.521Z",
       "title": "ReaderLM v2: Передовая малая языковая модель для преобразования HTML в Markdown и JSON",
@@ -4285,5 +4348,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2025-01-15T10:48:15.521Z"
+  "updated_at": "2025-01-22T07:44:24.646Z"
 }
