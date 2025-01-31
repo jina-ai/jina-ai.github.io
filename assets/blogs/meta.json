@@ -2,6 +2,69 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "a-practical-guide-to-deploying-search-foundation-models-in-production",
+      "translated_at": "2025-01-31T05:16:42.376Z",
+      "title": "Практическое руководство по развертыванию фундаментальных моделей поиска в продакшене",
+      "excerpt": "Мы предоставляем подробную разбивку затрат и производительности для трех стратегий развертывания: Jina API, самостоятельно размещенный K8s и AWS SageMaker, чтобы помочь вам принять правильное решение."
+    },
+    {
+      "lang": "ko",
+      "slug": "a-practical-guide-to-deploying-search-foundation-models-in-production",
+      "translated_at": "2025-01-31T05:16:42.375Z",
+      "title": "프로덕션 환경에서 검색 기반 모델 배포를 위한 실용 가이드",
+      "excerpt": "Jina API, 자체 호스팅 K8s, AWS SageMaker 이렇게 세 가지 배포 전략에 대한 상세한 비용과 성능 분석을 제공하여 올바른 결정을 내리실 수 있도록 도와드립니다."
+    },
+    {
+      "lang": "ja",
+      "slug": "a-practical-guide-to-deploying-search-foundation-models-in-production",
+      "translated_at": "2025-01-31T05:16:42.374Z",
+      "title": "実践的な検索基盤モデルの本番環境へのデプロイメントガイド",
+      "excerpt": "3つのデプロイメント戦略（Jina API、セルフホスト型 K8s、AWS SageMaker）について、コストとパフォーマンスの詳細な内訳を提供し、適切な判断をサポートします。"
+    },
+    {
+      "lang": "it",
+      "slug": "a-practical-guide-to-deploying-search-foundation-models-in-production",
+      "translated_at": "2025-01-31T05:16:42.373Z",
+      "title": "Una Guida Pratica per il Deployment dei Modelli Foundation di Ricerca in Produzione",
+      "excerpt": "Offriamo analisi dettagliate dei costi e delle prestazioni per tre strategie di deployment: Jina API, K8s self-hosted e AWS SageMaker, per aiutarti a prendere la decisione giusta."
+    },
+    {
+      "lang": "es",
+      "slug": "a-practical-guide-to-deploying-search-foundation-models-in-production",
+      "translated_at": "2025-01-31T05:16:42.372Z",
+      "title": "Una guía práctica para desplegar modelos fundacionales de búsqueda en producción",
+      "excerpt": "Ofrecemos análisis detallados de costos y rendimiento para tres estrategias de implementación: Jina API, K8s autogestionado y AWS SageMaker, para ayudarte a tomar la decisión correcta."
+    },
+    {
+      "lang": "fr",
+      "slug": "a-practical-guide-to-deploying-search-foundation-models-in-production",
+      "translated_at": "2025-01-31T05:16:42.371Z",
+      "title": "Guide pratique pour le déploiement des modèles fondamentaux de recherche en production",
+      "excerpt": "Nous proposons des analyses détaillées des coûts et des performances pour trois stratégies de déploiement : l'API Jina, l'hébergement autonome sur K8s et AWS SageMaker, pour vous aider à prendre la bonne décision."
+    },
+    {
+      "lang": "de",
+      "slug": "a-practical-guide-to-deploying-search-foundation-models-in-production",
+      "translated_at": "2025-01-31T05:16:42.369Z",
+      "title": "Ein praktischer Leitfaden zum Deployment von Search Foundation Models in der Produktion",
+      "excerpt": "Wir bieten detaillierte Kosten- und Leistungsaufschlüsselungen für drei Bereitstellungsstrategien an: Jina API, selbst gehostetes K8s und AWS SageMaker, um Ihnen bei der richtigen Entscheidung zu helfen."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "a-practical-guide-to-deploying-search-foundation-models-in-production",
+      "translated_at": "2025-01-31T05:16:42.368Z",
+      "title": "部署搜尋基礎模型到生產環境的實用指南",
+      "excerpt": "我們針對三種部署策略：Jina API、自建 K8s、以及 AWS SageMaker，提供詳細的成本和效能分析，協助您做出正確的決策。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "a-practical-guide-to-deploying-search-foundation-models-in-production",
+      "translated_at": "2025-01-31T05:16:42.367Z",
+      "title": "在生产环境中部署搜索基础模型的实用指南",
+      "excerpt": "我们针对三种部署策略提供详细的成本和性能分析：Jina API、自托管 K8s 和 AWS SageMaker，以帮助您做出正确的选择。"
+    },
+    {
+      "lang": "ru",
       "slug": "what-should-we-learn-from-modernbert",
       "translated_at": "2025-01-22T07:44:24.645Z",
       "title": "Что нам следует извлечь из ModernBERT?",
@@ -4348,5 +4411,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2025-01-22T07:44:24.646Z"
+  "updated_at": "2025-01-31T05:16:42.377Z"
 }
