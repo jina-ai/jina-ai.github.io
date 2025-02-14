@@ -1,0 +1,1 @@
+import{u as e,am as a}from"./index-CZ7uG9Zj.js";const o=e(),{user:r}=a(o),u=s=>{r.value.uid?s.push({path:"/api-dashboard/key-manager"}):s.push({path:"/api-dashboard",query:{login:"true"}})};export{u as s};
