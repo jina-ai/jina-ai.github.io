@@ -2,6 +2,69 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "query-expansion-with-llms-searching-better-by-saying-more",
+      "translated_at": "2025-02-18T02:58:25.009Z",
+      "title": "Расширение поисковых запросов с помощью LLM: улучшаем поиск, говоря больше",
+      "excerpt": "Поиск сильно изменился с момента появления моделей эмбеддингов. Есть ли все еще место для лексических методов, таких как расширение запросов, в эпоху AI? Мы считаем, что да."
+    },
+    {
+      "lang": "ko",
+      "slug": "query-expansion-with-llms-searching-better-by-saying-more",
+      "translated_at": "2025-02-18T02:58:25.008Z",
+      "title": "LLM으로 검색 확장하기: 더 많이 표현하여 더 잘 검색하기",
+      "excerpt": "임베딩 모델이 도입된 이후 검색은 크게 변화했습니다. AI에서 쿼리 확장과 같은 어휘적 기술이 여전히 역할을 할까요? 우리는 그렇다고 생각합니다."
+    },
+    {
+      "lang": "ja",
+      "slug": "query-expansion-with-llms-searching-better-by-saying-more",
+      "translated_at": "2025-02-18T02:58:25.007Z",
+      "title": "LLM による検索クエリの拡張：より多くを伝えることでよりよい検索を実現する",
+      "excerpt": "埋め込みモデルが導入されて以来、検索は大きく変化しました。AI においてクエリ拡張のような語彙的手法にはまだ役割があるのでしょうか？私たちはそう考えています。"
+    },
+    {
+      "lang": "it",
+      "slug": "query-expansion-with-llms-searching-better-by-saying-more",
+      "translated_at": "2025-02-18T02:58:25.006Z",
+      "title": "Espansione delle Query con i LLM: Ricercare Meglio Dicendo di Più",
+      "excerpt": "La ricerca è cambiata molto da quando sono stati introdotti i modelli di embedding. C'è ancora spazio per le tecniche lessicali come l'espansione delle query nell'AI? Noi pensiamo di sì."
+    },
+    {
+      "lang": "es",
+      "slug": "query-expansion-with-llms-searching-better-by-saying-more",
+      "translated_at": "2025-02-18T02:58:25.005Z",
+      "title": "Expansión de consultas con LLMs: búsquedas mejores diciendo más",
+      "excerpt": "La búsqueda ha cambiado mucho desde la introducción de los modelos de embeddings. ¿Existe todavía un papel para las técnicas léxicas como la expansión de consultas en la IA? Creemos que sí."
+    },
+    {
+      "lang": "fr",
+      "slug": "query-expansion-with-llms-searching-better-by-saying-more",
+      "translated_at": "2025-02-18T02:58:25.004Z",
+      "title": "L'expansion de requêtes avec les LLM : améliorer la recherche en disant plus",
+      "excerpt": "La recherche a beaucoup évolué depuis l'introduction des modèles d'embedding. Les techniques lexicales comme l'expansion de requêtes ont-elles encore un rôle à jouer dans l'IA ? Nous pensons que oui."
+    },
+    {
+      "lang": "de",
+      "slug": "query-expansion-with-llms-searching-better-by-saying-more",
+      "translated_at": "2025-02-18T02:58:25.003Z",
+      "title": "Query-Expansion mit LLMs: Bessere Suchergebnisse durch ausführlichere Anfragen",
+      "excerpt": "Die Suche hat sich seit der Einführung von Embedding-Modellen stark verändert. Gibt es in der KI noch eine Rolle für lexikalische Techniken wie Query Expansion? Wir denken schon."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "query-expansion-with-llms-searching-better-by-saying-more",
+      "translated_at": "2025-02-18T02:58:25.002Z",
+      "title": "使用 LLM 進行查詢擴展：說得更多，搜得更好",
+      "excerpt": "自從嵌入式模型（embedding models）出現以來，搜尋技術已經有了很大的改變。在 AI 時代，像是查詢擴展（query expansion）這樣的詞法技術是否還有其角色？我們認為是的。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "query-expansion-with-llms-searching-better-by-saying-more",
+      "translated_at": "2025-02-18T02:58:25.000Z",
+      "title": "使用 LLM 的查询扩展：通过表达更多来获得更好的搜索结果",
+      "excerpt": "自从引入 embedding 模型以来，搜索发生了巨大的变化。在 AI 领域中，像查询扩展这样的词法技术是否还有用武之地？我们认为是的。"
+    },
+    {
+      "lang": "ru",
       "slug": "a-practical-guide-to-deploying-search-foundation-models-in-production",
       "translated_at": "2025-01-31T05:16:42.376Z",
       "title": "Практическое руководство по развертыванию фундаментальных моделей поиска в продакшене",
@@ -4411,5 +4474,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2025-01-31T05:16:42.377Z"
+  "updated_at": "2025-02-18T02:58:25.009Z"
 }
