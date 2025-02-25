@@ -2,6 +2,69 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "a-practical-guide-to-implementing-deepsearch-deepresearch",
+      "translated_at": "2025-02-25T13:49:38.194Z",
+      "title": "Практическое руководство по внедрению DeepSearch/DeepResearch",
+      "excerpt": "QPS уходит, глубина приходит. DeepSearch — новая норма. Поиск ответов через циклы чтение-поиск-рассуждение. Узнайте, что это такое и как это построить."
+    },
+    {
+      "lang": "ko",
+      "slug": "a-practical-guide-to-implementing-deepsearch-deepresearch",
+      "translated_at": "2025-02-25T13:49:38.192Z",
+      "title": "DeepSearch/DeepResearch 구현을 위한 실용 가이드",
+      "excerpt": "QPS는 옛말이고, 깊이가 새로운 흐름입니다. DeepSearch가 새로운 표준이 되었습니다. 읽기-검색-추론 반복을 통해 답을 찾아보세요. DeepSearch가 무엇이고 어떻게 구축하는지 알아보겠습니다."
+    },
+    {
+      "lang": "ja",
+      "slug": "a-practical-guide-to-implementing-deepsearch-deepresearch",
+      "translated_at": "2025-02-25T13:49:38.191Z",
+      "title": "DeepSearch/DeepResearch 実装の実践ガイド",
+      "excerpt": "QPSはもう古い。深層検索が新しい標準。読み取り・検索・推論のループで答えを見つけ出す。その本質と構築方法を学ぼう。"
+    },
+    {
+      "lang": "it",
+      "slug": "a-practical-guide-to-implementing-deepsearch-deepresearch",
+      "translated_at": "2025-02-25T13:49:38.190Z",
+      "title": "Una guida pratica all'implementazione di DeepSearch/DeepResearch",
+      "excerpt": "QPS non è più importante, ora conta la profondità. DeepSearch è il nuovo standard. Trova risposte attraverso cicli di lettura-ricerca-ragionamento. Scopri cosa è e come costruirlo."
+    },
+    {
+      "lang": "es",
+      "slug": "a-practical-guide-to-implementing-deepsearch-deepresearch",
+      "translated_at": "2025-02-25T13:49:38.189Z",
+      "title": "Una Guía Práctica para Implementar DeepSearch/DeepResearch",
+      "excerpt": "Las QPS quedan atrás, la profundidad es lo que importa. DeepSearch es la nueva norma. Encuentra respuestas mediante ciclos de lectura-búsqueda-razonamiento. Descubre qué es y cómo construirlo."
+    },
+    {
+      "lang": "fr",
+      "slug": "a-practical-guide-to-implementing-deepsearch-deepresearch",
+      "translated_at": "2025-02-25T13:49:38.188Z",
+      "title": "Guide pratique pour l'implémentation de DeepSearch/DeepResearch",
+      "excerpt": "Exit le QPS, place à la profondeur. DeepSearch devient la nouvelle norme. Trouvez des réponses à travers des boucles de lecture, recherche et raisonnement. Découvrez ce que c'est et comment le construire."
+    },
+    {
+      "lang": "de",
+      "slug": "a-practical-guide-to-implementing-deepsearch-deepresearch",
+      "translated_at": "2025-02-25T13:49:38.187Z",
+      "title": "Ein praktischer Leitfaden zur Implementierung von DeepSearch/DeepResearch",
+      "excerpt": "QPS raus, Tiefe rein. DeepSearch ist der neue Standard. Finden Sie Antworten durch Lesen-Suchen-Schlussfolgerungs-Schleifen. Erfahren Sie, was es ist und wie man es aufbaut."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "a-practical-guide-to-implementing-deepsearch-deepresearch",
+      "translated_at": "2025-02-25T13:49:38.185Z",
+      "title": "實作 DeepSearch/DeepResearch 的實用指南",
+      "excerpt": "QPS 不再重要，深度為重。深度搜尋成為新常態。透過閱讀、搜尋、推理的迴圈找到答案。了解其原理以及如何建構。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "a-practical-guide-to-implementing-deepsearch-deepresearch",
+      "translated_at": "2025-02-25T13:49:38.183Z",
+      "title": "DeepSearch/DeepResearch 实施实用指南",
+      "excerpt": "QPS 淡出，深度崛起。深度搜索成为新常态。通过读取-搜索-推理循环来寻找答案。了解它是什么以及如何构建它。"
+    },
+    {
+      "lang": "ru",
       "slug": "query-expansion-with-llms-searching-better-by-saying-more",
       "translated_at": "2025-02-18T02:58:25.009Z",
       "title": "Расширение поисковых запросов с помощью LLM: улучшаем поиск, говоря больше",
@@ -4474,5 +4537,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2025-02-18T02:58:25.009Z"
+  "updated_at": "2025-02-25T13:49:38.194Z"
 }
