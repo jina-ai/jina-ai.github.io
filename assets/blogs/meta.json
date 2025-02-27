@@ -2,6 +2,69 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "llm-as-serp-search-engine-result-pages-from-large-language-models",
+      "translated_at": "2025-02-27T12:49:52.354Z",
+      "title": "LLM как SERP: страницы результатов поиска на основе больших языковых моделей",
+      "excerpt": "Это либо очень умная идея, либо очень глупая — середины тут нет."
+    },
+    {
+      "lang": "ko",
+      "slug": "llm-as-serp-search-engine-result-pages-from-large-language-models",
+      "translated_at": "2025-02-27T12:49:52.353Z",
+      "title": "LLM-as-SERP: 대규모 언어 모델을 활용한 검색 결과 페이지",
+      "excerpt": "이건 정말 영리한 생각이거나 정말 어리석은 생각이거나 둘 중 하나예요—중간은 없어요."
+    },
+    {
+      "lang": "ja",
+      "slug": "llm-as-serp-search-engine-result-pages-from-large-language-models",
+      "translated_at": "2025-02-27T12:49:52.352Z",
+      "title": "LLM-as-SERP：大規模言語モデルが生成する検索結果ページ",
+      "excerpt": "これは極めて賢明なアイデアか、それとも極めて愚かなアイデアのどちらかです―中間はありません。"
+    },
+    {
+      "lang": "it",
+      "slug": "llm-as-serp-search-engine-result-pages-from-large-language-models",
+      "translated_at": "2025-02-27T12:49:52.351Z",
+      "title": "I risultati dei motori di ricerca generati dai Large Language Model (LLM)",
+      "excerpt": "Questa è o un'idea estremamente intelligente o un'idea estremamente stupida—non ci sono vie di mezzo."
+    },
+    {
+      "lang": "es",
+      "slug": "llm-as-serp-search-engine-result-pages-from-large-language-models",
+      "translated_at": "2025-02-27T12:49:52.350Z",
+      "title": "LLM como SERP: Páginas de resultados de motores de búsqueda desde modelos de lenguaje grandes",
+      "excerpt": "Esto es o bien una idea extremadamente inteligente o bien una extremadamente estúpida—no hay punto medio."
+    },
+    {
+      "lang": "fr",
+      "slug": "llm-as-serp-search-engine-result-pages-from-large-language-models",
+      "translated_at": "2025-02-27T12:49:52.349Z",
+      "title": "LLM-as-SERP : Les pages de résultats de moteur de recherche générées par les modèles de langage",
+      "excerpt": "C'est soit une idée extrêmement brillante, soit une idée extrêmement stupide—il n'y a pas d'entre-deux."
+    },
+    {
+      "lang": "de",
+      "slug": "llm-as-serp-search-engine-result-pages-from-large-language-models",
+      "translated_at": "2025-02-27T12:49:52.348Z",
+      "title": "LLM-als-SERP: Suchergebnisseiten aus Large Language Models",
+      "excerpt": "Das ist entweder eine äußerst kluge oder eine äußerst dumme Idee – dazwischen gibt es nichts."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "llm-as-serp-search-engine-result-pages-from-large-language-models",
+      "translated_at": "2025-02-27T12:49:52.347Z",
+      "title": "LLM 作為 SERP：大型語言模型生成的搜尋引擎結果頁面",
+      "excerpt": "這個想法不是極其聰明就是極其愚蠢——沒有中間地帶。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "llm-as-serp-search-engine-result-pages-from-large-language-models",
+      "translated_at": "2025-02-27T12:49:52.345Z",
+      "title": "大语言模型作为搜索结果页面：通过大语言模型生成搜索引擎结果页面",
+      "excerpt": "这个想法要么极其聪明，要么极其愚蠢——没有中间地带。"
+    },
+    {
+      "lang": "ru",
       "slug": "a-practical-guide-to-implementing-deepsearch-deepresearch",
       "translated_at": "2025-02-25T13:49:38.194Z",
       "title": "Практическое руководство по внедрению DeepSearch/DeepResearch",
@@ -4537,5 +4600,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2025-02-25T13:49:38.194Z"
+  "updated_at": "2025-02-27T12:49:52.354Z"
 }
