@@ -2,6 +2,69 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "long-context-embedding-models-are-blind-beyond-4k-tokens",
+      "translated_at": "2025-03-07T03:09:41.784Z",
+      "title": "Модели встраивания с длинным контекстом слепы за пределами 4 тыс. токенов",
+      "excerpt": "Мы исследовали модели эмбеддингов на новых задачах поиска \"иголки в стоге сена\" и обнаружили, что при работе с текстами длиной более 4 тысяч токенов они действуют наугад — даже при точных лексических совпадениях или расширении запроса они не могут отличить значимый сигнал от шума в длинном контексте."
+    },
+    {
+      "lang": "ko",
+      "slug": "long-context-embedding-models-are-blind-beyond-4k-tokens",
+      "translated_at": "2025-03-07T03:09:41.782Z",
+      "title": "4K 토큰을 넘어서는 긴 문맥을 처리하는 임베딩 모델들의 한계",
+      "excerpt": "\"니들 인 헤이스택(needle-in-haystack)\" 태스크에서 임베딩 모델을 조사한 결과, 4K 토큰을 초과하면 모델들이 무작위로 예측하는 수준에 그치는 것을 발견했습니다. 정확한 어휘 매칭이나 쿼리 확장을 사용하더라도 긴 컨텍스트에서 신호와 노이즈를 구분하지 못했습니다."
+    },
+    {
+      "lang": "it",
+      "slug": "long-context-embedding-models-are-blind-beyond-4k-tokens",
+      "translated_at": "2025-03-07T03:09:41.781Z",
+      "title": "I modelli di embedding per contesti lunghi sono ciechi oltre i 4K token",
+      "excerpt": "Abbiamo analizzato i modelli di embedding su nuovi task di tipo \"ago nel pagliaio\" e abbiamo scoperto che oltre i 4K token, si comportano come se lanciassero i dadi - anche con corrispondenze lessicali esatte o espansione delle query, non riescono a distinguere il segnale dal rumore in contesti lunghi."
+    },
+    {
+      "lang": "ja",
+      "slug": "long-context-embedding-models-are-blind-beyond-4k-tokens",
+      "translated_at": "2025-03-07T03:09:41.781Z",
+      "title": "4Kトークンを超えると長文コンテキスト埋め込みモデルは盲目になる",
+      "excerpt": "\"needle-in-haystack\"（針を干し草の山から探す）のような新しいタスクで埋め込みモデルを調査したところ、4K トークンを超えると、完全な語彙一致やクエリ拡張を用いても、長文脈中でシグナルとノイズを区別できず、ただのランダムな選択と変わらないことが分かりました。"
+    },
+    {
+      "lang": "es",
+      "slug": "long-context-embedding-models-are-blind-beyond-4k-tokens",
+      "translated_at": "2025-03-07T03:09:41.779Z",
+      "title": "Los modelos de embedding de contexto largo son ciegos más allá de los 4K tokens",
+      "excerpt": "Investigamos los modelos de embedding en nuevas tareas de \"aguja en un pajar\" y descubrimos que más allá de 4K tokens, simplemente están tirando los dados - incluso con coincidencias léxicas exactas o expansión de consultas, no pueden distinguir la señal del ruido en contextos largos."
+    },
+    {
+      "lang": "fr",
+      "slug": "long-context-embedding-models-are-blind-beyond-4k-tokens",
+      "translated_at": "2025-03-07T03:09:41.778Z",
+      "title": "Les modèles d'embedding à contexte long sont aveugles au-delà de 4K tokens",
+      "excerpt": "Nous avons étudié les modèles d'embedding sur de nouvelles tâches \"d'aiguille dans une botte de foin\" et constaté qu'au-delà de 4K tokens, ils ne font que tirer au hasard - même avec des correspondances lexicales exactes ou l'expansion des requêtes, ils ne peuvent pas distinguer le signal du bruit dans un contexte long."
+    },
+    {
+      "lang": "de",
+      "slug": "long-context-embedding-models-are-blind-beyond-4k-tokens",
+      "translated_at": "2025-03-07T03:09:41.777Z",
+      "title": "Langkontext-Embedding-Modelle sind jenseits von 4K Tokens blind",
+      "excerpt": "Wir untersuchen Embedding-Modelle bei neuen \"Nadel-im-Heuhaufen\"-Aufgaben und stellen fest, dass sie jenseits von 4K Tokens praktisch nur würfeln - selbst bei exakten lexikalischen Übereinstimmungen oder Query-Expansion können sie in langen Kontexten nicht zwischen Signal und Rauschen unterscheiden."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "long-context-embedding-models-are-blind-beyond-4k-tokens",
+      "translated_at": "2025-03-07T03:09:41.776Z",
+      "title": "長文本嵌入模型在超過 4K Token 後就會失去效用",
+      "excerpt": "我們對嵌入模型在新的「大海撈針」任務上進行研究，發現在超過 4K token 後，它們的表現就像在擲骰子一樣——即使是精確的詞彙匹配或查詢擴展，它們也無法在長上下文中分辨出有效信號和噪音。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "long-context-embedding-models-are-blind-beyond-4k-tokens",
+      "translated_at": "2025-03-07T03:09:41.774Z",
+      "title": "长文本嵌入模型在 4K Token 之外就失效了",
+      "excerpt": "我们针对新的\"大海捞针\"类任务研究了嵌入模型，发现在超过 4K token 长度后，它们的表现就像在掷骰子一样随机——即使是完全的词法匹配或查询扩展，它们也无法在长文本上分辨出信号和噪声。"
+    },
+    {
+      "lang": "ru",
       "slug": "llm-as-serp-search-engine-result-pages-from-large-language-models",
       "translated_at": "2025-02-27T12:49:52.354Z",
       "title": "LLM как SERP: страницы результатов поиска на основе больших языковых моделей",
@@ -4600,5 +4663,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2025-02-27T12:49:52.354Z"
+  "updated_at": "2025-03-07T03:09:41.784Z"
 }
