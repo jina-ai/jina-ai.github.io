@@ -2,6 +2,69 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "snippet-selection-and-url-ranking-in-deepsearch-deepresearch",
+      "translated_at": "2025-03-12T13:34:17.193Z",
+      "title": "Выбор фрагментов и ранжирование URL в DeepSearch/DeepResearch",
+      "excerpt": "Два эти момента превращают ваш DeepSearch из посредственного в великолепный: отбор лучших фрагментов из длинных веб-страниц и ранжирование URL-адресов перед их обходом."
+    },
+    {
+      "lang": "ko",
+      "slug": "snippet-selection-and-url-ranking-in-deepsearch-deepresearch",
+      "translated_at": "2025-03-12T13:34:17.191Z",
+      "title": "DeepSearch/DeepResearch에서의 스니펫 선택과 URL 랭킹",
+      "excerpt": "긴 웹페이지에서 가장 적합한 스니펫을 선택하고 크롤링 전에 URL을 랭킹하는 이 두 가지 세부 사항을 구현하면 당신의 DeepSearch가 평범한 수준에서 최고의 수준으로 변모하게 됩니다."
+    },
+    {
+      "lang": "it",
+      "slug": "snippet-selection-and-url-ranking-in-deepsearch-deepresearch",
+      "translated_at": "2025-03-12T13:34:17.190Z",
+      "title": "Selezione di Snippet e Ranking degli URL in DeepSearch/DeepResearch",
+      "excerpt": "Perfezionare questi due dettagli trasforma il tuo DeepSearch da mediocre a eccezionale: selezionare i migliori frammenti da pagine web lunghe e classificare gli URL prima del crawling."
+    },
+    {
+      "lang": "ja",
+      "slug": "snippet-selection-and-url-ranking-in-deepsearch-deepresearch",
+      "translated_at": "2025-03-12T13:34:17.190Z",
+      "title": "DeepSearch/DeepResearch におけるスニペット選択と URL ランキング",
+      "excerpt": "長いWebページから最適なスニペットを選択することと、クロール前にURLをランク付けすることという2つのポイントを押さえることで、あなたの DeepSearch は平凡なものから最高のものへと変貌します。"
+    },
+    {
+      "lang": "es",
+      "slug": "snippet-selection-and-url-ranking-in-deepsearch-deepresearch",
+      "translated_at": "2025-03-12T13:34:17.189Z",
+      "title": "Selección de Fragmentos y Clasificación de URLs en DeepSearch/DeepResearch",
+      "excerpt": "Dominar estos dos detalles transforma tu DeepSearch de mediocre a legendario: seleccionar los mejores fragmentos de páginas web extensas y clasificar las URLs antes de rastrearlas."
+    },
+    {
+      "lang": "fr",
+      "slug": "snippet-selection-and-url-ranking-in-deepsearch-deepresearch",
+      "translated_at": "2025-03-12T13:34:17.187Z",
+      "title": "Sélection d'extraits et classement des URL dans DeepSearch/DeepResearch",
+      "excerpt": "Ces deux détails transforment votre DeepSearch de moyen à exceptionnel : la sélection des meilleurs extraits des pages web volumineuses et le classement des URLs avant le crawling."
+    },
+    {
+      "lang": "de",
+      "slug": "snippet-selection-and-url-ranking-in-deepsearch-deepresearch",
+      "translated_at": "2025-03-12T13:34:17.186Z",
+      "title": "Snippet-Auswahl und URL-Ranking in DeepSearch/DeepResearch",
+      "excerpt": "Diese zwei Details verwandeln deine DeepSearch von mittelmäßig zu herausragend: die Auswahl der besten Textausschnitte aus langen Webseiten und das Ranking von URLs vor dem Crawling."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "snippet-selection-and-url-ranking-in-deepsearch-deepresearch",
+      "translated_at": "2025-03-12T13:34:17.184Z",
+      "title": "DeepSearch/DeepResearch 的片段選擇和 URL 排名",
+      "excerpt": "掌握這兩個細節可以讓你的 DeepSearch 從普普通通變成超強大：從冗長網頁中挑選最佳摘要片段，以及在爬取前對 URL 進行排序。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "snippet-selection-and-url-ranking-in-deepsearch-deepresearch",
+      "translated_at": "2025-03-12T13:34:17.183Z",
+      "title": "DeepSearch/DeepResearch 中的片段选择和 URL 排序",
+      "excerpt": "掌握这两个细节可以让你的 DeepSearch 从平庸变成神器：从冗长的网页中选择最佳片段，以及在爬取前对 URL 进行排序。"
+    },
+    {
+      "lang": "ru",
       "slug": "long-context-embedding-models-are-blind-beyond-4k-tokens",
       "translated_at": "2025-03-07T03:09:41.784Z",
       "title": "Модели встраивания с длинным контекстом слепы за пределами 4 тыс. токенов",
@@ -4663,5 +4726,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2025-03-07T03:09:41.784Z"
+  "updated_at": "2025-03-12T13:34:17.193Z"
 }
