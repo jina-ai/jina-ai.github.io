@@ -1,7 +1,7 @@
 {
   "stars": {
     "docarray": "3K",
-    "jina": "21.5K",
+    "jina": "21.4K",
     "finetuner": "1.5K",
     "dalle-flow": "2.8K",
     "discoart": "3.8K",
@@ -11,7 +11,7 @@
     "thinkgpt": "1.6K",
     "dev-gpt": "1.8K",
     "rungpt": "161",
-    "vectordb": "596",
+    "vectordb": "598",
     "jerboa": "42",
     "total": "51.4K"
   }
