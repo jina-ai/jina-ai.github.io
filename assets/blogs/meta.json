@@ -2,6 +2,69 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "deepsearch-on-private-visual-documents-an-enterprise-case-study",
+      "translated_at": "2025-03-31T11:49:37.514Z",
+      "title": "DeepSearch для приватных визуальных документов: корпоративное исследование практического применения",
+      "excerpt": "DeepSearch сразу после установки работает с частными PDF-файлами и визуальными документами. Узнайте, как DeepSearch может раскрыть ценные инсайты из ваших корпоративных данных."
+    },
+    {
+      "lang": "ko",
+      "slug": "deepsearch-on-private-visual-documents-an-enterprise-case-study",
+      "translated_at": "2025-03-31T11:49:37.513Z",
+      "title": "비공개 시각 문서의 DeepSearch: 기업 사례 연구",
+      "excerpt": "DeepSearch는 사설 PDF와 시각적 문서를 별도의 설정 없이 바로 사용할 수 있습니다. DeepSearch가 어떻게 기업 데이터에서 가치 있는 인사이트를 발굴할 수 있는지 알아보세요."
+    },
+    {
+      "lang": "it",
+      "slug": "deepsearch-on-private-visual-documents-an-enterprise-case-study",
+      "translated_at": "2025-03-31T11:49:37.512Z",
+      "title": "DeepSearch su documenti visivi privati: un caso di studio aziendale",
+      "excerpt": "DeepSearch funziona con PDF privati e documenti visivi fin da subito. Scopri come DeepSearch può sbloccare informazioni preziose dai tuoi dati aziendali."
+    },
+    {
+      "lang": "ja",
+      "slug": "deepsearch-on-private-visual-documents-an-enterprise-case-study",
+      "translated_at": "2025-03-31T11:49:37.512Z",
+      "title": "プライベート画像ドキュメントに対する DeepSearch：エンタープライズケーススタディ",
+      "excerpt": "DeepSearch は、プライベートな PDF や視覚的なドキュメントをすぐにご利用いただけます。DeepSearch があなたの企業データから価値ある洞察を引き出す方法をご覧ください。"
+    },
+    {
+      "lang": "es",
+      "slug": "deepsearch-on-private-visual-documents-an-enterprise-case-study",
+      "translated_at": "2025-03-31T11:49:37.510Z",
+      "title": "Búsqueda Profunda en Documentos Visuales Privados: Un Caso de Estudio Empresarial",
+      "excerpt": "Nuestro DeepSearch funciona con PDFs privados y documentos visuales de forma inmediata. Descubra cómo DeepSearch puede desbloquear información valiosa de los datos de su empresa."
+    },
+    {
+      "lang": "fr",
+      "slug": "deepsearch-on-private-visual-documents-an-enterprise-case-study",
+      "translated_at": "2025-03-31T11:49:37.509Z",
+      "title": "DeepSearch sur les documents visuels privés : une étude de cas en entreprise",
+      "excerpt": "Notre DeepSearch fonctionne avec les PDF privés et les documents visuels dès sa mise en service. Découvrez comment DeepSearch peut révéler des informations précieuses à partir de vos données d'entreprise."
+    },
+    {
+      "lang": "de",
+      "slug": "deepsearch-on-private-visual-documents-an-enterprise-case-study",
+      "translated_at": "2025-03-31T11:49:37.508Z",
+      "title": "DeepSearch in privaten visuellen Dokumenten: Eine Fallstudie aus der Unternehmenspraxis",
+      "excerpt": "DeepSearch arbeitet direkt von Anfang an mit privaten PDFs und visuellen Dokumenten. Entdecken Sie, wie DeepSearch wertvolle Erkenntnisse aus Ihren Unternehmensdaten gewinnen kann."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "deepsearch-on-private-visual-documents-an-enterprise-case-study",
+      "translated_at": "2025-03-31T11:49:37.507Z",
+      "title": "在企業私密視覺文件上的 DeepSearch：一個企業案例研究",
+      "excerpt": "DeepSearch 原生支援私人 PDF 和視覺化文件。快來探索 DeepSearch 如何從您的企業數據中挖掘寶貴洞見。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "deepsearch-on-private-visual-documents-an-enterprise-case-study",
+      "translated_at": "2025-03-31T11:49:37.506Z",
+      "title": "私有视觉文档的深度搜索：一个企业案例研究",
+      "excerpt": "我们的 DeepSearch 可以直接处理私有的 PDF 和可视化文档。了解 DeepSearch 如何从您的企业数据中发掘有价值的洞见。"
+    },
+    {
+      "lang": "ru",
       "slug": "snippet-selection-and-url-ranking-in-deepsearch-deepresearch",
       "translated_at": "2025-03-12T13:34:17.193Z",
       "title": "Выбор фрагментов и ранжирование URL в DeepSearch/DeepResearch",
@@ -4726,5 +4789,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2025-03-12T13:34:17.193Z"
+  "updated_at": "2025-03-31T11:49:37.515Z"
 }
