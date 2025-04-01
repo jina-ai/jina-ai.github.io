@@ -2,6 +2,69 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "using-deepseek-r1-reasoning-model-in-deepsearch",
+      "translated_at": "2025-04-01T07:51:50.081Z",
+      "title": "Использование модели рассуждений DeepSeek R1 в DeepSearch",
+      "excerpt": "Что лучше подходит для DeepSearch - стандартная LLM или модель рассуждений? В этой статье мы исследовали использование DeepSeek-R1 в реализации DeepSearch для выбора следующего действия."
+    },
+    {
+      "lang": "ko",
+      "slug": "using-deepseek-r1-reasoning-model-in-deepsearch",
+      "translated_at": "2025-04-01T07:51:50.080Z",
+      "title": "DeepSeek R1 추론 모델을 DeepSearch에서 사용하기",
+      "excerpt": "일반 LLM과 추론 모델 중 DeepSearch에 어떤 것이 더 나을까요? 이 글에서는 다음 행동을 선택하기 위한 DeepSearch 구현에서 DeepSeek-R1을 사용하는 것을 탐구해보았습니다."
+    },
+    {
+      "lang": "ja",
+      "slug": "using-deepseek-r1-reasoning-model-in-deepsearch",
+      "translated_at": "2025-04-01T07:51:50.079Z",
+      "title": "DeepSeek R1 推論モデルを DeepSearch で使用する",
+      "excerpt": "DeepSearch には標準的な LLM と推論モデルのどちらが適しているのか？この投稿では、次のアクションを選択する DeepSearch の実装において DeepSeek-R1 を使用することについて検討しました。"
+    },
+    {
+      "lang": "it",
+      "slug": "using-deepseek-r1-reasoning-model-in-deepsearch",
+      "translated_at": "2025-04-01T07:51:50.078Z",
+      "title": "Utilizzare il Modello di Ragionamento DeepSeek R1 in DeepSearch",
+      "excerpt": "LLM standard o modello di ragionamento, quale è migliore per DeepSearch? In questo post, abbiamo esplorato l'utilizzo di DeepSeek-R1 nell'implementazione di DeepSearch per la scelta dell'azione successiva."
+    },
+    {
+      "lang": "es",
+      "slug": "using-deepseek-r1-reasoning-model-in-deepsearch",
+      "translated_at": "2025-04-01T07:51:50.077Z",
+      "title": "Usando el modelo de razonamiento DeepSeek R1 en DeepSearch",
+      "excerpt": "¿LLM estándar o modelo de razonamiento, cuál es mejor para DeepSearch? En esta publicación, exploramos el uso de DeepSeek-R1 en la implementación de DeepSearch para elegir la siguiente acción."
+    },
+    {
+      "lang": "fr",
+      "slug": "using-deepseek-r1-reasoning-model-in-deepsearch",
+      "translated_at": "2025-04-01T07:51:50.076Z",
+      "title": "Utilisation du modèle de raisonnement DeepSeek R1 dans DeepSearch",
+      "excerpt": "Le modèle LLM standard ou le modèle de raisonnement, lequel est meilleur pour DeepSearch ? Dans cet article, nous avons exploré l'utilisation de DeepSeek-R1 dans l'implémentation de DeepSearch pour choisir la prochaine action."
+    },
+    {
+      "lang": "de",
+      "slug": "using-deepseek-r1-reasoning-model-in-deepsearch",
+      "translated_at": "2025-04-01T07:51:50.075Z",
+      "title": "Verwendung des DeepSeek R1 Reasoning Model in DeepSearch",
+      "excerpt": "Standardmäßiges LLM oder Reasoning-Modell - was ist besser für DeepSearch? In diesem Beitrag haben wir die Verwendung von DeepSeek-R1 in der DeepSearch-Implementierung zur Auswahl der nächsten Aktion untersucht."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "using-deepseek-r1-reasoning-model-in-deepsearch",
+      "translated_at": "2025-04-01T07:51:50.073Z",
+      "title": "在 DeepSearch 中使用 DeepSeek R1 推理模型",
+      "excerpt": "標準 LLM 或推理模型，哪個更適合 DeepSearch？在這篇文章中，我們探討了在 DeepSearch 實作中使用 DeepSeek-R1 來選擇下一步行動。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "using-deepseek-r1-reasoning-model-in-deepsearch",
+      "translated_at": "2025-04-01T07:51:50.071Z",
+      "title": "在 DeepSearch 中使用 DeepSeek R1 推理模型",
+      "excerpt": "标准 LLM 还是推理模型，哪个更适合 DeepSearch？在这篇文章中，我们探索了在 DeepSearch 实现中使用 DeepSeek-R1 来选择下一步行动。"
+    },
+    {
+      "lang": "ru",
       "slug": "deepsearch-on-private-visual-documents-an-enterprise-case-study",
       "translated_at": "2025-03-31T11:49:37.514Z",
       "title": "DeepSearch для приватных визуальных документов: корпоративное исследование практического применения",
@@ -4789,5 +4852,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2025-03-31T11:49:37.515Z"
+  "updated_at": "2025-04-01T07:51:50.082Z"
 }
