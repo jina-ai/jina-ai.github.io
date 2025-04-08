@@ -2,6 +2,69 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "jina-reranker-m0-multilingual-multimodal-document-reranker",
+      "translated_at": "2025-04-08T11:23:28.142Z",
+      "title": "jina-reranker-m0: Многоязычный мультимодальный ранжировщик документов",
+      "excerpt": "Представляем jina-reranker-m0, наш новый мультиязычный мультимодальный ранжировщик для поиска визуальных документов, демонстрирующий передовую производительность в задачах поиска многоязычных длинных документов и программного кода."
+    },
+    {
+      "lang": "ko",
+      "slug": "jina-reranker-m0-multilingual-multimodal-document-reranker",
+      "translated_at": "2025-04-08T11:23:28.141Z",
+      "title": "jina-reranker-m0: 다국어 멀티모달 문서 재정렬기",
+      "excerpt": "시각적 문서를 검색하기 위한 새로운 다국어 멀티모달 리랭커인 jina-reranker-m0를 소개합니다. 다국어 긴 문서와 코드 검색 작업에서 최고 수준(SOTA)의 성능을 제공합니다."
+    },
+    {
+      "lang": "ja",
+      "slug": "jina-reranker-m0-multilingual-multimodal-document-reranker",
+      "translated_at": "2025-04-08T11:23:28.139Z",
+      "title": "jina-reranker-m0：多言語マルチモーダルドキュメントリランカー",
+      "excerpt": "視覚的なドキュメントを検索するための新しい多言語・マルチモーダルリランカー jina-reranker-m0 を紹介します。多言語の長文ドキュメントやコード検索タスクにおいて、最先端（SOTA）の性能を実現しています。"
+    },
+    {
+      "lang": "it",
+      "slug": "jina-reranker-m0-multilingual-multimodal-document-reranker",
+      "translated_at": "2025-04-08T11:23:28.138Z",
+      "title": "jina-reranker-m0: Reranker multilingue e multimodale per documenti",
+      "excerpt": "Presentiamo jina-reranker-m0, il nostro nuovo reranker multimodale multilingue per il recupero di documenti visivi, con prestazioni allo stato dell'arte su documenti lunghi multilingue e attività di ricerca codice."
+    },
+    {
+      "lang": "es",
+      "slug": "jina-reranker-m0-multilingual-multimodal-document-reranker",
+      "translated_at": "2025-04-08T11:23:28.137Z",
+      "title": "jina-reranker-m0: Reranqueador multilingüe y multimodal de documentos",
+      "excerpt": "Presentamos jina-reranker-m0, nuestro nuevo reranker multimodal multilingüe para recuperar documentos visuales, con rendimiento SOTA en documentos largos multilingües y tareas de búsqueda de código."
+    },
+    {
+      "lang": "fr",
+      "slug": "jina-reranker-m0-multilingual-multimodal-document-reranker",
+      "translated_at": "2025-04-08T11:23:28.135Z",
+      "title": "jina-reranker-m0 : Reclasseur multilingue et multimodal de documents",
+      "excerpt": "Présentation de jina-reranker-m0, notre nouveau réordonnanceur multimodal multilingue pour la recherche de documents visuels, offrant des performances à l'état de l'art sur la recherche de longs documents multilingues et de code source."
+    },
+    {
+      "lang": "de",
+      "slug": "jina-reranker-m0-multilingual-multimodal-document-reranker",
+      "translated_at": "2025-04-08T11:23:28.134Z",
+      "title": "jina-reranker-m0: Mehrsprachiger multimodaler Dokument-Reranker",
+      "excerpt": "Wir stellen jina-reranker-m0 vor, unseren neuen mehrsprachigen multimodalen Reranker für das Abrufen visueller Dokumente, mit SOTA-Performance bei mehrsprachigen langen Dokumenten und Code-Suchaufgaben."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "jina-reranker-m0-multilingual-multimodal-document-reranker",
+      "translated_at": "2025-04-08T11:23:28.132Z",
+      "title": "jina-reranker-m0：多語言多模態文件重排序器",
+      "excerpt": "介紹 jina-reranker-m0，這是我們新的多語言多模態重排序器，用於檢索視覺文件，在多語言長文件和程式碼搜尋任務上都達到了最先進的效能。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "jina-reranker-m0-multilingual-multimodal-document-reranker",
+      "translated_at": "2025-04-08T11:23:28.131Z",
+      "title": "jina-reranker-m0：多语言多模态文档重排模型",
+      "excerpt": "介绍我们的新型多语言多模态重排序器 jina-reranker-m0，它专门用于视觉文档检索，在多语言长文档和代码搜索任务中达到了最先进的性能水平。"
+    },
+    {
+      "lang": "ru",
       "slug": "using-deepseek-r1-reasoning-model-in-deepsearch",
       "translated_at": "2025-04-01T07:51:50.081Z",
       "title": "Использование модели рассуждений DeepSeek R1 в DeepSearch",
@@ -4852,5 +4915,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2025-04-01T07:51:50.082Z"
+  "updated_at": "2025-04-08T11:23:28.143Z"
 }
