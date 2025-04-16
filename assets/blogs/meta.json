@@ -2,6 +2,69 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "on-the-size-bias-of-text-embeddings-and-its-impact-in-search",
+      "translated_at": "2025-04-16T01:53:10.935Z",
+      "title": "О влиянии размерного смещения текстовых эмбеддингов на поисковые результаты",
+      "excerpt": "Размерное искажение описывает то, как длина текстовых данных влияет на оценку схожести, независимо от семантической релевантности. Это объясняет, почему поисковые системы иногда возвращают длинные, малорелевантные документы вместо более коротких и точных совпадений с вашим запросом."
+    },
+    {
+      "lang": "ko",
+      "slug": "on-the-size-bias-of-text-embeddings-and-its-impact-in-search",
+      "translated_at": "2025-04-16T01:53:10.934Z",
+      "title": "텍스트 임베딩의 크기 편향과 검색에서의 영향",
+      "excerpt": "크기 편향이란 의미적 관련성과 관계없이 텍스트 입력의 길이가 유사도에 영향을 미치는 현상을 말합니다. 이는 검색 시스템이 때때로 쿼리와 더 정확하게 일치하는 짧은 문서 대신 길지만 관련성이 낮은 문서를 반환하는 이유를 설명합니다."
+    },
+    {
+      "lang": "ja",
+      "slug": "on-the-size-bias-of-text-embeddings-and-its-impact-in-search",
+      "translated_at": "2025-04-16T01:53:10.933Z",
+      "title": "テキスト埋め込みのサイズバイアスと検索への影響について",
+      "excerpt": "サイズバイアスとは、意味的な関連性に関係なく、テキスト入力の長さが類似性に影響を与える現象を指します。これは、検索システムが、クエリにより正確に一致する短いテキストではなく、関連性の低い長い文書を返してしまう理由を説明するものです。"
+    },
+    {
+      "lang": "it",
+      "slug": "on-the-size-bias-of-text-embeddings-and-its-impact-in-search",
+      "translated_at": "2025-04-16T01:53:10.932Z",
+      "title": "Sull'influenza della distorsione dimensionale degli embedding di testo e il suo impatto sulla ricerca",
+      "excerpt": "Il bias della dimensione si riferisce a come la lunghezza degli input testuali influenza la similarità, indipendentemente dalla rilevanza semantica. Questo spiega perché i sistemi di ricerca a volte restituiscono documenti lunghi e poco pertinenti invece di corrispondenze più brevi e precise alla query."
+    },
+    {
+      "lang": "es",
+      "slug": "on-the-size-bias-of-text-embeddings-and-its-impact-in-search",
+      "translated_at": "2025-04-16T01:53:10.931Z",
+      "title": "Sobre el sesgo de tamaño en los embeddings de texto y su impacto en la búsqueda",
+      "excerpt": "El sesgo de tamaño se refiere a cómo la longitud de los textos de entrada afecta la similitud, independientemente de la relevancia semántica. Explica por qué los sistemas de búsqueda a veces devuelven documentos largos y apenas relevantes en lugar de coincidencias más cortas y precisas para tu consulta."
+    },
+    {
+      "lang": "fr",
+      "slug": "on-the-size-bias-of-text-embeddings-and-its-impact-in-search",
+      "translated_at": "2025-04-16T01:53:10.930Z",
+      "title": "De l'Impact du Biais de Taille des Plongements de Texte et son Effet sur la Recherche",
+      "excerpt": "Le biais de taille fait référence à la façon dont la longueur des textes affecte la similarité, indépendamment de la pertinence sémantique. Cela explique pourquoi les systèmes de recherche renvoient parfois des documents longs à peine pertinents plutôt que des correspondances plus courtes et plus précises à votre requête."
+    },
+    {
+      "lang": "de",
+      "slug": "on-the-size-bias-of-text-embeddings-and-its-impact-in-search",
+      "translated_at": "2025-04-16T01:53:10.929Z",
+      "title": "Über den Größen-Bias von Text-Embeddings und dessen Einfluss auf die Suche",
+      "excerpt": "Die Größenverzerrung (Size Bias) beschreibt, wie die Länge von Texteingaben die Ähnlichkeit beeinflusst, unabhängig von der semantischen Relevanz. Dies erklärt, warum Suchsysteme manchmal lange, kaum relevante Dokumente anstelle von kürzeren, präziseren Übereinstimmungen mit Ihrer Suchanfrage zurückgeben."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "on-the-size-bias-of-text-embeddings-and-its-impact-in-search",
+      "translated_at": "2025-04-16T01:53:10.927Z",
+      "title": "文本嵌入的大小偏差及其對搜尋的影響",
+      "excerpt": "長度偏差指的是文本輸入的長度如何影響相似度，而與語意相關性無關。這解釋了為什麼搜尋系統有時會返回冗長但相關性不高的文件，而不是較短但更精確符合查詢的內容。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "on-the-size-bias-of-text-embeddings-and-its-impact-in-search",
+      "translated_at": "2025-04-16T01:53:10.926Z",
+      "title": "嵌入向量长度偏差及其对搜索的影响",
+      "excerpt": "大小偏差指的是文本输入的长度如何影响相似度，而不考虑语义相关性。这解释了为什么搜索系统有时会返回冗长但相关性不高的文档，而不是与你的查询更精确匹配的简短内容。"
+    },
+    {
+      "lang": "ru",
       "slug": "jina-reranker-m0-multilingual-multimodal-document-reranker",
       "translated_at": "2025-04-08T11:23:28.142Z",
       "title": "jina-reranker-m0: Многоязычный мультимодальный ранжировщик документов",
@@ -4915,5 +4978,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2025-04-08T11:23:28.143Z"
+  "updated_at": "2025-04-16T01:53:10.935Z"
 }
