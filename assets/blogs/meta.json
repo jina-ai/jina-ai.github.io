@@ -2,6 +2,69 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "model-soups-recipe-for-embeddings",
+      "translated_at": "2025-05-07T18:01:07.696Z",
+      "title": "Рецепт \"супа\" моделей для эмбеддингов",
+      "excerpt": "Повысьте надежность и производительность с помощью model soups: усреднение весов. Никаких дополнительных затрат, лучшие результаты."
+    },
+    {
+      "lang": "ko",
+      "slug": "model-soups-recipe-for-embeddings",
+      "translated_at": "2025-05-07T18:01:07.695Z",
+      "title": "임베딩을 위한 Model Soup 레시피",
+      "excerpt": "모델 수프(model soups)로 견고성과 성능을 향상시키세요: 가중치 평균화. 추가 비용 없이 더 나은 결과를 얻을 수 있습니다."
+    },
+    {
+      "lang": "it",
+      "slug": "model-soups-recipe-for-embeddings",
+      "translated_at": "2025-05-07T18:01:07.693Z",
+      "title": "La ricetta di Model Soup per gli Embeddings",
+      "excerpt": "Aumenta la robustezza e le prestazioni con le model soups: media dei pesi. Nessun costo aggiuntivo, risultati migliori."
+    },
+    {
+      "lang": "ja",
+      "slug": "model-soups-recipe-for-embeddings",
+      "translated_at": "2025-05-07T18:01:07.693Z",
+      "title": "埋め込みに対する Model Soup のレシピ",
+      "excerpt": "モデルスープでロバスト性とパフォーマンスを向上：重みを平均化します。追加コストなしで、より良い結果が得られます。"
+    },
+    {
+      "lang": "es",
+      "slug": "model-soups-recipe-for-embeddings",
+      "translated_at": "2025-05-07T18:01:07.692Z",
+      "title": "La receta de Model Soup para las incrustaciones",
+      "excerpt": "Mejore la robustez y el rendimiento con sopas de modelos: promediando pesos. Sin costo adicional, mejores resultados."
+    },
+    {
+      "lang": "fr",
+      "slug": "model-soups-recipe-for-embeddings",
+      "translated_at": "2025-05-07T18:01:07.690Z",
+      "title": "La recette de la soupe de modèles pour les embeddings",
+      "excerpt": "Améliorez la robustesse et les performances avec les soupes de modèles : moyenne des poids. Aucun coût supplémentaire, de meilleurs résultats."
+    },
+    {
+      "lang": "de",
+      "slug": "model-soups-recipe-for-embeddings",
+      "translated_at": "2025-05-07T18:01:07.689Z",
+      "title": "Model Soup’s Rezept für Embeddings",
+      "excerpt": "Verbessern Sie Robustheit und Leistung mit Model Soups: Gewichte mitteln. Keine zusätzlichen Kosten, bessere Ergebnisse."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "model-soups-recipe-for-embeddings",
+      "translated_at": "2025-05-07T18:01:07.688Z",
+      "title": "Model Soup 的 Embedding 食譜",
+      "excerpt": "使用模型湯（Model Soups）增強穩健性和效能：權重平均。 無需額外成本，效果更佳。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "model-soups-recipe-for-embeddings",
+      "translated_at": "2025-05-07T18:01:07.686Z",
+      "title": "Model Soup 的 Embedding 配方",
+      "excerpt": "使用模型汤 (Model Soups) 提升稳健性和性能：平均权重。 无需额外成本，效果更佳。"
+    },
+    {
+      "lang": "ru",
       "slug": "on-the-size-bias-of-text-embeddings-and-its-impact-in-search",
       "translated_at": "2025-04-16T01:53:10.935Z",
       "title": "О влиянии размерного смещения текстовых эмбеддингов на поисковые результаты",
@@ -4978,5 +5041,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2025-04-16T01:53:10.935Z"
+  "updated_at": "2025-05-07T18:01:07.696Z"
 }
