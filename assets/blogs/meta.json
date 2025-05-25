@@ -2,6 +2,69 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "fair-scoring-for-multimodal-documents-with-jina-reranker-m0",
+      "translated_at": "2025-05-25T06:37:17.672Z",
+      "title": "Справедливая оценка для мультимодальных документов с помощью jina-reranker-m0",
+      "excerpt": "Текстовое сходство: 0.7. Сходство изображений: 0.5. Какой документ более релевантен? Вы буквально не можете сказать — и это основная проблема, ломающая мультимодальный поиск. Мы решаем ее с помощью унифицированного переранжирования (unified reranking)."
+    },
+    {
+      "lang": "ko",
+      "slug": "fair-scoring-for-multimodal-documents-with-jina-reranker-m0",
+      "translated_at": "2025-05-25T06:37:17.671Z",
+      "title": "jina-reranker-m0으로 멀티모달 문서에 대한 공정한 점수 매기기",
+      "excerpt": "텍스트 유사성: 0.7. 이미지 유사성: 0.5. 어떤 문서가 더 관련성이 높을까요? 말 그대로 알 수 없습니다. 이것이 바로 멀티모달 검색을 망치는 핵심 문제입니다. 당사는 통합 재정렬 (Reranking)로 이 문제를 해결합니다."
+    },
+    {
+      "lang": "ja",
+      "slug": "fair-scoring-for-multimodal-documents-with-jina-reranker-m0",
+      "translated_at": "2025-05-25T06:37:17.670Z",
+      "title": "jina-reranker-m0 を使用したマルチモーダルドキュメントのフェアなスコアリング",
+      "excerpt": "テキスト類似度：0.7。画像類似度：0.5。どちらのドキュメントがより関連性が高いでしょうか？文字通り判断できません。それが、マルチモーダル検索を阻害している根本的な問題です。私たちは、統一された重排器 (Reranker) によってそれを解決します。"
+    },
+    {
+      "lang": "it",
+      "slug": "fair-scoring-for-multimodal-documents-with-jina-reranker-m0",
+      "translated_at": "2025-05-25T06:37:17.669Z",
+      "title": "Punteggio equo per documenti multimodali con jina-reranker-m0",
+      "excerpt": "Similarità del testo: 0.7. Similarità dell'immagine: 0.5. Quale documento è più rilevante? Letteralmente, non si riesce a capirlo—e questo è il problema principale che sta mandando in tilt la ricerca multimodale. Lo risolviamo con il riordinamento unificato (unified reranking)."
+    },
+    {
+      "lang": "es",
+      "slug": "fair-scoring-for-multimodal-documents-with-jina-reranker-m0",
+      "translated_at": "2025-05-25T06:37:17.667Z",
+      "title": "Puntuación Justa para Documentos Multimodales con jina-reranker-m0",
+      "excerpt": "Similitud de texto: 0.7. Similitud de imagen: 0.5. ¿Qué documento es más relevante? Literalmente no se puede saber, y ese es el problema principal que está afectando a la búsqueda multimodal. Lo solucionamos con la función de reordenamiento unificada (unified reranking)."
+    },
+    {
+      "lang": "fr",
+      "slug": "fair-scoring-for-multimodal-documents-with-jina-reranker-m0",
+      "translated_at": "2025-05-25T06:37:17.666Z",
+      "title": "Notation équitable pour les documents multimodaux avec jina-reranker-m0",
+      "excerpt": "Similarité textuelle : 0,7. Similarité d’image : 0,5. Quel document est le plus pertinent ? Impossible de le dire, et c’est là le problème fondamental qui entrave la recherche multimodale. Nous le résolvons avec le réordonnancement unifié (unified reranking)."
+    },
+    {
+      "lang": "de",
+      "slug": "fair-scoring-for-multimodal-documents-with-jina-reranker-m0",
+      "translated_at": "2025-05-25T06:37:17.665Z",
+      "title": "Faires Scoring für Multimodale Dokumente mit jina-reranker-m0",
+      "excerpt": "Textähnlichkeit: 0.7. Bildähnlichkeit: 0.5. Welches Dokument ist relevanter? Sie können es buchstäblich nicht sagen – und das ist das Kernproblem, das die multimodale Suche behindert. Wir lösen es mit Unified Reranking (einheitlicher Reranker)."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "fair-scoring-for-multimodal-documents-with-jina-reranker-m0",
+      "translated_at": "2025-05-25T06:37:17.664Z",
+      "title": "使用 jina-reranker-m0 為多模態文件進行公平評分",
+      "excerpt": "文本相似度：0.7。圖片相似度：0.5。哪個文件更相關？你根本無法判斷 —— 而這正是打破多模態搜尋的核心問題。我們透過統一重排 (Reranker) 來解決它。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "fair-scoring-for-multimodal-documents-with-jina-reranker-m0",
+      "translated_at": "2025-05-25T06:37:17.662Z",
+      "title": "使用 jina-reranker-m0 对多模态文档进行公平评分",
+      "excerpt": "文本相似度：0.7。图像相似度：0.5。哪个文档更相关？你根本无法判断——而这正是打破多模态搜索的核心问题。我们用统一重排 (unified reranking) 解决它。"
+    },
+    {
+      "lang": "ru",
       "slug": "model-soups-recipe-for-embeddings",
       "translated_at": "2025-05-07T18:01:07.696Z",
       "title": "Рецепт \"супа\" моделей для эмбеддингов",
@@ -5041,5 +5104,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2025-05-07T18:01:07.696Z"
+  "updated_at": "2025-05-25T06:37:17.672Z"
 }
