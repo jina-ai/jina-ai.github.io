@@ -2,6 +2,69 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "what-we-learned-at-iclr2025",
+      "translated_at": "2025-05-25T22:18:33.774Z",
+      "title": "Что мы узнали на ICLR2025",
+      "excerpt": "Мы собрали несколько наиболее интересных статей на ICLR 2025, посвященных TIPS, FlexPrefill, Zero-Shot Rerankers, SVD-LLM, Hymba и т. д."
+    },
+    {
+      "lang": "ko",
+      "slug": "what-we-learned-at-iclr2025",
+      "translated_at": "2025-05-25T22:18:33.773Z",
+      "title": "ICLR2025에서 배운 점",
+      "excerpt": "ICLR 2025에서 가장 흥미로운 논문들을 모았습니다. TIPS, FlexPrefill, 제로샷 재정렬기 (Zero-Shot Rerankers), SVD-LLM, Hymba 등이 있습니다."
+    },
+    {
+      "lang": "ja",
+      "slug": "what-we-learned-at-iclr2025",
+      "translated_at": "2025-05-25T22:18:33.772Z",
+      "title": "ICLR2025で学んだこと",
+      "excerpt": "ICLR 2025で最も興味深い論文をいくつか集めました。TIPS、FlexPrefill、ゼロショット重排器 (Zero-Shot Rerankers)、SVD-LLM、Hymbaなどが含まれています。"
+    },
+    {
+      "lang": "it",
+      "slug": "what-we-learned-at-iclr2025",
+      "translated_at": "2025-05-25T22:18:33.770Z",
+      "title": "Cosa abbiamo imparato all'ICLR2025",
+      "excerpt": "Abbiamo raccolto alcuni dei documenti più interessanti di ICLR 2025, tra cui TIPS, FlexPrefill, Reranker Zero-Shot (Reranker Zero-Shot), SVD-LLM, Hymba ecc."
+    },
+    {
+      "lang": "es",
+      "slug": "what-we-learned-at-iclr2025",
+      "translated_at": "2025-05-25T22:18:33.769Z",
+      "title": "Lo que aprendimos en ICLR2025",
+      "excerpt": "Recopilamos algunos de los artículos más interesantes de ICLR 2025, que incluyen TIPS, FlexPrefill, Reordenadores de Cero Disparos (Zero-Shot Rerankers), SVD-LLM, Hymba, etc."
+    },
+    {
+      "lang": "fr",
+      "slug": "what-we-learned-at-iclr2025",
+      "translated_at": "2025-05-25T22:18:33.768Z",
+      "title": "Ce que nous avons appris à ICLR2025\n{{{output start}}}",
+      "excerpt": "Nous avons rassemblé quelques-uns des articles les plus intéressants de l'ICLR 2025, notamment TIPS, FlexPrefill, les réordonnateurs zéro-shot (Zero-Shot Rerankers), SVD-LLM, Hymba, etc."
+    },
+    {
+      "lang": "de",
+      "slug": "what-we-learned-at-iclr2025",
+      "translated_at": "2025-05-25T22:18:33.767Z",
+      "title": "Was wir auf der ICLR2025 gelernt haben",
+      "excerpt": "Wir haben einige der interessantesten Artikel auf der ICLR 2025 zusammengestellt, darunter TIPS, FlexPrefill, Zero-Shot Reranker (Zero-Shot 重排器), SVD-LLM, Hymba usw."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "what-we-learned-at-iclr2025",
+      "translated_at": "2025-05-25T22:18:33.764Z",
+      "title": "ICLR2025 大會心得",
+      "excerpt": "我們整理了一些 ICLR 2025 中最有趣的論文，包括 TIPS、FlexPrefill、零樣本重排器 (Zero-Shot Rerankers)、SVD-LLM、Hymba 等。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "what-we-learned-at-iclr2025",
+      "translated_at": "2025-05-25T22:18:33.763Z",
+      "title": "我们在 ICLR2025 上学到了什么",
+      "excerpt": "我们收集了一些 ICLR 2025 中最有趣的论文，包括 TIPS、FlexPrefill、零样本重排器 (Zero-Shot Rerankers)、SVD-LLM、Hymba 等。"
+    },
+    {
+      "lang": "ru",
       "slug": "fair-scoring-for-multimodal-documents-with-jina-reranker-m0",
       "translated_at": "2025-05-25T06:37:17.672Z",
       "title": "Справедливая оценка для мультимодальных документов с помощью jina-reranker-m0",
@@ -5104,5 +5167,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2025-05-25T06:37:17.672Z"
+  "updated_at": "2025-05-25T22:18:33.775Z"
 }
