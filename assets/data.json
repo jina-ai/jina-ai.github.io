@@ -6,12 +6,12 @@
     "dalle-flow": "2.8K",
     "discoart": "3.8K",
     "clip-as-service": "12.7K",
-    "jcloud": "299",
+    "jcloud": "300",
     "langchain-serve": "1.6K",
     "thinkgpt": "1.6K",
     "dev-gpt": "1.9K",
     "rungpt": "162",
-    "vectordb": "615",
+    "vectordb": "616",
     "jerboa": "41",
     "total": "51.7K"
   }

@@ -2,6 +2,69 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "correlations-vibe-testing-embeddings-in-gui",
+      "translated_at": "2025-05-28T05:39:36.694Z",
+      "title": "Корреляции: Vibe-Testing 向量模型 (Embeddings) в GUI",
+      "excerpt": "Несмотря на наше серьезное отношение к MTEB, мы также любим проверять атмосферу. Correlations – это простой графический интерфейс, который мы используем для проверки цитирования в DeepSearch, отладки позднего чанкинга и проверки атмосферы 向量模型 (embeddings). Теперь он с открытым исходным кодом."
+    },
+    {
+      "lang": "ko",
+      "slug": "correlations-vibe-testing-embeddings-in-gui",
+      "translated_at": "2025-05-28T05:39:36.693Z",
+      "title": "상관 관계: GUI에서 向量模型 (Embeddings) 분위기 테스트하기",
+      "excerpt": "MTEB에 진심인 만큼, 분위기 테스트도 좋아합니다. Correlations는 DeepSearch에서 인용의 유효성을 검사하고, 늦은 청킹을 디버깅하고, 向量模型 (Embeddings)의 분위기를 테스트하는 데 사용하는 간단한 GUI입니다. 이제 오픈 소스입니다."
+    },
+    {
+      "lang": "ja",
+      "slug": "correlations-vibe-testing-embeddings-in-gui",
+      "translated_at": "2025-05-28T05:39:36.692Z",
+      "title": "相関関係：GUI でのベクトルモデル (Embeddings) のバイブテスト",
+      "excerpt": "MTEBを真剣に考えているのと同じくらい、雰囲気テストも大好きです。Correlationsは、DeepSearchでの引用の検証、遅延チャンクのデバッグ、および埋め込み (Embeddings) の雰囲気テストに使用するシンプルなGUIです。今回、オープンソース化されました。"
+    },
+    {
+      "lang": "it",
+      "slug": "correlations-vibe-testing-embeddings-in-gui",
+      "translated_at": "2025-05-28T05:39:36.691Z",
+      "title": "Correlazioni: test di risonanza dei vettori modello (Embeddings) in GUI",
+      "excerpt": "Pur essendo molto seri riguardo a MTEB, amiamo anche testare le sensazioni. Correlations è una semplice GUI che utilizziamo per convalidare le citazioni in DeepSearch, per il debug del late chunking e per testare le sensazioni dei vettori modello (Embeddings). Ora è open source."
+    },
+    {
+      "lang": "es",
+      "slug": "correlations-vibe-testing-embeddings-in-gui",
+      "translated_at": "2025-05-28T05:39:36.690Z",
+      "title": "Correlaciones: Prueba de ambiente de los Vectores Modelo (Embeddings) en la GUI",
+      "excerpt": "Tan serios como somos con MTEB, también nos encanta probar la vibra. Correlations es una sencilla interfaz gráfica de usuario (GUI) que utilizamos para validar citas en DeepSearch, depurar la fragmentación tardía y probar la vibra de los vectores modelo (Embeddings). Ahora es de código abierto."
+    },
+    {
+      "lang": "fr",
+      "slug": "correlations-vibe-testing-embeddings-in-gui",
+      "translated_at": "2025-05-28T05:39:36.689Z",
+      "title": "Corrélations : Tester l’ambiance des vecteurs modèles (Embeddings) dans l’interface utilisateur graphique (GUI)",
+      "excerpt": "Aussi sérieux que nous soyons au sujet de MTEB, nous aimons également tester l'ambiance. Correlations est une simple interface graphique que nous utilisons pour valider les citations dans DeepSearch, déboguer le chunking tardif et tester l'ambiance des 向量模型 (Embeddings). Maintenant, c'est open source."
+    },
+    {
+      "lang": "de",
+      "slug": "correlations-vibe-testing-embeddings-in-gui",
+      "translated_at": "2025-05-28T05:39:36.688Z",
+      "title": "Korrelationen: Vibe-Test von 向量modellen (Embeddings) in GUI",
+      "excerpt": "So ernst wir es mit MTEB meinen, so sehr lieben wir auch Vibe-Tests. Correlations ist eine einfache GUI, die wir zur Validierung von Zitaten in DeepSearch, zur Fehlersuche bei spätem Chunking und für Vibe-Tests von Vektormodellen (Embeddings) verwenden. Jetzt ist sie Open-Source."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "correlations-vibe-testing-embeddings-in-gui",
+      "translated_at": "2025-05-28T05:39:36.686Z",
+      "title": "關聯性：在 GUI 中進行向量模型 (Embeddings) 的氛圍測試",
+      "excerpt": "雖然我們對 MTEB 非常重視，但我們也很喜歡做氛圍測試 (vibe-testing)。Correlations 是一個簡單的 GUI，我們用它來驗證 DeepSearch 中的引用、偵錯延遲分塊 (late chunking) 以及氛圍測試 向量模型 (Embeddings)。現在它已經開源了。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "correlations-vibe-testing-embeddings-in-gui",
+      "translated_at": "2025-05-28T05:39:36.685Z",
+      "title": "相关性：在 GUI 中进行向量模型 (Embeddings) 的氛围测试",
+      "excerpt": "虽然我们对 MTEB 非常重视，但我们也喜欢进行体验测试。 Correlations 是一个简单的 GUI，我们用它来验证 DeepSearch 中的引用、调试延迟分块以及体验测试向量模型 (Embeddings)。现在它是开源的。"
+    },
+    {
+      "lang": "ru",
       "slug": "what-we-learned-at-iclr2025",
       "translated_at": "2025-05-25T22:18:33.774Z",
       "title": "Что мы узнали на ICLR2025",
@@ -5167,5 +5230,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2025-05-25T22:18:33.775Z"
+  "updated_at": "2025-05-28T05:39:36.694Z"
 }
