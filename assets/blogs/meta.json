@@ -4533,7 +4533,7 @@
       "lang": "zh-CN",
       "slug": "late-chunking-in-long-context-embedding-models",
       "translated_at": "2024-11-04T03:30:35.130Z",
-      "title": "长文本表征模型中的后期分块",
+      "title": "长文本表征模型中的迟分技术",
       "excerpt": "在保留上下文信息的同时对长文档进行分块是一项挑战。我们介绍了\"Late Chunking\"，它利用长上下文嵌入模型生成上下文化的分块嵌入，以实现更好的检索应用。"
     },
     {

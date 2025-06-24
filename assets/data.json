@@ -10,9 +10,9 @@
     "langchain-serve": "1.6K",
     "thinkgpt": "1.6K",
     "dev-gpt": "1.9K",
-    "rungpt": "164",
-    "vectordb": "618",
+    "rungpt": "166",
+    "vectordb": "620",
     "jerboa": "42",
-    "total": "51.7K"
+    "total": "51.8K"
   }
 }
