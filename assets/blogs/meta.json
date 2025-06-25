@@ -2,6 +2,69 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "jina-embeddings-v4-universal-embeddings-for-multimodal-multilingual-retrieval",
+      "translated_at": "2025-06-25T05:00:23.453Z",
+      "title": "Jina Embeddings v4: Универсальные векторные модели (Embeddings) для мультимодального многоязыкового поиска",
+      "excerpt": "Jina Embeddings v4 — это универсальная модель векторного представления (Embeddings) с 3,8 миллиардами параметров для мультимодального и многоязыкового поиска, которая поддерживает вывод как одно-, так и многовекторных векторных представлений (Embeddings)."
+    },
+    {
+      "lang": "ko",
+      "slug": "jina-embeddings-v4-universal-embeddings-for-multimodal-multilingual-retrieval",
+      "translated_at": "2025-06-25T05:00:23.452Z",
+      "title": "Jina Embeddings v4: 멀티모달 다국어 검색을 위한 유니버설 벡터 모델 (Embeddings)",
+      "excerpt": "Jina 向量 모델 (Embeddings) v4는 38억 개의 파라미터를 가진 다중 모드 및 다국어 검색을 위한 범용 向量 모델 (embedding model)로, 단일 벡터 및 다중 벡터 向量 모델 (embedding) 출력을 모두 지원합니다."
+    },
+    {
+      "lang": "ja",
+      "slug": "jina-embeddings-v4-universal-embeddings-for-multimodal-multilingual-retrieval",
+      "translated_at": "2025-06-25T05:00:23.451Z",
+      "title": "Jina Embeddings v4：マルチモーダル多言語検索のためのユニバーサルなベクトルモデル (Embeddings)",
+      "excerpt": "Jina 向量模型 (Embeddings) v4 は、38 億のパラメータを持つユニバーサルな 向量模型 (Embedding) モデルであり、マルチモーダルおよび多言語の検索に対応し、シングルベクトルとマルチベクトルの 向量模型 (Embedding) 出力をサポートします。"
+    },
+    {
+      "lang": "it",
+      "slug": "jina-embeddings-v4-universal-embeddings-for-multimodal-multilingual-retrieval",
+      "translated_at": "2025-06-25T05:00:23.450Z",
+      "title": "Jina Embeddings v4: 向量模型 (Embeddings) universali per il recupero multimodale multilingue",
+      "excerpt": "Jina Embeddings v4 è un modello di 向量模型 (Embeddings) universale da 3,8 miliardi di parametri per il recupero multimodale e multilingue che supporta sia output di 向量模型 (Embeddings) a vettore singolo che a vettore multiplo."
+    },
+    {
+      "lang": "es",
+      "slug": "jina-embeddings-v4-universal-embeddings-for-multimodal-multilingual-retrieval",
+      "translated_at": "2025-06-25T05:00:23.449Z",
+      "title": "Jina Embeddings v4：向量模型 (Embeddings) 通用模型，适用于多模态多语言检索",
+      "excerpt": "Jina Embeddings v4 es un modelo de \"向量模型 (Embeddings)\" universal de 3.8 mil millones de parámetros para la recuperación multimodal y multilingüe que admite salidas de \"向量模型 (Embeddings)\" de un solo vector y de múltiples vectores."
+    },
+    {
+      "lang": "fr",
+      "slug": "jina-embeddings-v4-universal-embeddings-for-multimodal-multilingual-retrieval",
+      "translated_at": "2025-06-25T05:00:23.448Z",
+      "title": "Jina Embeddings v4 : Vecteurs universels pour la recherche multimodale et multilingue",
+      "excerpt": "Jina Embeddings v4 est un modèle d'向量模型 (Embeddings) universel de 3,8 milliards de paramètres pour la recherche multimodale et multilingue qui prend en charge les sorties d'向量模型 (Embeddings) à vecteur unique et à vecteurs multiples."
+    },
+    {
+      "lang": "de",
+      "slug": "jina-embeddings-v4-universal-embeddings-for-multimodal-multilingual-retrieval",
+      "translated_at": "2025-06-25T05:00:23.446Z",
+      "title": "Jina Embeddings v4: Universelle Vektor Modelle (Embeddings) für Multimodale, Mehrsprachige Suche",
+      "excerpt": "Jina Embeddings v4 ist ein universelles 向量模型 (Embeddings)-Modell mit 3,8 Milliarden Parametern für multimodale und mehrsprachige Suche, das sowohl Single-Vektor- als auch Multi-Vektor-Embedding-Ausgaben unterstützt."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "jina-embeddings-v4-universal-embeddings-for-multimodal-multilingual-retrieval",
+      "translated_at": "2025-06-25T05:00:23.444Z",
+      "title": "Jina 向量模型 v4：適用於多模態多語檢索的通用向量模型 (Embeddings)",
+      "excerpt": "Jina 向量模型 (Embeddings) v4 是一個 38 億參數的通用向量模型 (Embedding model)，適用於多模和多語言檢索，支援單一向量和多向量向量模型 (Embedding) 輸出。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "jina-embeddings-v4-universal-embeddings-for-multimodal-multilingual-retrieval",
+      "translated_at": "2025-06-25T05:00:23.443Z",
+      "title": "Jina 向量模型 (Embeddings) v4：用于多模态多语言检索的通用向量模型 (Embeddings)",
+      "excerpt": "Jina 向量模型 (Embeddings) v4 是一个拥有 38 亿参数的通用向量模型 (embedding model)，用于多模态和多语言检索，支持单向量和多向量向量模型 (embedding) 输出。"
+    },
+    {
+      "lang": "ru",
       "slug": "correlations-vibe-testing-embeddings-in-gui",
       "translated_at": "2025-05-28T05:39:36.694Z",
       "title": "Корреляции: Vibe-Testing 向量模型 (Embeddings) в GUI",
@@ -5230,5 +5293,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2025-05-28T05:39:36.694Z"
+  "updated_at": "2025-06-25T05:00:23.454Z"
 }
