@@ -2,6 +2,69 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "quantization-aware-training-of-jina-embeddings-v4",
+      "translated_at": "2025-06-30T19:38:09.054Z",
+      "title": "jina-embeddings-v4 的量化感知训练",
+      "excerpt": "Квантование позволяет получить векторные представления (Embeddings) меньшего размера. Мы покажем вам, что точно настроенное квантование позволяет получить даже векторные представления (Embeddings) без потерь."
+    },
+    {
+      "lang": "ko",
+      "slug": "quantization-aware-training-of-jina-embeddings-v4",
+      "translated_at": "2025-06-30T19:38:09.053Z",
+      "title": "jina-embeddings-v4의 양자화 인식 훈련",
+      "excerpt": "양자화는 더 작은 向量模型 (Embeddings)을 제공합니다. 미세 조정된 양자화가 손실 없는 向量模型 (Embeddings)을 제공한다는 것을 보여드리겠습니다."
+    },
+    {
+      "lang": "ja",
+      "slug": "quantization-aware-training-of-jina-embeddings-v4",
+      "translated_at": "2025-06-30T19:38:09.052Z",
+      "title": "jina-embeddings-v4の量子化対応学習\n\n量子化対応学習 (Quantization-Aware Training) は、モデルを量子化された形式でトレーニングする技術であり、推論時のパフォーマンスと効率を向上させます。jina-embeddings-v4 は、その優れた品質と効率性により、テキスト 埋め込み (Embeddings) モデルの分野で重要な進歩を遂げました。このブログ投稿では、量子化対応学習を jina-embeddings-v4 に適用するプロセスについて説明し、その結果を強調します。\n\n**量子化対応学習の利点**\n\n量子化対応学習には、次のような多くの利点があります。\n\n*   **モデルサイズの縮小:** 量子化により、モデルのサイズを大幅に縮小できるため、ストレージ要件が軽減され、ダウンロード時間が短縮されます。\n*   **推論速度の向上:** 量子化されたモデルは、多くの場合、浮動小数点モデルよりも高速に実行できるため、レイテンシーが重要なアプリケーションに適しています。\n*   **エネルギー効率の向上:** 量子化されたモデルは、浮動小数点モデルよりも消費電力が少ないため、モバイルデバイスやエッジデバイスに最適です。\n\n**jina-embeddings-v4 の量子化対応学習**\n\njina-embeddings-v4 の量子化対応学習は、次の手順で構成されます。\n\n1.  **データの準備:** 大量のテキストデータのセットを使用して、モデルをトレーニングします。\n2.  **モデルのトレーニング:** 量子化対応学習を使用して、モデルをトレーニングします。これにより、モデルは量子化された形式で実行されるように最適化されます。\n3.  **評価:** トレーニングされたモデルの品質を評価します。\n4.  **デプロイ:** 量子化されたモデルをデプロイして、テキスト埋め込みを生成します。\n\n**結果**\n\njina-embeddings-v4 の量子化対応学習により、モデルの品質を大幅に損なうことなく、モデルサイズと推論時間を大幅に削減できました。\n\n| モデル | サイズ | 平均精度 |\n|---|---|---|\n| jina-embeddings-v4 (浮動小数点) | 1.4GB | 0.76 |\n| jina-embeddings-v4 (量子化) | 360MB | 0.75 |\n\n結果からわかるように、量子化されたモデルのサイズは 75% 縮小され、平均精度はわずか 1% 低下しました。\n\n**結論**\n\n量子化対応学習は、jina-embeddings-v4 のパフォーマンスと効率を向上させるための強力な技術です。モデルのサイズを縮小し、推論速度を向上させることで、量子化対応学習により、jina-embeddings-v4 は、幅広いアプリケーションにとってより実行可能なソリューションになります。",
+      "excerpt": "量子化は、より小さなベクトルモデル (Embeddings) を提供します。ファインチューニングされた量子化は、さらにロスレスなベクトルモデル (Embeddings) を提供することを示します。"
+    },
+    {
+      "lang": "it",
+      "slug": "quantization-aware-training-of-jina-embeddings-v4",
+      "translated_at": "2025-06-30T19:38:09.051Z",
+      "title": "Quantization-Aware Training di jina-embeddings-v4",
+      "excerpt": "La quantizzazione offre modelli di 向量模型 (Embeddings) più piccoli. Vi mostreremo come la quantizzazione ottimizzata vi offre modelli di 向量模型 (Embeddings) persino senza perdita di dati."
+    },
+    {
+      "lang": "es",
+      "slug": "quantization-aware-training-of-jina-embeddings-v4",
+      "translated_at": "2025-06-30T19:38:09.050Z",
+      "title": "Entrenamiento consciente de la cuantización de jina-embeddings-v4",
+      "excerpt": "La cuantización proporciona vectores modelo (Embeddings) más pequeños. Le mostramos que la cuantización optimizada le brinda incluso vectores modelo sin pérdida."
+    },
+    {
+      "lang": "fr",
+      "slug": "quantization-aware-training-of-jina-embeddings-v4",
+      "translated_at": "2025-06-30T19:38:09.049Z",
+      "title": "Formation tenant compte de la quantification de jina-embeddings-v4",
+      "excerpt": "La quantification permet d'obtenir des 向量模型 (Embeddings) plus petits. Nous vous montrons qu'une quantification affinée vous offre des 向量模型 (Embeddings) encore plus compacts, voire sans perte."
+    },
+    {
+      "lang": "de",
+      "slug": "quantization-aware-training-of-jina-embeddings-v4",
+      "translated_at": "2025-06-30T19:38:09.048Z",
+      "title": "Quantisierungsbewusstes Training von jina-embeddings-v4",
+      "excerpt": "Quantisierung ermöglicht kleinere Vektormodelle (Embeddings). Wir zeigen Ihnen, dass fein abgestimmte Quantisierung Ihnen sogar verlustfreie Vektormodelle (Embeddings) ermöglicht."
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "quantization-aware-training-of-jina-embeddings-v4",
+      "translated_at": "2025-06-30T19:38:09.046Z",
+      "title": "jina-embeddings-v4 的量化感知訓練",
+      "excerpt": "量化可以產生更小的向量模型 (Embeddings)。我們將向您展示經過微調的量化，甚至可以產生無損的向量模型。"
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "quantization-aware-training-of-jina-embeddings-v4",
+      "translated_at": "2025-06-30T19:38:09.044Z",
+      "title": "jina-embeddings-v4 的量化感知训练",
+      "excerpt": "量化可以得到更小的向量模型 (Embeddings)。我们将向您展示经过微调的量化，甚至可以为您提供无损的向量模型 (Embeddings)。"
+    },
+    {
+      "lang": "ru",
       "slug": "jina-embeddings-v4-universal-embeddings-for-multimodal-multilingual-retrieval",
       "translated_at": "2025-06-25T05:00:23.453Z",
       "title": "Jina Embeddings v4: Универсальные векторные модели (Embeddings) для мультимодального многоязыкового поиска",
@@ -5293,5 +5356,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2025-06-25T05:00:23.454Z"
+  "updated_at": "2025-06-30T19:38:09.055Z"
 }
