@@ -291,7 +291,7 @@
       "lang": "fr",
       "slug": "what-we-learned-at-iclr2025",
       "translated_at": "2025-05-25T22:18:33.768Z",
-      "title": "Ce que nous avons appris à ICLR2025\n{{{output start}}}",
+      "title": "Ce que nous avons appris à ICLR2025",
       "excerpt": "Nous avons rassemblé quelques-uns des articles les plus intéressants de l'ICLR 2025, notamment TIPS, FlexPrefill, les réordonnateurs zéro-shot (Zero-Shot Rerankers), SVD-LLM, Hymba, etc."
     },
     {
