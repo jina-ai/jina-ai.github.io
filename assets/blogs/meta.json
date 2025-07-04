@@ -2,6 +2,69 @@
   "blogs": [
     {
       "lang": "ru",
+      "slug": "submodular-optimization-for-diverse-query-generation-in-deepresearch",
+      "translated_at": "2025-07-04T03:47:48.650Z",
+      "title": "",
+      "excerpt": ""
+    },
+    {
+      "lang": "ko",
+      "slug": "submodular-optimization-for-diverse-query-generation-in-deepresearch",
+      "translated_at": "2025-07-04T03:47:48.649Z",
+      "title": "",
+      "excerpt": ""
+    },
+    {
+      "lang": "ja",
+      "slug": "submodular-optimization-for-diverse-query-generation-in-deepresearch",
+      "translated_at": "2025-07-04T03:47:48.648Z",
+      "title": "",
+      "excerpt": ""
+    },
+    {
+      "lang": "it",
+      "slug": "submodular-optimization-for-diverse-query-generation-in-deepresearch",
+      "translated_at": "2025-07-04T03:47:48.647Z",
+      "title": "",
+      "excerpt": ""
+    },
+    {
+      "lang": "es",
+      "slug": "submodular-optimization-for-diverse-query-generation-in-deepresearch",
+      "translated_at": "2025-07-04T03:47:48.646Z",
+      "title": "",
+      "excerpt": ""
+    },
+    {
+      "lang": "fr",
+      "slug": "submodular-optimization-for-diverse-query-generation-in-deepresearch",
+      "translated_at": "2025-07-04T03:47:48.645Z",
+      "title": "",
+      "excerpt": ""
+    },
+    {
+      "lang": "de",
+      "slug": "submodular-optimization-for-diverse-query-generation-in-deepresearch",
+      "translated_at": "2025-07-04T03:47:48.644Z",
+      "title": "",
+      "excerpt": ""
+    },
+    {
+      "lang": "zh-TW",
+      "slug": "submodular-optimization-for-diverse-query-generation-in-deepresearch",
+      "translated_at": "2025-07-04T03:47:48.643Z",
+      "title": "",
+      "excerpt": ""
+    },
+    {
+      "lang": "zh-CN",
+      "slug": "submodular-optimization-for-diverse-query-generation-in-deepresearch",
+      "translated_at": "2025-07-04T03:47:48.641Z",
+      "title": "",
+      "excerpt": ""
+    },
+    {
+      "lang": "ru",
       "slug": "quantization-aware-training-of-jina-embeddings-v4",
       "translated_at": "2025-06-30T19:38:09.054Z",
       "title": "jina-embeddings-v4 的量化感知训练",
@@ -5356,5 +5419,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2025-06-30T19:38:09.055Z"
+  "updated_at": "2025-07-04T03:47:48.651Z"
 }
