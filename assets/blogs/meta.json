@@ -3,65 +3,65 @@
     {
       "lang": "ru",
       "slug": "submodular-optimization-for-diverse-query-generation-in-deepresearch",
-      "translated_at": "2025-07-04T03:47:48.650Z",
-      "title": "",
-      "excerpt": ""
+      "translated_at": "2025-07-04T04:45:38.288Z",
+      "title": "Субмодульная оптимизация для генерации разнообразных запросов в DeepResearch",
+      "excerpt": "Многие знают о важности разнообразия запросов в DeepResearch, но мало кто знает, как строго решить эту проблему с помощью субмодульной оптимизации."
     },
     {
       "lang": "ko",
       "slug": "submodular-optimization-for-diverse-query-generation-in-deepresearch",
-      "translated_at": "2025-07-04T03:47:48.649Z",
-      "title": "",
-      "excerpt": ""
+      "translated_at": "2025-07-04T04:45:38.286Z",
+      "title": "DeepResearch에서 다양한 쿼리 생성을 위한 부분 모듈 최적화",
+      "excerpt": "많은 사람들이 DeepResearch에서 쿼리 다양성의 중요성을 알고 있지만, 부분 모듈 최적화를 통해 이를 엄격하게 해결하는 방법을 아는 사람은 거의 없습니다."
     },
     {
       "lang": "ja",
       "slug": "submodular-optimization-for-diverse-query-generation-in-deepresearch",
-      "translated_at": "2025-07-04T03:47:48.648Z",
-      "title": "",
-      "excerpt": ""
+      "translated_at": "2025-07-04T04:45:38.284Z",
+      "title": "DeepResearchにおける多様なクエリ生成のための劣モジュラ最適化",
+      "excerpt": "DeepResearchにおいてクエリの多様性が重要であることは広く知られていますが、劣モジュラ最適化を通じてそれを厳密に解決する方法を知っている人はほとんどいません。"
     },
     {
       "lang": "it",
       "slug": "submodular-optimization-for-diverse-query-generation-in-deepresearch",
-      "translated_at": "2025-07-04T03:47:48.647Z",
-      "title": "",
-      "excerpt": ""
+      "translated_at": "2025-07-04T04:45:38.283Z",
+      "title": "Ottimizzazione submodulare per la generazione di query diversificate in DeepResearch",
+      "excerpt": "Molti conoscono l'importanza della diversità delle query in DeepResearch, ma pochi sanno come risolverla rigorosamente tramite l'ottimizzazione submodulare."
     },
     {
       "lang": "es",
       "slug": "submodular-optimization-for-diverse-query-generation-in-deepresearch",
-      "translated_at": "2025-07-04T03:47:48.646Z",
-      "title": "",
-      "excerpt": ""
+      "translated_at": "2025-07-04T04:45:38.282Z",
+      "title": "Optimización submodular para la generación de consultas diversas en DeepResearch",
+      "excerpt": "Muchos conocen la importancia de la diversidad de consultas en DeepResearch, pero pocos saben cómo resolverla rigurosamente a través de la optimización submodular."
     },
     {
       "lang": "fr",
       "slug": "submodular-optimization-for-diverse-query-generation-in-deepresearch",
-      "translated_at": "2025-07-04T03:47:48.645Z",
-      "title": "",
-      "excerpt": ""
+      "translated_at": "2025-07-04T04:45:38.279Z",
+      "title": "Optimisation sous-modulaire pour la génération de requêtes diversifiées dans DeepResearch",
+      "excerpt": "Beaucoup connaissent l'importance de la diversité des requêtes dans DeepResearch, mais peu savent comment la résoudre rigoureusement via l'optimisation sous-modulaire."
     },
     {
       "lang": "de",
       "slug": "submodular-optimization-for-diverse-query-generation-in-deepresearch",
-      "translated_at": "2025-07-04T03:47:48.644Z",
-      "title": "",
-      "excerpt": ""
+      "translated_at": "2025-07-04T04:45:38.277Z",
+      "title": "Submodulare Optimierung für diverse Abfragegenerierung in DeepResearch",
+      "excerpt": "Viele kennen die Bedeutung der Abfragevielfalt in DeepResearch, aber nur wenige wissen, wie man sie rigoros durch submodulare Optimierung löst."
     },
     {
       "lang": "zh-TW",
       "slug": "submodular-optimization-for-diverse-query-generation-in-deepresearch",
-      "translated_at": "2025-07-04T03:47:48.643Z",
-      "title": "",
-      "excerpt": ""
+      "translated_at": "2025-07-04T04:45:38.275Z",
+      "title": "DeepResearch 中用於產生多樣化查詢的次模優化",
+      "excerpt": "許多人都知道查詢多樣性在 DeepResearch 中的重要性，但很少人知道如何透過子模組優化來嚴格地解決它。"
     },
     {
       "lang": "zh-CN",
       "slug": "submodular-optimization-for-diverse-query-generation-in-deepresearch",
-      "translated_at": "2025-07-04T03:47:48.641Z",
-      "title": "",
-      "excerpt": ""
+      "translated_at": "2025-07-04T04:45:38.272Z",
+      "title": "DeepResearch 中用于生成多样化查询的次模优化",
+      "excerpt": "很多人都知道查询多样性在 DeepResearch 中的重要性，但很少有人知道如何通过子模优化来严格地解决这个问题。"
     },
     {
       "lang": "ru",
@@ -5419,5 +5419,5 @@
       "excerpt": "Erfahren Sie, wie Jina-CLIP die CLIP-Technologie von OpenAI durch einheitliche Text-Bild-Embeddings verbessert und dabei eine höhere Abrufgenauigkeit und vielfältigere Ergebnisse erzielt."
     }
   ],
-  "updated_at": "2025-07-04T03:47:48.651Z"
+  "updated_at": "2025-07-04T04:45:38.288Z"
 }
